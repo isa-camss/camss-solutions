@@ -4,6 +4,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -812,7 +813,7 @@ cssvrsc:39eee9a3f8d54dac0e11456b98c29454ebb157dc3a8991f456b7b659bf990370 a cssv:
 
 cssvrsc:4909c79d2759fc5cdbd6e87160f397452ee9484bd8d9e9bf838be385108c987c a cssv:Standard,
         owl:NamedIndividual ;
-    cssv:isMaintainedBy cssvrsc:6dc87bf3ac7649b799be35cdd8b3a0bdae66a0447c69c286e01df5c87c589859 ;
+    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:title "ISO IEC 27001 Information Security Management"@en ;
     dcat:distribution cssvrsc:9dfda5f3-3277-4068-a523-bf007ac945d7 .
 
@@ -824,7 +825,7 @@ cssvrsc:4f271da621fc4cdb20ad1d18ce15422d30fdd413cf46cded17c6ad561fa5c5ee a cssv:
 
 cssvrsc:51612566201b40704f2073101415e00e77de36233bd1a0cd76aff461386504cf a cssv:Standard,
         owl:NamedIndividual ;
-    cssv:isMaintainedBy cssvrsc:6dc87bf3ac7649b799be35cdd8b3a0bdae66a0447c69c286e01df5c87c589859 ;
+    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:title "ISO 3166-1:2020 Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes"@en ;
     dcat:distribution cssvrsc:030d7a6b-fba9-4d5e-bdef-5fcf5ef9b273 .
 
@@ -896,7 +897,7 @@ cssvrsc:b5dbdc5464062afbee26dd0d80d88ac87acdf4c7da929603b5a470b9777f446d a cssv:
 
 cssvrsc:b7bc3f9f-bcdf-4bd8-941f-482558ccdc86 a schema:ContactPoint,
         owl:NamedIndividual ;
-    cssv:isContactPointOf cssvrsc:6dc87bf3ac7649b799be35cdd8b3a0bdae66a0447c69c286e01df5c87c589859 ;
+    cssv:isContactPointOf cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     schema:email "NaN"^^xsd:double .
 
 cssvrsc:bce66feb1bd27f0f1851299d87c376e117bfe2e2baab0051ef93cf3227201982 a cssv:Specification,
@@ -1069,9 +1070,9 @@ cssvrsc:f0a73374aa2db36977d473f5a6e3d6fb70ec29af4cbee92c6565a68c8d788ec9 a owl:N
         org:Organization ;
     skos:prefLabel "European Commission (EUROSTAT)"^^xsd:string .
 
-cssvrsc:6dc87bf3ac7649b799be35cdd8b3a0bdae66a0447c69c286e01df5c87c589859 a owl:NamedIndividual,
+cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b a owl:NamedIndividual,
         org:Organization ;
-    skos:prefLabel "ISO"^^xsd:string .
+    skos:prefLabel "ISO (International Organization for Standardization) (https://www.iso.org/home.html)"^^xsd:string .
 
 cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b a owl:NamedIndividual,
         org:Organization ;
@@ -1318,7 +1319,7 @@ cssvrsc:a61e46d2918487a44fe12b59273afd2fd4326225041c92534ed339c600fc12ac a cssv:
 
 cssvrsc:250a2567c0af286f50ca3eecc071fe4258191c1270dbea6b82b557d74c0aaa7c a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:isMaintainedBy cssvrsc:6dc87bf3ac7649b799be35cdd8b3a0bdae66a0447c69c286e01df5c87c589859 ;
+    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:title "ISO/IEC 19944-1:2020 - Cloud computing and distributed platforms ─ Data flow, data categories and data use — Part 1: Fundamentals"@en ;
     dcat:distribution cssvrsc:c127b1be-a974-4939-82bf-1247b2c6588b .
 
@@ -1365,3 +1366,58 @@ cssvrsc:236d9aa59c4ca31ca8b1c54328812d8ab09496916c7ca622b70446b1b1a660a0 a cssv:
 cssvrsc:2384fd77-6997-4032-a981-a91ede7d9efb a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Domibus"^^xsd:anyURI .
+
+cssvrsc:15ef9d7f-9a64-45e0-9061-7dec266a92db a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:contactPoint cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:description "Verifiable Credentials is a specification that provides a mechanism to express credentials (e.g., driver's license or government-issued passports) on the Web in a way that is cryptographically secure, privacy respecting, and machine-verifiable. This means they can be stored on digital devices, and it is possible to use cryptography to verify their data and authorship."@en ;
+    dct:title "Verifiable Credentials"@en ;
+    pav:version "1.1.0"@en ;
+    dcat:distribution cssvrsc:4d8484f1-dddd-4f2b-b25d-55e5b7cea92c .
+
+cssvrsc:4d8484f1-dddd-4f2b-b25d-55e5b7cea92c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:downloadURL "https://www.w3.org/TR/vc-data-model/"^^xsd:anyURI .
+
+cssvrsc:37c729eb-13fd-4ca1-b174-d5c2cf1189b9 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:contactPoint cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:88263363ce0913a83efa00f5086881bf44fa2d529fd6caa72542cfc016c53a32 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
+    dct:description "ISO 19941 Cloud Computing Interoperability and Portability specifies cloud computing interoperability and portability types, the relationship and interactions between these two cross-cutting aspects of cloud computing and common terminology and concepts used to discuss interoperability and portability, particularly relating to cloud services."@en ;
+    dct:title "ISO 19941"@en ;
+    pav:version "1.0.0"@en ;
+    dcat:distribution cssvrsc:2f90609c-b0cb-4ca1-8f51-147c339891f6 .
+
+cssvrsc:2f90609c-b0cb-4ca1-8f51-147c339891f6 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:downloadURL "https://www.iso.org/standard/66639.html"^^xsd:anyURI .
+
+cssvrsc:094d9dad-a0b6-41bc-ab76-053b8fbe498e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:contactPoint cssvrsc:57bb958cc416a3d01db1b78010b947a3999ca557e7da184ce429a8b15cbc408e ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:b56b0b6782e283940a6f172ebc04261339465334411d69d868be0a262da63169 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:57bb958cc416a3d01db1b78010b947a3999ca557e7da184ce429a8b15cbc408e ;
+    dct:description "DAPS is an attribute server that issues OAuth2 access tokens to International Data Spaces connectors."@en ;
+    dct:title "Dynamic Attribute Provisioning Services (DAPS)"@en ;
+    pav:version "1.1.0"@en ;
+    dcat:distribution cssvrsc:5bf0bb18-719c-4292-bfe9-d42ff36e4be2 .
+
+cssvrsc:5bf0bb18-719c-4292-bfe9-d42ff36e4be2 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:downloadURL "https://github.com/International-Data-Spaces-Association/IDS-G/tree/main/Components/IdentityProvider/DAPS"^^xsd:anyURI .
+
+cssvrsc:57bb958cc416a3d01db1b78010b947a3999ca557e7da184ce429a8b15cbc408e a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "Fraunhofer AISEC (https://www.aisec.fraunhofer.de/en.html)"^^xsd:string .
