@@ -1,4 +1,4 @@
-en@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
 @prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
