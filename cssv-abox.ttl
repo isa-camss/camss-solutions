@@ -1892,7 +1892,7 @@ cssvrsc:6a81cdb7e813e96b835ada5c18c9cc7817ecae35172637c8f953a65fc77db705 a cssv:
 cssvrsc:6aac027574e261aff04dda72e050d4736e9b6c8b022b626c597e0ff37ca1153c a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
-    cssv:isMaintainedBy By cssvrsc:a4f4f4a73f9a5d109629f53c792ccf9c303f493e06e47d4d5bf9c1eee7ce3107 ;
+    cssv:isMaintainedBy cssvrsc:a4f4f4a73f9a5d109629f53c792ccf9c303f493e06e47d4d5bf9c1eee7ce3107 ;
     dct:description "DIN SPEC 27070:2020-03 is a Publicly Available Specification (PAS), willing to become an ISO standard, that specifies requirements regarding a secure gateway for cross-company data exchange in the manufacturing industry. The specification relates to DIN EN IEC 62443-4-2 standard series."@en ;
     dct:title "Requirements and reference architecture of a Security Gateway for the exchange of industry data and services (DIN SPEC 27070:2020-03)"@en ;
     pav:version "1.0.0"^^xsd:string ;
@@ -3503,7 +3503,7 @@ cssvrsc:c4225249fa825c2a074f079d643e0a10f82c8e3a1f189fc0958225c078c3cddf a cssv:
 cssvrsc:c551b85a2395a81fea9457201555221e5d3ff9d3ef25cce49e44d104842f484c a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "IDS-RAM"@en ;
-    cssv:isMaintainedBy By cssvrsc:a4f4f4a73f9a5d109629f53c792ccf9c303f493e06e47d4d5bf9c1eee7ce3107 ;
+    cssv:isMaintainedBy cssvrsc:a4f4f4a73f9a5d109629f53c792ccf9c303f493e06e47d4d5bf9c1eee7ce3107 ;
     dct:description "IDS-RAM provides an overview of the overall picture of specific architecture specifications that define the individual components of the International Data Spaces (Connector, Metadata Broker, App Store, among others)."@en ;
     dct:title "IDS Reference Architecture Model (IDS-RAM)"@en ;
     pav:version "4.0.0"^^xsd:string ;
@@ -4341,7 +4341,7 @@ cssvrsc:f5e1b39cfe134794973341782570d3f5999ee97719451ee8e18b4c0383cdadae a cssv:
 cssvrsc:f5f48a4c870ee0803124dca2c14551cc649b4b4559bfa0188b20a0f844e63edf a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "IDSA IM"@en ;
-    cssv:isMaintainedBy By cssvrsc:a4f4f4a73f9a5d109629f53c792ccf9c303f493e06e47d4d5bf9c1eee7ce3107 ;
+    cssv:isMaintainedBy cssvrsc:a4f4f4a73f9a5d109629f53c792ccf9c303f493e06e47d4d5bf9c1eee7ce3107 ;
     dct:description "The International Data Space Information Model is intended for the description, publication and discovery of data products and data processing software within the International Data Spaces Association, facilitating compatibility and interoperability among systems. It should be considered a prescriptive part of the IDS Reference Architecture Model (IDS-RAM)."@en ;
     dct:title "International Data Spaces Information Model"@en ;
     pav:version "4.2.0"^^xsd:string ;
@@ -5913,7 +5913,7 @@ cssvrsc:c1c6cb73-4bb4-46d0-b2bc-dd596417d95d a owl:NamedIndividual,
 cssvrsc:c3340bd9-267c-4c87-b657-c7ea0901eddd a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://op.europa.eu/en/web/eu-vocabularies/eli "^^xsd:anyURI,
-        "https://ec.europa.eu/isa2/solutions/european-legislation-identifier-eli_en”^^xsd:anyURI .
+        "https://ec.europa.eu/isa2/solutions/european-legislation-identifier-eli_en"^^xsd:anyURI .
 
 cssvrsc:c3c2defa-42c6-41bc-b58a-623c86832aef a owl:NamedIndividual,
         dcat:Distribution ;
