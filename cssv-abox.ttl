@@ -51,8 +51,7 @@ cssvrsc:35553c2ce30e82499715b6db3743f3abc0cfb0f01188d2a653755511cb76ff34 a cssv:
     dcat:distribution cssvrsc:daedb720-1f02-4c38-ab72-27b5b40d9864 ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:009448f391ffc456adcd392a2317e940f7b8d3393bf5e6df0a52c3f1e8aedc50 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:009448f391ffc456adcd392a2317e940f7b8d3393bf5e6df0a52c3f1e8aedc50 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
@@ -185,8 +184,7 @@ cssvrsc:0762f422b839ba0815430c77fcc3b4174a97f4970951be420c596a524d0c0a08 a cssv:
         "Data Architecture"@en,
         "Technology Architecture"@en .
 
-cssvrsc:088ecda1c81a62bb73536c28835ab1a3225e9e609308950756ff65847197344d a cssv:Specification,
-        cssv:Standard,
+cssvrsc:088ecda1c81a62bb73536c28835ab1a3225e9e609308950756ff65847197344d a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "XSLT"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
@@ -294,7 +292,6 @@ cssvrsc:0df446c93fc7fc59add5449d846f47101b10b6e30e88a143d6c523aad8117c28 a cssv:
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:0e12967520ef4b68bb5fb857177827c0094abca637175e68a0a09bd24130694c a cssv:Family,
-        cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "PROV"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
@@ -346,8 +343,7 @@ cssvrsc:1248c7f13709f43008360e6a192b38fb298857005459667f8d2d69c0cb3e0688 a cssv:
     dcat:distribution cssvrsc:117ccd38-3a88-4fa5-874d-3d9d4d47068b ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:13a8f29ba149c2a24b86b7773c1a3019595a5d9cece88aca54c8cfd23280d0f9 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:13a8f29ba149c2a24b86b7773c1a3019595a5d9cece88aca54c8cfd23280d0f9 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:2379b80f86b1dca368b2f1df75af2431d7d9a30aa7072ee434fa3ce551d10706 ;
@@ -412,8 +408,7 @@ cssvrsc:15ef9d7f-9a64-45e0-9061-7dec266a92db a schema:ContactPoint,
     schema:contactPoint cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     schema:email "NaN"^^xsd:double .
 
-cssvrsc:16457b5ee8e1e504f1cdfe408e09993336b9480b1cf53f4a38b320aeeab94814 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:16457b5ee8e1e504f1cdfe408e09993336b9480b1cf53f4a38b320aeeab94814 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "ISAE 3402"@en ;
     cssv:isMaintainedBy cssvrsc:4e861c13d7670c4d156ec32dce888532e647cc52ffcc3a1c13181175729c90b7 ;
@@ -494,8 +489,7 @@ cssvrsc:18eb1b04c899747c21371fe1a4084b6ba9e8def932e53698af13bffff77410d5 a cssv:
     dcat:distribution cssvrsc:c0d5a9a0-6fe7-42c5-a5f8-c1a314e19839 ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:1947f7448708ff5539674878abefc1dee36c97e41397243c16d6208c42a905ce a cssv:Specification,
-        cssv:Standard,
+cssvrsc:1947f7448708ff5539674878abefc1dee36c97e41397243c16d6208c42a905ce a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
@@ -525,8 +519,7 @@ cssvrsc:1b4ef83a5e24379a3e421ab3ab779ba0e91e192531ce81219d90a2de028893b4 a cssv:
     dcat:distribution cssvrsc:3f1b0b51-b035-4ab3-b838-fd0851e44d8d ;
     dcat:theme "Data Architecture"@en .
 
-cssvrsc:1badc7f61877080b095ce968bebe6f9f4f62e25d5dec241e4c88b232764a56d7 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:1badc7f61877080b095ce968bebe6f9f4f62e25d5dec241e4c88b232764a56d7 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "PDF"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -536,7 +529,7 @@ cssvrsc:1badc7f61877080b095ce968bebe6f9f4f62e25d5dec241e4c88b232764a56d7 a cssv:
     dcat:distribution cssvrsc:3c9c2046-76cb-4ef8-b623-1f04c2180a0c ;
     dcat:theme "None"@en .
 
-cssvrsc:1b75f4ca20684fc90cca1e5b08ed02031961d55633edb759f2b73acace31a1c2 a cssv:Specification,
+cssvrsc:1be69ec52c743a85d06e01cac0710095c340643c5fbe90fcff3d9aa7bd395f16 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "TGF"@en ;
     cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
@@ -628,8 +621,7 @@ cssvrsc:1e13187a6644da3edd13e840dc4476833aace930d4a7fc373fde842f3ef69739 a cssv:
     dcat:distribution cssvrsc:38d204ce-0e80-4bd7-b3c9-2e98f7d02453 ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:1e85868a77907ed9e59d1e3a3804c3d40add047c68ff02fd121b51812c7006ab a cssv:Specification,
-        cssv:Standard,
+cssvrsc:1e85868a77907ed9e59d1e3a3804c3d40add047c68ff02fd121b51812c7006ab a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "PNG"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -785,8 +777,7 @@ cssvrsc:2a7a035c6f663d12152d8b3d42b0d3f7c014d1d4ff98f60cdf71911b25d9d53f a cssv:
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en .
 
-cssvrsc:2a8d11054390e9202db664920d2fb0ddb1a28c805e5d1d96a24c081fa6cb349d a cssv:Specification,
-        cssv:Standard,
+cssvrsc:2a8d11054390e9202db664920d2fb0ddb1a28c805e5d1d96a24c081fa6cb349d a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "CAdES"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
@@ -1076,8 +1067,7 @@ cssvrsc:350f664c3a296c395f02e518a6dafddae066c02e70f859810f86c942a758ac1a a cssv:
     dcat:distribution cssvrsc:fa7d808a-3d95-4ac7-8726-64e12dc1ff20 ;
     dcat:theme "Implementation Governance"@en .
 
-cssvrsc:3526d24a58cc58455e572d0bb81fd86acafcdad3df8f17788a72f60f8a14c423 a cssv:Specification,
-        cssv:Family,
+cssvrsc:3526d24a58cc58455e572d0bb81fd86acafcdad3df8f17788a72f60f8a14c423 a cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -1088,8 +1078,7 @@ cssvrsc:3526d24a58cc58455e572d0bb81fd86acafcdad3df8f17788a72f60f8a14c423 a cssv:
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en .
 
-cssvrsc:356b06eaeb0797b4d35e627c84d00bc3de5d72ebfb51f720b77bd4a5548e2704 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:356b06eaeb0797b4d35e627c84d00bc3de5d72ebfb51f720b77bd4a5548e2704 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "CSV"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
@@ -1395,8 +1384,7 @@ cssvrsc:485408399b7aa98aa3d1622ae2ca8e34ef5803bca01a4d696b63fff17d7dc8aa a cssv:
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en .
 
-cssvrsc:4909c79d2759fc5cdbd6e87160f397452ee9484bd8d9e9bf838be385108c987c a cssv:Specification,
-        cssv:Standard,
+cssvrsc:4909c79d2759fc5cdbd6e87160f397452ee9484bd8d9e9bf838be385108c987c a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -1550,8 +1538,7 @@ cssvrsc:4fc4d2011afea421c53f511b8cc5b2757e24a04071e28c0a38161f609a60d135 a cssv:
     dcat:distribution cssvrsc:38998320-6189-42fe-8fba-fb0f0d124f98 ;
     dcat:theme "Business Architecture"@en .
 
-cssvrsc:51612566201b40704f2073101415e00e77de36233bd1a0cd76aff461386504cf a cssv:Specification,
-        cssv:Standard,
+cssvrsc:51612566201b40704f2073101415e00e77de36233bd1a0cd76aff461386504cf a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -1592,8 +1579,7 @@ cssvrsc:51d1925c43d21238f4015a77a657691d3e21c5cbaaf8e8188bb3754e752b5161 a cssv:
     dcat:distribution cssvrsc:b8a0ad9b-976a-4ebd-a576-60430c18e5d7 ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:54449cd9f114c21c9c63bdbfb8d0f8b62272ad593058521d17f28ee7988f5901 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:54449cd9f114c21c9c63bdbfb8d0f8b62272ad593058521d17f28ee7988f5901 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "DSDL"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -1751,8 +1737,7 @@ cssvrsc:5f129c4a4681c4dedd2a0743ebe10d477c0ebd4267bd3ea08b74f19fae6d926d a cssv:
     dcat:distribution cssvrsc:d9a2ffec-cf7f-4279-bcd0-58876b6522ef ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:5f292fa8e0067a1dee4441423e6ee81e54497c284bf60e990c8dcbc9833d46bc a cssv:Specification,
-        cssv:Standard,
+cssvrsc:5f292fa8e0067a1dee4441423e6ee81e54497c284bf60e990c8dcbc9833d46bc a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:b05ed647510b1d3b0c015d991aed949e05c63dd125aecb222dc0ef8a853e5577 ;
@@ -1782,8 +1767,7 @@ cssvrsc:61536a6fa026d8194ee184227d89f3652b2fc19e43ea3ceef9fbf8ba1352d72f a cssv:
     dcat:distribution cssvrsc:7c25d6be-e3fd-4fd0-988c-2a985a9d2ebf ;
     dcat:theme "Data Architecture"@en .
 
-cssvrsc:615508fb540009cb48d7c5ca8efffbef6c53e96148b0d95025fdd6cd725d131d a cssv:Specification,
-        cssv:Standard,
+cssvrsc:615508fb540009cb48d7c5ca8efffbef6c53e96148b0d95025fdd6cd725d131d a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "ASiC"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
@@ -1858,8 +1842,7 @@ cssvrsc:65b67ca6bf1de17747001ce01a8f19e868d80d2b9200012393bb6dc9671fbb71 a cssv:
     dcat:distribution cssvrsc:9e17e800-3854-4d17-b5ec-f06803301a47 ;
     dcat:theme "Data Architecture"@en .
 
-cssvrsc:67b54613c5b523c5dd115156c625ea64601ef0ed0732d91b3008f24a86f2a6b3 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:67b54613c5b523c5dd115156c625ea64601ef0ed0732d91b3008f24a86f2a6b3 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "L2TP/IPSec"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
@@ -2201,8 +2184,7 @@ cssvrsc:80fb06b108f63ce12ff7e7598aa735da166bd1b93882938f1c8879b4c895d434 a cssv:
     dcat:distribution cssvrsc:08afecc6-9359-42fd-a487-ff9cee7c41f1 ;
     dcat:theme "Data Architecture"@en .
 
-cssvrsc:8164f5e6cd50bf02a11c615929ebf80147032647fced20c32e19af42e3155f3d a cssv:Specification,
-        cssv:Standard,
+cssvrsc:8164f5e6cd50bf02a11c615929ebf80147032647fced20c32e19af42e3155f3d a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "XAdES"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -2234,8 +2216,7 @@ cssvrsc:835a37b6f8f926c2c1b50b623f2fcd833ecb87d7e6b85b3b1732b4766bbadf8f a cssv:
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en .
 
-cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4 a cssv:Specification,
-        cssv:ApplicationProfile,
+cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4 a cssv:ApplicationProfile,
         owl:NamedIndividual ;
     cssv:acronym "DCAT-AP"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
@@ -2256,8 +2237,7 @@ cssvrsc:844a9f33532b78144bb6f037efcfd10e05ba0e751b89bad502062c993192b154 a cssv:
     dcat:distribution cssvrsc:723ecdbb-9cb7-4af0-8b9c-b201a7af9195 ;
     dcat:theme "Data Architecture"@en .
 
-cssvrsc:84a1c8b0d4ee9f8d53a50e8529a99516c5f79ba2728b0784d8e2108fa849a0de a cssv:Specification,
-        cssv:Standard,
+cssvrsc:84a1c8b0d4ee9f8d53a50e8529a99516c5f79ba2728b0784d8e2108fa849a0de a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:3c1250b675a3e22cc3555ea1c94489048376f76e7af7ac7c649ad868cbdb5259 ;
@@ -2287,8 +2267,7 @@ cssvrsc:853a6e4f2ac85b56d15900142e8b431d57583ee4d18e5fd3354e9868de6d0649 a cssv:
     dcat:distribution cssvrsc:e6a88099-bbc4-4871-a24d-cd9730b7f969 ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:865cefb01ca8e8280d9c4751f0ba71d66cb6925ed1987c4c4f53e078b1703eca a cssv:Specification,
-        cssv:Standard,
+cssvrsc:865cefb01ca8e8280d9c4751f0ba71d66cb6925ed1987c4c4f53e078b1703eca a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "CAdES"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -2369,8 +2348,7 @@ cssvrsc:89b586243efc375b64830c6b29be46357c67975d881a7612e648e783a8f3d030 a cssv:
     dcat:distribution cssvrsc:ab07a2bd-abb3-439a-b40f-7b79e9de1ef2 ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:89c360d073560b627db7529a0b2b9af5bbc1983342c3ba9498faba662f136993 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:89c360d073560b627db7529a0b2b9af5bbc1983342c3ba9498faba662f136993 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:7249b8458bef859086cf553812ebc2761a6c6fcc73c4f8bb9868f3ba2767103b ;
@@ -2432,8 +2410,7 @@ cssvrsc:8d4a582d8a713997ae5cefbb6fca284d18f07e22a2b0e0913c92d3120bbf4e17 a cssv:
     dcat:distribution cssvrsc:c6b2eef7-8edd-4293-868f-3c360b621f7a ;
     dcat:theme "None"@en .
 
-cssvrsc:8d8a9063977269b9511a82b8c6e20a2fb19da720bde0b3e6d37175b3a9945737 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:8d8a9063977269b9511a82b8c6e20a2fb19da720bde0b3e6d37175b3a9945737 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "e-CF"@en ;
     cssv:isMaintainedBy cssvrsc:3fa4f14bdd83e1d0ea9fcdfe81a9ad8a7b7dd37042e5f520425016263046ba9a ;
@@ -2531,8 +2508,7 @@ cssvrsc:91477e64-fc78-4292-823d-a24186dc3ea6 a schema:ContactPoint,
     schema:contactPoint cssvrsc:3fa4f14bdd83e1d0ea9fcdfe81a9ad8a7b7dd37042e5f520425016263046ba9a ;
     schema:email "NaN"^^xsd:double .
 
-cssvrsc:921d8e57de77fca8f754a5ffecfa81a553b655d9f408c8630821ddd83eb4b6b0 a cssv:Specification,
-        cssv:Family,
+cssvrsc:921d8e57de77fca8f754a5ffecfa81a553b655d9f408c8630821ddd83eb4b6b0 a cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "SHA-3"@en ;
     cssv:isMaintainedBy cssvrsc:2b6de1326e1fa61562752256c54150944ec28a04926ea0f96f178888f112b0af ;
@@ -2701,8 +2677,7 @@ cssvrsc:98c3d13b18280a476e72ae2316b6df1036f7ef0791b2c975f3b867b39a034821 a cssv:
     dcat:distribution cssvrsc:376284b0-bfa2-4ba0-b641-3ce617f9d3b4 ;
     dcat:theme "Data Architecture"@en .
 
-cssvrsc:994f4d6dcdb52b7920dcd9cb7783edda9bc52f3e470389cabf6f28ebd41dc9b0 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:994f4d6dcdb52b7920dcd9cb7783edda9bc52f3e470389cabf6f28ebd41dc9b0 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "TIFF/IT"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -2722,8 +2697,7 @@ cssvrsc:99e59a3cac7e8d0300e4f19f439afce1f1a1aa6558a6ce046cd2656dc04e85be a cssv:
     dcat:distribution cssvrsc:3612d0c6-0360-4607-b0df-514d3dbd9c85 ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 a cssv:Specification,
-        cssv:Family,
+cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 a cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
@@ -3100,8 +3074,7 @@ cssvrsc:b0a05545c0048197990e8a61fabf6254252ca4be1fc0ac016900b29986329e94 a cssv:
     dcat:distribution cssvrsc:7cfb2a86-95fa-433e-89dd-b5c1d297f9e7 ;
     dcat:theme "Data Architecture"@en .
 
-cssvrsc:b11b9900e431e442fba58c2a7fc26ce7050444e7d77746af3ebdf19197fa70dc a cssv:Specification,
-        cssv:Family,
+cssvrsc:b11b9900e431e442fba58c2a7fc26ce7050444e7d77746af3ebdf19197fa70dc a cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
@@ -3111,8 +3084,7 @@ cssvrsc:b11b9900e431e442fba58c2a7fc26ce7050444e7d77746af3ebdf19197fa70dc a cssv:
     dcat:distribution cssvrsc:a11245bc-681d-4aa6-bf61-955ad24a50b2 ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:b26387fc43b0be82f50b4dafb39c6371b8eb5efc4ecb6a477c1bbdc4603b61ef a cssv:Specification,
-        cssv:Standard,
+cssvrsc:b26387fc43b0be82f50b4dafb39c6371b8eb5efc4ecb6a477c1bbdc4603b61ef a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "LegalRuleML"@en ;
     cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
@@ -3275,8 +3247,7 @@ cssvrsc:b8135cadaf0612f1d8760b46c8111ca96c11abf0f8c6f5d2f4db3e364e178866 a cssv:
     dcat:distribution cssvrsc:c01175b8-3c40-41c5-b254-00cfb4d9433d ;
     dcat:theme "None"@en .
 
-cssvrsc:b89bf2f2e85adfbce96e08482415575dc845d44067f8ff7dce7c603b41af9cbe a cssv:Specification,
-        cssv:Standard,
+cssvrsc:b89bf2f2e85adfbce96e08482415575dc845d44067f8ff7dce7c603b41af9cbe a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:7249b8458bef859086cf553812ebc2761a6c6fcc73c4f8bb9868f3ba2767103b ;
@@ -3296,8 +3267,7 @@ cssvrsc:b8b311b0f2739e0cc32af32a91b5913e852ed565cf319a4eceb58898e3f50a9c a cssv:
     dcat:distribution cssvrsc:b5fe88e4-c816-4495-a0c8-19ad79b3b94e ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:b8ed390470bf8ebbbf573f68a7e7bb80643b7e4ccad211857b531e53ec489616 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:b8ed390470bf8ebbbf573f68a7e7bb80643b7e4ccad211857b531e53ec489616 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "XAdES"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
@@ -3328,8 +3298,7 @@ cssvrsc:b9cd5c4f17e7b599e3e34669c79a0905121dd66cf1bdeb74f4a4b74e957001df a cssv:
     dcat:distribution cssvrsc:21f28467-1ede-4168-821d-83b86890d88c ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:baa7200934577ac27c05830d6ed437d7dd40e9e6ea9b5152cbb1f444930b1955 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:baa7200934577ac27c05830d6ed437d7dd40e9e6ea9b5152cbb1f444930b1955 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "HTML5"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
@@ -3345,8 +3314,7 @@ cssvrsc:bb1837d9-e697-4d80-b913-c2dc2330a70e a schema:ContactPoint,
     schema:contactPoint cssvrsc:53444b83d9a4120c1bcd932711de6ea4ca16a27fed8622597f987c96d3e7aef0 ;
     schema:email "NaN"^^xsd:double .
 
-cssvrsc:bb3b3d19c4f26de4a4ff58684fd43f3f2765b85d03198fa9cde5d67f96f7c49a a cssv:Specification,
-        cssv:Standard,
+cssvrsc:bb3b3d19c4f26de4a4ff58684fd43f3f2765b85d03198fa9cde5d67f96f7c49a a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "GSBPM"@en ;
     cssv:isMaintainedBy cssvrsc:2c4d759449b430b92a4443c6d6eb13703e3b9361a9bf87c244c9db3f01e0461e ;
@@ -3469,8 +3437,7 @@ cssvrsc:c2763403c7bb0d8a33dcf2ff6395747d6597322c9ed74fc9a72d2369dd4b0bcc a cssv:
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en .
 
-cssvrsc:c2835b4bd225a222097f1a15b749419e91025408327b8b4acabeaa458f4e9f26 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:c2835b4bd225a222097f1a15b749419e91025408327b8b4acabeaa458f4e9f26 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -3661,8 +3628,7 @@ cssvrsc:d32b727e5f5eb3561627ce5925d495a1cc2bea0b80af2c077adbc06761cc7021 a cssv:
     dcat:distribution cssvrsc:6accbade-ff5e-4c48-b575-272c2cc6c981 ;
     dcat:theme "Data Architecture"@en .
 
-cssvrsc:d3c763a62cbb890447c67932b34050ae382276be164fd6f8b22480941ca0cb21 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:d3c763a62cbb890447c67932b34050ae382276be164fd6f8b22480941ca0cb21 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -3723,8 +3689,7 @@ cssvrsc:d78462415d2455218165bb62d7113c113824ddef6b7fe1d08aa307e8c284f03f a cssv:
     dcat:distribution cssvrsc:464c5387-4f4a-47a5-91c6-f5d1aa62e364 ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:d7dffc53ea55b3fab31ed77bd491c7d5cc9872e0749e9c05e4c29b06a834d3cf a cssv:Specification,
-        cssv:Standard,
+cssvrsc:d7dffc53ea55b3fab31ed77bd491c7d5cc9872e0749e9c05e4c29b06a834d3cf a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "PAdES"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -3870,8 +3835,7 @@ cssvrsc:e051c1f5d4763671fc14fadb9f1e10ca21d0c4239be3c33d5c17b573e9c4bedd a cssv:
     dcat:distribution cssvrsc:f6f20fcc-2be0-4d3a-b04d-f72d1a433c66 ;
     dcat:theme "Implementation Governance"@en .
 
-cssvrsc:e070cdaaaf2f8e66e562f7d3dfe35baafd7ddb7e118eb72b66ef5adfeccb1a71 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:e070cdaaaf2f8e66e562f7d3dfe35baafd7ddb7e118eb72b66ef5adfeccb1a71 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -3975,8 +3939,7 @@ cssvrsc:e4758e56eb60846408c6608ca3309836f2cb84c7ff44697aadcc08b531c57cae a cssv:
         "Data Architecture"@en,
         "Technology Architecture"@en .
 
-cssvrsc:e4940944a20f90dcd28ec5ccaa3bbd3cb74c15004568cc32968faeb0819a69a2 a cssv:Specification,
-        cssv:ApplicationProfile,
+cssvrsc:e4940944a20f90dcd28ec5ccaa3bbd3cb74c15004568cc32968faeb0819a69a2 a cssv:ApplicationProfile,
         owl:NamedIndividual ;
     cssv:acronym "ADMS"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
@@ -3997,8 +3960,7 @@ cssvrsc:e5910967202d9f2b17572731ab8250fbcb581359d59e2f1472fa3b610a7527d2 a cssv:
     dcat:distribution cssvrsc:093880a4-2e8b-425c-9c1b-10e8f71fcfdf ;
     dcat:theme "Business Architecture"@en .
 
-cssvrsc:e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a a cssv:Specification,
-        cssv:Standard,
+cssvrsc:e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "JPEG"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -4108,8 +4070,7 @@ cssvrsc:e9d18f5f7e9f1b8f178f6c21bbb9e6ef032f44cc13b6ad8bc32ccba28df2f4bf a cssv:
     dcat:distribution cssvrsc:a426eabc-2054-45c2-af60-69b2f7cc791d ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:ea1887cf6ceb4929fc4a5de8a2180ce8ce23f197de2b61a275d88cd46323fb6a a cssv:Specification,
-        cssv:Standard,
+cssvrsc:ea1887cf6ceb4929fc4a5de8a2180ce8ce23f197de2b61a275d88cd46323fb6a a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "ISO 639-2"@en ;
     cssv:isMaintainedBy cssvrsc:0ea5970eb96f3b7439fff82de3cde75def20698632a7e5b4a4bc222b4fbfb32e ;
@@ -4178,8 +4139,7 @@ cssvrsc:eda8963fef30913a42e112250c4b58b0fd42baaeb3d601cac3a427b1d2b5290e a cssv:
         "Implementation Governance"@en,
         "Technology Architecture"@en .
 
-cssvrsc:edb5639f5ea83e0523503d803f95c1667224564ae2d85eb9677bcce63e543567 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:edb5639f5ea83e0523503d803f95c1667224564ae2d85eb9677bcce63e543567 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "PAdES"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
@@ -4220,8 +4180,7 @@ cssvrsc:efb40789fe3ad96b26d88aeb5afa229851bc73b19b6a3d4b8220ef3a37fed1c7 a cssv:
     dcat:distribution cssvrsc:c3c2defa-42c6-41bc-b58a-623c86832aef ;
     dcat:theme "Business Architecture"@en .
 
-cssvrsc:f02ea1d3690a89ddc570508919eb8bc2468493430ab03f24fd0d61998501e306 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:f02ea1d3690a89ddc570508919eb8bc2468493430ab03f24fd0d61998501e306 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "LegalDocML"@en ;
     cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
@@ -4283,8 +4242,7 @@ cssvrsc:f39e0c3fe498a946e23682510bb840044afdc3d4163eb44397f2606d4a166183 a cssv:
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en .
 
-cssvrsc:f4314f9cf9c8e1b1f57df755f3c11d9797e235f51e0f4bebf15035b1ac4a0074 a cssv:Specification,
-        cssv:ApplicationProfile,
+cssvrsc:f4314f9cf9c8e1b1f57df755f3c11d9797e235f51e0f4bebf15035b1ac4a0074 a cssv:ApplicationProfile,
         owl:NamedIndividual ;
     cssv:acronym "CPSV-AP"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
@@ -4389,8 +4347,7 @@ cssvrsc:f80fdcd27632e81bb3a152830fb9541330d762b3714731fd1eee03fdecf06f9a a cssv:
     dcat:distribution cssvrsc:bc135d9c-65bf-4293-8995-903cba4f36ca ;
     dcat:theme "Technology Architecture"@en .
 
-cssvrsc:f8372e2b88d6ec3d8e60e4d788fc5af9950600e13618c49b385b96dd876d1200 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:f8372e2b88d6ec3d8e60e4d788fc5af9950600e13618c49b385b96dd876d1200 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
@@ -4430,8 +4387,7 @@ cssvrsc:f9f266ff5a4e9932ce671b5e0d44de75978ba8ed545b989a8c197e26be9a1fda a cssv:
     dcat:distribution cssvrsc:53170b03-d80d-4342-b293-116534053174 ;
     dcat:theme "Business Architecture"@en .
 
-cssvrsc:fa1ca0429a628b89323bf5677343ada8ad700197ca9a3d467e79de87beda3149 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:fa1ca0429a628b89323bf5677343ada8ad700197ca9a3d467e79de87beda3149 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "PDF/A"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -4452,8 +4408,7 @@ cssvrsc:fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd a cssv:
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en .
 
-cssvrsc:fad45f15724c3fb6e9f0cb57ea4f78fd1459b48850b452df0409bee54654ac67 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:fad45f15724c3fb6e9f0cb57ea4f78fd1459b48850b452df0409bee54654ac67 a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "ODF"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
@@ -4575,8 +4530,7 @@ cssvrsc:ff8279db1fde0e4287ecd59aab3e2eeba63097e58dcd9ccfa4c55022f881e5e4 a cssv:
     dcat:distribution cssvrsc:55b4162c-e58f-49b6-93b1-12bd8eafe2eb ;
     dcat:theme "Business Architecture"@en .
 
-cssvrsc:fff7f7a1aa0ab237422f8e557b0773b3742313bb5c8f452fed8c2ea1641dcf5f a cssv:Specification,
-        cssv:Standard,
+cssvrsc:fff7f7a1aa0ab237422f8e557b0773b3742313bb5c8f452fed8c2ea1641dcf5f a cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
