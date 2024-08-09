@@ -8748,7 +8748,7 @@ cssvrsc:faabc2ff-7204-48dc-8841-10eb861c3eb9 a dcat:Distribution;
 
 elis:00ea6c53-8256-47d2-9b03-e153846357c6 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:2ddd01784d77f481907f1c64a5d2c5318bf451bdc16dfc0011e5f0af93f32192;
-  dct:title "Syslog Protocol"@en"@en .
+  dct:title "Syslog Protocol"@en .
 
 cssvrsc:2ddd01784d77f481907f1c64a5d2c5318bf451bdc16dfc0011e5f0af93f32192 a cssv:Specification;
   dct:title "Syslog Protocol"@en;
