@@ -1,4 +1,3 @@
-@base <http://example.com/base/> .
 @prefix camssa: <http://data.europa.eu/2sa/assessments/> .
 @prefix cssv: <http://data.europa.eu/2sa/cssv#> .
 @prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
@@ -198,11 +197,11 @@ cssvrsc:0f14c5ef-d832-4a2e-bab7-b36eb0aadd85 a dcat:Distribution;
 elis:64c80bba-850c-4c9a-bc17-e8f19b19ca3a a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:c747bcc29e933f77261b08b02977440192e05ad0555c99d25127943c0c310a4d;
   dct:title """AGREEMENT ON TECHNICAL CO-OPERATION BETWEEN ISO AND CEN
-(Vienna Agreement) """@en .
+(Vienna Agreement)"""@en .
 
 cssvrsc:c747bcc29e933f77261b08b02977440192e05ad0555c99d25127943c0c310a4d a cssv:Specification;
   dct:title """AGREEMENT ON TECHNICAL CO-OPERATION BETWEEN ISO AND CEN
-(Vienna Agreement) """@en;
+(Vienna Agreement)"""@en;
   dct:description "The specification is an example of technical agreements for cooperation in the development of ICT standards. "@en;
   dct:relation eira:TechnicalAgreementContract,
     eira:TechnicalInteroperabilityAgreementContract;
@@ -769,7 +768,7 @@ cssvrsc:dde05f7ca9b85d5179d8e9d31a70388f11eb71611c0b8982951f5fc8b78e193d a cssv:
   dct:description "This standard defines the way Earth Observation products metadata resources are organized and implemented in the Catalogue for discovery, retrieval and management."@en;
   dct:relation eira:MetadataManagementApplicationService, eira:MetadataManagementApplicationComponent;
   dcat:theme "Technology Architecture"@en;
-  dcat:creator "Open Geospatial Consortium (OGC)"@en;
+  dcat:creator "OGC"@en;
   dcat:distribution cssvrsc:d5980c2a-6c4d-4485-9d36-830b903c940b;
   dcat:landingPage "https://www.ogc.org/standard/cat2eoext4ebrim/"^^xsd:anyURI .
 
@@ -1290,7 +1289,7 @@ elis:88e39585-e837-419b-95c8-6c187da76fdc a dcat:CatalogRecord;
 
 cssvrsc:e5be83b5c5d042d8ecde5179bed404cfd3dffb45fa1546b754e002dca216349d a cssv:Specification;
   dct:title "Context Information Management (CIM); NGSI-LD API (ETSI GS CIM 009)"@en;
-  dct:description "The NGSI-LD API enables users to apply context information in multiple scenarios. Context information is modeled as attributes of context entities, also called "digital twins", which represent real-world assets (e.g., a bus in a city or a baggage claim ticket). The NGSI-LD API is typically used to provide standardized access to digital twin data."@en;
+  dct:description "The NGSI-LD API enables users to apply context information in multiple scenarios. Context information is modeled as attributes of context entities, also called digital twins, which represent real-world assets (e.g., a bus in a city or a baggage claim ticket). The NGSI-LD API is typically used to provide standardized access to digital twin data."@en;
   dct:relation eira:DataSpaceApplicationService, camssa:88fb0d12a44d8becc464e4e3aecc5635f7d568184901527106e81bb7f071920d,
     eira:DataSpaceConnectorConsumerApplicationService, eira:DataSpaceConnectorProviderApplicationService,
     eira:DataAnalyticsApplicationService, eira:DataAnalyticsApplicationComponent;
@@ -1658,19 +1657,16 @@ elis:75b19970-7c9c-432a-92da-de85674eb024 a dcat:CatalogRecord;
 cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b a cssv:Specification;
   dct:title "Data Catalog Vocabulary (DCAT) - Version 2"@en;
   dct:description "DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web. This document defines the schema and provides examples for its use."@en;
-  dct:relation eira:LinkedDataRepresentation,
-    camssa:79ef8940853ce9452c468bf6d0e1e93e37f519e07b492227d423c610c84ad78b, eira:LinkedOpenDataRepresentation,
+  dct:relation camssa:79ef8940853ce9452c468bf6d0e1e93e37f519e07b492227d423c610c84ad78b,
     eira:OpenDataRepresentation, eira:ControlledVocabularyDataObject,
     eira:DataObject, eira:DataModelDataObject,
     eira:DataSetCatalogueDataObject,
     eira:MetadataManagementApplicationService, eira:MetadataManagementApplicationComponent,
-    camssa:506af7441ed231c4389e4e0bf2e6436f8cd4a67a8df3b5175c29674657fded56, eira:HashCodeDataObject,
+    camssa:506af7441ed231c4389e4e0bf2e6436f8cd4a67a8df3b5175c29674657fded56,
     eira:MetadataDataObject, eira:DataPublicationApplicationComponent,
-    eira:DataPublicationApplicationService, eira:DataPublicationApplicationComponent,
-    eira:MetadataManagementApplicationComponent,
-    eira:ControlledVocabularyDataObject, eira:DataDataObject; eira:DataModelDataObject, eira:DatasetCatalogueDataObject,
-    eira:HashCodeDataObject, eira:LinkedDataRepresentation, eira:LinkedOpenDataRepresentation, eira:MetadataDataObject, eira:OpenDataRepresentation,
-    eira:DataPublicationApplicationService, eira:DataPublicationApplicationComponent;
+    eira:DataPublicationApplicationService,
+    eira:DataDataObject, eira:DatasetCatalogueDataObject,
+    eira:HashCodeDataObject, eira:LinkedDataRepresentation, eira:LinkedOpenDataRepresentation;
   dcat:theme "Data Architecture"@en, "Technology Architecture"@en;
   dcat:creator "W3C"@en;
   dcat:distribution cssvrsc:5ea1af8b-4a24-4339-a3a9-615ef067f00c;
@@ -1713,8 +1709,7 @@ elis:59ede1a2-ce84-45d8-98b4-f9aa5fae0c01 a dcat:CatalogRecord;
 
 cssvrsc:578a245491099fbd553bfffa58fe777354650804003a7704782c2c6ed7f294d0 a cssv:Specification;
   dct:title "Data Exchange Services"@en;
-  dct:description "The Data Exchange Services Specifications outline a comprehensive framework designed to facilitate secure, transparent, and interoperable data exchange within the GAIA-X ecosystem."@en,
-    "The Data Exchange Services specifications outline a comprehensive framework designed to facilitate secure, transparent, and interoperable data exchange within the GAIA-X ecosystem."@en;
+  dct:description "The Data Exchange Services specifications outline a comprehensive framework designed to facilitate secure, transparent, and interoperable data exchange within the GAIA-X ecosystem."@en;
   dct:relation eira:DataExchangeApplicationService, eira:DataExchangeApplicationComponent, eira:PrivacyApplicationService, eira:PrivacyApplicationComponent;
   dcat:theme "Technology Architecture"@en;
   dcat:creator "GAIA-X"@en;
@@ -1960,7 +1955,7 @@ elis:23aa1a0c-731e-4bbe-aec3-94f69545ed1a a dcat:CatalogRecord;
 cssvrsc:7d372848f2752f95f57864edf1c26afddadc8af1f4069124bca255069860aaf5 a cssv:Specification;
   dct:title "Details of the AAS Part 1 - Metamodel and Package File formats (AAS Metamodel)"@en;
   dct:description "The Asset Administration Shell (AAS) Metamodel specification is a conceptual framework and set of guidelines used in the context of Industry 4.0 to define the structure and semantics of the digital representation of assets."@en;
-  dct:relation eira:ControlledVocabularyDataObject, eira:DataDataObject; eira:DataModelDataObject, eira:MetadataDataObject;
+  dct:relation eira:ControlledVocabularyDataObject, eira:DataDataObject, eira:DataModelDataObject, eira:MetadataDataObject;
   dcat:theme "Data Architecture"@en;
   dcat:creator "Platform Industrie 4.0"@en;
   dcat:distribution cssvrsc:c3dfab36-a6b6-44e6-895a-e3ccb341e83a;
@@ -2639,7 +2634,7 @@ elis:ced0a19c-9ad9-4c6b-8186-ec661fa58a7c a dcat:CatalogRecord;
 
 cssvrsc:749160f76fef1c73f78d1cfa2ec69f75bda0e5994d3686e4d1ee8b6e387abe59 a cssv:Specification;
   dct:title "EBSI - Verifiable Credentials (EBSI-VC)"@en;
-  dct:description """ EBSI-VC outlines the standards and protocols for issuing, managing, and verifying digital credentials using blockchain technology. It aims to ensure secure, interoperable, and decentralized identity management within the European Union."""@en;
+  dct:description "EBSI-VC outlines the standards and protocols for issuing, managing, and verifying digital credentials using blockchain technology. It aims to ensure secure, interoperable, and decentralized identity management within the European Union."@en;
   dct:relation eira:BlockchainApplicationService, eira:BlockchainApplicationComponentLedgerTechnologyService;
   dcat:theme "Technology Architecture"@en;
   dcat:creator "European Commission"@en;
@@ -3356,11 +3351,11 @@ cssvrsc:f4672b91-aead-44e4-868b-420a042b8f36 a dcat:Distribution;
 elis:038851d6-cd51-4de5-9531-b2d731404cc8 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:7fa1cb50b03a684843349c75a6533a376020f0c71a4829a4aa250554a5c33896;
   dct:title """ETSI TS 119 612 - Electronic Signatures and Infrastructures (ESI);
-Trusted Lists """@en .
+Trusted Lists"""@en .
 
 cssvrsc:7fa1cb50b03a684843349c75a6533a376020f0c71a4829a4aa250554a5c33896 a cssv:Specification;
   dct:title """ETSI TS 119 612 - Electronic Signatures and Infrastructures (ESI);
-Trusted Lists """@en;
+Trusted Lists"""@en;
   dct:description """ETSI TS 119 612 provides a common time-stamping protocol and token profiles for a Trusted List Scheme
 Operator (TLSO) to provide information on the status and history of Trusted Service Provider (TSP) services
 concerning compliance with relevant legislation."""@en;
@@ -3433,8 +3428,7 @@ elis:225d3bb8-ed12-4e5e-a59f-3e7ae8048f51 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:2181312d2dc991ec7d6b75b78a286220b811385dac02a6b43573ac002dfe48d0;
   dct:title "EU Vocabularies Authority tables"@en .
 
-cssvrsc:2181312d2dc991ec7d6b75b78a286220b811385dac02a6b43573ac002dfe48d0 a cssv:Specification,
-    cssv:Specification;
+cssvrsc:2181312d2dc991ec7d6b75b78a286220b811385dac02a6b43573ac002dfe48d0 a cssv:Specification;
   dct:title "EU Vocabularies Authority tables"@en;
   dct:description "This Authority tables set out the armonisation of codes used by the Publications Office, and also in the inter-institutional data exchange. This controlled vocabularies are a standarised way of codification that can be used further on the OP."@en;
   dct:relation eira:ControlledVocabularyDataObject,
@@ -4050,13 +4044,11 @@ elis:3958a8d7-778e-46cb-a25b-8a31a13c5947 a dcat:CatalogRecord;
 
 cssvrsc:3ac90955aa96eedf7114693c57e1862f5dc359b7f26327a4878201bb0934a53b a cssv:Specification;
   dct:title "Geography Markup Language (GML)"@en;
-  dct:description "Geography Markup Language is an XML grammar written in XML Schema for the description of application schemas as well as the transport and storage of geographic information."@en,
-    """Geography Markup Language is an XML grammar written in XML Schema for the description of application 
-schemas as well as the transport and storage of geographic information."""@en;
+  dct:description "Geography Markup Language is an XML grammar written in XML Schema for the description of application schemas as well as the transport and storage of geographic information."@en;
   dct:relation eira:DataRepresentationRepresentation, eira:KnowledgeRepresentation, eira:LinkedDataRepresentation, eira:LinkedDataEventStreamRepresentation,
     eira:LinkedOpenDataRepresentation;
   dcat:theme "Data Architecture"@en;
-  dcat:creator "OGC "@en, "Open Geospatial Consortium (OGC)"@en;
+  dcat:creator "OGC"@en;
   dcat:distribution cssvrsc:17999609-de08-49c7-8c16-ea39b8b40964;
   dcat:landingPage "https://www.ogc.org/standard/gml/"^^xsd:anyURI .
 
@@ -4486,8 +4478,7 @@ elis:fce7c48f-8fba-4bd2-b449-9abbe2af45d9 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:baa7200934577ac27c05830d6ed437d7dd40e9e6ea9b5152cbb1f444930b1955;
   dct:title "HyperText Markup Language v5 (HTML5)"@en .
 
-cssvrsc:baa7200934577ac27c05830d6ed437d7dd40e9e6ea9b5152cbb1f444930b1955 a cssv:Specification,
-    cssv:Standard;
+cssvrsc:baa7200934577ac27c05830d6ed437d7dd40e9e6ea9b5152cbb1f444930b1955 a cssv:Standard;
   dct:title "HyperText Markup Language v5 (HTML5)"@en;
   dct:description "HTML is the World Wide Web's core markup language. Originally, HTML was primarily designed as a language for semantically describing scientific documents. Its general design, however, has enabled it to be adapted, over the subsequent years, to describe a number of other types of documents and even applications."@en;
   dct:relation eira:KnowledgeRepresentation,
@@ -4552,9 +4543,7 @@ elis:8083052f-997e-4e69-a91a-f8aeff5c4d4a a dcat:CatalogRecord;
 
 cssvrsc:ad1cca0e091b0bdb242cebf1eacc16b37d0464e24823c0189551ea832af133f1 a cssv:Specification;
   dct:title "Identity Credential and Access Management (ICAM)"@en;
-  dct:description "The Gaia-X Identity, Credential and Access Management (ICAM) Document is a Gaia-X deliverable that describes the components for “Authorization & Authentication.” It aims to provide core functionalities for authorization, access management, and authentication, along with related services."@en,
-    "The Gaia-X Identity, Credential and Access Management (ICAM) Document is a Gaia-X deliverable that describes the components for “Authorization & Authentication.” It aims to provide core functionalities for authorization, access management, and authenticat."@en,
-    "The Gaia-X Identity, Credential and Access Management (ICAM) Document is a Gaia-X deliverable that describes the components for “Authorization & Authentication.” It aims to provide core functionalities for authorization, access management, and authenticat"@en;
+  dct:description "The Gaia-X Identity, Credential and Access Management (ICAM) Document is a Gaia-X deliverable that describes the components for “Authorization & Authentication.” It aims to provide core functionalities for authorization, access management, and authentication, along with related services."@en;
   dct:relation eira:AuthorisationApplicationService, eira:AuthenticationApplicationService, eira:IdentityManagementApplicationService;
   dcat:theme "Technology Architecture"@en;
   dcat:creator "GAIA-X"@en;
@@ -4591,7 +4580,7 @@ cssvrsc:13f4844fb8cbda0d7869babfc65dc43348d28312b23eedb48091424e43945f7f a cssv:
   dct:relation eira:DataSpaceApplicationService, eira:IdentityManagementApplicationService, eira:FederatedIdentityProviderTechnologyService,
     eira:IdentityProviderTechnologyService;
   dcat:theme "Technology Architecture"@en;
-  dcat:creator "International Data Spaces Association (IDSA)"@en, "International Data Space Association (IDSA)"@en;
+  dcat:creator "International Data Spaces Association (IDSA)"@en;
   dcat:distribution cssvrsc:8d3bc1ac-0fdc-4627-9e4d-2ce38fc40c5f;
   dcat:landingPage "https://docs.internationaldataspaces.org/ids-knowledgebase/v/ids-g/components/identityprovider/daps"^^xsd:anyURI .
 
@@ -5046,7 +5035,7 @@ cssvrsc:b60a2b1145f741df950c10c7ed47cf954fb144e826b37958160e1548c52a6eea a cssv:
   dcat:landingPage "https://www.rfc-editor.org/rfc/rfc3029.html"^^xsd:anyURI .
 
 cssvrsc:f6bca486-34aa-4767-8775-7836ce8c4995 a dcat:Distribution;
-  dcat:accessURL "https://www.rfc-editor.org/rfc/rfc3029.html"^^xsd:anyURI .  
+  dcat:accessURL "https://www.rfc-editor.org/rfc/rfc3029.html"^^xsd:anyURI .
 
 elis:ba995568-4c66-4575-bea9-1308a873ec5b a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:54243ab89d05b47f1e9bb30be798056515abf9bb6ab8c0e407ef1431e2818e1b;
@@ -5257,19 +5246,11 @@ cssvrsc:55014157-566c-43b0-9dd4-ceaef74f706f a dcat:Distribution;
 
 elis:19f3c778-292b-40f8-af76-a288611edb40 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:1511141514945ed0630bbaa64cf595748a6dba986bf36176d7a4e551850792ba;
-  dct:title "ISO/IEC 18384-2:2016 Information technology — Reference Architecture for Service Oriented Architecture (SOA RA) — Part 2: Reference Architecture for SOA Solutions"@en,
-    """ISO/IEC 19757-3:2016 
-Information technology -- Document Schema Definition Languages (DSDL) -- Part 3: Rule-based validation -- Schematron"""@en .
+  dct:title "ISO/IEC 18384-2:2016 Information technology — Reference Architecture for Service Oriented Architecture (SOA RA) — Part 2: Reference Architecture for SOA Solutions"@en .
 
-cssvrsc:1511141514945ed0630bbaa64cf595748a6dba986bf36176d7a4e551850792ba a cssv:Specification,
-    cssv:Standard;
-  dct:title "ISO/IEC 18384-2:2016 Information technology — Reference Architecture for Service Oriented Architecture (SOA RA) — Part 2: Reference Architecture for SOA Solutions"@en,
-    """ISO/IEC 19757-3:2016 
-Information technology -- Document Schema Definition Languages (DSDL) -- Part 3: Rule-based validation -- Schematron"""@en;
-  dct:description "Service Oriented Architecture (SOA) is an architectural style that enables architects to design and develop architectures for SOA solutions and service-oriented enterprise applications. The SOA Reference Architecture consists of two complementary parts: firstly, a reference architecture for SOA solutions and, secondly, a set of common service types or categories."@en,
-    "ISO/IEC 19757-3:2016 specifies Schematron, a schema language for XML. This part of ISO/IEC 19757 establishes requirements for Schematron schemas and specifies when an XML document matches the patterns specified by a Schematron schema."@en;
-  dct:relation eira:ApplicationServerTechnologyService,
-    eira:ApplicationServerTechnologyService, eira:DataQualityApplicationService, eira:DataQualityApplicationComponent;
+cssvrsc:1511141514945ed0630bbaa64cf595748a6dba986bf36176d7a4e551850792ba a cssv:Standard;
+  dct:title "ISO/IEC 18384-2:2016 Information technology — Reference Architecture for Service Oriented Architecture (SOA RA) — Part 2: Reference Architecture for SOA Solutions"@en;
+  dct:relation eira:ApplicationServerTechnologyService;
   dcat:theme "Technology Architecture"@en;
   dcat:creator "ISO"@en;
   dcat:distribution cssvrsc:d4cb828d-c153-4637-9e73-1158de36708a;
@@ -5718,8 +5699,7 @@ elis:dc763894-7863-4a8b-b4fc-327e3cc14025 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:742174fb9d7cbf3758c62a6856199a79560f6dbd24085c9ed4c0f1b795140b81;
   dct:title "ITU-T Y.4464 Framework of blockchain of things as decentralized service platform"@en .
 
-cssvrsc:742174fb9d7cbf3758c62a6856199a79560f6dbd24085c9ed4c0f1b795140b81 a cssv:Specification,
-    cssv:Specification;
+cssvrsc:742174fb9d7cbf3758c62a6856199a79560f6dbd24085c9ed4c0f1b795140b81 a cssv:Specification;
   dct:title "ITU-T Y.4464 Framework of blockchain of things as decentralized service platform"@en;
   dct:description "Recommendation ITU-T Y.4464 includes an introduction to the Blockchain of Things (BoT), common characteristics and high-level requirements of the BoT, and relevant common capabilities and functionalities, as well as general procedures. The BoT operates in a decentralised environment established on blockchain-related technologies or is provided by a blockchain platform."@en;
   dct:relation eira:BlockchainApplicationService, eira:BlockchainApplicationComponentApplicationComponent,
@@ -5769,8 +5749,7 @@ cssvrsc:090002fd65228fad1e1f27c75c010e1d2d281e846b97647bd072d2cc25684737 a cssv:
   dcat:landingPage "https://www.ecma-international.org/publications/standards/Ecma-404.htm"^^xsd:anyURI .
 
 camssa:deef1c40e2cf1f528a2c4c6082195452ddaea733ad9bd4ebbf8b7e2e89631c8a a cav:Assessment;
-  dct:title """
-CAMSS Assessment of JSON ECMA EIF Scenario v2.0.0"""@en, "CAMSS Assessment of JSON EIF Scenario v2.0.0"""@en;
+  dct:title "CAMSS Assessment of JSON EIF Scenario v2.0.0"@en;
   dct:description "Assessment of JSON with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en;
   dcat:landingPage "http://data.europa.eu/w21/fb0a7ac5-0792-439b-927f-4e7647b08ba1"^^xsd:anyURI .
 
@@ -5778,8 +5757,7 @@ cssvrsc:cb0ac4bf-fa48-4c4c-9505-24e806fdab8a a dcat:Distribution;
   dcat:accessURL "https://www.ecma-international.org/publications/standards/Ecma-404.htm"^^xsd:anyURI .
 
 camssa:bb289f35acb2c7a95b9748b23050a32faa6de6ae8a4ab15a8550ac37827d8916 a cav:Assessment;
-  dct:title """
-CAMSS Assessment of JSON ECMA EIF Scenario v1.0.0"""@en, "CAMSS Assessment of JSON EIF Scenario v1.0.0"""@en;
+  dct:title "CAMSS Assessment of JSON EIF Scenario v1.0.0"@en;
   dct:description "Assessment of JSON with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en;
   dcat:landingPage "http://data.europa.eu/w21/889086f2-1158-49a7-97ed-65e9cea4fc17"^^xsd:anyURI .
 
@@ -5872,14 +5850,12 @@ elis:3e89b213-5040-4426-8a3e-61014b2733fb a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:9c2f765f7d194336045492bd806b3413413afac3d440bf4a043d4886ce4e75cf;
   dct:title "Keyhole Markup Language (KML)"@en .
 
-cssvrsc:9c2f765f7d194336045492bd806b3413413afac3d440bf4a043d4886ce4e75cf a cssv:Specification,
-    cssv:Standard;
+cssvrsc:9c2f765f7d194336045492bd806b3413413afac3d440bf4a043d4886ce4e75cf a cssv:Standard;
   dct:title "Keyhole Markup Language (KML)"@en;
-  dct:description "KML is a file format used to display geographic data in an Earth browser such as Google Earth."@en,
-    "KML is an XML language focused on geographic visualization, including annotation of maps and images. From this perspective, KML is complementary to most of the key existing OGC standards including GML (Geography Markup Language), WFS (Web Feature Service) and WMS (Web Map Service). "@en;
+  dct:description "KML is an XML language focused on geographic visualization, including annotation of maps and images. From this perspective, KML is complementary to most of the key existing OGC standards including GML (Geography Markup Language), WFS (Web Feature Service) and WMS (Web Map Service). "@en;
   dct:relation eira:DataRepresentationRepresentation, eira:KnowledgeRepresentation;
   dcat:theme "Data Architecture"@en;
-  dcat:creator "OGC "@en, "Open Geospatial Consortium (OGC)"@en;
+  dcat:creator "OGC"@en;
   dcat:distribution cssvrsc:554581e0-e014-48e9-8273-493106be18ab;
   dcat:landingPage "https://www.ogc.org/standard/kml/"^^xsd:anyURI .
 
@@ -5989,9 +5965,7 @@ elis:4d39e506-2e77-492f-83ce-c6156c8c11ac a dcat:CatalogRecord;
 
 cssvrsc:b4ae8cf6c3010eac5434606441e7bb6a001d0ed7034ff64b1311b481df048991 a cssv:Specification;
   dct:title "Lightweight Directory Access Protocol (LDAP) (RFC 4511)"@en;
-  dct:description "LDAP provides access to distributed directory services that act in accordance with X.500 data and service models. These protocol elements are based on those described in the X.500 Directory Access Protocol (DAP)."@en,
-    """LDAP provides access to distributed directory services that act in accordance with X.500 data and service models. These protocol elements are based on those described in the X.500 Directory Access Protocol (DAP).
-"""@en;
+  dct:description "LDAP provides access to distributed directory services that act in accordance with X.500 data and service models. These protocol elements are based on those described in the X.500 Directory Access Protocol (DAP)."@en;
   dct:relation eira:RegistrationApplicationService,
     camssa:a732815c0d170f8865d97a54a0d1051a8109dc04e508360c09c46759b85444af, eira:ServiceRegistryApplicationComponent,
     eira:AccessManagementApplicationService, eira:AccessManagementApplicationComponent, camssa:d38dd7f0081584148c4eaef35c5f07b6db9a3512b25a39c1f3f32bfcc00898c8,
@@ -6016,10 +5990,10 @@ camssa:d38dd7f0081584148c4eaef35c5f07b6db9a3512b25a39c1f3f32bfcc00898c8 a cav:As
 
 elis:bc5a75f2-abd9-4d28-b50e-7ec306643870 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:8c25fc22b6b6f1ff9ac5f698258c1bac7ea63c99f2f818130b7933f25f8cafa7;
-  dct:title "Linked Data Event Streams"@en, "Linked Data Event Streams (LDES)"@en .
+  dct:title "Linked Data Event Streams"@en .
 
 cssvrsc:8c25fc22b6b6f1ff9ac5f698258c1bac7ea63c99f2f818130b7933f25f8cafa7 a cssv:Specification;
-  dct:title "Linked Data Event Streams"@en, "Linked Data Event Streams (LDES)"@en;
+  dct:title "Linked Data Event Streams"@en;
   dct:description "Linked Data Event Streams uses the TREE specification for its collection and pagination features, compatible with other specifications such as DCAT v2."@en;
   dct:relation eira:LinkedDataEventStreamRepresentation,
     eira:KnowledgeTriplestore, eira:DataManagementApplicationService, eira:DataManagementApplicationComponent,
@@ -6165,11 +6139,10 @@ elis:3909f2c8-11f1-406b-bf2a-8d1a4b84bbb6 a dcat:CatalogRecord;
 
 cssvrsc:be53f576f7ac020fcba25ce7c83e599514bd297caa7fc500316662997e68f9d5 a cssv:Specification;
   dct:title "Meta-Share ontology (MS-OWL)"@en;
-  dct:description "Meta-Share ontology  caters for the description of Language resources (corpora, lexical/conceptual resources, models, grammars, etc. and language processing tools and services) for Language Technology needs."@en,
-    "The META-SHARE Ontology (MS-OWL) specification is a framework designed to provide a comprehensive metadata schema for describing and managing language resources."@en;
+  dct:description "The META-SHARE Ontology (MS-OWL) specification is a framework designed to provide a comprehensive metadata schema for describing and managing language resources."@en;
   dct:relation eira:OntologyDataObject, eira:DataPublicationApplicationService, eira:DataPublicationApplicationComponent;
   dcat:theme "Data Architecture"@en, "Technology Architecture"@en;
-  dcat:creator "Meta-share.org"@en, "W3C"@en;
+  dcat:creator "Meta-share.org"@en;
   dcat:distribution cssvrsc:f45da6c7-029d-4f83-93ac-ae65431434a3;
   dcat:landingPage "http://www.meta-share.org/ontologies/meta-share/meta-share-ontology.owl/documentation/index-en.html#desc"^^xsd:anyURI .
 
@@ -6562,8 +6535,7 @@ elis:e318f8c4-3722-4e94-b1ff-b7d0de242740 a dcat:CatalogRecord;
 
 cssvrsc:09b8018fbcf71fe4d3e71fe14e009ae553e050745176a31ac00f2c6b72f95e7a a cssv:Specification;
   dct:title "OAuth 2.0 Authorization Server Metadata"@en;
-  dct:description "The OAuth 2.0 authorization framework is a protocol that allows a user to grant a third-party web site or application access to the user's protected resources, without necessarily revealing their long-term credentials or even their identity."@en,
-    "OAuth 2.0 Authorization Server Metadata enables an OAuth 2.0 client to obtain the information needed to interact with an OAuth 2.0 authorization server, including its endpoint locations and authorization server capabilities."@en;
+  dct:description "OAuth 2.0 Authorization Server Metadata enables an OAuth 2.0 client to obtain the information needed to interact with an OAuth 2.0 authorization server, including its endpoint locations and authorization server capabilities."@en;
   dct:relation eira:IdentityManagementApplicationService, eira:AuthenticationApplicationService, eira:IdentificationApplicationComponent,
     eira:CloudPrivateNetworkCommunicationNetwork;
   dcat:theme "Technology Architecture"@en;
@@ -6647,7 +6619,7 @@ cssvrsc:0451cf7280b71e0ba29350bc606ef4599f53336dc99f4fc4419b4fa50686e127 a cssv:
   dct:description "OGC Catalogue interface standards specify the interfaces, bindings, and a framework for defining application profiles required to publish and access digital catalogues of metadata for geospatial data, services, and related resource information."@en;
   dct:relation eira:DataManagementApplicationService, eira:DataManagementApplicationComponent, eira:MetadataManagementApplicationService, eira:MetadataManagementApplicationComponent, eira:DataPublicationApplicationService, eira:DataPublicationApplicationComponent;
   dcat:theme "Technology Architecture"@en;
-  dcat:creator "Open Geospatial Consortium (OGC)"@en;
+  dcat:creator "OGC"@en;
   dcat:distribution cssvrsc:9c654c78-8dee-4605-af19-aa3d0ac0bf80;
   dcat:landingPage "https://www.ogc.org/standard/cat/"^^xsd:anyURI .
 
@@ -6667,7 +6639,7 @@ required to publish and access digital catalogues of metadata for geospatial dat
 and applications that comply with the given profile."""@en;
   dct:relation eira:MetadataManagementApplicationService, eira:MetadataManagementApplicationComponent;
   dcat:theme "Technology Architecture"@en;
-  dcat:creator "Open Geospatial Consortium (OGC)"@en;
+  dcat:creator "OGC"@en;
   dcat:distribution cssvrsc:8f5cdb10-629f-469b-8544-d41fe38372c5;
   dcat:landingPage "https://www.ogc.org/standard/cat2eoext4ebrim/"^^xsd:anyURI .
 
@@ -6684,7 +6656,7 @@ cssvrsc:459ce55245869fa8d2fe286ec86dfea886241f1366deef90c41db0686c7eab12 a cssv:
   dct:relation eira:ArtificialIntelligenceApplicationService, eira:ArtificialIntelligenceApplicationComponent, camssa:3d823b9e809a6270cb563e7e8698ebbc21943c31043308f229fb0e302f5a9dfa,
     eira:MachineLearningTechnologyService;
   dcat:theme "Technology Architecture"@en;
-  dcat:creator "Open Geospatial Consortium (OGC)"@en;
+  dcat:creator "OGC"@en;
   dcat:distribution cssvrsc:9f722a13-d32c-4275-a3f5-1bbe069d4a41;
   dcat:landingPage "https://docs.ogc.org/is/23-008r3/23-008r3.html"^^xsd:anyURI .
 
@@ -6785,12 +6757,11 @@ elis:454dd081-d54f-4e3e-8743-b86b484d620e a dcat:CatalogRecord;
 
 cssvrsc:b6731a7b5edf3f657fe1c49976009d8127c8a206d5700049686705906ae33fa3 a cssv:Specification;
   dct:title "Open Policy Agent (OPA)"@en;
-  dct:description "The Open Policy Agent (OPA) is an open source, general-purpose policy engine that unifies policy enforcement across the stack. OPA provides a high-level declarative language that lets you specify policy as code and simple APIs to offload policy decision-making from your software."@en,
-    "The Open Policy Agent is an open source, general-purpose policy engine that unifies policy enforcement across the stack. OPA provides a high-level declarative language that lets you specify policy as code and simple APIs to offload policy decision-making from your software."@en;
+  dct:description "The Open Policy Agent (OPA) is an open source, general-purpose policy engine that unifies policy enforcement across the stack. OPA provides a high-level declarative language that lets you specify policy as code and simple APIs to offload policy decision-making from your software."@en;
   dct:relation eira:DigitalBusinessCapabilityCapability, eira:PrivacyPolicyBusinessObject, eira:SecurityPolicyBusinessObject,
     eira:AccessManagementApplicationService, eira:AccessManagementApplicationComponent;
   dcat:theme "Business Architecture"@en, "Implementation Governance"@en, "Technology Architecture"@en;
-  dcat:creator "Styra"@en, "Cloud Native Computing Foundation"@en, "Cloud Native Computing Foundation "@en;
+  dcat:creator "Cloud Native Computing Foundation"@en;
   dcat:distribution cssvrsc:267d8a2a-b801-4834-9d2d-2557528e997b;
   dcat:landingPage "https://www.openpolicyagent.org/docs/latest/"^^xsd:anyURI .
 
@@ -6877,11 +6848,10 @@ elis:0cc1cac4-3c25-4353-b358-f687cf161c55 a dcat:CatalogRecord;
 
 cssvrsc:e8523b4e57f7555cdba03b2e8398ced16cfcacb4c565dc0c2c554e21ff8af799 a cssv:Specification;
   dct:title "OpenFlow Switch Specification"@en;
-  dct:description "OpenFlow allows for the separation of the network's control plane from the data plane, enabling network administrators to manage network services through abstraction of lower-level functionality, regardless of the underlying network technology."@en,
-    "MQTT is a communication protocol designed for lightweight, low-bandwidth, high-latency environments like remote sensors or mobile devices."@en;
+  dct:description "OpenFlow allows for the separation of the network's control plane from the data plane, enabling network administrators to manage network services through abstraction of lower-level functionality, regardless of the underlying network technology."@en;
   dct:relation eira:ActiveDirectoryTechnologyService, eira:AnalyticsTechnologyService;
   dcat:theme "Technology Architecture"@en;
-  dcat:creator "Open Networking Foundation (ONF)"@en, "OASIS"@en;
+  dcat:creator "Open Networking Foundation (ONF)"@en;
   dcat:distribution cssvrsc:9a99c0dd-eabd-4a3e-867b-9928c5803443;
   dcat:landingPage "https://opennetworking.org/wp-content/uploads/2014/10/openflow-spec-v1.3.0.pdf"^^xsd:anyURI .
 
@@ -6901,7 +6871,7 @@ required to publish and access digital catalogues of metadata for geospatial dat
 and applications that comply with the given profile."""@en;
   dct:relation eira:MetadataManagementApplicationService, eira:MetadataManagementApplicationComponent;
   dcat:theme "Technology Architecture"@en;
-  dcat:creator "Open Geospatial Consortium (OGC)"@en;
+  dcat:creator "OGC"@en;
   dcat:distribution cssvrsc:6530e8a2-a997-4dc2-acce-18c41580bcfa;
   dcat:landingPage "https://www.ogc.org/standard/cat2eoext4ebrim/"^^xsd:anyURI .
 
@@ -8229,8 +8199,7 @@ elis:711ff75b-f0af-4a67-9370-b0d355af4cda a dcat:CatalogRecord;
 
 cssvrsc:03b115916063a4cc8a3e670aaf745ad1a2340d446f8d32678097ed57e5b12708 a cssv:Specification;
   dct:title "Security and Privacy Controls for Information Systems and Organizations (NIST SP 800-53)"@en;
-  dct:description "NIST SP 800-53 provides a catalog of security and privacy controls for information systems and organisations to protect organisational operations and assets, individuals, other organisations, and the Nation from a diverse set of threats and risks, including hostile attacks, human errors, natural disasters, structural failures, foreign intelligence entities, and privacy risks. "@en,
-    "NIST SP 800-53 provides a catalog of security and privacy controls for information systems and organizations to protect organizational operations and assets, individuals, other organizations, and the Nation from a diverse set of threats and risks, including hostile attacks, human errors, natural disasters, structural failures, foreign intelligence entities, and privacy risks. "@en;
+  dct:description "NIST SP 800-53 provides a catalog of security and privacy controls for information systems and organizations to protect organizational operations and assets, individuals, other organizations, and the Nation from a diverse set of threats and risks, including hostile attacks, human errors, natural disasters, structural failures, foreign intelligence entities, and privacy risks."@en;
   dct:relation eira:PrivacyApplicationService, eira:PrivacyApplicationComponent, eira:TrustServiceProvisioningApplicationComponent;
   dcat:theme "Technology Architecture"@en;
   dcat:creator "U.S. National Institute of Standards and Technology (NIST)"@en;
@@ -8366,7 +8335,7 @@ cssvrsc:4b29066dcc62514f2a65f8c08693a99161caf9e0e359583423edf4e34bd4afe5 a cssv:
   dct:description "SOS is a Web service interface which allows querying observations, sensor metadata, as well as representations of observed features. Further, this standard defines means to register new sensors and to remove existing ones."@en;
   dct:relation eira:WebServiceApplicationInterface, eira:MetadataManagementApplicationService, eira:MetadataManagementApplicationComponent, eira:DataManagementApplicationService, eira:DataManagementApplicationComponent;
   dcat:theme "Technology Architecture"@en;
-  dcat:creator "Open Geospatial Consortium (OGC)"@en;
+  dcat:creator "OGC"@en;
   dcat:distribution cssvrsc:d9b63f55-a23f-4ef5-bb9e-08dc8142fe7e;
   dcat:landingPage "https://www.ogc.org/standard/sos/"^^xsd:anyURI .
 
@@ -8379,8 +8348,7 @@ elis:8d2cc197-e690-45dd-87e5-35a084516225 a dcat:CatalogRecord;
 
 cssvrsc:c8d906d833e0e6c3765637dbcde0c3a68c71e0ee4ab2191155b18b22604bc928 a cssv:Specification;
   dct:title "Service Metadata Publisher (DomiSMP)"@en;
-  dct:description "The DomiSMP is a component of eDelivery that is responsible for Capability Lookup: once the sender discovers the address of the receiver's SMP (Service Metadata Publisher), it is able to retrieve the needed information (i. e. metadata about the location and capabilities) of the receiver."@en,
-    "The DomiSMP is a component of eDelivery that is responsible for Capability Lookup: once the sender discovers the address of the receiver's SMP, it is able to retrieve the needed information (i. e. metadata about the location and capabilities) of the receiver."@en;
+  dct:description "The DomiSMP is a component of eDelivery that is responsible for Capability Lookup: once the sender discovers the address of the receiver's SMP, it is able to retrieve the needed information (i. e. metadata about the location and capabilities) of the receiver."@en;
   dct:relation eira:E-TimestampCreationApplicationService, eira:BlockchainApplicationService, eira:BlockchainApplicationComponent, eira:AccountingApplicationService, eira:AuthenticationApplicationService;
   dcat:theme "Technology Architecture"@en;
   dcat:creator "European Commission"@en;
@@ -8486,8 +8454,7 @@ elis:f3bd57fe-6287-498a-a64a-85aa4aff8ed9 a dcat:CatalogRecord;
 
 cssvrsc:f4c3839a5bdff2f8a894f8a407e5ad3ab1e7a43e77b90497ddc7602079318556 a cssv:Specification;
   dct:title "Simple Knowledge Organisation system (SKOS)"@en;
-  dct:description "SKOSprovides a model for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, folksonomies, and other similar types of controlled vocabulary."@en,
-    "SKOS provides a model for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, folksonomies, and other similar types of controlled vocabulary."@en;
+  dct:description "SKOS provides a model for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, folksonomies, and other similar types of controlled vocabulary."@en;
   dct:relation eira:DataFormatDataObject, eira:KnowledgeRepresentation, eira:LinkedDataRepresentation, eira:LinkedDataEventStreamRepresentation,
     eira:LinkedOpenDataRepresentation;
   dcat:theme "Data Architecture"@en;
@@ -8536,8 +8503,7 @@ elis:037b0ad8-8f52-4a27-853f-4ce2e0d58982 a dcat:CatalogRecord;
 
 cssvrsc:1331c2c0a75eea8b5d5a413c0bebab78509bf1b0c3aa6fc8dd05c2ff0d5784cd a cssv:Specification;
   dct:title "SLA for Open API Initiative Specification (SLA4OAI)"@en;
-  dct:description "SLA4OAI Specification aims to promote an open specification for services level agreement over REST APIs which are defined via OpenAPI Specification."@en,
-    "SLA4OAI Specification aims to promote an open specification for services level agreement over OpenAPI-compliant REST APIs to support the exchange of data."@en;
+  dct:description "SLA4OAI Specification aims to promote an open specification for services level agreement over OpenAPI-compliant REST APIs to support the exchange of data."@en;
   dct:relation eira:APIApplicationInterface, eira:MachineToMachineInterfaceApplicationInterface, eira:ServiceLevelAgreementContract;
   dcat:theme "Technology Architecture"@en;
   dcat:creator "ISA Group"@en;
@@ -8786,8 +8752,7 @@ elis:00ea6c53-8256-47d2-9b03-e153846357c6 a dcat:CatalogRecord;
 
 cssvrsc:2ddd01784d77f481907f1c64a5d2c5318bf451bdc16dfc0011e5f0af93f32192 a cssv:Specification;
   dct:title "Syslog Protocol"@en;
-  dct:description "Syslog Protocol provides a syslog packet format and transport mechanism for conveying event notification messages."@en,
-    "The Syslog protocol is a standard for message logging that enables different devices, applications, and systems to generate, transmit, and store log messages. These messages contain information about events, errors, and other relevant data."@en;
+  dct:description "The Syslog protocol is a standard for message logging that enables different devices, applications, and systems to generate, transmit, and store log messages. These messages contain information about events, errors, and other relevant data."@en;
   dct:relation eira:CloudPrivateCommunicationNetwork,
     eira:AuditManagerTechnologyService, camssa:47d536127a1bdd0327618423e4a535808d5ad921ff360f2c1a836d057febbb4f,
     eira:EventManagerTechnologyService, eira:LoggerTechnologyService, eira:TelemetryTechnologyService;
@@ -9443,7 +9408,7 @@ cssvrsc:163a588b62e26eaf308dfd3a91f253b50cad990489385fa08a771c29f2f590b5 a cssv:
   dct:description "A Web Coverage Service (WCS) offers multi-dimensional coverage data for access over the Internet. WCS Core specifies a core set of requirements that a WCS implementation must fulfill."@en;
   dct:relation eira:WebServiceApplicationInterface;
   dcat:theme "Technology Architecture"@en;
-  dcat:creator "Open Geospatial Consortium (OGC)"@en;
+  dcat:creator "OGC"@en;
   dcat:distribution cssvrsc:41d5c8af-8274-4b60-b946-0a7f08a868b5;
   dcat:landingPage "https://www.ogc.org/standard/wcs/"^^xsd:anyURI .
 
@@ -9460,7 +9425,7 @@ cssvrsc:f89d504119769a02d8f58d34e7b645d168a78fa1c1de631d48b3e0f2331d3d00 a cssv:
   dct:relation eira:DigitalBusinessCapabilityCapability, eira:DataManagementApplicationService, eira:DataManagementApplicationComponent, eira:DataExtractionTransformationAndLoadingApplicationComponent,
     eira:DataExtractionTransformationAndLoadingApplicationService;
   dcat:theme "Business Architecture"@en, "Technology Architecture"@en;
-  dcat:creator "Open Geospatial Consortium (OGC)"@en;
+  dcat:creator "OGC"@en;
   dcat:distribution cssvrsc:42e37499-f845-4abf-82a0-74880452bb21;
   dcat:landingPage "https://www.ogc.org/standard/wfs/"^^xsd:anyURI .
 
@@ -9573,9 +9538,7 @@ elis:bd0f7827-9d3c-43b0-a474-db7fec53201e a dcat:CatalogRecord;
 
 cssvrsc:0525f64dfe93f08c86035f6f7c91baf6d5a1fbc3768e502a1f16f95691a1a9aa a cssv:Specification;
   dct:title "Web Services Security (WSS, WS-Security)"@en;
-  dct:description "This specification describes enhancements to SOAP messaging to provide message integrity and confidentiality. The specified mechanisms can be used to accommodate a wide variety of security models and encryption technologies."@en,
-    """This specification describes enhancements to SOAP messaging to provide message integrity and confidentiality. The specified mechanisms can be used to accommodate a wide variety of security models and encryption technologies. 
-"""@en;
+  dct:description "This specification describes enhancements to SOAP messaging to provide message integrity and confidentiality. The specified mechanisms can be used to accommodate a wide variety of security models and encryption technologies."@en;
   dct:relation eira:MachineToMachineApplicationInterface,
     camssa:3ecb5d76cbd630f92497c6b7d5778c3c44bb75753a21f80d7f1148003e0079c3, eira:IdentificationApplicationComponent,
     eira:RequestValidationApplicationService;
@@ -9672,9 +9635,7 @@ elis:33d37bec-e0d3-4e89-9a22-eaa6417ba31d a dcat:CatalogRecord;
 
 cssvrsc:2530ab0daee506060b46a67ad31e86192dd538d189d049ef59718edc7c2ea121 a cssv:Specification;
   dct:title "X.509: Information technology - Open Systems Interconnection - The Directory: Public-key and attribute certificate frameworks"@en;
-  dct:description """The X.509 specification addresses some of the security requirements in the areas of authentication 
-and other security services through the provision of a set of frameworks upon which full services can be based. """@en,
-    "The X.509 specification addresses some of the security requirements in the areas of authentication and other security services through the provision of a set of frameworks upon which full services can be based. "@en;
+  dct:description "The X.509 specification addresses some of the security requirements in the areas of authentication and other security services through the provision of a set of frameworks upon which full services can be based."@en;
   dct:relation eira:E-SignatureVerificationAndValidationApplicationService, eira:TrustServiceProvisioningApplicationComponent;
   dcat:theme "Technology Architecture"@en;
   dcat:creator "International Telecommunication Union (ITU)"@en;
