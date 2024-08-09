@@ -2246,20 +2246,14 @@ elis:39e45c6e-e438-498c-b530-7575ad57de65 a dcat:CatalogRecord;
 cssvrsc:57d034134fde774a09d3434c0677311f4f4460daea3244fc286e63f67e434ac2 a cssv:Specification;
   dct:title "DIRECTIVE 2013/37/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 June 2013 amending Directive 2003/98/EC on the re-use of public sector information"@en;
   dct:description "Legal act amending Directive 2003/98/EC on the re-use of public sector information. Business agnostic legal act defining milestones, goals and obligations on the re-use of public sector information."@en;
-  dct:relation eira:BindingInstrumentRequirement;
-  dcat:theme "Business Architecture"@en;
-  dcat:creator "European Parliament. Council of the European Union."@en;
-  a cssv:Specification;
-  dcat:distribution cssvrsc:cb868a40-1a2b-4d29-84b9-99a77efae65e;
-  dcat:landingPage "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32013L0037"^^xsd:anyURI;
-  dct:title "DIRECTIVE 2013/37/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 June 2013 amending Directive 2003/98/EC on the re-use of public sector information"@en;
-  dct:description "Legal act amending Directive 2003/98/EC on the re-use of public sector information. Business agnostic legal act defining milestones, goals and obligations on the re-use of public sector information."@en;
-  dct:relation eira:EuropeanLegalActRequirement,
+  dct:relation eira:BindingInstrumentRequirement, eira:EuropeanLegalActRequirement,
     eira:LegalActRequirement, eira:NationalLegalActRequirement,
     eira:Non-BindingInstrumentRequirement,
     eira:OpenDataPolicyBusinessObject;
   dcat:theme "Business Architecture"@en, "Implementation Governance"@en;
-  dcat:creator "European Parliament. Council of the European Union."@en .
+  dcat:creator "European Parliament. Council of the European Union."@en;
+  dcat:distribution cssvrsc:cb868a40-1a2b-4d29-84b9-99a77efae65e;
+  dcat:landingPage "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32013L0037"^^xsd:anyURI .
 
 cssvrsc:cb868a40-1a2b-4d29-84b9-99a77efae65e a dcat:Distribution;
   dcat:accessURL "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32013L0037"^^xsd:anyURI .
@@ -4639,8 +4633,7 @@ cssvrsc:35553c2ce30e82499715b6db3743f3abc0cfb0f01188d2a653755511cb76ff34 a cssv:
 camssa:b29fb226789c75a4386285f145ff6a8adcba6e757ca1675fc81fd6141be4be65 a cav:Assessment;
   dct:title "CAMSS Assessment of IDSA Dataspace Protocol EIF Scenario v1.0.0"@en;
   dct:description "Assessment of IDSA Dataspace Protocol with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en;
-  dcat:landingPage "http://data.europa.eu/w21/e7d6f14a-e763-49a1-b239-cec690ba76a7"^^xsd:anyURI,
-    "test"^^xsd:anyURI .
+  dcat:landingPage "http://data.europa.eu/w21/e7d6f14a-e763-49a1-b239-cec690ba76a7"^^xsd:anyURI .
 
 cssvrsc:daedb720-1f02-4c38-ab72-27b5b40d9864 a dcat:Distribution;
   dcat:accessURL "https://docs.internationaldataspaces.org/ids-knowledgebase/v/dataspace-protocol/overview/readme"^^xsd:anyURI .
@@ -5299,10 +5292,10 @@ Information technology -- Document Schema Definition Languages (DSDL) -- Part 3:
   dcat:theme "Technology Architecture"@en;
   dcat:creator "ISO"@en;
   dcat:distribution cssvrsc:57e7cecf-53ac-4ac8-8dac-5d4aa2683aa2;
-  dcat:landingPage "https://www.iso.org/standard/55982.html"^^xsd:anyURI, "https://www.iso.org/standard/55982.html"^^xsd:anyURI .
+  dcat:landingPage "https://www.iso.org/standard/55982.html"^^xsd:anyURI .
 
 cssvrsc:57e7cecf-53ac-4ac8-8dac-5d4aa2683aa2 a dcat:Distribution;
-  dcat:accessURL "https://www.iso.org/standard/55982.html"^^xsd:anyURI, "https://www.iso.org/standard/55982.html"^^xsd:anyURI .
+  dcat:accessURL "https://www.iso.org/standard/55982.html"^^xsd:anyURI .
 
 elis:34cc0936-7817-4744-9a1e-13ad30637f59 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:d45d9386f74658bb6afe088ebc2926228d5729be6e46dc9402269cc6ddf705f8;
@@ -5310,10 +5303,9 @@ elis:34cc0936-7817-4744-9a1e-13ad30637f59 a dcat:CatalogRecord;
 
 cssvrsc:d45d9386f74658bb6afe088ebc2926228d5729be6e46dc9402269cc6ddf705f8 a cssv:Specification;
   dct:title "ISO/IEC 19941:2017 Information technology — Cloud computing — Interoperability and portability"@en;
-  dct:description "ISO/IEC 19941:2017 aims to enable cloud service customers to move their data or applications between non-cloud services and one or more cloud services, or between cloud services, as well as to facilitate the integration of different cloud service components."@en,
-    "ISO/IEC 19941:2017 specifies cloud computing interoperability and portability types, the relationship and interactions between these two cross-cutting aspects of cloud computing and common terminology and concepts used to discuss interoperability and portability, particularly relating to cloud services."@en;
+  dct:description "ISO/IEC 19941:2017 aims to enable cloud service customers to move their data or applications between non-cloud services and one or more cloud services, or between cloud services, as well as to facilitate the integration of different cloud service components."@en;
   dct:relation eira:SemanticAgreementContract,
-    camssa:448f33364202f30019e55e3c63a10235e885d10093f556a64b3b789c8b228d27, eira:SemanticInteroperabilityAgreementContract,
+    camssa:6a311ee3b10facc4292feb2db53ffc99d5b07e0c510fdc75400313354c0e757f, eira:SemanticInteroperabilityAgreementContract,
     eira:RegisteredElectronicDeliveryApplicationService, eira:CloudPrivateNetworkCommunicationNetwork, eira:HybridCloudFacilityFacility,
     eira:PrivateCloudComputingFacilityFacility, eira:PublicCloudComputingFacilityFacility;
   dcat:theme "Implementation Governance"@en, "Technology Architecture"@en;
@@ -5321,13 +5313,13 @@ cssvrsc:d45d9386f74658bb6afe088ebc2926228d5729be6e46dc9402269cc6ddf705f8 a cssv:
   dcat:distribution cssvrsc:c127b1be-a974-4939-82bf-1247b2c6588b;
   dcat:landingPage "https://www.iso.org/standard/66639.html"^^xsd:anyURI .
 
-camssa:448f33364202f30019e55e3c63a10235e885d10093f556a64b3b789c8b228d27 a cav:Assessment;
+camssa:6a311ee3b10facc4292feb2db53ffc99d5b07e0c510fdc75400313354c0e757f a cav:Assessment;
   dct:title "CAMSS Assessment of ISO/IEC 19941 EIF Scenario v1.0.0"@en;
   dct:description "Assessment of ISO/IEC 19941 with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en;
   dcat:landingPage "http://data.europa.eu/w21/7b20de07-a81f-4eb8-b49c-301e09773e25"^^xsd:anyURI .
 
 cssvrsc:c127b1be-a974-4939-82bf-1247b2c6588b a dcat:Distribution;
-  dcat:accessURL "https://www.iso.org/standard/66639.html"^^xsd:anyURI, "https://www.iso.org/standard/79573.html"^^xsd:anyURI .
+  dcat:accessURL "https://www.iso.org/standard/66639.html"^^xsd:anyURI .
 
 elis:c3b01c41-bd51-440e-81ca-5a3106eec165 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:250a2567c0af286f50ca3eecc071fe4258191c1270dbea6b82b557d74c0aaa7c;
@@ -5340,13 +5332,16 @@ cssvrsc:250a2567c0af286f50ca3eecc071fe4258191c1270dbea6b82b557d74c0aaa7c a cssv:
     camssa:fb3114d0c48c88dca14bbbaa73dca9eb79c1f32b7d97e53eefc20a2fbbde30a7, eira:SemanticInteroperabilityAgreementContract;
   dcat:theme "Implementation Governance"@en;
   dcat:creator "ISO"@en;
-  dcat:distribution cssvrsc:c127b1be-a974-4939-82bf-1247b2c6588b;
+  dcat:distribution cssvrsc:o127b1be-a974-4939-82bf-1247b2c6588b;
   dcat:landingPage "https://www.iso.org/standard/79573.html"^^xsd:anyURI .
 
 camssa:fb3114d0c48c88dca14bbbaa73dca9eb79c1f32b7d97e53eefc20a2fbbde30a7 a cav:Assessment;
   dct:title "CAMSS Assessment of ISO/IEC 19944-1 EIF Scenario v1.0.0"@en;
   dct:description "Assessment of ISO/IEC 19944-1 with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en;
   dcat:landingPage "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/camss-assessment-isoiec-19944-1-eif-scenario"^^xsd:anyURI .
+
+cssvrsc:o127b1be-a974-4939-82bf-1247b2c6588b a dcat:Distribution;
+  dcat:accessURL "https://www.iso.org/standard/79573.html"^^xsd:anyURI .
 
 elis:f22ba8a7-1357-4588-b280-09bdedc1836d a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:d3c763a62cbb890447c67932b34050ae382276be164fd6f8b22480941ca0cb21;
@@ -6849,22 +6844,16 @@ elis:640e4140-6bec-4504-9b2e-c8e26fc8c4e6 a dcat:CatalogRecord;
 
 cssvrsc:fef432d5ee4920705bc86d0d0c4750a88d6e2c7cef1f895e9037ab0776c49fa9 a cssv:Specification;
   dct:title "OpenDEI Position Paper: Design Principles for Data Spaces"@en;
-  a cssv:Specification;
   dct:description "The OpenDEI Position Paper outlines the importance of data spaces and sovereign sharing to create the future data economy."@en;
   dct:relation eira:DigitalGovernancePlanBusinessObject,
     eira:DataSpaceApplicationService;
   dcat:theme "Implementation Governance"@en, "Technology Architecture"@en;
   dcat:creator "OpenDEI"@en;
   dcat:distribution cssvrsc:2a2e31cf-b1dd-443d-889f-56cd64840849;
-  dcat:landingPage "https://www.opendei.eu/case-studies/workshop-on-the-common-european-mobility-data-space-02-december-2021/"^^xsd:anyURI;
-  dct:title "OpenDEI Position Paper: Design Principles for Data Spaces"@en .
+  dcat:landingPage "https://www.opendei.eu/case-studies/workshop-on-the-common-european-mobility-data-space-02-december-2021/"^^xsd:anyURI .
 
 cssvrsc:2a2e31cf-b1dd-443d-889f-56cd64840849 a dcat:Distribution;
   dcat:accessURL "https://www.opendei.eu/case-studies/workshop-on-the-common-european-mobility-data-space-02-december-2021/"^^xsd:anyURI .
-
-elis:640e4140-6bec-4504-9b2e-c8e26fc8c4e6 a dcat:CatalogRecord;
-  foaf:PrimaryTopic cssvrsc:fef432d5ee4920705bc86d0d0c4750a88d6e2c7cef1f895e9037ab0776c49fa9;
-  dct:title "OpenDEI Position Paper: Design Principles for Data Spaces"@en .
 
 elis:a2451010-4c0d-47b8-8cb3-324508d91b96 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:db6cf8a73c9466853f99606b2f9eb6a89616f351d02b7c246c0bf87d5d18d50f;
@@ -7282,8 +7271,7 @@ cssvrsc:95632f502902a5902d8b5b16cf33e48be7b34f51ceeeb5002b516a6bf57da5b2 a cssv:
   dcat:landingPage "https://docs.peppol.eu/edelivery/sml/PEPPOL-EDN-Service-Metadata-Locator-1.2.0-2021-05-13.pdf"^^xsd:anyURI .
 
 cssvrsc:7a4c88ff-549a-4264-9a62-2b91cc918ebf a dcat:Distribution;
-  dcat:accessURL "https://docs.peppol.eu/edelivery/sml/PEPPOL-EDN-Service-Metadata-Locator-1.2.0-2021-05-13.pdf"^^xsd:anyURI,
-    "https://docs.peppol.eu/edelivery/smp/PEPPOL-EDN-Service-Metadata-Publishing-1.2.0-2021-02-24.pdf"^^xsd:anyURI .
+  dcat:accessURL "https://docs.peppol.eu/edelivery/sml/PEPPOL-EDN-Service-Metadata-Locator-1.2.0-2021-05-13.pdf"^^xsd:anyURI .
 
 elis:70167e97-4c9a-4f54-b749-07e070a7f6ed a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:2b97a346419290bb65aa63f1aba1847b1003f6573cf1d80c5f3fe7aec5ca6291;
@@ -7296,8 +7284,11 @@ cssvrsc:2b97a346419290bb65aa63f1aba1847b1003f6573cf1d80c5f3fe7aec5ca6291 a cssv:
     eira:MetadataManagementApplicationService, eira:MetadataManagementApplicationComponent;
   dcat:theme "Technology Architecture"@en;
   dcat:creator "PEPPOL"@en;
-  dcat:distribution cssvrsc:7a4c88ff-549a-4264-9a62-2b91cc918ebf;
+  dcat:distribution cssvrsc:9a4c88ff-549a-4264-9a62-2b91cc918ebf;
   dcat:landingPage "https://docs.peppol.eu/edelivery/smp/PEPPOL-EDN-Service-Metadata-Publishing-1.2.0-2021-02-24.pdf"^^xsd:anyURI .
+
+cssvrsc:9a4c88ff-549a-4264-9a62-2b91cc918ebf a dcat:Distribution;
+  dcat:accessURL "https://docs.peppol.eu/edelivery/smp/PEPPOL-EDN-Service-Metadata-Publishing-1.2.0-2021-02-24.pdf"^^xsd:anyURI .
 
 elis:5b83e8a9-f091-42a6-b5c6-56ecb8fa8203 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:1d0211d5a51ca569cb43bb189465a55c5aec6f26155fe09ba5e59c82a42f5a01;
@@ -7992,7 +7983,8 @@ cssvrsc:6aac027574e261aff04dda72e050d4736e9b6c8b022b626c597e0ff37ca1153c a cssv:
   dct:description "DIN SPEC 27070:2020-03 is a Publicly Available Specification (PAS), willing to become an ISO standard, that specifies requirements regarding a secure gateway for cross-company data exchange in the manufacturing industry. The specification relates to DIN EN IEC 62443-4-2 standard series."@en;
   dct:relation eira:DataSpaceApplicationService,
     eira:DataSpaceConnectorApplicationService,
-    eira:DataSpaceConnectorConsumerApplicationService;
+    eira:DataSpaceConnectorConsumerApplicationService,
+    eira:DataSpaceConnectorProviderApplicationService;
   dcat:theme "Technology Architecture"@en;
   dcat:creator "International Data Spaces Association (IDSA)"@en;
   dcat:distribution cssvrsc:28cd3c1a-07a3-4e8c-86c9-576a2c402d84;
@@ -8000,22 +7992,6 @@ cssvrsc:6aac027574e261aff04dda72e050d4736e9b6c8b022b626c597e0ff37ca1153c a cssv:
 
 cssvrsc:28cd3c1a-07a3-4e8c-86c9-576a2c402d84 a dcat:Distribution;
   dcat:accessURL "https://internationaldataspaces.org/ids-is-officially-a-standard-din-spec-27070-is-published/"^^xsd:anyURI .
-
-cssvrsc:6aac027574e261aff04dda72e050d4736e9b6c8b022b626c597e0ff37ca1153c a cssv:Specification;
-  dcat:theme "Technology Architecture"@en;
-  dcat:creator "International Data Spaces Association (IDSA)"@en;
-  dcat:distribution cssvrsc:28cd3c1a-07a3-4e8c-86c9-576a2c402d84;
-  dcat:landingPage "https://internationaldataspaces.org/ids-is-officially-a-standard-din-spec-27070-is-published/"^^xsd:anyURI;
-  dct:title "Requirements and reference architecture of a Security Gateway for the exchange of industry data and services (DIN SPEC 27070:2020-03)"@en;
-  dct:description "DIN SPEC 27070:2020-03 is a Publicly Available Specification (PAS), willing to become an ISO standard, that specifies requirements regarding a secure gateway for cross-company data exchange in the manufacturing industry. The specification relates to DIN EN IEC 62443-4-2 standard series."@en;
-  dct:relation eira:DataSpaceConnectorProviderApplicationService .
-
-cssvrsc:28cd3c1a-07a3-4e8c-86c9-576a2c402d84 a dcat:Distribution;
-  dcat:accessURL "https://internationaldataspaces.org/ids-is-officially-a-standard-din-spec-27070-is-published/"^^xsd:anyURI .
-
-elis:82dae1ea-0b63-4847-9da6-22da33fd351d a dcat:CatalogRecord;
-  foaf:PrimaryTopic cssvrsc:6aac027574e261aff04dda72e050d4736e9b6c8b022b626c597e0ff37ca1153c;
-  dct:title "Requirements and reference architecture of a Security Gateway for the exchange of industry data and services (DIN SPEC 27070:2020-03)"@en .
 
 elis:efe5e744-9770-497d-a16a-56ee9cd19b6e a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:a4a7987e596ba4b307e31ac3ee5f8011e0bc7baf38f31bdda3122c2d25cd461e;
@@ -8769,7 +8745,7 @@ cssvrsc:382fa033079de7215c1ed36bf0d5f610c883a8d3e50a2e1171ce2f34b4fd2852 a cssv:
   dcat:landingPage "https://sdmx.org/?page_id=5008"^^xsd:anyURI .
 
 cssvrsc:f4f1a45f-4263-4765-811a-853704aebcf2 a dcat:Distribution;
-  dcat:accessURL "https://sdmx.org/?page_id=5008"^^xsd:anyURI, "https://www.rfc-editor.org/rfc/rfc5424.html"^^xsd:anyURI .
+  dcat:accessURL "https://sdmx.org/?page_id=5008"^^xsd:anyURI .
 
 elis:79011138-0bfd-4d95-9d91-71d113986d90 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:3753324ce5b4d64e25a8a1de1e6fb40cfbd4a73ade38696b0fb56692368ab548;
@@ -8806,10 +8782,10 @@ cssvrsc:faabc2ff-7204-48dc-8841-10eb861c3eb9 a dcat:Distribution;
 
 elis:00ea6c53-8256-47d2-9b03-e153846357c6 a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:2ddd01784d77f481907f1c64a5d2c5318bf451bdc16dfc0011e5f0af93f32192;
-  dct:title "Syslog Protocol"@en, "Syslog Protocol (RFC 5424)"@en .
+  dct:title "Syslog Protocol"@en"@en .
 
 cssvrsc:2ddd01784d77f481907f1c64a5d2c5318bf451bdc16dfc0011e5f0af93f32192 a cssv:Specification;
-  dct:title "Syslog Protocol"@en, "Syslog Protocol (RFC 5424)"@en;
+  dct:title "Syslog Protocol"@en;
   dct:description "Syslog Protocol provides a syslog packet format and transport mechanism for conveying event notification messages."@en,
     "The Syslog protocol is a standard for message logging that enables different devices, applications, and systems to generate, transmit, and store log messages. These messages contain information about events, errors, and other relevant data."@en;
   dct:relation eira:CloudPrivateCommunicationNetwork,
@@ -8817,8 +8793,11 @@ cssvrsc:2ddd01784d77f481907f1c64a5d2c5318bf451bdc16dfc0011e5f0af93f32192 a cssv:
     eira:EventManagerTechnologyService, eira:LoggerTechnologyService, eira:TelemetryTechnologyService;
   dcat:theme "Technology Architecture"@en;
   dcat:creator "IETF"@en;
-  dcat:distribution cssvrsc:f4f1a45f-4263-4765-811a-853704aebcf2;
+  dcat:distribution cssvrsc:d4f1a45f-4263-4765-811a-853704aebcf2;
   dcat:landingPage "https://www.rfc-editor.org/rfc/rfc5424.html"^^xsd:anyURI .
+
+cssvrsc:d4f1a45f-4263-4765-811a-853704aebcf2 a dcat:Distribution;
+  dcat:accessURL "https://www.rfc-editor.org/rfc/rfc5424.html"^^xsd:anyURI .
 
 camssa:47d536127a1bdd0327618423e4a535808d5ad921ff360f2c1a836d057febbb4f a cav:Assessment;
   dct:title "CAMSS Assessment of Syslog Protocol EIF Scenario v1.0.0"@en;
@@ -9790,8 +9769,7 @@ cssvrsc:97a097de4c68e020312c08f731425d2221fe97a3fb145d9bc285a84805f0c02f a cssv:
 camssa:d1b4bffb5cad71dfeda592f969c7477185fca53851e5d1f4bc2ec54b71a4f86f a cav:Assessment;
   dct:title "CAMSS Assessment of XSD 1.1 EIF Scenario v2.0.0"@en;
   dct:description "Assessment of XSD with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en;
-  dcat:landingPage "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/camss-assessment-xsd-11-eif-scenario/release/200-0"^^xsd:anyURI,
-    "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/camss-assessment-xsd-11-eif-scenario"^^xsd:anyURI .
+  dcat:landingPage "http://data.europa.eu/w21/f2339e89-8df9-4c0e-8a02-05e831c45899"^^xsd:anyURI .
 
 cssvrsc:bb02d997-c674-4d6b-8727-c26d2caeeb3c a dcat:Distribution;
   dcat:accessURL "https://www.w3.org/TR/xmlschema11-1/"^^xsd:anyURI .
@@ -9799,8 +9777,7 @@ cssvrsc:bb02d997-c674-4d6b-8727-c26d2caeeb3c a dcat:Distribution;
 camssa:3b6795acd286431abd3ed379dee974077aa5531bcab4f31d406c995a0fa5908f a cav:Assessment;
   dct:title "CAMSS Assessment of XSD 1.1 EIF Scenario v1.0.0"@en;
   dct:description "Assessment of XSD with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en;
-  dcat:landingPage "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/camss-assessment-xsd-11-eif-scenario/release/200-0"^^xsd:anyURI,
-    "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/camss-assessment-xsd-11-eif-scenario"^^xsd:anyURI .
+  dcat:landingPage "http://data.europa.eu/w21/ba14ac22-5589-45ea-995d-614236bdda14"^^xsd:anyURI .
 
 elis:a933a058-2338-451f-9c7f-bc25f3a5ff9e a dcat:CatalogRecord;
   foaf:PrimaryTopic cssvrsc:97a097de4c68e020312c08f731425d2221fe97a3fb145d9bc285a84805f0c02f;
