@@ -288,7 +288,7 @@ cssvrsc:090002fd65228fad1e1f27c75c010e1d2d281e846b97647bd072d2cc25684737 a cssv:
 cssvrsc:094d9dad-a0b6-41bc-ab76-053b8fbe498e a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:57bb958cc416a3d01db1b78010b947a3999ca557e7da184ce429a8b15cbc408e ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:09b8018fbcf71fe4d3e71fe14e009ae553e050745176a31ac00f2c6b72f95e7a a cssv:Specification,
         owl:NamedIndividual ;
@@ -576,7 +576,7 @@ cssvrsc:15ae1741b374a39c38c277daf407d1938175219d283b93905f3ad0cf403c19f8 a cssv:
 cssvrsc:15ef9d7f-9a64-45e0-9061-7dec266a92db a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:163a588b62e26eaf308dfd3a91f253b50cad990489385fa08a771c29f2f590b5 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1114,7 +1114,7 @@ cssvrsc:2a8d11054390e9202db664920d2fb0ddb1a28c805e5d1d96a24c081fa6cb349d a cssv:
 cssvrsc:2abd8643-04b8-4c1d-8907-f15dfa6f8bcc a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:2b1360464d9f04688a468f625ce1b738d81cf37a037ddee359143646bb7b8c3e a cssv:Specification,
         owl:NamedIndividual ;
@@ -1226,7 +1226,7 @@ cssvrsc:2d66dbb8449c3cd9810e6d651451e6c73252d7ea27888ef306e911cff7320ea9 a cssv:
 cssvrsc:2d868761-fd43-4bcc-b5fd-fe6e75d1224f a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:efa058122f372a5df009d43b224b02eb9f4f5d13db61f11f267165860b44c5e3 ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:2dabce2a650059704db69b06a4b1aaf8fc58af0f16f9b5022565b5e6dc2d7e5c a cssv:Specification,
         owl:NamedIndividual ;
@@ -1436,7 +1436,7 @@ cssvrsc:3434176d82130b1f0ffeda1e7d91021c4fe0e57a0e3b2dbf83aacb7b57c63d2b a cssv:
 cssvrsc:34768bf6-d5d8-45d7-ad08-e129d53e7d68 a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:34a80d468898329016f4b93cbab810ea6fb1da5b54076014fb64d46f4b36a66a a cssv:Specification,
         owl:NamedIndividual ;
@@ -1550,7 +1550,7 @@ cssvrsc:36494a9584ee1783bca7c324d4ad28d012c2919890f9efdb1c151a7869029632 a cssv:
 cssvrsc:3738e9e2-7c7b-49e9-b7f7-a80f7b8948f0 a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:6f9429aabe60b28ad7aaa949f7343d2e854647da0dfe7ce226887cfeb2901652 ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:3753324ce5b4d64e25a8a1de1e6fb40cfbd4a73ade38696b0fb56692368ab548 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1565,7 +1565,7 @@ cssvrsc:3753324ce5b4d64e25a8a1de1e6fb40cfbd4a73ade38696b0fb56692368ab548 a cssv:
 cssvrsc:37c729eb-13fd-4ca1-b174-d5c2cf1189b9 a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:37fbdab3d5a73a430a6bd0ca3c25e859b4bf83a01e6f81d224238d3bbede8315 a cssv:Specification,
         owl:NamedIndividual ;
@@ -2441,7 +2441,7 @@ cssvrsc:626db0b3f57bd8616bcb1722cb2febb4d10fc97a325dc4f021320d2ed26bc137 a cssv:
 cssvrsc:62a4d389-c07d-4072-b63a-c738777f814d a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:629bdcdf6ffd2d15e817fc5617f4b7c7de4fcceacc7e8e746d941bc1d10ce23a ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:63094b24158a8c766a5659f3e6a82d7b1aabc82862abe3052377e21008c84f41 a cssv:Specification,
         owl:NamedIndividual ;
@@ -2609,7 +2609,7 @@ cssvrsc:6c793fd1d17062d9fd8edd8d37932cd56cb00840ae3ef37568ad77404230f05b a cssv:
 cssvrsc:6d456546-3cbf-4609-b75a-a19b93975649 a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:6d5f15d3694c6b3db3f8e473234a697578f623c25ec45201b2313edcfca0b9ee a cssv:Specification,
         owl:NamedIndividual ;
@@ -2840,7 +2840,7 @@ cssvrsc:759da1d5deb16402a0b61d54c1bd328fc19c7cfcfc33a25ff4092b01756d2604 a cssv:
 cssvrsc:75bb3f7b-e30f-479f-9509-1f5cb338c36e a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:4e861c13d7670c4d156ec32dce888532e647cc52ffcc3a1c13181175729c90b7 ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:75f4644e499649caf33b8aa091f6605db19c3b65ad5b5398f72d587a3dc72c66 a cssv:Specification,
         owl:NamedIndividual ;
@@ -3408,7 +3408,7 @@ cssvrsc:911dd53b0e88453103076c7fc81be239e33d5df3cc474c912549453b1666e4e4 a cssv:
 cssvrsc:91477e64-fc78-4292-823d-a24186dc3ea6 a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:3fa4f14bdd83e1d0ea9fcdfe81a9ad8a7b7dd37042e5f520425016263046ba9a ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:91b84692b5fb2a89efc859413d8d3dcfc3143933c385f38da13932af0592ec26 a cssv:Specification,
         owl:NamedIndividual ;
@@ -3482,7 +3482,7 @@ cssvrsc:9507d4ac72d66333e672b706dec4d4c278150753852ba3bb607554dc9bfb64f9 a cssv:
 cssvrsc:951c2de2-40e3-4b7e-af6d-d37fb2158bf2 a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:95632f502902a5902d8b5b16cf33e48be7b34f51ceeeb5002b516a6bf57da5b2 a cssv:Specification,
         owl:NamedIndividual ;
@@ -3527,7 +3527,7 @@ cssvrsc:968231b55cea91536c04cae69ff5043d55333be417f9bba5e121a9a8be49c581 a cssv:
 cssvrsc:969c2ffa-f102-4c80-a7b9-ef8a48f1613d a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:9744fcceaafbd98f7f0a8752b7fa1d5f9d852b99b5aa438d322188c2508c5dc1 a cssv:Specification,
         owl:NamedIndividual ;
@@ -3596,7 +3596,7 @@ cssvrsc:985060febbd0c7129afb8735db61f11ed728a4609d4103e0738c841230078d7d a cssv:
 cssvrsc:985d914a-4c6a-4bdf-80a0-ea3aaf7ff03a a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:99a1c59109fbb140de6894255d96f33d70d6a04373a38a3d1d418d3d534ecd67 ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:98c3d13b18280a476e72ae2316b6df1036f7ef0791b2c975f3b867b39a034821 a cssv:Specification,
         owl:NamedIndividual ;
@@ -3803,7 +3803,7 @@ cssvrsc:a4a7987e596ba4b307e31ac3ee5f8011e0bc7baf38f31bdda3122c2d25cd461e a cssv:
 cssvrsc:a546531b-8283-41c4-a36e-13381e9762b7 a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:32f0b4a6b0d75bb7ca172d51d442d67c5f2e39a6517d1c019b70cbfb4374b266 ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:a5741434cd7caa0e1b5b5b1d4d89d9fceccd894aeea9fb2ed7b0d669f24ebd4a a cssv:Specification,
         owl:NamedIndividual ;
@@ -3873,7 +3873,7 @@ cssvrsc:a79933fe7b7dc4a512d05d3b924a8ea4198a04a67a9280906589861824acf76a a cssv:
 cssvrsc:a88ec924-bd63-4e2a-aa40-19ee2c308a57 a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:0ea5970eb96f3b7439fff82de3cde75def20698632a7e5b4a4bc222b4fbfb32e ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:a8a3b7c669eb2bbcd0f9771431fb1aa7ec28ec91ee195254785a29598b9809f6 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4389,7 +4389,7 @@ cssvrsc:baa7200934577ac27c05830d6ed437d7dd40e9e6ea9b5152cbb1f444930b1955 a cssv:
 cssvrsc:bb1837d9-e697-4d80-b913-c2dc2330a70e a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:53444b83d9a4120c1bcd932711de6ea4ca16a27fed8622597f987c96d3e7aef0 ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:bb3b3d19c4f26de4a4ff58684fd43f3f2765b85d03198fa9cde5d67f96f7c49a a cssv:Specification,
         cssv:Standard,
@@ -5089,7 +5089,7 @@ cssvrsc:df23408dc85e78d7b35b0c0528e9f46c23005f6cb081727136a5b6523e3eb86d a cssv:
 cssvrsc:df3d7ef9-c473-4446-8cb0-62a0066aa4c9 a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    schema1:email "NaN"^^xsd:double .
+    schema:email "NaN"^^xsd:double .
 
 cssvrsc:df502be6cf0d0a68c7358be2bc8a66de5c0ed793696d5a09c8ab44e9b9faaac9 a cssv:Specification,
         owl:NamedIndividual ;
@@ -5511,7 +5511,7 @@ cssvrsc:eac80d18d00c07fc17567f3fa106420425e82feb933d55da39281d6cebc0b8fd a cssv:
 cssvrsc:eb459d1b-90e6-4cae-9fab-bd6ebd7f2b28 a schema:ContactPoint,
         owl:NamedIndividual ;
     schema:ContactPoint cssvrsc:6c1b650bbb0c62db6302de8b252e39c070c9c851bbd9b92cbf091420c0a48d86 ;
-    schema1:email "Elina Koskentalo, XBRL Finland: elina.koskentalo@tieke.fi" .
+    schema:email "Elina Koskentalo, XBRL Finland: elina.koskentalo@tieke.fi" .
 
 cssvrsc:eb4fd3bc764a569ed44dec18880280e26c18956ae35f8e59c25daebde27731d3 a cssv:Specification,
         owl:NamedIndividual ;
