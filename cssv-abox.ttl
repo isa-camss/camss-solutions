@@ -965,7 +965,7 @@ cssvrsc:249a50b70a47f517c5fbfbacd35fa8d509773ef16b58276fe4b50dc5c475604a a cssv:
         owl:NamedIndividual ;
     cssv:acronym "OWL2"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
-    dct:description "OWL2 is an initiative that focuses its efforts on providing design patterns for the development of Ontologies."@en
+    dct:description "OWL2 is an initiative that focuses its efforts on providing design patterns for the development of Ontologies."@en ;
     dct:title "Web Ontology Language (OWL2)"@en ;
     pav:version "2.0.0"^^xsd:string ;
     dcat:distribution cssvrsc:3ec4c2be-c6c9-4d75-bf31-78d1963bbfc8 ;
