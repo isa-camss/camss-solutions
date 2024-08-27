@@ -5825,7 +5825,7 @@ cssvrsc:f80fdcd27632e81bb3a152830fb9541330d762b3714731fd1eee03fdecf06f9a a cssv:
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    dct:description "System for Cross-domain Identity Management (SCIM) is a standard for automating the exchange of user identity information between identity domains, or IT systems."@en
+    dct:description "System for Cross-domain Identity Management (SCIM) is a standard for automating the exchange of user identity information between identity domains, or IT systems."@en ;
     dct:title "SCIM Core Schema"@en ;
     pav:version "22.0.0"^^xsd:string ;
     dcat:distribution cssvrsc:23a254b4-2a23-4e42-a2e6-6e6d399ba0f1 ;
