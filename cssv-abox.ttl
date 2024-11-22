@@ -5355,7 +5355,7 @@ cssvrsc:e5b93bfdb3252d290b8d69275202406c6a66d38f3b85d1afc7dd834d4e0c3085 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
-    dct:description "ETSI TS 119 512 specifies protocols for Trust Service Providers to provide long-term preservation of digital signatures and transactional data (unsigned or signed data), using digital signature technology."@en ;
+    dct:description "The ETSI TS 119 512 specification complements ETSI TS 119 511 and specifies protocols for trust service providers providing long-term data preservation services of digital signatures and of general data (i.e. unsigned data or signed data). ETSI TS 119 512 specifies protocols for Trust Service Providers to provide long-term preservation of digital signatures and transactional data (unsigned or signed data), using digital signature technology."@en ;
     dct:title "ETSI TS 119 512 Electronic Signatures and Infrastructures (ESI); Protocols for trust service providers providing long-term data preservation services"@en ;
     pav:version "1.1.2"^^xsd:string ;
     dcat:distribution cssvrsc:f4672b91-aead-44e4-868b-420a042b8f36 ;
@@ -8756,9 +8756,9 @@ cssvrsc:05d3bea192e6a2dd70da22d8906608a25d81d0eb3d0b816939f0bc919c9bca59 a owl:N
 
 cssvrsc:575cc4496d2a694fd62e9434f4e8302da9878a8d6ea3a30a8ff14e84743ff636 a owl:NamedIndividual,
         org:Organization ;
-    skos:altLabel "fireware.org"@en ;
-    skos:prefLabel "FIREWARE"@en ;
-    foaf:homepage "https://fireware.org/"^^xsd:anyURI .
+    skos:altLabel "fiware.org"@en ;
+    skos:prefLabel "FIWARE"@en ;
+    foaf:homepage "https://www.fiware.org/"^^xsd:anyURI .
 
 cssvrsc:b2a320f84cde17d39b6e60323ef64beede4cc6d3be6f72a6ac28ca5da507e98d a owl:NamedIndividual,
         org:Organization ;
@@ -8831,3 +8831,9 @@ cssvrsc:398ef5892979fec4a29c549250887cf6cffc5446b35fee6093b39a269119efa6 a owl:N
     skos:altLabel "Open Networking Foundation"@en ;
     skos:prefLabel "ONF"@en ;
     foaf:homepage "https://opennetworking.org/"^^xsd:anyURI .
+
+cssvrsc:c9dd7217cca42d11dc7c8521fde7ca6d292e232a9cd9832bad8b84a810a7d4d9 a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "Open Grid Forum"@en ;
+    skos:prefLabel "OGF"@en ;
+    foaf:homepage "https://ogf.org/ogf/doku.html"^^xsd:anyURI .
