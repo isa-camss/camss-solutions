@@ -5345,7 +5345,7 @@ cssvrsc:e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a a cssv:
         owl:NamedIndividual ;
     cssv:acronym "JPEG"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
-    dct:description "JPEG JFIF, which is what people generally mean when they refer to "JPEG", is a file format created by the Independent JPEG Group (IJG) for the transport of single JPEG-compressed images."@en ;
+    dct:description "JPEG JFIF, which is what people generally mean when they refer to 'JPEG', is a file format created by the Independent JPEG Group (IJG) for the transport of single JPEG-compressed images."@en ;
     dct:title "Joint Photographic Experts Group (JPEG)"@en ;
     pav:version "1.0.0"^^xsd:string ;
     dcat:distribution cssvrsc:1be7c870-fcc1-4852-a3b4-b9ef507bf9f4 ;
