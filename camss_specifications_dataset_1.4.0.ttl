@@ -9,10 +9,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-cssv:acronym a owl:AnnotationProperty .
-
-cssv:isMaintainedBy a owl:AnnotationProperty .
-
 cssvrsc:0046834e1507afcd215d2fb7801a4b53ed42dc81f370944e96c13738ac1ee102 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
@@ -23,6 +19,16 @@ cssvrsc:0046834e1507afcd215d2fb7801a4b53ed42dc81f370944e96c13738ac1ee102 a cssv:
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:00748d5c4bf3205488416caf1081c9f86265f6937ea7487b18d63710b7c233d0 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:629bdcdf6ffd2d15e817fc5617f4b7c7de4fcceacc7e8e746d941bc1d10ce23a ;
+    dct:description "Schema.org is a vocabulary that can be used with many different encodings, including RDFa, Microdata and JSON-LD. These vocabularies cover entities, relationships between entities and actions, and can easily be extended through a well-documented extension model."@en ;
+    dct:title "Schema.org v29.2.0"@en ;
+    dcat:version "29.2.0" ;
+    dcat:distribution cssvrsc:72106533-78aa-4c84-9803-4e8256bf2a48 ;
+    dcat:theme "Data Architecture"@en .
 
 cssvrsc:009448f391ffc456adcd392a2317e940f7b8d3393bf5e6df0a52c3f1e8aedc50 a cssv:Specification,
         cssv:Standard,
@@ -256,7 +262,7 @@ cssvrsc:070bc738b1189f7127e17cc433f6e1e9417f91f8b0858d90c8bbd4054170021c a cssv:
     cssv:isMaintainedBy cssvrsc:81f1302315032c452962ab3ba76aaf2e25facbde7d8c8776452baadef5627449 ;
     dct:description "The Fast Healthcare Interoperability Resources (FHIR) standard is a set of rules and specifications for the secure exchange of electronic health care data. It is designed to be flexible and adaptable, so that it can be used in a wide range of settings and with different health care information systems. In addition, the standard describes data formats and elements and an application programming interface (API) for exchanging electronic health records (EHR)."@en ;
     dct:title "Fast Healthcare Interoperability Resources (FHIR)"@en ;
-    dcat:distribution cssvrsc:3221f1bc663ff9ff407d7cb417a9b19705f394a5979a11a0a0db513f62454547 ;
+    dcat:distribution cssvrsc:ce9481ea-e298-4bee-a5df-c107432efc31 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "5.0.0" .
 
@@ -304,6 +310,17 @@ cssvrsc:088ecda1c81a62bb73536c28835ab1a3225e9e609308950756ff65847197344d a cssv:
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "3.0.0" .
+
+cssvrsc:089680e7222ccb31ea26492ea9046c31d2ca7eef90a36fe48a54abc4662739ad a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:016cfaecc57938bae17bba2342973db6591994bf3013eeec27113e825d8ef03f ;
+    dct:description "The CX-0006 specification is intended to establish the steps for the registration process within the Catena-X network. This registration service is offered by the Core Service Provider and helps organisations complete their registration process easily."@en ;
+    dct:title "CX-0006 Registration and Initial Onboarding v2.0.1"@en ;
+    dcat:version "2.0.1" ;
+    dcat:distribution cssvrsc:a9bf2536-656d-4beb-af88-c17523df1646 ;
+    dcat:theme "Data Architecture"@en,
+        "Technology Architecture"@en .
 
 cssvrsc:08dcfceb430258afca7c26e6347dbfe2ba85e8bfa280581c2aad246bc2ddf485 a cssv:Specification,
         owl:NamedIndividual ;
@@ -381,6 +398,17 @@ cssvrsc:0a542b23651b48e9f6021567e08284aa8ebcf021a74a440f76b6a9c734396530 a cssv:
     dcat:distribution cssvrsc:43f35e3e-e054-4a9e-a256-cd29759eeeeb ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:0b20d84fe402cde345d199f82abee4c0c80ba0b54a8af80aab8ce982cef2692d a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
+    dct:description "The Gaia-X Policy Rules Conformity Document aims to define the rules and conformity criteria for participants and services within the Gaia-X ecosystem. The purpose of these rules is to demonstrate Gaia-X's core European values, such as openness, transparency, data protection, security, and portability."@en ;
+    dct:title "GAIA-X Policy Rules Conformity Document"@en ;
+    dcat:version "23.10.0" ;
+    dcat:distribution cssvrsc:fa5989d3-819e-4da8-ae6f-58782a1a2ed4 ;
+    dcat:theme "Data Architecture"@en,
+        "Implementation Governance"@en .
 
 cssvrsc:0b319bf69d7a0413978bac35d8483f5b816fbda0e77c0291093cc3e6fe1bbae8 a cssv:Specification,
         owl:NamedIndividual ;
@@ -610,6 +638,30 @@ cssvrsc:12942011e3dbce66ff2eb098ac1c452a5bbb3ab2c7a7845cfa40284077be7110 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af a cssv:Specification ;
+    cssv:acronym "CLV" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
+    dct:description "Location, represented as an address, a geographic name, or geometry. This specification can be used as the foundation of a common export format for data in base registries."@en ;
+    dct:title "Core Location Vocabulary 2.0.0"@en ;
+    dcat:version "2.0.0" ;
+    dcat:distribution cssvrsc:a5939132-6f22-4a15-ad34-16d64944d4bd ;
+    dcat:theme "Data Architecture"@en .
+
+cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "CLV"@en ;
+    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
+    dct:description "The Core Location Vocabulary is a simplified, reusable and extensible data model that captures the fundamental characteristics of a location, represented as an address, a geographic name, or geometry. This specification can be used as the foundation of a common export format for data in base registries."@en ;
+    dct:title "Core Location Vocabulary"@en ;
+    dcat:version "1.0.0"^^xsd:string ;
+    dcat:distribution cssvrsc:cd7f827a-64c2-49ea-a869-16c4bc79c1d8 ;
+    dcat:theme "Data Architecture"@en .
+
+cssvrsc:cd7f827a-64c2-49ea-a869-16c4bc79c1d8 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://joinup.ec.europa.eu/release/core-location-vocabulary/100"^^xsd:anyURI .
+
 cssvrsc:1331c2c0a75eea8b5d5a413c0bebab78509bf1b0c3aa6fc8dd05c2ff0d5784cd a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "SLA4OAI"@en ;
@@ -710,7 +762,7 @@ cssvrsc:15ce31dd1e75f38268774bb631b05e2fbace171047215921da31e75d2270588d a cssv:
     cssv:isMaintainedBy cssvrsc:2b6de1326e1fa61562752256c54150944ec28a04926ea0f96f178888f112b0af ;
     dct:description "The Attribute-based access control (ABAC) specification, defines an access control paradigm whereby a subject's authorisation to perform a set of operations is determined by evaluating attributes associated with the subject, object, requested operations, and, in some cases, environment attributes."@en ;
     dct:title "Attribute-based Access Control (ABAC)"@en ;
-    dcat:distribution cssvrsc:10f7988092e0c385fc7227aca41048abaf8643c16eb5612ec6c3241bc9482415 ;
+    dcat:distribution cssvrsc:923c3ba5-500e-4cce-b0fa-f38ae02adaf9 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -766,7 +818,7 @@ cssvrsc:170bc48e6b7c1ceac10ea291cf5846f4974618de32c4d09abc66a29ec1227de2 a cssv:
     cssv:isMaintainedBy cssvrsc:1fd1bf86fa057ad7a48c6bc0510054d919a8a89c08583e4fb3ca94009e11eb27 ;
     dct:description "MSON is a plain-text, human and machine readable, description format for describing data structures in common markup formats such as JSON, XML or YAML."@en ;
     dct:title "Markdown Syntax for Object Notation (MSON)"@en ;
-    dcat:distribution cssvrsc:1adae231eaba463bebd245c408a3972334bfb796885cd906e86e9c852f26f2bf ;
+    dcat:distribution cssvrsc:ceb5b9e3-e02d-4b1b-b126-eae5edd70cbf ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
@@ -802,6 +854,17 @@ cssvrsc:17ef121c79a2af9c2fda71b7c5e8cab758d80d11360ac9ab544d87e2be009f1c a cssv:
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:18405d991d37278ddebcd6a92b30138fef82844c37c073806683094fb8e4ac94 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
+    dct:description "The ETSI EN 319 412-3 specification is designed to increase the interoperability and trustworthiness of certificate profiles across different countries by establishing a common method for creating them. In this context, the specification defines the requirements and attributes that a certificate must have."@en ;
+    dct:title "ETSI EN 319 412-3"@en ;
+    dcat:version "1.3.1" ;
+    dcat:distribution cssvrsc:c6060446-feb9-40d3-8eef-979cee25d443 ;
+    dcat:theme "Implementation Governance"@en,
+        "Technology Architecture"@en .
 
 cssvrsc:186c9d5a5460aa1951cb5ee95e889e9d0620fd22d962b38459f0074af4869f8d a cssv:Specification,
         owl:NamedIndividual ;
@@ -880,7 +943,7 @@ cssvrsc:19219acb5225c55079b6b46e21bbc6621331163dcf8087dc65ee4676d79c5a98 a cssv:
     cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
     dct:description "The AMQP Claims-based Security specification is an extension of the Advanced Message Queuing Protocol (AMQP) that defines an authorization mechanism based on claims-based security tokens. By leveraging claims-based tokens, the specification enhances security and flexibility in managing permissions and access rights."@en ;
     dct:title "AMQP Claims-based Security"@en ;
-    dcat:distribution cssvrsc:1d00510868414d759d13241d17ffab479e6458719d38c5eb5b44d81b15ccd7e4 ;
+    dcat:distribution cssvrsc:72e1d5d4-3c45-4f84-95f3-42c074a923b0 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
@@ -926,6 +989,16 @@ cssvrsc:1971151aa9a51d1ffebd8db8774b92f2d57f46bb05b9b6de8d056d16479f8ac2 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:1a6ced6aecc9c79cee78094bb207428bad9c02f70017455a2cf78e5e48a05c8d a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:016cfaecc57938bae17bba2342973db6591994bf3013eeec27113e825d8ef03f ;
+    dct:description "The CX-0007 specification defines the requirements for a tool designed to facilitate data exchange and access management by users. It promotes security and privacy in data handling and establishes mechanisms to control who can access shared data."@en ;
+    dct:title "CX-0007 Minimal Data Provider Service Offering v1.1.1"@en ;
+    dcat:version "1.1.1" ;
+    dcat:distribution cssvrsc:3e116935-372a-4df0-b0d7-b3ddd69431d6 ;
+    dcat:theme "Technology Architecture"@en .
+
 cssvrsc:1a7498f69820fb0fd55e3ca51b090872c45e0cf7cca42bd30e0a5331ae9a993d a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "SIOC"@en ;
@@ -941,7 +1014,7 @@ cssvrsc:1a8173a4057c4f0692a5b40a4e008aa27c12324df6c59b5e11635ec9e31afe38 a cssv:
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The eDelivery SMP (Service Metadata Publisher) profile provides a set of implementation guidelines for the OASIS SMP version 2.0 specification. In this context, the SMP specification defines an XML-based service metadata data model and a REST binding to retrieve service metadata."@en ;
     dct:title "eDelivery SMP - 2.0"@en ;
-    dcat:distribution cssvrsc:9963da80ef6a8b28056bc13321adef0e4d01d0672a0b6887733e90ab476b61a8 ;
+    dcat:distribution cssvrsc:f298ba69-2ab9-4720-b7d8-37eaa5426ee1 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "2.0.0" .
 
@@ -950,7 +1023,7 @@ cssvrsc:1aaece616295cfc1328fc41cc166ca74cdb0cb07d2a9973c09c6a2e694ee6ed8 a cssv:
     cssv:isMaintainedBy cssvrsc:20634a0bc1444eee6a3f292a9cc41253e6e0e26958fe1e796846c181dfc4f045 ;
     dct:description "APDEX is an open standard developed by an alliance of companies for measuring performance of software applications in computing. Its purpose is to convert measurements into insights about user satisfaction, by specifying a uniform way to analyse and report on the degree to which measured performance meets user expectations."@en ;
     dct:title "Application Performance Index"@en ;
-    dcat:distribution cssvrsc:55159e6db835c93aa0c3e443bd542e6739f7e34d4129e0acd2317f37e2f940c7 ;
+    dcat:distribution cssvrsc:2807628e-76b7-4e00-a32c-d25440afe2e5 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.1.0" .
 
@@ -1202,7 +1275,8 @@ cssvrsc:229422957c708d61404f3b2d2088f6d492e8c369fe4a55a4116fafcd12aa4dd1 a cssv:
     dct:description "CloudEvents is a specification for describing event data in common formats to provide interoperability across services, platforms and systems."@en ;
     dct:title "CloudEvents"@en ;
     dcat:distribution cssvrsc:7fd71cf4-c5a3-4b9d-b96a-416cb872e991 ;
-    dcat:theme "Technology Architecture"@en ;
+    dcat:theme "Data Architecture"@en,
+        "Technology Architecture"@en ;
     dcat:version "1.0.2" .
 
 cssvrsc:232931b6562845b27b9a5e2309768b0b645f89798c2f5004f7bbbada68013608 a cssv:Specification,
@@ -1356,7 +1430,7 @@ cssvrsc:280d7e348a562d904fa3a89578d60580e667fcbdb35890c65e40556cfc2490d5 a cssv:
     cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
     dct:description "The Event Stream Extensions for AMQP specification defines a set of extensions for the Advanced Message Queuing Protocol (AMQP) to facilitate interaction with event stream engines. These extensions include annotations for partition selection and filter definitions for indicating offsets into an event stream to which a link shall be attached."@en ;
     dct:title "Event Stream Extensions for AMQP"@en ;
-    dcat:distribution cssvrsc:a3ff6d24da327f4f4e42d8c60cdcfc2a2bf86a70549e759aadd63d5ee8787d18 ;
+    dcat:distribution cssvrsc:ef441164-0db0-4604-b3a3-bcee4ea4eaa1 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -1419,9 +1493,23 @@ cssvrsc:29d0e11f39637851673a42720653d25e6b2eaead425e7d5b0a5c9f28292a8cfa a cssv:
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Web Application Description Language (WADL) is an XML-based language designed to describe HTTP-based web services. It models the resources provided by a service and the relationships between them, aiming to simplify the reuse of web services that are based on the existing HTTP architecture of the Web. WADL is platform and language-independent, promoting the reuse of applications beyond basic web browser use."@en ;
     dct:title "Web Application Description Language (WADL) "@en ;
-    dcat:distribution cssvrsc:651ef730302868f315211e582a609815b2038cd4f46958c7f2165cecba3e8966 ;
+    dcat:distribution cssvrsc:6d738cfa-4a70-4662-8158-eddf9f0876fe ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:2a521d23323c60aba6c4b5313f96c1a87eb91353a8e2ee1f95ce0cfad3dc9045 a cssv:ApplicationProfile,
+        cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "CPSV-AP" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
+    dct:description "CPSV-AP is a reusable and extensible data model for harmonising the way public services are described in a machine-readable format. It captures fundamental characteristics of a public service, such as the name, description, competent public organisation, output, etc."@en ;
+    dct:title "Core Public Service Vocabulary Application Profile (CPSV-AP) 3.2.0"@en ;
+    dcat:version "3.2.0" ;
+    dcat:distribution cssvrsc:3954468d-17b8-42b7-8a2e-4e0816c15142 ;
+    dcat:theme "Business Architecture"@en,
+        "Data Architecture"@en,
+        "Technology Architecture"@en .
 
 cssvrsc:2a7a035c6f663d12152d8b3d42b0d3f7c014d1d4ff98f60cdf71911b25d9d53f a cssv:Specification,
         owl:NamedIndividual ;
@@ -1660,7 +1748,7 @@ cssvrsc:3007fa234804557ae13e980021a5513a93ff6782a3c0911ec59a0274ec85db36 a cssv:
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "This Core Accessibility API Mappings specification defines support that applies across multiple content technologies, including general keyboard navigation support and mapping of general-purpose roles, states, and properties provided in Web content via WAI-ARIA. Other Accessibility API Mappings specifications depend on and extend this Core specification for specific technologies, including native technology features and WAI-ARIA extensions. "@en ;
     dct:title "Core Accessibility API Mappings"@en ;
-    dcat:distribution cssvrsc:0a38293af2de6be06f562b6d60232337ca6d0855d9654ea1aec916a435707915 ;
+    dcat:distribution cssvrsc:dc42158a-13bd-4a1e-9f60-80130ca9e280 ;
     dcat:version "1.1.0" .
 
 cssvrsc:3094afb3fb1187242878fc6b5ffcd778febf1847d269600592df181100940fc2 a cssv:Specification,
@@ -1682,6 +1770,16 @@ cssvrsc:3138d6dd5d17444fe9146b3224c89363c57565d72a4e5deeff23d8858e68b05d a cssv:
     dcat:distribution cssvrsc:45e17ce2-dc9b-45c3-805c-a023a2b5109d ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:319b94ba551dff5570f3aa41bad79c7b4899464b5f05ce7d1f3775a2352beae9 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
+    dct:description "ETSI EN 303 645 specifies high-level security and data protection provisions for consumer IoT devices that are connected to network infrastructure (such as the Internet or home network) and their interactions with associated services."@en ;
+    dct:title "Cyber Security for Consumer Internet of Things Baseline Requirements (EN 303 645 3.1.3) "@en ;
+    dcat:version "3.1.3" ;
+    dcat:distribution cssvrsc:668caa50-b4b1-4afc-a0c3-cf1ff02e516d ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1756,6 +1854,16 @@ cssvrsc:32e27d01a59f153659ba74f97ec03ba4d1beaf7b23bed4d2d1433a1ca5c8cd66 a cssv:
     dcat:distribution cssvrsc:f7ea3614-82ce-4548-907a-07caddbfe5ee ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "18.6.0" .
+
+cssvrsc:32fd5de817427798a150d7ca7ce2fdde0b42340ebd4193ffb35fdc78e775a993 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:a4f4f4a73f9a5d109629f53c792ccf9c303f493e06e47d4d5bf9c1eee7ce3107 ;
+    dct:description "The IDSA Rulebook serves several purposes regarding the development and operation of data spaces. The aim is to describe clearly which rules are mandatory and which are optional guidelines. This governance framework includes functional, technical, operational, and legal dimensions."@en ;
+    dct:title "IDSA Rulebook"@en ;
+    dcat:version "2.0.0" ;
+    dcat:distribution cssvrsc:aacb8f71-b0e2-4850-86cc-7adc3974ff36 ;
+    dcat:theme "Data Architecture"@en .
 
 cssvrsc:330bb859c462979ab0a44327c5388e452914167fa2656b798ca6f204e026c348 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1879,7 +1987,7 @@ cssvrsc:34f7f3c04b048748001c49b60cb45a2e764ec17e1dc486be1bc1d05cdffc1b27 a cssv:
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "OWL-S is an OWL-based Web service ontology, which supplies Web service providers with a core set of markup language constructs for describing the properties and capabilities of their Web services in unambiguous, computer-interpretable form."@en ;
     dct:title "OWL-based Web Service Ontology (OWL-S)"@en ;
-    dcat:distribution cssvrsc:40c47b1fc24aa65d27c7f8deb7e1251e552718ed04d90844120586144ec181fe ;
+    dcat:distribution cssvrsc:d198f289-f5ce-4453-9d11-9c9dd9581490 ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -1980,6 +2088,16 @@ cssvrsc:36494a9584ee1783bca7c324d4ad28d012c2919890f9efdb1c151a7869029632 a cssv:
     dcat:distribution cssvrsc:6dd242b8-8629-4cad-98a7-51fa983786ce ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "None" .
+
+cssvrsc:3665dab2bbd00e1738ac4265d4059f8cd57fc981eafb242082cdbfa91a32979d a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
+    dct:description "ISO/TS 10020:2022 provides guidance on the processes that organisations can use to govern, manage, and implement organisational change management (OCM). This applies to various contexts, including the organisation as a whole, specific projects, or smaller activities."@en ;
+    dct:title "ISO/TS 10020:2022 Quality management systems - Organizational change management - Processes"@en ;
+    dcat:version "1.0.0" ;
+    dcat:distribution cssvrsc:80055502-4c70-4c47-852b-80a9e1078983 ;
+    dcat:theme "Implementation Governance"@en .
 
 cssvrsc:3738e9e2-7c7b-49e9-b7f7-a80f7b8948f0 a owl:NamedIndividual,
         schema:ContactPoint ;
@@ -2191,7 +2309,7 @@ cssvrsc:3faff356f6aa85371f46b8ba6d13998ad72859e0d1331af307e6e5fe42ce71cb a cssv:
     cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
     dct:description "The AMQP Filter Expressions specification defines a syntax for creating filter expressions used within the Advanced Message Queuing Protocol (AMQP). Filter expressions are designed for use in AMQP applications (or in other specifications) that require durable or ephemeral configuration of message filters."@en ;
     dct:title "AMQP Filter Expressions"@en ;
-    dcat:distribution cssvrsc:410105ddfd0e478d702553c1eafacc75200d661e77f595ab5531c0ba9fd21bab ;
+    dcat:distribution cssvrsc:b221cc78-cedc-4b48-a1d5-ad62e67ded15 ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -2204,6 +2322,16 @@ cssvrsc:3fc687b8bc43b5a6b0e9d2347e320c5addf8e437371721edd1ac7bd30da8117d a cssv:
     dcat:distribution cssvrsc:fdf9c046-8717-4bb8-b7c5-5252cff6ff53 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:3fc922d18f9883b99853ce330d82aa7dd490f7ef261ec52fee86869c528e7080 a cssv:Specification ;
+    cssv:acronym "GXFS CAM " ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
+    dct:description "The GXFS CAM specification is intended to ensure that services within the GAIA-X ecosystem comply with various requirements and rules, including those related to security, privacy, and transparency, among others. In this context, the specification's main function is to provide up-to-date information about the status of services with respect to these aspects."@en ;
+    dct:title "GAIA-X Federated Services Continuous Automated Monitoring Compliance Specification (working draft)"@en ;
+    dcat:version "working draft" ;
+    dcat:distribution cssvrsc:3a01df9b-8e5f-4f6c-b1c3-70203967df19 ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:4032a0cea857869c05ee28217e3501ddf0e48d7a641752dd61b6d6a634b2fc79 a cssv:Specification,
         owl:NamedIndividual ;
@@ -2325,7 +2453,7 @@ cssvrsc:44f1bdffd784bbc0a93d05ae169fd1a3965afa3abd9b6ba7b40ebccd9282d2d5 a cssv:
     cssv:isMaintainedBy cssvrsc:3ccd5eb4c630bce8cc7e1adee15bd015260a39fda75e5abb4a6ac2c6bb76119f ;
     dct:description "SPDX is an open standard for communicating software bill of material information, including provenance, license, security, and other related information. SPDX reduces redundant work by providing common formats for organisations and communities to share important data, thereby streamlining and improving compliance, security, and dependability."@en ;
     dct:title "Software Package Data Exchange (SPDX)"@en ;
-    dcat:distribution cssvrsc:a64e8f4342c06bf005c7003a78b43ec395bda1505b9433fe8a2c317179b5a17b ;
+    dcat:distribution cssvrsc:0dcc3283-62dd-4b70-8f9a-d3d735dde3df ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "3.0.0" .
@@ -2349,6 +2477,16 @@ cssvrsc:46686dc0ef5e64da788fbdb188bf9adeacb04109ebe59d1af30b582744b1c07d a cssv:
     dcat:distribution cssvrsc:439d6b82-ee79-42fa-89a4-01ca09c73d70 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.3.0" .
+
+cssvrsc:47273f589d4fd472183a53fe60cbf9e2824d28b55c1ffda26afeb3b4c2fe30e0 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
+    dct:description "ISO/IEC 29500-3:2015 provides the rules and guidelines for building Office Open XML (OOXML) documents that can evolve over time and be extended by different applications while still maintaining a reasonable level of interoperability."@en ;
+    dct:title "Office Open XML File Formats Part 3: Markup Compatibility and Extensibility"@en ;
+    dcat:version "4.0.0" ;
+    dcat:distribution cssvrsc:80183279-2819-4480-aa42-acf60bcddff0 ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:4790d18b96a6564b106905fab5296edfd85ee0214989fe581480fffd0980ce65 a cssv:Specification,
         owl:NamedIndividual ;
@@ -2380,6 +2518,16 @@ cssvrsc:481883335f8d6b160676964f78b5a09d6f7f0bab08f0582c62adadff95706243 a cssv:
     dcat:distribution cssvrsc:c39b7f36-74ad-40b5-b2c1-cd5f217002be ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "5.0.0" .
+
+cssvrsc:48437f93739cc7174430c3c368a82f20a2292ae03d39732fdb6d9fe9d89bcd70 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:8ad80837b063c67c6595f2ad3511ac09a4acde43487247369118a71c2ecab448 ;
+    dct:description "The Data Distribution Service (DDS) specification is a middleware protocol that enables real-time, high-performance, and scalable data exchange. The specification operates using a publish-subscribe pattern, allowing users and organisations to seamlessly share information across distributed systems."@en ;
+    dct:title "Data Distribution Service (DDS)"@en ;
+    dcat:version "1.4.0" ;
+    dcat:distribution cssvrsc:837350b2-12a8-4d7a-b3f8-dbe6d75c7fdc ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:485408399b7aa98aa3d1622ae2ca8e34ef5803bca01a4d696b63fff17d7dc8aa a cssv:Specification,
         owl:NamedIndividual ;
@@ -2633,6 +2781,16 @@ cssvrsc:501b3f4af1f8c60c0a97be87156ea16a796c318f0083ca5700916e0f3c87e3bc a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:504bd13a4c26c1ce656ab26a3d62e9bcfd26c4172a0a8ed4ea2e6d782fffaa51 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
+    dct:description "Domibus is the Open Source project of the AS4 Access Point maintained by the European Commission. It is a sample software implementation that follows the AS4 profile developed by e-SENS. It can be used to familiarise oneself with this profile in a testing environment or as a functional solution in production."@en ;
+    dct:title "Domibus v5.1.7"@en ;
+    dcat:version "5.1.7" ;
+    dcat:distribution cssvrsc:d2eeb184-b7d2-4dec-8a74-13dfb7577bbc ;
+    dcat:theme "Technology Architecture"@en .
+
 cssvrsc:50b32f1fad914db34b88384432aa97c38bd953faded1b1c1d2068771b3711187 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
@@ -2669,7 +2827,7 @@ cssvrsc:51817b4394299c5ce7ca106fa2d4c27ae1a00999ee3cdf355d1a37e51135096a a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The PKCE specification is an extension to the Authorisation Code Flow designed to enhance security for public clients, such as native and single-page applications, which cannot securely store a client secret. PKCE mitigates the risk of authorisation code interception attacks by introducing a dynamically generated secret that is verified by the authorisation server."@en ;
     dct:title "Proof Key for Code Exchange (PKCE)"@en ;
-    dcat:distribution cssvrsc:12cdb85cdc1dd76e3e05940e12a1d13f95a1a665315e8699b260773d6f190853 ;
+    dcat:distribution cssvrsc:8ec2f0da-4253-4540-8e26-bfc9114d2eaf ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -2709,7 +2867,7 @@ cssvrsc:51fe6c22eb66ec744fe3ce6605ab0602ea45c7d0560c513af1a996069d52ce35 a cssv:
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The SHACL Shapes Constraint Language specification is a language for validating RDF graphs against a set of conditions. These conditions are provided as shapes and other constructs expressed in the form of an RDF graph."@en ;
     dct:title "Shapes Constraint Language (SHACL)"@en ;
-    dcat:distribution cssvrsc:8c25f54d7f19bb43d2a7f21efd50249ec732d16e08435007d733a6d7032c852e ;
+    dcat:distribution cssvrsc:9996db4c-b952-4e94-90bc-545153a01d92 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.2.0" .
 
@@ -2770,7 +2928,7 @@ cssvrsc:5502c5d865af0e4e779010616bf4e93db5530d0d15350e37c2cb02bb41d1a3e7 a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 8288 specification defines a model for the relationships between resources on the Web (links) and the type of those relationships (link relation types). It also defines the serialisation of such links in HTTP headers with the Link header field."@en ;
     dct:title "IANA Link Relations (RFC 8288, Web Linking)"@en ;
-    dcat:distribution cssvrsc:4be37fb10bf3f3e32b561436d23ed9d6ea0d4389aeaba7db1f89cadc15ac68ad ;
+    dcat:distribution cssvrsc:40ecfc9f-b7a5-45bc-8c0e-9b9093aa0a3f ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -2856,6 +3014,17 @@ cssvrsc:57f94ddc093ddc32cd79221ba6fbf6b61410ae60aff1127417ec2325354aff18 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:5847bc029f2ee4b773c8cdff71b6a8469f44c6249801448496530f8d4f4dfe42 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
+    dct:description "The OAIS specification establishes a system for long-term information preservation that provides a conceptual framework for understanding, describing, and comparing archival systems and digital preservation strategies. In addition, it primarily focuses on ensuring the longevity and accessibility of digital materials."@en ;
+    dct:title "OAIS v3.0.0"@en ;
+    dcat:version "3.0.0" ;
+    dcat:distribution cssvrsc:9125b309-6530-44dc-8823-529662bb722e ;
+    dcat:theme "Data Architecture"@en,
+        "Technology Architecture"@en .
+
 cssvrsc:5873e78303cf81c2b9a93061b0e64063a70a81c294154b325d95eb12c14c26bd a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "WebRTC"@en ;
@@ -2898,6 +3067,16 @@ cssvrsc:5a81dd874f6ef2c75576b4c7594373c802831daf20243c70d0459ed71ca09a8c a cssv:
         "Technology Architecture"@en ;
     dcat:version "14.0.0" .
 
+cssvrsc:5ac09b8c2f80f95726ddfe68e38ea5d6de7fc161487922747f09ecada87ddfb4 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "SFTP is a simple file transfer protocol. It fills the need of people wanting a protocol that is more useful than TFTP but easier to implement (and less powerful) than FTP.  SFTP supports user access control, file transfers, directory listing, directory changing, file renaming and deleting."@en ;
+    dct:title "Secure File Transfer Protocol (SFTP)"@en ;
+    dcat:version "Sep 1984" ;
+    dcat:distribution cssvrsc:5d682156-621a-426a-8d31-b983e79013ac ;
+    dcat:theme "Technology Architecture"@en .
+
 cssvrsc:5b0b645a72a6bb11f824f8676641a5df6ded08836957c9827e5aa8358f6f777c a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "STIX"@en ;
@@ -2924,7 +3103,7 @@ cssvrsc:5b49cc24ed5f6ea574fa9d078ebb7436853742825869addf4c4a5f939f7f79d9 a cssv:
     cssv:isMaintainedBy cssvrsc:46dd3767104f09eb183bc88da66d9a2140ad47b97c6e40a2976eb25f8d556c48 ;
     dct:description "The API Blueprint specification is essentially a set of semantic assumptions laid on top of the Markdown syntax used to describe a web API. In this sense, it allows for defining APIs in a format that is easy for humans to read while also ensuring that machines can process the documentation."@en ;
     dct:title "API Blueprint"@en ;
-    dcat:distribution cssvrsc:de844b2e909ee961fdcc1e67ef9e42aa23ba6188b6ca1a99ddc28ae3f64e93c4 ;
+    dcat:distribution cssvrsc:a54e56e7-bd5b-4724-a937-cc5dadcfa688 ;
     dcat:version "1.0.0" .
 
 cssvrsc:5b74bd3147b4848bbffdf2b72b231eb4fcff0e3e35e4b780f650a8783e9a4b8e a cssv:Specification,
@@ -2946,7 +3125,7 @@ cssvrsc:5bf552445ceeeda2fe3734b7a173608a5e818f868e5761012739a3ddadc6bbd7 a cssv:
     cssv:isMaintainedBy cssvrsc:2379b80f86b1dca368b2f1df75af2431d7d9a30aa7072ee434fa3ce551d10706 ;
     dct:description "JSON-RPC is a simple, stateless, transport-agnostic remote procedure call (RPC) protocol that uses JSON as its data format."@en ;
     dct:title "JSON-RPC"@en ;
-    dcat:distribution cssvrsc:237728dc7195bc7193a0eed8eaeae50fe5e3ad3255ea8df5c91c7759d4a33087 ;
+    dcat:distribution cssvrsc:10ab8c6e-5dbd-4da3-8880-a90cd2b097dd ;
     dcat:version "2.0.0" .
 
 cssvrsc:5c3923b48746bc172a1ee1269ff418b4e519c4f36d1d1e10aeeed480c135635d a cssv:Specification,
@@ -3217,7 +3396,7 @@ cssvrsc:6577a95cdfbb93fded69592fecefc9716b8e9b62b2fff708b91df111cb39b4c5 a cssv:
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Hydra Core Vocabulary specification is a lightweight framework designed to create hypermedia-driven Web APIs. It defines a set of concepts commonly used in Web APIs, such as hypermedia controls and collections, enabling the creation of generic API clients. By providing machine-readable affordances, Hydra allows APIs to be more dynamic and self-descriptive, facilitating better interaction between clients and servers."@en ;
     dct:title "Hydra Core Vocabulary"@en ;
-    dcat:distribution cssvrsc:7cb41b74242cacd41a36550b189c3ac14924569e7b54e35fb8bdb20ecdf23421 ;
+    dcat:distribution cssvrsc:e2c04506-8292-4675-93ed-49b7bb4470eb ;
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en ;
     dcat:version "1.0.0" .
@@ -3314,6 +3493,16 @@ cssvrsc:6aac027574e261aff04dda72e050d4736e9b6c8b022b626c597e0ff37ca1153c a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:6b92fe898d154fc9bdae27f7bbd2220533f9997c1800c9254626a9bbfad96686 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
+    dct:description "The GXFSv2 ICAM specification is intended to implement certain authentication and authorisation functions. In this context, it aims to define the mandatory technical components required to enable authentication and authorisation using Self-Sovereign Identity (SSI) concepts."@en ;
+    dct:title "GXFSv2 ICAM"@en ;
+    dcat:version "24.7.0" ;
+    dcat:distribution cssvrsc:80189733-2833-4fad-926c-4c73713fe758 ;
+    dcat:theme "Technology Architecture"@en .
+
 cssvrsc:6b9a5567ca4884b7a28c6bae41b4356429c4bc8043c37ce3f2e7fe7b78fffa44 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
@@ -3331,7 +3520,7 @@ cssvrsc:6b9c9874012cfacc05bf93f94180b03481bb2bf3adef1ebe61cb9bbb423f4cc5 a cssv:
     cssv:isMaintainedBy cssvrsc:279c747b0c68af630a00f94f91bbdc97dc30e63a45a8b1dbd39c2b89949d50d6 ;
     dct:description "The Reactive WebSocket application profile enables full-duplex communication between client and server, generally used in web applications where the client and server need to exchange events at high frequency and with low latency.  Spring Framework 5 has modernised WebSockets support in the framework, adding reactive capabilities to this communication channel."@en ;
     dct:title "Reactive WebSocket"@en ;
-    dcat:distribution cssvrsc:c183fbf03a0aac66164c9bde9819bc35e2371ed9301fb81680ffa3db91a361a8 ;
+    dcat:distribution cssvrsc:dce5bb1d-e7d0-4f36-b621-5d74351e4162 ;
     dcat:version "1.0.0" .
 
 cssvrsc:6bf6a6f55bd4d025a45177e6c6121588032bd377ad432952156b8b3d3f3a6f5f a cssv:Specification,
@@ -3363,6 +3552,16 @@ cssvrsc:6c793fd1d17062d9fd8edd8d37932cd56cb00840ae3ef37568ad77404230f05b a cssv:
     dcat:distribution cssvrsc:650c9842-fad9-42fc-8f81-021f0538cfe5 ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:6ce01c099ee9d575af9a0f7408690e704182728163a54969da7402f6ba7e4a8d a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "The Constrained Application Protocol (CoAP) specification is designed to facilitate communication and data exchange between constrained devices and networks. In this context, the protocol can be useful in scenarios such as smart homes and intelligent wearables, among others."@en ;
+    dct:title "Constrained Application Protocol (CoAP)"@en ;
+    dcat:version "Jun 14" ;
+    dcat:distribution cssvrsc:147cf544-c59c-49f3-83b2-e2382c900915 ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:6d456546-3cbf-4609-b75a-a19b93975649 a owl:NamedIndividual,
         schema:ContactPoint ;
@@ -3579,6 +3778,17 @@ cssvrsc:72e4dd491ecc447eeea1bb8dc297ae0370a8a2eeb91aff19020fa174db2b40ac a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.2.0" .
 
+cssvrsc:73b2af6cb530611b74e4ec3ee7fa1e11b45bf7512db6bbf5823bf45e78165696 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:c9ce83f306e5cb328a4784fc2a665c3dd62b37fc5e260f37c42883f9d87179ed ;
+    dct:description "The CloudEvents specification is designed to foster interoperability between organisations when exchanging event data. The specification, allows to descibe data in a common format, offering a better portability and providing interoperability. "@en ;
+    dct:title "CloudEvents v1.0.2"@en ;
+    dcat:version "1.0.2" ;
+    dcat:distribution cssvrsc:a79fa8bb-854a-47ee-8862-c2b87507f91e ;
+    dcat:theme "Data Architecture"@en,
+        "Implementation Governance"@en .
+
 cssvrsc:73b7782e8c0a77d8020d17b1ac45638bb6b383b8d17a195d980ef37eae9d7737 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
@@ -3674,6 +3884,17 @@ cssvrsc:76561e651b1eba274958bcd8670df0dd02469b18b963f1d6a8314db1301be5db a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.1.1" .
 
+cssvrsc:77302b2a76c8936b97999978123c6a7aa997aba66fe86a129790229cfa605ba9 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:9634df7e495ec3507f94dbec101796170fe01d77c02a1fe8793ee7b88d9dfc69 ;
+    dct:description "The Open Archives Initiative Protocol for Metadata Harvesting (referred to as the OAI-PMH) provides an application-independent interoperability framework based on metadata harvesting."@en ;
+    dct:title "Open Archives Initiative Protocol for Metadata Harvesting OAI-PMH"@en ;
+    dcat:version "2.0.0" ;
+    dcat:distribution cssvrsc:d8f3dc87-6128-4687-982d-a10f17d024f1 ;
+    dcat:theme "Data Architecture"@en,
+        "Technology Architecture"@en .
+
 cssvrsc:77b3dc6b1acadbf0df4f8682590683d77594ebf5f4883c5d680432bed1f0a3db a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
@@ -3699,7 +3920,7 @@ cssvrsc:78d61d2335d5faa7446ae94d457e58df4adb4a73c987053ef5b03ff92e21221f a cssv:
     cssv:isMaintainedBy cssvrsc:f31249135b41f9aa66e7d6911a0cf4361484027fbda9a6d9dca8ceffb9238bce ;
     dct:description "RAML is a language for the definition of HTTP-based APIs that embody most or all of the principles of Representational State Transfer (REST). The RAML specification is an application of the YAML 1.2 specification. In this sense, the RAML specification provides mechanisms for defining practically-RESTful APIs, creating client/server source code, and comprehensively documenting the APIs for users."@en ;
     dct:title "RESTful API Modeling Language (RAML)"@en ;
-    dcat:distribution cssvrsc:75e59ac66f766785c7782d3ad9652759bc9a75866197fd28d1794052a43490a7 ;
+    dcat:distribution cssvrsc:a2dcaa2f-2b9b-4df6-ab79-0eef3dcc7fd6 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -3834,6 +4055,16 @@ cssvrsc:7d4ee223b826860079ff5d77a49cb9affd0d2a2a6fd1f5374037a43b804eda25 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "4.0.0" .
 
+cssvrsc:7de0a5164030180b7d2d9416663a70a9b7352172f022de45faaad76224fcaff4 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
+    dct:description "The GXFS Authentication/Authorization specification describes the functions, restrictions, and technical requirements for authentication and authorisation, emphasising integration with existing IAM systems using standard protocols such as OpenID Connect and OAuth2. The key focus is on incorporating Self-Sovereign Identity (SSI) functionality."@en ;
+    dct:title "GXFS Authentication/Authorization"@en ;
+    dcat:version "1.0.0" ;
+    dcat:distribution cssvrsc:761b674b-300d-441c-a960-6c4bb6e81ef7 ;
+    dcat:theme "Technology Architecture"@en .
+
 cssvrsc:7e5b582a3c74cd4e83996b52e8e97cd8f344bc4cd5b318d2f0aae9c48ecb0307 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
@@ -3849,7 +4080,7 @@ cssvrsc:7e78b5f3def0a23bfadb861f3d71b4f3cb672b9cebda15379a55a01d2b4c7efa a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 6585 specification adds extra HTTP status codes to improve communication between servers and clients. These codes help handle specific situations like requiring certain conditions before processing a request, indicating too many requests have been sent, dealing with overly large request headers, and needing network authentication."@en ;
     dct:title "Additional HTTP Status Codes (RFC 6585)"@en ;
-    dcat:distribution cssvrsc:beffa1573937c4e4a576d5145acd19234a8d6a77ea412462017f71253904e89e ;
+    dcat:distribution cssvrsc:1c0d040d-8551-4d2e-aebe-7e4311dee57f ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -3995,7 +4226,7 @@ cssvrsc:836a6233b47faa7042272c870db4cfa50e3c21868d852e142e4f8656c0635561 a cssv:
     cssv:isMaintainedBy cssvrsc:38670c19d5ed998a3896f7dd55d5644b3622402d5375b41612541112e3be3e61 ;
     dct:description "The REST API Standard (RAPIS) is a proposed specification for designing REST APIs. It aims to provide a structured approach to API design, ensuring consistency and best practices across different implementations."@en ;
     dct:title "REST API Standard (RAPIS)"@en ;
-    dcat:distribution cssvrsc:9cc924c8780ce34c05d2477f1e0bddd22656cec5e26a427303eff4e1823ca122 ;
+    dcat:distribution cssvrsc:31d059d4-1edf-4e12-bf6f-cae35b1073dc ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -4064,6 +4295,16 @@ cssvrsc:853a6e4f2ac85b56d15900142e8b431d57583ee4d18e5fd3354e9868de6d0649 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.1.1" .
 
+cssvrsc:8549bde59ca1362f98d46e1738eee5b30f393917342c0e58328ab0dfbedfd237 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
+    dct:description "The ISO/IEC 29500-4:2016 primary goal is to ease the adoption of OOXML by ensuring a degree of compatibility and enabling a smoother migration process for users and applications that previously relied on binary formats."@en ;
+    dct:title "Office Open XML File Formats Part 4: Transitional Migration Features"@en ;
+    dcat:version "4.0.0" ;
+    dcat:distribution cssvrsc:244ad7f8-e27c-4be7-be53-23b37317c8de ;
+    dcat:theme "Technology Architecture"@en .
+
 cssvrsc:85673d368ea830701dbd3ffe667934556f8ca6d498af62f835dd649262a6a89a a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
@@ -4092,7 +4333,7 @@ cssvrsc:86421401918a869117b7f7fe6d795b07809f91d1dd6c59b817dc6315a7e6a9ea a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "WebFinger uses standard Hypertext Transfer Protocol (HTTP) methods over a secure transport to discover information for a URI that might not be usable as a locator otherwise, such as account or email URIs"@en ;
     dct:title "WebFinger protocol"@en ;
-    dcat:distribution cssvrsc:7fdc1de93f8a34ce2a13220e683f96cd3fbbb6b9aee47633e5872094c92b6635 ;
+    dcat:distribution cssvrsc:1e3bf6d5-ddf1-4dfa-8b01-39c38d9555de ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -4107,12 +4348,22 @@ cssvrsc:865cefb01ca8e8280d9c4751f0ba71d66cb6925ed1987c4c4f53e078b1703eca a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "None" .
 
+cssvrsc:86e15b12ccc6ef6ccd012a2ef9882e1dd2b03d4819d87ed646299f261c1e71e2 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:336101138d3a4c4f5ecf48f99f9f856737b791134d4d0aa70c52c6e21767c4fa ;
+    dct:description "The JSON-stat format is a simple lightweight JSON format for data dissemination. It is based in a cube model that arises from the evidence that the most common form of aggregated data dissemination is the tabular form. In this cube model, datasets are organised in dimensions. Dimensions are organised in categories."@en ;
+    dct:title "JSON-stat Dataset Format"@en ;
+    dcat:version "2.0.0" ;
+    dcat:distribution cssvrsc:1c9a04ae-199f-4d21-b55b-07cad4345090 ;
+    dcat:theme "Data Architecture"@en .
+
 cssvrsc:87d636d50fea4f3267d2993f5f15fcb633c9b411f6201fe08b270c556c09534e a cssv:Specification,
         owl:NamedIndividual ;
     cssv:isMaintainedBy cssvrsc:18a60d4b69cb324719fc4c271f4fabb940910967261c46746b150081ed2d26d7 ;
     dct:description "Avro is a row-oriented remote procedure call and data serialisation framework developed within Apache's Hadoop project. It uses JSON for defining data types and protocols, and serialises data in a compact binary format."@en ;
     dct:title "Apache Avro"@en ;
-    dcat:distribution cssvrsc:a4687bbbe4823547ed347256346a172b302b7316bed7170f56a69cf12b8dd1a9 ;
+    dcat:distribution cssvrsc:4ea5ac61-2a5b-4b09-ae5d-4aa96adcf670 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.12.0" .
 
@@ -4167,6 +4418,17 @@ cssvrsc:89a1f6f39df338480a37da0fe1061844311b1a0df47ef118740126147685fc53 a cssv:
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
     dcat:version "5.0.0" .
+
+cssvrsc:75e66e68436f77c638b9793293bd4d44046f2752e333f86db44a6dc3edb73d78 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "EIRA"@en ;
+    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
+    dct:description "The European Interoperability Reference Architecture (EIRA©) is an architecture content metamodel defining the most salient architectural building blocks (ABBs) needed to build interoperable e-Government systems. The EIRA© provides a common terminology that can be used by people working for public administrations in various architecture and system development tasks."@en ;
+    dct:title "European Interoperability Reference Architecture (EIRA) v6.1.0"@en ;
+    dcat:distribution cssvrsc:ed98b016-d489-4cc2-9ca0-dea07d0ba18d ;
+    dcat:theme "Implementation Governance"@en,
+        "Technology Architecture"@en ;
+    dcat:version "6.1.0" .
 
 cssvrsc:89b586243efc375b64830c6b29be46357c67975d881a7612e648e783a8f3d030 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4238,7 +4500,7 @@ cssvrsc:8d031fe1857ec129ffbbcd2074f28f5237921438af0c4ee526a35398afef5d35 a cssv:
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Linked Data Event Streams (LDES) is a technical standard that applies linked data principles to data streams. It allows data to be exchanged between silos sustainably and cost effectively using domain-specific ontologies for fast and slow data streams. "@en ;
     dct:title "Linked Data Event Streams (LDES)"@en ;
-    dcat:distribution cssvrsc:32a406bf1fa6daed1cd9d5840fb9b8b010297dbdb83b0c0fc316247e7414023c ;
+    dcat:distribution cssvrsc:5bdf4df0-3530-468f-9509-4699f9b35222 ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "2.0.0" .
@@ -4284,6 +4546,16 @@ cssvrsc:8e0e44174d80fd53a6007b49e39d22186c76e67f6750545e9c383beca16edd38 a cssv:
     dcat:distribution cssvrsc:f800b7b6-e721-4e83-9adf-1d4c90e3429f ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.1.0" .
+
+cssvrsc:8e67f8b2a6bc993d9a543529f61b1e7dbf347b40a14948562e65ca9560f6eede a cssv:Specification ;
+    cssv:acronym "GXFS DELS" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
+    dct:description "The GFXS DELS specification is designed to verify and record every step from data delivery to its reception by the consumer. It enables the registration of which data has been sent and supports auditing and tracking of the entire process. This helps ensure compliance with data usage policies."@en ;
+    dct:title "GAIA-X Federated Services Data Exchange Logging Service (GXFS DELS) working draft"@en ;
+    dcat:version "Working draft" ;
+    dcat:distribution cssvrsc:a6d0eae0-fda2-4c5e-8be6-edcbaa37b2d1 ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:8eb93f554a3440a30b522cf4f0f9f6800045bf0b2741c518fab12bac16ca84c6 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4379,7 +4651,7 @@ cssvrsc:919440aa011c9595594db32b1f1a23efb640a86d0157011eef148e3eaae693f2 a cssv:
     cssv:isMaintainedBy cssvrsc:9b720c7c045589425b5858f4f0dcfcb5fd8ac0a1a743ebfb9a8cf04bffa2f324 ;
     dct:description "Collection+JSON combines the data format and the associated semantics into a single media type, simplifying the implementation and usage of APIs. It supports Query Templates, allowing clients to perform parameterised queries on collections, enabling dynamic querying based on client-specified parameters. Additionally, Collection+JSON includes a Write Template, which provides expanded write support, allowing clients to create, update, and delete items within a collection."@en ;
     dct:title "Collection+JSON"@en ;
-    dcat:distribution cssvrsc:672cba85e224f718c90b8c441bd2a7ea9dd73c6e610484c46793c8dd3345272b ;
+    dcat:distribution cssvrsc:94b348bb-b595-4b01-b5bc-91fd819d7733 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -4431,7 +4703,7 @@ cssvrsc:92bf58d8725ac53de1ec15d28b9541d6a52f2642f418385f331b7630b8105185 a cssv:
     cssv:isMaintainedBy cssvrsc:58d22aae26190c9b657c0c3243227aa8fdb1be58141e7b631cc47ff6afdf2d9f ;
     dct:description "The Microcks specification is a tool for mocking and testing APIs and microservices. It leverages API standards to provide a uniform and multi-protocol approach for simulating complex distributed environments and validating service components in isolation."@en ;
     dct:title "Microcks"@en ;
-    dcat:distribution cssvrsc:382fdb1aebdd627f9c996987eec87d1099a0791250bb2cc6244ca709e6d40ca4 ;
+    dcat:distribution cssvrsc:98638fae-883f-47f1-8576-f2ee5573833b ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -4490,7 +4762,7 @@ cssvrsc:94f7b9e6b0bfa51daff3a6c4d874a37ece50ff8c4d58e6660fcb4a4517912897 a cssv:
     cssv:isMaintainedBy cssvrsc:3ccd5eb4c630bce8cc7e1adee15bd015260a39fda75e5abb4a6ac2c6bb76119f ;
     dct:description "AsyncAPI is a specification designed to describe message-driven APIs in a machine-readable format. It is protocol-agnostic, meaning it can be used for APIs operating over various protocols such as AMQP, MQTT, WebSockets, Kafka, STOMP, HTTP, Mercure, and more.  The specification outlines a set of files necessary to describe an application's API. These files can be leveraged to generate utilities like documentation, code, integration, and testing tools."@en ;
     dct:title "AsyncAPI"@en ;
-    dcat:distribution cssvrsc:14c16c5c0fc8cd48d1d338676bb8e1c7f9ffb8acf7967c1e03ad40ca44eeaab3 ;
+    dcat:distribution cssvrsc:c22d52a3-a8ff-4e27-8906-9f9f3427ead4 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "3.0.0" .
 
@@ -4543,10 +4815,10 @@ cssvrsc:95c747d3c981057f1af40adef4c93cf123f131d2390ee522cea7db84642199ef a cssv:
 
 cssvrsc:96362edca15a9600bba5b743f54269be55ee70fa456eab0352346007ad3ea29a a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:isMaintainedBy cssvrsc:b0eb4ee9e70538feaed60d0304c62b8d275f1e9891ed9e45c2d226f7842e0aea ;
+    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "DCAT-AP is a DCAT profile for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe. the scope of the specification was the exchange between Open Data Portals in Europa. Although this is still at the core of the specification, DCAT-AP is not limited to public accessible Open Data, but can be applied to any kind of datasets. This current version of DCAT-AP 3.0.0 is fully aligned and compatible with the proposed recommendation of DCAT 3."@en ;
     dct:title "DCAT-AP"@en ;
-    dcat:distribution cssvrsc:bd2bffda7d1ca8a3bd7b8c399c682a17d1fb1b02b4204f00c704bb075eabbd40 ;
+    dcat:distribution cssvrsc:e0a1e240-8ef0-4cbf-b45d-efa11ce130fd ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "3.0.0" .
@@ -4581,7 +4853,7 @@ cssvrsc:972365b78c2b6cfbabf4224073eb07de37b39d48045e74cea8019eecc8dee431 a cssv:
     cssv:isMaintainedBy cssvrsc:5c3f937e8e59e064b63395275bc2661f5748afb7eedb4bd58bce7f9d72a3bf6f ;
     dct:description "The Swedish API License is a free open source API license that is very flexible and can easily be adapted to different legal and business requirements."@en ;
     dct:title "Swedish API License"@en ;
-    dcat:distribution cssvrsc:930ff957838e300a426f192ec47f03dce2ee3195e48415a609d95d568c0f7c84 ;
+    dcat:distribution cssvrsc:71acab37-776c-4d0d-8092-e4d35044c936 ;
     dcat:theme "Business Architecture"@en,
         "Implementation Governance"@en,
         "Technology Architecture"@en ;
@@ -4800,6 +5072,16 @@ cssvrsc:9c2f765f7d194336045492bd806b3413413afac3d440bf4a043d4886ce4e75cf a cssv:
     dcat:theme "Data Architecture"@en ;
     dcat:version "2.2.0" .
 
+cssvrsc:9c9547a44019de35fc19caada88d4eb61b4e015547e8fdb858b5ea7b033b1184 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:description "The XQuery specification is designed to search for information and manage data from various XML sources. By using queries, it allows users to search for different attributes across multiple resources and store the results, thereby facilitating the organisation and management of data."@en ;
+    dct:title "XML Query Language (Xquery)"@en ;
+    dcat:version "3.0.0" ;
+    dcat:distribution cssvrsc:c7d34947-40a0-4c27-a2f7-bfaf0cea4a98 ;
+    dcat:theme "Technology Architecture"@en .
+
 cssvrsc:9ce9329298a10687397bc894fdd61372e32057b5a0624b1e1271cb05642ea02e a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
@@ -4815,9 +5097,21 @@ cssvrsc:9d0f39c61d26720ef52833ad89a6bf09d7bd7148dac6eb1306edf7516b68b395 a cssv:
     cssv:isMaintainedBy cssvrsc:a2c3cfe200e3f50809f35894ed4e80f53e18025fca8f43396a2825eca110a556 ;
     dct:description "The HAL-FORMS specification is an extension to the Hypertext Application Language (HAL) specification, designed to enhance the evolvability of HAL-based APIs. It provides a way to define forms within HAL documents, allowing clients to understand how to interact with the API dynamically."@en ;
     dct:title "HAL-FORMS"@en ;
-    dcat:distribution cssvrsc:d4d459425e5c5e7324282c877c2ba2cb2ba4d0c04be9cfc7936f3a3e32cf98bb ;
+    dcat:distribution cssvrsc:1e386daf-a136-4df5-9215-4a8f3bc59b65 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "0.0.2" .
+
+cssvrsc:9d677b70169824b046a4a82616729da6bbd4321ea14a7f825e3e16f23697b1f1 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:58b7adb6cb104ce15756c8e7a40e9d3dd08e127a73747177cc5697b398510739 ;
+    dct:description "The DSSC Blueprint is a strategic document that provides a roadmap for establishing and operating the support structures necessary for the successful deployment and utilisation of common European data spaces. It aims to ensure that these data spaces are well-governed, technically sound, legally compliant, and ultimately deliver value to their participants and the wider European economy and society."@en ;
+    dct:title "Data Space Support Centre Blueprint (DSSC Blueprint)"@en ;
+    dcat:version "2.0.0" ;
+    dcat:distribution cssvrsc:6cc6f90a-3f2e-4500-84ea-b98cc8e18aa5 ;
+    dcat:theme "Business Architecture"@en,
+        "Implementation Governance"@en,
+        "Technology Architecture"@en .
 
 cssvrsc:9e21a37b249d893fe860af3d75242b0ec36bcb1cab879931796f883891287b9e a cssv:Specification,
         owl:NamedIndividual ;
@@ -4857,7 +5151,7 @@ cssvrsc:9f33e6fe5d13ddc426e44b02c777119f89ff87d41397ce2f135a0c3c71724fb6 a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Problem Details for HTTP APIs (RFC 7808) specification provides a standardised way to convey error details in HTTP responses by defining simple JSON and XML document formats and a HTTP field to describe the specifics of problem(s) encountered."@en ;
     dct:title "Problem Details for HTTP APIs (RFC 7807)"@en ;
-    dcat:distribution cssvrsc:7488a78e4e0fa3b473040f0b4e451003803a5ac09cd093e9b6c492bbf9a7feec ;
+    dcat:distribution cssvrsc:cfcdb0ec-8494-4fc8-af2c-5309ad0147ca ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -4949,17 +5243,6 @@ cssvrsc:a5741434cd7caa0e1b5b5b1d4d89d9fceccd894aeea9fb2ed7b0d669f24ebd4a a cssv:
     dcat:distribution cssvrsc:7fe6fc5d-dcca-4f45-8a5b-8fcd9fd020a6 ;
     dcat:theme "Business Architecture"@en,
         "Implementation Governance"@en,
-        "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
-
-cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "CLV"@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "The Core Location Vocabulary is a simplified, reusable and extensible data model that captures the fundamental characteristics of a location, represented as an address, a geographic name, or geometry. This specification can be used as the foundation of a common export format for data in base registries."@en ;
-    dct:title "Core Location Vocabulary"@en ;
-    dcat:distribution cssvrsc:cd7f827a-64c2-49ea-a869-16c4bc79c1d8 ;
-    dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -5075,6 +5358,16 @@ cssvrsc:a8a3b7c669eb2bbcd0f9771431fb1aa7ec28ec91ee195254785a29598b9809f6 a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:a8a5e1741adf3ad56993183b5026b17b7727383c21c521ec34f005fbb32e99f9 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:description "The Vocabulary of Interlinked Datasets (VoID) is concerned with metadata about RDF datasets. It is an RDF Schema vocabulary that provides terms and patterns for describing RDF datasets, and is intended as a bridge between the publishers and users of RDF data. VoiD descriptions can be used in many situations, ranging from data discovery to cataloging and archiving of datasets, but most importantly it helps users find the right data for their tasks."@en ;
+    dct:title "VoID"@en ;
+    dcat:version "1.0.0" ;
+    dcat:distribution cssvrsc:bf3415b1-b6ac-4035-b305-247f99aa50bb ;
+    dcat:theme "Data Architecture"@en .
+
 cssvrsc:a8cde9fcb788ec3dfc91af261dfd455cae1f60266dd340a1fba632013375e08f a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "Ogg"@en ;
@@ -5136,6 +5429,27 @@ cssvrsc:aa075e34312ed93ea5a6a4ab439ba2db6432b61b13ec128580b9865a21f940a0 a cssv:
     dcat:distribution cssvrsc:91428bdb-846a-4864-acc7-0fdd154f0303 ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.7.1" .
+
+cssvrsc:ab04c13ab096d25f51455719374727d7dbe3b13d8e894f2280c3398c615252bb a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:description "RDFa Core is a specification for attributes to express structured data in any markup language. The embedded data already available in the markup language (e.g., HTML) can often be reused by the RDFa markup, so that publishers don't need to repeat significant data in the document content. Moreover, RDFa shares some of the same goals with microformats. Whereas microformats specify both a syntax for embedding structured data into HTML documents and a vocabulary of specific terms for each microformat, RDFa specifies only a syntax and relies on independent specification of terms by others"@en ;
+    dct:title "RDFa Core"@en ;
+    dcat:version "1.1.0" ;
+    dcat:distribution cssvrsc:41b48a14-5d60-4319-9750-4a187c5ad533 ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:ab2608294d81094994cfbd297e503e4d095777ecc299119c43bb57a64ca13478 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:description "The Data Privacy Vocabulary (DPV) 2.1.0 specification provides an ontology (classes and properties) along with taxonomies that represent real-world uses of these concepts for representing information regarding how (personal) data and technologies (including AI). Moreover, the DPV 2.1 version is the continued expansion of DPV 2.0's broadened scope regarding data and (AI) technologies and includes new draft extensions for jurisdictions, laws, and sectors."@en ;
+    dct:title "Data Privacy Vocabulary (DPV) 2.1.0"@en ;
+    dcat:version "2.1.0" ;
+    dcat:distribution cssvrsc:14ba123c-add6-460e-a8a9-746e84eb9333 ;
+    dcat:theme "Data Architecture"@en,
+        "Implementation Governance"@en .
 
 cssvrsc:ab5a0eef3ca9727fa2abd88cd5034f4dcc8fe05df17e1995f8d552dbae6ae95e a cssv:Specification,
         owl:NamedIndividual ;
@@ -5226,7 +5540,7 @@ cssvrsc:ae3369b8dce309c8d0bc6949f47d3534b64dec0da9359ef1a3ca9f5db2cf9943 a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The WebSocket Protocol enables two-way communication between a client running untrusted code in a controlled environment to a remote host that has opted-in to communications from that code.  The security model used for this is the origin-based security model commonly used by web browsers.  The protocol consists of an opening handshake followed by basic message framing, layered over TCP.  The goal of this technology is to provide a mechanism for browser-based applications that need two-way communication with servers that does not rely on opening multiple HTTP connections (e.g., using XMLHttpRequest or <iframe>s and long polling)."@en ;
     dct:title "WebSocket Protocol"@en ;
-    dcat:distribution cssvrsc:0732f7e79314a630e6c3b7228cf94fed0c4e19d6078b2a927b496aba7578b071 ;
+    dcat:distribution cssvrsc:a1d07c35-5835-4cbe-8aa8-ed8d61e6eedd ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -5260,6 +5574,17 @@ cssvrsc:af51783e9c513430c9f5841f98a3d3383efe7528ae8d91d8e2a1f9fbf91cbe45 a cssv:
     dcat:distribution cssvrsc:41e4dff0-69a2-489b-8110-e9cd4f3433d3 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "3.0.0" .
+
+cssvrsc:b0336e92e6cd33d0dbc0ccb6e282bf3d612616ca9c4bdb0fdbe12d098f156d99 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
+    dct:description "GAIA-X Compliance refers to the state of adhering to the rules, policies, and technical specifications defined within the GAIA-X Trust Framework. It signifies that a participant (whether a provider or consumer), a service offering, or an infrastructure component within the GAIA-X ecosystem meets the established requirements for trust, security, interoperability, transparency, and data sovereignty."@en ;
+    dct:title "GAIA-X Compliance"@en ;
+    dcat:version "25.3.0" ;
+    dcat:distribution cssvrsc:9e1b498e-3688-4329-a142-8be3a7dd241e ;
+    dcat:theme "Implementation Governance"@en,
+        "Technology Architecture"@en .
 
 cssvrsc:b059e5051bb83f9abf3009b747716a429d552c29ffec38039c830dbe2f45a1b3 a cssv:Specification,
         owl:NamedIndividual ;
@@ -5669,6 +5994,17 @@ cssvrsc:bbed1e2c582c6e6640f5721eb030421f9d062bc5bd4871bfe5fb965a30577ff1 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:bc0e425e8b7e66bec97502564b15525ee4d624d15671f9647037f2ad9ec9bb0f a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
+    dct:description "The GAIA-X Architecture Document is a key publication by the GAIA-X European Association for Data and Cloud AISBL. It serves as a blueprint and a comprehensive description of the architectural model for the GAIA-X initiative. GAIA-X aims to establish a federated, open data infrastructure based on European values of data sovereignty and trust."@en ;
+    dct:title "GAIA-X Architecture Document"@en ;
+    dcat:version "23.10.0" ;
+    dcat:distribution cssvrsc:313bfec4-0333-49fc-b7d2-8c9c6fd518f8 ;
+    dcat:theme "Implementation Governance"@en,
+        "Technology Architecture"@en .
+
 cssvrsc:bc1330ad4ce3c637e7ec4e0d9807976a5a548de8503fc278d43a9058cc46d49a a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
@@ -5705,9 +6041,19 @@ cssvrsc:bdc164601a242e622f760dc57380d79de3eb83817a4c102ffc2394ead9f2d9d2 a cssv:
     cssv:isMaintainedBy cssvrsc:fcc9f7b34da8df610c02ba5eacc5fccb081020217e29177552b21b1af57e5108 ;
     dct:description "The Postman collections specification defines the structure and format of Postman Collections, which are used to organise API requests. The collection format is an open-source JSON format that allows for the organisation of API requests, making them portable, shareable, and executable."@en ;
     dct:title "Postman collections"@en ;
-    dcat:distribution cssvrsc:f46abc1c8c7f1a68160a79b09cfc961bfdb918c6031cd7c4eefaf091c6676533 ;
+    dcat:distribution cssvrsc:48e38991-3797-4782-9e1d-b14d3307a67a ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:be2083d3dd272001ac9759c4b6f4e7fc3883f7c879b793ebd7d5a7fbbb51458c a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:2b6de1326e1fa61562752256c54150944ec28a04926ea0f96f178888f112b0af ;
+    dct:description "Attribute-based access control (ABAC) is a specification designed to enforce the security and privacy of data or information. ABAC establishes an authorisation model that utilises the characteristics and attributes of users to determine access."@en ;
+    dct:title "Attribute-based Access Control (ABAC) v2.0.0"@en ;
+    dcat:version "2.0.0" ;
+    dcat:distribution cssvrsc:7197451c-a2c9-41e6-babb-e12ddfad3e8b ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:be42c15832ab4d32f3581e93cde7ab0e77be66d93031df8ffeea54c6f563bb16 a cssv:Specification,
         owl:NamedIndividual ;
@@ -5750,6 +6096,17 @@ cssvrsc:beb12eb9a1a8f7e7328741b607e4b4274301517da7632e7d5a27d0c19c239937 a cssv:
     dcat:distribution cssvrsc:532a7ae8-b7cf-4f9e-b42e-6097858cdbca ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "5.0.0" .
+
+cssvrsc:bf8ca84480718ba54b04d5422b10b92de74207b731b086b36ef5810bd414fbbb a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
+    dct:description "The GAIA-X Compliance Registry is a decentralised and immutable database within the GAIA-X ecosystem. Its primary purpose is to store and manage crucial information related to the compliance of participants and their offerings with the GAIA-X Trust Framework."@en ;
+    dct:title "GAIA-X Compliance Registry"@en ;
+    dcat:version "2.8.1" ;
+    dcat:distribution cssvrsc:8293e4d5-bc3b-4ea4-8ab1-9c17fa4d6589 ;
+    dcat:theme "Data Architecture"@en,
+        "Technology Architecture"@en .
 
 cssvrsc:bfae866356552984c68139c12d76abefd25832f19eb1b0f78d773a88bc3bf3d4 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6075,6 +6432,17 @@ cssvrsc:c796c0c59e2a1573bab99dbaf934e82784f6e1f4cd63a72d819e1175399826b4 a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:c833915edfd03d94674b67707df6c86d7a2b8f7237c7a403f10c873d3aff39bc a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:d8bcbcc4bb1379ce5e12fc5aebfd10433830a325c42ba8d99280cdf27d6cb8c5 ;
+    dct:description "JSLT is a complete query and transformation language for JSON. "@en ;
+    dct:title "JSON transformation language JSLT"@en ;
+    dcat:version "0.1.14" ;
+    dcat:distribution cssvrsc:060e694b-6267-4be8-ad25-159b7cb3a7a4 ;
+    dcat:theme "Data Architecture"@en,
+        "Technology Architecture"@en .
+
 cssvrsc:c8d906d833e0e6c3765637dbcde0c3a68c71e0ee4ab2191155b18b22604bc928 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "DomiSMP"@en ;
@@ -6084,6 +6452,16 @@ cssvrsc:c8d906d833e0e6c3765637dbcde0c3a68c71e0ee4ab2191155b18b22604bc928 a cssv:
     dcat:distribution cssvrsc:ed5c116e-be8c-4815-87a2-208202b2ab79 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "5.0.1" .
+
+cssvrsc:c8f6d4359155509e8dd18712928cbc8a1a4c21df24ff200bd8a7cd4befc46508 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:0c8f39b11936f6d48ad86897e2d3ecd9e62271931ed4c4c3ee7c97970dc7678a ;
+    dct:description "ODPS is a vendor-neutral, open-source machine-readable data product metadata model. The specification defines the objects and it's attributes as well as the structure of digital data products."@en ;
+    dct:title "Open Data Product Specification"@en ;
+    dcat:version "3.1.0" ;
+    dcat:distribution cssvrsc:0757b42d-4256-433d-b957-7145163395dc ;
+    dcat:theme "Data Architecture"@en .
 
 cssvrsc:c968d8272b2099bb20e43285dcaa15f2700b472e35963bd694eee7582c8a2fe4 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6300,7 +6678,7 @@ cssvrsc:d2fa3f71840bb564167463d74a514aaf9e4197574b587cbb8dabbe19b6a2baac a cssv:
     cssv:isMaintainedBy cssvrsc:066061cc911cfe74212b3a19be2d88a4ae4df172ed4ad83cb19796f52cebdc24 ;
     dct:description "The MASVS standard provides a clear and concise set of guidelines and best practices for assessing and enhancing the security of mobile applications. I addition, MASVS is designed to be used as a metric, guidance, and baseline for mobile app security verification, serving as a valuable resource for developers, application owners, and security professionals."@en ;
     dct:title "Mobile Application Security Verification Standard (MASVS)"@en ;
-    dcat:distribution cssvrsc:5cdf283d5d226230a52b5ecf60160b4a4d65e2778ea028473dd3e55c7a14fc01 ;
+    dcat:distribution cssvrsc:027d805c-88fc-4442-b3c9-4f060ba1762c ;
     dcat:version "1.0.0" .
 
 cssvrsc:d32b727e5f5eb3561627ce5925d495a1cc2bea0b80af2c077adbc06761cc7021 a cssv:Specification,
@@ -6373,7 +6751,7 @@ cssvrsc:d501609df79752738a4bcfa47918a604cbcd5be2d5768f91db6328e26b108376 a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Token Binding Protocol is a proposed standard for a Transport Layer Security (TLS) extension that aims to increase TLS security by using cryptographic certificates on both ends of the TLS connection."@en ;
     dct:title "The Token Binding Protocol"@en ;
-    dcat:distribution cssvrsc:54c933e665f59899d733f3c1eb4009571ce989f8d24bc63963254c233db092bd ;
+    dcat:distribution cssvrsc:ad5e6531-0ce8-42e2-ac0b-e1cb511c4e8e ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -6382,12 +6760,12 @@ cssvrsc:d50c217890ba0c807f0af68830798ebaf638a0be2f14418c4090e51dcd70f30e a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The IANA Media Types specification (also known as a Multipurpose Internet Mail Extensions or MIME type) indicates the nature and format of a document, file, or assortment of bytes."@en ;
     dct:title "IANA Media Types (RFC 6838, MIME  types)"@en ;
-    dcat:distribution cssvrsc:9b92d4c4d8bfa6ff2aa7fb4d503ec8a7000d1500c03cf3c1a738128d6056ffdc ;
+    dcat:distribution cssvrsc:f08fa076-3a93-459d-a13d-d0d22ebbf500 ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:d5d426fadecd4bf723cb15532e2bb495aaaca594936ba8891258988920564c43 a cssv:Specification,
-        cssv:ApplicationProfile,
+cssvrsc:d5d426fadecd4bf723cb15532e2bb495aaaca594936ba8891258988920564c43 a cssv:ApplicationProfile,
+        cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "RegOrg"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
@@ -6397,6 +6775,16 @@ cssvrsc:d5d426fadecd4bf723cb15532e2bb495aaaca594936ba8891258988920564c43 a cssv:
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:d699ec0c1917b67c6ab422b28728dd519000cca53c65bef39a942a8d8bcff2c4 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:3ccd5eb4c630bce8cc7e1adee15bd015260a39fda75e5abb4a6ac2c6bb76119f ;
+    dct:description "The Arazzo specification defines a standard, programming language-agnostic mechanism to express sequences of calls and articulate the dependencies between them to achieve a particular outcome, or set of outcomes, when dealing with API descriptions (such as OpenAPI descriptions)."@en ;
+    dct:title "Arazzo"@en ;
+    dcat:version "1.0.1" ;
+    dcat:distribution cssvrsc:802b2408-8957-4ab4-a05d-ca64d9c6582f ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:d76354663e545f8981dd61cf50a3dfe13e3938a004373dfd3ac2438896f006b8 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6598,6 +6986,17 @@ cssvrsc:df996b8bedad61f94fda0784aa9207219bdb89fe8c4ea73e7fc0790583ae2d28 a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:dfa58525250ce8c35f18952c91fdcc18a8ebe6ae967c834563157541b4dab46f a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
+    dct:description "The Core Criterion and Core Evidence Vocabulary (CCCEV) specification is designed to support the exchange of information between organisations or persons (more generally Agents) defining requirements and organisations or persons responding to these requirements by means of structured or unstructured evidences."@en ;
+    dct:title "Core Criterion and Core Evidence Vocabulary (CCCEV) v2.1.0"@en ;
+    dcat:version "2.1.0" ;
+    dcat:distribution cssvrsc:76d55860-5732-4176-a559-5392b789d5cf ;
+    dcat:theme "Data Architecture"@en,
+        "Technology Architecture"@en .
+
 cssvrsc:e0041e683c35119779bcb5ebef3ea214e56127e3b5d0f32c844302d945308b22 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "SFIA"@en ;
@@ -6708,7 +7107,7 @@ cssvrsc:e288942d7196a3cae9ff08b20b3b8bbe9340baadd87ba3be9be9571b264bf98b a cssv:
     cssv:isMaintainedBy cssvrsc:18994df5d814569558db98d6a8a07ee18468d4f374ab5c19569058efaf7553e4 ;
     dct:description "The Microformats specification is a set of simple, open data formats built upon existing and widely adopted standards.The specification offers a simpler way to markup structured information in HTML."@en ;
     dct:title "Microformats"@en ;
-    dcat:distribution cssvrsc:e809b172795de80a5463eb0d5a65e801d5e8588c10b2f7859c5b2752dbb76f5e ;
+    dcat:distribution cssvrsc:0e70d911-36b8-4bb9-8899-a664b8806e32 ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "2.0.0" .
 
@@ -6913,6 +7312,17 @@ cssvrsc:e8cb5472938a21173584bf0b5d4311ca773f65340d97bc247f532c02fd84af71 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:e8cdb25ff4f52ad9f5978afbceb9a17eb47cb77242175c148ba6ffc04145cb8b a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
+    dct:description "The GAIA-X Federated Catalogue is a core component of the GAIA-X infrastructure. It serves as an indexed repository of Self-Descriptions provided by participants within the GAIA-X ecosystem. These Self-Descriptions contain information about the participants themselves and the services, data, and infrastructure they offer."@en ;
+    dct:title "GAIA-X Federated Catalogue"@en ;
+    dcat:version "1.0.0" ;
+    dcat:distribution cssvrsc:bf57847f-b090-4139-a449-ddb33e07f2ba ;
+    dcat:theme "Data Architecture"@en,
+        "Technology Architecture"@en .
+
 cssvrsc:e94d436ea20ee060d020fb9edaf8c2f2c77a3db63e0e6537bb69b839b2583aba a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "DNSSEC"@en ;
@@ -6932,6 +7342,16 @@ cssvrsc:e97c9b46dadbe2de7f910a520ccdb4c9277940948b5044f7b11f753d4edcadd8 a cssv:
     dcat:distribution cssvrsc:5de50153-857c-437e-b62c-8b3223bb8a8a ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "9.0.0" .
+
+cssvrsc:e989d211aeda55f69629a8980f5119cef22e4b1423b3e853a78601f251699e10 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
+    dct:description "ISO/IEC 29500-1:2016 is the comprehensive technical specification that details the underlying XML structure and semantics of the various document types within the Office Open XML format. It is the primary reference for developers implementing software that reads, writes, or manipulates Office Open XML (OOXML) files."@en ;
+    dct:title "Office Open XML File Formats Part 1: Fundamentals and Markup Language Reference"@en ;
+    dcat:version "4.0.0" ;
+    dcat:distribution cssvrsc:ecf03dd9-59fb-4b18-80f4-9fd22b3130aa ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:e9bb09990f610bec081e4275f7a49d6a4cdf7df89e3903a5daff682135f02c35 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6965,6 +7385,15 @@ cssvrsc:ea1887cf6ceb4929fc4a5de8a2180ce8ce23f197de2b61a275d88cd46323fb6a a cssv:
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "2.0.0" .
+
+cssvrsc:ea30145871f432c72652a48da7e62e40c6edd45884449c99a8f31080eab0b9b0 a cssv:Standard ;
+    cssv:acronym "NUTS" ;
+    cssv:alternative "Nomenclature of territorial units for statistics 2024" ;
+    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
+    dct:description "Nomenclature of Territorial Units for Statistics or NUTS is a geocode standard for referencing the administrative divisions of countries for statistical purposes. The standard, adopted in 2003, is developed and regulated by the European Union, and thus only covers the EU member states in detail."@en ;
+    dct:title "NUTS"@en ;
+    dcat:version "2024" ;
+    dcat:distribution cssvrsc:c21d21f0-042a-4135-ad38-4de42df941dc .
 
 cssvrsc:eac80d18d00c07fc17567f3fa106420425e82feb933d55da39281d6cebc0b8fd a cssv:Specification,
         owl:NamedIndividual ;
@@ -7012,6 +7441,16 @@ cssvrsc:ecaf78f3ca4d620b9388052e2503780938e4f026d086887c87bba57c31691496 a cssv:
     dcat:distribution cssvrsc:20f7ddab-5260-4ffe-bdd5-6df4c69bbc92 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:ed09ca216774dc1192ed4558ade3e6d589af8442d78621fd699462c5180afc94 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:629bdcdf6ffd2d15e817fc5617f4b7c7de4fcceacc7e8e746d941bc1d10ce23a ;
+    dct:description "Microdata is a set of specifications which can be used to insert metadata within existing content on a webpage. In other words, Microdata can be used to annotate HTML elements with machine-readable tags."@en ;
+    dct:title "Microdata (Schema.org)"@en ;
+    dcat:version "29.1.0" ;
+    dcat:distribution cssvrsc:f6fbb9c0-8453-4dcf-af17-3637f57ac0b9 ;
+    dcat:theme "Data Architecture"@en .
 
 cssvrsc:ed45256d0f41d440c9e7109ee9120dee2dfff47807a609bf30654e68dac7cc51 a cssv:Specification,
         owl:NamedIndividual ;
@@ -7118,7 +7557,7 @@ cssvrsc:f1181e955e79e9918e586765efd622942561196bcf2ac936ff8598e0efaa94fe a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "This standard describes the use of Transport Layer Security (TLS) to provide a secure connection for the transport of syslog messages. IT also describes the security threats to syslog and how TLS can be used to counter such threats."@en ;
     dct:title "Transport Layer Security (TLS) Transport Mapping for Syslog"@en ;
-    dcat:distribution cssvrsc:0749b08380416a2f6c6da961534e662bb232c246361d1ff8a6f826b821219e8e ;
+    dcat:distribution cssvrsc:b99ba9a7-ff5a-455e-8c13-fe07bf61f846 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -7188,7 +7627,7 @@ cssvrsc:f37fec7b3b5a865877ce8663c3efe7f2442877c774e86cdc5fc9bd262f8adef1 a cssv:
     cssv:isMaintainedBy cssvrsc:2b6de1326e1fa61562752256c54150944ec28a04926ea0f96f178888f112b0af ;
     dct:description "The Role-Based Access Control (RBAC) specification is a security model that assigns permissions to roles based on job functions. Users are then assigned to these roles, inheriting the associated permissions. This approach simplifies management, enhances security, and ensures users have only the access they need. RBAC also supports role hierarchies and constraints to enforce policies like separation of duties."@en ;
     dct:title "Role-Based Access Controls (RBAC)"@en ;
-    dcat:distribution cssvrsc:2f974f9e96c2bc1a654cbc914bb5f5029ae16ef62ffe299154f527fcaed661d7 ;
+    dcat:distribution cssvrsc:427a7ad3-989d-46c2-a4a0-72d1686ba3db ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -7259,6 +7698,17 @@ cssvrsc:f583cf0bd8c648594647d8361d498fa4514355f12a4233b496de8f51d1debfc0 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:f5a013fc7b47e09ba927b4b6dbcf29447046873c380bc86384a134ebc1adad1a a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:ca3691b9d6d6a0d8263840b6899a5b4e8bb0cae552b2dd2bf3a9b1b31a7e1e1b ;
+    dct:description "The BSI C5 specification is a criteria catalogue designed to enhance the information security of cloud services. Specifically, this catalogue contains 17 objectives aimed at achieving security. Thus, it serves as a basis for consistently protecting data."@en ;
+    dct:title "BSI C5"@en ;
+    dcat:version "C5:2020" ;
+    dcat:distribution cssvrsc:bc6f5740-87a6-4b1b-b93e-8d10f03384e1 ;
+    dcat:theme "Implementation Governance"@en,
+        "Technology Architecture"@en .
+
 cssvrsc:f5e1b39cfe134794973341782570d3f5999ee97719451ee8e18b4c0383cdadae a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
@@ -7296,9 +7746,19 @@ cssvrsc:f75650204c41b7547d47aed953052a72de01cbc9d3ac65c3bf949780a2f6ff70 a cssv:
     cssv:isMaintainedBy cssvrsc:9b720c7c045589425b5858f4f0dcfcb5fd8ac0a1a743ebfb9a8cf04bffa2f324 ;
     dct:description "The UBER document format is a minimal read/write hypermedia type designed to support simple state transfers and ad-hoc hypermedia-based transitions. This specification describes both the XML and JSON variants of the format and provides guidelines for supporting UBER-encoded messages over the HTTP protocol."@en ;
     dct:title "Uniform Basis for Exchanging Representations (UBER)"@en ;
-    dcat:distribution cssvrsc:e7b4c91ee46457a984c87ad27dd808fbd90f06644617fd6492d894499da2b858 ;
+    dcat:distribution cssvrsc:5fd6aa6c-4308-43f1-899a-f5990bfeb898 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:f765720238ac871ce1596a081584891d04f4b651721d9da812e9e74330f6c346 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "A JSON Web Key (JWK) is a JavaScript Object Notation (JSON) data structure that represents a cryptographic key."@en ;
+    dct:title "JSON Web Key JWK"@en ;
+    dcat:version "May 2025" ;
+    dcat:distribution cssvrsc:97238540-093f-4657-85e9-1df3857958ca ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:f767d020ee43c67231b43917368dda534385351e8a3a889673215664f608589c a cssv:Specification,
         owl:NamedIndividual ;
@@ -7409,7 +7869,7 @@ cssvrsc:f8f87159fcb3a6a0d0731f58a217206a03908f2d6f7f6923060efc8dfe03380d a cssv:
     cssv:isMaintainedBy cssvrsc:1299fca9339f5a37496a784c5dfda44bd2e0f4241df684a757e67b1ee9c6c077 ;
     dct:description "Siren is a hypermedia specification for representing documents on a website. In this sense, Siren is a specification for presenting entities via a Web API. Moreover,  Siren offers structures to communicate information about entities, actions for executing state transitions, and links for client navigation."@en ;
     dct:title "SIREN"@en ;
-    dcat:distribution cssvrsc:307b902dfa64c8a09038284f0c346a9b64885dfe6af5d6cf79545f183895b6ff ;
+    dcat:distribution cssvrsc:42cffccb-910a-4e6b-bb8f-428ad58d4c62 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -7510,6 +7970,16 @@ cssvrsc:fcdeb5ed4c1c98a819128796d63ab13fe57b5d0bf69e42dd6c8718334a6e3ccb a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "2.1.6" .
 
+cssvrsc:fd0c80e9e707b0479cc1751b71f503af5ab778c1ffeb023ab983c01220889acb a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:9d2e8a4b1b697e7d135a190176454a2249450797a3aebca1197cdfe9882409ae ;
+    dct:description "The Web Electronic Identity specification is designed to authenticate users who want to access certain resources or documentation. Based on the Estonian ID card (EstEID) and the Open Electronic Identity (Open eID), a card must be inserted into a card reader to grant access. Additionally, the specification allows for data signing following a verification process."@en ;
+    dct:title "Web electronic identity (Web eID)"@en ;
+    dcat:version "2.6.0" ;
+    dcat:distribution cssvrsc:806a7675-4412-4e5e-a46f-8e4fe9a11af2 ;
+    dcat:theme "Technology Architecture"@en .
+
 cssvrsc:fd2bab6ab1ea670888fa46bd8c7bbb44d2565a098d4e7255e7928fbf8b50ff47 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "gRPC"@en ;
@@ -7595,6 +8065,17 @@ cssvrsc:ff8279db1fde0e4287ecd59aab3e2eeba63097e58dcd9ccfa4c55022f881e5e4 a cssv:
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
+
+cssvrsc:ffa44598fbf3f5e780ae0a6d7551e37c25f9b7261e80efb2848dcc74d7c969e3 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:4c9c8322acfb1af86222a3ca917330181fff3458591830886a90fa0939cda788 ;
+    dct:description "BSBA Technical Convergence Discussion Document is a document published by the Data Spaces Business Alliance (DSBA) that focuses on achieving technical convergence across different initiatives and technologies involved in the development and deployment of data spaces, particularly within the European context."@en ;
+    dct:title "BSBA Technical Convergence Discussion Document"@en ;
+    dcat:version "2.0.0" ;
+    dcat:distribution cssvrsc:2775f211-43d2-4acd-82a7-6194f03223a6 ;
+    dcat:theme "Business Architecture"@en,
+        "Technology Architecture"@en .
 
 cssvrsc:fff7f7a1aa0ab237422f8e557b0773b3742313bb5c8f452fed8c2ea1641dcf5f a cssv:Specification,
         cssv:Standard,
@@ -7718,12 +8199,12 @@ cssvrsc:06e0dad2-1f01-4599-991b-5e77c49c80a5 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "http://ec.europa.eu/DocsRoom/documents/14950/attachments/1/translations/en/renditions/native"^^xsd:anyURI .
 
-cssvrsc:0732f7e79314a630e6c3b7228cf94fed0c4e19d6078b2a927b496aba7578b071 a owl:NamedIndividual,
+cssvrsc:a1d07c35-5835-4cbe-8aa8-ed8d61e6eedd a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc6455"^^xsd:anyURI ;
     dcat:downloadURL "https://datatracker.ietf.org/doc/html/rfc6455"^^xsd:anyURI .
 
-cssvrsc:0749b08380416a2f6c6da961534e662bb232c246361d1ff8a6f826b821219e8e a owl:NamedIndividual,
+cssvrsc:b99ba9a7-ff5a-455e-8c13-fe07bf61f846 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://datatracker.ietf.org/doc/rfc5425/"^^xsd:anyURI ;
     dcat:downloadURL "https://datatracker.ietf.org/doc/rfc5425/"^^xsd:anyURI .
@@ -7731,6 +8212,11 @@ cssvrsc:0749b08380416a2f6c6da961534e662bb232c246361d1ff8a6f826b821219e8e a owl:N
 cssvrsc:084a86ab-70fc-478a-895b-8654db96cb39 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://ec.europa.eu/digital-single-market/en/eu-cybersecurity-certification-framework"^^xsd:anyURI .
+
+cssvrsc:c6060446-feb9-40d3-8eef-979cee25d443 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_en/319400_319499/31941203/01.03.01_60/en_31941203v010301p.pdf"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.etsi.org/deliver/etsi_en/319400_319499/31941203/01.03.01_60/en_31941203v010301p.pdf"^^xsd:anyURI .
 
 cssvrsc:08afecc6-9359-42fd-a487-ff9cee7c41f1 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -7744,7 +8230,7 @@ cssvrsc:0a2db953-cc71-4f7f-9a1e-20241e642b83 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.itu.int/rec/T-REC-X.1363-202005-I/en"^^xsd:anyURI .
 
-cssvrsc:0a38293af2de6be06f562b6d60232337ca6d0855d9654ea1aec916a435707915 a owl:NamedIndividual,
+cssvrsc:dc42158a-13bd-4a1e-9f60-80130ca9e280 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/TR/core-aam-1.1/"^^xsd:anyURI ;
     dcat:downloadURL "https://www.w3.org/TR/core-aam-1.1/"^^xsd:anyURI .
@@ -7797,6 +8283,11 @@ cssvrsc:0e8cbf63-b591-4f59-b143-ba5984eeede6 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.itu.int/rec/T-REC-X.509"^^xsd:anyURI .
 
+cssvrsc:aacb8f71-b0e2-4850-86cc-7adc3974ff36 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://docs.internationaldataspaces.org/ids-knowledgebase/idsa-rulebook"^^xsd:anyURI ;
+    dcat:downloadURL "https://docs.internationaldataspaces.org/ids-knowledgebase/idsa-rulebook"^^xsd:anyURI .
+
 cssvrsc:0ec72e1c-3d6f-4b64-8931-af5b8172482d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://specs.opencontainers.org/distribution-spec/?v=v1.0.0"^^xsd:anyURI .
@@ -7829,7 +8320,7 @@ cssvrsc:10d47bb7-7c5a-4729-adbb-3ee1079c2fea a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://earkdip.dilcis.eu/"^^xsd:anyURI .
 
-cssvrsc:10f7988092e0c385fc7227aca41048abaf8643c16eb5612ec6c3241bc9482415 a owl:NamedIndividual,
+cssvrsc:923c3ba5-500e-4cce-b0fa-f38ae02adaf9 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.sp.800-162.pdf"^^xsd:anyURI ;
     dcat:downloadURL "https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.sp.800-162.pdf"^^xsd:anyURI .
@@ -7850,7 +8341,7 @@ cssvrsc:1299fca9339f5a37496a784c5dfda44bd2e0f4241df684a757e67b1ee9c6c077 a owl:N
         org:Organization ;
     skos:prefLabel "Siren Hypermedia"@en .
 
-cssvrsc:12cdb85cdc1dd76e3e05940e12a1d13f95a1a665315e8699b260773d6f190853 a owl:NamedIndividual,
+cssvrsc:8ec2f0da-4253-4540-8e26-bfc9114d2eaf a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc7636"^^xsd:anyURI ;
     dcat:downloadURL "https://datatracker.ietf.org/doc/html/rfc7636"^^xsd:anyURI .
@@ -7873,7 +8364,7 @@ cssvrsc:14bd8eb3256094557cd175e00dc400cdcf60b7a17e34d54d26b38dee32df5bb3 a owl:N
     skos:prefLabel "OpenStack"@en ;
     foaf:homepage "https://www.openstack.org/"^^xsd:anyURI .
 
-cssvrsc:14c16c5c0fc8cd48d1d338676bb8e1c7f9ffb8acf7967c1e03ad40ca44eeaab3 a owl:NamedIndividual,
+cssvrsc:c22d52a3-a8ff-4e27-8906-9f9f3427ead4 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://github.com/asyncapi/spec/blob/v3.0.0/spec/asyncapi.md"^^xsd:anyURI ;
     dcat:downloadURL "https://github.com/asyncapi/spec/blob/v3.0.0/spec/asyncapi.md"^^xsd:anyURI .
@@ -7930,7 +8421,7 @@ cssvrsc:19dedf52-0b3e-46e2-94b4-855c0e6fe29c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://opensearch.org/"^^xsd:anyURI .
 
-cssvrsc:1adae231eaba463bebd245c408a3972334bfb796885cd906e86e9c852f26f2bf a owl:NamedIndividual,
+cssvrsc:ceb5b9e3-e02d-4b1b-b126-eae5edd70cbf a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://github.com/apiaryio/mson"^^xsd:anyURI ;
     dcat:downloadURL "https://github.com/apiaryio/mson"^^xsd:anyURI .
@@ -7947,7 +8438,7 @@ cssvrsc:1c163d37-35f5-4678-b871-a00f7c12b8b5 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification"^^xsd:anyURI .
 
-cssvrsc:1d00510868414d759d13241d17ffab479e6458719d38c5eb5b44d81b15ccd7e4 a owl:NamedIndividual,
+cssvrsc:72e1d5d4-3c45-4f84-95f3-42c074a923b0 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://docs.oasis-open.org/amqp/amqp-cbs/v1.0/amqp-cbs-v1.0.html"^^xsd:anyURI ;
     dcat:downloadURL "https://docs.oasis-open.org/amqp/amqp-cbs/v1.0/amqp-cbs-v1.0.html"^^xsd:anyURI .
@@ -7959,6 +8450,11 @@ cssvrsc:1d215635-2aa6-40c2-b103-c5b19ff488b2 a owl:NamedIndividual,
 cssvrsc:1e0e84d8-769e-4884-a665-33bb732c9879 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/103200_103299/103264/03.01.01_60/ts_103264v030101p.pdf"^^xsd:anyURI .
+
+cssvrsc:f6fbb9c0-8453-4dcf-af17-3637f57ac0b9 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://schema.org/docs/gs.html"^^xsd:anyURI ;
+    dcat:downloadURL "https://schema.org/docs/gs.html"^^xsd:anyURI .
 
 cssvrsc:1e541c28-c595-4186-9599-2ccaedce786a a owl:NamedIndividual,
         dcat:Distribution ;
@@ -7985,6 +8481,11 @@ cssvrsc:1fb6273d-8853-4b65-9863-ac358ecc6e84 a owl:NamedIndividual,
 cssvrsc:1fd1bf86fa057ad7a48c6bc0510054d919a8a89c08583e4fb3ca94009e11eb27 a owl:NamedIndividual,
         org:Organization ;
     skos:prefLabel "Apiary"@en .
+
+cssvrsc:9125b309-6530-44dc-8823-529662bb722e a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/87471.html"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.iso.org/standard/87471.html"^^xsd:anyURI .
 
 cssvrsc:2060c0eb-94da-421c-853a-28c65ddeea58 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -8020,7 +8521,7 @@ cssvrsc:2210fda0-002f-4ace-bbf9-52c9e837face a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/74909.html"^^xsd:anyURI .
 
-cssvrsc:237728dc7195bc7193a0eed8eaeae50fe5e3ad3255ea8df5c91c7759d4a33087 a owl:NamedIndividual,
+cssvrsc:10ab8c6e-5dbd-4da3-8880-a90cd2b097dd a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.jsonrpc.org/specification"^^xsd:anyURI ;
     dcat:downloadURL "https://www.jsonrpc.org/specification"^^xsd:anyURI .
@@ -8079,6 +8580,11 @@ cssvrsc:27acc78a-101d-46b8-af9d-5cac2630daa4 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://op.europa.eu/en/web/eu-vocabularies/th-dataset/-/resource/dataset/eurovoc?target=About"^^xsd:anyURI .
 
+cssvrsc:fa5989d3-819e-4da8-ae6f-58782a1a2ed4 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://docs.gaia-x.eu/policy-rules-committee/policy-rules-conformity-document/23.10/"^^xsd:anyURI ;
+    dcat:downloadURL "https://docs.gaia-x.eu/policy-rules-committee/policy-rules-conformity-document/23.10/"^^xsd:anyURI .
+
 cssvrsc:28cd3c1a-07a3-4e8c-86c9-576a2c402d84 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://internationaldataspaces.org/ids-is-officially-a-standard-din-spec-27070-is-published/"^^xsd:anyURI .
@@ -8094,6 +8600,11 @@ cssvrsc:292c62ad-3393-4708-b5d4-f664c1fafeed a owl:NamedIndividual,
 cssvrsc:2944cd4a-1532-4d59-b2ed-b8307143f5b4 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://docs.italia.it/italia/developers-italia/publiccodeyml-en/en/master/index.html"^^xsd:anyURI .
+
+cssvrsc:060e694b-6267-4be8-ad25-159b7cb3a7a4 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://github.com/schibsted/jslt"^^xsd:anyURI ;
+    dcat:downloadURL "https://github.com/schibsted/jslt"^^xsd:anyURI .
 
 cssvrsc:298ad6282ce2f4beefb74b9c0e633c8d9de2af11ca73dfb2dd41b9400199dd22 a owl:NamedIndividual,
         org:Organization ;
@@ -8159,7 +8670,7 @@ cssvrsc:2f750a0f-9faa-4dc0-86e8-54b628e44d2e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.its-platform.eu/wp-content/uploads/ITS-Platform/AchievementsDocuments/NAP/EU%20EIP_Coord.%20Metadata%20Catalogue_v2.0_191115.pdf"^^xsd:anyURI .
 
-cssvrsc:2f974f9e96c2bc1a654cbc914bb5f5029ae16ef62ffe299154f527fcaed661d7 a owl:NamedIndividual,
+cssvrsc:427a7ad3-989d-46c2-a4a0-72d1686ba3db a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://csrc.nist.gov/files/pubs/conference/1992/10/13/rolebased-access-controls/final/docs/ferraiolo-kuhn-92.pdf"^^xsd:anyURI ;
     dcat:downloadURL "https://csrc.nist.gov/files/pubs/conference/1992/10/13/rolebased-access-controls/final/docs/ferraiolo-kuhn-92.pdf"^^xsd:anyURI .
@@ -8176,11 +8687,16 @@ cssvrsc:2fc1803b-3f89-436b-90c9-026f79d108c5 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://international-data-spaces-association.github.io/IDS-AppStore/introduction"^^xsd:anyURI .
 
+cssvrsc:80183279-2819-4480-aa42-acf60bcddff0 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.loc.gov/preservation/digital/formats/fdd/fdd000396.shtml"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.loc.gov/preservation/digital/formats/fdd/fdd000396.shtml"^^xsd:anyURI .
+
 cssvrsc:2fc9d507-0266-4b36-a0a1-a937a32807aa a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32017D2288&qid=1614856763142"^^xsd:anyURI .
 
-cssvrsc:307b902dfa64c8a09038284f0c346a9b64885dfe6af5d6cf79545f183895b6ff a owl:NamedIndividual,
+cssvrsc:42cffccb-910a-4e6b-bb8f-428ad58d4c62 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://github.com/kevinswiber/siren"^^xsd:anyURI ;
     dcat:downloadURL "https://github.com/kevinswiber/siren"^^xsd:anyURI .
@@ -8201,7 +8717,7 @@ cssvrsc:31f52204-8961-44e1-86d6-313e1a8d0459 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.gefeg.com/jswg/v4x/data/v4x_docs.htm"^^xsd:anyURI .
 
-cssvrsc:3221f1bc663ff9ff407d7cb417a9b19705f394a5979a11a0a0db513f62454547 a owl:NamedIndividual,
+cssvrsc:ce9481ea-e298-4bee-a5df-c107432efc31 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://hl7.org/fhir/"^^xsd:anyURI ;
     dcat:downloadURL "https://hl7.org/fhir/"^^xsd:anyURI .
@@ -8218,7 +8734,7 @@ cssvrsc:3263fa0d-7t7b-42da-8279-ad9b8f5f060f a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://op.europa.eu/web/eu-vocabularies/esco"^^xsd:anyURI .
 
-cssvrsc:32a406bf1fa6daed1cd9d5840fb9b8b010297dbdb83b0c0fc316247e7414023c a owl:NamedIndividual,
+cssvrsc:5bdf4df0-3530-468f-9509-4699f9b35222 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://semiceu.github.io/LinkedDataEventStreams/"^^xsd:anyURI ;
     dcat:downloadURL "https://semiceu.github.io/LinkedDataEventStreams/"^^xsd:anyURI .
@@ -8226,6 +8742,11 @@ cssvrsc:32a406bf1fa6daed1cd9d5840fb9b8b010297dbdb83b0c0fc316247e7414023c a owl:N
 cssvrsc:32cf1e4b-e5e0-44fa-96e4-f4d226042c5b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.rfc-editor.org/rfc/rfc8943"^^xsd:anyURI .
+
+cssvrsc:3e116935-372a-4df0-b0d7-b3ddd69431d6 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://catenax-ev.github.io/docs/next/standards/CX-0007-MinimalDataProviderServicesOffering"^^xsd:anyURI ;
+    dcat:downloadURL "https://catenax-ev.github.io/docs/next/standards/CX-0007-MinimalDataProviderServicesOffering"^^xsd:anyURI .
 
 cssvrsc:32e2971340a02294c036b1bf5b0f1b8ea63a3603e0d8208419ebc4220f8ef68e a owl:NamedIndividual,
         org:Organization ;
@@ -8238,6 +8759,11 @@ cssvrsc:3332b725f14ad483df7ce07154b9a6e47c9d8cf45c6e07cd5ff408b003e17eec a owl:N
     skos:altLabel "The Hierarchical Data Format Group"@en ;
     skos:prefLabel "The HDF Group"@en ;
     foaf:homepage "https://www.hdfgroup.org/"^^xsd:anyURI .
+
+cssvrsc:336101138d3a4c4f5ecf48f99f9f856737b791134d4d0aa70c52c6e21767c4fa a org:Organization ;
+    skos:altLabel "json-stat.org" ;
+    skos:prefLabel "json-stat" ;
+    foaf:homepage <https://json-stat.org/> .
 
 cssvrsc:33a85ca3-84e2-44a4-b53f-e4e3cb610fc6 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -8271,6 +8797,11 @@ cssvrsc:3612d0c6-0360-4607-b0df-514d3dbd9c85 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.ietf.org/rfc/rfc2460.txt"^^xsd:anyURI .
 
+cssvrsc:9e1b498e-3688-4329-a142-8be3a7dd241e a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://docs.gaia-x.eu/policy-rules-committee/compliance-document/latest/"^^xsd:anyURI ;
+    dcat:downloadURL "https://docs.gaia-x.eu/policy-rules-committee/compliance-document/latest/"^^xsd:anyURI .
+
 cssvrsc:376284b0-bfa2-4ba0-b641-3ce617f9d3b4 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/74572.html"^^xsd:anyURI .
@@ -8287,7 +8818,12 @@ cssvrsc:37cd5e6f-b96b-435b-9506-2fddc412a25d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2018.295.01.0001.01.ENG"^^xsd:anyURI .
 
-cssvrsc:382fdb1aebdd627f9c996987eec87d1099a0791250bb2cc6244ca709e6d40ca4 a owl:NamedIndividual,
+cssvrsc:668caa50-b4b1-4afc-a0c3-cf1ff02e516d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_en/303600_303699/303645/03.01.03_60/en_303645v030103p.pdf"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.etsi.org/deliver/etsi_en/303600_303699/303645/03.01.03_60/en_303645v030103p.pdf"^^xsd:anyURI .
+
+cssvrsc:98638fae-883f-47f1-8576-f2ee5573833b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://microcks.io/"^^xsd:anyURI ;
     dcat:downloadURL "https://microcks.io/"^^xsd:anyURI .
@@ -8370,6 +8906,11 @@ cssvrsc:3cc044f7-3e0f-4abd-961e-b8ae1bf719ed a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://opcfoundation.org/about/opc-technologies/opc-ua/"^^xsd:anyURI .
 
+cssvrsc:802b2408-8957-4ab4-a05d-ca64d9c6582f a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://github.com/OAI/Arazzo-Specification"^^xsd:anyURI ;
+    dcat:downloadURL "https://github.com/OAI/Arazzo-Specification"^^xsd:anyURI .
+
 cssvrsc:3d13c9df-a31d-4650-a633-e4fde0465516 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://standards.ieee.org/ieee/29119-2/7498/"^^xsd:anyURI .
@@ -8397,6 +8938,11 @@ cssvrsc:3df90310f6a5f34cd6a38f8e8b5c1c0f95df17713f5f07ab59c4e2387e54f681 a owl:N
     skos:altLabel "gRPC Remote Procedure Calls"@en ;
     skos:prefLabel "gRPC"@en ;
     foaf:homepage "https://grpc.io/"^^xsd:anyURI .
+
+cssvrsc:bf57847f-b090-4139-a449-ddb33e07f2ba a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://gaia-x.gitlab.io/data-infrastructure-federation-services/cat/architecture-document/architecture/catalogue-architecture.html#section-introduction-and-goals"^^xsd:anyURI ;
+    dcat:downloadURL "https://gaia-x.gitlab.io/data-infrastructure-federation-services/cat/architecture-document/architecture/catalogue-architecture.html#section-introduction-and-goals"^^xsd:anyURI .
 
 cssvrsc:3e4b16fb-2767-41a5-b276-481ab26678e8 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -8436,7 +8982,7 @@ cssvrsc:404b9fa8-ea2d-4038-a47a-0f174af600b8 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://docs.peppol.eu/edelivery/sml/PEPPOL-EDN-Service-Metadata-Locator-1.2.0-2021-05-13.pdf"^^xsd:anyURI .
 
-cssvrsc:40c47b1fc24aa65d27c7f8deb7e1251e552718ed04d90844120586144ec181fe a owl:NamedIndividual,
+cssvrsc:d198f289-f5ce-4453-9d11-9c9dd9581490 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/submissions/OWL-S/"^^xsd:anyURI ;
     dcat:downloadURL "https://www.w3.org/submissions/OWL-S/"^^xsd:anyURI .
@@ -8445,7 +8991,12 @@ cssvrsc:40ef4b4a-06de-4ba3-b25f-3aadded5b853 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "http://docs.oasis-open.org/wsrp/v2/wsrp-2.0-spec-os-01.html"^^xsd:anyURI .
 
-cssvrsc:410105ddfd0e478d702553c1eafacc75200d661e77f595ab5531c0ba9fd21bab a owl:NamedIndividual,
+cssvrsc:a9bf2536-656d-4beb-af88-c17523df1646 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://catenax-ev.github.io/docs/next/standards/CX-0006-RegistrationAndInitialOnboarding"^^xsd:anyURI ;
+    dcat:downloadURL "https://catenax-ev.github.io/docs/next/standards/CX-0006-RegistrationAndInitialOnboarding"^^xsd:anyURI .
+
+cssvrsc:b221cc78-cedc-4b48-a1d5-ad62e67ded15 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://docs.oasis-open.org/amqp/filtex/v1.0/filtex-v1.0.html"^^xsd:anyURI ;
     dcat:downloadURL "https://docs.oasis-open.org/amqp/filtex/v1.0/filtex-v1.0.html"^^xsd:anyURI .
@@ -8570,6 +9121,11 @@ cssvrsc:47128735-6709-4e16-b9e3-aa7f12206a35 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/TR/wai-aria/"^^xsd:anyURI .
 
+cssvrsc:ecf03dd9-59fb-4b18-80f4-9fd22b3130aa a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://webstore.iec.ch/en/publication/26137"^^xsd:anyURI ;
+    dcat:downloadURL "https://webstore.iec.ch/en/publication/26137"^^xsd:anyURI .
+
 cssvrsc:48e8fc70-65aa-4c5f-8c67-5ec790fa82b8 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/34342.html"^^xsd:anyURI .
@@ -8606,7 +9162,7 @@ cssvrsc:4b8cf358-0541-42c7-bd7d-16caf3c19329 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.loc.gov/standards/mets/METSPrimer.pdf"^^xsd:anyURI .
 
-cssvrsc:4be37fb10bf3f3e32b561436d23ed9d6ea0d4389aeaba7db1f89cadc15ac68ad a owl:NamedIndividual,
+cssvrsc:40ecfc9f-b7a5-45bc-8c0e-9b9093aa0a3f a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc8288"^^xsd:anyURI ;
     dcat:downloadURL "https://datatracker.ietf.org/doc/html/rfc8288"^^xsd:anyURI .
@@ -8622,6 +9178,11 @@ cssvrsc:4c54c71c-8c45-4cdd-b9e9-7065e83c804a a owl:NamedIndividual,
 cssvrsc:4c7277ef-efb8-48ba-b9be-5182ae1a2600 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "http://web.ifac.org/download/b014-2010-iaasb-handbook-isae-3402.pdf"^^xsd:anyURI .
+
+cssvrsc:4c9c8322acfb1af86222a3ca917330181fff3458591830886a90fa0939cda788 a org:Organization ;
+    skos:altLabel "Data Spaces Business Alliance" ;
+    skos:prefLabel "DSBA" ;
+    foaf:homepage <https://data-spaces-business-alliance.eu/> .
 
 cssvrsc:4ca7fda9-92c1-4bbd-8e5c-a7d706070766 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -8719,7 +9280,7 @@ cssvrsc:53f598b0-de49-4338-8359-6f27a6e2903c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://github.com/FIWARE/catalogue"^^xsd:anyURI .
 
-cssvrsc:54c933e665f59899d733f3c1eb4009571ce989f8d24bc63963254c233db092bd a owl:NamedIndividual,
+cssvrsc:ad5e6531-0ce8-42e2-ac0b-e1cb511c4e8e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc8471"^^xsd:anyURI ;
     dcat:downloadURL "https://datatracker.ietf.org/doc/html/rfc8471"^^xsd:anyURI .
@@ -8732,7 +9293,7 @@ cssvrsc:55014157-566c-43b0-9dd4-ceaef74f706f a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/60545.html"^^xsd:anyURI .
 
-cssvrsc:55159e6db835c93aa0c3e443bd542e6739f7e34d4129e0acd2317f37e2f940c7 a owl:NamedIndividual,
+cssvrsc:2807628e-76b7-4e00-a32c-d25440afe2e5 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.apdex.org/wp-content/uploads/2020/09/ApdexTechnicalSpecificationV11_000.pdf"^^xsd:anyURI ;
     dcat:downloadURL "https://www.apdex.org/wp-content/uploads/2020/09/ApdexTechnicalSpecificationV11_000.pdf"^^xsd:anyURI .
@@ -8799,6 +9360,12 @@ cssvrsc:57b3e33a-c510-48b0-9fcd-87808b13b4a6 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/TR/xslt-30/"^^xsd:anyURI .
 
+cssvrsc:57bb958cc416a3d01db1b78010b947a3999ca557e7da184ce429a8b15cbc408e a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "Fraunhofer-Institut für Angewandte und Integrierte Sicherheit"@en ;
+    skos:prefLabel "AISEC"@en ;
+    foaf:homepage "https://www.aisec.fraunhofer.de/en.html"^^xsd:anyURI .
+
 cssvrsc:57e7cecf-53ac-4ac8-8dac-5d4aa2683aa2 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/55982.html"^^xsd:anyURI .
@@ -8806,6 +9373,11 @@ cssvrsc:57e7cecf-53ac-4ac8-8dac-5d4aa2683aa2 a owl:NamedIndividual,
 cssvrsc:589bf4d4-6ea5-414b-ad99-37d800ab970d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://docs.oasis-open.org/ebcore/ebrr-ebms/v1.0/ebrr-ebms-v1.0.html"^^xsd:anyURI .
+
+cssvrsc:58b7adb6cb104ce15756c8e7a40e9d3dd08e127a73747177cc5697b398510739 a org:Organization ;
+    skos:altLabel "Data Spaces Support Centre" ;
+    skos:prefLabel "DSSC" ;
+    foaf:homepage <https://dssc.eu/> .
 
 cssvrsc:58d22aae26190c9b657c0c3243227aa8fdb1be58141e7b631cc47ff6afdf2d9f a owl:NamedIndividual,
         org:Organization ;
@@ -8831,6 +9403,11 @@ cssvrsc:5b4a391e-838e-4340-96ea-797fa07f6e09 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.itu.int/rec/T-REC-X.1603"^^xsd:anyURI .
 
+cssvrsc:313bfec4-0333-49fc-b7d2-8c9c6fd518f8 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://docs.gaia-x.eu/technical-committee/architecture-document/23.10/"^^xsd:anyURI ;
+    dcat:downloadURL "https://docs.gaia-x.eu/technical-committee/architecture-document/23.10/"^^xsd:anyURI .
+
 cssvrsc:5bd7513e-b736-4733-ab71-c7a42831a3ca a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.itu.int/rec/T-REC-X.1604-202003-I/en"^^xsd:anyURI .
@@ -8847,10 +9424,15 @@ cssvrsc:5c914b3a-8f11-4030-8b14-0b544516dfe8 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://catena-x.net/fileadmin/user_upload/Standard-Bibliothek/Archiv/3_PC_Sovereign_Data_Exchange_v2.1/SC-002_EDC_PC_Self-Sovereign_Data_Exchange_v2.1.pdf"^^xsd:anyURI .
 
-cssvrsc:5cdf283d5d226230a52b5ecf60160b4a4d65e2778ea028473dd3e55c7a14fc01 a owl:NamedIndividual,
+cssvrsc:027d805c-88fc-4442-b3c9-4f060ba1762c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://mas.owasp.org/MASVS/"^^xsd:anyURI ;
     dcat:downloadURL "https://mas.owasp.org/MASVS/"^^xsd:anyURI .
+
+cssvrsc:72106533-78aa-4c84-9803-4e8256bf2a48 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://schema.org/"^^xsd:anyURI ;
+    dcat:downloadURL "https://schema.org/"^^xsd:anyURI .
 
 cssvrsc:5dbe1572-3afc-4fe0-ab73-53adbb0cf66d a owl:NamedIndividual,
         dcat:Distribution ;
@@ -8904,6 +9486,11 @@ cssvrsc:625f9777-42db-47aa-9681-97ff8e61475f a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.itu.int/rec/T-REC-Y.4472-202008-I"^^xsd:anyURI .
 
+cssvrsc:a79fa8bb-854a-47ee-8862-c2b87507f91e a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://github.com/cloudevents/spec"^^xsd:anyURI ;
+    dcat:downloadURL "https://github.com/cloudevents/spec"^^xsd:anyURI .
+
 cssvrsc:628fdc86-4908-428a-a920-e49ef9f54d11 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/78914.html"^^xsd:anyURI .
@@ -8920,7 +9507,7 @@ cssvrsc:650c9842-fad9-42fc-8f81-021f0538cfe5 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://github.com/EBISPOT/DUO"^^xsd:anyURI .
 
-cssvrsc:651ef730302868f315211e582a609815b2038cd4f46958c7f2165cecba3e8966 a owl:NamedIndividual,
+cssvrsc:6d738cfa-4a70-4662-8158-eddf9f0876fe a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/submissions/wadl/"^^xsd:anyURI ;
     dcat:downloadURL "https://javaee.github.io/wadl/"^^xsd:anyURI .
@@ -8945,7 +9532,7 @@ cssvrsc:670c171c-7f30-4b88-9d9f-ad0f7b330db6 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://datatracker.ietf.org/doc/rfc4664/"^^xsd:anyURI .
 
-cssvrsc:672cba85e224f718c90b8c441bd2a7ea9dd73c6e610484c46793c8dd3345272b a owl:NamedIndividual,
+cssvrsc:94b348bb-b595-4b01-b5bc-91fd819d7733 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "http://amundsen.com/media-types/collection/"^^xsd:anyURI ;
     dcat:downloadURL "http://amundsen.com/media-types/collection/"^^xsd:anyURI .
@@ -9052,9 +9639,19 @@ cssvrsc:6de33742-495f-44b3-9c19-8a1d5394923f a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/71885.html"^^xsd:anyURI .
 
+cssvrsc:97238540-093f-4657-85e9-1df3857958ca a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rfc-editor.org/rfc/rfc7517"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.rfc-editor.org/rfc/rfc7517"^^xsd:anyURI .
+
 cssvrsc:6e9f4bab-38aa-464a-83d0-c2bec84369ff a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://rml.io/specs/rml/"^^xsd:anyURI .
+
+cssvrsc:80189733-2833-4fad-926c-4c73713fe758 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://gaia-x.gitlab.io/technical-committee/identity-credentials-and-access-management-working-group/icam/intro/"^^xsd:anyURI ;
+    dcat:downloadURL "https://gaia-x.gitlab.io/technical-committee/identity-credentials-and-access-management-working-group/icam/intro/"^^xsd:anyURI .
 
 cssvrsc:6f4e981f-c44c-4d9d-b503-8cefe9cd9c4a a owl:NamedIndividual,
         dcat:Distribution ;
@@ -9086,6 +9683,11 @@ cssvrsc:713efcff-857f-4a8e-a2cc-a4e490b30623 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.rfc-editor.org/rfc/rfc4287"^^xsd:anyURI .
 
+cssvrsc:761b674b-300d-441c-a960-6c4bb6e81ef7 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.gxfs.eu/authentication-authorisation/"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.gxfs.eu/authentication-authorisation/"^^xsd:anyURI .
+
 cssvrsc:7194eb7c-640e-493d-8b88-127230f6e451 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.europarl.europa.eu/doceo/document/TA-9-2023-0105_EN.html"^^xsd:anyURI .
@@ -9106,6 +9708,11 @@ cssvrsc:72a90fe2-4496-45b3-9e6a-5d03dd142fde a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/103100_103199/103174/02.02.01_60/ts_103174v020201p.pdf"^^xsd:anyURI .
 
+cssvrsc:7197451c-a2c9-41e6-babb-e12ddfad3e8b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://csrc.nist.gov/pubs/sp/800/162/upd2/final#:~:text=ABAC%20is%20a%20logical%20access%20control%20methodology%20where,allowable%20operations%20for%20a%20given%20set%20of%20attributes"^^xsd:anyURI ;
+    dcat:downloadURL "https://csrc.nist.gov/pubs/sp/800/162/upd2/final#:~:text=ABAC%20is%20a%20logical%20access%20control%20methodology%20where,allowable%20operations%20for%20a%20given%20set%20of%20attributes"^^xsd:anyURI .
+
 cssvrsc:73083d3e-4e9e-459e-a40d-e20325891a79 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.itu.int/ITU-T/recommendations/rec.aspx?id=14167#:~:text=Framework%20of%20blockchain%20of%20things%20as%20decentralized%20service,things%20%28BoT%29%2C%20which%20is%20enabled%20by%20blockchain-related%20technologies."^^xsd:anyURI .
@@ -9114,11 +9721,16 @@ cssvrsc:731e93a1-9dbd-412d-803c-79003c10a2fd a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/TR/r2rml/"^^xsd:anyURI .
 
+cssvrsc:76d55860-5732-4176-a559-5392b789d5cf a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://semiceu.github.io/CCCEV/releases/2.1.0/"^^xsd:anyURI ;
+    dcat:downloadURL "https://semiceu.github.io/CCCEV/releases/2.1.0/"^^xsd:anyURI .
+
 cssvrsc:740959d3-1c9f-4ccb-a947-23d125e6b0a8 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/TR/html401/"^^xsd:anyURI .
 
-cssvrsc:7488a78e4e0fa3b473040f0b4e451003803a5ac09cd093e9b6c492bbf9a7feec a owl:NamedIndividual,
+cssvrsc:cfcdb0ec-8494-4fc8-af2c-5309ad0147ca a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.rfc-editor.org/rfc/rfc7807"^^xsd:anyURI ;
     dcat:downloadURL "https://www.rfc-editor.org/rfc/rfc7807"^^xsd:anyURI .
@@ -9131,10 +9743,15 @@ cssvrsc:74cd6459-2022-463b-bb32-9af607fb2eae a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32014L0025"^^xsd:anyURI .
 
-cssvrsc:75e59ac66f766785c7782d3ad9652759bc9a75866197fd28d1794052a43490a7 a owl:NamedIndividual,
+cssvrsc:a2dcaa2f-2b9b-4df6-ab79-0eef3dcc7fd6 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/"^^xsd:anyURI ;
     dcat:downloadURL "https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/"^^xsd:anyURI .
+
+cssvrsc:0757b42d-4256-433d-b957-7145163395dc a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://opendataproducts.org/v3.1/#open-data-product-specification-3-1"^^xsd:anyURI ;
+    dcat:downloadURL "https://opendataproducts.org/v3.1/#open-data-product-specification-3-1"^^xsd:anyURI .
 
 cssvrsc:773de760d06f90a869bdb5b2b22d281c43cff1ca87d3ce0144eab033319a213d a owl:NamedIndividual,
         org:Organization ;
@@ -9210,7 +9827,7 @@ cssvrsc:7cada9c1-bbba-476d-8f52-0ddaf3eb473b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://fetch.spec.whatwg.org/"^^xsd:anyURI .
 
-cssvrsc:7cb41b74242cacd41a36550b189c3ac14924569e7b54e35fb8bdb20ecdf23421 a owl:NamedIndividual,
+cssvrsc:e2c04506-8292-4675-93ed-49b7bb4470eb a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.hydra-cg.com/spec/latest/core/"^^xsd:anyURI ;
     dcat:downloadURL "https://www.hydra-cg.com/spec/latest/core/"^^xsd:anyURI .
@@ -9273,7 +9890,7 @@ cssvrsc:7fd71cf4-c5a3-4b9d-b96a-416cb872e991 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://github.com/cloudevents/spec"^^xsd:anyURI .
 
-cssvrsc:7fdc1de93f8a34ce2a13220e683f96cd3fbbb6b9aee47633e5872094c92b6635 a owl:NamedIndividual,
+cssvrsc:1e3bf6d5-ddf1-4dfa-8b01-39c38d9555de a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc7033"^^xsd:anyURI ;
     dcat:downloadURL "https://datatracker.ietf.org/doc/html/rfc7033"^^xsd:anyURI .
@@ -9374,6 +9991,11 @@ cssvrsc:8a038bdf6f4cd87510ad55e8bf80636b08fe02924c5342cad4b92a0a5bb96e32 a owl:N
     skos:prefLabel "ODC"@en ;
     foaf:homepage "https://opendatacharter.org/"^^xsd:anyURI .
 
+cssvrsc:147cf544-c59c-49f3-83b2-e2382c900915 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rfc-editor.org/rfc/rfc7252.html"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.rfc-editor.org/rfc/rfc7252.html"^^xsd:anyURI .
+
 cssvrsc:8af50ee7-5da9-430c-ab3b-881b52a6623e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://docs.peppol.eu/edelivery/envelope/PEPPOL-EDN-Business-Message-Envelope-1.2.1-2020-03-11.pdf"^^xsd:anyURI .
@@ -9398,7 +10020,7 @@ cssvrsc:8bec3405-7224-402e-a2e3-62d77c0b8777 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/TR/wsdl20/"^^xsd:anyURI .
 
-cssvrsc:8c25f54d7f19bb43d2a7f21efd50249ec732d16e08435007d733a6d7032c852e a owl:NamedIndividual,
+cssvrsc:9996db4c-b952-4e94-90bc-545153a01d92 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/TR/shacl/"^^xsd:anyURI ;
     dcat:downloadURL "https://www.w3.org/TR/shacl/"^^xsd:anyURI .
@@ -9479,6 +10101,11 @@ cssvrsc:91428bdb-846a-4864-acc7-0fdd154f0303 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.etsi.org/deliver/etsi_gr/CIM/001_099/018/01.01.01_60/gr_CIM018v010101p.pdf"^^xsd:anyURI .
 
+cssvrsc:d2eeb184-b7d2-4dec-8a74-13dfb7577bbc a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://docs.edelivery.tech.ec.europa.eu/domibus/5.1.7/"^^xsd:anyURI ;
+    dcat:downloadURL "https://docs.edelivery.tech.ec.europa.eu/domibus/5.1.7/"^^xsd:anyURI .
+
 cssvrsc:91c0b2b1f25b0c35526444ade2711fe9db922ac62534ede077e2b517a0cc1615 a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "GSM Association"@en ;
@@ -9513,7 +10140,7 @@ cssvrsc:9303862f-3ffd-4602-809b-0f8e92ac8588 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.itb.ec.europa.eu/docs/services/latest/validation/"^^xsd:anyURI .
 
-cssvrsc:930ff957838e300a426f192ec47f03dce2ee3195e48415a609d95d568c0f7c84 a owl:NamedIndividual,
+cssvrsc:71acab37-776c-4d0d-8092-e4d35044c936 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://github.com/APILicense/Swedish-API-License"^^xsd:anyURI ;
     dcat:downloadURL "https://github.com/APILicense/Swedish-API-License"^^xsd:anyURI .
@@ -9550,6 +10177,16 @@ cssvrsc:9552bcaa-d409-4b5e-a12c-a36adfd2faba a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://earksip.dilcis.eu/"^^xsd:anyURI .
 
+cssvrsc:806a7675-4412-4e5e-a46f-8e4fe9a11af2 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://web-eid.eu/"^^xsd:anyURI ;
+    dcat:downloadURL "https://web-eid.eu/"^^xsd:anyURI .
+
+cssvrsc:9634df7e495ec3507f94dbec101796170fe01d77c02a1fe8793ee7b88d9dfc69 a org:Organization ;
+    skos:altLabel "Open Archives Initiative" ;
+    skos:prefLabel "OAI" ;
+    foaf:homepage <https://www.openarchives.org/> .
+
 cssvrsc:9683515b-dfa2-4cbb-a924-8bd696d90c27 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.gs1.org/standards/gs1-un-cefact-xml-profiles/gs1-un-cefact-xml-cross-industry-invoice/2012"^^xsd:anyURI .
@@ -9582,7 +10219,12 @@ cssvrsc:9826ad49-d83f-4e79-899a-745848a9b6c0 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/119400_119499/119432/01.01.01_60/ts_119432v010101p.pdf"^^xsd:anyURI .
 
-cssvrsc:9963da80ef6a8b28056bc13321adef0e4d01d0672a0b6887733e90ab476b61a8 a owl:NamedIndividual,
+cssvrsc:5d682156-621a-426a-8d31-b983e79013ac a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rfc-editor.org/rfc/rfc913.html"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.rfc-editor.org/rfc/rfc913.html"^^xsd:anyURI .
+
+cssvrsc:f298ba69-2ab9-4720-b7d8-37eaa5426ee1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=708412335"^^xsd:anyURI ;
     dcat:downloadURL "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=708412335"^^xsd:anyURI .
@@ -9596,6 +10238,11 @@ cssvrsc:99f772e1b43a1765042d65e39f54ef1225e58a4a392a60db74c1636195049820 a owl:N
     skos:altLabel "Smart Data Models Initiative"@en ;
     skos:prefLabel "SDM"@en ;
     foaf:homepage "https://smartdatamodels.org/"^^xsd:anyURI .
+
+cssvrsc:244ad7f8-e27c-4be7-be53-23b37317c8de a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://webstore.iec.ch/en/publication/26138"^^xsd:anyURI ;
+    dcat:downloadURL "https://webstore.iec.ch/en/publication/26138"^^xsd:anyURI .
 
 cssvrsc:9a4a8043b98b126e5319c3b253b75eb871cbabb7eb4ce7c7ace6968faf62206b a owl:NamedIndividual,
         org:Organization ;
@@ -9619,7 +10266,7 @@ cssvrsc:9aec3313-9cc9-417d-b754-4d14d4861c58 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752197"^^xsd:anyURI .
 
-cssvrsc:9b92d4c4d8bfa6ff2aa7fb4d503ec8a7000d1500c03cf3c1a738128d6056ffdc a owl:NamedIndividual,
+cssvrsc:f08fa076-3a93-459d-a13d-d0d22ebbf500 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc6838"^^xsd:anyURI ;
     dcat:downloadURL "https://datatracker.ietf.org/doc/html/rfc6838"^^xsd:anyURI .
@@ -9642,7 +10289,7 @@ cssvrsc:9c654c78-8dee-4605-af19-aa3d0ac0bf80 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.ogc.org/standard/cat/"^^xsd:anyURI .
 
-cssvrsc:9cc924c8780ce34c05d2477f1e0bddd22656cec5e26a427303eff4e1823ca122 a owl:NamedIndividual,
+cssvrsc:31d059d4-1edf-4e12-bf6f-cae35b1073dc a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://github.com/lambda2/rapis"^^xsd:anyURI ;
     dcat:downloadURL "https://github.com/lambda2/rapis"^^xsd:anyURI .
@@ -9650,6 +10297,11 @@ cssvrsc:9cc924c8780ce34c05d2477f1e0bddd22656cec5e26a427303eff4e1823ca122 a owl:N
 cssvrsc:9d2dd470-500e-4376-8318-fc145a7a05ce a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eID"^^xsd:anyURI .
+
+cssvrsc:9d2e8a4b1b697e7d135a190176454a2249450797a3aebca1197cdfe9882409ae a org:Organization ;
+    skos:altLabel "ID Software" ;
+    skos:prefLabel "ID" ;
+    foaf:homepage <https://www.id.ee/en/> .
 
 cssvrsc:9d56f150-d853-42f0-83b9-741e3d2e94a3 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -9755,7 +10407,7 @@ cssvrsc:a3d97cba4beaa04ed600aa09d17e56d22379ba34960160400e25fb6ff58f72bd a owl:N
     skos:prefLabel "PCI DSS"@en ;
     foaf:homepage "https://www.pcisecuritystandards.org/"^^xsd:anyURI .
 
-cssvrsc:a3ff6d24da327f4f4e42d8c60cdcfc2a2bf86a70549e759aadd63d5ee8787d18 a owl:NamedIndividual,
+cssvrsc:ef441164-0db0-4604-b3a3-bcee4ea4eaa1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://docs.oasis-open.org/amqp/event-streams/v1.0/event-streams-v1.0.html"^^xsd:anyURI ;
     dcat:downloadURL "https://docs.oasis-open.org/amqp/event-streams/v1.0/event-streams-v1.0.html"^^xsd:anyURI .
@@ -9778,7 +10430,7 @@ cssvrsc:a4329b90-1836-4fe5-8ca4-cd0a4eb97a9c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://protobuf.dev/overview/"^^xsd:anyURI .
 
-cssvrsc:a4687bbbe4823547ed347256346a172b302b7316bed7170f56a69cf12b8dd1a9 a owl:NamedIndividual,
+cssvrsc:4ea5ac61-2a5b-4b09-ae5d-4aa96adcf670 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://avro.apache.org/docs/1.12.0/"^^xsd:anyURI ;
     dcat:downloadURL "https://avro.apache.org/docs/1.12.0/"^^xsd:anyURI .
@@ -9805,7 +10457,12 @@ cssvrsc:a60a6e40-ccae-4e41-b78b-c9d197143049 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://joinup.ec.europa.eu/"^^xsd:anyURI .
 
-cssvrsc:a64e8f4342c06bf005c7003a78b43ec395bda1505b9433fe8a2c317179b5a17b a owl:NamedIndividual,
+cssvrsc:a5939132-6f22-4a15-ad34-16d64944d4bd a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.00/"^^xsd:anyURI ;
+    dcat:downloadURL "https://semiceu.github.io/Core-Location-Vocabulary/releases/2.00/"^^xsd:anyURI .
+
+cssvrsc:0dcc3283-62dd-4b70-8f9a-d3d735dde3df a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://spdx.dev/"^^xsd:anyURI ;
     dcat:downloadURL "https://spdx.dev/"^^xsd:anyURI .
@@ -9938,10 +10595,6 @@ cssvrsc:b06a59ea-2633-4be3-8d80-3a3351a6c639 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/TR/UAAG20/"^^xsd:anyURI .
 
-cssvrsc:b0eb4ee9e70538feaed60d0304c62b8d275f1e9891ed9e45c2d226f7842e0aea a owl:NamedIndividual,
-        org:Organization ;
-    skos:prefLabel "SEMIC"@en .
-
 cssvrsc:b103d02c8b313c19f6ad19e0fc14a86441428b27e1f248a6c3044febbf9765e1 a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "Government of India"@en ;
@@ -9959,6 +10612,11 @@ cssvrsc:b1edd2d5-b547-4b6e-a0bc-34adafcad4c4 a owl:NamedIndividual,
 cssvrsc:b20c565a-20fd-46c5-9978-57548577e200 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+AS4+-+1.14"^^xsd:anyURI .
+
+cssvrsc:bc6f5740-87a6-4b1b-b93e-8d10f03384e1 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Cloud-Computing/Kriterienkatalog-C5/C5_AktuelleVersion/C5_AktuelleVersion_node.html"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Cloud-Computing/Kriterienkatalog-C5/C5_AktuelleVersion/C5_AktuelleVersion_node.html"^^xsd:anyURI .
 
 cssvrsc:b263f91d-005f-42a3-b088-dbbe11abda01 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10029,6 +10687,16 @@ cssvrsc:b5b43d60-7d3e-4f00-b35c-389cb24c951c a owl:NamedIndividual,
 cssvrsc:b5fe88e4-c816-4495-a0c8-19ad79b3b94e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://solidproject.org/TR/protocol"^^xsd:anyURI .
+
+cssvrsc:3954468d-17b8-42b7-8a2e-4e0816c15142 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/core-public-service-vocabulary-application-profile/release/320"^^xsd:anyURI ;
+    dcat:downloadURL "https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/core-public-service-vocabulary-application-profile/release/320"^^xsd:anyURI .
+
+cssvrsc:2775f211-43d2-4acd-82a7-6194f03223a6 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://data-spaces-business-alliance.eu/dsba-releases-technical-convergence-discussion-document/"^^xsd:anyURI ;
+    dcat:downloadURL "https://data-spaces-business-alliance.eu/dsba-releases-technical-convergence-discussion-document/"^^xsd:anyURI .
 
 cssvrsc:b76b277a-9996-4cba-a4ee-2c1019868326 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10138,7 +10806,7 @@ cssvrsc:bd2bd6b5-53ac-4efd-9860-2debb994f025 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://docs.peppol.eu/edelivery/codelists/"^^xsd:anyURI .
 
-cssvrsc:bd2bffda7d1ca8a3bd7b8c399c682a17d1fb1b02b4204f00c704bb075eabbd40 a owl:NamedIndividual,
+cssvrsc:e0a1e240-8ef0-4cbf-b45d-efa11ce130fd a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://semiceu.github.io/DCAT-AP/releases/3.0.0/"^^xsd:anyURI ;
     dcat:downloadURL "https://semiceu.github.io/DCAT-AP/releases/3.0.0/"^^xsd:anyURI .
@@ -10146,6 +10814,11 @@ cssvrsc:bd2bffda7d1ca8a3bd7b8c399c682a17d1fb1b02b4204f00c704bb075eabbd40 a owl:N
 cssvrsc:bdc2e58f-d8ce-42ee-8186-9cbae10b1a84 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+ebCore+Party+Id+1.4"^^xsd:anyURI .
+
+cssvrsc:c21d21f0-042a-4135-ad38-4de42df941dc a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://ec.europa.eu/eurostat/web/nuts"^^xsd:anyURI ;
+    dcat:downloadURL "https://ec.europa.eu/eurostat/documents/345175/629341/NUTS2021-NUTS2024.xlsx/2b35915f-9c14-6841-8197-353408c4522d?t=1717505289640"^^xsd:anyURI .
 
 cssvrsc:bead2000-898f-48ee-b78f-634e55e58019 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10157,7 +10830,7 @@ cssvrsc:bef8f19d96d34f1d550ff6ee80af32c68c8967de99352ad5da4c88756f6ddb93 a owl:N
     skos:prefLabel "Open Connectivity Foundation"@en ;
     foaf:homepage "https://openconnectivity.org/"^^xsd:anyURI .
 
-cssvrsc:beffa1573937c4e4a576d5145acd19234a8d6a77ea412462017f71253904e89e a owl:NamedIndividual,
+cssvrsc:1c0d040d-8551-4d2e-aebe-7e4311dee57f a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.rfc-editor.org/rfc/rfc6585"^^xsd:anyURI ;
     dcat:downloadURL "https://www.rfc-editor.org/rfc/rfc6585"^^xsd:anyURI .
@@ -10186,11 +10859,15 @@ cssvrsc:c125b1be-a974-4939-82bf-1247b2c6588b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/79573.html"^^xsd:anyURI .
 
+cssvrsc:c127b1be-a974-4939-82bf-1247b2c6588b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/66639.html"^^xsd:anyURI .
+
 cssvrsc:c12cd315-c044-4d3d-85a1-90e1040cb053 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://openid.net/specs/openid-connect-self-issued-v2-1_0-ID1.html"^^xsd:anyURI .
 
-cssvrsc:c183fbf03a0aac66164c9bde9819bc35e2371ed9301fb81680ffa3db91a361a8 a owl:NamedIndividual,
+cssvrsc:dce5bb1d-e7d0-4f36-b621-5d74351e4162 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://docs.spring.io/spring-framework/reference/web/webflux-websocket.html"^^xsd:anyURI ;
     dcat:downloadURL "https://docs.spring.io/spring-framework/reference/web/webflux-websocket.html"^^xsd:anyURI .
@@ -10299,6 +10976,11 @@ cssvrsc:c7a19d91-a472-4de9-9cd0-02251fad5614 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/TR/ldn/"^^xsd:anyURI .
 
+cssvrsc:3a01df9b-8e5f-4f6c-b1c3-70203967df19 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://gitlab.eclipse.org/eclipse/xfsc/cam"^^xsd:anyURI ;
+    dcat:downloadURL "https://gitlab.eclipse.org/eclipse/xfsc/cam"^^xsd:anyURI .
+
 cssvrsc:c82e6f20-c1c6-43b3-b7ba-2936434fd715 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html"^^xsd:anyURI .
@@ -10333,6 +11015,11 @@ cssvrsc:ca2a391c-a25d-44ba-a40e-daad7a59b532 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "http://ontologydesignpatterns.org/wiki/Ontology_Design_Patterns_._org_%28ODP%29"^^xsd:anyURI .
 
+cssvrsc:ca3691b9d6d6a0d8263840b6899a5b4e8bb0cae552b2dd2bf3a9b1b31a7e1e1b a org:Organization ;
+    skos:altLabel "Deutschland Digital Sicher" ;
+    skos:prefLabel "BSI" ;
+    foaf:homepage <https://www.bsi.bund.de/EN/Home/home_node.html> .
+
 cssvrsc:ca65e0c6-8651-4a7e-af51-dfc73b2e16c2 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://ieeexplore.ieee.org/document/9726144"^^xsd:anyURI .
@@ -10364,10 +11051,6 @@ cssvrsc:cb85a525-8e22-4ae4-9707-89fc05029793 a owl:NamedIndividual,
 cssvrsc:cb868a40-1a2b-4d29-84b9-99a77efae65e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32013L0037"^^xsd:anyURI .
-
-cssvrsc:cd7f827a-64c2-49ea-a869-16c4bc79c1d8 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/release/core-location-vocabulary/100"^^xsd:anyURI .
 
 cssvrsc:cda3ef8c-dc4f-4bf3-91f9-a0222dabdc28 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10413,6 +11096,11 @@ cssvrsc:d1f56ac3-c429-46b9-85b3-9a74a80a3a20 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/TR/vocab-regorg/"^^xsd:anyURI .
 
+cssvrsc:a6d0eae0-fda2-4c5e-8be6-edcbaa37b2d1 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.gxfs.eu/data-exchange-logging-service/"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.gxfs.eu/data-exchange-logging-service/"^^xsd:anyURI .
+
 cssvrsc:d215ae8426e554b82326f47992afae5c9a1111abe85fcdecc8653074b78377b9 a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "SoftEther VPN Project"@en ;
@@ -10443,7 +11131,7 @@ cssvrsc:d4cb828d-c153-4637-9e73-1158de36708a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/63105.html"^^xsd:anyURI .
 
-cssvrsc:d4d459425e5c5e7324282c877c2ba2cb2ba4d0c04be9cfc7936f3a3e32cf98bb a owl:NamedIndividual,
+cssvrsc:1e386daf-a136-4df5-9215-4a8f3bc59b65 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://rwcbook.github.io/hal-forms/"^^xsd:anyURI ;
     dcat:downloadURL "https://rwcbook.github.io/hal-forms/"^^xsd:anyURI .
@@ -10498,6 +11186,11 @@ cssvrsc:d8ac2b1b-390d-42ec-b979-3cdc73b38389 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://wicg.github.io/digital-credentials/"^^xsd:anyURI .
 
+cssvrsc:d8bcbcc4bb1379ce5e12fc5aebfd10433830a325c42ba8d99280cdf27d6cb8c5 a org:Organization ;
+    skos:altLabel "Schibsted Group" ;
+    skos:prefLabel "Schibsted" ;
+    foaf:homepage <https://github.com/schibsted> .
+
 cssvrsc:d940a683-8a8d-4229-9e92-7e1a351ce0ab a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/72889.html"^^xsd:anyURI .
@@ -10542,6 +11235,11 @@ cssvrsc:db289991-8de9-439b-94a5-bd79b554b2f9 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.rfc-editor.org/rfc/rfc5016.html"^^xsd:anyURI .
 
+cssvrsc:6cc6f90a-3f2e-4500-84ea-b98cc8e18aa5 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://dssc.eu/space/BVE2/1071251457/Data+Spaces+Blueprint+v2.0+-+Home"^^xsd:anyURI ;
+    dcat:downloadURL "https://dssc.eu/space/BVE2/1071251457/Data+Spaces+Blueprint+v2.0+-+Home"^^xsd:anyURI .
+
 cssvrsc:dca5ad84-6bb6-4c31-a8dc-ee79de4a2c75 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.rfc-editor.org/rfc/rfc6698"^^xsd:anyURI .
@@ -10554,7 +11252,7 @@ cssvrsc:dd5cc62b-47b6-4b95-99a4-23698b10e99e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc9000"^^xsd:anyURI .
 
-cssvrsc:de844b2e909ee961fdcc1e67ef9e42aa23ba6188b6ca1a99ddc28ae3f64e93c4 a owl:NamedIndividual,
+cssvrsc:a54e56e7-bd5b-4724-a937-cc5dadcfa688 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://apiblueprint.org/"^^xsd:anyURI ;
     dcat:downloadURL "https://apiblueprint.org/"^^xsd:anyURI .
@@ -10625,6 +11323,11 @@ cssvrsc:e58932b0-85c1-453c-8dc1-cf8c797efd68 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://csrc.nist.gov/publications/detail/fips/202/final"^^xsd:anyURI .
 
+cssvrsc:41b48a14-5d60-4319-9750-4a187c5ad533 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/rdfa-core/"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.w3.org/TR/rdfa-core/"^^xsd:anyURI .
+
 cssvrsc:e5f0b073-2a7d-4e8d-abf5-d4d9b336e623 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/core-standards-and-specifications-vocabulary-cssv/release/120"^^xsd:anyURI .
@@ -10655,12 +11358,12 @@ cssvrsc:e77c5c5c-5b3c-4368-b5e5-8f54d5a4141c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"^^xsd:anyURI .
 
-cssvrsc:e7b4c91ee46457a984c87ad27dd808fbd90f06644617fd6492d894499da2b858 a owl:NamedIndividual,
+cssvrsc:5fd6aa6c-4308-43f1-899a-f5990bfeb898 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://rawgit.com/uber-hypermedia/specification/master/uber-hypermedia.html"^^xsd:anyURI ;
     dcat:downloadURL "https://github.com/straiforos/specification/blob/master/uber-hypermedia.asciidoc"^^xsd:anyURI .
 
-cssvrsc:e809b172795de80a5463eb0d5a65e801d5e8588c10b2f7859c5b2752dbb76f5e a owl:NamedIndividual,
+cssvrsc:0e70d911-36b8-4bb9-8899-a664b8806e32 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://microformats.org/wiki/microformats2"^^xsd:anyURI ;
     dcat:downloadURL "https://microformats.org/wiki/microformats2"^^xsd:anyURI .
@@ -10682,6 +11385,11 @@ cssvrsc:e86556b5f52e810af54d213b164bf066ef6c6483c5c98ed36bdeff406147061e a owl:N
 cssvrsc:e9e9f30f-7d12-48eb-acdf-b4cd91e182c5 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.axelos.com/best-practice-solutions/itil"^^xsd:anyURI .
+
+cssvrsc:d8f3dc87-6128-4687-982d-a10f17d024f1 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.openarchives.org/OAI/openarchivesprotocol.html"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.openarchives.org/OAI/openarchivesprotocol.html"^^xsd:anyURI .
 
 cssvrsc:eb2e3800-f5b3-48ac-b039-0df587062d7e a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10720,6 +11428,10 @@ cssvrsc:ed5c116e-be8c-4815-87a2-208202b2ab79 a owl:NamedIndividual,
 cssvrsc:ed98b816-d489-4cc2-9ca0-dea07d0ba18d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://joinup.ec.europa.eu/collection/european-interoperability-reference-architecture-eira/solution/eira/release/v500"^^xsd:anyURI .
+
+cssvrsc:ed98b016-d489-4cc2-9ca0-dea07d0ba18d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://interoperable-europe.ec.europa.eu/collection/european-interoperability-reference-architecture-eira/solution/eira/release/610"^^xsd:anyURI .
 
 cssvrsc:eddfffc7-b79c-4474-8e73-b26b1c262122 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10769,6 +11481,11 @@ cssvrsc:f17b73c8-174d-475a-94e9-5e046df85f46 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://catena-x.net/fileadmin/user_upload/Standard-Bibliothek/Archiv/4_PC_IAM_v2.1/IAM_-_003_PlatformCapabilityIAM_v2.1.pdf"^^xsd:anyURI .
 
+cssvrsc:1c9a04ae-199f-4d21-b55b-07cad4345090 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://json-stat.org/format/"^^xsd:anyURI ;
+    dcat:downloadURL "https://json-stat.org/format/"^^xsd:anyURI .
+
 cssvrsc:f2b1743f-9a5c-4421-adb0-847dba67813a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2024/06/IDTA-01001-3-0-1_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf"^^xsd:anyURI .
@@ -10795,10 +11512,15 @@ cssvrsc:f4672b91-aead-44e4-868b-420a042b8f36 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf"^^xsd:anyURI .
 
-cssvrsc:f46abc1c8c7f1a68160a79b09cfc961bfdb918c6031cd7c4eefaf091c6676533 a owl:NamedIndividual,
+cssvrsc:48e38991-3797-4782-9e1d-b14d3307a67a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://learning.postman.com/collection-format/getting-started/overview/"^^xsd:anyURI ;
     dcat:downloadURL "https://learning.postman.com/collection-format/getting-started/overview/"^^xsd:anyURI .
+
+cssvrsc:8293e4d5-bc3b-4ea4-8ab1-9c17fa4d6589 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://gitlab.com/gaia-x/lab/compliance/gx-registry"^^xsd:anyURI ;
+    dcat:downloadURL "https://gitlab.com/gaia-x/lab/compliance/gx-registry"^^xsd:anyURI .
 
 cssvrsc:f492990d-7a5f-4078-b419-ce15cea185be a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10827,6 +11549,11 @@ cssvrsc:f5073292-2941-4d32-984f-a81a40eece83 a owl:NamedIndividual,
 cssvrsc:f54e95a4-7f21-4ed4-9611-00168a3852ff a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/65695.html"^^xsd:anyURI .
+
+cssvrsc:c7d34947-40a0-4c27-a2f7-bfaf0cea4a98 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/xquery-30/"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.w3.org/TR/xquery-30/"^^xsd:anyURI .
 
 cssvrsc:f5787912-4775-4698-8166-6e0ec2f6a278 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10912,6 +11639,16 @@ cssvrsc:f8fbab9a-796f-4d8d-bbdb-94be764554bb a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://standards.cen.eu/dyn/www/f?p=204:110:0::::FSP_PROJECT,FSP_ORG_ID:67073,1218399&cs=1A148766F9EC80CBD3340728E3B8BB892"^^xsd:anyURI .
 
+cssvrsc:80055502-4c70-4c47-852b-80a9e1078983 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/obp/ui#iso:std:iso:ts:10020:ed-1:v1:en"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.iso.org/obp/ui#iso:std:iso:ts:10020:ed-1:v1:en"^^xsd:anyURI .
+
+cssvrsc:bf3415b1-b6ac-4035-b305-247f99aa50bb a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/void/"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.w3.org/TR/void/"^^xsd:anyURI .
+
 cssvrsc:fa7d808a-3d95-4ac7-8726-64e12dc1ff20 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://opendatacharter.net/g8-open-data-charter/"^^xsd:anyURI .
@@ -10924,9 +11661,19 @@ cssvrsc:fab0e091-0742-4233-9991-bf157c6b33ca a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.iso.org/standard/67937.html"^^xsd:anyURI .
 
+cssvrsc:14ba123c-add6-460e-a8a9-746e84eb9333 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://github.com/w3c/dpv/blob/master/2.1/README.md"^^xsd:anyURI ;
+    dcat:downloadURL "https://github.com/w3c/dpv/blob/master/2.1/README.md"^^xsd:anyURI .
+
 cssvrsc:fb1ca5cd-b0ba-4c1a-95c0-ae1529bfe737 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32014R0910"^^xsd:anyURI .
+
+cssvrsc:837350b2-12a8-4d7a-b3f8-dbe6d75c7fdc a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.omg.org/spec/DDS/1.4/PDF"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.omg.org/spec/DDS/1.4/PDF"^^xsd:anyURI .
 
 cssvrsc:fc025b93-3bd8-4070-89d4-00c8ebc710f2 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10979,12 +11726,6 @@ cssvrsc:p17v73c8-174d-475a-94e9-5e046df85f95 a owl:NamedIndividual,
 cssvrsc:zb02d997-c674-4d6b-8727-c26d2caeeb3c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "https://www.w3.org/TR/xmlschema11-2/"^^xsd:anyURI .
-
-cssvrsc:0c8f39b11936f6d48ad86897e2d3ecd9e62271931ed4c4c3ee7c97970dc7678a a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "ontologydesignpatterns.org"@en ;
-    skos:prefLabel "ODP"@en ;
-    foaf:homepage "http://ontologydesignpatterns.org/"^^xsd:anyURI .
 
 cssvrsc:18a60d4b69cb324719fc4c271f4fabb940910967261c46746b150081ed2d26d7 a owl:NamedIndividual,
         org:Organization ;
@@ -11039,18 +11780,6 @@ cssvrsc:53444b83d9a4120c1bcd932711de6ea4ca16a27fed8622597f987c96d3e7aef0 a owl:N
     skos:prefLabel "DCMI"@en ;
     foaf:homepage "https://www.dublincore.org/"^^xsd:anyURI .
 
-cssvrsc:57bb958cc416a3d01db1b78010b947a3999ca557e7da184ce429a8b15cbc408e a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "Fraunhofer-Institut für Angewandte und Integrierte Sicherheit"@en ;
-    skos:prefLabel "AISEC"@en ;
-    foaf:homepage "https://www.aisec.fraunhofer.de/en.html"^^xsd:anyURI .
-
-cssvrsc:629bdcdf6ffd2d15e817fc5617f4b7c7de4fcceacc7e8e746d941bc1d10ce23a a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "Schema.org"@en ;
-    skos:prefLabel "Schema.org"@en ;
-    foaf:homepage "https://schema.org/"^^xsd:anyURI .
-
 cssvrsc:6c1b650bbb0c62db6302de8b252e39c070c9c851bbd9b92cbf091420c0a48d86 a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "XBRL International"@en ;
@@ -11084,10 +11813,6 @@ cssvrsc:a2023cc3269b699f92bb59545d6d021dd661e25367193cd4a19b417230b7a19e a owl:N
     skos:altLabel "University Corporation for Atmospheric Research"@en ;
     skos:prefLabel "UCAR"@en ;
     foaf:homepage "https://www.ucar.edu/"^^xsd:anyURI .
-
-cssvrsc:c127b1be-a974-4939-82bf-1247b2c6588b a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://www.iso.org/standard/66639.html"^^xsd:anyURI .
 
 cssvrsc:c8c696d3644095af8ba87690d43ac7da7d3f9637779ee16d5af72263145194b0 a owl:NamedIndividual,
         org:Organization ;
@@ -11125,11 +11850,11 @@ cssvrsc:f98d58588389ddba76ecaba2191e56af3fbe1c9250e0cc4e4de6d0c44607203e a owl:N
     skos:prefLabel "OWASP SAMM"@en ;
     foaf:homepage "https://owaspsamm.org/"^^xsd:anyURI .
 
-cssvrsc:3ccd5eb4c630bce8cc7e1adee15bd015260a39fda75e5abb4a6ac2c6bb76119f a owl:NamedIndividual,
+cssvrsc:0c8f39b11936f6d48ad86897e2d3ecd9e62271931ed4c4c3ee7c97970dc7678a a owl:NamedIndividual,
         org:Organization ;
-    skos:altLabel "The Linux Foundation"@en ;
-    skos:prefLabel "Linux Foundation"@en ;
-    foaf:homepage "https://www.linuxfoundation.org/"^^xsd:anyURI .
+    skos:altLabel "ontologydesignpatterns.org"@en ;
+    skos:prefLabel "ODP"@en ;
+    foaf:homepage "http://ontologydesignpatterns.org/"^^xsd:anyURI .
 
 cssvrsc:567fa1d87d59feb3bd8fbd8de4903857aac9c30104878384f19bee4a3b4a4100 a owl:NamedIndividual,
         org:Organization ;
@@ -11143,31 +11868,11 @@ cssvrsc:5b3ecdbf9add26964f5ad39996d9dac29a0dbb5e7b1d687498fea70852ffad21 a owl:N
     skos:prefLabel "NATO"@en ;
     foaf:homepage "https://www.nato.int/"^^xsd:anyURI .
 
-cssvrsc:8ad80837b063c67c6595f2ad3511ac09a4acde43487247369118a71c2ecab448 a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "Object Management Group"@en ;
-    skos:prefLabel "OMG"@en ;
-    foaf:homepage "https://www.omg.org/"^^xsd:anyURI .
-
-cssvrsc:c9ce83f306e5cb328a4784fc2a665c3dd62b37fc5e260f37c42883f9d87179ed a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "Cloud Native Computing Foundation"@en ;
-    skos:prefLabel "CNCF"@en ;
-    foaf:homepage "https://www.cncf.io/"^^xsd:anyURI .
-
-cssvrsc:dde171ece184ae137e7828528574b1965bd3e0a5e5079d9fa7a442527c7ed6b5 a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "The Open Group"@en ;
-    skos:prefLabel "Open Group"@en ;
-    foaf:homepage "https://www.opengroup.org/"^^xsd:anyURI .
-
 cssvrsc:e943697327f7e137e51d40a656ca2a04dbe50c6f24647bf660d493800bdd6382 a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "Open Containers Initiative"@en ;
     skos:prefLabel "OCI"@en ;
     foaf:homepage "https://opencontainers.org/"^^xsd:anyURI .
-
-cssv:ApplicationProfile a owl:Class .
 
 cssvrsc:0d8229e4627d2fffcbd66df61bab6af680035c8ddf0c1602f5657066484cd645 a owl:NamedIndividual,
         org:Organization ;
@@ -11187,11 +11892,43 @@ cssvrsc:10baa47b87cd6477d9b70a292bda2cc453310c1ca016182ee2426ee1d1de8e4e a owl:N
     skos:prefLabel "DILCIS Board"@en ;
     foaf:homepage "https://dilcis.eu/"^^xsd:anyURI .
 
+cssvrsc:3ccd5eb4c630bce8cc7e1adee15bd015260a39fda75e5abb4a6ac2c6bb76119f a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "The Linux Foundation"@en ;
+    skos:prefLabel "Linux Foundation"@en ;
+    foaf:homepage "https://www.linuxfoundation.org/"^^xsd:anyURI .
+
 cssvrsc:4e04f19455ff8628a12285cdca275b0ee3faeaa0223f10095bf19b7bc584ac1c a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "OpenID Foundation"@en ;
     skos:prefLabel "OpenID Foundation"@en ;
     foaf:homepage "https://openid.net/"^^xsd:anyURI .
+
+cssvrsc:629bdcdf6ffd2d15e817fc5617f4b7c7de4fcceacc7e8e746d941bc1d10ce23a a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "Schema.org"@en ;
+    skos:prefLabel "Schema.org"@en ;
+    foaf:homepage "https://schema.org/"^^xsd:anyURI .
+
+cssvrsc:8ad80837b063c67c6595f2ad3511ac09a4acde43487247369118a71c2ecab448 a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "Object Management Group"@en ;
+    skos:prefLabel "OMG"@en ;
+    foaf:homepage "https://www.omg.org/"^^xsd:anyURI .
+
+cssvrsc:c9ce83f306e5cb328a4784fc2a665c3dd62b37fc5e260f37c42883f9d87179ed a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "Cloud Native Computing Foundation"@en ;
+    skos:prefLabel "CNCF"@en ;
+    foaf:homepage "https://www.cncf.io/"^^xsd:anyURI .
+
+cssvrsc:dde171ece184ae137e7828528574b1965bd3e0a5e5079d9fa7a442527c7ed6b5 a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "The Open Group"@en ;
+    skos:prefLabel "Open Group"@en ;
+    foaf:homepage "https://www.opengroup.org/"^^xsd:anyURI .
+
+cssv:ApplicationProfile a owl:Class .
 
 cssv:Family a owl:Class .
 
@@ -11207,12 +11944,6 @@ cssvrsc:7249b8458bef859086cf553812ebc2761a6c6fcc73c4f8bb9868f3ba2767103b a owl:N
     skos:prefLabel "GS1"@en ;
     foaf:homepage "https://www.gs1.org/"^^xsd:anyURI .
 
-cssvrsc:2b6de1326e1fa61562752256c54150944ec28a04926ea0f96f178888f112b0af a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "U.S. National Institute of Standards and Technology"@en ;
-    skos:prefLabel "NIST"@en ;
-    foaf:homepage "https://www.nist.gov/"^^xsd:anyURI .
-
 cssvrsc:3fa4f14bdd83e1d0ea9fcdfe81a9ad8a7b7dd37042e5f520425016263046ba9a a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "European Committee for Standardization - European Committee for Electrotechnical Standardization"@en ;
@@ -11225,11 +11956,11 @@ cssvrsc:72b8809dd96e3442fb49081b36b63feecb177659fb5273de26f9ae3ce72b8656 a owl:N
     skos:prefLabel "HIIT"@en ;
     foaf:homepage "https://www.hiit.fi/"^^xsd:anyURI .
 
-cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a a owl:NamedIndividual,
+cssvrsc:2b6de1326e1fa61562752256c54150944ec28a04926ea0f96f178888f112b0af a owl:NamedIndividual,
         org:Organization ;
-    skos:altLabel "GAIA-X"@en ;
-    skos:prefLabel "GAIA-X"@en ;
-    foaf:homepage "https://gaia-x.eu/"^^xsd:anyURI .
+    skos:altLabel "U.S. National Institute of Standards and Technology"@en ;
+    skos:prefLabel "NIST"@en ;
+    foaf:homepage "https://www.nist.gov/"^^xsd:anyURI .
 
 cssvrsc:3c1250b675a3e22cc3555ea1c94489048376f76e7af7ac7c649ad868cbdb5259 a owl:NamedIndividual,
         org:Organization ;
@@ -11243,23 +11974,29 @@ cssvrsc:a4f4f4a73f9a5d109629f53c792ccf9c303f493e06e47d4d5bf9c1eee7ce3107 a owl:N
     skos:prefLabel "IDSA"@en ;
     foaf:homepage "https://internationaldataspaces.org/"^^xsd:anyURI .
 
-cssvrsc:016cfaecc57938bae17bba2342973db6591994bf3013eeec27113e825d8ef03f a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "CATENA-X"@en ;
-    skos:prefLabel "CATENA-X"@en ;
-    foaf:homepage "https://catena-x.net/en/1"^^xsd:anyURI .
-
 cssvrsc:660e51b8105da3b41278152e1050aa45419708bdf5b48530d9e644a44ef8c7c0 a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "Open Geospatial Consortium"@en ;
     skos:prefLabel "OGC"@en ;
     foaf:homepage "https://www.ogc.org/"^^xsd:anyURI .
 
+cssvrsc:016cfaecc57938bae17bba2342973db6591994bf3013eeec27113e825d8ef03f a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "CATENA-X"@en ;
+    skos:prefLabel "CATENA-X"@en ;
+    foaf:homepage "https://catena-x.net/en/1"^^xsd:anyURI .
+
 cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "Pan-European Public Procurement On-Line"@en ;
     skos:prefLabel "PEPPOL"@en ;
     foaf:homepage "https://peppol.org/"^^xsd:anyURI .
+
+cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "GAIA-X"@en ;
+    skos:prefLabel "GAIA-X"@en ;
+    foaf:homepage "https://gaia-x.eu/"^^xsd:anyURI .
 
 schema:ContactPoint a owl:AnnotationProperty,
         owl:Class .
@@ -11290,17 +12027,17 @@ cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b a owl:N
     skos:prefLabel "ISO"@en ;
     foaf:homepage "https://www.iso.org/home.html"^^xsd:anyURI .
 
-cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "World Wide Web Consortium"@en ;
-    skos:prefLabel "W3C"@en ;
-    foaf:homepage "https://www.w3.org/"^^xsd:anyURI .
-
 cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "Publications Office of the European Union"@en ;
     skos:prefLabel "OP"@en ;
     foaf:homepage "https://op.europa.eu/en/"^^xsd:anyURI .
+
+cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "World Wide Web Consortium"@en ;
+    skos:prefLabel "W3C"@en ;
+    foaf:homepage "https://www.w3.org/"^^xsd:anyURI .
 
 cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f a owl:NamedIndividual,
         org:Organization ;
