@@ -261,7 +261,7 @@ elis:1210fa5b-c896-4b83-95ee-b722aeab26a2 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:1882dc8dd53cd68ae6f4ef083f0a36929b238739d27d72ee21f1da2ca020f7b6 .
 
 elis:12e72b0a-fd8b-43e4-94af-95a3703a52d2 a dcat:CatalogRecord ;
-    dct:title "VoID" ;
+    dct:title "VoID"@en ;
     foaf:primaryTopic cssvrsc:a8a5e1741adf3ad56993183b5026b17b7727383c21c521ec34f005fbb32e99f9 .
 
 elis:137722bd-1789-48c7-87c1-0a62b80a7cc9 a dcat:CatalogRecord ;
@@ -293,7 +293,7 @@ elis:148561d6-8d10-48eb-a75e-0730a9975b50 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:7123d0491b1b73634fe44db3899aa0d8b486e4899024c5e6bf6479b381c03bdd .
 
 elis:14d2347d-a257-4df2-9766-f573e34427c4 a dcat:CatalogRecord ;
-    dct:title "GAIA-X Policy Rules Conformity Document" ;
+    dct:title "GAIA-X Policy Rules Conformity Document"@en ;
     foaf:primaryTopic cssvrsc:0b20d84fe402cde345d199f82abee4c0c80ba0b54a8af80aab8ce982cef2692d .
 
 elis:1518e1fb-024e-4876-ae6e-42db62f5457d a dcat:CatalogRecord ;
@@ -333,7 +333,7 @@ elis:18ace5bc-7f58-4077-b003-0809985ce8db a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:4abdf0772fd22a12fffce6714b8c00f1aadae3af2190781ad8077714d48f42d4 .
 
 elis:18d07d90-fc68-48a3-9402-79cb7318221f a dcat:CatalogRecord ;
-    dct:title "Constrained Application Protocol (CoAP)" ;
+    dct:title "Constrained Application Protocol (CoAP)"@en ;
     foaf:primaryTopic cssvrsc:6ce01c099ee9d575af9a0f7408690e704182728163a54969da7402f6ba7e4a8d .
 
 elis:19f3c778-292b-40f8-af76-a288611edb40 a dcat:CatalogRecord ;
@@ -510,7 +510,7 @@ elis:27cc5f58-637c-412f-a09b-b176ec9a3a39 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185 .
 
 elis:291c9f9d-6e14-420e-a2f7-da4017922af1 a dcat:CatalogRecord ;
-    dct:title "JSON Web Key JWK" ;
+    dct:title "JSON Web Key JWK"@en ;
     foaf:primaryTopic cssvrsc:f765720238ac871ce1596a081584891d04f4b651721d9da812e9e74330f6c346 .
 
 elis:29626dc9-fa9f-46b4-ad3b-9afcf1bd8c4e a dcat:CatalogRecord ;
@@ -574,7 +574,7 @@ elis:2fbbb289-9e58-4109-bd96-a6153953aea3 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:ebd93d463d7322855e433bed2fee2789f473e013e6d3033d8866e0bef4de51f8 .
 
 elis:31025d73-dc3c-483a-8c59-540e526d0a6d a dcat:CatalogRecord ;
-    dct:title "BSBA Technical Convergence Discussion Document" ;
+    dct:title "BSBA Technical Convergence Discussion Document"@en ;
     foaf:primaryTopic cssvrsc:ffa44598fbf3f5e780ae0a6d7551e37c25f9b7261e80efb2848dcc74d7c969e3 .
 
 elis:312de14b-8939-4cc0-b9a8-feed37c87dff a dcat:CatalogRecord ;
@@ -606,7 +606,7 @@ elis:32e17c35-bf1c-4173-a501-769f05edd76c a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:4032a0cea857869c05ee28217e3501ddf0e48d7a641752dd61b6d6a634b2fc79 .
 
 elis:32e6d93d-49db-43da-bc46-061a5ca34ac1 a dcat:CatalogRecord ;
-    dct:title "OAIS v3.0.0" ;
+    dct:title "OAIS v3.0.0"@en ;
     foaf:primaryTopic cssvrsc:5847bc029f2ee4b773c8cdff71b6a8469f44c6249801448496530f8d4f4dfe42 .
 
 elis:33b713e4-cae5-4b06-b8f2-6de95c2e264d a dcat:CatalogRecord ;
@@ -786,7 +786,7 @@ elis:40092f92-9bce-4055-9ffa-6d6f93d36868 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:efb40789fe3ad96b26d88aeb5afa229851bc73b19b6a3d4b8220ef3a37fed1c7 .
 
 elis:40c124c6-a9fc-4276-875d-3296ec4864cf a dcat:CatalogRecord ;
-    dct:title "Data Space Support Centre Blueprint (DSSC Blueprint)" ;
+    dct:title "Data Space Support Centre Blueprint (DSSC Blueprint)"@en ;
     foaf:primaryTopic cssvrsc:9d677b70169824b046a4a82616729da6bbd4321ea14a7f825e3e16f23697b1f1 .
 
 elis:42084323-5e6b-4baa-ab21-a57d54f52adb a dcat:CatalogRecord ;
@@ -806,7 +806,7 @@ elis:44f6520e-3ee7-47a1-91f8-f81f341ba31d a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:bfae866356552984c68139c12d76abefd25832f19eb1b0f78d773a88bc3bf3d4 .
 
 elis:4527e72b-7365-4979-ac80-a2e767554e63 a dcat:CatalogRecord ;
-    dct:title "Data Privacy Vocabulary (DPV) 2.1.0" ;
+    dct:title "Data Privacy Vocabulary (DPV) 2.1.0"@en ;
     foaf:primaryTopic cssvrsc:ab2608294d81094994cfbd297e503e4d095777ecc299119c43bb57a64ca13478 .
 
 elis:452fd853-20c0-4639-846a-57843ba7ac08 a dcat:CatalogRecord ;
@@ -863,7 +863,7 @@ elis:497a4f3c-527e-40e3-bb5a-759e5faca59f a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:f9f266ff5a4e9932ce671b5e0d44de75978ba8ed545b989a8c197e26be9a1fda .
 
 elis:49865d1d-837f-4754-905a-a2b660fadefa a dcat:CatalogRecord ;
-    dct:title "Microdata (Schema.org)" ;
+    dct:title "Microdata (Schema.org)"@en ;
     foaf:primaryTopic cssvrsc:ed09ca216774dc1192ed4558ade3e6d589af8442d78621fd699462c5180afc94 .
 
 elis:4a507f75-e5d0-4969-9ec9-5ac4cb12b7fb a dcat:CatalogRecord ;
@@ -963,7 +963,7 @@ elis:512f8ee7-3959-415d-bf9d-8144a84ceba4 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:a97195c49e5723ede52f258134224ebcfd108952fc33013847b83222259f1dff .
 
 elis:51f62354-0462-4d84-8b69-54f72b65bfae a dcat:CatalogRecord ;
-    dct:title "ISO/TS 10020:2022 Quality management systems - Organizational change management - Processes" ;
+    dct:title "ISO/TS 10020:2022 Quality management systems - Organizational change management - Processes"@en ;
     foaf:primaryTopic cssvrsc:3665dab2bbd00e1738ac4265d4059f8cd57fc981eafb242082cdbfa91a32979d .
 
 elis:525bd261-755c-4fef-9a33-abd69bde5f2f a dcat:CatalogRecord ;
@@ -987,7 +987,7 @@ elis:53a88602-03cd-4b8a-8473-3812ec1ba60b a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:911dd53b0e88453103076c7fc81be239e33d5df3cc474c912549453b1666e4e4 .
 
 elis:53e2dd2c-c1e0-4576-9cc5-391074c4f1a2 a dcat:CatalogRecord ;
-    dct:title "GAIA-X Federated Catalogue" ;
+    dct:title "GAIA-X Federated Catalogue"@en ;
     foaf:primaryTopic cssvrsc:e8cdb25ff4f52ad9f5978afbceb9a17eb47cb77242175c148ba6ffc04145cb8b .
 
 elis:5444992e-2960-449c-acd0-912cfb3390f7 a dcat:CatalogRecord ;
@@ -1003,7 +1003,7 @@ elis:54af95ed-9173-4294-96d8-562ac1070b2b a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:f80fdcd27632e81bb3a152830fb9541330d762b3714731fd1eee03fdecf06f9a .
 
 elis:54ffff5f-f676-46be-a905-494d17a536b1 a dcat:CatalogRecord ;
-    dct:title "CloudEvents v1.0.2" ;
+    dct:title "CloudEvents v1.0.2"@en ;
     foaf:primaryTopic cssvrsc:73b2af6cb530611b74e4ec3ee7fa1e11b45bf7512db6bbf5823bf45e78165696 .
 
 elis:5594bd5e-8e82-4a38-a291-99020811377a a dcat:CatalogRecord ;
@@ -1035,7 +1035,7 @@ elis:567ff081-e334-453e-8a05-c1c73d38ae83 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:759257a34b21193982342255b6ee004209b260bb013093994351f9e4f910c62f .
 
 elis:56d17d22-734b-45e4-8c49-3863717ef415 a dcat:CatalogRecord ;
-    dct:title "GXFSv2 IDM AA" ;
+    dct:title "GXFSv2 IDM AA"@en ;
     foaf:primaryTopic cssvrsc:11895093d663ffbd0e817381e0ab4c4d0b9df7a3178a1eb8ba7267007f4dd6f9 .
 
 elis:571abdcb-4792-4738-adfe-30c83232f2c9 a dcat:CatalogRecord ;
@@ -1188,7 +1188,7 @@ elis:622b6cc8-fd5e-4732-ae3f-60750ffcb48a a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:08dcfceb430258afca7c26e6347dbfe2ba85e8bfa280581c2aad246bc2ddf485 .
 
 elis:6384612d-ca8d-4668-a355-0bc9601ca36b a dcat:CatalogRecord ;
-    dct:title "XML Query Language (Xquery)" ;
+    dct:title "XML Query Language (Xquery)"@en ;
     foaf:primaryTopic cssvrsc:9c9547a44019de35fc19caada88d4eb61b4e015547e8fdb858b5ea7b033b1184 .
 
 elis:63bdba49-7eec-4e3a-9188-328cce27c649 a dcat:CatalogRecord ;
@@ -1201,7 +1201,7 @@ Information technology — Programming languages, their environments and system 
     foaf:primaryTopic cssvrsc:dc70a1946ca6f74179f6cb112277913e0efdcc46325e1d011364255a202ba9ac .
 
 elis:63d29d0d-fa5e-4a23-97ff-82818cf51f45 a dcat:CatalogRecord ;
-    dct:title "JSON-stat Dataset Format" ;
+    dct:title "JSON-stat Dataset Format"@en ;
     foaf:primaryTopic cssvrsc:86e15b12ccc6ef6ccd012a2ef9882e1dd2b03d4819d87ed646299f261c1e71e2 .
 
 elis:640e4140-6bec-4504-9b2e-c8e26fc8c4e6 a dcat:CatalogRecord ;
@@ -1274,7 +1274,7 @@ elis:6b209020-b68a-43ba-bc87-05a9861a5be0 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:b72fb2c4dfb0df9e683b4dbaf942bd20114cc2d4a81e1592c70b9752c4bc1577 .
 
 elis:6bca65f0-b6f4-47e8-8e47-ecb10acfeb71 a dcat:CatalogRecord ;
-    dct:title "CloudEvents" ;
+    dct:title "CloudEvents"@en ;
     foaf:primaryTopic cssvrsc:229422957c708d61404f3b2d2088f6d492e8c369fe4a55a4116fafcd12aa4dd1 .
 
 elis:6c223958-0aab-4f31-b6e1-9518218ff1cf a dcat:CatalogRecord ;
@@ -1294,7 +1294,7 @@ elis:6c967f7c-506d-4a49-8915-5ae8a5c5bf5f a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:1bd80948b3fcb93b3241f8f22c326a7dd9448a29937ac3286b039d305ff3c891 .
 
 elis:6cbe989a-26e5-437a-b336-2dcff0891ff8 a dcat:CatalogRecord ;
-    dct:title "Open Data Product Specification" ;
+    dct:title "Open Data Product Specification"@en ;
     foaf:primaryTopic cssvrsc:c8f6d4359155509e8dd18712928cbc8a1a4c21df24ff200bd8a7cd4befc46508 .
 
 elis:6cc9c1e9-7a28-443e-808f-3051ab934017 a dcat:CatalogRecord ;
@@ -1376,7 +1376,7 @@ elis:71f44148-dfca-445b-8df5-f6f9ac8bed82 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:5b74bd3147b4848bbffdf2b72b231eb4fcff0e3e35e4b780f650a8783e9a4b8e .
 
 elis:72661118-43bf-47b6-a043-921fac67fded a dcat:CatalogRecord ;
-    dct:title "GAIA-X Federated Services Data Exchange Logging Service (GXFS DELS) working draft" ;
+    dct:title "GAIA-X Federated Services Data Exchange Logging Service (GXFS DELS) working draft"@en ;
     foaf:primaryTopic cssvrsc:8e67f8b2a6bc993d9a543529f61b1e7dbf347b40a14948562e65ca9560f6eede .
 
 elis:72b49177-327e-4504-b3be-8ccbcae6651b a dcat:CatalogRecord ;
@@ -1520,7 +1520,7 @@ elis:7edcf47e-cd4b-431b-9e08-929712a515e8 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:2dbc3b7b2c9116e11bc358ba3e35aac777e12ac966e16a1813d61540209b6ffe .
 
 elis:7ee4e317-935c-4ea5-b6b6-715d2465c2f7 a dcat:CatalogRecord ;
-    dct:title "GXFSv2 ICAM" ;
+    dct:title "GXFSv2 ICAM"@en ;
     foaf:primaryTopic cssvrsc:6b92fe898d154fc9bdae27f7bbd2220533f9997c1800c9254626a9bbfad96686 .
 
 elis:8001b716-d0ba-45a2-a6ea-27e746ba4d0b a dcat:CatalogRecord ;
@@ -1560,7 +1560,7 @@ elis:821677ac-aa97-4b91-acae-d5e98b49acf3 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:0bea14534616081e41ae6305b70508a1cc5e43feb05a1f254e495c902c1c0330 .
 
 elis:821a889c-d8cc-4d21-97b1-9f22fd9fdd1b a dcat:CatalogRecord ;
-    dct:title "NUTS " ;
+    dct:title "NUTS "@en ;
     foaf:primaryTopic cssvrsc:ea30145871f432c72652a48da7e62e40c6edd45884449c99a8f31080eab0b9b0 .
 
 elis:822be2fd-1655-4853-98a8-bf57e0dbfd30 a dcat:CatalogRecord ;
@@ -1616,7 +1616,7 @@ elis:84e92225-6994-4300-a72b-58b4db16787b a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:79b2db5db9caa60d526c6696ce5203285081183cb035004c1b30c281ffe6345b .
 
 elis:84fcb754-136f-4bc7-ab0f-65033ddd1291 a dcat:CatalogRecord ;
-    dct:title "Attribute-based Access Control (ABAC) v2.0.0" ;
+    dct:title "Attribute-based Access Control (ABAC) v2.0.0"@en ;
     foaf:primaryTopic cssvrsc:be2083d3dd272001ac9759c4b6f4e7fc3883f7c879b793ebd7d5a7fbbb51458c .
 
 elis:85357301-e504-474d-aa51-9c351a633973 a dcat:CatalogRecord ;
@@ -1668,7 +1668,7 @@ elis:88e39585-e837-419b-95c8-6c187da76fdc a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:e5be83b5c5d042d8ecde5179bed404cfd3dffb45fa1546b754e002dca216349d .
 
 elis:890c1587-4c29-4250-b42a-c547eee8adf5 a dcat:CatalogRecord ;
-    dct:title "RDFa Core" ;
+    dct:title "RDFa Core"@en ;
     foaf:primaryTopic cssvrsc:ab04c13ab096d25f51455719374727d7dbe3b13d8e894f2280c3398c615252bb .
 
 elis:89241104-c4bf-43c1-ac1c-43d3bf299ea5 a dcat:CatalogRecord ;
@@ -1777,7 +1777,7 @@ elis:9289fbac-8200-44c8-a95d-9d5fead6e5ef a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:b71f0ad1d051bf3f803cbb206c7a3d7c44542687ad27592564959fdf6e1af99e .
 
 elis:92909e20-e82c-46ed-b257-96092190c831 a dcat:CatalogRecord ;
-    dct:title "Schema.org v29.2.0" ;
+    dct:title "Schema.org v29.2.0"@en ;
     foaf:primaryTopic cssvrsc:00748d5c4bf3205488416caf1081c9f86265f6937ea7487b18d63710b7c233d0 .
 
 elis:92c557f1-6b12-409d-8328-45268d184d92 a dcat:CatalogRecord ;
@@ -1801,7 +1801,7 @@ elis:94161882-aa56-4823-9e27-11f4cbfeffaf a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:459ce55245869fa8d2fe286ec86dfea886241f1366deef90c41db0686c7eab12 .
 
 elis:953b7bae-d17d-4295-933a-e73e08a24871 a dcat:CatalogRecord ;
-    dct:title "CX-0007 Minimal Data Provider Service Offering v1.1.1" ;
+    dct:title "CX-0007 Minimal Data Provider Service Offering v1.1.1"@en ;
     foaf:primaryTopic cssvrsc:1a6ced6aecc9c79cee78094bb207428bad9c02f70017455a2cf78e5e48a05c8d .
 
 elis:95982436-3f57-4324-bca8-0630a12c5c9a a dcat:CatalogRecord ;
@@ -1833,7 +1833,7 @@ elis:98502938-142e-4c82-ad5f-6cb357b566ee a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:c76dceb677542b090be5f87c1264baec772ca4ac4b9ac791449c0ccde7f15942 .
 
 elis:99d5e848-2ef7-442a-af7b-8070be94c585 a dcat:CatalogRecord ;
-    dct:title "Core Location Vocabulary 2.0.0" ;
+    dct:title "Core Location Vocabulary 2.0.0"@en ;
     foaf:primaryTopic cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af .
 
 elis:9ad68885-bfce-43a3-8ee7-22bb38a7eb41 a dcat:CatalogRecord ;
@@ -1901,11 +1901,11 @@ elis:a027567f-922c-4b56-83cd-922625376a65 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:145e9d989fe756ecae982fd3edbaea0e2c4b6b80aef13525e10a04a84730e119 .
 
 elis:a17a448a-ce80-465e-a4cc-7c80f283e49e a dcat:CatalogRecord ;
-    dct:title "CX-0006 Registration and Initial Onboarding v2.0.1" ;
+    dct:title "CX-0006 Registration and Initial Onboarding v2.0.1"@en ;
     foaf:primaryTopic cssvrsc:089680e7222ccb31ea26492ea9046c31d2ca7eef90a36fe48a54abc4662739ad .
 
 elis:a1b80aa6-faf7-4391-a1f6-3966e3169dc8 a dcat:CatalogRecord ;
-    dct:title "Web electronic identity (Web eID)" ;
+    dct:title "Web electronic identity (Web eID)"@en ;
     foaf:primaryTopic cssvrsc:fd0c80e9e707b0479cc1751b71f503af5ab778c1ffeb023ab983c01220889acb .
 
 elis:a21a3eae-8d66-447b-a179-69a073f5f8f3 a dcat:CatalogRecord ;
@@ -1957,7 +1957,7 @@ elis:a695a492-158f-41e5-8485-76c04f5ef119 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:6558d92c4d44226e54c03b0e8b5e8a23ee6fa444e8f7c5a79ed28dcde80043e0 .
 
 elis:a6b8ae73-67ca-45ba-99a8-dbe1512b1533 a dcat:CatalogRecord ;
-    dct:title "BSI C5" ;
+    dct:title "BSI C5"@en ;
     foaf:primaryTopic cssvrsc:f5a013fc7b47e09ba927b4b6dbcf29447046873c380bc86384a134ebc1adad1a .
 
 elis:a71a2253-38b4-49df-86bb-49c58b1f0148 a dcat:CatalogRecord ;
@@ -1997,7 +1997,7 @@ elis:aa3858cd-600e-4f1a-a4a0-57024a54d10e a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:89c360d073560b627db7529a0b2b9af5bbc1983342c3ba9498faba662f136993 .
 
 elis:aae60d58-c5e2-465e-a7ab-44848a6c8392 a dcat:CatalogRecord ;
-    dct:title "GAIA-X Architecture Document" ;
+    dct:title "GAIA-X Architecture Document"@en ;
     foaf:primaryTopic cssvrsc:bc0e425e8b7e66bec97502564b15525ee4d624d15671f9647037f2ad9ec9bb0f .
 
 elis:ab0164b7-e0d7-48a4-92eb-615ce2a7a907 a dcat:CatalogRecord ;
@@ -2037,7 +2037,7 @@ elis:ae6a9333-3530-4c7c-8cab-63fe7fc7c234 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:2e460ba72bb849ac369c4b71cf891c8f51f6ae9144ca6834b06486d1cedabc01 .
 
 elis:ae7fc9cb-0917-45d8-9f73-aa4c0ddc08eb a dcat:CatalogRecord ;
-    dct:title "GAIA-X Compliance Registry" ;
+    dct:title "GAIA-X Compliance Registry"@en ;
     foaf:primaryTopic cssvrsc:bf8ca84480718ba54b04d5422b10b92de74207b731b086b36ef5810bd414fbbb .
 
 elis:ae88b456-6da3-4069-9340-c0cc17fe9510 a dcat:CatalogRecord ;
@@ -2113,11 +2113,11 @@ elis:b49f6dfb-9eb4-4ac8-82db-69d9c0b0a89f a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:01235b2a6dc0c8617d45c989efe0490dae839617f90e8045df0e08d439b7bd40 .
 
 elis:b4a2ec90-7098-4fe0-afe9-c9a6d402d1b3 a dcat:CatalogRecord ;
-    dct:title "Office Open XML File Formats Part 3: Markup Compatibility and Extensibility" ;
+    dct:title "Office Open XML File Formats Part 3: Markup Compatibility and Extensibility"@en ;
     foaf:primaryTopic cssvrsc:47273f589d4fd472183a53fe60cbf9e2824d28b55c1ffda26afeb3b4c2fe30e0 .
 
 elis:b5ce4910-73a5-4a14-878c-c7a7001c3ba2 a dcat:CatalogRecord ;
-    dct:title "GXFS Authentication/Authorization" ;
+    dct:title "GXFS Authentication/Authorization"@en ;
     foaf:primaryTopic cssvrsc:7de0a5164030180b7d2d9416663a70a9b7352172f022de45faaad76224fcaff4 .
 
 elis:b679f897-f829-4d7a-bbfa-39c29e668f7c a dcat:CatalogRecord ;
@@ -2149,7 +2149,7 @@ elis:b857d77b-c335-458c-a41d-4d632827e3ca a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:249a50b70a47f517c5fbfbacd35fa8d509773ef16b58276fe4b50dc5c475604a .
 
 elis:b889a817-63f9-4dc4-86b6-35eb3568b6c6 a dcat:CatalogRecord ;
-    dct:title "GAIA-X Compliance" ;
+    dct:title "GAIA-X Compliance"@en ;
     foaf:primaryTopic cssvrsc:b0336e92e6cd33d0dbc0ccb6e282bf3d612616ca9c4bdb0fdbe12d098f156d99 .
 
 elis:b92074e6-d9a1-4ae8-9e2c-609547e0689e a dcat:CatalogRecord ;
@@ -2181,7 +2181,7 @@ elis:bb547262-7f2b-4341-9b80-0d08bb6e71a9 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:649974ab67d865df98f6987f9b1681f180572aa1c3556a76520df6925bad6fd7 .
 
 elis:bba4f761-e22d-43eb-8330-fb8fe5c2493a a dcat:CatalogRecord ;
-    dct:title "Office Open XML File Formats Part 4: Transitional Migration Features" ;
+    dct:title "Office Open XML File Formats Part 4: Transitional Migration Features"@en ;
     foaf:primaryTopic cssvrsc:8549bde59ca1362f98d46e1738eee5b30f393917342c0e58328ab0dfbedfd237 .
 
 elis:bc5a75f2-abd9-4d28-b50e-7ec306643870 a dcat:CatalogRecord ;
@@ -2251,7 +2251,7 @@ elis:c0364874-7459-4d27-a8b8-3aa799f4ca50 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:c33014ab175e922c80ba41d897de15edd980f31ee15084e0a9b7f21bc4f7672a .
 
 elis:c161a577-35b1-4622-980e-82a1fe55dc73 a dcat:CatalogRecord ;
-    dct:title "GAIA-X Federated Services Continuous Automated Monitoring Compliance Specification (working draft)" ;
+    dct:title "GAIA-X Federated Services Continuous Automated Monitoring Compliance Specification (working draft)"@en ;
     foaf:primaryTopic cssvrsc:3fc922d18f9883b99853ce330d82aa7dd490f7ef261ec52fee86869c528e7080 .
 
 elis:c1941e08-c252-4467-ba66-2fd256441dca a dcat:CatalogRecord ;
@@ -2472,7 +2472,7 @@ elis:d61681d6-5a84-4388-9a0f-87a00363e456 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:232931b6562845b27b9a5e2309768b0b645f89798c2f5004f7bbbada68013608 .
 
 elis:d6180aaf-5f52-497b-a573-b3d64355d232 a dcat:CatalogRecord ;
-    dct:title "ETSI EN 319 412-3" ;
+    dct:title "ETSI EN 319 412-3"@en ;
     foaf:primaryTopic cssvrsc:18405d991d37278ddebcd6a92b30138fef82844c37c073806683094fb8e4ac94 .
 
 elis:d6c9db7a-4832-40ee-bd3f-6b02cd343f58 a dcat:CatalogRecord ;
@@ -2484,7 +2484,7 @@ elis:d6dd2879-2a3c-4124-b1ef-1613c7033b68 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:8afac68b06e1a49b054c6749647f23886ab736592496b2687a8ffa0e8aae9d0d .
 
 elis:d6f4a7b7-7f77-4f81-a496-577f7c0ed8c0 a dcat:CatalogRecord ;
-    dct:title "JSON transformation language JSLT" ;
+    dct:title "JSON transformation language JSLT"@en ;
     foaf:primaryTopic cssvrsc:c833915edfd03d94674b67707df6c86d7a2b8f7237c7a403f10c873d3aff39bc .
 
 elis:d6f8ea84-7bd5-4e0e-851f-3581ae03e769 a dcat:CatalogRecord ;
@@ -2504,7 +2504,7 @@ elis:d74b4f0f-f10d-47c3-98dc-564f9acdcc0a a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:9663adc228c60c001b469c7d5cde6c4fa2496e59b27a0449b6363b0231018e48 .
 
 elis:d754855a-71dc-4227-8f85-a68deb2f2232 a dcat:CatalogRecord ;
-    dct:title "Arazzo" ;
+    dct:title "Arazzo"@en ;
     foaf:primaryTopic cssvrsc:d699ec0c1917b67c6ab422b28728dd519000cca53c65bef39a942a8d8bcff2c4 .
 
 elis:d7c49ef1-0d6f-4f55-a0e3-41848b9c744e a dcat:CatalogRecord ;
@@ -2583,7 +2583,7 @@ elis:dcb07e77-d736-466a-9255-63f0018f5837 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:c231b8af9ced594390978d9841c76b5ba3d8e84519f493a11818ad28260a5f11 .
 
 elis:dd7d11a7-780f-4fe4-9326-e236662b5c58 a dcat:CatalogRecord ;
-    dct:title "Data Distribution Service (DDS)" ;
+    dct:title "Data Distribution Service (DDS)"@en ;
     foaf:primaryTopic cssvrsc:48437f93739cc7174430c3c368a82f20a2292ae03d39732fdb6d9fe9d89bcd70 .
 
 elis:dda9d919-4e5e-43d0-a604-af7ae77cb379 a dcat:CatalogRecord ;
@@ -2603,7 +2603,7 @@ elis:df1821b7-b483-4bca-a91d-3c2fa09ad506 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:577a7df2bfb0c13084b3d6337c95c6c78e49b7dfc5984d39ff8f5382ef867d7b .
 
 elis:dfb6b0cb-12eb-4a2f-81d9-0eb930ce48a6 a dcat:CatalogRecord ;
-    dct:title "Core Public Service Vocabulary Application Profile (CPSV-AP) 3.2.0" ;
+    dct:title "Core Public Service Vocabulary Application Profile (CPSV-AP) 3.2.0"@en ;
     foaf:primaryTopic cssvrsc:2a521d23323c60aba6c4b5313f96c1a87eb91353a8e2ee1f95ce0cfad3dc9045 .
 
 elis:dfb8cfba-366f-4e09-acc5-1b97f3b9ef5e a dcat:CatalogRecord ;
@@ -2659,7 +2659,7 @@ elis:e49c727b-c3f2-491a-97b6-4e55970d0824 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:84a1c8b0d4ee9f8d53a50e8529a99516c5f79ba2728b0784d8e2108fa849a0de .
 
 elis:e4b018b9-4ea1-4985-b81e-24332ca6b0ac a dcat:CatalogRecord ;
-    dct:title "Domibus v5.1.7" ;
+    dct:title "Domibus v5.1.7"@en ;
     foaf:primaryTopic cssvrsc:504bd13a4c26c1ce656ab26a3d62e9bcfd26c4172a0a8ed4ea2e6d782fffaa51 .
 
 elis:e4b9a06b-d806-403f-97e0-80bf7f67a51b a dcat:CatalogRecord ;
@@ -2800,11 +2800,11 @@ elis:f22ba8a7-1357-4588-b280-09bdedc1836d a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:d3c763a62cbb890447c67932b34050ae382276be164fd6f8b22480941ca0cb21 .
 
 elis:f327b0bc-b681-4852-9e14-1e3f02dcd1ad a dcat:CatalogRecord ;
-    dct:title "IDSA Rulebook" ;
+    dct:title "IDSA Rulebook"@en ;
     foaf:primaryTopic cssvrsc:32fd5de817427798a150d7ca7ce2fdde0b42340ebd4193ffb35fdc78e775a993 .
 
 elis:f338007e-83cd-4831-9dcc-94c39a36b1ca a dcat:CatalogRecord ;
-    dct:title "Cyber Security for Consumer Internet of Things Baseline Requirements (EN 303 645 3.1.3) " ;
+    dct:title "Cyber Security for Consumer Internet of Things Baseline Requirements (EN 303 645 3.1.3) "@en ;
     foaf:primaryTopic cssvrsc:319b94ba551dff5570f3aa41bad79c7b4899464b5f05ce7d1f3775a2352beae9 .
 
 elis:f3877f16-1d52-411f-8add-ff8bba1a3738 a dcat:CatalogRecord ;
@@ -2840,7 +2840,7 @@ elis:f6b89fad-8899-40e1-8165-b5cde566b79a a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:e246bce91ba0880830b2880667e27bc79739e205beaab3463baaa3481e71c1ae .
 
 elis:f71e202a-9ef4-461a-8e3c-f78cb7281f49 a dcat:CatalogRecord ;
-    dct:title "Office Open XML File Formats Part 1: Fundamentals and Markup Language Reference" ;
+    dct:title "Office Open XML File Formats Part 1: Fundamentals and Markup Language Reference"@en ;
     foaf:primaryTopic cssvrsc:e989d211aeda55f69629a8980f5119cef22e4b1423b3e853a78601f251699e10 .
 
 elis:f7fb86b0-f37f-401d-9695-fd69bea663fd a dcat:CatalogRecord ;
@@ -2917,11 +2917,11 @@ elis:fcee42cb-c687-4832-a3f4-1baec87b1076 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:aca7c4386bce122aa9460d7e20f14ce4fefd4ceb673516984cc9ef6e941296a3 .
 
 elis:fd0ad471-189f-4eb4-a3a9-a5897157d93d a dcat:CatalogRecord ;
-    dct:title "Secure File Transfer Protocol (SFTP)" ;
+    dct:title "Secure File Transfer Protocol (SFTP)"@en ;
     foaf:primaryTopic cssvrsc:5ac09b8c2f80f95726ddfe68e38ea5d6de7fc161487922747f09ecada87ddfb4 .
 
 elis:fd3ce04e-1e88-434c-99e9-8fbee7b5d6ad a dcat:CatalogRecord ;
-    dct:title "Open Archives Initiative Protocol for Metadata Harvesting OAI-PMH" ;
+    dct:title "Open Archives Initiative Protocol for Metadata Harvesting OAI-PMH"@en ;
     foaf:primaryTopic cssvrsc:77302b2a76c8936b97999978123c6a7aa997aba66fe86a129790229cfa605ba9 .
 
 elis:fe512fda-b181-43ad-b74d-9d7024be8fb5 a dcat:CatalogRecord ;

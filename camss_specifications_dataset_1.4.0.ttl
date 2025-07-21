@@ -8980,7 +8980,7 @@ cssvrsc:4042bedf-fe14-4852-8c11-fb2281f6ce5a a owl:NamedIndividual,
 
 cssvrsc:404b9fa8-ea2d-4038-a47a-0f174af600b8 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://docs.peppol.eu/edelivery/sml/PEPPOL-EDN-Service-Metadata-Locator-1.2.0-2021-05-13.pdf"^^xsd:anyURI .
+    dcat:accessURL "https://www.itu.int/rec/T-REC-Y.3600/en"^^xsd:anyURI .
 
 cssvrsc:d198f289-f5ce-4453-9d11-9c9dd9581490 a owl:NamedIndividual,
         dcat:Distribution ;
