@@ -11,18 +11,18 @@
 
 cssvrsc:0046834e1507afcd215d2fb7801a4b53ed42dc81f370944e96c13738ac1ee102 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "" ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on a common regulatory framework for electronic communications networks and services, 2002/19/EC on access to, and interconnection of, electronic communications networks and associated facilities, and 2002/20/EC on the authorisation of electronic communications networks and services"@en ;
     dct:title "Directive 2009/140/EC of the European Parliament and of the Council of 25 November 2009 amending Directives 2002/21/EC on a common regulatory framework for electronic communications networks and services, 2002/19/EC on access to, and interconnection of, electronic communications networks and associated facilities, and 2002/20/EC on the authorisation of electronic communications networks and services"@en ;
     dcat:distribution cssvrsc:f5073292-2941-4d32-984f-a81a40eece83 ;
-    dcat:theme "Business Architecture"@en,
-        "Technology Architecture"@en ;
+    dcat:theme "Business Architecture"@en;
     dcat:version "1.0.0" .
 
 cssvrsc:00748d5c4bf3205488416caf1081c9f86265f6937ea7487b18d63710b7c233d0 a cssv:Specification ;
-    cssv:acronym "" ;
-    cssv:alternative "" ;
+    cssv:acronym "Schema.org"@en ;
+    cssv:alternative "Schema.org"@en ;
     cssv:isMaintainedBy cssvrsc:629bdcdf6ffd2d15e817fc5617f4b7c7de4fcceacc7e8e746d941bc1d10ce23a ;
     dct:description "Schema.org is a vocabulary that can be used with many different encodings, including RDFa, Microdata and JSON-LD. These vocabularies cover entities, relationships between entities and actions, and can easily be extended through a well-documented extension model."@en ;
     dct:title "Schema.org v29.2.0"@en ;
@@ -33,7 +33,8 @@ cssvrsc:00748d5c4bf3205488416caf1081c9f86265f6937ea7487b18d63710b7c233d0 a cssv:
 cssvrsc:009448f391ffc456adcd392a2317e940f7b8d3393bf5e6df0a52c3f1e8aedc50 a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "NVO3"@en ;
+    cssv:alternative "Network Virtualization over Layer 3"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Framework for Multicast in Network Virtualization over Layer 3 provides a framework for supporting multicast traffic in a network using NVO3 through a variety of mechanisms. Network virtualisation over layer 3 (NVO3) addresses the issues that arise in building large multi-tenant data centres that make extensive use of server virtualisation."@en ;
     dct:title "A Framework for Multicast in Network Virtualization over Layer 3 RFC 8293"@en ;
@@ -43,7 +44,8 @@ cssvrsc:009448f391ffc456adcd392a2317e940f7b8d3393bf5e6df0a52c3f1e8aedc50 a cssv:
 
 cssvrsc:0108b898e2efda6da3952bdbb735cbd5f9e84f9c5bc906cf7d350a81b0314c55 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "" ;
+    cssv:alternative "Atom"@en;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "Atom is an XML-based document format that describes lists of related information known as \"feeds\". Feeds are composed of a number of items, known as \"entries\", each with an extensible set of attached metadata. For example, each entry has a title."@en ;
     dct:title "The Atom Syndication Format (RFC 4287)"@en ;
@@ -53,7 +55,8 @@ cssvrsc:0108b898e2efda6da3952bdbb735cbd5f9e84f9c5bc906cf7d350a81b0314c55 a cssv:
 
 cssvrsc:011d46243282e5a8b8d9f5420aeb3076c0aba5cc8ed4c3e0560abfff3a66ac56 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "MEC"@en ;
+    cssv:alternative "ETSI GS MEC 033"@en;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "Network architecture concept that enables cloud computing capabilities and an IT service environment at the edge of the cellular network and in general at the edge of any network."@en ;
     dct:title "Multi-access Edge Computing (MEC); IoT API (ETSI GS MEC 033)"@en ;
@@ -63,18 +66,19 @@ cssvrsc:011d46243282e5a8b8d9f5420aeb3076c0aba5cc8ed4c3e0560abfff3a66ac56 a cssv:
 
 cssvrsc:01235b2a6dc0c8617d45c989efe0490dae839617f90e8045df0e08d439b7bd40 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "" ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The Catalogue of Services action sets out to assist administrations by developing an integrated view of these existing life events, business events and public services"@en ;
     dct:title "EU Catalogue of Services"@en ;
     dcat:distribution cssvrsc:46d5fa07-b8b6-4df7-83d8-0836a58eaec4 ;
-    dcat:theme "Business Architecture"@en,
-        "Technology Architecture"@en ;
+    dcat:theme "Business Architecture"@en ;
     dcat:version "1.0.0" .
 
 cssvrsc:0164f882bceddd759cc038441e7bd6d19db5678c3f01c077bc99f8038e6b3cb1 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "RFC 7460"@en ;
+    cssv:acronym "MIB"@en ;
+    cssv:alternative "Management Information Base"@en;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "This specification defines a subset of the Management Information Base (MIB) for power and energy monitoring of devices. Target devices for this specification include (but are not limited to) routers, switches, Power over Ethernet (PoE)endpoints, protocol gateways for building management systems, intelligent meters, home energy gateways, hosts and servers, sensor proxies, etc."@en ;
     dct:title "Monitoring and Control MIB for Power and Energy (RFC 7460)"@en ;
@@ -84,19 +88,19 @@ cssvrsc:0164f882bceddd759cc038441e7bd6d19db5678c3f01c077bc99f8038e6b3cb1 a cssv:
 
 cssvrsc:017f770f032738f30d3e037185da8ffae4505e5b9ccd6f9371d33523818c6de7 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "" ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "This communication from the European Commission consists of a strategic plan for the implementation of a European Interoperability Framework."@en ;
     dct:title "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS - European Interoperability Framework – Implementation Strategy"@en ;
     dcat:distribution cssvrsc:572af8fb-9e3c-49c8-b42e-9e32eeb7a7b6 ;
-    dcat:theme "Business Architecture"@en,
-        "Implementation Governance"@en,
-        "Technology Architecture"@en ;
+    dcat:theme "Business Architecture"@en;
     dcat:version "1.0.0" .
 
 cssvrsc:01a75d3e38f8d4fe097db3f5bd518a10e593c0ae7d7549c3a761c5befa73cb19 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "" ;
+    cssv:alternative "ITU-T X.1603"@en;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description """Recommendation ITU-T X.1603 analyses data security requirements for the monitoring service of 
 cloud computing which includes monitoring data scope requirements, monitoring data lifecycle, 
@@ -114,7 +118,9 @@ to store the monitoring data"""@en ;
 
 cssvrsc:01bd555b2f394f3ab04d4099da0137a4f7764c33c4fb4e5c4018be1a53c04b05 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "" ;
+    cssv:alternative "";
+    cssv:alternative "ITU-T X.1275"@en;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "Recommendation ITU-T X.1275 recognizes that radio frequency identification (RFID) technology renders information pertaining specifically to the merchandise worn or carried by individuals open to abuse even as it greatly facilitates access to and distribution of such information for useful purpose. The abuse can manifest as tracking the location of the individual or invasion of his or her privacy in another malfeasant manner. For this reason, this Recommendation provides guidelines regarding the RFID procedures that can be used to enjoy the benefits of RFID while attempting to protect personally identifiable information."@en ;
     dct:title "X.1275 : Guidelines on protection of personally identifiable information in the application of RFID technology"@en ;
@@ -125,17 +131,18 @@ cssvrsc:01bd555b2f394f3ab04d4099da0137a4f7764c33c4fb4e5c4018be1a53c04b05 a cssv:
 cssvrsc:01f48e2fdaf66ff1ea2f7b3dca0227a3a237e46fe609efe764e6dd833c5f9363 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "SDM"@en ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:99f772e1b43a1765042d65e39f54ef1225e58a4a392a60db74c1636195049820 ;
     dct:description "The Smart Data Models (SDM) specification is addressed to promote interoperability could be to provide shared, standard, data models that can be used by a wide range of organisations and systems to facilitate data exchange and interoperability."@en ;
     dct:title "Smart Data Models (SDM)"@en ;
     dcat:distribution cssvrsc:e3d76d47-d5dd-4ebc-9395-90b20ebaf3bb ;
-    dcat:theme "Data Architecture"@en,
-        "Technology Architecture"@en ;
+    dcat:theme "Data Architecture"@en;
     dcat:version "1.0.0" .
 
 cssvrsc:0237826d2cb5240a734c0094bf95f4ce7283557582866d62bf8cd6f042103017 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "TLS"@en ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "TLS allows client/server applications to communicate over the Internet in a way that is designed to prevent eavesdropping, tampering and message forgery."@en ;
     dct:title "Transport Layer Security 1.3 (TLS 1.3)"@en ;
@@ -146,6 +153,7 @@ cssvrsc:0237826d2cb5240a734c0094bf95f4ce7283557582866d62bf8cd6f042103017 a cssv:
 cssvrsc:028b7f6ed5d30af4e734c1386c0922731cc444fdab451fd6e8319860f8464371 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "CCR"@en ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:d086f67d6f28d357c04966798c1c02fae3824f2b99a1eb304422d0a4f510f30f ;
     dct:description "The CLARIN Concept Registry is a step in the direction of interoperability at the level of linguistic encoding (tag sets, metadata elements, etc.). The basic idea is to register all widely used concepts/terminology in CLARIN so that everyone can refer to them. The CLARIN Concept Registry is based on the W3C SKOS recommendation, which is a generic model not restricted to linguistics."@en ;
     dct:title "CLARIN Concept Registry (CCR)"@en ;
@@ -155,7 +163,8 @@ cssvrsc:028b7f6ed5d30af4e734c1386c0922731cc444fdab451fd6e8319860f8464371 a cssv:
 
 cssvrsc:033dafda5c5df120422d0fd6f3a29851d949b1691158dff60512c684086fb121 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "iCalendar"@en ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "iCalendar defines a data format for representing and exchanging calendar and scheduling information, independent of any particular calendar service or protocol."@en ;
     dct:title "Internet Calendaring and Scheduling Core Object Specification (iCalendar)"@en ;
@@ -166,17 +175,18 @@ cssvrsc:033dafda5c5df120422d0fd6f3a29851d949b1691158dff60512c684086fb121 a cssv:
 cssvrsc:0355f6e1471acf5badd03f05f6dee5b61d49e22b10702ee6be7348846f81c5a6 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "SAREF"@en ;
+    cssv:alternative "ETSI TS 103 673"@en;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The Smart Applications REFerence (SAREF) ontology is a shared model of consensus that facilitates the matching of existing assets in the smart applications domain."@en ;
     dct:title "Smart Applications Reference Ontology (SAREF) (ETSI TS 103 673)"@en ;
     dcat:distribution cssvrsc:1e0e84d8-769e-4884-a665-33bb732c9879 ;
-    dcat:theme "Data Architecture"@en,
-        "Technology Architecture"@en ;
+    dcat:theme "Data Architecture"@en ;
     dcat:version "3.1.1" .
 
 cssvrsc:03b115916063a4cc8a3e670aaf745ad1a2340d446f8d32678097ed57e5b12708 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "" ;
+    cssv:alternative "NIST SP 800-53"@en;
     cssv:isMaintainedBy cssvrsc:2b6de1326e1fa61562752256c54150944ec28a04926ea0f96f178888f112b0af ;
     dct:description "NIST SP 800-53 provides a catalog of security and privacy controls for information systems and organizations to protect organizational operations and assets, individuals, other organizations, and the Nation from a diverse set of threats and risks, including hostile attacks, human errors, natural disasters, structural failures, foreign intelligence entities, and privacy risks."@en ;
     dct:title "Security and Privacy Controls for Information Systems and Organizations (NIST SP 800-53)"@en ;
@@ -186,7 +196,8 @@ cssvrsc:03b115916063a4cc8a3e670aaf745ad1a2340d446f8d32678097ed57e5b12708 a cssv:
 
 cssvrsc:03f53fba6787826578af1c24a213c77ce3a2fdf8bc19d5c58c51a69e65219467 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "DIVS"@en ;
+    cssv:alternative "ITU-T Q.5026"@en;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "Recommendation ITU-T Q.5026 specifies signalling requirements and protocol for providing network-oriented data integrity verification service (DIVS) based on blockchain in IMT-2020 networks. It includes signalling requirements, protocol procedures and message format between DIVS function with the UEs, the service users, the capability exposure function and other DIVS functions"@en ;
     dct:title "Q.5026 : Signalling requirements and protocol for providing network-oriented data integrity verification service based on blockchain in IMT-2020 networks"@en ;
