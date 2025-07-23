@@ -207,7 +207,8 @@ cssvrsc:03f53fba6787826578af1c24a213c77ce3a2fdf8bc19d5c58c51a69e65219467 a cssv:
 
 cssvrsc:0451cf7280b71e0ba29350bc606ef4599f53336dc99f4fc4419b4fa50686e127 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "CSW"@en ;
+    cssv:alternative "Catalogue Service for the Web"@en;
     cssv:isMaintainedBy cssvrsc:660e51b8105da3b41278152e1050aa45419708bdf5b48530d9e644a44ef8c7c0 ;
     dct:description "OGC Catalogue interface standards specify the interfaces, bindings, and a framework for defining application profiles required to publish and access digital catalogues of metadata for geospatial data, services, and related resource information."@en ;
     dct:title "OGC Catalogue Services"@en ;
@@ -217,18 +218,19 @@ cssvrsc:0451cf7280b71e0ba29350bc606ef4599f53336dc99f4fc4419b4fa50686e127 a cssv:
 
 cssvrsc:04771272b3cf3afd68631c216912ab627de79748e7eb98e5b4520e50fe7a3812 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "" ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Guidelines on how to elaborate an organisational interoperability agreement. These guidelines define what information an interoperability agreement should contain."@en ;
     dct:title "GUIDELINES AND TEMPLATES FOR AGREEMENTS BETWEEN PUBLIC ADMINISTRATIONS"@en ;
     dcat:distribution cssvrsc:f1173ede-24aa-4232-87ad-18a27578a186 ;
-    dcat:theme "Implementation Governance"@en,
-        "Technology Architecture"@en ;
+    dcat:theme "Implementation Governance"@en;
     dcat:version "1.0.0" .
 
 cssvrsc:0525f64dfe93f08c86035f6f7c91baf6d5a1fbc3768e502a1f16f95691a1a9aa a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "WSS"@en ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
     dct:description "This specification describes enhancements to SOAP messaging to provide message integrity and confidentiality. The specified mechanisms can be used to accommodate a wide variety of security models and encryption technologies."@en ;
     dct:title "Web Services Security (WSS, WS-Security)"@en ;
@@ -238,18 +240,19 @@ cssvrsc:0525f64dfe93f08c86035f6f7c91baf6d5a1fbc3768e502a1f16f95691a1a9aa a cssv:
 
 cssvrsc:0581b0d95abc27e8cadc938b779ec379a9de9af2182dcd9ce35f119b34e38df3 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "";
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
     dct:description "The PEPPOL Directory describes a policy and guidelines for the use of identifiers within the PEPPOL e-delivery network."@en ;
     dct:title "Peppol Directory"@en ;
     dcat:distribution cssvrsc:b8076314-2a5b-4a05-919a-0b612a9974ec ;
-    dcat:theme "Implementation Governance"@en,
-        "Technology Architecture"@en ;
+    dcat:theme "Implementation Governance"@en;
     dcat:version "1.1.1" .
 
 cssvrsc:05ae30452745c8e7b857a6cea3d573d8454da4491ae4e348f6735d3dc4b0c79b a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "UMA"@en ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:70977595146f1f99232f1135f1bfd7d7ea853c23a9d2628ff3a6c26e75a5a3ce ;
     dct:description "User-Managed Access (UMA) is an OAuth-based protocol that enables individuals to manage access to their digital resources and data. It allows a resource owner to control the sharing of their resources with others, granting and revoking access permissions dynamically and securely."@en ;
     dct:title "User-Managed Access 2.0 (UMA)"@en ;
@@ -259,17 +262,19 @@ cssvrsc:05ae30452745c8e7b857a6cea3d573d8454da4491ae4e348f6735d3dc4b0c79b a cssv:
 
 cssvrsc:05cb8884a4a4dfef89e8d78ad03202187bcf840359840add00d0ff20d1f8e549 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "" ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal basis to use European standards for products and services, identify ICT technical specifications, and finance the European standardisation process."@en ;
     dct:title "Directive 2014/55/EU of the European Parliament and of the Council of 16 April 2014 on electronic invoicing in public procurement Text with EEA relevance"@en ;
     dcat:distribution cssvrsc:a41f1928-6711-4e4c-9cae-1fe0ccd85f85 ;
-    dcat:theme "Business Architecture"@en,
-        "Technology Architecture"@en ;
+    dcat:theme "Business Architecture"@en;
     dcat:version "1.0.0" .
 
 cssvrsc:070bc738b1189f7127e17cc433f6e1e9417f91f8b0858d90c8bbd4054170021c a cssv:Specification,
         owl:NamedIndividual ;
+    cssv:acronym "FHIR"@en;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:81f1302315032c452962ab3ba76aaf2e25facbde7d8c8776452baadef5627449 ;
     dct:description "The Fast Healthcare Interoperability Resources (FHIR) standard is a set of rules and specifications for the secure exchange of electronic health care data. It is designed to be flexible and adaptable, so that it can be used in a wide range of settings and with different health care information systems. In addition, the standard describes data formats and elements and an application programming interface (API) for exchanging electronic health records (EHR)."@en ;
     dct:title "Fast Healthcare Interoperability Resources (FHIR)"@en ;
@@ -279,18 +284,19 @@ cssvrsc:070bc738b1189f7127e17cc433f6e1e9417f91f8b0858d90c8bbd4054170021c a cssv:
 
 cssvrsc:0725fcf92d52b15e9c5f5ce37020558dc9f4a021215cccaa56ee101535bf2440 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "" ;
+    cssv:alternative "";
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
     dct:title "The EU cybersecurity certification framework"@en ;
     dcat:distribution cssvrsc:084a86ab-70fc-478a-895b-8654db96cb39 ;
-    dcat:theme "Implementation Governance"@en,
-        "Technology Architecture"@en ;
+    dcat:theme "Implementation Governance"@en;
     dcat:version "1.0.0" .
 
 cssvrsc:0762f422b839ba0815430c77fcc3b4174a97f4970951be420c596a524d0c0a08 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "BDXL"@en ;
+    cssv:alternative "eDelivery BDXL";
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "BDX Location specifies a method to query DNS resource records to retrieve a URL for metadata services. The URL is used as machine-processable description of services. The eDelivery BDXL is part of the SML specifications for locating Access Points within a network. The specification is based on the OASIS Business Document Metadata Service Location 1.0, and is intended to be used in conjunction with the eDelivery SMP profile, and the eDelivery ebCore Party Id profile (eDelivery EBCOREP), as a discovery infrastructure for the eDelivery AS4 Dynamic Sender Profile Enhancement."@en ;
     dct:title "eDelivery BDX Location profile (eDelivery BDXL)"@en ;
