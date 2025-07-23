@@ -285,7 +285,7 @@ cssvrsc:070bc738b1189f7127e17cc433f6e1e9417f91f8b0858d90c8bbd4054170021c a cssv:
 cssvrsc:0725fcf92d52b15e9c5f5ce37020558dc9f4a021215cccaa56ee101535bf2440 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "" ;
-    cssv:alternative "";
+    cssv:alternative ""; 
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
     dct:title "The EU cybersecurity certification framework"@en ;
