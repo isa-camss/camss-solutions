@@ -11,7 +11,7 @@
 
 cssvrsc:0046834e1507afcd215d2fb7801a4b53ed42dc81f370944e96c13738ac1ee102 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on a common regulatory framework for electronic communications networks and services, 2002/19/EC on access to, and interconnection of, electronic communications networks and associated facilities, and 2002/20/EC on the authorisation of electronic communications networks and services"@en ;
     dct:title "Directive 2009/140/EC of the European Parliament and of the Council of 25 November 2009 amending Directives 2002/21/EC on a common regulatory framework for electronic communications networks and services, 2002/19/EC on access to, and interconnection of, electronic communications networks and associated facilities, and 2002/20/EC on the authorisation of electronic communications networks and services"@en ;
