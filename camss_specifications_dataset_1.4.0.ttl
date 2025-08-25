@@ -8409,8 +8409,7 @@ cssvrsc:0068f050-f43c-421f-81f3-669d85a707ba a owl:NamedIndividual,
 
 cssvrsc:009d52fc-dd1f-4702-be65-92d2d9cc78ac a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL """https://www.iso.org/standard/38920.html\r\r
-https://www.iso.org/standard/50655.html"""^^xsd:anyURI .
+    dcat:accessURL <https://www.iso.org/standard/38920.html> .
 
 cssvrsc:00b4ad3f-ccc1-41c6-9a58-dacc07b161b4 a owl:NamedIndividual,
         dcat:Distribution ;
