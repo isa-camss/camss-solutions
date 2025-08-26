@@ -938,7 +938,7 @@ cssvrsc:1882dc8dd53cd68ae6f4ef083f0a36929b238739d27d72ee21f1da2ca020f7b6 a cssv:
 
 cssvrsc:189e9f104cccc0c206c4d749f5009ce2caf50024d8a61cc20e0d9877a4948cb8 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on services in the internal market"@en ;
     dct:title "Directive 2006/123/EC of the European Parliament and of the Council of 12 December 2006 on services in the internal market"@en ;
