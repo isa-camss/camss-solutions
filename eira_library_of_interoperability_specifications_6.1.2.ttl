@@ -1027,7 +1027,7 @@ elis:512f8ee7-3959-415d-bf9d-8144a84ceba4 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:a97195c49e5723ede52f258134224ebcfd108952fc33013847b83222259f1dff .
 
 elis:518fec1f-0d81-4b9e-8aea-811356be789c a dcat:CatalogRecord ;
-    dct:title "OpenID for Verifiable Presentations (OIDC4VP)" ;
+    dct:title "OpenID for Verifiable Presentations (OID4VP)" ;
     foaf:primaryTopic cssvrsc:2dbc3b7b2c9116e11bc358ba3e35aac777e12ac966e16a1813d61540209b6ffe .
 
 elis:51f62354-0462-4d84-8b69-54f72b65bfae a dcat:CatalogRecord ;
@@ -2536,7 +2536,7 @@ elis:ce584ae9-c829-47c6-b7eb-7197db703dbe a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:35e2ef41fca202e1fba4b5003d4f50987162664aa81f794762fa7c14d7c9f61c .
 
 elis:ce58a249-7db2-4ee8-b092-c006e430aeed a dcat:CatalogRecord ;
-    dct:title "OpenID for Verifiable Credential Issuance (OIDC4VCI)" ;
+    dct:title "OpenID for Verifiable Credential Issuance (OID4VCI)" ;
     foaf:primaryTopic cssvrsc:8f688d53afcca27546d8b931207e249c83c17293e5218a730ecb12f58c07faf6 .
 
 elis:ced0a19c-9ad9-4c6b-8186-ec661fa58a7c a dcat:CatalogRecord ;
@@ -4413,9 +4413,9 @@ cssvrsc:2dabce2a650059704db69b06a4b1aaf8fc58af0f16f9b5022565b5e6dc2d7e5c a cssv:
             dct:relation eira:E-SignatureCreationApplicationService ] .
 
 cssvrsc:2dbc3b7b2c9116e11bc358ba3e35aac777e12ac966e16a1813d61540209b6ffe a cssv:Specification ;
-    dct:relation [ dct:description "The OIDC4VP specification allows users to securely verify their identity through the use of Verifiable Credentials. It simplifies authentication by enabling cryptographically secure verification methods, ensuring both privacy and integrity. This makes it particularly valuable in contexts where heightened security is required, such as financial services or government platforms."@en ;
+    dct:relation [ dct:description "The OID4VP specification allows users to securely verify their identity through the use of Verifiable Credentials. It simplifies authentication by enabling cryptographically secure verification methods, ensuring both privacy and integrity. This makes it particularly valuable in contexts where heightened security is required, such as financial services or government platforms."@en ;
             dct:relation eira:AuthenticationApplicationService ],
-        [ dct:description "OIDC4VP leverages blockchain networks for secure, decentralized verification of digital credentials, ensuring tamper-proof, trustworthy credential presentation."@en ;
+        [ dct:description "OID4VP leverages blockchain networks for secure, decentralized verification of digital credentials, ensuring tamper-proof, trustworthy credential presentation."@en ;
             dct:relation eira:DistributedBlockchainNetworkTechnologyService ] .
 
 cssvrsc:2ddd01784d77f481907f1c64a5d2c5318bf451bdc16dfc0011e5f0af93f32192 a cssv:Specification ;
@@ -6661,9 +6661,9 @@ cssvrsc:8ef4449817a74c2f19c7b02f804893fc803bb1f0fe8526488f8d29ceed7d2d2b a cssv:
         camssa:0acac37322cc6168f991a6f955e4635c5099787e04928c3c35fc0f6dd529ff3e .
 
 cssvrsc:8f688d53afcca27546d8b931207e249c83c17293e5218a730ecb12f58c07faf6 a cssv:Specification ;
-    dct:relation [ dct:description "OIDC4VCI is related to distributed blockchain networks because it enables the issuance and verification of verifiable credentials, which are often stored and managed on decentralized blockchain networks."@en ;
+    dct:relation [ dct:description "OID4VCI is related to distributed blockchain networks because it enables the issuance and verification of verifiable credentials, which are often stored and managed on decentralized blockchain networks."@en ;
             dct:relation eira:DistributedBlockchainNetworkTechnologyService ],
-        [ dct:description "The OIDC4VCI specification facilitates secure user authentication through the issuance and use of Verifiable Credentials. These credentials allow individuals to prove specific attributes, such as identity or qualifications, in order to gain access to protected resources. Within this framework, OIDC4VCI defines mechanisms for creating and distributing Verifiable Credentials, while also requiring authentication during the issuance process to ensure that credentials are issued only to verified holders. This approach strengthens trust, privacy, and interoperability."@en ;
+        [ dct:description "The OID4VCI specification facilitates secure user authentication through the issuance and use of Verifiable Credentials. These credentials allow individuals to prove specific attributes, such as identity or qualifications, in order to gain access to protected resources. Within this framework, OID4VCI defines mechanisms for creating and distributing Verifiable Credentials, while also requiring authentication during the issuance process to ensure that credentials are issued only to verified holders. This approach strengthens trust, privacy, and interoperability."@en ;
             dct:relation eira:AuthenticationApplicationService ] .
 
 cssvrsc:8fa9cd7abc111f52f04bbcf3ebdfa44e08756fdf213722ef95c6fb3470975b07 a cssv:Specification ;
