@@ -11,7 +11,7 @@
 
 cssvrsc:0046834e1507afcd215d2fb7801a4b53ed42dc81f370944e96c13738ac1ee102 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on a common regulatory framework for electronic communications networks and services, 2002/19/EC on access to, and interconnection of, electronic communications networks and associated facilities, and 2002/20/EC on the authorisation of electronic communications networks and services"@en ;
     dct:title "Directive 2009/140/EC of the European Parliament and of the Council of 25 November 2009 amending Directives 2002/21/EC on a common regulatory framework for electronic communications networks and services, 2002/19/EC on access to, and interconnection of, electronic communications networks and associated facilities, and 2002/20/EC on the authorisation of electronic communications networks and services"@en ;
@@ -65,7 +65,7 @@ cssvrsc:011d46243282e5a8b8d9f5420aeb3076c0aba5cc8ed4c3e0560abfff3a66ac56 a cssv:
 
 cssvrsc:01235b2a6dc0c8617d45c989efe0490dae839617f90e8045df0e08d439b7bd40 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The Catalogue of Services action sets out to assist administrations by developing an integrated view of these existing life events, business events and public services"@en ;
     dct:title "EU Catalogue of Services"@en ;
@@ -86,7 +86,7 @@ cssvrsc:0164f882bceddd759cc038441e7bd6d19db5678c3f01c077bc99f8038e6b3cb1 a cssv:
 
 cssvrsc:017f770f032738f30d3e037185da8ffae4505e5b9ccd6f9371d33523818c6de7 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "This communication from the European Commission consists of a strategic plan for the implementation of a European Interoperability Framework."@en ;
     dct:title "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS - European Interoperability Framework – Implementation Strategy"@en ;
@@ -116,7 +116,7 @@ to store the monitoring data"""@en ;
 
 cssvrsc:01bd555b2f394f3ab04d4099da0137a4f7764c33c4fb4e5c4018be1a53c04b05 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T X.1275"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "Recommendation ITU-T X.1275 recognizes that radio frequency identification (RFID) technology renders information pertaining specifically to the merchandise worn or carried by individuals open to abuse even as it greatly facilitates access to and distribution of such information for useful purpose. The abuse can manifest as tracking the location of the individual or invasion of his or her privacy in another malfeasant manner. For this reason, this Recommendation provides guidelines regarding the RFID procedures that can be used to enjoy the benefits of RFID while attempting to protect personally identifiable information."@en ;
     dct:title "X.1275 : Guidelines on protection of personally identifiable information in the application of RFID technology"@en ;
@@ -209,7 +209,7 @@ cssvrsc:0451cf7280b71e0ba29350bc606ef4599f53336dc99f4fc4419b4fa50686e127 a cssv:
 
 cssvrsc:04771272b3cf3afd68631c216912ab627de79748e7eb98e5b4520e50fe7a3812 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Guidelines on how to elaborate an organisational interoperability agreement. These guidelines define what information an interoperability agreement should contain."@en ;
     dct:title "GUIDELINES AND TEMPLATES FOR AGREEMENTS BETWEEN PUBLIC ADMINISTRATIONS"@en ;
@@ -230,7 +230,7 @@ cssvrsc:0525f64dfe93f08c86035f6f7c91baf6d5a1fbc3768e502a1f16f95691a1a9aa a cssv:
 
 cssvrsc:0581b0d95abc27e8cadc938b779ec379a9de9af2182dcd9ce35f119b34e38df3 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
     dct:description "The PEPPOL Directory describes a policy and guidelines for the use of identifiers within the PEPPOL e-delivery network."@en ;
     dct:title "Peppol Directory"@en ;
@@ -251,7 +251,7 @@ cssvrsc:05ae30452745c8e7b857a6cea3d573d8454da4491ae4e348f6735d3dc4b0c79b a cssv:
 
 cssvrsc:05cb8884a4a4dfef89e8d78ad03202187bcf840359840add00d0ff20d1f8e549 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal basis to use European standards for products and services, identify ICT technical specifications, and finance the European standardisation process."@en ;
     dct:title "Directive 2014/55/EU of the European Parliament and of the Council of 16 April 2014 on electronic invoicing in public procurement Text with EEA relevance"@en ;
@@ -261,8 +261,7 @@ cssvrsc:05cb8884a4a4dfef89e8d78ad03202187bcf840359840add00d0ff20d1f8e549 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:070acd69015d461438bb2a59f884185e05e8b4deb1cecbc6fdc32dd65c03e45e a cssv:Specification ;
-    cssv:acronym "" ;
-    cssv:alternative "" ;
+    
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 964 specification is designed to enable user authentication in a privacy-preserving manner. In this context, it allows users to access services through the use of Attribute-Based Encryption (ABE). ABE facilitates the demonstration of compliance with specific requirements, such as age or residency, without revealing the actual personal attributes. It extracts relevant information from a Verifiable Credential and anonymises the data, thereby safeguarding the user's sensitive details."@en ;
     dct:title "Cyber Security (CYBER); A Verifiable Credentials extension using  Attribute-Based Encryption (ETSI TS 103 964)"@en ;
@@ -282,7 +281,7 @@ cssvrsc:070bc738b1189f7127e17cc433f6e1e9417f91f8b0858d90c8bbd4054170021c a cssv:
 
 cssvrsc:0725fcf92d52b15e9c5f5ce37020558dc9f4a021215cccaa56ee101535bf2440 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
     dct:title "The EU cybersecurity certification framework"@en ;
@@ -306,7 +305,7 @@ cssvrsc:0762f422b839ba0815430c77fcc3b4174a97f4970951be420c596a524d0c0a08 a cssv:
 
 cssvrsc:085dc10cf2e33d26e682d056df20e9283e886cea3aad4184ff835e2253eb2ea0 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+ 
     cssv:alternative "Protobuf"@en ;
     cssv:isMaintainedBy cssvrsc:05d3bea192e6a2dd70da22d8906608a25d81d0eb3d0b816939f0bc919c9bca59 ;
     dct:description "Protocol Buffers (Protobuf) is a language-agnostic binary serialization format developed by Google. It's used for serializing structured data, similar to XML or JSON, but more efficient and smaller in size."@en ;
@@ -328,7 +327,7 @@ cssvrsc:088ecda1c81a62bb73536c28835ab1a3225e9e609308950756ff65847197344d a cssv:
     dcat:version "3.0.0" .
 
 cssvrsc:089680e7222ccb31ea26492ea9046c31d2ca7eef90a36fe48a54abc4662739ad a cssv:Specification ;
-    cssv:acronym ""@en ;
+    
     cssv:alternative "CX-0006"@en ;
     cssv:isMaintainedBy cssvrsc:016cfaecc57938bae17bba2342973db6591994bf3013eeec27113e825d8ef03f ;
     dct:description "The CX-0006 specification is intended to establish the steps for the registration process within the Catena-X network. This registration service is offered by the Core Service Provider and helps organisations complete their registration process easily."@en ;
@@ -340,7 +339,7 @@ cssvrsc:089680e7222ccb31ea26492ea9046c31d2ca7eef90a36fe48a54abc4662739ad a cssv:
 
 cssvrsc:08dcfceb430258afca7c26e6347dbfe2ba85e8bfa280581c2aad246bc2ddf485 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:alternative "X.1148"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "This Recommendation provides an overview of de-identification process based on data lifecycle model, specifies a de-identification process framework with operational steps and roles of stakeholders in the de-identification process. It further discusses data release models and data stages in a de-identification process and includes various de-identification approaches and examples in its annexes and appendices."@en ;
@@ -379,7 +378,7 @@ cssvrsc:094d9dad-a0b6-41bc-ab76-053b8fbe498e a owl:NamedIndividual,
 
 cssvrsc:09b8018fbcf71fe4d3e71fe14e009ae553e050745176a31ac00f2c6b72f95e7a a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:alternative "OAuth"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "OAuth 2.0 Authorization Server Metadata enables an OAuth 2.0 client to obtain the information needed to interact with an OAuth 2.0 authorization server, including its endpoint locations and authorization server capabilities."@en ;
@@ -388,9 +387,9 @@ cssvrsc:09b8018fbcf71fe4d3e71fe14e009ae553e050745176a31ac00f2c6b72f95e7a a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "2.0.0" .
 
-cssvrsc:09ce00273fb3ddb27a19e763415866b93a6ac114f4e1f42e6b9f24e48bacc705 a cssv:Specification ;
-    cssv:acronym "" ;
-    cssv:alternative "" ;
+cssvrsc:09ce00273fb3ddb27a19e763415866b93a6ac114f4e1f42e6b9f24e48bacc705 a cssv:Specification,
+    owl:NamedIndividual ;
+    cssv:alternative "ETSI TR 103 290"@en  ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TR 103 290 explores how Smart City applications, such as intelligent lighting, transportation systems, environmental sensors, and waste management, interact with IoT networks and Machine-to-Machine (M2M) communications. Rather than prescribing specific protocols, it compiles and reviews real-world use cases to identify how urban IoT deployments impact network requirements, service needs, and architectural considerations."@en ;
     dct:title "Machine-to-Machine communications (M2M); Impact of Smart City Activity on IoT Environment (ETSI TR 103 290)"@en ;
@@ -432,9 +431,9 @@ cssvrsc:0a542b23651b48e9f6021567e08284aa8ebcf021a74a440f76b6a9c734396530 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:0b20d84fe402cde345d199f82abee4c0c80ba0b54a8af80aab8ce982cef2692d a cssv:Specification ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+cssvrsc:0b20d84fe402cde345d199f82abee4c0c80ba0b54a8af80aab8ce982cef2692d a cssv:Specification ,
+owl:NamedIndividual ;
+    
     cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
     dct:description "The Gaia-X Policy Rules Conformity Document aims to define the rules and conformity criteria for participants and services within the Gaia-X ecosystem. The purpose of these rules is to demonstrate Gaia-X's core European values, such as openness, transparency, data protection, security, and portability."@en ;
     dct:title "GAIA-X Policy Rules Conformity Document"@en ;
@@ -455,7 +454,7 @@ cssvrsc:0b319bf69d7a0413978bac35d8483f5b816fbda0e77c0291093cc3e6fe1bbae8 a cssv:
 
 cssvrsc:0b37cecddd46617439a61a5c025d428e597d6288ba1989baf0946aea43badbc4 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:72b8809dd96e3442fb49081b36b63feecb177659fb5273de26f9ae3ce72b8656 ;
     dct:description "MyData Service Linking enables to manage access to a centralised database by attaching the related service to the MyData Account."@en ;
     dct:title "MyData Service Linking Specification"@en ;
@@ -465,7 +464,7 @@ cssvrsc:0b37cecddd46617439a61a5c025d428e597d6288ba1989baf0946aea43badbc4 a cssv:
 
 cssvrsc:0b4b029f1965046fe8688fef791e98f65a200be8dc9c99224672a4280b9df91e a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:0c8f39b11936f6d48ad86897e2d3ecd9e62271931ed4c4c3ee7c97970dc7678a ;
     dct:description "DOLCE-Ultralite, is a upper level ontology which purpose is to provide a set of concepts hat can be the basis for easier interoperability among many middle and lower level ontologies."@en ;
     dct:title "DOLCE-Ultralite"@en ;
@@ -486,7 +485,7 @@ cssvrsc:0b5ca6a33100cb56e1cc66c9d98fb21b5ccfa47736ae8c8b6a9f9ade5b82e349 a cssv:
 
 cssvrsc:0bea14534616081e41ae6305b70508a1cc5e43feb05a1f254e495c902c1c0330 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Legal act establishing minimum requirements for the cross-border processing of documents signed electronically by competent authorities under Directive 2006/123/EC"@en ;
     dct:title "2011/130/EU: Commission Decision of 25 February 2011 establishing minimum requirements for the cross-border processing of documents signed electronically by competent authorities under Directive 2006/123/EC of the European Parliament and of the Council on services in the internal market (notified under document C(2011) 1081)"@en ;
@@ -507,7 +506,7 @@ cssvrsc:0c29d2cb413399491569ef6ed8f2eaa3624e4feda6c3c3d88d51862416a23dc3 a cssv:
 
 cssvrsc:0c9ff444ad4f5a1d7ef7d81108c7980b166d4f3ae9899b82d92347298f874f87 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:575cc4496d2a694fd62e9434f4e8302da9878a8d6ea3a30a8ff14e84743ff636 ;
     dct:description "FIREWARE Catalogue is based on fireware.org's Context Broker, a comprehensive set of generic open source FIWARE enablers. The FIREWARE Catalogue serves a repository of specifications initially based on the NGSI v2 (https://fiware.github.io/specifications/ngsiv2/stable/) specification and currently built on the NGSI-LD specification."@en ;
     dct:title "FIREWARE Catalogue"@en ;
@@ -528,7 +527,7 @@ cssvrsc:0caf69e4413cd2da152767c1ad3b645914d4c6e64f2fb244f4a6352971e99225 a cssv:
 
 cssvrsc:0cbd98b34587df9ae6f011ed9513b8bf30b04bb840c1b97407d2741f99457940 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
     dct:description "The BIS eDocuments guide for pre-award uses the UBL 2.2 syntax and describes common building blocks to be able to execute pre-award processes."@en ;
     dct:title "BIS eDocuments guide for pre-award"@en ;
@@ -559,7 +558,7 @@ cssvrsc:0d0358cc6104ba9e15b02884c65417aea28c7246ed1ca5bfc77dfb13e2917088 a cssv:
 
 cssvrsc:0d185280c7e0fb66ab5bae0aa28e834491a538620bcee40eb0d27107e9cdcf4c a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:c8c696d3644095af8ba87690d43ac7da7d3f9637779ee16d5af72263145194b0 ;
     dct:description "This Recommendation harmonizes and specifies the end-to-end oneM2M functional architecture in the M2M service layer."@en ;
     dct:title "oneM2M Functional Architecture"@en ;
@@ -612,7 +611,7 @@ cssvrsc:0e2bad82870e7abae827de478cff738ca43ce1e7ed07c7c400652936d8731105 a cssv:
 
 cssvrsc:0e933635134babec537800b3a518bc3f98b95e43dcd0cedaede685fba47a8a3a a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
     dct:title "The EU Cybersecurity Act"@en ;
@@ -634,7 +633,7 @@ cssvrsc:1051d9d733d3a1f21d84e7efb0d9812dba7a5fb8b467dcfacf33ca6c86904e10 a cssv:
 
 cssvrsc:121193a8e270bc9666904b77a28db8810a9a0313df7bee88f2c572d3483e0e4e a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "The better regulation toobox consists in guidance, tips and best practice on how to manage all the aspects of a public policies. It covers the whole policy cycle – planning, adoption, design, implementation, application (including enforcement), evaluation and revision."@en ;
     dct:title "Better regulation \"Toolbox\""@en ;
@@ -667,7 +666,7 @@ cssvrsc:1267e8c151b0d93d7fb405fb253185b38d3148dbec15b2f022b3810d03583a8e a cssv:
 
 cssvrsc:12942011e3dbce66ff2eb098ac1c452a5bbb3ab2c7a7845cfa40284077be7110 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Verifiable Trust Model by EBSI contains permissions and policies in the context of Verifiable Credentials (VCs). Permissions allow governance or issuance in the Trust Model, while policies are used to define who made the accreditation, which Trust Framework is followed, and the legal basis of it. Trust Model participants make the whole Verifiable Trust Model publicly available by registering it in the EBSI Trusted Issuers Registry."@en ;
     dct:title "EBSI Trust Model"@en ;
@@ -677,7 +676,7 @@ cssvrsc:12942011e3dbce66ff2eb098ac1c452a5bbb3ab2c7a7845cfa40284077be7110 a cssv:
 
 cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af a cssv:Specification ;
     cssv:acronym "CLV"@en ;
-    cssv:alternative ""@en ;
+    
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Location, represented as an address, a geographic name, or geometry. This specification can be used as the foundation of a common export format for data in base registries."@en ;
     dct:title "Core Location Vocabulary 2.0.0"@en ;
@@ -698,6 +697,7 @@ cssvrsc:1331c2c0a75eea8b5d5a413c0bebab78509bf1b0c3aa6fc8dd05c2ff0d5784cd a cssv:
 cssvrsc:1362f2b9dae365a631a0b39ec1c250e36b7936eee4fae44e43606eb7f2bb9c78 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "IEA"@en ;
+    cssv:alternative "Interoperable Europe Act"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The Interoperable Europe Act is a proposal that seeks to establish a comprehensive framework to ensure that digital systems and services across EU member states can work seamlessly together, facilitating the exchange of information and collaboration across borders."@en ;
     dct:title "REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL laying down measures for a high level of public sector interoperability across the Union (Interoperable Europe Act)"@en ;
@@ -708,7 +708,7 @@ cssvrsc:1362f2b9dae365a631a0b39ec1c250e36b7936eee4fae44e43606eb7f2bb9c78 a cssv:
 cssvrsc:13a8f29ba149c2a24b86b7773c1a3019595a5d9cece88aca54c8cfd23280d0f9 a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:2379b80f86b1dca368b2f1df75af2431d7d9a30aa7072ee434fa3ce551d10706 ;
     dct:description "JSON Schema is a JSON media type for defining the structure of JSON data. JSON Schema provides a contract for what JSON data is required for a given application and how to interact with it. JSON Schema is intended to define validation, documentation, hyperlink navigation, and interaction control of JSON data."@en ;
     dct:title "JSON Schema"@en ;
@@ -719,7 +719,7 @@ cssvrsc:13a8f29ba149c2a24b86b7773c1a3019595a5d9cece88aca54c8cfd23280d0f9 a cssv:
 
 cssvrsc:145e9d989fe756ecae982fd3edbaea0e2c4b6b80aef13525e10a04a84730e119 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:3fa4f14bdd83e1d0ea9fcdfe81a9ad8a7b7dd37042e5f520425016263046ba9a ;
     dct:description "Agreement between ICT developing organisations allowing the cooperation between parties and maximising the collaboration."@en ;
     dct:title "IEC-CEN ELEC Frankfurt Agreement"@en ;
@@ -740,7 +740,7 @@ cssvrsc:1467c87128ba720b128f40df43147e0bb3617bc048b2e50a4d8e76b77d05daf2 a cssv:
 
 cssvrsc:146f66f6c82ed053d2b2549633e84168595d2ae3cac5cc5c869d70c56906e772 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:alternative "ITU-T X.1605"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T X.1605 adresses Infrastructure as a Service (IaaS) platforms and virtualized services face different, and perhaps more, challenges and threats than traditional information technology infrastructure and application. IaaS platforms that share computing, storage and networking services need protections specific to threats in an IaaS environment. Recommendation ITU-T X.1605 documents security requirements of public IaaS in order to help IaaS providers to improve security of the IaaS platform throughout the planning, building and operating stages."@en ;
@@ -762,7 +762,7 @@ cssvrsc:1511141514945ed0630bbaa64cf595748a6dba986bf36176d7a4e551850792ba a cssv:
 
 cssvrsc:15934bcfcb57d72b1b73d913180ce7f86d2773c32725efa41ddb6b14e143cb84 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:b015f3086d9adb2e85772fd6e995ae5e1893230527d6f6d5ed39a1c85927d7bb ;
     dct:description "Clause BSD License is one of the most common open source licenses. Once they are used, they are considered agreements."@en ;
     dct:title "3-Clause BSD License"@en ;
@@ -773,7 +773,7 @@ cssvrsc:15934bcfcb57d72b1b73d913180ce7f86d2773c32725efa41ddb6b14e143cb84 a cssv:
 
 cssvrsc:15ae1741b374a39c38c277daf407d1938175219d283b93905f3ad0cf403c19f8 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
     dct:description "OpenPeppol eDEC Code Lists define document types, processes, participant identifier schemes and transport profiles in business-to-gouvernmnet transactions."@en ;
     dct:title "OpenPeppol eDEC Code Lists"@en ;
@@ -799,7 +799,7 @@ cssvrsc:15ef9d7f-9a64-45e0-9061-7dec266a92db a owl:NamedIndividual,
 
 cssvrsc:15efa96c4f199f4283c0c6c623290196f0fc5ff802b839640c32246e2b474717 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ISO/IEC 38505-2"@en ;
+    cssv:alternative "ISO/IEC 38505-1"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "This specification describes what the governing body of an organization expects and requires from the data management team in order to be assured that the governing principles of IT can be implemented and are being upheld for data and its use by the organization."@en ;
     dct:title "ISO/IEC 38505-2: Information technology - Governance of IT - Part2: Implications of ISO/IEC38505-1 for Data Management"@en ;
@@ -833,15 +833,15 @@ cssvrsc:16a69589b4ab450efbcbc2ae77e88a8cc3a5b89b6850b76dd575751472860130 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "WoT"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
-    dct:description "Web Of Thins (WoT) is a Family that constitutes a series of building blocks to simplify the deployment of IoT applications. WoT can be interpreted as a series of recommendations as well. This approach increases flexibility and interoperability, especially for multi-domain applications, as well as enabling the reuse of established standards and tools. WoT can be broken down into different building blocks, as well as the abstract architecture that defines how they are related. The W3C has published the following building blocks: WoT Thing Description and WoT Architecture."@en ;
+    dct:description "Web Of Things (WoT) is a Family that constitutes a series of building blocks to simplify the deployment of IoT applications. WoT can be interpreted as a series of recommendations as well. This approach increases flexibility and interoperability, especially for multi-domain applications, as well as enabling the reuse of established standards and tools. WoT can be broken down into different building blocks, as well as the abstract architecture that defines how they are related. The W3C has published the following building blocks: WoT Thing Description and WoT Architecture."@en ;
     dct:title "Web of Things (WoT)"@en ;
     dcat:distribution cssvrsc:68a467e2-e1ca-45b1-88bd-20d71e741c72 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:16e314257a53cda679bd5f54b590a96494be732eee5977afbc8975aa91222585 a cssv:Specification ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+cssvrsc:16e314257a53cda679bd5f54b590a96494be732eee5977afbc8975aa91222585 a cssv:Specification ,
+    owl:NamedIndividual ;
+    cssv:alternative "ETSI EN 319 411-1"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI EN 319 411-1 sets out the policy and security requirements for Trust Service Providers (TSPs) issuing public key certificates, including certificates for trusted websites. Its aim is to ensure trust in electronic transactions through the issuance, maintenance, and lifecycle management of these certificates."@en ;
     dct:title "Electronic Signatures and Trust Infrastructures (ESI); Policy and security requirements for Trust Service Providers issuing certificates; Part 1: General requirements (ETSI EN 319 411-1)"@en ;
@@ -872,7 +872,7 @@ cssvrsc:17388a679c6de1b3d9a6a324d0c0932db628513e4c5cb3dabab57436935cd143 a cssv:
 
 cssvrsc:177270d5ccd7531560d9d2e61847d370328e4b14e51d38c14f5442c1d28d6700 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The eID specification is a set of services provided by the European Commission to enable the mutual recognition of national electronic identification schemes (eID) across borders. It allows European citizens to use their national eIDs when accessing online services from other European countries."@en ;
     dct:title "eID building block"@en ;
@@ -881,9 +881,9 @@ cssvrsc:177270d5ccd7531560d9d2e61847d370328e4b14e51d38c14f5442c1d28d6700 a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:17ed04878417546740b33ec3d8eeb42802b0ec3f58ca0278035a4f494457bc66 a cssv:Specification ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+cssvrsc:17ed04878417546740b33ec3d8eeb42802b0ec3f58ca0278035a4f494457bc66 a cssv:Specification ,
+owl:NamedIndividual ;
+    cssv:alternative "ETSI TS 103 828"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 828 specification is addressed to give clear guidelines on how the SAREF suite can fill important gaps and be expanded to model complex digital twins (DTs). This specification helps engineers build better DT systems that handle data well and make sure data collection is accurate, which improves the overall reliability of these systems."@en ;
     dct:title "SmartM2M; SAREF: Ontology Support for  Urban Digital Twins and usage guidelines (ETSI TS 103 828)"@en ;
@@ -904,8 +904,8 @@ cssvrsc:17ef121c79a2af9c2fda71b7c5e8cab758d80d11360ac9ab544d87e2be009f1c a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:18405d991d37278ddebcd6a92b30138fef82844c37c073806683094fb8e4ac94 a cssv:Specification ;
-    cssv:acronym ""@en ;
+cssvrsc:18405d991d37278ddebcd6a92b30138fef82844c37c073806683094fb8e4ac94 a cssv:Specification ,
+    owl:NamedIndividual ;
     cssv:alternative "ETSI EN 319 412-3"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI EN 319 412-3 specification is designed to increase the interoperability and trustworthiness of certificate profiles across different countries by establishing a common method for creating them. In this context, the specification defines the requirements and attributes that a certificate must have."@en ;
