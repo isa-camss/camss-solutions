@@ -1742,10 +1742,10 @@ cssvrsc:2dabce2a650059704db69b06a4b1aaf8fc58af0f16f9b5022565b5e6dc2d7e5c a cssv:
 
 cssvrsc:2dbc3b7b2c9116e11bc358ba3e35aac777e12ac966e16a1813d61540209b6ffe a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "OIDC4VP"@en ;
+    cssv:acronym "OID4VP"@en ;
     cssv:isMaintainedBy cssvrsc:4e04f19455ff8628a12285cdca275b0ee3faeaa0223f10095bf19b7bc584ac1c ;
-    dct:description "OIDC4VP defines a protocol for presenting verifiable credentials using OAuth 2.0 and OpenID Connect. It introduces the concept of a VP Token, which contains one or more verifiable presentations, enabling secure and interoperable presentation of credentials across different systems."@en ;
-    dct:title "OpenID for Verifiable Presentations (OIDC4VP)"@en ;
+    dct:description "OID4VP defines a protocol for presenting verifiable credentials using OAuth 2.0 and OpenID Connect. It introduces the concept of a VP Token, which contains one or more verifiable presentations, enabling secure and interoperable presentation of credentials across different systems."@en ;
+    dct:title "OpenID for Verifiable Presentations (OID4VP)"@en ;
     dcat:distribution cssvrsc:780019a0-718e-4a89-b60c-724068b7d6a5 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "2.0.0" .
@@ -4816,10 +4816,10 @@ cssvrsc:8ef4449817a74c2f19c7b02f804893fc803bb1f0fe8526488f8d29ceed7d2d2b a cssv:
 
 cssvrsc:8f688d53afcca27546d8b931207e249c83c17293e5218a730ecb12f58c07faf6 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "OIDC4VCI"@en ;
+    cssv:acronym "OID4VCI"@en ;
     cssv:isMaintainedBy cssvrsc:4e04f19455ff8628a12285cdca275b0ee3faeaa0223f10095bf19b7bc584ac1c ;
-    dct:description "OIDC4VCI, also known as OpenID for Verifiable Credential Issuance, defines an OAuth 2.0 protected API for issuing Verifiable Credentials. These credentials can be of various formats, such as SD-JWT VC, mDL, and W3C Verifiable Credentials. The specification extends OAuth 2.0 and OpenID Connect to support secure issuance and management of these credentials, leveraging existing authentication and authorization frameworks for enhanced interoperability and security​"@en ;
-    dct:title "OpenID for Verifiable Credential Issuance (OIDC4VCI)"@en ;
+    dct:description "OID4VCI, also known as OpenID for Verifiable Credential Issuance, defines an OAuth 2.0 protected API for issuing Verifiable Credentials. These credentials can be of various formats, such as SD-JWT VC, mDL, and W3C Verifiable Credentials. The specification extends OAuth 2.0 and OpenID Connect to support secure issuance and management of these credentials, leveraging existing authentication and authorization frameworks for enhanced interoperability and security​"@en ;
+    dct:title "OpenID for Verifiable Credential Issuance (OID4VCI)"@en ;
     dcat:distribution cssvrsc:a5772975-4b3a-4697-9140-5f2e4cde584a ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
