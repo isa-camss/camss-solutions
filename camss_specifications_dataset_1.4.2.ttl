@@ -1147,6 +1147,7 @@ cssvrsc:1be69ec52c743a85d06e01cac0710095c340643c5fbe90fcff3d9aa7bd395f16 a cssv:
 
 cssvrsc:1c4f6d87cf0b9a0a74ee091663959b45e057a66785bcd0ab38d3b2d2b5a11a35 a cssv:Specification,
         owl:NamedIndividual ;
+        cssv:acronym "OSI"@en ;
     cssv:alternative "ISO/IEC 7498-1"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The model provides a common basis for the coordination of standards development for the purpose of systems interconnection, while allowing existing standards to be placed into perspective within the overall Reference Model. The model identifies areas for developing or improving standards. It does not intend to serve as an implementation specification."@en ;
@@ -1325,9 +1326,9 @@ cssvrsc:2181312d2dc991ec7d6b75b78a286220b811385dac02a6b43573ac002dfe48d0 a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:22702e20504dff2bb6f6363dc90614cabefc67f9a23f838309ac500978586ff5 a cssv:Specification ;
-    cssv:acronym "X.1752"@en ;
-    cssv:alternative ""@en ;
+cssvrsc:22702e20504dff2bb6f6363dc90614cabefc67f9a23f838309ac500978586ff5 a cssv:Specification ,
+     owl:NamedIndividual ;
+    cssv:alternative "ITU-T X.1752"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T X.1752 analyses security threats and challenges for big data infrastructure and big data platform and specifies a reference framework for mapping security guidelines against threats for the big data infrastructure and platform."@en ;
     dct:title "ITU-T X.1752: Security guidelines for big data infrastructure and platform"@en ;
@@ -1411,9 +1412,9 @@ cssvrsc:250a2567c0af286f50ca3eecc071fe4258191c1270dbea6b82b557d74c0aaa7c a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:2519e714fe2baccf790d51fb84978ee4d368a871889fdf261630d3a1a9e7d237 a cssv:Specification ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+cssvrsc:2519e714fe2baccf790d51fb84978ee4d368a871889fdf261630d3a1a9e7d237 a cssv:Specification ,
+    owl:NamedIndividual ;
+    cssv:alternative "ETSI TS 103 410-4"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 410-4 specification is designed to offer an extension of SAREF for the Smart Cities domain. In this context, the specification provides an ontology that specifies different classes and attributes to establish a common core of general concepts for smart city data, oriented towards the IoT field."@en ;
     dct:title "SmartM2M; Extension to SAREF;  Part 4: Smart Cities Domain (ETSI TS 103 410-4)"@en ;
@@ -1424,6 +1425,7 @@ cssvrsc:2519e714fe2baccf790d51fb84978ee4d368a871889fdf261630d3a1a9e7d237 a cssv:
 cssvrsc:2530ab0daee506060b46a67ad31e86192dd538d189d049ef59718edc7c2ea121 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "X.509"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The X.509 specification addresses some of the security requirements in the areas of authentication and other security services through the provision of a set of frameworks upon which full services can be based."@en ;
     dct:title "X.509: Information technology - Open Systems Interconnection - The Directory: Public-key and attribute certificate frameworks"@en ;
@@ -1455,6 +1457,7 @@ cssvrsc:25cf50e84cef565f4484814eee167c59fdcf92ed627c9602231781d1908cde45 a cssv:
 cssvrsc:25dab677623f3eb070ccc352529bbc8d911258ac4ad0837bedc3cc2606dab9e1 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "HTTP"@en ;
+    cssv:alternative "RFCs 7230-7237"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet Protocol Suite model for distributed, collaborative and hypermedia information systems."@en ;
     dct:title "Hypertext Transfer Protocol (HTTP) (RFCs 7230-7237)"@en ;
@@ -1485,7 +1488,7 @@ cssvrsc:2703d04f985f18e711a774d3c6491024ec67d3465255c1c85d95132753e7ecf1 a cssv:
 
 cssvrsc:2721bff356ea48aeec43ba3b34d6cc9929bdf42bf89084cafc8a39d4aaa54a7d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ETSI TS 103 523-5 CYBER"@en ;
+    cssv:alternative "ETSI TS 103 523-5 CYBER"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 103 523-5 CYBER defines Requirements - such as legal mandates and service agreements - that exist for enterprise network, data centre operators and service providers, organizations and small businesses to be able to observe and audit the content and metadata of encrypted sessions transported across their infrastructures. The IPsec protocol standards [1], [i.2] and [i.3] can be managed in a way that enables this enterprise visibility."@en ;
     dct:title "ETSI TS 103 523-5 CYBER; Middlebox Security Protocol; Part 5: CYBER; Middlebox Security Protocol; Part 5: Enterprise Network Security"@en ;
@@ -1569,6 +1572,7 @@ cssvrsc:2922fcd7e5c71dac1c931650a7d31583d7ed4b1b8edea4c586dc36de487f401e a cssv:
 cssvrsc:29d0e11f39637851673a42720653d25e6b2eaead425e7d5b0a5c9f28292a8cfa a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
+        cssv:acronym "WADL"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Web Application Description Language (WADL) is an XML-based language designed to describe HTTP-based web services. It models the resources provided by a service and the relationships between them, aiming to simplify the reuse of web services that are based on the existing HTTP architecture of the Web. WADL is platform and language-independent, promoting the reuse of applications beyond basic web browser use."@en ;
     dct:title "Web Application Description Language (WADL) "@en ;
@@ -1580,7 +1584,7 @@ cssvrsc:2a521d23323c60aba6c4b5313f96c1a87eb91353a8e2ee1f95ce0cfad3dc9045 a cssv:
         cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "CPSV-AP"@en ;
-    cssv:alternative ""@en ;
+    
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "CPSV-AP is a reusable and extensible data model for harmonising the way public services are described in a machine-readable format. It captures fundamental characteristics of a public service, such as the name, description, competent public organisation, output, etc."@en ;
     dct:title "Core Public Service Vocabulary Application Profile (CPSV-AP) 3.2.0"@en ;
@@ -1733,6 +1737,7 @@ cssvrsc:2d868761-fd43-4bcc-b5fd-fe6e75d1224f a owl:NamedIndividual,
 cssvrsc:2dabce2a650059704db69b06a4b1aaf8fc58af0f16f9b5022565b5e6dc2d7e5c a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "CAdES"@en ;
+    cssv:alternative "ETSI EN 319 122-1"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The purpose of ETSI EN 319 122-1 is to ensure that electronic signatures can be created and validated anywhere in Europe according to the eIDAS Regulation, through Implementing Decision 2015/1506/EU, by defining the baseline profile of CAdES. The specification addresses incremental requirements to maintain the validity of the signatures over the long term."@en ;
     dct:title "Electronic Signatures and Infrastructures (ESI); CAdES digital signatures; Part 1: Building blocks and CAdES baseline signatures (ETSI EN 319 122-1)"@en ;
@@ -1783,7 +1788,7 @@ cssvrsc:2f05c8ce5c3ed5a1381ade4a62709b044540ae87961e5300928acb076bd76a5f a cssv:
 
 cssvrsc:2f66490fddd1e3f289a6943532714965ad7d1222830eb937d6c3bf740b152066 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ISO/IEC 18045:2022"@en ;
+    cssv:alternative "ISO/IEC 18045:2022"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "This document defines the minimum actions to be performed by an evaluator in order to conduct an ISO/IEC 15408 series evaluation, using the criteria and evaluation evidence defined in the ISO/IEC 15408 series."@en ;
     dct:title "ISO/IEC 18045:2022 Information security, cybersecurity and privacy protection — Evaluation criteria for IT security — Methodology for IT security evaluation"@en ;
@@ -1862,7 +1867,7 @@ cssvrsc:3138d6dd5d17444fe9146b3224c89363c57565d72a4e5deeff23d8858e68b05d a cssv:
 
 cssvrsc:319b94ba551dff5570f3aa41bad79c7b4899464b5f05ce7d1f3775a2352beae9 a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "EN 303 645 3.1.3"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI EN 303 645 specifies high-level security and data protection provisions for consumer IoT devices that are connected to network infrastructure (such as the Internet or home network) and their interactions with associated services."@en ;
     dct:title "Cyber Security for Consumer Internet of Things Baseline Requirements (EN 303 645 3.1.3)"@en ;
@@ -1925,7 +1930,7 @@ cssvrsc:32734470ba159f230ee255180239975caec190ecd44e769d8a57df7e16b90efe a cssv:
 
 cssvrsc:327c67acb2fdfe18fe292586ee0d282e25e00dbec3a8a20923b6ef14c05c074e a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ETSI TS 104 050"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 104 050 specification aims to define and characterise Artificial Intelligence. Additionally, it provides an ontology model of an Artificial Intelligence Threat, detailing properties and relationships to identify the role of each component within a threat and how they interact."@en ;
     dct:title "Securing Artificial Intelligence (SAI); AI Threat Ontology and definitions (ETSI TS 104 050)"@en ;
@@ -2129,6 +2134,7 @@ cssvrsc:356b06eaeb0797b4d35e627c84d00bc3de5d72ebfb51f720b77bd4a5548e2704 a cssv:
         cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "CSV"@en ;
+    cssv:alternative "RFC 4180"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The comma separated values format (CSV) has been used for exchanging and converting data between various spreadsheet programs for quite some time."@en ;
     dct:title "Comma-Separated Values (CSV) (RFC 4180)"@en ;
@@ -2140,6 +2146,7 @@ cssvrsc:356b06eaeb0797b4d35e627c84d00bc3de5d72ebfb51f720b77bd4a5548e2704 a cssv:
 cssvrsc:35e2ef41fca202e1fba4b5003d4f50987162664aa81f794762fa7c14d7c9f61c a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "FTP"@en ;
+    cssv:alternative "RFC 959"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The File Transfer Protocol (FTP) is a standard network protocol used for the transfer of computer files between a client and server on a network."@en ;
     dct:title "File Transfer Protocol (FTP) (RFC 959)"@en ;
@@ -2191,7 +2198,7 @@ cssvrsc:36494a9584ee1783bca7c324d4ad28d012c2919890f9efdb1c151a7869029632 a cssv:
 
 cssvrsc:3665dab2bbd00e1738ac4265d4059f8cd57fc981eafb242082cdbfa91a32979d a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ISO/TS 10020:2022"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/TS 10020:2022 provides guidance on the processes that organisations can use to govern, manage, and implement organisational change management (OCM). This applies to various contexts, including the organisation as a whole, specific projects, or smaller activities."@en ;
     dct:title "ISO/TS 10020:2022 Quality management systems - Organizational change management - Processes"@en ;
@@ -2200,8 +2207,8 @@ cssvrsc:3665dab2bbd00e1738ac4265d4059f8cd57fc981eafb242082cdbfa91a32979d a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:36d51704e7a82bf08efe19b8adea8c4eb23671175fb48318426ad0b1189e3164 a cssv:Specification ;
-    cssv:acronym "" ;
-    cssv:alternative "" ;
+    
+    cssv:alternative "EN 301 549"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI EN 301 549 specification is designed to offer an accessible means for people with disabilities to access digital resources and services. In this context, the specification focuses on making applications, websites, and other ICT systems available to all users by providing clear accessibility guidelines.The ETSI EN 301 549 specification is designed to offer an accessible means for people with disabilities to access digital resources and services. In this context, the specification focuses on making applications, websites, and other ICT systems available to all users by providing clear accessibility guidelines."@en ;
     dct:title "Accessibility requirements for ICT products and services (EN 301 549)"@en ;
@@ -2275,6 +2282,7 @@ cssvrsc:393f49d6eb2498dc190763c2914503ddd39b037cd62ce64561b2106b4a7e9786 a cssv:
 cssvrsc:39eee9a3f8d54dac0e11456b98c29454ebb157dc3a8991f456b7b659bf990370 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "OCSP"@en ;
+    
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "This specification specifies a protocol useful in determining the current status of a digital certificate without requiring Certificate Revocation Lists (CRLs)."@en ;
     dct:title "X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP"@en ;
@@ -2315,6 +2323,7 @@ cssvrsc:3b34d225ce1bc5870cfc366cc7beb56eed40ebbb162aafbbbbcf5c4901a74901 a cssv:
 cssvrsc:3bae8c08823c2e170b2b60833ecadd6d91bc581d30442c11589147df12ddb44e a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "DoH"@en ;
+    cssv:alternative "RFC 8484"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "DNS Queries over HTTPS (DoH) defines a protocol for DNS queries to be sent and DNS responses to be obtained over HTTPS."@en ;
     dct:title "DNS Queries over HTTPS (DoH) RFC 8484"@en ;
@@ -2334,7 +2343,7 @@ cssvrsc:3c339c2d426551224a9b80582fb9ec446847c640127d87db3b140c898c073091 a cssv:
 
 cssvrsc:3c538b852c1b5d6eb809952b0c8e4f0aee93208b7cca180b273519b17ce2c6cf a cssv:Standard ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ETSI EN 319 411-2"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI EN 319 411-2 is a European standard that sets out policy and security requirements for Trust Service Providers (TSPs). Its primary focus is the issuance of EU qualified certificates, covering electronic signatures, electronic seals, and website authentication, as defined by Regulation (EU) No 910/2014."@en ;
     dct:title "Electronic Signatures and Trust Infrastructures (ESI); Policy and security requirements for  Trust Service Providers issuing certificates; Part 2: Requirements for trust service providers issuing EU qualified certificates (ETSI EN 319 411-2)"@en ;
@@ -2477,7 +2486,7 @@ cssvrsc:4032a0cea857869c05ee28217e3501ddf0e48d7a641752dd61b6d6a634b2fc79 a cssv:
 
 cssvrsc:40954dff2643527f34e6cee6d084d929c87aba030a5a9758367f603467f82c76 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 38505-1"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The ISO/IEC 38505-1 specification provides high-level, principles-based guidance for governing bodies to evaluate, direct, and monitor the handling and use of data within their organizations. It outlines key principles, definitions, and a model for governance, while encouraging organizations to adopt appropriate standards to enhance their data governance practices."@en ;
     dct:title "ISO/IEC 38505-1: Information technology - Governance of IT - Part 1: Application of ISO/IEC 38500 to the governance of data"@en ;
@@ -2487,7 +2496,7 @@ cssvrsc:40954dff2643527f34e6cee6d084d929c87aba030a5a9758367f603467f82c76 a cssv:
 
 cssvrsc:40c6aac837357cdbc673a103d053d4fa78b7617bbaa2975df98b87b826f9bb6d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "IEEE 7002"@en ;
     cssv:isMaintainedBy cssvrsc:3c1250b675a3e22cc3555ea1c94489048376f76e7af7ac7c649ad868cbdb5259 ;
     dct:description "This standard defines requirements for a systems engineering process for privacy-oriented considerations regarding products, services, and systems utilizing employee, customer, or other external user's personal data."@en ;
     dct:title "IEEE 7002 - Standard for Data Privacy Process"@en ;
@@ -2498,6 +2507,7 @@ cssvrsc:40c6aac837357cdbc673a103d053d4fa78b7617bbaa2975df98b87b826f9bb6d a cssv:
 cssvrsc:41b2c79f6cfb66676430b6c3a94ff0ed87617341081c7ef1a147129c5c605b3e a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "CBOR"@en ;
+    cssv:alternative "RFC 8943"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Concise Binary Object Representation (CBOR), as specified in RFC 7049, is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation."@en ;
     dct:title "Concise Binary Object Representation (CBOR) Tags for Date (RFC 8943)"@en ;
@@ -2518,6 +2528,7 @@ cssvrsc:427811e6aa654e75d96f37710bec7a7a4e07b7f7eeae2433a40f01b1a5c99434 a cssv:
 cssvrsc:435032349eaed190675292bef1f89caea4d90a86f1b7bfaa06b81ed58188e895 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "RFC 3647"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 3647 specification provides a framework for specifying Certificate Policies (CPs) and Certification Practices Statements (CPSs) for X.509 public key certificates. These certificates are used in a Public Key Infrastructure (PKI) to ensure secure digital communication through encryption, authentication, and data integrity."@en ;
     dct:title "Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework (RFC 3647)"@en ;
@@ -2603,6 +2614,7 @@ cssvrsc:459ce55245869fa8d2fe286ec86dfea886241f1366deef90c41db0686c7eab12 a cssv:
 cssvrsc:46686dc0ef5e64da788fbdb188bf9adeacb04109ebe59d1af30b582744b1c07d a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "OpenDocument"@en ;
     cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
     dct:description "Semantic Interoperability agreements base on open standards and commonly agreed semantic [interoperability] specifications to establish the rules that enable the collaboration between peers when they extract, map and transform the data onto the external environment, and vice-versa when they transform/map and integrate the data from the external environment into the internal systems."@en ;
     dct:title "Open Document Format for Office Applications (OpenDocument)"@en ;
@@ -2652,7 +2664,7 @@ cssvrsc:481883335f8d6b160676964f78b5a09d6f7f0bab08f0582c62adadff95706243 a cssv:
     dcat:version "5.0.0" .
 
 cssvrsc:48437f93739cc7174430c3c368a82f20a2292ae03d39732fdb6d9fe9d89bcd70 a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "DDS"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:8ad80837b063c67c6595f2ad3511ac09a4acde43487247369118a71c2ecab448 ;
     dct:description "The Data Distribution Service (DDS) specification is a middleware protocol that enables real-time, high-performance, and scalable data exchange. The specification operates using a publish-subscribe pattern, allowing users and organisations to seamlessly share information across distributed systems."@en ;
@@ -2686,6 +2698,7 @@ cssvrsc:4909c79d2759fc5cdbd6e87160f397452ee9484bd8d9e9bf838be385108c987c a cssv:
         cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 27001"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
     dct:title "ISO/IEC 27001 INFORMATION SECURITY MANAGEMENT"@en ;
@@ -2730,6 +2743,7 @@ cssvrsc:4995c189f58c05db16c96ff8b792828000c5ba4b53f1aa791d9873f63c406651 a cssv:
 cssvrsc:49a5104e8266f39774df9b2a4369da8368f26b2249409aa3222419b6441840a3 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "CBOR"@en ;
+    cssv:alternative "RFC 8949"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Concise Binary Object Representation (CBOR) specification is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation."@en ;
     dct:title "Concise Binary Object Representation (CBOR) (RFC 8949)"@en ;
@@ -2740,6 +2754,7 @@ cssvrsc:49a5104e8266f39774df9b2a4369da8368f26b2249409aa3222419b6441840a3 a cssv:
 cssvrsc:49c01af4f41fdb696c38abe79661d6f580cf2d1ee94fc9e1e8604e3a02134085 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "PAdES"@en ;
+    cssv:alternative "ETSI EN 319 142-2"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI EN 319 142-2 primarily contains a profile for the use of PDF signatures, as described in ISO 32000-1, and based on the IETF Cryptographic Message Syntax (CMS) digital signatures, which enables greater interoperability of PDF signatures by providing additional restrictions beyond those of ISO 32000-1. The specification also contains a second set of profiles that extend the scope of the ETSI EN 319 142-1 profile, enhancing the interoperability of PAdES signatures."@en ;
     dct:title "Electronic Signatures and Infrastructures (ESI); PAdES digital signatures; Part 2: Additional PAdES signatures profiles (ETSI EN 319 142-2)"@en ;
@@ -2948,7 +2963,7 @@ cssvrsc:50b32f1fad914db34b88384432aa97c38bd953faded1b1c1d2068771b3711187 a cssv:
 cssvrsc:51612566201b40704f2073101415e00e77de36233bd1a0cd76aff461386504cf a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO 3166-1"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO 3166-1 establishes codes that represent the current names of countries, dependencies, and other areas of particular geopolitical interest, on the basis of country names obtained from the United Nations."@en ;
     dct:title "ISO 3166-1:2020 Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes"@en ;
@@ -2968,6 +2983,7 @@ cssvrsc:516fbc0054c93ea8cae0b01266ce9ac7be953b3019f776c47465f3070bcc161a a cssv:
 
 cssvrsc:51817b4394299c5ce7ca106fa2d4c27ae1a00999ee3cdf355d1a37e51135096a a cssv:Specification,
         owl:NamedIndividual ;
+    cssv:acronym "PKCE"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The PKCE specification is an extension to the Authorisation Code Flow designed to enhance security for public clients, such as native and single-page applications, which cannot securely store a client secret. PKCE mitigates the risk of authorisation code interception attacks by introducing a dynamically generated secret that is verified by the authorisation server."@en ;
     dct:title "Proof Key for Code Exchange (PKCE)"@en ;
@@ -3008,6 +3024,7 @@ cssvrsc:51d1925c43d21238f4015a77a657691d3e21c5cbaaf8e8188bb3754e752b5161 a cssv:
 
 cssvrsc:51fe6c22eb66ec744fe3ce6605ab0602ea45c7d0560c513af1a996069d52ce35 a cssv:Specification,
         owl:NamedIndividual ;
+    cssv:acronym "SHACL"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The SHACL Shapes Constraint Language specification is a language for validating RDF graphs against a set of conditions. These conditions are provided as shapes and other constructs expressed in the form of an RDF graph."@en ;
     dct:title "Shapes Constraint Language (SHACL)"@en ;
@@ -3079,6 +3096,7 @@ cssvrsc:545b7001aca08de672e453790a7c31df38d2ecbf5aaad85823c4065f53031896 a cssv:
 
 cssvrsc:5502c5d865af0e4e779010616bf4e93db5530d0d15350e37c2cb02bb41d1a3e7 a cssv:Specification,
         owl:NamedIndividual ;
+    cssv:alternative "RFC 8288"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 8288 specification defines a model for the relationships between resources on the Web (links) and the type of those relationships (link relation types). It also defines the serialisation of such links in HTTP headers with the Link header field."@en ;
     dct:title "IANA Link Relations (RFC 8288, Web Linking)"@en ;
@@ -3222,7 +3240,7 @@ cssvrsc:5a81dd874f6ef2c75576b4c7594373c802831daf20243c70d0459ed71ca09a8c a cssv:
     dcat:version "14.0.0" .
 
 cssvrsc:5ac09b8c2f80f95726ddfe68e38ea5d6de7fc161487922747f09ecada87ddfb4 a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "SFTP"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "SFTP is a simple file transfer protocol. It fills the need of people wanting a protocol that is more useful than TFTP but easier to implement (and less powerful) than FTP.  SFTP supports user access control, file transfers, directory listing, directory changing, file renaming and deleting."@en ;
