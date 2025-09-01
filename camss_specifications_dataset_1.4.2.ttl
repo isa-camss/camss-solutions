@@ -340,7 +340,7 @@ cssvrsc:089680e7222ccb31ea26492ea9046c31d2ca7eef90a36fe48a54abc4662739ad a cssv:
 cssvrsc:08dcfceb430258afca7c26e6347dbfe2ba85e8bfa280581c2aad246bc2ddf485 a cssv:Specification,
         owl:NamedIndividual ;
     
-    cssv:alternative "X.1148"@en ;
+    cssv:alternative "ITU-T X.1148"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "This Recommendation provides an overview of de-identification process based on data lifecycle model, specifies a de-identification process framework with operational steps and roles of stakeholders in the de-identification process. It further discusses data release models and data stages in a de-identification process and includes various de-identification approaches and examples in its annexes and appendices."@en ;
     dct:title "X.1148 : Framework of de-identification process for telecommunication service providers"@en ;
@@ -655,7 +655,7 @@ cssvrsc:1248c7f13709f43008360e6a192b38fb298857005459667f8d2d69c0cb3e0688 a cssv:
 
 cssvrsc:1267e8c151b0d93d7fb405fb253185b38d3148dbec15b2f022b3810d03583a8e a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "X.1058"@en ;
+    cssv:alternative "ITU-T X.1058"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "This Specification establishes control objectives, controls and guidelines for implementing controls, to meet the requirements identified by a risk and impact assessment related to the protection of PII. In particular, this Specification specifies guidelines based on ISO/IEC 27002, taking into consideration the requirements for processing PII that may be applicable within the context of an organization's information security risk environment(s)."@en ;
     dct:title "X.1058 : Information technology - Security techniques - Code of practice for personally identifiable information protection"@en ;
@@ -1274,7 +1274,7 @@ cssvrsc:1eff89bf2e1526ab3acc339038c4fbc290d1d6731859d09b788ad09f919524b1 a cssv:
 
 cssvrsc:1f0fd3a95a8bd90338a7da09965349b3776dd310f8d5851afd56d2a5ce1a19f2 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "X.1403"@en ;
+    cssv:alternative "ITU-T X.1403"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "Distributed ledger technology (DLT) and its specific implementations such as blockchain offer a unique opportunity for utilizing a trust infrastructure and a platform that could be useful in enabling trusted federation for exchanging identity attributes and identity information. Recommendation ITU‑T X.1403 provides a telecom-specific privacy and security considerations for using DLT data in identity management."@en ;
     dct:title "X.1403 : Security guidelines for using distributed ledger technology for decentralized identity management"@en ;
@@ -1425,7 +1425,7 @@ cssvrsc:2519e714fe2baccf790d51fb84978ee4d368a871889fdf261630d3a1a9e7d237 a cssv:
 cssvrsc:2530ab0daee506060b46a67ad31e86192dd538d189d049ef59718edc7c2ea121 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
-    cssv:alternative "X.509"@en ;
+    cssv:alternative "ITU-T X.509"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The X.509 specification addresses some of the security requirements in the areas of authentication and other security services through the provision of a set of frameworks upon which full services can be based."@en ;
     dct:title "X.509: Information technology - Open Systems Interconnection - The Directory: Public-key and attribute certificate frameworks"@en ;
@@ -2282,7 +2282,7 @@ cssvrsc:393f49d6eb2498dc190763c2914503ddd39b037cd62ce64561b2106b4a7e9786 a cssv:
 cssvrsc:39eee9a3f8d54dac0e11456b98c29454ebb157dc3a8991f456b7b659bf990370 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "OCSP"@en ;
-    
+    cssv:alternative "ITU-T X.509"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "This specification specifies a protocol useful in determining the current status of a digital certificate without requiring Certificate Revocation Lists (CRLs)."@en ;
     dct:title "X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP"@en ;
@@ -3334,7 +3334,7 @@ cssvrsc:5c609eb6f297d79bff294f1f03c2e346133df99e0ca5e066f6ef3787052516bd a cssv:
 
 cssvrsc:5cb171424de13d12a0286f8aea06e357b051a5fef37b5c2a29a84d4bdb0987c3 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC/IEEE 12207:2017"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC/IEEE 12207:2017’s comprehensive approach to systems and software engineering ensures that these critical infrastructure components are effectively integrated, maintained, and optimized throughout the software lifecycle."@en ;
     dct:title "ISO/IEC/IEEE 12207:2017 Systems and software engineering — Software life cycle processes"@en ;
@@ -3364,7 +3364,7 @@ cssvrsc:5d64fb2f0abfb7a00c8bb30877ca88441cae1fdd82d0de123c38da49ee7ec4a2 a cssv:
 
 cssvrsc:5db270a98d7a8d16dd83fc7da876c5f6f460c68c343fb5e3156d8eb67f1283b9 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ISO/IEC 20802-2:2016"@en ;
+    cssv:alternative "ISO/IEC 20802-2:2016"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 20802-2:2016 extends ISO/IEC 20802-1, the core specification of the Open Data Protocol (OData) for representing and interacting with structured content, by defining representations for Odata requests and responses using a JSON format."@en ;
     dct:title "ISO/IEC 20802-2:2016 Information technology — Open data protocol (OData) v4.0 Part 2: OData JSON Format"@en ;
@@ -3374,7 +3374,7 @@ cssvrsc:5db270a98d7a8d16dd83fc7da876c5f6f460c68c343fb5e3156d8eb67f1283b9 a cssv:
 
 cssvrsc:5deb655042cb9266d83ddbc3efaf04d0593941afe6b5ce004433c090d28baa87 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "" ;
+    cssv:alternative "RFC 3628"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 3628 specification is addressed to define the policy requirements to Time-Stamping Authorities (TSA's) issuing time-stamp tokens, which serve as trusted proofs that a datum existed at a particular time. In this sense, the specification can help to prove the digital signature was generated while the signer's certificate was valid."@en ;
     dct:title "Policy Requirements for Time-Stamping Authorities (TSAs) (RFC 3628)"@en ;
@@ -3384,7 +3384,7 @@ cssvrsc:5deb655042cb9266d83ddbc3efaf04d0593941afe6b5ce004433c090d28baa87 a cssv:
 
 cssvrsc:5e055257d3c0c61888b38e58a8eab1058088afa4711f27e6ec14deb65807e90f a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ETSI TS 103 142"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 142 specification details interoperability test descriptions for the OCCI and CDMI standards in cloud computing. It covers a wide range of tests, including the creation, reading, updating, and deletion of resources and objects in both OCCI and CDMI. Additionally, it defines test configurations for interoperability between OCCI and CDMI, ensuring that implementations of these protocols can work together effectively."@en ;
     dct:title "CLOUD; Test Descriptions for Cloud Interoperability (ETSI TS 103 142)"@en ;
@@ -3426,7 +3426,7 @@ cssvrsc:5f54fc4ff6bfb0c964461af9c76cfb2f02a1d19e9c35f055b5cdf1eb805be1c0 a cssv:
 
 cssvrsc:60ce304ab2b48bcc9dea1f580064d77b84e1ed23b51944a2bd1b1601caa12853 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T X.1363"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description """Internet of things (IoT) devices can collect many kinds of data, including personally identifiable information (PII). Because PII data are useful for different types of services, they may be shared among multiple service providers.
 
@@ -3494,7 +3494,7 @@ cssvrsc:62a4d389-c07d-4072-b63a-c738777f814d a owl:NamedIndividual,
 
 cssvrsc:63094b24158a8c766a5659f3e6a82d7b1aabc82862abe3052377e21008c84f41 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ETSI TS 119 511"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 119 511 sets policy and security requirements for Trust Service Providers (TSPs) that provide long-term preservation of digital signatures and general data (unsigned or signed data) in the context of different frameworks. The specification is based on ETSI EN 319 401."@en ;
     dct:title "ETSI TS 119 511 Electronic Signatures and Infrastructures (ESI); Policy and security requirements for trust service providers providing long-term preservation of digital signatures or general data using digital signature techniques"@en ;
@@ -3514,7 +3514,7 @@ cssvrsc:6327b8eef8bae4c922a91203eef220faf3319f675e644a87014c03512b18e8a0 a cssv:
 
 cssvrsc:639a7d71e7e5d5257b0b49d7bcfe15c08139b9352939effaed5abf335de69eec a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 30141:2018"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The Internet of Things (IoT) Reference Architecture provides definitions, generic designs patterns and best practices IoT devices and services from different architecture views: functional, system deployment, networking and usage views. ISO has also provided a corrigendum document (ISO/IEC 30141:2018/COR1:2020)."@en ;
     dct:title "ISO/IEC 30141:2018 Internet of Things (IoT) — Reference Architecture"@en ;
@@ -3555,7 +3555,7 @@ cssvrsc:64c53f5ad6a14cbae9047cc8d02cbf4060505942b85348fc945d18b6bc098ea8 a cssv:
 
 cssvrsc:64ea8d09431ade581d31ea8afbb59a82cae7044a66f46f691f39258733b6d0e2 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T X.1171"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The widespread deployment of identification tags, including radio frequency identification (RFID) tags can give rise to concerns of privacy infringement because of the abilities of RFID technology to automatically collect (and process) data, with the possible disclosure of such data to the public (deliberately or accidentally). For applications using tag-based identification and relying on a personalized identification tag in personalized after-sale management applications, healthcare-related applications, etc., the privacy issue is becoming an increasingly serious problem. This Recommendation describes a number of personally identifiable information (PII) infringements for applications using tag-based identification, and requirements for PII protection. In addition, this Recommendation provides a basic structure of PII protection based on PII policy profile."@en ;
     dct:title "X.1171 : Threats and requirements for protection of personally identifiable information in applications using tag-based identification"@en ;
@@ -3627,7 +3627,7 @@ cssvrsc:68d9e6bf6e8e428d0d40448f5eb71ffd93661f675bc42e0ae25051f20cbd0944 a cssv:
 
 cssvrsc:68dcccf20160c64e0058a26967f90ad56e204aa95cef633ba7d19d1fcb48e225 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T X.1250"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "Recommendation ITU-T X.1250 describes baseline capabilities for global identity management (IdM) interoperability (i.e., to enhance exchange and trust in the identifiers used by entities in telecommunication/information technology IT networks and services). The definitions and need for IdM are highly context-dependent and often subject to very different policies and practices in different countries. The capabilities include the protection and control of personally identifiable information (PII)."@en ;
     dct:title "X.1250 : Baseline capabilities for enhanced global identity management and interoperability"@en ;
@@ -3677,7 +3677,7 @@ cssvrsc:6a81cdb7e813e96b835ada5c18c9cc7817ecae35172637c8f953a65fc77db705 a cssv:
 
 cssvrsc:6aac027574e261aff04dda72e050d4736e9b6c8b022b626c597e0ff37ca1153c a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "DIN SPEC 27070:2020-03"@en ;
     cssv:isMaintainedBy cssvrsc:a4f4f4a73f9a5d109629f53c792ccf9c303f493e06e47d4d5bf9c1eee7ce3107 ;
     dct:description "DIN SPEC 27070:2020-03 is a Publicly Available Specification (PAS), willing to become an ISO standard, that specifies requirements regarding a secure gateway for cross-company data exchange in the manufacturing industry. The specification relates to DIN EN IEC 62443-4-2 standard series."@en ;
     dct:title "Requirements and reference architecture of a Security Gateway for the exchange of industry data and services (DIN SPEC 27070:2020-03)"@en ;
@@ -3746,7 +3746,7 @@ cssvrsc:6c793fd1d17062d9fd8edd8d37932cd56cb00840ae3ef37568ad77404230f05b a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:6ce01c099ee9d575af9a0f7408690e704182728163a54969da7402f6ba7e4a8d a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "CoAP"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Constrained Application Protocol (CoAP) specification is designed to facilitate communication and data exchange between constrained devices and networks. In this context, the protocol can be useful in scenarios such as smart homes and intelligent wearables, among others."@en ;
@@ -3762,7 +3762,8 @@ cssvrsc:6d456546-3cbf-4609-b75a-a19b93975649 a owl:NamedIndividual,
 
 cssvrsc:6d5f15d3694c6b3db3f8e473234a697578f623c25ec45201b2313edcfca0b9ee a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "SCIM"@en ;
+    cssv:alternative "RFC 7642"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The System for Cross-domain Identity Management (SCIM), Definitions, Overview, Concepts, and Requirements specification describes both the design and implementability of the SCIM schema and the SCIM protocol."@en ;
     dct:title "System for Cross-domain Identity Management: Definitions, Overview, Concepts, and Requirements RFC 7642"@en ;
@@ -3804,7 +3805,7 @@ cssvrsc:6eb2a0776547a9750027a031719cb9ca3e620970f7dfd42bd96ac025b8a6f463 a cssv:
 
 cssvrsc:6f03402e98acfd1f4c58b6533bdb88e793efffd35b0a6a3389b8c7c77220a310 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ETSI TS 103 744 CYBER"@en ;
+    cssv:alternative "ETSI TS 103 744 CYBER"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The focus of TS 103 744 CYBER is on the practical implementation of quantum-safe primitives, including performance considerations, implementation capabilities, protocols, benchmarking and practical architectural considerations for specific applications. The group’s work also feeds into other groups and standards bodies such as International Telecommunications Union (ITU), Internet Engineering Task Force (IETF), International Standards Organisation (ISO) and GlobalPlatform."@en ;
     dct:title "ETSI TS 103 744 CYBER; Quantum-safe Hybrid Key Exchanges"@en ;
@@ -3858,6 +3859,7 @@ cssvrsc:70137d7dbadcaf742ae5cfef049aa13d0aef86fb19b68d50e5d98b6408f02786 a cssv:
 cssvrsc:70aa46c41fa3bc7c83b574e54bf2f29f1fdef6a3125645d3de8e7a60cde0c6f1 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "MACs"@en ;
+    cssv:alternative "ISO/IEC 9797-1:201"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 9797-1 specifies six Message Authentication Code (MAC) algorithms that use a secret key and an n-bit block cipher to calculate an m-bit MAC. MAC algorithms can be built from other cryptographic primitives, such as cryptographic hash functions (e.g., HMAC) or from block cipher algorithms (e.g., OMAC, CCM, GCM, PMAC). Fastest MAC algorithms are built on universal hashing or intrinsically keyed hash algorithms."@en ;
     dct:title "ISO/IEC 9797-1:2011 Information technology - Security techniques - Message Authentication Codes (MACs) - Part 1: Mechanisms using a block cipher"@en ;
@@ -4351,6 +4353,7 @@ cssvrsc:7f3a6b194d0bd127d1a6851a86fa7498415964a4d56d56749607faf692e2f7ad a cssv:
 cssvrsc:7fa1cb50b03a684843349c75a6533a376020f0c71a4829a4aa250554a5c33896 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "ETSI TS 119 612"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 119 612 provides a common time-stamping protocol and token profiles for a Trusted List Scheme Operator (TLSO) to provide information on the status and history of Trusted Service Provider (TSP) services concerning compliance with relevant legislation."@en ;
     dct:title "ETSI TS 119 612 - Electronic Signatures and Infrastructures (ESI); Trusted Lists"@en ;
@@ -4380,7 +4383,7 @@ cssvrsc:7fdb941a406786188055ea6b01c5b763f594ad8289c7419e51814c68dc80e296 a cssv:
 
 cssvrsc:80fb06b108f63ce12ff7e7598aa735da166bd1b93882938f1c8879b4c895d434 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "CDM"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "CDM is the Common Metadata Model of the resources published by the Publications Office of the European Union"@en ;
     dct:title "Common Data Model"@en ;
@@ -4393,6 +4396,7 @@ cssvrsc:8164f5e6cd50bf02a11c615929ebf80147032647fced20c32e19af42e3155f3d a cssv:
         cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "XAdES"@en ;
+    cssv:alternative "ISO 14533-2:2012"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO 14533-2:2012 specifies the elements, among those defined in XML Advanced Electronic Signatures (XAdES), that enable verification of a digital signature over a long period of time."@en ;
     dct:title "XML Advanced Electronic Signatures (XAdES) - ISO 14533-2:2012"@en ;
@@ -4425,6 +4429,7 @@ Based on the framework and security levels established in Recommendation ITU-T X
 cssvrsc:82631e4f6b9cb3ba51ee3824a6e5926231d68d13dc3b2f520b67c8f114887b48 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T Q.3914"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "This Recommendation provides a set of parameters that indicate the status and event of a cloud computing system, including resource layer, service layer and access layer, in accordance with the functional reference architecture of cloud computing that was defined in Recommendation ITU-T Y.3502.  Recommendation ITU-T Q.3914 specifies the functional reference  architecture of cloud computing according to Recommendation ITU-T Y.3500."@en ;
     dct:title "Q.3914 : Set of parameters of cloud computing for monitoring"@en ;
@@ -4467,6 +4472,7 @@ cssvrsc:835a37b6f8f926c2c1b50b623f2fcd833ecb87d7e6b85b3b1732b4766bbadf8f a cssv:
 
 cssvrsc:836a6233b47faa7042272c870db4cfa50e3c21868d852e142e4f8656c0635561 a cssv:Specification,
         owl:NamedIndividual ;
+        cssv:acronym "RAPIS"@en ;
     cssv:isMaintainedBy cssvrsc:38670c19d5ed998a3896f7dd55d5644b3622402d5375b41612541112e3be3e61 ;
     dct:description "The REST API Standard (RAPIS) is a proposed specification for designing REST APIs. It aims to provide a structured approach to API design, ensuring consistency and best practices across different implementations."@en ;
     dct:title "REST API Standard (RAPIS)"@en ;
@@ -4501,6 +4507,7 @@ cssvrsc:84a1c8b0d4ee9f8d53a50e8529a99516c5f79ba2728b0784d8e2108fa849a0de a cssv:
         cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "IEEE 7001-2021"@en ;
     cssv:isMaintainedBy cssvrsc:3c1250b675a3e22cc3555ea1c94489048376f76e7af7ac7c649ad868cbdb5259 ;
     dct:description "IEEE 7001 sets out metrics for measuring AI trustworthiness as mentioned in the AI Watch report (). The standard is broadly applicable to provide measurable and verifiable levels of transparency so that autonomous systems, including physical and non-physical systems, can be objectively evaluated and compliance levels, determined. The IEEE Grant Program grants public access to view or download this standard."@en ;
     dct:title "IEEE 7001-2021 - IEEE Standard for Transparency of Autonomous Systems"@en ;
@@ -4511,6 +4518,7 @@ cssvrsc:84a1c8b0d4ee9f8d53a50e8529a99516c5f79ba2728b0784d8e2108fa849a0de a cssv:
 cssvrsc:84b85235ee46701a6b95a3f1ef00844e95091763815a88edfcb291aa29ffffb8 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "HTTPS"@en ;
+    cssv:alternative "RFC 2818"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "HTTP over SSL/TLS (also known as Hypertext Transfer Protocol Secure, HTTP over SSL, HTTP over TLS, or HTTPS) is a protocol for secure communication over a computer network that is widely used on the Internet."@en ;
     dct:title "HTTP over SSL/TLS (HTTPS) (RFC 2818)"@en ;
@@ -4531,7 +4539,7 @@ cssvrsc:84fe8f7f1c87eb481193cdb27043afa1b40ddc7efd1fd268f7ae9398bb8170f5 a cssv:
 
 cssvrsc:853a6e4f2ac85b56d15900142e8b431d57583ee4d18e5fd3354e9868de6d0649 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ETSI EN 319 422"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI EN 319 422 specification is aiming to meet the general requirements of the international community to provide trust and confidence in electronic transactions including, amongst others, applicable requirements from Regulation (EU) No 910/2014."@en ;
     dct:title "Electronic Signatures and Infrastructures (ESI); Time-stamping protocol and time-stamp token profiles"@en ;
@@ -4541,7 +4549,7 @@ cssvrsc:853a6e4f2ac85b56d15900142e8b431d57583ee4d18e5fd3354e9868de6d0649 a cssv:
 
 cssvrsc:8549bde59ca1362f98d46e1738eee5b30f393917342c0e58328ab0dfbedfd237 a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ISO/IEC 29500-4:2016"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The ISO/IEC 29500-4:2016 primary goal is to ease the adoption of OOXML by ensuring a degree of compatibility and enabling a smoother migration process for users and applications that previously relied on binary formats."@en ;
     dct:title "Office Open XML File Formats Part 4: Transitional Migration Features"@en ;
@@ -4551,7 +4559,7 @@ cssvrsc:8549bde59ca1362f98d46e1738eee5b30f393917342c0e58328ab0dfbedfd237 a cssv:
 
 cssvrsc:85673d368ea830701dbd3ffe667934556f8ca6d498af62f835dd649262a6a89a a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T Y.4208"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "Recommendation ITU-T Y.4208 provides an overview of related challenges faced by the IoT and describes how IoT-supporting edge computing (EC) may address these challenges. Some of the capabilities offered by the Internet of thing (IoT), e.g., capabilities for computing, storage and analytics, are evolving in closer proximity to IoT data sources. From the edge-computing deployment perspective, service requirements for support of EC capabilities in the IoT are identified, as well as related functional requirements. As an example, scenarios of EC deployment in different application domains, EC scenarios for vehicle-to-everything (V2X) and for smart manufacturing are provided in an appendix."@en ;
     dct:title "Y.4208 : Internet of things requirements for support of edge computing"@en ;
@@ -4560,7 +4568,7 @@ cssvrsc:85673d368ea830701dbd3ffe667934556f8ca6d498af62f835dd649262a6a89a a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:8571211bbf3815c7457d9b6d99d478c1008acc227358597ca9dd30eb8087bf81 a cssv:Specification ;
-    cssv:acronym "" ;
+    cssv:acronym "PROV-N"@en ;
     cssv:alternative "" ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The PROV-N specification provides a human-readable notation for representing provenance information. Provenance refers to the history or origin of data, essentially, answering questions like Who created this data?, What processes were involved?, and How did this data come to be?. In this sense, it offers a functional-style syntax designed to describe the relationships between entities, activities, and agents involved in producing or modifying data."@en ;
@@ -4571,7 +4579,7 @@ cssvrsc:8571211bbf3815c7457d9b6d99d478c1008acc227358597ca9dd30eb8087bf81 a cssv:
 
 cssvrsc:85822b766ddea16db2ac9ccc096ec38387cde874801350c048413e0bad44b864 a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ETSI TS 103 264"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 103 264 defines the SAREF ontology, a standardised semantic framework for smart appliances and IoT domains. It provides core concepts and relationships to model devices and their functions consistently. The specification includes mappings to oneM2M for semantic interoperability across platforms. It supports aligning different data models through ontology matching and agreements. Overall, it enables seamless data integration and collaboration in smart ecosystems."@en ;
     dct:title "SmartM2M; Smart Applications;  Reference Ontology and oneM2M Mapping (ETSI TS 103 264)"@en ;
@@ -4606,6 +4614,7 @@ cssvrsc:865cefb01ca8e8280d9c4751f0ba71d66cb6925ed1987c4c4f53e078b1703eca a cssv:
         cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "CAdES"@en ;
+    cssv:alternative "ISO 14533-1:2014"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO 14533-1:2014 specifies the elements, among those defined in CMS Advanced Electronic Signatures (CAdES), that enable verification of a digital signature over a long period of time."@en ;
     dct:title "CMS Advanced Electronic Signatures (CAdES) - ISO 14533-1:2014"@en ;
@@ -4774,6 +4783,7 @@ cssvrsc:8d8a9063977269b9511a82b8c6e20a2fb19da720bde0b3e6d37175b3a9945737 a cssv:
         cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "e-CF"@en ;
+    cssv:alternative "CEN/TC 428"@en ;
     cssv:isMaintainedBy cssvrsc:3fa4f14bdd83e1d0ea9fcdfe81a9ad8a7b7dd37042e5f520425016263046ba9a ;
     dct:description "This document provides a reference of 41 competences as required and applied at the Information and Communication Technology (ICT) professional work environment, using a common language for competences, skills and proficiency levels that can be understood across Europe. This document was created for application by: - ICT service, user and supply companies, - ICT professionals, managers and human resource (HR) departments, - vocational education institutions and training bodies including higher education, - social partners (trade unions and employer associations), professional associations, accreditation, validation and assessment bodies, - market analysts and policy makers, and other organizations and stakeholders in public and private sectors."@en ;
     dct:title "CEN/TC 428 - ICT Professionalism and Digital Competences - European Competency Framework (The European Union's European e-Competence Framework (e-CF)"@en ;
@@ -4824,7 +4834,7 @@ cssvrsc:8eb93f554a3440a30b522cf4f0f9f6800045bf0b2741c518fab12bac16ca84c6 a cssv:
 
 cssvrsc:8ef4449817a74c2f19c7b02f804893fc803bb1f0fe8526488f8d29ceed7d2d2b a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ETSI TS 119 432"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 119 432 specifies protocols and interfaces for system, service, component-specific functionalities as part of the process of creating remote digital signatures and constructing AdES forms as a distributed solution. The specification is limited to remote server signing in a remote shared service. ETSI TS 119 172-2 describes technical constraints for the construction of XML documents including components of a signature generation policy, a signature validation policy, or a signature augmentation policy."@en ;
     dct:title "Electronic Signatures and Infrastructures (ESI); Protocols for remote digital signature creation (ETSI TS 119 432)"@en ;
@@ -4845,6 +4855,7 @@ cssvrsc:8f688d53afcca27546d8b931207e249c83c17293e5218a730ecb12f58c07faf6 a cssv:
 cssvrsc:8fa9cd7abc111f52f04bbcf3ebdfa44e08756fdf213722ef95c6fb3470975b07 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "XAdES"@en ;
+    cssv:alternative "ETSI EN 319 132-1"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The purpose of ETSI EN 319 132-1 is to ensure that electronic signatures can be created and validated anywhere in Europe according to the eIDAS Regulation, through Implementing Decision 2015/1506/EU, by defining the baseline profile of XAdES. The specification addresses incremental requirements to maintain the validity of the signatures over the long term."@en ;
     dct:title "Electronic Signatures and Infrastructures (ESI); XAdES digital signatures; Part 1: Building blocks and XAdES baseline signatures (ETSI EN 319 132-1)"@en ;
@@ -4888,7 +4899,7 @@ cssvrsc:90b892f316000b3f7e9c96ff2c0cb7bd8a2e5da58051db814f8471f3e64e4f42 a cssv:
 
 cssvrsc:90cc1d25c84061f0094962de974205c4701a2168f14ed3794fcaeac98321650d a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ETSI TS 103 701"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 103 701 is a technical specification that provides a structured framework to assess the cybersecurity of consumer Internet of Things (IoT) devices. It translates the baseline security requirements defined in ETSI EN 303 645 into modular, testable criteria. The specification enables manufacturers, testers, and certification bodies to systematically evaluate IoT products for compliance through defined test cases and assessment methods. By doing so, it helps ensure that IoT devices implement essential security measures, protecting user data, maintaining confidentiality, and reducing vulnerabilities."@en ;
     dct:title "Cyber Security (CYBER); Cyber Security for Consumer Internet of Things: Conformance Assessment of Baseline Requirements (ETSI TS 103 701)"@en ;
@@ -4923,7 +4934,7 @@ cssvrsc:919440aa011c9595594db32b1f1a23efb640a86d0157011eef148e3eaae693f2 a cssv:
 
 cssvrsc:91b84692b5fb2a89efc859413d8d3dcfc3143933c385f38da13932af0592ec26 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 19086-1:2016"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 19086-1:2016 provides a framework for establishing service level agreements (SLAs) within the context of cloud computing. It outlines the core concepts and terms related to SLAs, offering guidance on specifying and managing service level objectives."@en ;
     dct:title "Information Technology Cloud computing Service level agreement (SLA) framework (ISO/IEC 19086-1:2016)"@en ;
@@ -4976,6 +4987,7 @@ cssvrsc:92bf58d8725ac53de1ec15d28b9541d6a52f2642f418385f331b7630b8105185 a cssv:
 cssvrsc:92ebc757bde281e7120ecbc142055e8ebb6e0d29e0de746366cbe36e97fd2f86 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "UUIDs"@en ;
+    cssv:alternative "RFC 9562"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 9562 specification defines a Uniform Resource Name namespace for UUIDs (Universally Unique IDentifier), also known as GUIDs (Globally Unique IDentifier). These identifiers allow to categorise and organise information by non repeteable ID's."@en ;
     dct:title "Universally Unique Identifiers RFC 9562"@en ;
@@ -4986,6 +4998,7 @@ cssvrsc:92ebc757bde281e7120ecbc142055e8ebb6e0d29e0de746366cbe36e97fd2f86 a cssv:
 cssvrsc:9304a7f7222ff5780ee07f1af30e1a2aa57d84746fd3d6062dea700caa7e080b a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "RFC 3339"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 3339 specification addresses many of the problems encountered and makes recommendations to improve consistency and interoperability when representing and using date and time in Internet protocols. There are many ways in which date and time values can appear in Internet protocols, and this document focuses on just one common usage."@en ;
     dct:title "Date and Time on the Internet: Timestamps (RFC 3339)"@en ;
@@ -4994,8 +5007,8 @@ cssvrsc:9304a7f7222ff5780ee07f1af30e1a2aa57d84746fd3d6062dea700caa7e080b a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:939f584779f9906a9f033ee778b30639a08bbbbdfa5b1f518086b9324c16136f a cssv:Specification ;
-    cssv:acronym "X.1751"@en ;
-    cssv:alternative ""@en ;
+    cssv:acronym ""@en ;
+    cssv:alternative "ITU-T X.1751"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T X.1751 provides security guidelines for managing telecommunication big data services, emphasising the importance of lifecycle protection and subscriber consent. It outlines vulnerabilities and recommends safeguards throughout the data handling process, while noting that detailed protection mechanisms for specific data categories fall outside its scope."@en ;
     dct:title "ITU-T X.1751: Security guidelines on big data lifecycle management for telecom operators"@en ;
@@ -5006,6 +5019,7 @@ cssvrsc:939f584779f9906a9f033ee778b30639a08bbbbdfa5b1f518086b9324c16136f a cssv:
 cssvrsc:94120719cde2555408f1875b809aa1dd6c3b1762b9390648a9fa5b7cb62e0a5c a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "TSP"@en ;
+    cssv:alternative "RFC 3161"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "This specification describes the format of a request sent to a Time Stamping Authority (TSA) and of the response that is returned. It also establishes several security-relevant requirements for TSA operation, with regards to processing requests to generate responses. This format is widely used by e-timestamping services."@en ;
     dct:title "IETF Time Stamp Protocol RFC 3161"@en ;
@@ -5111,7 +5125,7 @@ cssvrsc:9663adc228c60c001b469c7d5cde6c4fa2496e59b27a0449b6363b0231018e48 a cssv:
 
 cssvrsc:968231b55cea91536c04cae69ff5043d55333be417f9bba5e121a9a8be49c581 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T Y.3600"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T Y.3600 sets out the requirements, capabilities and use cases for big data based on cloud computing, as well as its system context."@en ;
     dct:title "Y3600 Big data - Cloud computing based requirements and capabilities"@en ;
@@ -5207,6 +5221,7 @@ cssvrsc:985d914a-4c6a-4bdf-80a0-ea3aaf7ff03a a owl:NamedIndividual,
 cssvrsc:98c3d13b18280a476e72ae2316b6df1036f7ef0791b2c975f3b867b39a034821 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "BFO"@en ;
+    cssv:alternative "ISO/IEC 21838-2:2021"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The Basic Formal Ontology (BFO) is a higher-level ontology that was designed to support the retrieval, analysis and integration of information in scientific and other domains."@en ;
     dct:title "ISO/IEC 21838-2:2021 Information technology — Top-level ontologies (TLO) — Part 2: Basic Formal Ontology (BFO)"@en ;
@@ -5230,6 +5245,7 @@ cssvrsc:994f4d6dcdb52b7920dcd9cb7783edda9bc52f3e470389cabf6f28ebd41dc9b0 a cssv:
         cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "TIFF/IT"@en ;
+    cssv:alternative "ISO 12639:2004"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO 12639:2004 specifies a media-independent means for prepress electronic data exchange using a tag image file format (TIFF). It defines image file formats for encoding color continuous-tone picture images (CT), color line-art images (LW), high-resolution continuous-tone images (HC), monochrome continuous-tone picture images (MP), binary picture images (BP), binary line-art images (BL), screened data (SD), and images of composite final pages (FP)."@en ;
     dct:title "Tag image file format for image technology (TIFF/IT)"@en ;
@@ -5240,6 +5256,7 @@ cssvrsc:994f4d6dcdb52b7920dcd9cb7783edda9bc52f3e470389cabf6f28ebd41dc9b0 a cssv:
 cssvrsc:99e59a3cac7e8d0300e4f19f439afce1f1a1aa6558a6ce046cd2656dc04e85be a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "IPv6"@en ;
+    cssv:alternative "RFC 2460"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "Internet Protocol version 6 is the most recent version of the Internet Protocol, the communications protocol that provides an identification and location system for computers on networks and routes traffic across the Internet."@en ;
     dct:title "Internet Protocol version 6 (IPv6) (RFC 2460)"@en ;
@@ -5260,7 +5277,7 @@ cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 a cssv:
 
 cssvrsc:9a0d93a6a4a55176ed1f09f191b3ca8f3a0c534f7930248a7115c6d469826136 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ETSI TS 103 532 CYBER"@en ;
+    cssv:alternative "ETSI TS 103 532 CYBER"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TS 103 532 focuses on Attribute-Based Encryption to control access to data, aiming to provide user identity protection whilst preventing disclosure of data to an unauthorized entity."@en ;
     dct:title "ETSI TS 103 532 CYBER; Attribute Based Encryption for Attribute Based Access Control"@en ;
@@ -5280,7 +5297,7 @@ cssvrsc:9a622444bb31aa338b55d19a58d9c7b4dc25147126ddf27e983449f105d88193 a cssv:
 
 cssvrsc:9ade3964acf524fddcff802c14d16a93362acaab5aace4867be8856f48c0c30f a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T X.1212"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T X.1212 specification describes design consideration for improved end-user perception of trustworthiness indicators. Moreover, the specification also describes representative techniques for measuring end user perception of such indicators."@en ;
     dct:title "X.1212 : Design considerations for improved end-user perception of trustworthiness indicators"@en ;
@@ -5292,6 +5309,7 @@ cssvrsc:9ade3964acf524fddcff802c14d16a93362acaab5aace4867be8856f48c0c30f a cssv:
 cssvrsc:9affd5b469c2a5951a9fb61fcfaa48b6a899e130a8af1e9f633fc23ee52ab3a3 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "FQSCS"@en ;
+    cssv:alternative "ETSI TR 103 619 CYBER"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description """The present document identifies a framework of actions that should be taken by an organization to enable migration to a 
 Fully Quantum Safe Cryptographic State (FQSCS). The migration framework, and the migration plan that documents it, 
@@ -5310,6 +5328,7 @@ ETSI GR QSC 004 [i.1] and in ETSI EG 203 310 [i.2]."""@en ;
 cssvrsc:9b206520e4464d6dc045c00e0308618ae25b71e0bf8e9e2f519bf66fcb321b74 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "RFC 8299"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "YANG Data Model for L3VPN Service Delivery provides an abstracted representation of the Layer 3 IP VPN service configuration components. The YANG data model can be used to enable communication between customers and network operators as well as to deliver a Layer 3 provider-provisioned VPN service. The specification documentation indicates that the YANG data model is limited to BGP PE-based VPNs."@en ;
     dct:title "YANG Data Model for L3VPN Service Delivery RFC 8299"@en ;
@@ -5349,7 +5368,7 @@ cssvrsc:9c2f765f7d194336045492bd806b3413413afac3d440bf4a043d4886ce4e75cf a cssv:
     dcat:version "2.2.0" .
 
 cssvrsc:9c9547a44019de35fc19caada88d4eb61b4e015547e8fdb858b5ea7b033b1184 a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "Xquery"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The XQuery specification is designed to search for information and manage data from various XML sources. By using queries, it allows users to search for different attributes across multiple resources and store the results, thereby facilitating the organisation and management of data."@en ;
@@ -5378,7 +5397,7 @@ cssvrsc:9d0f39c61d26720ef52833ad89a6bf09d7bd7148dac6eb1306edf7516b68b395 a cssv:
     dcat:version "0.0.2" .
 
 cssvrsc:9d677b70169824b046a4a82616729da6bbd4321ea14a7f825e3e16f23697b1f1 a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "DSSC Blueprint"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:58b7adb6cb104ce15756c8e7a40e9d3dd08e127a73747177cc5697b398510739 ;
     dct:description "The DSSC Blueprint is a strategic document that provides a roadmap for establishing and operating the support structures necessary for the successful deployment and utilisation of common European data spaces. It aims to ensure that these data spaces are well-governed, technically sound, legally compliant, and ultimately deliver value to their participants and the wider European economy and society."@en ;
@@ -5424,6 +5443,7 @@ cssvrsc:9f20060720cf509194734e94953c33a87e28b82bebad2ea64ba192e1ade4e4bf a cssv:
 
 cssvrsc:9f33e6fe5d13ddc426e44b02c777119f89ff87d41397ce2f135a0c3c71724fb6 a cssv:Specification,
         owl:NamedIndividual ;
+        cssv:alternative "RFC 7807"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Problem Details for HTTP APIs (RFC 7808) specification provides a standardised way to convey error details in HTTP responses by defining simple JSON and XML document formats and a HTTP field to describe the specifics of problem(s) encountered."@en ;
     dct:title "Problem Details for HTTP APIs (RFC 7807)"@en ;
@@ -5455,7 +5475,7 @@ cssvrsc:a1069cd1458550e59b2d65e8783110b20421abc5ee0c011fd0e71c8dbe699940 a cssv:
 
 cssvrsc:a123e1ca64f1e2eb54ed4c0c173aa9fc79ce836c50e9c01fe6c9ac9f01798631 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ETSI TS 119 461"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 119 461 provides policy and security requirements for trust service components that deliver proof of identity of the subjects of trust services, in particular when issuing qualified certificates as defined in Regulation (EU) No 910/2014 (the eIDAS Regulation). The specification provides requirements for a basic level of proof of identity (basic LoIP) to support proof of identity for other ETSI trusted services standards, such as ETSI TS 119 431-1 and ETSI EN 319 521."@en ;
     dct:title "Electronic Signatures and Infrastructures (ESI); Policy and security requirements for trust service components providing identity proofing of trust service subjects"@en ;
@@ -5466,7 +5486,7 @@ cssvrsc:a123e1ca64f1e2eb54ed4c0c173aa9fc79ce836c50e9c01fe6c9ac9f01798631 a cssv:
 
 cssvrsc:a142711ed8708c76f722d2e0a6558277f6d82e5f1fe23a9931276e65d8ea5c16 a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ETSI TR 104 074"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TR 104 074 specification provides methodologies for the testing and validation of services based on network applications over 5G networks. Its objective is to establish consistent approaches to evaluate the performance and interoperability of these services in complex network environments. In this sense, the specification addresses key aspects such as the definition of test cases, the selection of relevant metrics, and the implementation of automation tools to facilitate the validation process."@en ;
     dct:title "Core Network and Interoperability Testing (INT); Methodologies for Testing & Validation of  Network Application based services over 5G networks (ETSI TR 104 074)"@en ;
@@ -5475,7 +5495,7 @@ cssvrsc:a142711ed8708c76f722d2e0a6558277f6d82e5f1fe23a9931276e65d8ea5c16 a cssv:
 
 cssvrsc:a2bc39e065a06e4b71b65ef56f88a1d7b903dfa8c881996cabd0fffddab2658c a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "" ;
+    cssv:alternative "RFC 3126"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 3126 specification primary objective is to define a standardised format for electronic signatures that ensures their validity over extended periods, addressing concerns such as cryptographic algorithm obsolescence and potential key compromises."@en ;
     dct:title "Electronic Signature Formats for long term electronic signatures (RFC 3126)"@en ;
@@ -5553,7 +5573,7 @@ cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8 a cssv:
 
 cssvrsc:a5ff6314281d29f9cefdd12f752e2aaa42613c156bc4bfcf9a1d36cdccab358b a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "" ;
+    cssv:alternative "ETSI TS 133 501"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 133 501 specification outlines the security architecture and procedures for the 5G System. It provides detailed guidelines on how to secure various aspects of the 5G network, including the 5G Core Network (5GC), User Equipment (UE), and the Radio Access Network (RAN)."@en ;
     dct:title "5G; Security architecture and procedures for 5G System (3GPP TS 33.501 version 18.9.0 Release 18) (ETSI TS 133 501)"@en ;
@@ -5603,7 +5623,7 @@ cssvrsc:a694a2fe3ace4ad28f9f83083f91522f01e0986db50dc0d2440d9387c94eb218 a cssv:
 
 cssvrsc:a6cacf6e7ebe28177247263b39490df951e74a725a9140bd547efaeb5298a41f a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T X.1451"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description """Recommendation ITU-T X.1451 specifies a risk identification function in an information and communication technology (ICT) service system as a pre-processor before the authentication function is invoked. It enables the ICT service system to optimize user authentication based on identified risks.
 
@@ -5617,7 +5637,7 @@ For ICT systems, user authentication is a critical security function. Various au
 
 cssvrsc:a728f4b9f9cfe9ccba5eb35856ee9380642ffc028ed978ff30434502a2bea2ec a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T X.1603"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T X.1603 is a technical standard  that provides guidelines and specifications for ensuring the security of data in cloud monitoring services. It outlines a set of requirements aimed at protecting data confidentiality, integrity, availability, accountability, non-repudiation, and privacy."@en ;
     dct:title "ITU-T X.1603 Data security requirements for the monitoring service of cloud computing"@en ;
@@ -5673,7 +5693,7 @@ cssvrsc:a8a3b7c669eb2bbcd0f9771431fb1aa7ec28ec91ee195254785a29598b9809f6 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:a8a5e1741adf3ad56993183b5026b17b7727383c21c521ec34f005fbb32e99f9 a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "VoID"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Vocabulary of Interlinked Datasets (VoID) is concerned with metadata about RDF datasets. It is an RDF Schema vocabulary that provides terms and patterns for describing RDF datasets, and is intended as a bridge between the publishers and users of RDF data. VoiD descriptions can be used in many situations, ranging from data discovery to cataloging and archiving of datasets, but most importantly it helps users find the right data for their tasks."@en ;
@@ -5704,7 +5724,7 @@ cssvrsc:a94d23742b392f13a0edd4e0f436f2d1ab9c2dff8d96b3988e7d0e8830001939 a cssv:
 
 cssvrsc:a97195c49e5723ede52f258134224ebcfd108952fc33013847b83222259f1dff a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T Q.4040"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "Recommendation ITU-T Q.4040 describes the framework and provides an overview of cloud computing interoperability testing. According to the identified target areas of testing, this framework Recommendation includes an overview of cloud computing interoperability testing"@en ;
     dct:title "Q.4040 : The framework and overview of cloud computing interoperability testing"@en ;
@@ -5726,6 +5746,7 @@ cssvrsc:a9a72ec53b66703c58773e54a9181cafbeb54496d2de2c5852fae8845fc631e2 a cssv:
 cssvrsc:a9bcf5bca953614a3acf4db7879af4bfd3cb49c77602e4862ccd9110fa94604e a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "CCRA"@en ;
+    cssv:alternative "ISO/IEC 17789:2014"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The Cloud Computing Reference Architecture (CCRA, also known as ISO/IEC 17789:2014) describes the impact of devices on cloud service ecosystems and the impact of cloud services on devices. The specification includes the roles, processes and functional components of cloud computing and their relationships."@en ;
     dct:title "ISO/IEC 17789:2014 Information technology — Cloud computing — Reference architecture"@en ;
@@ -5755,7 +5776,7 @@ cssvrsc:ab04c13ab096d25f51455719374727d7dbe3b13d8e894f2280c3398c615252bb a cssv:
     dcat:version "1.1.0" .
 
 cssvrsc:ab2608294d81094994cfbd297e503e4d095777ecc299119c43bb57a64ca13478 a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "DPV"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Data Privacy Vocabulary (DPV) 2.1.0 specification provides an ontology (classes and properties) along with taxonomies that represent real-world uses of these concepts for representing information regarding how (personal) data and technologies (including AI). Moreover, the DPV 2.1 version is the continued expansion of DPV 2.0's broadened scope regarding data and (AI) technologies and includes new draft extensions for jurisdictions, laws, and sectors."@en ;
@@ -5809,7 +5830,7 @@ cssvrsc:ad1cca0e091b0bdb242cebf1eacc16b37d0464e24823c0189551ea832af133f1 a cssv:
 
 cssvrsc:ad20dcd688066edeef815926f8bf2df7508a5798fcee9144447a67c7dffb419e a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T Y.4473"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "SensorThings API – Sensing specifies a SensorThings application programming interface (API) which provides an open, standards-based, geospatially-enabled framework for interconnecting devices, data and applications via the web devices, data and applications over the web."@en ;
     dct:title "ITU-T Y.4473 SensorThings API – Sensing"@en ;
@@ -5871,6 +5892,7 @@ cssvrsc:aebabad39063fe48d7b4b36e7a0d8d0b718188b178b0b6509c64a4d67dd43216 a cssv:
 cssvrsc:af155131fd898adbbf4b0c635ba4180412afad567cbc26a6773dc227c24462cf a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "COM 2005 596"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Non-binding legal instrument in format of Commission Communication providing a set of principles for the framework of multilingualism."@en ;
     dct:title "COM 2005 596 Framework strategy for multilingualism"@en ;
@@ -5967,7 +5989,7 @@ cssvrsc:b26387fc43b0be82f50b4dafb39c6371b8eb5efc4ecb6a477c1bbdc4603b61ef a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:b3dfe12c5254a67f393044105641b4ead09feced4c7fdf3e581862cdf7f46959 a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "SDF"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Semantic Definition Format (SDF) specification is designed for domain specialists to develop and manage data and interaction models within the Internet of Things. It was established as a common language to support the creation of definitions by the One Data Model liaison group (OneDM). Various tools translate this format into database schemas and other serialisations as required. Additionally, it defines SDF Objects along with their related interactions, such as events, actions, and properties, and specifies the data types used for information exchanged during these interactions."@en ;
@@ -6019,7 +6041,7 @@ cssvrsc:b4d1ac2bb48dd8d002c7f17e88269727d1089e74203cb1f9c0fed4e4233f6339 a cssv:
 
 cssvrsc:b4dda76c7df7c707c7d559f874ffe0ad09ae7829bae3400f5d7b58ff42b87685 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "IEEE P2145"@en ;
     cssv:isMaintainedBy cssvrsc:3c1250b675a3e22cc3555ea1c94489048376f76e7af7ac7c649ad868cbdb5259 ;
     dct:description "The IEEE P2145 specification addresses the development of standards for blockchain-based systems. IEEE P2145 aims to provide guidance for the structure and implementation of blockchain technology, focusing on aspects such as data integrity, security, and interoperability across systems."@en ;
     dct:title "IEEE P2145, Standard for Framework and Definitions for Blockchain Governance"@en ;
@@ -6112,7 +6134,7 @@ cssvrsc:b6cebbc41debaadae1c0a1c96ee23487e48a71675e685d1786bfb1f487fe7fe7 a cssv:
 
 cssvrsc:b6d755f5ee5a991a75f6c47319758b13c522fa6351cf4b9bfb9bfa602aa9d3c9 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 22989:2022"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 22989 provides standardized concepts and terminology to help AI technology to be used by a broader set of stakeholders, be used in the development of other standards and fosters AI capabilities."@en ;
     dct:title "Information technology — Artificial intelligence — Artificial intelligence concepts and terminology (ISO/IEC 22989:2022)"@en ;
@@ -6370,7 +6392,7 @@ cssvrsc:bdc164601a242e622f760dc57380d79de3eb83817a4c102ffc2394ead9f2d9d2 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:be2083d3dd272001ac9759c4b6f4e7fc3883f7c879b793ebd7d5a7fbbb51458c a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "ABAC"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:2b6de1326e1fa61562752256c54150944ec28a04926ea0f96f178888f112b0af ;
     dct:description "Attribute-based access control (ABAC) is a specification designed to enforce the security and privacy of data or information. ABAC establishes an authorisation model that utilises the characteristics and attributes of users to determine access."@en ;
@@ -6423,8 +6445,8 @@ cssvrsc:bf8ca84480718ba54b04d5422b10b92de74207b731b086b36ef5810bd414fbbb a cssv:
     dcat:version "2.8.1" .
 
 cssvrsc:bf9c7fcbc267a909106b6822be6217946011995f281d7e3278761e3a7437fb32 a cssv:Specification ;
-    cssv:acronym "Y.4461"@en ;
-    cssv:alternative "Y.SC-OpenData"@en ;
+    cssv:acronym ""@en ;
+    cssv:alternative "ITU-T Y.4461"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T Y.4461 defines a framework of open data in smart cities, in orther to promote the sharing of data between different entities in a smart city, taking advantage of the potentialities of data in smart city to build a better and smarter cities."@en ;
     dct:title "ITU-T Y.4461: Framework of open data in smart cities"@en ;
@@ -6434,7 +6456,7 @@ cssvrsc:bf9c7fcbc267a909106b6822be6217946011995f281d7e3278761e3a7437fb32 a cssv:
 
 cssvrsc:bfae866356552984c68139c12d76abefd25832f19eb1b0f78d773a88bc3bf3d4 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ETSI TS 103 458 CYBER"@en ;
+    cssv:alternative "ETSI TS 103 458 CYBER"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TS 103 458 CYBER specifies high level requirements for the application of Attribute Based Encryption (ABE) to protect PII and personal data on IoT devices/services, cloud services, Wireless Local Area Networks and mobile services, where access to data has to be given to multiple parties and under different conditions. With a main focus on the confidentiality of data, including personal data and Personally Identifiable Information, the present document may help in supporting the General Data Protection Regulation [i.19]."@en ;
     dct:title "ETSI TS 103 458 CYBER; Application of Attribute Based Encryption (ABE) for PII and personal data protection on IoT devices, WLAN, cloud and mobile services - High level requirements"@en ;
@@ -6456,7 +6478,7 @@ cssvrsc:c0a52bf67a7da7ebb8133deff4b25b0cfc9c5f76a40ccf0e4cbf8b58f75e44fc a cssv:
 
 cssvrsc:c0bbc2e902b4663083c7d3da10f027470d64172cd975b36c808bb72ad9144c1a a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC/IEEE 15289:2019"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC/IEEE 15289:2019 ensures a comprehensive and high-quality documentation throughout the life cycle of systems and software."@en ;
     dct:title "ISO/IEC/IEEE 15289:2019 Systems and software engineering — Content of life-cycle information items"@en ;
@@ -6487,7 +6509,7 @@ cssvrsc:c0e30aa2cfbfa6220770e859721947eb65bfd1f30c280053ea14861a66a06824 a cssv:
 
 cssvrsc:c129658aea490fe9b0870e4535bea9265eb6f45c1ed2cdbb2061e2fa0278b5fb a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T Q.5001"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description """A large volume of data have been generated from the use of various types of smart things. The related smart services have been working based on cloud systems. However, various issues has occurred as a result of the network bottleneck between terminals and a cloud system (e.g., data loss, network delay, etc.). An edge computing technology between the user equipment and a cloud server system is envisaged to solve these problems. In addition, applying the intelligent data processing functions by providing artificial intelligence (AI) technologies will provide enhanced networking capabilities for new emerging services and applications.
 Regarding these emerging environments, Recommendation ITU-T Q.5001 defines the intelligent edge computing (IEC). It is applicable to collect, store, and process data reliably in the intelligent edge computing, especially to support mission critical services. Thus, the main functionality of intelligent edge computing is collecting, processing, analysing the data and providing the values based on intelligent data processing."""@en ;
@@ -6508,8 +6530,8 @@ cssvrsc:c1a11c5fe4dea90d0294bcb16297d051b941586d9caae264eb553e91329989d5 a cssv:
     dcat:version "1.12.1" .
 
 cssvrsc:c1a595059fd2e8cd3273c2cb507d2a3625ba693b3c71b3e5f4cd55c0f338d6db a cssv:Specification ;
-    cssv:acronym "X.1147"@en ;
-    cssv:alternative ""@en ;
+    cssv:acronym ""@en ;
+    cssv:alternative "ITU-T X.1147"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T X.1147 provides a security framework and requirements for big data analytics in  mobile Internet services. The intent of this specification is to study the challenges brought forward by big data analytics, and the specific security requirements for mobile Internet services as  well as the security framework."@en ;
     dct:title "ITU-T X.1147: Security requirements and framework for big data analytics in mobile internet services"@en ;
@@ -6562,7 +6584,7 @@ cssvrsc:c2763403c7bb0d8a33dcf2ff6395747d6597322c9ed74fc9a72d2369dd4b0bcc a cssv:
 cssvrsc:c2835b4bd225a222097f1a15b749419e91025408327b8b4acabeaa458f4e9f26 a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO 17100:2015"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO 17100:2015 provides requirements for the core processes, resources, and other aspects necessary for the delivery of a quality translation service that meets applicable specifications."@en ;
     dct:title "ISO 17100:2015 - Translation services -- Requirements for translation services ISO"@en ;
@@ -6582,7 +6604,7 @@ cssvrsc:c2fa543b4c27894a0ee2d3c2f7d72bc36936887a945571cbc8b3760e4d3a2f2f a cssv:
 
 cssvrsc:c33014ab175e922c80ba41d897de15edd980f31ee15084e0a9b7f21bc4f7672a a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 24760-1:2019"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "This document defines terms for identity management, and specifies core concepts of identity and identity management and their relationships."@en ;
     dct:title "ISO/IEC 24760-1:2019 IT Security and Privacy — A framework for identity management Part 1: Terminology and concepts"@en ;
