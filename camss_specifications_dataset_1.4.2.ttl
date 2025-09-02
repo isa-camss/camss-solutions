@@ -6686,7 +6686,7 @@ cssvrsc:c551b85a2395a81fea9457201555221e5d3ff9d3ef25cce49e44d104842f484c a cssv:
 
 cssvrsc:c557ab03e2068ecea18323e556c320c5381ae87c79bb3c1f59e565a417517c84 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC TR 22678"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description """TR 22678 provides guidance on the use of international standards as a tool in the development of those policies that govern or regulate cloud service providers (CSPs) and cloud services, and those policies and practices that govern the use of cloud services in organisations.
 
@@ -6714,7 +6714,7 @@ cssvrsc:c56a28b353fd6559ec7b73883b59bb02a1f75ff40542c601f9479dcb5a086753 a cssv:
 
 cssvrsc:c57f837ecdcd338b1a4c889b1c7034ff3bbeec47d45277e50f8e98659cda9557 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 38505-3"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "This Specification complements the existing International Standards on IT governance (ISO/IEC 38500) and data governance (ISO/IEC 38505-1). It is designed to provide practical guidance for organizations including governing bodies and management to allow them to maintain an oversight of their data portfolio."@en ;
     dct:title "ISO/IEC 38505-3: Information technology - Governance of Data - Part3: Guidelines for Data Classification"@en ;
@@ -6724,7 +6724,7 @@ cssvrsc:c57f837ecdcd338b1a4c889b1c7034ff3bbeec47d45277e50f8e98659cda9557 a cssv:
 
 cssvrsc:c5df220e521f34ea71e56e1b834cbf20bdf43d12d00c3c0350aa90ceb2ac815d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T Y.4122"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description """The Y.4122 gateway is an important component of Internet of things (IoT) systems, enabling IoT devices to connect to communication networks. Edge computing technologies can benefit the IoT, providing computation, storage, networking and intelligence in proximity to IoT devices.
 Compared with the common gateway [ITU-T Y.4101], the edge-computing-enabled gateway in the IoT (EC-enabled IoT gateway) has additional capabilities supporting service layer interworking, and application layer interworking between IoT devices, IoT platforms and IoT application servers. In addition, the EC-enabled IoT gateway supports data transmission capabilities for IoT applications sensitive to time, latency, jitter and packet loss.
@@ -6767,7 +6767,7 @@ cssvrsc:c7044e666c4df232aa32e6348ed132eac78961c2a83c493e7972b3a69043c7bb a cssv:
 
 cssvrsc:c747bcc29e933f77261b08b02977440192e05ad0555c99d25127943c0c310a4d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Vienna Agreement"@en ;
     cssv:isMaintainedBy cssvrsc:3fa4f14bdd83e1d0ea9fcdfe81a9ad8a7b7dd37042e5f520425016263046ba9a ;
     dct:description "The specification is an example of technical agreements for cooperation in the development of ICT standards."@en ;
     dct:title "AGREEMENT ON TECHNICAL CO-OPERATION BETWEEN ISO AND CEN (Vienna Agreement)"@en ;
@@ -6778,7 +6778,7 @@ cssvrsc:c747bcc29e933f77261b08b02977440192e05ad0555c99d25127943c0c310a4d a cssv:
 
 cssvrsc:c76dceb677542b090be5f87c1264baec772ca4ac4b9ac791449c0ccde7f15942 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC/IEEE 24748-1:2024"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC/IEEE 24748-1:2024 provides comprehensive guidelines for life cycle management applicable to systems and software engineering. This standard addresses the entire life cycle, from conception through retirement, ensuring effective management and engineering of systems and software."@en ;
     dct:title "ISO/IEC/IEEE 24748-1:2024 Systems and software engineering — Life cycle management Part 1: Guidelines for life cycle management"@en ;
@@ -6820,7 +6820,7 @@ cssvrsc:c8d906d833e0e6c3765637dbcde0c3a68c71e0ee4ab2191155b18b22604bc928 a cssv:
     dcat:version "5.0.1" .
 
 cssvrsc:c8f6d4359155509e8dd18712928cbc8a1a4c21df24ff200bd8a7cd4befc46508 a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "ODPS"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:0c8f39b11936f6d48ad86897e2d3ecd9e62271931ed4c4c3ee7c97970dc7678a ;
     dct:description "ODPS is a vendor-neutral, open-source machine-readable data product metadata model. The specification defines the objects and it's attributes as well as the structure of digital data products."@en ;
@@ -6884,7 +6884,7 @@ cssvrsc:cbce0e84ee4555701de3c0aa98dd30ffcfd20060d9e938068ae9906beefac8db a cssv:
 
 cssvrsc:cc1eeeee1f8950f1d0c4661615f7f3fc06d85b9f57930d2f780839bd89a8c177 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "RFC 2119"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 2119 specification is addressed to explain the mainig of certain words in RFC documents. In many IETF documents, several words, when they are in all capitals, are used to signify the requirements in the specification.  This specification defines how those words should be interpreted."@en ;
     dct:title "Key words for use in RFCs to Indicate Requirement Levels (RFC 2119)"@en ;
@@ -6956,7 +6956,7 @@ cssvrsc:d0057dad767bfb598b13c7a68692ce2696304af2840d8c2b4e344321f9a2fe06 a cssv:
 
 cssvrsc:d0c2a9ada3fa1a1d4252743338c7cf9e547ffee3b379197a8af4f35ce821ceae a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ETSI TS 103 845"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 845 specification describes the communication requirements for Digital Twins (DTs) in SmartM2M environments, focusing on their interaction with physical counterparts and the digital world. It addresses the requirements for Digital Twin Description (DTD) and discoverability, which are essential for building connected and adaptable DT ecosystems."@en ;
     dct:title "SmartM2M; Digital Twins Communication Requirements (ETSI TS 103 845)"@en ;
@@ -6978,7 +6978,7 @@ cssvrsc:d0d74f80cb1c08bff33c480fe37f8209a802479bc9ac5c785fb47a9d3703ba8d a cssv:
 
 cssvrsc:d0d8ea27bcb34163af6c5bbdf120557e0a2edd1b38e85e52f06256729faf38c7 a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ETSI TS 103 864"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 864 specification is addressed to guarantee the security of the relevant data for the sensor hub (data storage), ensure the safe and proper handling of data within the sensor hub (data processing), and determine which data can be transferred from the sensor hub to the device applications, ensuring such transfer at the sensor hub interface."@en ;
     dct:title "Cyber Security; Security Threats and related Requirements  for Consumer Sensor Hubs (ETSI TS 103 864)"@en ;
@@ -7029,7 +7029,7 @@ cssvrsc:d1a55eb511887f571a8633ee6951ac78e3f386ccbfca7a8a6a8a628ed9c2ff30 a cssv:
 
 cssvrsc:d1f22a4ad692fc2a447701c9739687d4d3e15b09992ce743de8ed5ea843f7db9 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 20546:2019"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The ISO/IEC 20546:2019 is a standard that provides guidelines on big data. It provides a conceptual overview of the field of big data, its relationship to other technical areas and standards efforts, and the concepts ascribed to big data that are not new to big data."@en ;
     dct:title "Information technology — Big data — Overview and vocabulary (ISO/IEC 20546:2019)"@en ;
@@ -7051,7 +7051,7 @@ cssvrsc:d22a7f4993386b2cbdf6d21bc369c92bbdf5c5df6ce46fa89574c0a633e2b469 a cssv:
 
 cssvrsc:d2316abfe2cbdee7c2aa70e9c6feaa6e2db2970a8eddb366ad5f38d52267b4e6 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ISO/IEC 15408-1:2022"@en ;
+    cssv:alternative "ISO/IEC 15408-1:2022"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description """This document establishes the general concepts and principles of IT security evaluation and specifies the general model of evaluation given by various parts of the standard which in its entirety is meant to be used as the basis for evaluation of security properties of IT products.
 
@@ -7074,6 +7074,7 @@ cssvrsc:d2bd77c7a28e64616e1e5c9de657c2b1cdfa7e79812b0912e21ae190032e9537 a cssv:
 cssvrsc:d2fa3f71840bb564167463d74a514aaf9e4197574b587cbb8dabbe19b6a2baac a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
+    cssv:acronym "MASVS"@en ;
     cssv:isMaintainedBy cssvrsc:066061cc911cfe74212b3a19be2d88a4ae4df172ed4ad83cb19796f52cebdc24 ;
     dct:description "The MASVS standard provides a clear and concise set of guidelines and best practices for assessing and enhancing the security of mobile applications. I addition, MASVS is designed to be used as a metric, guidance, and baseline for mobile app security verification, serving as a valuable resource for developers, application owners, and security professionals."@en ;
     dct:title "Mobile Application Security Verification Standard (MASVS)"@en ;
@@ -7082,7 +7083,7 @@ cssvrsc:d2fa3f71840bb564167463d74a514aaf9e4197574b587cbb8dabbe19b6a2baac a cssv:
 
 cssvrsc:d32b727e5f5eb3561627ce5925d495a1cc2bea0b80af2c077adbc06761cc7021 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC TR 15944-6:2015"@en ;
     cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
     dct:description "This part of ISO/IEC 15944 addresses the basics of business transactions and e-business modelling principles, according to Open-edi scenarios and their components."@en ;
     dct:title "ISO/IEC TR 15944-6:2015 Information technology — Business operational view — Part 6: Technical introduction to e-Business modelling"@en ;
@@ -7094,7 +7095,7 @@ cssvrsc:d32b727e5f5eb3561627ce5925d495a1cc2bea0b80af2c077adbc06761cc7021 a cssv:
 cssvrsc:d3c763a62cbb890447c67932b34050ae382276be164fd6f8b22480941ca0cb21 a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 20000-1:2018"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "This document specifies requirements for an organization to establish, implement, maintain and continually improve a service management system (SMS). The requirements specified in this document include the planning, design, transition, delivery and improvement of services to meet the service requirements and deliver value. ISO/IEC 20000-1:2011 (previous version, 2.0.0) is for free access."@en ;
     dct:title "ISO/IEC 20000-1:2018 Information technology — Service management — Part 1: Service management system requirements"@en ;
@@ -7125,7 +7126,7 @@ cssvrsc:d40c94d2a47d7b6edf72ca863ce121d213fd17e49d557bbc435024a48a38b2c6 a cssv:
 
 cssvrsc:d45d9386f74658bb6afe088ebc2926228d5729be6e46dc9402269cc6ddf705f8 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 19941:2017"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 19941:2017 aims to enable cloud service customers to move their data or applications between non-cloud services and one or more cloud services, or between cloud services, as well as to facilitate the integration of different cloud service components."@en ;
     dct:title "ISO/IEC 19941:2017 Information technology — Cloud computing — Interoperability and portability"@en ;
@@ -7137,6 +7138,7 @@ cssvrsc:d45d9386f74658bb6afe088ebc2926228d5729be6e46dc9402269cc6ddf705f8 a cssv:
 cssvrsc:d4e941075bdab8f5195d438fa2defe892522db4b90f577d44471f9648f120cb1 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "L2VPNs"@en ;
+    cssv:alternative "RFC 4664"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The Framework for Layer 2 Virtual Private Networks (L2VPNs, also known as Layer 2 VPNs, Layer-2 VPNs) proposes a reference model for provider-provisioned L2VPNs and their functional components. The specification is intended to help standardise protocols and mechanisms to support interoperable L2VPNs."@en ;
     dct:title "Framework for Layer 2 Virtual Private Networks (L2VPNs) RFC 4664"@en ;
@@ -7156,6 +7158,7 @@ cssvrsc:d501609df79752738a4bcfa47918a604cbcd5be2d5768f91db6328e26b108376 a cssv:
 
 cssvrsc:d50c217890ba0c807f0af68830798ebaf638a0be2f14418c4090e51dcd70f30e a cssv:Specification,
         owl:NamedIndividual ;
+        cssv:alternative "RFC 6838"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The IANA Media Types specification (also known as a Multipurpose Internet Mail Extensions or MIME type) indicates the nature and format of a document, file, or assortment of bytes."@en ;
     dct:title "IANA Media Types (RFC 6838, MIME  types)"@en ;
@@ -7209,6 +7212,7 @@ cssvrsc:d7dffc53ea55b3fab31ed77bd491c7d5cc9872e0749e9c05e4c29b06a834d3cf a cssv:
         cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "PAdES"@en ;
+    cssv:alternative "ISO 14533-3:2017"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO 14533-3:2017 specifies the elements, among those defined in PDF Advanced Electronic Signatures (PAdES), that enable verification of a digital signature over a long period of time."@en ;
     dct:title "PDF Advanced Electronic Signatures (PAdES) - ISO 14533-3:2017"@en ;
@@ -7240,6 +7244,7 @@ cssvrsc:d841729107af0386e501554a6e07fd118ccd53aec9677ca22a2f9b2e0ca8919b a cssv:
 cssvrsc:d9517548f6321a8f42cbf5fb006785c869a7ef8679575616369c2af53f33b846 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "ASiC"@en ;
+    cssv:alternative "ETSI EN 319 162-1"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI EN 319 162-1 defines baseline containers that provide the basic features required for a wide range of business and government use cases for electronic communications and procedures in an interoperable context. The specification supports the following signature and time assertion formats: CAdES object incorporating CAdES signatures (ETSI EN 319 122-1 and ETSI EN 319 122-2); XAdES signatures (ETSI EN 319 132-1 and ETSI EN 319 132-2); IETF RFC 3161 time stamp tokens (updated by IETF RFC 5816); and IETF RFC 4998 or IETF RFC 6283 evidence records."@en ;
     dct:title "Electronic Signatures and Infrastructures (ESI); Associated Signature Containers (ASiC); Part 1: Building blocks and ASiC baseline containers (ETSI EN 319 162-1)"@en ;
@@ -7259,7 +7264,7 @@ cssvrsc:dadbe2f16b6b94144792da2bcafa169599103b95f126d1125b1f385177537882 a cssv:
 
 cssvrsc:dade18d348d93c2e0d190bc8fd5532162d3fcd40cad800051741e9c1bb6bbc42 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T X.1750"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T X.1750 specification analyses security challenges faced by big data as a service (BDaaS) and provides guidelines for big data service providers (BDSPs) to secure BDaaS. It identifies security roles and responsibilities of BDaaS components and specifies a security framework."@en ;
     dct:title "ITU-T X.1750 'Guidelines on security of big data as a service for Big Data Service Providers'"@en ;
@@ -7290,7 +7295,7 @@ cssvrsc:dbbcf731896ac255a462fd008c619158922f551be78e24342e93f2279abf94ed a cssv:
 
 cssvrsc:dbd0b032b3ec7eb0b043fa1dc3b5df5913b1388ffde57e8e3650b5b0f2f33eb1 a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ETSI TS 119 312"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 119 312 specification provides guidance on cryptographic suites for the creation and validation of digital signatures and electronic timestamps, as well as related certificates. Its main objective is to ensure interoperability and a high level of security in trust services. To achieve this, it is based on the cryptographic mechanisms agreed upon by SOG-IS agreement."@en ;
     dct:title "Electronic Signatures and Trust Infrastructures (ESI); Cryptographic Suites (ETSI TS 119 312)"@en ;
@@ -7301,6 +7306,7 @@ cssvrsc:dbd0b032b3ec7eb0b043fa1dc3b5df5913b1388ffde57e8e3650b5b0f2f33eb1 a cssv:
 cssvrsc:dc70a1946ca6f74179f6cb112277913e0efdcc46325e1d011364255a202ba9ac a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "LISS"@en ;
+    cssv:alternative "ISO/IEC TR 14369"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC TR 14369 provides guidance to those involved in developing IT service specifications and their interfaces intended for use in particular by external applications that do not necessarily share the environment and assumptions of a particular programming language."@en ;
     dct:title "ISO/IEC TR 14369:2018 Information technology — Programming languages, their environments and system software interfaces — Guidelines for the preparation of language-independent service specifications (LISS)"@en ;
@@ -7397,7 +7403,7 @@ cssvrsc:df996b8bedad61f94fda0784aa9207219bdb89fe8c4ea73e7fc0790583ae2d28 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:dfa58525250ce8c35f18952c91fdcc18a8ebe6ae967c834563157541b4dab46f a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "CCCEV"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The Core Criterion and Core Evidence Vocabulary (CCCEV) specification is designed to support the exchange of information between organisations or persons (more generally Agents) defining requirements and organisations or persons responding to these requirements by means of structured or unstructured evidences."@en ;
@@ -7430,7 +7436,7 @@ cssvrsc:e03c4c2f3ded1ac124c7cd394da7fd3572989019189f8a7de746205b5877981e a cssv:
 
 cssvrsc:e051c1f5d4763671fc14fadb9f1e10ca21d0c4239be3c33d5c17b573e9c4bedd a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Peppol BIS Billing"@en ;
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
     dct:description "The Peppol BIS Billing is a Core Invoice Usage Specification (CIUS) of EN 16931, providing a set of specifications for implementing a Peppol business process and guiding for post-award."@en ;
     dct:title "Post-Award BIS Specifications and Guidelines (Peppol BIS Billing)"@en ;
@@ -7442,7 +7448,7 @@ cssvrsc:e051c1f5d4763671fc14fadb9f1e10ca21d0c4239be3c33d5c17b573e9c4bedd a cssv:
 cssvrsc:e070cdaaaf2f8e66e562f7d3dfe35baafd7ddb7e118eb72b66ef5adfeccb1a71 a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO 19011:2018"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "This document provides guidance on auditing management systems, including the principles of auditing, managing an audit programme and conducting management system audits, as well as guidance on the evaluation of competence of individuals involved in the audit process. These activities include the individual(s) managing the audit programme, auditors and audit teams. It is applicable to all organizations that need to plan and conduct internal or external audits of management systems or manage an audit programme. The application of this document to other types of audits is possible, provided that special consideration is given to the specific competence needed."@en ;
     dct:title "ISO 19011:2018 Guidelines for auditing management systems"@en ;
@@ -7462,7 +7468,7 @@ cssvrsc:e140535a651dd589a52fc2404c4e53078c2daf735f2d5a3789ebbf5fc06beef8 a cssv:
 
 cssvrsc:e18e0ff3a765d703476a68b32ec9396d2e6be8b32243d911a5cb154e4bc201ec a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 27701:2019"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "This specification proposes requirements and provides guidance for establishing, implementing, maintaining and continually improving a Privacy Information Management System (PIMS) in the form of an extension to ISO/IEC 27001 and ISO/IEC 27002 for privacy management within the context of the organization."@en ;
     dct:title "Security techniques — Extension to ISO/IEC 27001 and ISO/IEC 27002 for privacy information management — Requirements and guidelines (ISO/IEC 27701:2019)"@en ;
@@ -7483,6 +7489,7 @@ cssvrsc:e1e184bf4ad4649a9581a3fcda65ce0134719adfa020f44cbd42aeb1b4cac359 a cssv:
 cssvrsc:e203b0f47ce01b3d1073b10a709acd5803ad73e67057666840c66fb6f2ae0b42 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "ASiC"@en ;
+    cssv:alternative "ETSI EN 319 162-2"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI EN 319 162-2 defines an additional specific use of ASiC (ETSI EN 319 162-1) and describes how containers that collect electronic documents, including formats such as OCF, ODF and UCF, can be used to associate digital signatures to any data object in the container."@en ;
     dct:title "Electronic Signatures and Infrastructures (ESI); Associated Signature Containers (ASiC); Part 2: Additional ASiC containers (ETSI EN 319 162-2)"@en ;
@@ -7629,7 +7636,7 @@ cssvrsc:e4940944a20f90dcd28ec5ccaa3bbd3cb74c15004568cc32968faeb0819a69a2 a cssv:
 
 cssvrsc:e4f09a7e4ed379becfbe33fde381b5219e83adb71b921bfb7a861e7d9f394ab5 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC/IEEE 15288:2023"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC/IEEE 15288:2023 establishes a common framework of process descriptions for describing the life cycle of systems created by humans, defining a set of processes and associated terminology from an engineering viewpoint."@en ;
     dct:title "ISO/IEC/IEEE 15288:2023 Systems and software engineering — System life cycle processes"@en ;
@@ -7638,8 +7645,8 @@ cssvrsc:e4f09a7e4ed379becfbe33fde381b5219e83adb71b921bfb7a861e7d9f394ab5 a cssv:
     dcat:version "2.0.0" .
 
 cssvrsc:e56c152b24acda08a37a0e99044a42e6eea9bde90c4b4629b6aa005d3c253d3d a cssv:Specification ;
-    cssv:acronym "Y.3500"@en ;
-    cssv:alternative ""@en ;
+    cssv:acronym ""@en ;
+    cssv:alternative "ITU-T Y.3500"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The Y.3500 specification establishes a terminology foundation for cloud computing, intending to standardise the vocabulary used across cloud computing standards, serving as a consensus baseline without precluding additional, domain‑specific terminology in related or future standards."@en ;
     dct:title "ITU-T Y.3500: Information technology - Cloud computing - Overview and vocabulary"@en ;
@@ -7650,7 +7657,7 @@ cssvrsc:e56c152b24acda08a37a0e99044a42e6eea9bde90c4b4629b6aa005d3c253d3d a cssv:
 
 cssvrsc:e57fea291208c8917fd7d5b30ed302d6498ed036acaf03eae5e56d672d1eb2bc a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ETSI TS 103 846"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 846 specification is designed to establish how Digital Twins (DTs) can be designed through the presentation of a reference blueprint architecture with a specific focus on communication, discoverability and interoperability aspect. It also sets guidelines for DT adoption and applicability analysing how they can be deployed and monitored over time. Finally, the specification sets the definition and communication aspects for DTs."@en ;
     dct:title "SmartM2M; Digital Twins: Functionalities and  communication Reference Architecture (ETSI TS 103 846)"@en ;
@@ -7683,7 +7690,7 @@ cssvrsc:e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a a cssv:
 
 cssvrsc:e5b93bfdb3252d290b8d69275202406c6a66d38f3b85d1afc7dd834d4e0c3085 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ETSI TS 119 512"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 119 512 specification complements ETSI TS 119 511 and specifies protocols for trust service providers providing long-term data preservation services of digital signatures and of general data (i.e. unsigned data or signed data). ETSI TS 119 512 specifies protocols for Trust Service Providers to provide long-term preservation of digital signatures and transactional data (unsigned or signed data), using digital signature technology."@en ;
     dct:title "ETSI TS 119 512 Electronic Signatures and Infrastructures (ESI); Protocols for trust service providers providing long-term data preservation services"@en ;
@@ -7693,7 +7700,7 @@ cssvrsc:e5b93bfdb3252d290b8d69275202406c6a66d38f3b85d1afc7dd834d4e0c3085 a cssv:
 
 cssvrsc:e5be83b5c5d042d8ecde5179bed404cfd3dffb45fa1546b754e002dca216349d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ETSI GS CIM 009"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The NGSI-LD API enables users to apply context information in multiple scenarios. Context information is modeled as attributes of context entities, also called digital twins, which represent real-world assets (e.g., a bus in a city or a baggage claim ticket). The NGSI-LD API is typically used to provide standardized access to digital twin data."@en ;
     dct:title "Context Information Management (CIM); NGSI-LD API (ETSI GS CIM 009)"@en ;
@@ -7807,7 +7814,7 @@ cssvrsc:e97c9b46dadbe2de7f910a520ccdb4c9277940948b5044f7b11f753d4edcadd8 a cssv:
 
 cssvrsc:e989d211aeda55f69629a8980f5119cef22e4b1423b3e853a78601f251699e10 a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ISO/IEC 29500-1:2016"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 29500-1:2016 is the comprehensive technical specification that details the underlying XML structure and semantics of the various document types within the Office Open XML format. It is the primary reference for developers implementing software that reads, writes, or manipulates Office Open XML (OOXML) files."@en ;
     dct:title "Office Open XML File Formats Part 1: Fundamentals and Markup Language Reference"@en ;
@@ -7839,7 +7846,7 @@ cssvrsc:e9d18f5f7e9f1b8f178f6c21bbb9e6ef032f44cc13b6ad8bc32ccba28df2f4bf a cssv:
 cssvrsc:ea1887cf6ceb4929fc4a5de8a2180ce8ce23f197de2b61a275d88cd46323fb6a a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO 639-2:1998"@en ;
     cssv:isMaintainedBy cssvrsc:0ea5970eb96f3b7439fff82de3cde75def20698632a7e5b4a4bc222b4fbfb32e ;
     dct:description "Codelists as language codes are commonly used as reference data to organise or categorise other data, or for relating data to information both within and beyond the boundaries of the enterprise. The standard is used by the EU publications office."@en ;
     dct:title "ISO 639-2:1998 Codes for the representation of names of languages -- Part 2: Alpha-3 code"@en ;
@@ -7916,7 +7923,7 @@ cssvrsc:ed09ca216774dc1192ed4558ade3e6d589af8442d78621fd699462c5180afc94 a cssv:
 
 cssvrsc:ed45256d0f41d440c9e7109ee9120dee2dfff47807a609bf30654e68dac7cc51 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ISO/IEC 19086-1:2016"@en ;
+    cssv:alternative "ISO/IEC 19086-1:2016"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 19086-1:2016 is for the benefit and use of both cloud service providers and cloud service customers. The aim is to avoid confusion and facilitate a common understanding between cloud service providers and cloud service customers. Cloud service agreements and their associated cloud SLAs vary between cloud service providers, and in some cases different cloud service customers can negotiate different contract terms with the same cloud service provider for the same cloud service. This document aims to assist cloud service customers when they compare cloud services from different cloud service providers."@en ;
     dct:title "ISO/IEC 19086-1:2016 Information technology — Cloud computing — Service level agreement (SLA) framework — Part 1: Overview and concepts"@en ;
@@ -7970,7 +7977,7 @@ cssvrsc:edb5639f5ea83e0523503d803f95c1667224564ae2d85eb9677bcce63e543567 a cssv:
 
 cssvrsc:ee26d4cf27daf86fba3ef06c4746ca31cd28f292c5fb4b50062b8b1fa041dec2 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "" ;
+    cssv:alternative "ETSI TS 182 032"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 182 032 specification defines a framework for interconnection between different Content Delivery Networks (CDNs). It establishes standardised interfaces that allow CDNs to expose and consume delivery, control, and reporting services across networks. Thus, the specification ensures interoperability by enabling translation of metadata and protocols between heterogeneous systems."@en ;
     dct:title "CDN Interconnection Architecture (ETSI TS 182 032)"@en ;
@@ -8001,7 +8008,7 @@ cssvrsc:ef08c2789f6b3c4df7347426999a885397045dfa90a29f3a7009505988c9a9b2 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:ef58703ca13db385e38bf5d7756d191c7425e481cee6232c33812352d809bb81 a cssv:Specification ;
-    cssv:acronym "" ;
+    cssv:acronym "OIDC"@en ;
     cssv:alternative "" ;
     cssv:isMaintainedBy cssvrsc:4e04f19455ff8628a12285cdca275b0ee3faeaa0223f10095bf19b7bc584ac1c ;
     dct:description "OpenID Connect 1.0 (OIDC) is a simple identity layer on top of the OAuth 2.0 protocol. It enables Clients to verify the identity of the End-User based on the authentication performed by an Authorisation Server, as well as to obtain basic profile information about the End-User in an interoperable and REST-like manner (an approach that borrows some, but not all, of the principles of Representational State Transfer)."@en ;
@@ -8045,7 +8052,7 @@ cssvrsc:f1181e955e79e9918e586765efd622942561196bcf2ac936ff8598e0efaa94fe a cssv:
 
 cssvrsc:f13fe97c82507e0945b310962f9cf3c269e731ce29b8ef5aa62bcfc57edaa0f3 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 21823-1:2019"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 21823-1:2019 specifies the framework and general requirements for interoperability in the Internet of Things (IoT), focusing on the ability of diverse systems to communicate, exchange data, and use information effectively."@en ;
     dct:title "Internet of Things (IoT) — Interoperability for IoT Systems — Part 1: Framework. (ISO/IEC 21823-1:2019)"@en ;
@@ -8106,6 +8113,7 @@ cssvrsc:f36ce406cf0470d6b8c3d4f04141fb8c35c10e1342c6fb68a55e4cbf1b30eb9d a cssv:
 
 cssvrsc:f37fec7b3b5a865877ce8663c3efe7f2442877c774e86cdc5fc9bd262f8adef1 a cssv:Specification,
         owl:NamedIndividual ;
+        cssv:acronym "RBAC"@en ;
     cssv:isMaintainedBy cssvrsc:2b6de1326e1fa61562752256c54150944ec28a04926ea0f96f178888f112b0af ;
     dct:description "The Role-Based Access Control (RBAC) specification is a security model that assigns permissions to roles based on job functions. Users are then assigned to these roles, inheriting the associated permissions. This approach simplifies management, enhances security, and ensures users have only the access they need. RBAC also supports role hierarchies and constraints to enforce policies like separation of duties."@en ;
     dct:title "Role-Based Access Controls (RBAC)"@en ;
@@ -8225,6 +8233,7 @@ cssvrsc:f64a3ba68f3870aacc0280464fb8e957566d9aa0040db5dd45777ddcae7db118 a cssv:
 
 cssvrsc:f75650204c41b7547d47aed953052a72de01cbc9d3ac65c3bf949780a2f6ff70 a cssv:Specification,
         owl:NamedIndividual ;
+        cssv:acronym "UBER"@en ;
     cssv:isMaintainedBy cssvrsc:9b720c7c045589425b5858f4f0dcfcb5fd8ac0a1a743ebfb9a8cf04bffa2f324 ;
     dct:description "The UBER document format is a minimal read/write hypermedia type designed to support simple state transfers and ad-hoc hypermedia-based transitions. This specification describes both the XML and JSON variants of the format and provides guidelines for supporting UBER-encoded messages over the HTTP protocol."@en ;
     dct:title "Uniform Basis for Exchanging Representations (UBER)"@en ;
@@ -8233,7 +8242,7 @@ cssvrsc:f75650204c41b7547d47aed953052a72de01cbc9d3ac65c3bf949780a2f6ff70 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:f765720238ac871ce1596a081584891d04f4b651721d9da812e9e74330f6c346 a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "JWK"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "A JSON Web Key (JWK) is a JavaScript Object Notation (JSON) data structure that represents a cryptographic key."@en ;
@@ -8307,7 +8316,7 @@ cssvrsc:f85b587937b0fcab0f041e2273ef1a2be399da569453ad15901af4ae6cfc2c23 a cssv:
 
 cssvrsc:f85eef022a9c0cc28708847c3ee1bd317df799a1fe348d76acff1c7a5c2c8d50 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ETSI TR 103 603"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TR 103 603 specification gives advice to service providers and standard makers . Its goal is to make sure that users have all the information they need to make good decisions about which services to use. In this context, the specification helps guide service providers to make sure they give users the right information and create services that meet user needs, even if multiple suppliers are involved."@en ;
     dct:title "ETSI TR 103 603 Guidance for providers and standardisation makers"@en ;
@@ -8317,7 +8326,7 @@ cssvrsc:f85eef022a9c0cc28708847c3ee1bd317df799a1fe348d76acff1c7a5c2c8d50 a cssv:
 
 cssvrsc:f86fa8439db10ab4dec432b3939b5527adc12fa217845661736959eccf896e35 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:acronym "E-ARK DIP"@en ;
     cssv:isMaintainedBy cssvrsc:10baa47b87cd6477d9b70a292bda2cc453310c1ca016182ee2426ee1d1de8e4e ;
     dct:description "E-ARK DIP belongs to the suite of E-ARK CSIP specifications that are used to transmit, describe and retain digital data. E-ARK SIP defines an information packet (derived from an E-ARK AIP) specific to a particular consumer, so that this information package can be processed by its designated access software."@en ;
     dct:title "E-ARK Dissemination Information Package (DIP)"@en ;
@@ -8443,7 +8452,7 @@ cssvrsc:fcaa7f85fa91302efdb61d13847ac73d68de5e1271689add2a2fde99b6a546e0 a cssv:
 
 cssvrsc:fcc64094b2f9516695190600626840702dbebff6231da88d6df6d0cb23526adb a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "EN 16931-1:2017"@en ;
     cssv:isMaintainedBy cssvrsc:3fa4f14bdd83e1d0ea9fcdfe81a9ad8a7b7dd37042e5f520425016263046ba9a ;
     dct:description "EN 16931-1 describes a syntax and a data model for eInvoicing in public procurement. The specification requires two codelists: the EAS code list and the VATEX code list."@en ;
     dct:title "Semantic data model of the core elements of an electronic invoice (EN 16931-1:2017)"@en ;
@@ -8463,7 +8472,7 @@ cssvrsc:fcdeb5ed4c1c98a819128796d63ab13fe57b5d0bf69e42dd6c8718334a6e3ccb a cssv:
     dcat:version "2.1.6" .
 
 cssvrsc:fd0c80e9e707b0479cc1751b71f503af5ab778c1ffeb023ab983c01220889acb a cssv:Specification ;
-    cssv:acronym ""@en ;
+    cssv:acronym "Web eID"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:9d2e8a4b1b697e7d135a190176454a2249450797a3aebca1197cdfe9882409ae ;
     dct:description "The Web Electronic Identity specification is designed to authenticate users who want to access certain resources or documentation. Based on the Estonian ID card (EstEID) and the Open Electronic Identity (Open eID), a card must be inserted into a card reader to grant access. Additionally, the specification allows for data signing following a verification process."@en ;
@@ -8572,7 +8581,7 @@ cssvrsc:ffa44598fbf3f5e780ae0a6d7551e37c25f9b7261e80efb2848dcc74d7c969e3 a cssv:
 cssvrsc:fff7f7a1aa0ab237422f8e557b0773b3742313bb5c8f452fed8c2ea1641dcf5f a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO 9241-11:2018"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO 9241-11:2018 provides a framework for understanding the concept of usability and applying it to situations where people use interactive systems, and other types of systems, and products and services. ISO 9241-11:1998 is for free access."@en ;
     dct:title "ISO 9241-11:2018 Ergonomics of human-system interaction - Part 11: Usability: Definitions and concepts"@en ;
