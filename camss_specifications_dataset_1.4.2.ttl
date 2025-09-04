@@ -11,7 +11,7 @@
 
 cssvrsc:0046834e1507afcd215d2fb7801a4b53ed42dc81f370944e96c13738ac1ee102 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:alternative "Directive 2009/140/EC"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on a common regulatory framework for electronic communications networks and services, 2002/19/EC on access to, and interconnection of, electronic communications networks and associated facilities, and 2002/20/EC on the authorisation of electronic communications networks and services"@en ;
     dct:title "Directive 2009/140/EC of the European Parliament and of the Council of 25 November 2009 amending Directives 2002/21/EC on a common regulatory framework for electronic communications networks and services, 2002/19/EC on access to, and interconnection of, electronic communications networks and associated facilities, and 2002/20/EC on the authorisation of electronic communications networks and services"@en ;
@@ -485,7 +485,7 @@ cssvrsc:0b5ca6a33100cb56e1cc66c9d98fb21b5ccfa47736ae8c8b6a9f9ade5b82e349 a cssv:
 
 cssvrsc:0bea14534616081e41ae6305b70508a1cc5e43feb05a1f254e495c902c1c0330 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:alternative "Decision 2011/130/EU"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Legal act establishing minimum requirements for the cross-border processing of documents signed electronically by competent authorities under Directive 2006/123/EC"@en ;
     dct:title "2011/130/EU: Commission Decision of 25 February 2011 establishing minimum requirements for the cross-border processing of documents signed electronically by competent authorities under Directive 2006/123/EC of the European Parliament and of the Council on services in the internal market (notified under document C(2011) 1081)"@en ;
@@ -938,7 +938,7 @@ cssvrsc:1882dc8dd53cd68ae6f4ef083f0a36929b238739d27d72ee21f1da2ca020f7b6 a cssv:
 
 cssvrsc:189e9f104cccc0c206c4d749f5009ce2caf50024d8a61cc20e0d9877a4948cb8 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:alternative "Directive 2006/123/EC"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on services in the internal market"@en ;
     dct:title "Directive 2006/123/EC of the European Parliament and of the Council of 12 December 2006 on services in the internal market"@en ;
@@ -949,7 +949,7 @@ cssvrsc:189e9f104cccc0c206c4d749f5009ce2caf50024d8a61cc20e0d9877a4948cb8 a cssv:
 
 cssvrsc:18e962f8926c32cf12933a15d98fa0827bf23521f480c819de718584788b2aa7 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "87/598/EEC"@en ;
+    cssv:alternative "Recommendation 87/598/EEC"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Business agnostic legal act on a European Code of Conduct relating to electronic payment. Examples are relations between financial institutions, traders and service establishments, and consumers"@en ;
     dct:title "87/598/EEC: Commission Recommendation of 8 December 1987 on a European Code of Conduct relating to electronic payment (Relations between financial institutions, traders and service establishments, and consumers)"@en ;
@@ -1201,7 +1201,7 @@ cssvrsc:1d65e81e4d8a4d523d4e534fe3a81980841368cc1b57a177741dda9a20a41abc a cssv:
 
 cssvrsc:1db4b73d79c4745a67c5be20e0006b042569498e82631153b7756554d0847d80 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2009/136/EC"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on universal service and users’ rights relating to electronic communications networks and services."@en ;
     dct:title "Directive 2009/136/EC - EU Cookie Directive Directive 2009/136/EC of the European Parliament and of the Council of 25 November 2009 amending Directive 2002/22/EC on universal service and users’ rights relating to electronic communications networks and services, Directive 2002/58/EC concerning the processing of personal data and the protection of privacy in the electronic communications sector and Regulation (EC) No 2006/2004 on cooperation between national authorities responsible for the enforcement of consumer protection laws (Text with EEA relevance)"@en ;
@@ -1624,7 +1624,7 @@ cssvrsc:2abd8643-04b8-4c1d-8907-f15dfa6f8bcc a owl:NamedIndividual,
 
 cssvrsc:2b1360464d9f04688a468f625ce1b738d81cf37a037ddee359143646bb7b8c3e a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Regulation 2015/1501/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on electronic identification and trust services for electronic transactions in the internal market"@en ;
     dct:title "COMMISSION IMPLEMENTING REGULATION (EU) 2015/1501 on the interoperability framework pursuant to Article 12(8) of Regulation (EU) No 910/2014 of the European Parliament and of the Council on electronic identification and trust services for electronic transactions in the internal market"@en ;
@@ -1798,7 +1798,7 @@ cssvrsc:2f66490fddd1e3f289a6943532714965ad7d1222830eb937d6c3bf740b152066 a cssv:
 
 cssvrsc:2f848b09bbfd40328bd513dc06611fdd900e08b4f95c6ab5e0e5b7c957ab57a1 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Regulation 2015/1502/EU"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Legal act on the identification of Universal Business Language for referencing in public procurement"@en ;
     dct:title "COMMISSION IMPLEMENTING REGULATION (EU) 2015/1502 of 8 September 2015 on setting out minimum technical specifications and procedures for assurance levels for electronic identification means pursuant to Article 8(3) of Regulation (EU) No 910/2014 of the European Parliament and of the Council on electronic identification and trust services for electronic transactions in the internal market"@en ;
@@ -1909,7 +1909,7 @@ cssvrsc:323029c09f075ae9d8e17527dc94a5bfdadbf301095096a3d9c52f528e1a791e a cssv:
 
 cssvrsc:323f9183321bfcf41cf4b055c06d5c31f6d31023c1eecd49f299235fdf803eb2 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2014/23/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act public procurement and the award of concession contracts"@en ;
     dct:title "Directive 2014/23/EU of the European Parliament and of the Council of 26 February 2014 on the award of concession contracts Text with EEA relevance"@en ;
@@ -2067,7 +2067,7 @@ cssvrsc:34878e59928307297140ebf6c50d13e1ffec2f210f921cbfafa15dffaa0d6747 a cssv:
 
 cssvrsc:34a80d468898329016f4b93cbab810ea6fb1da5b54076014fb64d46f4b36a66a a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2015/2366/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on payment services in the internal market"@en ;
     dct:title "DIRECTIVE (EU) 2015/2366 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 25 November 2015 on payment services in the internal market, amending Directives 2002/65/EC, 2009/110/EC and 2013/36/EU and Regulation (EU) No 1093/2010, and repealing Directive 2007/64/EC"@en ;
@@ -2569,7 +2569,7 @@ cssvrsc:43c19a093b34b581ddcc7207f6bd094f6940db69f035c444425ed84d2cac037d a cssv:
 
 cssvrsc:4436eacc9ca95a0a58e5e7992d9b210830720a4aeec5009ed5ef7437b80f3987 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2018/1972/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal acte stablishing the European Electronic Communications Code"@en ;
     dct:title "DIRECTIVE (EU) 2018/1972 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 11 December 2018 establishing the European Electronic Communications Code"@en ;
@@ -2920,7 +2920,7 @@ cssvrsc:4f5086956ce7e0b60b68a495894409cd87434260749581ec127f9072afb4c6c6 a cssv:
 
 cssvrsc:4fc4d2011afea421c53f511b8cc5b2757e24a04071e28c0a38161f609a60d135 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2014/24/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on public procurement"@en ;
     dct:title "Directive 2014/24/EU of the European Parliament and of the Council of 26 February 2014 on public procurement and repealing Directive 2004/18/EC Text with EEA relevance"@en ;
@@ -3166,7 +3166,7 @@ cssvrsc:57b56a8345bfa9184413953a5392709e8b7eb0950414b63552c6189a9e42ff7c a cssv:
 
 cssvrsc:57d034134fde774a09d3434c0677311f4f4460daea3244fc286e63f67e434ac2 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2013/37/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act amending Directive 2003/98/EC on the re-use of public sector information. Business agnostic legal act defining milestones, goals and obligations on the re-use of public sector information."@en ;
     dct:title "DIRECTIVE 2013/37/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 June 2013 amending Directive 2003/98/EC on the re-use of public sector information"@en ;
@@ -3784,7 +3784,7 @@ cssvrsc:6e011b5dce30b2ccafb13f608d72696e6259f6955b8afbc6e1fd68c22b5a67c6 a cssv:
 
 cssvrsc:6e26f89f14b60fb8dcb3a51ed3abc8ff53023b51520f2e578b707919b81a7f66 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Decision 2011/833/EU"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Legal act on the reuse of Commission documents"@en ;
     dct:title "2011/833/EU: Commission Decision of 12 December 2011 on the reuse of Commission documents"@en ;
@@ -3890,7 +3890,7 @@ cssvrsc:7107d45e32eb9a8ab7a10909c9fa87a1a4a2dbe52afc647edb46dc1f2f11effd a cssv:
 
 cssvrsc:710c271ac62cdb5a5a194d8a48dbeaa906bf84f68d4f2872b6aa978102994442 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Council Directive 2006/112/EC"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act providing a common scope on the context of European Public services and taxation aspects."@en ;
     dct:title "Council Directive 2006/112/EC of 28 November 2006 on the common system of value added tax"@en ;
@@ -3933,7 +3933,7 @@ cssvrsc:71e1d2e261388c5c3b9ed4d17b6474d5f0cf1062b5c8a9fd413b76b77dc43a91 a cssv:
 
 cssvrsc:72090268c68b4a977a65285103fa1fe43043c8b2085efe06850ab4716587c05c a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2019/770/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on certain aspects concerning contracts for the supply of digital content and digital services"@en ;
     dct:title "DIRECTIVE (EU) 2019/770 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 20 May 2019 on certain aspects concerning contracts for the supply of digital content and digital services"@en ;
@@ -4643,7 +4643,7 @@ cssvrsc:87d636d50fea4f3267d2993f5f15fcb633c9b411f6201fe08b270c556c09534e a cssv:
 
 cssvrsc:87fd1766fc6e072ec1fdd3319775ffbefafb6429da76e67fafd1b436e6b5aec7 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Regulation 2019/1157/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on strengthening the security of identity cards of Union citizens and of residence documents issued to Union citizens and their family members exercising their right of free movement"@en ;
     dct:title "REGULATION (EU) 2019/1157 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 20 June 2019 on strengthening the security of identity cards of Union citizens and of residence documents issued to Union citizens and their family members exercising their right of free movement"@en ;
@@ -5421,7 +5421,7 @@ cssvrsc:9e21a37b249d893fe860af3d75242b0ec36bcb1cab879931796f883891287b9e a cssv:
 
 cssvrsc:9eee7b5f591edb9c84e3d07d234b97ce0f5e84c26989b649ac96715af0adf328 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2000/31/EC"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on certain legal aspects of information society services, in particular electronic commerce, in the Internal Market"@en ;
     dct:title "Directive 2000/31/EC of the European Parliament and of the Council of 8 June 2000 on certain legal aspects of information society services, in particular electronic commerce, in the Internal Market ('Directive on electronic commerce')"@en ;
@@ -5683,7 +5683,7 @@ cssvrsc:a88ec924-bd63-4e2a-aa40-19ee2c308a57 a owl:NamedIndividual,
 
 cssvrsc:a8a3b7c669eb2bbcd0f9771431fb1aa7ec28ec91ee195254785a29598b9809f6 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Regulation 2018/389/EU"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Legal act with regard to regulatory technical standards for strong customer authentication and common and secure open standards of communication"@en ;
     dct:title "COMMISSION DELEGATED REGULATION (EU) 2018/389 of 27 November 2017 supplementing Directive (EU) 2015/2366 of the European Parliament and of the Council with regard to regulatory technical standards for strong customer authentication and common and secure open standards of communication"@en ;
@@ -6736,7 +6736,7 @@ Based on the common requirements and capabilities of a gateway for IoT applicati
 
 cssvrsc:c68c118663bdaec42dcc2bbd683897cdbe4f670e27aab2c346d953281b0265c2 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+     cssv:alternative "Directive 2016/1148/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act concerning measures for a high common level of security of network and information systems across the Union"@en ;
     dct:title "Directive (EU) 2016/1148 of the European Parliament and of the Council of 6 July 2016 concerning measures for a high common level of security of network and information systems across the Union"@en ;
@@ -6862,7 +6862,7 @@ cssvrsc:caa48956f697a918c2a7aadba6b89e778404c60ed350fa795eb4df40875d2777 a cssv:
 
 cssvrsc:cb163cafa81d4892c4587939d02888172ad8b1e87e3ab8e6356c5532174881ef a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2002/58/EC"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act concerning the processing of personal data and the protection of privacy in the electronic communications sector."@en ;
     dct:title "Directive 2002/58/EC concerning the processing of personal data and the protection of privacy in the electronic communications sector (ePrivacy directive)"@en ;
@@ -6904,7 +6904,7 @@ cssvrsc:cdf4cfc4a0023b448b0ea2ed459d29df14076a7bd192a9b69078af337c6d6b23 a cssv:
 
 cssvrsc:cf42ed66151cf874dbb8eb198c8035f5441279275791ae74581afc523d968ade a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2003/98/EC"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on the re-use of public sector information"@en ;
     dct:title "Directive 2003/98/EC of the European Parliament and of the Council of 17 November 2003 on the re-use of public sector information"@en ;
@@ -6967,7 +6967,7 @@ cssvrsc:d0c2a9ada3fa1a1d4252743338c7cf9e547ffee3b379197a8af4f35ce821ceae a cssv:
 
 cssvrsc:d0d74f80cb1c08bff33c480fe37f8209a802479bc9ac5c785fb47a9d3703ba8d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2016/680/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on the protection of natural persons with regard to the processing of personal data by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, and on the free movement of such data."@en ;
     dct:title "Directive (EU) 2016/680 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, and on the free movement of such data, and repealing Council Framework Decision 2008/977/JHA"@en ;
@@ -7284,7 +7284,7 @@ cssvrsc:db6cf8a73c9466853f99606b2f9eb6a89616f351d02b7c246c0bf87d5d18d50f a cssv:
 
 cssvrsc:dbbcf731896ac255a462fd008c619158922f551be78e24342e93f2279abf94ed a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+     cssv:alternative "Decision 2014/771/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on the identification of Universal Business Language for referencing in public procurement"@en ;
     dct:title "2014/771/EU: Commission Implementing Decision of 31 October 2014 on the identification of Universal Business Language version 2.1 for referencing in public procurement Text with EEA relevance"@en ;
@@ -7327,7 +7327,7 @@ cssvrsc:dd3c03c70c338994d0cb5a38c92ea1920f2526959fa7fa1bcb1d6f4eb345374a a cssv:
 
 cssvrsc:dddff8544042eb988c47233f82dabea445e63f0cc63a8d4b3927aaa10a7a1829 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+     cssv:alternative "Decision 2017/2288/EU"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Legal act on the identification of ICT Technical Specifications for referencing in public procurement"@en ;
     dct:title "Commission Implementing Decision (EU) 2017/2288 of 11 December 2017 on the identification of ICT Technical Specifications for referencing in public procurement"@en ;
@@ -7722,7 +7722,7 @@ cssvrsc:e5ce69e94864a19b278266d0b71a3a740a6de0993464c47dff495c5036ab8dbb a cssv:
 
 cssvrsc:e7104ff4d29d40f12241e050a7abdcf70d5250f2d16c3610631cf2798594b5d7 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+     cssv:alternative "Regulation 2018/1807/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal Act n a framework for the free flow of non-personal data in the European Union"@en ;
     dct:title "REGULATION (EU) 2018/1807 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL, of 14 November 2018 on a framework for the free flow of non-personal data in the European Union (Text with EEA relevance)"@en ;
@@ -8020,7 +8020,7 @@ cssvrsc:ef58703ca13db385e38bf5d7756d191c7425e481cee6232c33812352d809bb81 a cssv:
 
 cssvrsc:efb40789fe3ad96b26d88aeb5afa229851bc73b19b6a3d4b8220ef3a37fed1c7 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+      cssv:alternative "Directive 2016/2102/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on the accessibility of the websites and mobile applications of public sector bodies"@en ;
     dct:title "DIRECTIVE (EU) 2016/2102 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies"@en ;
@@ -8158,7 +8158,7 @@ cssvrsc:f4c3839a5bdff2f8a894f8a407e5ad3ab1e7a43e77b90497ddc7602079318556 a cssv:
 
 cssvrsc:f4d282a8b83575a2b688620086fadc5247e246daf62a5335f6f9251e6f3db07d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Directive 2014/25/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on procurement by entities operating in the water, energy, transport and postal services sectors"@en ;
     dct:title "Directive 2014/25/EU of the European Parliament and of the Council of 26 February 2014 on procurement by entities operating in the water, energy, transport and postal services sectors and repealing Directive 2004/17/EC Text with EEA relevance"@en ;
@@ -8368,6 +8368,7 @@ cssvrsc:f8f87159fcb3a6a0d0731f58a217206a03908f2d6f7f6923060efc8dfe03380d a cssv:
 cssvrsc:f9f266ff5a4e9932ce671b5e0d44de75978ba8ed545b989a8c197e26be9a1fda a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "INSPIRE"@en ;
+    cssv:alternative "Directive 2007/2/EC"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act establishing an Infrastructure for Spatial Information in the European Community (INSPIRE)"@en ;
     dct:title "INSPIRE Directive 2007/2/EC of 14 March 2007, Article 18"@en ;
@@ -8505,7 +8506,7 @@ cssvrsc:fdb314a96c718420f5bd2980558e2fb413b60f28e8ccb87669744be3f337d7f7 a cssv:
 
 cssvrsc:fde042cd63deec50c59dbf0714ffc5c87e72019964262a0dc96abb6543182501 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Decision 2018/646/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act providing a common scope on the context of European Public services and interoperability aspects."@en ;
     dct:title "DECISION (EU) 2018/646 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 18 April 2018 on a common framework for the provision of better services for skills and qualifications (Europass) and repealing Decision No 2241/2004/EC (Text with EEA relevance)"@en ;
@@ -8516,7 +8517,7 @@ cssvrsc:fde042cd63deec50c59dbf0714ffc5c87e72019964262a0dc96abb6543182501 a cssv:
 
 cssvrsc:fe1938f85a6bad78270df0f3028ee3b204a1eac4bb5970f1fecc55f78e50e71a a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Regulation 1049/2001/EC"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act regarding public access to European Parliament, Council and Commission documents"@en ;
     dct:title "Regulation (EC) No 1049/2001 of the European Parliament and of the Council of 30 May 2001 regarding public access to European Parliament, Council and Commission documents"@en ;
@@ -8559,7 +8560,7 @@ cssvrsc:fef432d5ee4920705bc86d0d0c4750a88d6e2c7cef1f895e9037ab0776c49fa9 a cssv:
 
 cssvrsc:ff8279db1fde0e4287ecd59aab3e2eeba63097e58dcd9ccfa4c55022f881e5e4 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "Regulation 1316/2013/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act stablishing the Connecting Europe Facility"@en ;
     dct:title "Regulation (EU) No 1316/2013 of the European Parliament and of the Council of 11 December 2013 establishing the Connecting Europe Facility, amending Regulation (EU) No 913/2010 and repealing Regulations (EC) No 680/2007 and (EC) No 67/2010 Text with EEA"@en ;
