@@ -1425,7 +1425,7 @@ cssvrsc:2519e714fe2baccf790d51fb84978ee4d368a871889fdf261630d3a1a9e7d237 a cssv:
 cssvrsc:2530ab0daee506060b46a67ad31e86192dd538d189d049ef59718edc7c2ea121 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
-    cssv:alternative "ITU-T X.509"@en ;
+   
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The X.509 specification addresses some of the security requirements in the areas of authentication and other security services through the provision of a set of frameworks upon which full services can be based."@en ;
     dct:title "X.509: Information technology - Open Systems Interconnection - The Directory: Public-key and attribute certificate frameworks"@en ;
@@ -1488,7 +1488,7 @@ cssvrsc:2703d04f985f18e711a774d3c6491024ec67d3465255c1c85d95132753e7ecf1 a cssv:
 
 cssvrsc:2721bff356ea48aeec43ba3b34d6cc9929bdf42bf89084cafc8a39d4aaa54a7d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ETSI TS 103 523-5 CYBER"@en ;
+    cssv:alternative "ETSI TS 103 523-5"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 103 523-5 CYBER defines Requirements - such as legal mandates and service agreements - that exist for enterprise network, data centre operators and service providers, organizations and small businesses to be able to observe and audit the content and metadata of encrypted sessions transported across their infrastructures. The IPsec protocol standards [1], [i.2] and [i.3] can be managed in a way that enables this enterprise visibility."@en ;
     dct:title "ETSI TS 103 523-5 CYBER; Middlebox Security Protocol; Part 5: CYBER; Middlebox Security Protocol; Part 5: Enterprise Network Security"@en ;
@@ -1867,7 +1867,7 @@ cssvrsc:3138d6dd5d17444fe9146b3224c89363c57565d72a4e5deeff23d8858e68b05d a cssv:
 
 cssvrsc:319b94ba551dff5570f3aa41bad79c7b4899464b5f05ce7d1f3775a2352beae9 a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative "EN 303 645 3.1.3"@en ;
+    cssv:alternative "EN 303 645"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI EN 303 645 specifies high-level security and data protection provisions for consumer IoT devices that are connected to network infrastructure (such as the Internet or home network) and their interactions with associated services."@en ;
     dct:title "Cyber Security for Consumer Internet of Things Baseline Requirements (EN 303 645 3.1.3)"@en ;
@@ -2282,7 +2282,7 @@ cssvrsc:393f49d6eb2498dc190763c2914503ddd39b037cd62ce64561b2106b4a7e9786 a cssv:
 cssvrsc:39eee9a3f8d54dac0e11456b98c29454ebb157dc3a8991f456b7b659bf990370 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "OCSP"@en ;
-    cssv:alternative "ITU-T X.509"@en ;
+    cssv:alternative "RFC 6960"@en ; 
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "This specification specifies a protocol useful in determining the current status of a digital certificate without requiring Certificate Revocation Lists (CRLs)."@en ;
     dct:title "X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP"@en ;
@@ -2506,7 +2506,7 @@ cssvrsc:40c6aac837357cdbc673a103d053d4fa78b7617bbaa2975df98b87b826f9bb6d a cssv:
 
 cssvrsc:41b2c79f6cfb66676430b6c3a94ff0ed87617341081c7ef1a147129c5c605b3e a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "CBOR"@en ;
+    
     cssv:alternative "RFC 8943"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Concise Binary Object Representation (CBOR), as specified in RFC 7049, is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation."@en ;
@@ -2698,7 +2698,7 @@ cssvrsc:4909c79d2759fc5cdbd6e87160f397452ee9484bd8d9e9bf838be385108c987c a cssv:
         cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
-    cssv:alternative "ISO/IEC 27001"@en ;
+    cssv:alternative "ISO/IEC 27001:2022"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
     dct:title "ISO/IEC 27001 INFORMATION SECURITY MANAGEMENT"@en ;
@@ -3805,7 +3805,7 @@ cssvrsc:6eb2a0776547a9750027a031719cb9ca3e620970f7dfd42bd96ac025b8a6f463 a cssv:
 
 cssvrsc:6f03402e98acfd1f4c58b6533bdb88e793efffd35b0a6a3389b8c7c77220a310 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ETSI TS 103 744 CYBER"@en ;
+    cssv:alternative "ETSI TS 103 744"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The focus of TS 103 744 CYBER is on the practical implementation of quantum-safe primitives, including performance considerations, implementation capabilities, protocols, benchmarking and practical architectural considerations for specific applications. The group’s work also feeds into other groups and standards bodies such as International Telecommunications Union (ITU), Internet Engineering Task Force (IETF), International Standards Organisation (ISO) and GlobalPlatform."@en ;
     dct:title "ETSI TS 103 744 CYBER; Quantum-safe Hybrid Key Exchanges"@en ;
@@ -3859,7 +3859,7 @@ cssvrsc:70137d7dbadcaf742ae5cfef049aa13d0aef86fb19b68d50e5d98b6408f02786 a cssv:
 cssvrsc:70aa46c41fa3bc7c83b574e54bf2f29f1fdef6a3125645d3de8e7a60cde0c6f1 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "MACs"@en ;
-    cssv:alternative "ISO/IEC 9797-1:201"@en ;
+    cssv:alternative "ISO/IEC 9797-1:2011"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 9797-1 specifies six Message Authentication Code (MAC) algorithms that use a secret key and an n-bit block cipher to calculate an m-bit MAC. MAC algorithms can be built from other cryptographic primitives, such as cryptographic hash functions (e.g., HMAC) or from block cipher algorithms (e.g., OMAC, CCM, GCM, PMAC). Fastest MAC algorithms are built on universal hashing or intrinsically keyed hash algorithms."@en ;
     dct:title "ISO/IEC 9797-1:2011 Information technology - Security techniques - Message Authentication Codes (MACs) - Part 1: Mechanisms using a block cipher"@en ;
@@ -5277,7 +5277,7 @@ cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 a cssv:
 
 cssvrsc:9a0d93a6a4a55176ed1f09f191b3ca8f3a0c534f7930248a7115c6d469826136 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ETSI TS 103 532 CYBER"@en ;
+    cssv:alternative "ETSI TS 103 532"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TS 103 532 focuses on Attribute-Based Encryption to control access to data, aiming to provide user identity protection whilst preventing disclosure of data to an unauthorized entity."@en ;
     dct:title "ETSI TS 103 532 CYBER; Attribute Based Encryption for Attribute Based Access Control"@en ;
@@ -5309,7 +5309,7 @@ cssvrsc:9ade3964acf524fddcff802c14d16a93362acaab5aace4867be8856f48c0c30f a cssv:
 cssvrsc:9affd5b469c2a5951a9fb61fcfaa48b6a899e130a8af1e9f633fc23ee52ab3a3 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "FQSCS"@en ;
-    cssv:alternative "ETSI TR 103 619 CYBER"@en ;
+    cssv:alternative "ETSI TR 103 619"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description """The present document identifies a framework of actions that should be taken by an organization to enable migration to a 
 Fully Quantum Safe Cryptographic State (FQSCS). The migration framework, and the migration plan that documents it, 
@@ -5368,8 +5368,8 @@ cssvrsc:9c2f765f7d194336045492bd806b3413413afac3d440bf4a043d4886ce4e75cf a cssv:
     dcat:version "2.2.0" .
 
 cssvrsc:9c9547a44019de35fc19caada88d4eb61b4e015547e8fdb858b5ea7b033b1184 a cssv:Specification ;
-    cssv:acronym "Xquery"@en ;
-    cssv:alternative ""@en ;
+    
+    cssv:alternative "Xquery"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The XQuery specification is designed to search for information and manage data from various XML sources. By using queries, it allows users to search for different attributes across multiple resources and store the results, thereby facilitating the organisation and management of data."@en ;
     dct:title "XML Query Language (Xquery)"@en ;
@@ -5397,8 +5397,8 @@ cssvrsc:9d0f39c61d26720ef52833ad89a6bf09d7bd7148dac6eb1306edf7516b68b395 a cssv:
     dcat:version "0.0.2" .
 
 cssvrsc:9d677b70169824b046a4a82616729da6bbd4321ea14a7f825e3e16f23697b1f1 a cssv:Specification ;
-    cssv:acronym "DSSC Blueprint"@en ;
-    cssv:alternative ""@en ;
+    
+    cssv:alternative "DSSC Blueprint"@en ;
     cssv:isMaintainedBy cssvrsc:58b7adb6cb104ce15756c8e7a40e9d3dd08e127a73747177cc5697b398510739 ;
     dct:description "The DSSC Blueprint is a strategic document that provides a roadmap for establishing and operating the support structures necessary for the successful deployment and utilisation of common European data spaces. It aims to ensure that these data spaces are well-governed, technically sound, legally compliant, and ultimately deliver value to their participants and the wider European economy and society."@en ;
     dct:title "Data Space Support Centre Blueprint (DSSC Blueprint)"@en ;
@@ -5693,8 +5693,8 @@ cssvrsc:a8a3b7c669eb2bbcd0f9771431fb1aa7ec28ec91ee195254785a29598b9809f6 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:a8a5e1741adf3ad56993183b5026b17b7727383c21c521ec34f005fbb32e99f9 a cssv:Specification ;
-    cssv:acronym "VoID"@en ;
-    cssv:alternative ""@en ;
+    cssv:acronym ""@en ;
+    cssv:alternative "VoID"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Vocabulary of Interlinked Datasets (VoID) is concerned with metadata about RDF datasets. It is an RDF Schema vocabulary that provides terms and patterns for describing RDF datasets, and is intended as a bridge between the publishers and users of RDF data. VoiD descriptions can be used in many situations, ranging from data discovery to cataloging and archiving of datasets, but most importantly it helps users find the right data for their tasks."@en ;
     dct:title "VoID"@en ;
@@ -6456,7 +6456,7 @@ cssvrsc:bf9c7fcbc267a909106b6822be6217946011995f281d7e3278761e3a7437fb32 a cssv:
 
 cssvrsc:bfae866356552984c68139c12d76abefd25832f19eb1b0f78d773a88bc3bf3d4 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ETSI TS 103 458 CYBER"@en ;
+    cssv:alternative "ETSI TS 103 458"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TS 103 458 CYBER specifies high level requirements for the application of Attribute Based Encryption (ABE) to protect PII and personal data on IoT devices/services, cloud services, Wireless Local Area Networks and mobile services, where access to data has to be given to multiple parties and under different conditions. With a main focus on the confidentiality of data, including personal data and Personally Identifiable Information, the present document may help in supporting the General Data Protection Regulation [i.19]."@en ;
     dct:title "ETSI TS 103 458 CYBER; Application of Attribute Based Encryption (ABE) for PII and personal data protection on IoT devices, WLAN, cloud and mobile services - High level requirements"@en ;
@@ -7306,7 +7306,7 @@ cssvrsc:dbd0b032b3ec7eb0b043fa1dc3b5df5913b1388ffde57e8e3650b5b0f2f33eb1 a cssv:
 cssvrsc:dc70a1946ca6f74179f6cb112277913e0efdcc46325e1d011364255a202ba9ac a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "LISS"@en ;
-    cssv:alternative "ISO/IEC TR 14369"@en ;
+    cssv:alternative "ISO/IEC TR 14369:2018"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC TR 14369 provides guidance to those involved in developing IT service specifications and their interfaces intended for use in particular by external applications that do not necessarily share the environment and assumptions of a particular programming language."@en ;
     dct:title "ISO/IEC TR 14369:2018 Information technology — Programming languages, their environments and system software interfaces — Guidelines for the preparation of language-independent service specifications (LISS)"@en ;
@@ -7700,6 +7700,7 @@ cssvrsc:e5b93bfdb3252d290b8d69275202406c6a66d38f3b85d1afc7dd834d4e0c3085 a cssv:
 
 cssvrsc:e5be83b5c5d042d8ecde5179bed404cfd3dffb45fa1546b754e002dca216349d a cssv:Specification,
         owl:NamedIndividual ;
+    cssv:acronym "NGSI-LD API"@en;
     cssv:alternative "ETSI GS CIM 009"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The NGSI-LD API enables users to apply context information in multiple scenarios. Context information is modeled as attributes of context entities, also called digital twins, which represent real-world assets (e.g., a bus in a city or a baggage claim ticket). The NGSI-LD API is typically used to provide standardized access to digital twin data."@en ;
