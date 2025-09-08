@@ -18,7 +18,7 @@ cssvrsc:0046834e1507afcd215d2fb7801a4b53ed42dc81f370944e96c13738ac1ee102 a cssv:
     dcat:distribution cssvrsc:f5073292-2941-4d32-984f-a81a40eece83 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 337/37" .
 
 cssvrsc:00748d5c4bf3205488416caf1081c9f86265f6937ea7487b18d63710b7c233d0 a cssv:Specification ;
     cssv:acronym ""@en ;
@@ -492,7 +492,7 @@ cssvrsc:0bea14534616081e41ae6305b70508a1cc5e43feb05a1f254e495c902c1c0330 a cssv:
     dcat:distribution cssvrsc:a96281d3-4a3a-4556-b7f0-945eb65d5f91 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 53/66" .
 
 cssvrsc:0c29d2cb413399491569ef6ed8f2eaa3624e4feda6c3c3d88d51862416a23dc3 a cssv:Specification,
         owl:NamedIndividual ;
@@ -611,14 +611,14 @@ cssvrsc:0e2bad82870e7abae827de478cff738ca43ce1e7ed07c7c400652936d8731105 a cssv:
 
 cssvrsc:0e933635134babec537800b3a518bc3f98b95e43dcd0cedaede685fba47a8a3a a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:alternative "Regulation 2019/881/EU"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
     dct:title "The EU Cybersecurity Act"@en ;
     dcat:distribution cssvrsc:a3004cd3-8c68-4a17-a59d-a216d4150f48 ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 151/15" .
 
 cssvrsc:1051d9d733d3a1f21d84e7efb0d9812dba7a5fb8b467dcfacf33ca6c86904e10 a cssv:Specification,
         owl:NamedIndividual ;
@@ -945,7 +945,7 @@ cssvrsc:189e9f104cccc0c206c4d749f5009ce2caf50024d8a61cc20e0d9877a4948cb8 a cssv:
     dcat:distribution cssvrsc:b9783197-722b-4db1-90df-7d3eeaad372e ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 376/36" .
 
 cssvrsc:18e962f8926c32cf12933a15d98fa0827bf23521f480c819de718584788b2aa7 a cssv:Specification,
         owl:NamedIndividual ;
@@ -956,7 +956,7 @@ cssvrsc:18e962f8926c32cf12933a15d98fa0827bf23521f480c819de718584788b2aa7 a cssv:
     dcat:distribution cssvrsc:5fd92f20-6982-4db5-9316-144d450c6f73 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 365" .
 
 cssvrsc:18eb1b04c899747c21371fe1a4084b6ba9e8def932e53698af13bffff77410d5 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1208,7 +1208,7 @@ cssvrsc:1db4b73d79c4745a67c5be20e0006b042569498e82631153b7756554d0847d80 a cssv:
     dcat:distribution cssvrsc:d98abeed-26ea-4f31-935d-9587c140fabf ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 337/11" .
 
 cssvrsc:1e0210702ccff26bc388a1d4dd382ce9807ab4f0bba75206e10cedc66fa1af4b a cssv:Specification,
         owl:NamedIndividual ;
@@ -1631,7 +1631,7 @@ cssvrsc:2b1360464d9f04688a468f625ce1b738d81cf37a037ddee359143646bb7b8c3e a cssv:
     dcat:distribution cssvrsc:4437e890-08f0-4e2d-b476-87d7aec4dc16 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 235/1" .
 
 cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1805,7 +1805,7 @@ cssvrsc:2f848b09bbfd40328bd513dc06611fdd900e08b4f95c6ab5e0e5b7c957ab57a1 a cssv:
     dcat:distribution cssvrsc:8bb697ed-90f7-4e0f-8505-f9d4888b1a3e ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 235/7" .
 
 cssvrsc:2f856146c296f898d22bb9f902b57a9165aa118215b17854df23e4642ceb4c06 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1916,7 +1916,7 @@ cssvrsc:323f9183321bfcf41cf4b055c06d5c31f6d31023c1eecd49f299235fdf803eb2 a cssv:
     dcat:distribution cssvrsc:0a84d164-01a5-4b19-a093-f70f8224901f ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 94/1" .
 
 cssvrsc:32734470ba159f230ee255180239975caec190ecd44e769d8a57df7e16b90efe a cssv:Specification,
         owl:NamedIndividual ;
@@ -2074,7 +2074,7 @@ cssvrsc:34a80d468898329016f4b93cbab810ea6fb1da5b54076014fb64d46f4b36a66a a cssv:
     dcat:distribution cssvrsc:bead2000-898f-48ee-b78f-634e55e58019 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 337/35" .
 
 cssvrsc:34ae965b550d09334658a78fd5eca236e8640a1ba4df78f05a728ccddafacfd1 a cssv:Specification,
         owl:NamedIndividual ;
@@ -2576,7 +2576,7 @@ cssvrsc:4436eacc9ca95a0a58e5e7992d9b210830720a4aeec5009ed5ef7437b80f3987 a cssv:
     dcat:distribution cssvrsc:f3457bb5-7a7b-4483-957c-a76d5d9246fc ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 321/36" .
 
 cssvrsc:446e7301829e85707da02adcf6c1b42a20d725363731cfa6e8c362b9713cf2e7 a cssv:Specification,
         owl:NamedIndividual ;
@@ -2927,7 +2927,7 @@ cssvrsc:4fc4d2011afea421c53f511b8cc5b2757e24a04071e28c0a38161f609a60d135 a cssv:
     dcat:distribution cssvrsc:38998320-6189-42fe-8fba-fb0f0d124f98 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 94/65" .
 
 cssvrsc:501b3f4af1f8c60c0a97be87156ea16a796c318f0083ca5700916e0f3c87e3bc a cssv:Specification,
         owl:NamedIndividual ;
@@ -3174,7 +3174,7 @@ cssvrsc:57d034134fde774a09d3434c0677311f4f4460daea3244fc286e63f67e434ac2 a cssv:
     dcat:theme "Business Architecture"@en,
         "Implementation Governance"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 175/1" .
 
 cssvrsc:57f94ddc093ddc32cd79221ba6fbf6b61410ae60aff1127417ec2325354aff18 a cssv:Specification,
         owl:NamedIndividual ;
@@ -3791,7 +3791,7 @@ cssvrsc:6e26f89f14b60fb8dcb3a51ed3abc8ff53023b51520f2e578b707919b81a7f66 a cssv:
     dcat:distribution cssvrsc:4042bedf-fe14-4852-8c11-fb2281f6ce5a ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 330/39" .
 
 cssvrsc:6eb2a0776547a9750027a031719cb9ca3e620970f7dfd42bd96ac025b8a6f463 a cssv:Specification ;
     cssv:acronym "" ;
@@ -3897,7 +3897,7 @@ cssvrsc:710c271ac62cdb5a5a194d8a48dbeaa906bf84f68d4f2872b6aa978102994442 a cssv:
     dcat:distribution cssvrsc:50cf8e98-d0e7-458a-a958-42562d204ec7 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 347/1" .
 
 cssvrsc:7123d0491b1b73634fe44db3899aa0d8b486e4899024c5e6bf6479b381c03bdd a cssv:Specification,
         owl:NamedIndividual ;
@@ -3940,7 +3940,7 @@ cssvrsc:72090268c68b4a977a65285103fa1fe43043c8b2085efe06850ab4716587c05c a cssv:
     dcat:distribution cssvrsc:bf7a2ddb-6aca-4d7f-88dd-f64d75d2b0aa ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 136/1" .
 
 cssvrsc:7241a67b5f3d3fca7be475fb56446bace3ef101ecb5f2bc67382cce0afdaa0f3 a cssv:Specification ;
     cssv:acronym "" ;
@@ -4650,7 +4650,7 @@ cssvrsc:87fd1766fc6e072ec1fdd3319775ffbefafb6429da76e67fafd1b436e6b5aec7 a cssv:
     dcat:distribution cssvrsc:154330b8-5b07-42e8-9e33-42550dbc202c ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 188/67" .
 
 cssvrsc:88655d83e1e07e94197ba457206815a463f265068bfc2e631276ea1358affe25 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4876,14 +4876,14 @@ cssvrsc:8fe3b1da6801f8be408c193d21e850b679d122d9571dc376bcb79e32c36f6330 a cssv:
 
 cssvrsc:90b4da7a36d0b8f01c64463622df32fc84fc4954e08fecc8897874f4f20444eb a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:Alternative "Regulation 2017/0086/COD"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
-    dct:description "Legal act n establishing a single digital gateway to provide information, procedures, assistance and problem solving services"@en ;
+    dct:description "Legal act on establishing a single digital gateway to provide information, procedures, assistance and problem solving services"@en ;
     dct:title "Proposal for regulation on establishing a Single Digital GateWay Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on establishing a single digital gateway to provide information, procedures, assistance and problem solving services and amending Regulation (EU) No 1024/2012 COM/2017/0256 final - 2017/086 (COD)"@en ;
     dcat:distribution cssvrsc:9f093297-ea4d-450f-804b-c761097a69c9 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "COM(2017) 256" .
 
 cssvrsc:90b892f316000b3f7e9c96ff2c0cb7bd8a2e5da58051db814f8471f3e64e4f42 a cssv:Specification,
         owl:NamedIndividual ;
@@ -5428,7 +5428,7 @@ cssvrsc:9eee7b5f591edb9c84e3d07d234b97ce0f5e84c26989b649ac96715af0adf328 a cssv:
     dcat:distribution cssvrsc:4c1ed9e1-c375-4e98-aac2-07424c4b761f ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 178" .
 
 cssvrsc:9f20060720cf509194734e94953c33a87e28b82bebad2ea64ba192e1ade4e4bf a cssv:Specification,
         owl:NamedIndividual ;
@@ -5690,7 +5690,7 @@ cssvrsc:a8a3b7c669eb2bbcd0f9771431fb1aa7ec28ec91ee195254785a29598b9809f6 a cssv:
     dcat:distribution cssvrsc:a1d42803-a8dd-4093-a470-2373dd254f90 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 69/23" .
 
 cssvrsc:a8a5e1741adf3ad56993183b5026b17b7727383c21c521ec34f005fbb32e99f9 a cssv:Specification ;
     cssv:acronym ""@en ;
@@ -6743,7 +6743,7 @@ cssvrsc:c68c118663bdaec42dcc2bbd683897cdbe4f670e27aab2c346d953281b0265c2 a cssv:
     dcat:distribution cssvrsc:7e4c0c4c-f187-41f2-a9a6-a4707e204204 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 194/1" .
 
 cssvrsc:c6f93df663ecf8b0c48d8dd95d6caf35ca48fcec7ba598f809bddb4651bcc230 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6869,7 +6869,7 @@ cssvrsc:cb163cafa81d4892c4587939d02888172ad8b1e87e3ab8e6356c5532174881ef a cssv:
     dcat:distribution cssvrsc:d36ceea3-9437-460b-8842-6b7ac9d9c667 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 201" .
 
 cssvrsc:cbce0e84ee4555701de3c0aa98dd30ffcfd20060d9e938068ae9906beefac8db a cssv:Specification,
         owl:NamedIndividual ;
@@ -6911,7 +6911,7 @@ cssvrsc:cf42ed66151cf874dbb8eb198c8035f5441279275791ae74581afc523d968ade a cssv:
     dcat:distribution cssvrsc:1e620f75-9213-40a9-b7b4-4799a5168b07 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 345" .
 
 cssvrsc:cf607476dd87aa844e3c2a62d978d810afd936f4afd580dd3eeb97979fad9b1b a cssv:Specification,
         owl:NamedIndividual ;
@@ -6974,7 +6974,7 @@ cssvrsc:d0d74f80cb1c08bff33c480fe37f8209a802479bc9ac5c785fb47a9d3703ba8d a cssv:
     dcat:distribution cssvrsc:89f94c65-5678-4d51-9c20-10b170b3534b ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 119/89" .
 
 cssvrsc:d0d8ea27bcb34163af6c5bbdf120557e0a2edd1b38e85e52f06256729faf38c7 a cssv:Specification ;
     cssv:acronym ""@en ;
@@ -7291,7 +7291,7 @@ cssvrsc:dbbcf731896ac255a462fd008c619158922f551be78e24342e93f2279abf94ed a cssv:
     dcat:distribution cssvrsc:74c2dfea-504e-4808-8111-771433cb86b9 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 315/44" .
 
 cssvrsc:dbd0b032b3ec7eb0b043fa1dc3b5df5913b1388ffde57e8e3650b5b0f2f33eb1 a cssv:Specification ;
     cssv:acronym ""@en ;
@@ -7334,7 +7334,7 @@ cssvrsc:dddff8544042eb988c47233f82dabea445e63f0cc63a8d4b3927aaa10a7a1829 a cssv:
     dcat:distribution cssvrsc:2fc9d507-0266-4b36-a0a1-a937a32807aa ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 328/123" .
 
 cssvrsc:dde05f7ca9b85d5179d8e9d31a70388f11eb71611c0b8982951f5fc8b78e193d a cssv:Specification,
         owl:NamedIndividual ;
@@ -7729,7 +7729,7 @@ cssvrsc:e7104ff4d29d40f12241e050a7abdcf70d5250f2d16c3610631cf2798594b5d7 a cssv:
     dcat:distribution cssvrsc:f86345aa-14d5-4663-a370-6416d774f24c ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 303/59" .
 
 cssvrsc:e7181b33212448e2bd8baba619ff15d99e821efa70e0edccf732bd5a51031afe a cssv:Specification,
         owl:NamedIndividual ;
@@ -8027,7 +8027,7 @@ cssvrsc:efb40789fe3ad96b26d88aeb5afa229851bc73b19b6a3d4b8220ef3a37fed1c7 a cssv:
     dcat:distribution cssvrsc:c3c2defa-42c6-41bc-b58a-623c86832aef ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 327/1" .
 
 cssvrsc:f02ea1d3690a89ddc570508919eb8bc2468493430ab03f24fd0d61998501e306 a cssv:Specification,
         cssv:Standard,
@@ -8165,7 +8165,7 @@ cssvrsc:f4d282a8b83575a2b688620086fadc5247e246daf62a5335f6f9251e6f3db07d a cssv:
     dcat:distribution cssvrsc:74cd6459-2022-463b-bb32-9af607fb2eae ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 94/243" .
 
 cssvrsc:f4e184ca98937f5afbd41c1eb28269fee518423fa7ef2a0da06997db8eb9ac8e a cssv:Specification,
         owl:NamedIndividual ;
@@ -8375,7 +8375,7 @@ cssvrsc:f9f266ff5a4e9932ce671b5e0d44de75978ba8ed545b989a8c197e26be9a1fda a cssv:
     dcat:distribution cssvrsc:53170b03-d80d-4342-b293-116534053174 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 108/1" .
 
 cssvrsc:f9fabf6f9e386fd28c1b6776c65cb19baf8dca7999e7612481594bfd852c4af7 a cssv:Specification,
         owl:NamedIndividual ;
@@ -8513,7 +8513,7 @@ cssvrsc:fde042cd63deec50c59dbf0714ffc5c87e72019964262a0dc96abb6543182501 a cssv:
     dcat:distribution cssvrsc:3f3a8990-b4da-4df0-a752-a561247d1f52 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 112/42" .
 
 cssvrsc:fe1938f85a6bad78270df0f3028ee3b204a1eac4bb5970f1fecc55f78e50e71a a cssv:Specification,
         owl:NamedIndividual ;
@@ -8524,7 +8524,7 @@ cssvrsc:fe1938f85a6bad78270df0f3028ee3b204a1eac4bb5970f1fecc55f78e50e71a a cssv:
     dcat:distribution cssvrsc:f7df2e19-8f2f-44fd-90c5-b46ca9a7e672 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 145" .
 
 cssvrsc:fec0fd9b514e720e88d41baca3909a4e567a9bef966ffae60d8abc6b068c5861 a cssv:Specification,
         owl:NamedIndividual ;
@@ -8567,7 +8567,7 @@ cssvrsc:ff8279db1fde0e4287ecd59aab3e2eeba63097e58dcd9ccfa4c55022f881e5e4 a cssv:
     dcat:distribution cssvrsc:55b4162c-e58f-49b6-93b1-12bd8eafe2eb ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 348/129" .
 
 cssvrsc:ffa44598fbf3f5e780ae0a6d7551e37c25f9b7261e80efb2848dcc74d7c969e3 a cssv:Specification ;
     cssv:acronym ""@en ;
