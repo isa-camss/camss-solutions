@@ -7,6 +7,20 @@
 @prefix elis: <https://data.europa.eu/2sa/elis#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
+cssvrsc:0d0358cc6104ba9e15b02884c65417aea28c7246ed1ca5bfc77dfb13e2917088 a cssv:Specification ;
+    dct:relation [ dct:description "The BPDM API is a main component of the architecture framework at Catena-X as it enables the partners to use the business partner (BP) data for other services and apps. Moreover, it can be used by business apps or other shared services that want to show additional information to a BPN anywhere in the system."@en ;
+            dct:relation eira:APIApplicationInterface ],
+        [ dct:description "The BPDM API specification allows organisations to manage and track information about their business partners, such as companies or individuals they work with. In this context, the API can handle creation, updating, or removal of business partner records, ensuring data is up-to-date."@en ;
+            dct:relation eira:DataManagementApplicationService ],
+        [ dct:description "The BPDM API specification allows organisations to manage and track information about their business partners, such as companies or individuals they work with. In this context, the API can handle creation, updating, or removal of business partner records, ensuring data is up-to-date."@en ;
+            dct:relation eira:DataManagementApplicationComponent ] .
+
+cssvrsc:0d3afc2bec841bc6e01d5399eb445dd06444d8c53055e00f12dd6f85bb2ab96a a cssv:Specification ;
+    dct:relation [ dct:description "The RFC 3748 specification defines the Extensible Authentication Protocol (EAP), a protocol framework that supports multiple authentication methods. It allows a network access device to communicate authentication information to a server, which decides whether the user or device is granted access to the requested network or service."@en ;
+            dct:relation eira:AuthenticationApplicationService ],
+        [ dct:description "The RFC 3748 specification defines the Extensible Authentication Protocol (EAP), a framework for supporting multiple methods of authentication. By verifying the identity of users or devices, EAP provides the basis upon which systems can enforce authorisation policies. In this way, while EAP itself does not decide permissions, it supplies the trusted authentication outcome required for authorisation decisions. Consequently, the server can authorise access to specific resources or services."@en ;
+            dct:relation eira:AuthorisationApplicationService ] .
+
 cssvrsc:36d51704e7a82bf08efe19b8adea8c4eb23671175fb48318426ad0b1189e3164 a cssv:Specification ;
     dct:relation [ dct:description "The ETSI EN 301 549 specification is addressed to offer guidelines on how to adapt different TIC components, such as web pages, to people with disabilities. In this sense, while the specification does not offer a software to do that, it sets the rules and requires that web pages and other IT systems must take into account the diversity of needs, making web pages accesible to all."@en ;
             dct:relation eira:AdaptiveConfigurationBusinessInterface ] .
@@ -288,6 +302,10 @@ elis:11aac9c3-b1ad-4e3f-8bb8-e8696f7fb9e6 a dcat:CatalogRecord ;
     dct:title "RDF-star and SPARQL-star"@en ;
     foaf:primaryTopic cssvrsc:f87dfdb640b6ae7225549d78c0e76b11c1ad9e9356a17182b260e4923432b646 .
 
+elis:11c0b24d-a3e5-477a-9325-cf137710149d a dcat:CatalogRecord ;
+    dct:title "Framework of smart greenhouse service" ;
+    foaf:primaryTopic cssvrsc:ac283a50733f9b996279bbf977b1823b734bb7b5814056130b92cca7c4635e21 .
+
 elis:1210fa5b-c896-4b83-95ee-b722aeab26a2 a dcat:CatalogRecord ;
     dct:title "Service Requirements for Layer 2 Provider-Provisioned Virtual Private Networks"@en ;
     foaf:primaryTopic cssvrsc:1882dc8dd53cd68ae6f4ef083f0a36929b238739d27d72ee21f1da2ca020f7b6 .
@@ -347,6 +365,10 @@ elis:1576d0ec-bda9-4d79-8363-39e17dbf9f44 a dcat:CatalogRecord ;
 elis:159500b2-2d40-4153-9cac-b307aff2a709 a dcat:CatalogRecord ;
     dct:title "SIREN"@en ;
     foaf:primaryTopic cssvrsc:f8f87159fcb3a6a0d0731f58a217206a03908f2d6f7f6923060efc8dfe03380d .
+
+elis:15d8df9d-b4bf-44b8-8dfc-1004fb6aa5d7 a dcat:CatalogRecord ;
+    dct:title "Security methodology for the use of identity-based cryptography in support of Internet of things (IoT) services over telecommunication networks (ITU-T X.1365)" ;
+    foaf:primaryTopic cssvrsc:15a8627ef6b3409bf534b8537edc2e9778d2587cf643b4a5ec7c6b556a75bb13 .
 
 elis:162c9e98-486a-4908-b633-d7200267a250 a dcat:CatalogRecord ;
     dct:title "System for Cross-domain Identity Management: Definitions, Overview, Concepts, and Requirements RFC 7642"@en ;
@@ -496,6 +518,10 @@ elis:2431d455-a23e-4f6b-a3e8-c2b87b9e0d3c a dcat:CatalogRecord ;
     dct:title "Hypermedia as the Engine of Application State (HATEOAS)"@en ;
     foaf:primaryTopic cssvrsc:bbe607d5d2d39dfcc99546066531e81cd21e7129d5a78683c90d00072e4142b2 .
 
+elis:24a0912d-677a-434b-8c34-418f4f7c793a a dcat:CatalogRecord ;
+    dct:title "Functional architecture of network-based driving assistance for autonomous vehicles" ;
+    foaf:primaryTopic cssvrsc:8e2c8ec84395efa47a28ad653231f0194c5b9eb2943282b2346a37032a140682 .
+
 elis:24adee9d-f873-4f14-9624-5c23a965787a a dcat:CatalogRecord ;
     dct:title "OpenPGP"@en ;
     foaf:primaryTopic cssvrsc:df502be6cf0d0a68c7358be2bc8a66de5c0ed793696d5a09c8ab44e9b9faaac9 .
@@ -519,6 +545,10 @@ elis:256af49b-df90-4259-bb57-0721dbce9be7 a dcat:CatalogRecord ;
 elis:2620db47-9bce-4155-8aa1-16ca49c8b839 a dcat:CatalogRecord ;
     dct:title "UN/CEFACT CCTS v3.0.0"@en ;
     foaf:primaryTopic cssvrsc:9838143243e6b799f1c7feaf960d1fa9220e6c281a5528e55a3a8bd8e9f5ffaf .
+
+elis:264ca14d-a95c-4c96-92d0-2d0349b4fcbf a dcat:CatalogRecord ;
+    dct:title "IPv6 over BLUETOOTH(R) Low Energy" ;
+    foaf:primaryTopic cssvrsc:43c225a0b3a969615a19f525ad19d49bc0916e190f06ff374b7ab3ea7fe8ee99 .
 
 elis:266edcd6-49c3-446d-8c73-3582bbec371a a dcat:CatalogRecord ;
     dct:title "Distributed Relational Database Architecture (DRDA)"@en ;
@@ -548,6 +578,10 @@ elis:2770b4fc-6dae-4e79-aa2b-e3f4de89c35a a dcat:CatalogRecord ;
 elis:27cc5f58-637c-412f-a09b-b176ec9a3a39 a dcat:CatalogRecord ;
     dct:title "ODRL Vocabulary & Expression 2.2"@en ;
     foaf:primaryTopic cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185 .
+
+elis:28b51099-7bed-4c0f-a2de-440805deaca0 a dcat:CatalogRecord ;
+    dct:title "Group Communication for the Constrained Application Protocol (CoAP)" ;
+    foaf:primaryTopic cssvrsc:cfa094dfca76277e80fc8e9e4f98d8011407290eb0fac2db2d07b70312300f10 .
 
 elis:28cf19f7-c2ee-4917-81fb-95a8f37af3ac a dcat:CatalogRecord ;
     dct:title "CYBER; Identity Management and Discovery for IoT (ETSI TS 103 486)" ;
@@ -1142,6 +1176,10 @@ elis:5966a72c-5fe3-42a0-a91b-6485ad2e7b5a a dcat:CatalogRecord ;
     dct:title "eIDAS SAML message format"@en ;
     foaf:primaryTopic cssvrsc:0b319bf69d7a0413978bac35d8483f5b816fbda0e77c0291093cc3e6fe1bbae8 .
 
+elis:59bcc81d-1a02-40af-80e1-160e0d815872 a dcat:CatalogRecord ;
+    dct:title "GXFSv2 - Identity and Access Management" ;
+    foaf:primaryTopic cssvrsc:e16c26ec6e45082030648832bf5b07a2a55d64968582d394bf18b7b873c2776b .
+
 elis:59bf1a65-a5ad-481b-951d-840a54560650 a dcat:CatalogRecord ;
     dct:title "Universal Business Language (UBL)"@en ;
     foaf:primaryTopic cssvrsc:b059e5051bb83f9abf3009b747716a429d552c29ffec38039c830dbe2f45a1b9 .
@@ -1250,6 +1288,10 @@ elis:613f9f17-e6b5-4aae-9103-25c355ec9904 a dcat:CatalogRecord ;
 elis:61a4a219-aef9-460f-ad93-2454fe3183c1 a dcat:CatalogRecord ;
     dct:title "Electronic Signatures and Infrastructures (ESI); XAdES digital signatures; Part 1: Building blocks and XAdES baseline signatures (ETSI EN 319 132-1)"@en ;
     foaf:primaryTopic cssvrsc:8fa9cd7abc111f52f04bbcf3ebdfa44e08756fdf213722ef95c6fb3470975b07 .
+
+elis:61b3be9b-45f7-437f-a3f5-091f550a85b0 a dcat:CatalogRecord ;
+    dct:title "Requirements and capability framework for IoT-based automotive emergency response system" ;
+    foaf:primaryTopic cssvrsc:7f9b20000e60e4cdcc457714628e5d9ad52ff0d696e1ffd344d06a23615d492d .
 
 elis:622b6cc8-fd5e-4732-ae3f-60750ffcb48a a dcat:CatalogRecord ;
     dct:title "X.1148 : Framework of de-identification process for telecommunication service providers"@en ;
@@ -1614,6 +1656,10 @@ elis:7eb8cadf-0fdd-4c52-aba6-e0d163e06f38 a dcat:CatalogRecord ;
 elis:7ee4e317-935c-4ea5-b6b6-715d2465c2f7 a dcat:CatalogRecord ;
     dct:title "GXFSv2 ICAM"@en ;
     foaf:primaryTopic cssvrsc:6b92fe898d154fc9bdae27f7bbd2220533f9997c1800c9254626a9bbfad96686 .
+
+elis:7ffdf402-7ed2-40ff-a2da-f4beec2530e8 a dcat:CatalogRecord ;
+    dct:title "Observing Resources in the Constrained Application Protocol (CoAP) (RFC 7641)" ;
+    foaf:primaryTopic cssvrsc:449d772a61928d1cdd3940897b7e25adfb553c1947aa38504667c0eaf8a7a7cf .
 
 elis:8001b716-d0ba-45a2-a6ea-27e746ba4d0b a dcat:CatalogRecord ;
     dct:title "MyData Account Specification"@en ;
@@ -2189,7 +2235,7 @@ elis:b0cc9f27-88b0-4452-9dcf-71530a425ef6 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:090002fd65228fad1e1f27c75c010e1d2d281e846b97647bd072d2cc25684737 .
 
 elis:b0eff40d-253e-4eed-81d3-8f1d810a4315 a dcat:CatalogRecord ;
-    dct:title "OpenID"@en ;
+    dct:title "OpenID Connect Core 1.0"@en ;
     foaf:primaryTopic cssvrsc:f2c5ca77b353f96dffe6df722a1f36cddf6e502c744ea9c59459d9144156494f .
 
 elis:b0f3a6b6-1f18-4244-a3d5-52b55153909f a dcat:CatalogRecord ;
@@ -2499,10 +2545,6 @@ elis:c94edd54-3035-47da-b6a3-6b277ed8433e a dcat:CatalogRecord ;
     dct:title "Metadata Registries Interoperability and Bindings (MDR-IB) (ISO/IEC 20944-1:2013)"@en ;
     foaf:primaryTopic cssvrsc:7d40a79649484b1ab2217c43332f6a6eb13979cdd71705624f8bb6f75df3d2de .
 
-elis:c9806a69-6c5d-4524-8cc2-3e133e8e8a48 a dcat:CatalogRecord ;
-    dct:title "Business Partner Data Pool API (BPM - 003 Business Partner Data Pool API)"@en ;
-    foaf:primaryTopic cssvrsc:0d0358cc6104ba9e15b02884c65417aea28c7246ed1ca5bfc77dfb13e2917088 .
-
 elis:c9cae7c4-ba1a-46b1-8666-c7dd7845f0b4 a dcat:CatalogRecord ;
     dct:title "Solid"@en ;
     foaf:primaryTopic cssvrsc:b8b311b0f2739e0cc32af32a91b5913e852ed565cf319a4eceb58898e3f50a9c .
@@ -2594,10 +2636,6 @@ elis:d307a8ad-ae4f-43b4-b300-802c093cc2be a dcat:CatalogRecord ;
 elis:d3a6732e-b35e-4746-91ef-f15b05563b01 a dcat:CatalogRecord ;
     dct:title "RPKI Architecture"@en ;
     foaf:primaryTopic cssvrsc:4ce75b13d1326e2fe8c37f475f8fba0e10b181848b14fe203ff8f47c322c536d .
-
-elis:d406c19b-6680-43ce-b32a-fe0e2ab41593 a dcat:CatalogRecord ;
-    dct:title "OpenID Connect (OIDC)" ;
-    foaf:primaryTopic cssvrsc:ef58703ca13db385e38bf5d7756d191c7425e481cee6232c33812352d809bb81 .
 
 elis:d437e6eb-e357-4cde-a7c0-ba9c05403dfd a dcat:CatalogRecord ;
     dct:title "ISO/IEC 7498-1:1994 Information technology — Open Systems Interconnection"@en ;
@@ -2798,6 +2836,10 @@ elis:e318f8c4-3722-4e94-b1ff-b7d0de242740 a dcat:CatalogRecord ;
     dct:title "OAuth 2.0 Authorization Server Metadata"@en ;
     foaf:primaryTopic cssvrsc:09b8018fbcf71fe4d3e71fe14e009ae553e050745176a31ac00f2c6b72f95e7a .
 
+elis:e33a6d2a-a08d-4a02-b6f1-37cc4d15ad35 a dcat:CatalogRecord ;
+    dct:title "Improved Extensible Authentication Protocol Method for 3rd Generation Authentication and Key Agreement (EAP-AKA')" ;
+    foaf:primaryTopic cssvrsc:464eea9a4a3838cf0ccf4c37d19eb5e1edec6e52d0690d516b6dde92daf47766 .
+
 elis:e411c149-3c8f-487d-9dc7-5bf70dc28a95 a dcat:CatalogRecord ;
     dct:title "SAML 2.0 - Security Assertion Markup Language "@en ;
     foaf:primaryTopic cssvrsc:4ac03729ce6059a948f986d308360c552166a22ef62b90dc47d0f735371830a2 .
@@ -2866,6 +2908,10 @@ elis:e9544d42-2757-4565-8d5b-ef19169fae51 a dcat:CatalogRecord ;
 elis:e966e823-4d86-4c21-bc7f-90b5e1d20761 a dcat:CatalogRecord ;
     dct:title "UN/EDIFACT Syntax 3"@en ;
     foaf:primaryTopic cssvrsc:6f13fa8a840b2e772daad1f7091c757819df5a583941cc0889a97ea4fca8e3e5 .
+
+elis:e967bad7-84b1-4c51-a570-9628fb96fb33 a dcat:CatalogRecord ;
+    dct:title "Key performance indicators for smart sustainable cities to assess the achievement of sustainable development goals" ;
+    foaf:primaryTopic cssvrsc:34dc870c1a82f85f95a3b4a57f09f5af0871ebf13c572d53db6b96bfbcf02e9b .
 
 elis:e9cec0a9-784f-4e0f-a424-a9fc7685aef7 a dcat:CatalogRecord ;
     dct:title "EUR-Lex"@en ;
@@ -3325,7 +3371,13 @@ cssvrsc:085dc10cf2e33d26e682d056df20e9283e886cea3aad4184ff835e2253eb2ea0 a cssv:
             dct:relation eira:DataExchangeApplicationService ] .
 
 cssvrsc:088ecda1c81a62bb73536c28835ab1a3225e9e609308950756ff65847197344d a cssv:Specification ;
-    dct:relation [ dct:description "XSLT metadata enable any source document to be processed with the adequate schema, which might be held in a system catalog or repository."@en ;
+    dct:relation [ dct:description "XSLT provides template rules that allow the reuse of transformed information between information systems."@en ;
+            dct:relation eira:DataSyntaxMappingCatalogueDataObject ],
+        [ dct:description "XSLT is used for the transformation of XML documents into other XML documents without any need of using intermediate storage systems."@en ;
+            dct:relation eira:DataMappingCatalogueDataObject ],
+        [ dct:description "Specification used for the transformation of data and the mapping between format and sources."@en ;
+            dct:relation eira:DataMappingDataObject ],
+        [ dct:description "XSLT metadata enable any source document to be processed with the adequate schema, which might be held in a system catalog or repository."@en ;
             dct:relation eira:MetadataCatalogueDataObject ],
         [ dct:description "Specification used for the transformation of data and the mapping between format and sources, which can be shared and reused among different users."@en ;
             dct:relation eira:SoftwareComponentsCatalogueDataObject ],
@@ -3333,12 +3385,6 @@ cssvrsc:088ecda1c81a62bb73536c28835ab1a3225e9e609308950756ff65847197344d a cssv:
             dct:relation eira:DataExtractionTransformationAndLoadingApplicationComponent ],
         [ dct:description "Specification used for the transformation of data and the mapping between format and sources, which can be shared and reused among different users."@en ;
             dct:relation eira:DataExtractionTransformationAndLoadingApplicationService ],
-        [ dct:description "XSLT provides template rules that allow the reuse of transformed information between information systems."@en ;
-            dct:relation eira:DataSyntaxMappingCatalogueDataObject ],
-        [ dct:description "XSLT is used for the transformation of XML documents into other XML documents without any need of using intermediate storage systems."@en ;
-            dct:relation eira:DataMappingCatalogueDataObject ],
-        [ dct:description "Specification used for the transformation of data and the mapping between format and sources."@en ;
-            dct:relation eira:DataMappingDataObject ],
         camssa:4d04f5539c96e1a6d3b6abe23551cac5ef5c58105915362ad38252329c4b37e9,
         camssa:e1ac3258cee1ca18fdc82ca0684f8f4894a821ca046195b83dd6da1431d56cd0 .
 
@@ -3501,14 +3547,6 @@ cssvrsc:0cbd98b34587df9ae6f011ed9513b8bf30b04bb840c1b97407d2741f99457940 a cssv:
 cssvrsc:0cc1d95e0946cf114dab33b8462232232c4cb7171412b0fb25f4afd5f12209aa a cssv:Specification ;
     dct:relation [ dct:description " identifies security threats on the communications as service application enviroments. The ITU-T X.1601 identifies the risks CaaS, which are a result of merging communication capabilities of telecommunications and the Internet. Thus, the specification identifies the risks, and proposes which security requirements are needed to face them."@en ;
             dct:relation eira:SecurityFrameworkBusinessObject ] .
-
-cssvrsc:0d0358cc6104ba9e15b02884c65417aea28c7246ed1ca5bfc77dfb13e2917088 a cssv:Specification ;
-    dct:relation [ dct:description "The BPDM API is a main component of the architecture framework at Catena-X as it enables the partners to use the business partner (BP) data for other services and apps. Moreover, it can be used by business apps or other shared services that want to show additional information to a BPN anywhere in the system."@en ;
-            dct:relation eira:APIApplicationInterface ],
-        [ dct:description "The BPDM API specification allows organisations to manage and track information about their business partners, such as companies or individuals they work with. In this context, the API can handle creation, updating, or removal of business partner records, ensuring data is up-to-date."@en ;
-            dct:relation eira:DataManagementApplicationService ],
-        [ dct:description "The BPDM API specification allows organisations to manage and track information about their business partners, such as companies or individuals they work with. In this context, the API can handle creation, updating, or removal of business partner records, ensuring data is up-to-date."@en ;
-            dct:relation eira:DataManagementApplicationComponent ] .
 
 cssvrsc:0d185280c7e0fb66ab5bae0aa28e834491a538620bcee40eb0d27107e9cdcf4c a cssv:Specification ;
     dct:relation [ dct:description "OneM2M Functional Architecture harmonizes and specifies the end-to-end oneM2M functional architecture in the M2M service layer."@en ;
@@ -3680,6 +3718,16 @@ cssvrsc:1511141514945ed0630bbaa64cf595748a6dba986bf36176d7a4e551850792ba a cssv:
 cssvrsc:15934bcfcb57d72b1b73d913180ce7f86d2773c32725efa41ddb6b14e143cb84 a cssv:Specification ;
     dct:relation [ dct:description "Clause BSD License is one of the most common open source licenses. Once they are used, they are considered agreements."@en ;
             dct:relation eira:TechnicalInteroperabilityAgreementContract ] .
+
+cssvrsc:15a8627ef6b3409bf534b8537edc2e9778d2587cf643b4a5ec7c6b556a75bb13 a cssv:Specification ;
+    dct:relation [ dct:description "The ITU-T X.1365 specification is addressed to the exchange of data by enabling communication between different IoT services and sensors with an IoT service platform. In this sense, an IoT device that measures temperature can exchange the data collected in a room and transmit this data securely to the service platform in order to adjust or manage the sensor in that room."@en ;
+            dct:relation eira:DataExchangeApplicationComponent ],
+        [ dct:description "The ITU-T X.1365 specification is addressed to the exchange of data by enabling communication between different IoT services and sensors with an IoT service platform. In this sense, an IoT device that measures temperature can exchange the data collected in a room and transmit this data securely to the service platform in order to adjust or manage the sensor in that room."@en ;
+            dct:relation eira:DataExchangeApplicationService ],
+        [ dct:description "The ITU-T X.1365 specification is designed to facilitate the authentication of sensors by using identity-based cryptography (IBC) technology. With this technology, sensors can prove their identity when exchanging data with the central platform. In turn, the central platform verifies the identity by checking the signature of the message issued by the sensor."@en ;
+            dct:relation eira:AuthenticationApplicationService ],
+        [ dct:description "The ITU-T X.1365 specification is intended to provide security for protecting messages from sensors and IoT devices by using identity-based cryptography (IBC) technology. In this sense, the specification allows IoT devices to sign messages containing data collections and send them to the central platform. The central platform can then verify that the sensors are authenticated and legitimate by checking the digital signatures in the messages. This helps to ensure that all messages received by the central platform originate from trusted sources."@en ;
+            dct:relation eira:E-SignatureVerificationAndValidationApplicationService ] .
 
 cssvrsc:15ae1741b374a39c38c277daf407d1938175219d283b93905f3ad0cf403c19f8 a cssv:Specification ;
     dct:relation [ dct:description "Codelists used for the description of eDelivery transactions."@en ;
@@ -4658,6 +4706,12 @@ cssvrsc:34ae965b550d09334658a78fd5eca236e8640a1ba4df78f05a728ccddafacfd1 a cssv:
         [ dct:description "The CSV on the Web specification, aims to transform CSV data into other formats. Thus, can be ensured that two different data have the same format and can be contrasted and analised in a common manner."@en ;
             dct:relation eira:DataMappingDataObject ] .
 
+cssvrsc:34dc870c1a82f85f95a3b4a57f09f5af0871ebf13c572d53db6b96bfbcf02e9b a cssv:Specification ;
+    dct:relation [ dct:description "The ITU-T Y.4903 specification is designed to provide various ICT indicators to measure and assess the performance of a smart city across different areas. In this context, the specification offers a standardised framework for assessment, enabling a common format to compare different cities and identify ways to achieve the highest performance in each area. These indicators can thus be used to ensure alignment with public policy objectives in the areas of SDGs and smart cities."@en ;
+            dct:relation eira:MeansForPublicPolicyObjectivesConvergenceAssuranceAndControlConstraint ],
+        [ dct:description "The ITU-T Y.4903 specification provides a set of indicators to establish a standardised list of categories and terms for evaluating whether a smart city achieves the highest performance in certain areas. This list of indicators can be used by different cities, entities, or public administrations that wish to compare performance across cities. In this way, the indicators support collaboration towards the joint delivery of public services through the use of a common terminology."@en ;
+            dct:relation eira:InteroperabilityFrameworkBusinessObject ] .
+
 cssvrsc:34f7f3c04b048748001c49b60cb45a2e764ec17e1dc486be1bc1d05cdffc1b27 a cssv:Specification ;
     dct:relation [ dct:description "OWL-S uses ontologies to create a machine-understandable model of web services, enabling automated service interactions and intelligent service management."@en ;
             dct:relation eira:KnowledgeRepresentation ],
@@ -4999,6 +5053,16 @@ cssvrsc:43c19a093b34b581ddcc7207f6bd094f6940db69f035c444425ed84d2cac037d a cssv:
         [ dct:description "Kerberos is a reliable and broadly adopted authentication protocol."@en ;
             dct:relation eira:AuthenticationApplicationService ] .
 
+cssvrsc:43c225a0b3a969615a19f525ad19d49bc0916e190f06ff374b7ab3ea7fe8ee99 a cssv:Specification ;
+    dct:relation [ dct:description "The RFC 7668 specification is designed to facilitate communication between Bluetooth Low Energy (BLE) devices by providing them with IPv6 connectivity. In this way, the specification allows devices to exchange data over an IP-based network. It defines how devices format messages, discover each other, and assign addresses so that data can flow reliably between them."@en ;
+            dct:relation eira:DataExchangeApplicationComponent ],
+        [ dct:description "The RFC 7668 specification is designed to facilitate communication between Bluetooth Low Energy (BLE) devices by providing them with IPv6 connectivity. In this way, the specification allows devices to exchange data over an IP-based network. It defines how devices format messages, discover each other, and assign addresses so that data can flow reliably between them. "@en ;
+            dct:relation eira:DataExchangeApplicationService ],
+        [ dct:description "The RFC 7668 specification defines rules that allow Bluetooth Low Energy (BLE) devices to communicate over IPv6 networks, specifying how they format messages, discover each other, and assign addresses, enabling them to interact reliably within IP-based systems."@en ;
+            dct:relation eira:APIApplicationInterface ],
+        [ dct:description "The RFC 7668 specification enables Bluetooth Low Energy (BLE) devices to communicate by providing them with IPv6 connectivity. In this way, the specification ensures that devices can operate efficiently both individually and in groups, allowing applications and users on the network to interact with them indirectly. Although it does not focus on direct communication between users, it facilitates interaction between devices on the network. "@en ;
+            dct:relation eira:PhysicalNetworkInfrastructureEquipment ] .
+
 cssvrsc:4436eacc9ca95a0a58e5e7992d9b210830720a4aeec5009ed5ef7437b80f3987 a cssv:Specification ;
     dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
@@ -5025,6 +5089,16 @@ cssvrsc:446e7301829e85707da02adcf6c1b42a20d725363731cfa6e8c362b9713cf2e7 a cssv:
         [ dct:description "This regulation is a data policy with regard to the processing of personal data and the free movement of such data."@en ;
             dct:relation eira:MasterDataPolicyBusinessObject ] .
 
+cssvrsc:449d772a61928d1cdd3940897b7e25adfb553c1947aa38504667c0eaf8a7a7cf a cssv:Specification ;
+    dct:relation [ dct:description "The RFC 7641 specification is designed to facilitate the observation of resources on a network, enabling clients to automatically receive updates whenever the state of a resource changes. This is particularly useful for sensors or IoT devices, which may collect information such as temperature, humidity, or other measurements. The specification allows a device to subscribe to a resource on a server so that updates are sent automatically, improving efficiency in data exchange."@en ;
+            dct:relation eira:DataExchangeApplicationComponent ],
+        [ dct:description "The RFC 7641 specification is designed to facilitate the observation of resources on a network, enabling clients to automatically receive updates whenever the state of a resource changes. This is particularly useful for sensors or IoT devices, which may collect information such as temperature, humidity, or other measurements. The specification allows a device to subscribe to a resource on a server so that updates are sent automatically, improving efficiency in data exchange."@en ;
+            dct:relation eira:DataExchangeApplicationService ],
+        [ dct:description "The RFC 7641 specification is designed to facilitate the observation of resources on a network, such as those provided by sensors or IoT devices. It enables clients to receive automatic notifications whenever a resource changes, thereby avoiding the need for manual updates. This mechanism reduces response time, improves efficiency, and automates the delivery of updates from sensors or other devices."@en ;
+            dct:relation eira:SensorDevice ],
+        [ dct:description "The RFC 7641 specification is designed to facilitate the updating of the state of information collected by sensors or IoT devices. In this context, an application can connect to a server to receive automatic updates from the sensor, allowing it to operate autonomously and send notifications whenever the state of the collected information changes."@en ;
+            dct:relation eira:SmartDeviceDevice ] .
+
 cssvrsc:44f1bdffd784bbc0a93d05ae169fd1a3965afa3abd9b6ba7b40ebccd9282d2d5 a cssv:Specification ;
     dct:relation [ dct:description "The SPDX standard is addressed to improve the exchange of information by using a standardised format for presenting information that ensures that it is consistent across industries and companies. In this sense, the standard provides common formats for organisations and communities to share important data, thereby streamlining and improving compliance, security, and dependability."@en ;
             dct:relation eira:DataExchangeApplicationComponent ],
@@ -5043,6 +5117,16 @@ cssvrsc:459ce55245869fa8d2fe286ec86dfea886241f1366deef90c41db0686c7eab12 a cssv:
         [ dct:description "Training data is the building block of machine learning models. These models now constitute the majority of machine learning applications in Earth science."@en ;
             dct:relation eira:MachineLearningTechnologyService ],
         camssa:3d823b9e809a6270cb563e7e8698ebbc21943c31043308f229fb0e302f5a9dfa .
+
+cssvrsc:464eea9a4a3838cf0ccf4c37d19eb5e1edec6e52d0690d516b6dde92daf47766 a cssv:Specification ;
+    dct:relation [ dct:description "RFC 5448 defines a secure authentication method that enables networks to reliably verify the identity of users or devices. Based on this verification, the network can then grant authorised users access to services while blocking unauthorised users from connecting."@en ;
+            dct:relation eira:AccessManagementApplicationComponent ],
+        [ dct:description "RFC 5448 defines a secure authentication method that enables networks to reliably verify the identity of users or devices. Based on this verification, the network can then grant authorised users access to services while blocking unauthorised users from connecting."@en ;
+            dct:relation eira:AccessManagementApplicationService ],
+        [ dct:description "The RFC 5448 specification extends RFC 3748, which defines a framework that supports multiple authentication methods. In this context, RFC 5448 introduces EAP-AKA′, an enhanced authentication method that improves the security of authenticating users or devices when they connect to a network."@en ;
+            dct:relation eira:AuthenticationApplicationService ],
+        [ dct:description "The RFC 5448 specification extends RFC 3748 by introducing EAP-AKA′, an enhanced authentication method for devices connecting to networks. While its primary role is authentication, it also provides the foundation for authorisation, since networks can grant or deny access to users or devices based on the outcome of the authentication process."@en ;
+            dct:relation eira:AuthorisationApplicationService ] .
 
 cssvrsc:46686dc0ef5e64da788fbdb188bf9adeacb04109ebe59d1af30b582744b1c07d a cssv:Specification ;
     dct:relation [ dct:description "The specification is a ZIP-compressed XML-based file representation for spreadsheet., charts, presentations and word processing documents."@en ;
@@ -5770,10 +5854,10 @@ cssvrsc:6577a95cdfbb93fded69592fecefc9716b8e9b62b2fff708b91df111cb39b4c5 a cssv:
             dct:relation eira:InteroperabilityFrameworkBusinessObject ] .
 
 cssvrsc:65b67ca6bf1de17747001ce01a8f19e868d80d2b9200012393bb6dc9671fbb71 a cssv:Specification ;
-    dct:relation [ dct:description "XKOS defines machine-readable statistical classifications and other concept management systems as SKOS instances."@en ;
-            dct:relation eira:DataRepresentationRepresentation ],
-        [ dct:description "XKOS defines machine-readable statistical classifications and other concept management systems as SKOS instances for the representation of statistical classifications."@en ;
-            dct:relation eira:KnowledgeRepresentation ] .
+    dct:relation [ dct:description "XKOS defines machine-readable statistical classifications and other concept management systems as SKOS instances for the representation of statistical classifications."@en ;
+            dct:relation eira:KnowledgeRepresentation ],
+        [ dct:description "XKOS defines machine-readable statistical classifications and other concept management systems as SKOS instances."@en ;
+            dct:relation eira:DataRepresentationRepresentation ] .
 
 cssvrsc:67b54613c5b523c5dd115156c625ea64601ef0ed0732d91b3008f24a86f2a6b3 a cssv:Specification ;
     dct:relation [ dct:description "The use of IPSec TM for VPNs, described in the Internet draft draft-ietf-ipsec-dhcp-13.txt, has been approved as an IETF Proposed Standard. It tunnels traffic, preserving the end-to-end semantics of the communications it is carrying. The trust model is defined as part of the IETF standard using either standard X.509 certificates or preshared keys. The standard supports both dynamic and static addressing. IPSec TM is appropriate for site-to-site VPN connections and has been demonstrated to be interoperable by Microsoft, Cisco, Nortel, and others. There is no standard for legacy user authentication within IPSec TM, which makes it unsuitable for use in remote access. It is implemented by most VPN gateways. There have been many public interoperability demonstrations and customer deployments using real products."@en ;
@@ -6284,6 +6368,22 @@ cssvrsc:7f3a6b194d0bd127d1a6851a86fa7498415964a4d56d56749607faf692e2f7ad a cssv:
         [ dct:description "The Recommendation ITU-T X.1275 specification seeks to protect personally identifiable information for the privacy of individuals potentially affected by an RFID system and to promote a safe environment for RFID use."@en ;
             dct:relation eira:PrivacyApplicationService ] .
 
+cssvrsc:7f9b20000e60e4cdcc457714628e5d9ad52ff0d696e1ffd344d06a23615d492d a cssv:Specification ;
+    dct:relation [ dct:description "The ITU-T Y.4119 specification defines the requirements for the Automotive Emergency Response System (AERS) and the capabilities of complementary systems such as the Automotive Emergency Response Centre (AERC) and the Automotive Emergency Detection Device (AEDD) when working in combination with it. In this context, the specification sets out how these systems collect, store and manage data in order to provide the best possible assistance in traffic accidents. This management also includes the procedures for the reliable use of data by encrypting personal information when stored."@en ;
+            dct:relation eira:DataManagementApplicationService ],
+        [ dct:description "The ITU-T Y.4119 specification defines the requirements for the Automotive Emergency Response System (AERS) and the capabilities of complementary systems such as the Automotive Emergency Response Centre (AERC) and the Automotive Emergency Detection Device (AEDD) when working in combination with it. In this context, the specification sets out how these systems collect, store and manage data in order to provide the best possible assistance in traffic accidents. This management also includes the procedures for the reliable use of data by encrypting personal information when stored."@en ;
+            dct:relation eira:DataManagementApplicationComponent ],
+        [ dct:description "The ITU-T Y.4119 specification is designed to establish the requirements for the Automotive Emergency Response System (AERS). As explained in the requirements, this system is capable of providing help to drivers with the support of the AEDD, AERC and the EA. By using these complementary applications or systems, data can be extracted and analysed from the sensors in order to provide the appropriate assistance to the driver and detect false or incorrect emergencies."@en ;
+            dct:relation eira:AnalyticsTechnologyService ],
+        [ dct:description "The ITU-T Y.4119 specification is designed to define and establish requirements for the Automotive Emergency Response System (AERS), and it also defines the capabilities of complementary systems such as the Automotive Emergency Response Centre (AERC) when used in combination with AERS. In this sense, when data is collected and managed by the AERC to identify accidents, the AERC needs to encrypt personally identifiable information when it is required to be stored."@en ;
+            dct:relation eira:PrivacyApplicationComponent ],
+        [ dct:description "The ITU-T Y.4119 specification is designed to define and establish requirements for the Automotive Emergency Response System (AERS), and it also defines the capabilities of complementary systems such as the Automotive Emergency Response Centre (AERC) when used in combination with AERS. In this sense, when data is collected and managed by the AERC to identify accidents, the AERC needs to encrypt personally identifiable information when it is required to be stored."@en ;
+            dct:relation eira:PrivacyApplicationService ],
+        [ dct:description "The ITU-T Y.4119 specification is designed to establish the requirements for the Automotive Emergency Response System (AERS) and the capabilities that complementary systems, such as the Automotive Emergency Detection Device (AEDD), must have when working together. In this regard, the AEDD uses vehicle sensors or internal sensors installed on aftermarket devices to report accidents and provide assistance to drivers."@en ;
+            dct:relation eira:SensorDevice ],
+        [ dct:description "The ITU-T Y.4119 specification defines the requirements for the Automotive Emergency Response System (AERS) and also for complementary systems such as the Automotive Emergency Detection Device (AEDD) and the Automotive Emergency Response Centre (AERC) when working in conjunction with it. In this context, the capabilities of the AEDD help to determine, through sensors, whether a vehicle has been involved in an accident and to transmit such information to the AERC to manage the assistance. Thus, the specification establishes the basis for autonomous operation."@en ;
+            dct:relation eira:SmartDeviceDevice ] .
+
 cssvrsc:7fa1cb50b03a684843349c75a6533a376020f0c71a4829a4aa250554a5c33896 a cssv:Specification ;
     dct:relation [ dct:description "The specification specifies a format and mechanisms for establishing, locating, accessing and authenticating a trusted list which makes available trust service status information so that interested parties may determine the status of a listed trust service at a given time."@en ;
             dct:relation eira:E-SignatureCreationApplicationService ],
@@ -6625,6 +6725,22 @@ cssvrsc:8e0e44174d80fd53a6007b49e39d22186c76e67f6750545e9c383beca16edd38 a cssv:
         [ dct:description "OpenTelemetry Signals enable users to model and describe what a log record is, what data needs to be recorded, transferred, stored and interpreted by a logging system."@en ;
             dct:relation eira:AuditApplicationComponent ],
         camssa:312667c101f93319d5cff2f4467f5a2c2e84bde27eb09bc0664385eaf21f9696 .
+
+cssvrsc:8e2c8ec84395efa47a28ad653231f0194c5b9eb2943282b2346a37032a140682 a cssv:Specification ;
+    dct:relation [ dct:description "The ITU-T Y.4471 specification is designed to enhance the safety and efficiency of autonomous vehicles by establishing network-based driving assistance. In this sense, the specification enables the integration of both in-vehicle and roadside sensors. By collecting data from these two types of sensors, support for autonomous driving can be improved."@en ;
+            dct:relation eira:SensorDevice ],
+        [ dct:description "The ITU-T Y.4471 specification helps to enhance the efficiency of autonomous vehicles on the road by establishing network-based driving assistance. In this context, the specification enables the integration of in-vehicle and roadside sensors, with the collected data analysed to support better decision-making based on traffic conditions and other infrastructure elements that vehicles alone cannot detect."@en ;
+            dct:relation eira:DataAnalyticsApplicationComponent ],
+        [ dct:description "The ITU-T Y.4471 specification helps to enhance the efficiency of autonomous vehicles on the road by establishing network-based driving assistance. In this context, the specification enables the integration of in-vehicle and roadside sensors, with the collected data analysed to support better decision-making based on traffic conditions and other infrastructure elements that vehicles alone cannot detect."@en ;
+            dct:relation eira:DataAnalyticsApplicationService ],
+        [ dct:description "The ITU-T Y.4471 specification is designed to improve the decision-making of autonomous vehicles by integrating data from both roadside and in-vehicle sensors. In light of this, the collected information is sent to edge or cloud units. These units process the data to provide updated information about road conditions, helping to prevent traffic jams and other inconveniences."@en ;
+            dct:relation eira:DataExchangeApplicationComponent ],
+        [ dct:description "The ITU-T Y.4471 specification is designed to improve the decision-making of autonomous vehicles by integrating data from both roadside and in-vehicle sensors. In light of this, the collected information is sent to edge or cloud units. These units process the data to provide updated information about road conditions, helping to prevent traffic jams and other inconveniences."@en ;
+            dct:relation eira:DataExchangeApplicationService ],
+        [ dct:description "The ITU-T Y.4471 specification is intended to improve the efficiency and effectiveness of autonomous vehicles by defining the functional architecture for network-based driving assistance (NDA). In this context, data is collected from sensors and processed through edge or cloud computing. Once this data has been analysed, predictions and recommendations regarding routes and traffic at specific times can be made. As a result, vehicles are able to choose faster routes to reach their destinations."@en ;
+            dct:relation eira:MachineLearningTechnologyService ],
+        [ dct:description "The ITU-T Y.4471 specification is intended to facilitate and improve autonomous vehicles by defining the functional architecture of network-based driving assistance. In this context, the specification sets out how edge or cloud computing collects and processes data from sensors in order to improve traffic flow."@en ;
+            dct:relation eira:EdgeComputingTechnologyCollaboration ] .
 
 cssvrsc:8e67f8b2a6bc993d9a543529f61b1e7dbf347b40a14948562e65ca9560f6eede a cssv:Specification ;
     dct:relation [ dct:description "The GFXS DELS specification helps ensure that data exchanges between users are completed successfully. It enables notifications about which data has been delivered to the consumer. Additionally, the consumer can verify whether the data was received or not."@en ;
@@ -7417,6 +7533,20 @@ cssvrsc:ab5a0eef3ca9727fa2abd88cd5034f4dcc8fe05df17e1995f8d552dbae6ae95e a cssv:
     dct:relation [ dct:description "Taxonomy developed under the context of the Suistanable Development Goals (SDGs), which allows a common classification and understanding of the different goals and targets involved in the global strategy."@en ;
             dct:relation eira:ControlledVocabularyDataObject ] .
 
+cssvrsc:ac283a50733f9b996279bbf977b1823b734bb7b5814056130b92cca7c4635e21 a cssv:Specification ;
+    dct:relation [ dct:description "The Y.4466 specification is designed to provide a framework for smart greenhouse services, enabling the automation of certain manual processes. In this context, one of the functions supported by the specification is data management. By deploying and using sensors, data can be collected, stored, recorded, and analysed."@en ;
+            dct:relation eira:DataManagementApplicationComponent ],
+        [ dct:description "The Y.4466 specification is designed to provide a framework for smart greenhouse services, enabling the automation of certain manual processes. In this context, one of the functions supported by the specification is data management. By deploying and using sensors, data can be collected, stored, recorded, and analysed."@en ;
+            dct:relation eira:DataManagementApplicationService ],
+        [ dct:description "The Y.4466 specification addresses smart greenhouse services by offering a framework for the implementation of various mechanisms. In this sense, the specification provides guidance on how to collect information and analyse data in order to achieve better results and develop optimal growth models."@en ;
+            dct:relation eira:DataAnalyticsApplicationComponent ],
+        [ dct:description "The Y.4466 specification addresses smart greenhouse services by offering a framework for the implementation of various mechanisms. In this sense, the specification provides guidance on how to collect information and analyse data in order to achieve better results and develop optimal growth models."@en ;
+            dct:relation eira:DataAnalyticsApplicationService ],
+        [ dct:description "The Y.4466 specification, intended to provide a general framework for implementing mechanisms to achieve smart greenhouses, defines and supports the use of components such as sensors. In this sense, sensors can measure climatic conditions to achieve better results in growth models. These sensors also allow the collection of a wide variety of data, which can then be analysed to support improvements."@en ;
+            dct:relation eira:SensorDevice ],
+        [ dct:description "The Y.4466 specification is designed to facilitate the implementation of mechanisms that automate certain manual procedures in greenhouses. In this sense, the specification provides a framework that highlights how information can be collected by sensors and subsequently analysed in order to achieve improvements in growth models."@en ;
+            dct:relation eira:AnalyticsTechnologyService ] .
+
 cssvrsc:ac4d786e488498e14387bee462f7cf35b824aadc2fb05ec749805bb516d8211c a cssv:Specification ;
     dct:relation [ dct:description "The e-SENS REM profile achieves interoperability between Registered Electronic Mail services, securing email exchange and ensuring that the submission by the sender and the delivery to the recipient have actually occurred."@en ;
             dct:relation eira:RegisteredElectronicDeliveryApplicationService ] .
@@ -8189,6 +8319,16 @@ cssvrsc:cf73d9238a419781d904b0da2ece913b60f29328913212efcc98d22de22914a8 a cssv:
     dct:relation [ dct:description "The Secutiry Controls - Linking eIDAS (Q)ERDS & CEF eDelivery specification uses the AS4 messaging protocol and prescribes the Access Point (AP) of CEF eDelivery implementations according to the e-SENS profile, ensuring standardised, interoperable, secure and reliable data exchange."@en ;
             dct:relation eira:ServiceRegistryDataObject ] .
 
+cssvrsc:cfa094dfca76277e80fc8e9e4f98d8011407290eb0fac2db2d07b70312300f10 a cssv:Specification ;
+    dct:relation [ dct:description "The RFC 7390 specification defines a set of rules for communication among constrained devices, including groups of them, using the CoAP protocol. These rules help streamline procedures by making them more efficient, for example turning on multiple devices, such as all the lights in a room, with a single command. "@en ;
+            dct:relation eira:APIApplicationInterface ],
+        [ dct:description "The RFC 7390 specification defines rules for exchanging messages between constrained devices using the CoAP protocol. In this way, devices such as sensors can send data or commands to a group of devices, enabling actions to be executed simultaneously on all compatible devices."@en ;
+            dct:relation eira:DataExchangeApplicationComponent ],
+        [ dct:description "The RFC 7390 specification defines rules for exchanging messages between constrained devices using the CoAP protocol. In this way, devices such as sensors can send data or commands to a group of devices, enabling actions to be executed simultaneously on all compatible devices."@en ;
+            dct:relation eira:DataExchangeApplicationService ],
+        [ dct:description "The RFC 7390 specification enables constrained devices to communicate efficiently with groups using the CoAP protocol. In this context, devices can operate interactively, connected to other devices, or autonomously without intervention from a central controller, but only within CoAP-based networks."@en ;
+            dct:relation eira:SmartDeviceDevice ] .
+
 cssvrsc:cfb2208446c9eaa8ceb3a92bbd3e07f5f41f1d770b1a2d16a8a66ae9e82dacc1 a cssv:Specification ;
     dct:relation [ dct:description "The BPM - 001 specification is addressed to establish a BPN, which is an unchangeable identifier for Busiess Partners. This identifier allows to syntetise information about entities in an alphanumeric string. In these identifiers can be distinguished four parts: prefix, classification, identifyer and check digit."@en ;
             dct:relation eira:HashCodeDataObject ],
@@ -8555,6 +8695,20 @@ cssvrsc:e140535a651dd589a52fc2404c4e53078c2daf735f2d5a3789ebbf5fc06beef8 a cssv:
         [ dct:description "The eDelivery AS4 Profile is a modular profile of the ebMS3 and AS4 OASIS specifications. It is a profile for the secure and payload-agnostic exchange of Business-to-business documents using Web services. It is a CEF profile providing requirements for data exchange components."@en ;
             dct:relation eira:DataExchangeApplicationService ] .
 
+cssvrsc:e16c26ec6e45082030648832bf5b07a2a55d64968582d394bf18b7b873c2776b a cssv:Specification ;
+    dct:relation [ dct:description "The GXFSv2 specification helps systems and applications to authenticate users by using digital identities already created and provided by other services, such as local governments. In light of this, when a user tries to access an application or digital service, instead of creating a new account, they can log in by using this identity. In this way, the specification helps to authorise access for verified users, while preventing access to resources for non-authorised users."@en ;
+            dct:relation eira:AccessManagementApplicationComponent ],
+        [ dct:description "The GXFSv2 specification helps systems and applications to authenticate users by using digital identities already created and provided by other services, such as local governments. In light of this, when a user tries to access an application or digital service, instead of creating a new account, they can log in by using this identity. In this way, the specification helps to authorise access for verified users, while preventing access to resources for non-authorised users."@en ;
+            dct:relation eira:AccessManagementApplicationService ],
+        [ dct:description "The GXFSv2 specification is designed to facilitate the identification and authorisation of users in order to access online services and resources without the need to create a new account. In this sense, the specification helps to verify that digital identities issued by other institutions correspond to the user, and authorises the user to access resources if they match. Thus, people are identified and the creation of a new account to access resources can be avoided."@en ;
+            dct:relation eira:AuthorisationApplicationService ],
+        [ dct:description "The GXFSv2 specification is intended to verify users’ identities in order to grant access to different resources. The specification enables systems and applications to ensure that the digital identities presented by users are valid, thereby verifying them and granting access to different services or resources."@en ;
+            dct:relation eira:IdentificationApplicationComponent ],
+        [ dct:description "The GXFSv2 specification is designed to protect online services and resources by providing mechanisms to confirm the digital identities of users. In this context, users can use identities issued by other institutions to access resources without the need to create a new account for every different online service. Thus, users can be authenticated with the same digital identity and gain access to a wide variety of resources."@en ;
+            dct:relation eira:AuthenticationApplicationService ],
+        [ dct:description "The GXFSv2 specification helps to manage digital identities issued by other institutions. In this sense, users can present their digital identities to access different web pages or services. Systems can use the specification to ensure that these identities are valid and authorise access accordingly."@en ;
+            dct:relation eira:IdentityManagementApplicationService ] .
+
 cssvrsc:e18e0ff3a765d703476a68b32ec9396d2e6be8b32243d911a5cb154e4bc201ec a cssv:Specification ;
     dct:relation [ dct:description "By making PIMS (Privacy Information Management System) manage security and privacy of data, organisations can reduce the risk of violation of individuals' privacy rights while enhancing an existing information security management system."@en ;
             dct:relation eira:SecurityFrameworkBusinessObject ],
@@ -8652,7 +8806,8 @@ cssvrsc:e438965c54bc7f78e6ede46f4d408abe398302a3b33e374a9ed4662b8b44df99 a cssv:
         [ dct:description "XML is a subset of SGML that enables generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML."@en ;
             dct:relation eira:DataRepresentationRepresentation ],
         camssa:74ecd64479f85251863f23f53392bae51524e571729b196dfd39350bbba5aeff,
-        camssa:8c9b9c54f21176231185cf4455e3d23b6e3c3048d33ae408047c28088e4733f6 .
+        camssa:8c9b9c54f21176231185cf4455e3d23b6e3c3048d33ae408047c28088e4733f6,
+        camssa:d1f7f0f04d5a8542ea3e1fbdceb5c5a598f4060f1a254ef731d2e90a43095b33 .
 
 cssvrsc:e466c9d975d60dcbb51231519f02eea8a79ccecf3a85e7292c427a23a9d9fbe6 a cssv:Specification ;
     dct:relation [ dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
@@ -9046,10 +9201,6 @@ cssvrsc:ef08c2789f6b3c4df7347426999a885397045dfa90a29f3a7009505988c9a9b2 a cssv:
     dct:relation [ dct:description "This communication from the Commission includes a set of plans and principles to achieve a common data space enhancing the Interoperability across borders."@en ;
             dct:relation eira:SecurityFrameworkBusinessObject ] .
 
-cssvrsc:ef58703ca13db385e38bf5d7756d191c7425e481cee6232c33812352d809bb81 a cssv:Specification ;
-    dct:relation [ dct:description "The OIDC specification fills the authentication gap that OAuth 2.0 doesn’t address, by defining ID tokens and endpoints for identity, standardised flows, and detailed security practices to ensure robust user authentication and standardised identity claims."@en ;
-            dct:relation eira:AuthenticationApplicationService ] .
-
 cssvrsc:efb40789fe3ad96b26d88aeb5afa229851bc73b19b6a3d4b8220ef3a37fed1c7 a cssv:Specification ;
     dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
             dct:relation eira:NationalLegalActRequirement ],
@@ -9111,11 +9262,11 @@ cssvrsc:f246e4a67ffaaa842c3b3a78787b19628d9a6928fd4f91239372c73d1b9e618d a cssv:
             dct:relation eira:MetadataManagementApplicationComponent ] .
 
 cssvrsc:f2c5ca77b353f96dffe6df722a1f36cddf6e502c744ea9c59459d9144156494f a cssv:Specification ;
-    dct:relation [ dct:description "OpenID provides decentralized authentication, including cloud providers, facilitating interoperability in large commercial and public organizations."@en ;
+    dct:relation [ dct:description "OIDC provides decentralised authentication, including cloud providers, facilitating interoperability in large commercial and public organisations."@en ;
             dct:relation eira:CloudPrivateNetworkCommunicationNetwork ],
-        [ dct:description "OpenID provides decentralized authentication, over domains, facilitating interoperability. OpenID has a very broad adoption in large commercial and public organizations. It is a reliable protocol."@en ;
+        [ dct:description "The OIDC specification fills the authentication gap that OAuth 2.0 doesn’t address, by defining ID tokens and endpoints for identity, standardised flows, and detailed security practices to ensure robust user authentication and standardised identity claims."@en ;
             dct:relation eira:AuthenticationApplicationService ],
-        [ dct:description "OpenID provides decentralized authentication, over domains, facilitating interoperability. OpenID has a very broad adoption in large commercial and public organizations. It is a reliable protocol."@en ;
+        [ dct:description "OIDC provides decentralised authentication, over domains, facilitating interoperability. OpenID has a very broad adoption in large commercial and public organizations. It is a reliable protocol."@en ;
             dct:relation eira:IdentificationApplicationComponent ] .
 
 cssvrsc:f36ce406cf0470d6b8c3d4f04141fb8c35c10e1342c6fb68a55e4cbf1b30eb9d a cssv:Specification ;
@@ -9534,8 +9685,6 @@ eira:MachineTranslationApplicationService eira:concept eira:ArchitectureBuilding
 
 eira:ManagementConsoleTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:MeansForPublicPolicyObjectivesConvergenceAssuranceAndControlConstraint eira:concept eira:ArchitectureBuildingBlock .
-
 eira:MobileAppBusinessInterface eira:concept eira:ArchitectureBuildingBlock .
 
 eira:NoSQLDatabaseManagerTechnologyService eira:concept eira:ArchitectureBuildingBlock .
@@ -9598,6 +9747,8 @@ eira:LocalAreaNetworkCommunicationNetwork eira:concept eira:ArchitectureBuilding
 
 eira:MasterDataDataObject eira:concept eira:ArchitectureBuildingBlock .
 
+eira:MeansForPublicPolicyObjectivesConvergenceAssuranceAndControlConstraint eira:concept eira:ArchitectureBuildingBlock .
+
 eira:OrchestrationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:OrganisationalAgreementContract eira:concept eira:ArchitectureBuildingBlock .
@@ -9619,10 +9770,6 @@ eira:RemoteDesktopTechnologyService eira:concept eira:ArchitectureBuildingBlock 
 eira:ScheduleManagementApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ScheduleManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
-
-eira:SensorDevice eira:concept eira:ArchitectureBuildingBlock .
-
-eira:SmartDeviceDevice eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ArtificialIntelligenceApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9648,8 +9795,6 @@ eira:DistributedFileSystemTechnologyService eira:concept eira:ArchitectureBuildi
 
 eira:E-SealPreservationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:EdgeComputingTechnologyCollaboration eira:concept eira:ArchitectureBuildingBlock .
-
 eira:EnterpriseServiceBusTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:EuropeanLegalInteroperabilityAgreementContract eira:concept eira:ArchitectureBuildingBlock .
@@ -9667,8 +9812,6 @@ eira:LegislationOnDataInformationAndKnowledgeExchangeBusinessObject eira:concept
 eira:LightweightDirectoryAccessProtocolTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:LoggerTechnologyService eira:concept eira:ArchitectureBuildingBlock .
-
-eira:MachineLearningTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:NationalLegalInteroperabilityAgreementContract eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9704,6 +9847,8 @@ eira:DigitalPublicServiceBusinessService eira:concept eira:ArchitectureBuildingB
 
 eira:DigitalWorkplaceApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
+eira:EdgeComputingTechnologyCollaboration eira:concept eira:ArchitectureBuildingBlock .
+
 eira:FederatedIdentityProviderTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:FileStorageTechnologyService eira:concept eira:ArchitectureBuildingBlock .
@@ -9722,6 +9867,8 @@ eira:LegalInteroperabilityAgreementContract eira:concept eira:ArchitectureBuildi
 
 eira:LoadBalancerTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
+eira:MachineLearningTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+
 eira:ServiceDiscoveryAndRegistryApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ServiceRegistryApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
@@ -9738,8 +9885,6 @@ eira:APIManagerTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:AccountingApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:AnalyticsTechnologyService eira:concept eira:ArchitectureBuildingBlock .
-
 eira:ApplicationServerTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:BaseRegistryDataObject eira:concept eira:ArchitectureBuildingBlock .
@@ -9753,6 +9898,8 @@ eira:OrganisationalInteroperabilityAgreementContract eira:concept eira:Architect
 eira:SecurePublicNetworkCommunicationNetwork eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ServiceLevelAgreementContract eira:concept eira:ArchitectureBuildingBlock .
+
+eira:SmartDeviceDevice eira:concept eira:ArchitectureBuildingBlock .
 
 eira:APICatalogueApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9782,7 +9929,11 @@ eira:MasterDataPolicyBusinessObject eira:concept eira:ArchitectureBuildingBlock 
 
 eira:RequestValidationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
+eira:SensorDevice eira:concept eira:ArchitectureBuildingBlock .
+
 eira:AgreementOnPrivacyContract eira:concept eira:ArchitectureBuildingBlock .
+
+eira:AnalyticsTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DigitalSolutionApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9822,9 +9973,9 @@ eira:IdentityProviderTechnologyService eira:concept eira:ArchitectureBuildingBlo
 
 eira:LinkedDataEventStreamRepresentation eira:concept eira:ArchitectureBuildingBlock .
 
-eira:PhysicalNetworkInfrastructureEquipment eira:concept eira:ArchitectureBuildingBlock .
-
 eira:TrustServiceProvisioningApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
+
+eira:PhysicalNetworkInfrastructureEquipment eira:concept eira:ArchitectureBuildingBlock .
 
 eira:VirtualPrivateNetworkTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9864,13 +10015,7 @@ eira:DataFormatDataObject eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DataMappingDataObject eira:concept eira:ArchitectureBuildingBlock .
 
-eira:IdentityManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
-
 eira:MetadataCatalogueDataObject eira:concept eira:ArchitectureBuildingBlock .
-
-eira:DataAnalyticsApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
-
-eira:DataAnalyticsApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:E-ArchivingApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9878,17 +10023,23 @@ eira:E-ArchivingApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:E-SealVerificationAndValidationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
+eira:IdentityManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
+
 eira:DataSyntaxMappingCatalogueDataObject eira:concept eira:ArchitectureBuildingBlock .
 
-eira:InteroperabilityFrameworkBusinessObject eira:concept eira:ArchitectureBuildingBlock .
+eira:DataAnalyticsApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
+
+eira:DataAnalyticsApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DataPublicationApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DataPublicationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:PrivacyApplicationService eira:concept eira:ArchitectureBuildingBlock .
+eira:InteroperabilityFrameworkBusinessObject eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ConformanceTestingApplicationService eira:concept eira:ArchitectureBuildingBlock .
+
+eira:PrivacyApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:SemanticAgreementContract eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9902,29 +10053,29 @@ eira:DataSpaceApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:E-SignatureCreationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:IdentificationApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
-
-eira:PrivacyApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
-
 eira:SecurityFrameworkBusinessObject eira:concept eira:ArchitectureBuildingBlock .
+
+eira:IdentificationApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
 eira:MachineToMachineInterfaceApplicationInterface eira:concept eira:ArchitectureBuildingBlock .
 
-eira:PrivacyPolicyBusinessObject eira:concept eira:ArchitectureBuildingBlock .
+eira:PrivacyApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
-eira:AuthorisationApplicationService eira:concept eira:ArchitectureBuildingBlock .
+eira:PrivacyPolicyBusinessObject eira:concept eira:ArchitectureBuildingBlock .
 
 eira:MetadataManagementApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
 eira:MetadataManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:DataDataObject eira:concept eira:ArchitectureBuildingBlock .
+eira:AuthorisationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:E-SignatureVerificationAndValidationApplicationService eira:concept eira:ArchitectureBuildingBlock .
+eira:DataDataObject eira:concept eira:ArchitectureBuildingBlock .
 
 eira:LegalActRequirement eira:concept eira:ArchitectureBuildingBlock .
 
 eira:SecurityPolicyBusinessObject eira:concept eira:ArchitectureBuildingBlock .
+
+eira:E-SignatureVerificationAndValidationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:SemanticInteroperabilityAgreementContract eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9932,39 +10083,39 @@ eira:EuropeanLegalActRequirement eira:concept eira:ArchitectureBuildingBlock .
 
 eira:OpenDataRepresentation eira:concept eira:ArchitectureBuildingBlock .
 
-eira:APIApplicationInterface eira:concept eira:ArchitectureBuildingBlock .
-
 eira:NationalLegalActRequirement eira:concept eira:ArchitectureBuildingBlock .
 
 eira:HashCodeDataObject eira:concept eira:ArchitectureBuildingBlock .
 
 eira:TechnicalInteroperabilityAgreementContract eira:concept eira:ArchitectureBuildingBlock .
 
-eira:AuthenticationApplicationService eira:concept eira:ArchitectureBuildingBlock .
+eira:APIApplicationInterface eira:concept eira:ArchitectureBuildingBlock .
 
 eira:BindingInstrumentRequirement eira:concept eira:ArchitectureBuildingBlock .
 
 eira:LinkedDataRepresentation eira:concept eira:ArchitectureBuildingBlock .
 
-eira:DataManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
+eira:AuthenticationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:LinkedOpenDataRepresentation eira:concept eira:ArchitectureBuildingBlock .
 
-eira:DataManagementApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
-
 eira:KnowledgeRepresentation eira:concept eira:ArchitectureBuildingBlock .
 
+eira:DataManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
+
 eira:DataRepresentationRepresentation eira:concept eira:ArchitectureBuildingBlock .
+
+eira:DataManagementApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
 eira:Non-bindingInstrumentRequirement eira:concept eira:ArchitectureBuildingBlock .
 
 eira:OntologyDataObject eira:concept eira:ArchitectureBuildingBlock .
 
+eira:MetadataDataObject eira:concept eira:ArchitectureBuildingBlock .
+
 eira:AccessManagementApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
 eira:AccessManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
-
-eira:MetadataDataObject eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DataModelDataObject eira:concept eira:ArchitectureBuildingBlock .
 

@@ -65,7 +65,7 @@ cssvrsc:011d46243282e5a8b8d9f5420aeb3076c0aba5cc8ed4c3e0560abfff3a66ac56 a cssv:
 
 cssvrsc:01235b2a6dc0c8617d45c989efe0490dae839617f90e8045df0e08d439b7bd40 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The Catalogue of Services action sets out to assist administrations by developing an integrated view of these existing life events, business events and public services"@en ;
     dct:title "EU Catalogue of Services"@en ;
@@ -86,7 +86,7 @@ cssvrsc:0164f882bceddd759cc038441e7bd6d19db5678c3f01c077bc99f8038e6b3cb1 a cssv:
 
 cssvrsc:017f770f032738f30d3e037185da8ffae4505e5b9ccd6f9371d33523818c6de7 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "This communication from the European Commission consists of a strategic plan for the implementation of a European Interoperability Framework."@en ;
     dct:title "COMMUNICATION FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT, THE COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL COMMITTEE AND THE COMMITTEE OF THE REGIONS - European Interoperability Framework – Implementation Strategy"@en ;
@@ -100,14 +100,14 @@ cssvrsc:01a75d3e38f8d4fe097db3f5bd518a10e593c0ae7d7549c3a761c5befa73cb19 a cssv:
         owl:NamedIndividual ;
     cssv:alternative "ITU-T X.1603"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
-    dct:description """Recommendation ITU-T X.1603 analyses data security requirements for the monitoring service of 
-cloud computing which includes monitoring data scope requirements, monitoring data lifecycle, 
-security requirements of monitoring data acquisition and security requirements of monitoring data 
-storage. Monitoring data scope requirements include the necessary monitoring scope that cloud service 
-providers (CSPs) should provide to maintain cloud security and the biggest monitoring scope of CSPs. 
-Monitoring data lifecycle includes data creation, data store, data use, data migrate, data present, data 
-destroy and data backup. Monitoring acquisition determines security requirements of the acquisition 
-techniques of monitoring service. Monitoring data storage determines security requirements for CSPs 
+    dct:description """Recommendation ITU-T X.1603 analyses data security requirements for the monitoring service of \r
+cloud computing which includes monitoring data scope requirements, monitoring data lifecycle, \r
+security requirements of monitoring data acquisition and security requirements of monitoring data \r
+storage. Monitoring data scope requirements include the necessary monitoring scope that cloud service \r
+providers (CSPs) should provide to maintain cloud security and the biggest monitoring scope of CSPs. \r
+Monitoring data lifecycle includes data creation, data store, data use, data migrate, data present, data \r
+destroy and data backup. Monitoring acquisition determines security requirements of the acquisition \r
+techniques of monitoring service. Monitoring data storage determines security requirements for CSPs \r
 to store the monitoring data"""@en ;
     dct:title "ITU-T X.1603 Data security requirements for the monitoring service of cloud computing"@en ;
     dcat:distribution cssvrsc:5b4a391e-838e-4340-96ea-797fa07f6e09 ;
@@ -116,7 +116,7 @@ to store the monitoring data"""@en ;
 
 cssvrsc:01bd555b2f394f3ab04d4099da0137a4f7764c33c4fb4e5c4018be1a53c04b05 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ITU-T X.1275"@en ;
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "Recommendation ITU-T X.1275 recognizes that radio frequency identification (RFID) technology renders information pertaining specifically to the merchandise worn or carried by individuals open to abuse even as it greatly facilitates access to and distribution of such information for useful purpose. The abuse can manifest as tracking the location of the individual or invasion of his or her privacy in another malfeasant manner. For this reason, this Recommendation provides guidelines regarding the RFID procedures that can be used to enjoy the benefits of RFID while attempting to protect personally identifiable information."@en ;
     dct:title "X.1275 : Guidelines on protection of personally identifiable information in the application of RFID technology"@en ;
@@ -209,7 +209,7 @@ cssvrsc:0451cf7280b71e0ba29350bc606ef4599f53336dc99f4fc4419b4fa50686e127 a cssv:
 
 cssvrsc:04771272b3cf3afd68631c216912ab627de79748e7eb98e5b4520e50fe7a3812 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Guidelines on how to elaborate an organisational interoperability agreement. These guidelines define what information an interoperability agreement should contain."@en ;
     dct:title "GUIDELINES AND TEMPLATES FOR AGREEMENTS BETWEEN PUBLIC ADMINISTRATIONS"@en ;
@@ -230,7 +230,7 @@ cssvrsc:0525f64dfe93f08c86035f6f7c91baf6d5a1fbc3768e502a1f16f95691a1a9aa a cssv:
 
 cssvrsc:0581b0d95abc27e8cadc938b779ec379a9de9af2182dcd9ce35f119b34e38df3 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
     dct:description "The PEPPOL Directory describes a policy and guidelines for the use of identifiers within the PEPPOL e-delivery network."@en ;
     dct:title "Peppol Directory"@en ;
@@ -251,7 +251,7 @@ cssvrsc:05ae30452745c8e7b857a6cea3d573d8454da4491ae4e348f6735d3dc4b0c79b a cssv:
 
 cssvrsc:05cb8884a4a4dfef89e8d78ad03202187bcf840359840add00d0ff20d1f8e549 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal basis to use European standards for products and services, identify ICT technical specifications, and finance the European standardisation process."@en ;
     dct:title "Directive 2014/55/EU of the European Parliament and of the Council of 16 April 2014 on electronic invoicing in public procurement Text with EEA relevance"@en ;
@@ -261,11 +261,12 @@ cssvrsc:05cb8884a4a4dfef89e8d78ad03202187bcf840359840add00d0ff20d1f8e549 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:070acd69015d461438bb2a59f884185e05e8b4deb1cecbc6fdc32dd65c03e45e a cssv:Specification ;
-    
+    cssv:acronym "" ;
+    cssv:alternative "" ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 964 specification is designed to enable user authentication in a privacy-preserving manner. In this context, it allows users to access services through the use of Attribute-Based Encryption (ABE). ABE facilitates the demonstration of compliance with specific requirements, such as age or residency, without revealing the actual personal attributes. It extracts relevant information from a Verifiable Credential and anonymises the data, thereby safeguarding the user's sensitive details."@en ;
     dct:title "Cyber Security (CYBER); A Verifiable Credentials extension using  Attribute-Based Encryption (ETSI TS 103 964)"@en ;
-    dcat:distribution cssvrsc:62bc6c34538955972d0e36a47fa109330d599049718d92e312a0e79ebc7642f2 ;
+    dcat:distribution cssvrsc:0ea23056-4981-4b50-bd98-c8c794f6bbbd ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.1.1" .
 
@@ -281,7 +282,7 @@ cssvrsc:070bc738b1189f7127e17cc433f6e1e9417f91f8b0858d90c8bbd4054170021c a cssv:
 
 cssvrsc:0725fcf92d52b15e9c5f5ce37020558dc9f4a021215cccaa56ee101535bf2440 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
     dct:title "The EU cybersecurity certification framework"@en ;
@@ -305,7 +306,7 @@ cssvrsc:0762f422b839ba0815430c77fcc3b4174a97f4970951be420c596a524d0c0a08 a cssv:
 
 cssvrsc:085dc10cf2e33d26e682d056df20e9283e886cea3aad4184ff835e2253eb2ea0 a cssv:Specification,
         owl:NamedIndividual ;
- 
+    cssv:acronym "None"@en ;
     cssv:alternative "Protobuf"@en ;
     cssv:isMaintainedBy cssvrsc:05d3bea192e6a2dd70da22d8906608a25d81d0eb3d0b816939f0bc919c9bca59 ;
     dct:description "Protocol Buffers (Protobuf) is a language-agnostic binary serialization format developed by Google. It's used for serializing structured data, similar to XML or JSON, but more efficient and smaller in size."@en ;
@@ -327,7 +328,7 @@ cssvrsc:088ecda1c81a62bb73536c28835ab1a3225e9e609308950756ff65847197344d a cssv:
     dcat:version "3.0.0" .
 
 cssvrsc:089680e7222ccb31ea26492ea9046c31d2ca7eef90a36fe48a54abc4662739ad a cssv:Specification ;
-    
+    cssv:acronym ""@en ;
     cssv:alternative "CX-0006"@en ;
     cssv:isMaintainedBy cssvrsc:016cfaecc57938bae17bba2342973db6591994bf3013eeec27113e825d8ef03f ;
     dct:description "The CX-0006 specification is intended to establish the steps for the registration process within the Catena-X network. This registration service is offered by the Core Service Provider and helps organisations complete their registration process easily."@en ;
@@ -339,7 +340,7 @@ cssvrsc:089680e7222ccb31ea26492ea9046c31d2ca7eef90a36fe48a54abc4662739ad a cssv:
 
 cssvrsc:08dcfceb430258afca7c26e6347dbfe2ba85e8bfa280581c2aad246bc2ddf485 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:alternative "ITU-T X.1148"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "This Recommendation provides an overview of de-identification process based on data lifecycle model, specifies a de-identification process framework with operational steps and roles of stakeholders in the de-identification process. It further discusses data release models and data stages in a de-identification process and includes various de-identification approaches and examples in its annexes and appendices."@en ;
@@ -378,7 +379,7 @@ cssvrsc:094d9dad-a0b6-41bc-ab76-053b8fbe498e a owl:NamedIndividual,
 
 cssvrsc:09b8018fbcf71fe4d3e71fe14e009ae553e050745176a31ac00f2c6b72f95e7a a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:alternative "OAuth"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "OAuth 2.0 Authorization Server Metadata enables an OAuth 2.0 client to obtain the information needed to interact with an OAuth 2.0 authorization server, including its endpoint locations and authorization server capabilities."@en ;
@@ -387,13 +388,13 @@ cssvrsc:09b8018fbcf71fe4d3e71fe14e009ae553e050745176a31ac00f2c6b72f95e7a a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "2.0.0" .
 
-cssvrsc:09ce00273fb3ddb27a19e763415866b93a6ac114f4e1f42e6b9f24e48bacc705 a cssv:Specification,
-    owl:NamedIndividual ;
-    cssv:alternative "ETSI TR 103 290"@en  ;
+cssvrsc:09ce00273fb3ddb27a19e763415866b93a6ac114f4e1f42e6b9f24e48bacc705 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "ETSI TR 103 290"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TR 103 290 explores how Smart City applications, such as intelligent lighting, transportation systems, environmental sensors, and waste management, interact with IoT networks and Machine-to-Machine (M2M) communications. Rather than prescribing specific protocols, it compiles and reviews real-world use cases to identify how urban IoT deployments impact network requirements, service needs, and architectural considerations."@en ;
     dct:title "Machine-to-Machine communications (M2M); Impact of Smart City Activity on IoT Environment (ETSI TR 103 290)"@en ;
-    dcat:distribution cssvrsc:d872518303bc516672ca3f81e5809ee71807a565cfbbbf33e92845411f117ad9 ;
+    dcat:distribution cssvrsc:7ab3c6d4-809a-47f0-94d8-bf85acb875c3 ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "1.1.1" .
@@ -431,9 +432,9 @@ cssvrsc:0a542b23651b48e9f6021567e08284aa8ebcf021a74a440f76b6a9c734396530 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:0b20d84fe402cde345d199f82abee4c0c80ba0b54a8af80aab8ce982cef2692d a cssv:Specification ,
-owl:NamedIndividual ;
-    
+cssvrsc:0b20d84fe402cde345d199f82abee4c0c80ba0b54a8af80aab8ce982cef2692d a cssv:Specification ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
     dct:description "The Gaia-X Policy Rules Conformity Document aims to define the rules and conformity criteria for participants and services within the Gaia-X ecosystem. The purpose of these rules is to demonstrate Gaia-X's core European values, such as openness, transparency, data protection, security, and portability."@en ;
     dct:title "GAIA-X Policy Rules Conformity Document"@en ;
@@ -454,7 +455,7 @@ cssvrsc:0b319bf69d7a0413978bac35d8483f5b816fbda0e77c0291093cc3e6fe1bbae8 a cssv:
 
 cssvrsc:0b37cecddd46617439a61a5c025d428e597d6288ba1989baf0946aea43badbc4 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:72b8809dd96e3442fb49081b36b63feecb177659fb5273de26f9ae3ce72b8656 ;
     dct:description "MyData Service Linking enables to manage access to a centralised database by attaching the related service to the MyData Account."@en ;
     dct:title "MyData Service Linking Specification"@en ;
@@ -464,7 +465,7 @@ cssvrsc:0b37cecddd46617439a61a5c025d428e597d6288ba1989baf0946aea43badbc4 a cssv:
 
 cssvrsc:0b4b029f1965046fe8688fef791e98f65a200be8dc9c99224672a4280b9df91e a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:0c8f39b11936f6d48ad86897e2d3ecd9e62271931ed4c4c3ee7c97970dc7678a ;
     dct:description "DOLCE-Ultralite, is a upper level ontology which purpose is to provide a set of concepts hat can be the basis for easier interoperability among many middle and lower level ontologies."@en ;
     dct:title "DOLCE-Ultralite"@en ;
@@ -506,7 +507,7 @@ cssvrsc:0c29d2cb413399491569ef6ed8f2eaa3624e4feda6c3c3d88d51862416a23dc3 a cssv:
 
 cssvrsc:0c9ff444ad4f5a1d7ef7d81108c7980b166d4f3ae9899b82d92347298f874f87 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:575cc4496d2a694fd62e9434f4e8302da9878a8d6ea3a30a8ff14e84743ff636 ;
     dct:description "FIREWARE Catalogue is based on fireware.org's Context Broker, a comprehensive set of generic open source FIWARE enablers. The FIREWARE Catalogue serves a repository of specifications initially based on the NGSI v2 (https://fiware.github.io/specifications/ngsiv2/stable/) specification and currently built on the NGSI-LD specification."@en ;
     dct:title "FIREWARE Catalogue"@en ;
@@ -527,7 +528,7 @@ cssvrsc:0caf69e4413cd2da152767c1ad3b645914d4c6e64f2fb244f4a6352971e99225 a cssv:
 
 cssvrsc:0cbd98b34587df9ae6f011ed9513b8bf30b04bb840c1b97407d2741f99457940 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
     dct:description "The BIS eDocuments guide for pre-award uses the UBL 2.2 syntax and describes common building blocks to be able to execute pre-award processes."@en ;
     dct:title "BIS eDocuments guide for pre-award"@en ;
@@ -553,18 +554,30 @@ cssvrsc:0d0358cc6104ba9e15b02884c65417aea28c7246ed1ca5bfc77dfb13e2917088 a cssv:
     dct:description "The BPDM API delivers information about Business Partners and their master data. It can be used by business apps or other shared services that want to show additional information to a BPN anywhere in the system."@en ;
     dct:title "Business Partner Data Pool API (BPM - 003 Business Partner Data Pool API)"@en ;
     dcat:distribution cssvrsc:292c62ad-3393-4708-b5d4-f664c1fafeed ;
-    dcat:theme "Technology Architecture"@en ;
+    dcat:theme "Business Architecture"@en,
+        "Technology Architecture"@en ;
     dcat:version "2.1.0" .
 
 cssvrsc:0d185280c7e0fb66ab5bae0aa28e834491a538620bcee40eb0d27107e9cdcf4c a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:c8c696d3644095af8ba87690d43ac7da7d3f9637779ee16d5af72263145194b0 ;
     dct:description "This Recommendation harmonizes and specifies the end-to-end oneM2M functional architecture in the M2M service layer."@en ;
     dct:title "oneM2M Functional Architecture"@en ;
     dcat:distribution cssvrsc:39e54331-628d-4e8a-a602-442987c96875 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "5.6.0" .
+
+cssvrsc:0d3afc2bec841bc6e01d5399eb445dd06444d8c53055e00f12dd6f85bb2ab96a a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "RFC 3748 defines the Extensible Authentication Protocol (EAP), which serves as a flexible framework for supporting multiple authentication methods. Rather than authenticating users directly, EAP facilitates the exchange of authentication messages. These messages are carried between the device requesting access and the network’s authentication server. In this way, the protocol enables consistent communication regardless of the chosen authentication method. Ultimately, the server determines whether the user or device is granted access to the network or service."@en ;
+    dct:title "Extensible Authentication Protocol (EAP) (RFC 3748)"@en ;
+    dcat:distribution cssvrsc:6218c6c9-18fd-4b89-aed8-c55882e48d9b ;
+    dcat:theme "Implementation Governance"@en,
+        "Technology Architecture"@en ;
+    dcat:version "1.0.0" .
 
 cssvrsc:0dcbdac68ab52b1d6207c1f5046c2e34d4a0cdfac33a9197e79151f7781a368e a cssv:Specification,
         owl:NamedIndividual ;
@@ -611,7 +624,7 @@ cssvrsc:0e2bad82870e7abae827de478cff738ca43ce1e7ed07c7c400652936d8731105 a cssv:
 
 cssvrsc:0e933635134babec537800b3a518bc3f98b95e43dcd0cedaede685fba47a8a3a a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "Regulation 2019/881/EU"@en ;
+    cssv:slternative "Regulation 2019/881/EU"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
     dct:title "The EU Cybersecurity Act"@en ;
@@ -633,7 +646,7 @@ cssvrsc:1051d9d733d3a1f21d84e7efb0d9812dba7a5fb8b467dcfacf33ca6c86904e10 a cssv:
 
 cssvrsc:121193a8e270bc9666904b77a28db8810a9a0313df7bee88f2c572d3483e0e4e a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "The better regulation toobox consists in guidance, tips and best practice on how to manage all the aspects of a public policies. It covers the whole policy cycle – planning, adoption, design, implementation, application (including enforcement), evaluation and revision."@en ;
     dct:title "Better regulation \"Toolbox\""@en ;
@@ -666,7 +679,7 @@ cssvrsc:1267e8c151b0d93d7fb405fb253185b38d3148dbec15b2f022b3810d03583a8e a cssv:
 
 cssvrsc:12942011e3dbce66ff2eb098ac1c452a5bbb3ab2c7a7845cfa40284077be7110 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Verifiable Trust Model by EBSI contains permissions and policies in the context of Verifiable Credentials (VCs). Permissions allow governance or issuance in the Trust Model, while policies are used to define who made the accreditation, which Trust Framework is followed, and the legal basis of it. Trust Model participants make the whole Verifiable Trust Model publicly available by registering it in the EBSI Trusted Issuers Registry."@en ;
     dct:title "EBSI Trust Model"@en ;
@@ -676,7 +689,7 @@ cssvrsc:12942011e3dbce66ff2eb098ac1c452a5bbb3ab2c7a7845cfa40284077be7110 a cssv:
 
 cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af a cssv:Specification ;
     cssv:acronym "CLV"@en ;
-    
+    cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Location, represented as an address, a geographic name, or geometry. This specification can be used as the foundation of a common export format for data in base registries."@en ;
     dct:title "Core Location Vocabulary 2.0.0"@en ;
@@ -708,7 +721,7 @@ cssvrsc:1362f2b9dae365a631a0b39ec1c250e36b7936eee4fae44e43606eb7f2bb9c78 a cssv:
 cssvrsc:13a8f29ba149c2a24b86b7773c1a3019595a5d9cece88aca54c8cfd23280d0f9 a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:2379b80f86b1dca368b2f1df75af2431d7d9a30aa7072ee434fa3ce551d10706 ;
     dct:description "JSON Schema is a JSON media type for defining the structure of JSON data. JSON Schema provides a contract for what JSON data is required for a given application and how to interact with it. JSON Schema is intended to define validation, documentation, hyperlink navigation, and interaction control of JSON data."@en ;
     dct:title "JSON Schema"@en ;
@@ -719,7 +732,7 @@ cssvrsc:13a8f29ba149c2a24b86b7773c1a3019595a5d9cece88aca54c8cfd23280d0f9 a cssv:
 
 cssvrsc:145e9d989fe756ecae982fd3edbaea0e2c4b6b80aef13525e10a04a84730e119 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:3fa4f14bdd83e1d0ea9fcdfe81a9ad8a7b7dd37042e5f520425016263046ba9a ;
     dct:description "Agreement between ICT developing organisations allowing the cooperation between parties and maximising the collaboration."@en ;
     dct:title "IEC-CEN ELEC Frankfurt Agreement"@en ;
@@ -740,7 +753,7 @@ cssvrsc:1467c87128ba720b128f40df43147e0bb3617bc048b2e50a4d8e76b77d05daf2 a cssv:
 
 cssvrsc:146f66f6c82ed053d2b2549633e84168595d2ae3cac5cc5c869d70c56906e772 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:alternative "ITU-T X.1605"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T X.1605 adresses Infrastructure as a Service (IaaS) platforms and virtualized services face different, and perhaps more, challenges and threats than traditional information technology infrastructure and application. IaaS platforms that share computing, storage and networking services need protections specific to threats in an IaaS environment. Recommendation ITU-T X.1605 documents security requirements of public IaaS in order to help IaaS providers to improve security of the IaaS platform throughout the planning, building and operating stages."@en ;
@@ -762,7 +775,7 @@ cssvrsc:1511141514945ed0630bbaa64cf595748a6dba986bf36176d7a4e551850792ba a cssv:
 
 cssvrsc:15934bcfcb57d72b1b73d913180ce7f86d2773c32725efa41ddb6b14e143cb84 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:b015f3086d9adb2e85772fd6e995ae5e1893230527d6f6d5ed39a1c85927d7bb ;
     dct:description "Clause BSD License is one of the most common open source licenses. Once they are used, they are considered agreements."@en ;
     dct:title "3-Clause BSD License"@en ;
@@ -771,9 +784,19 @@ cssvrsc:15934bcfcb57d72b1b73d913180ce7f86d2773c32725efa41ddb6b14e143cb84 a cssv:
         "Technology Architecture"@en ;
     dcat:version "3.0.0" .
 
+cssvrsc:15a8627ef6b3409bf534b8537edc2e9778d2587cf643b4a5ec7c6b556a75bb13 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
+    dct:description "The ITU-T X.1365 specification is designed to facilitate and simplify the implementation of security mechanisms to protect data collected by sensors. In this sense, the specification proposes identity-based cryptography (IBC) to protect entities when exchanging data. Thus, sensors can authenticate their identity and communicate with the central platform in order to manage sensors if necessary."@en ;
+    dct:title "Security methodology for the use of identity-based cryptography in support of Internet of things (IoT) services over telecommunication networks (ITU-T X.1365)"@en ;
+    dcat:distribution cssvrsc:d6d01e07-302a-488d-bf2a-6ba348ee44ff ;
+    dcat:theme "Technology Architecture"@en ;
+    dcat:version "1.0.0" .
+
 cssvrsc:15ae1741b374a39c38c277daf407d1938175219d283b93905f3ad0cf403c19f8 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
     dct:description "OpenPeppol eDEC Code Lists define document types, processes, participant identifier schemes and transport profiles in business-to-gouvernmnet transactions."@en ;
     dct:title "OpenPeppol eDEC Code Lists"@en ;
@@ -799,7 +822,7 @@ cssvrsc:15ef9d7f-9a64-45e0-9061-7dec266a92db a owl:NamedIndividual,
 
 cssvrsc:15efa96c4f199f4283c0c6c623290196f0fc5ff802b839640c32246e2b474717 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ISO/IEC 38505-1"@en ;
+    cssv:alternative "ISO/IEC 38505-2"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "This specification describes what the governing body of an organization expects and requires from the data management team in order to be assured that the governing principles of IT can be implemented and are being upheld for data and its use by the organization."@en ;
     dct:title "ISO/IEC 38505-2: Information technology - Governance of IT - Part2: Implications of ISO/IEC38505-1 for Data Management"@en ;
@@ -839,13 +862,13 @@ cssvrsc:16a69589b4ab450efbcbc2ae77e88a8cc3a5b89b6850b76dd575751472860130 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:16e314257a53cda679bd5f54b590a96494be732eee5977afbc8975aa91222585 a cssv:Specification ,
-    owl:NamedIndividual ;
+cssvrsc:16e314257a53cda679bd5f54b590a96494be732eee5977afbc8975aa91222585 a cssv:Specification ;
+    cssv:acronym ""@en ;
     cssv:alternative "ETSI EN 319 411-1"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI EN 319 411-1 sets out the policy and security requirements for Trust Service Providers (TSPs) issuing public key certificates, including certificates for trusted websites. Its aim is to ensure trust in electronic transactions through the issuance, maintenance, and lifecycle management of these certificates."@en ;
     dct:title "Electronic Signatures and Trust Infrastructures (ESI); Policy and security requirements for Trust Service Providers issuing certificates; Part 1: General requirements (ETSI EN 319 411-1)"@en ;
-    dcat:distribution cssvrsc:25f9b3e437cbfe4e85616608263b0f5ac73aa0f169eee150f4e687fd5367fa0a ;
+    dcat:distribution cssvrsc:66df07c1-ebb8-450d-a0d2-f7dd775bd8f6 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.5.1" .
 
@@ -872,7 +895,7 @@ cssvrsc:17388a679c6de1b3d9a6a324d0c0932db628513e4c5cb3dabab57436935cd143 a cssv:
 
 cssvrsc:177270d5ccd7531560d9d2e61847d370328e4b14e51d38c14f5442c1d28d6700 a cssv:Specification,
         owl:NamedIndividual ;
-    
+    cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The eID specification is a set of services provided by the European Commission to enable the mutual recognition of national electronic identification schemes (eID) across borders. It allows European citizens to use their national eIDs when accessing online services from other European countries."@en ;
     dct:title "eID building block"@en ;
@@ -881,13 +904,13 @@ cssvrsc:177270d5ccd7531560d9d2e61847d370328e4b14e51d38c14f5442c1d28d6700 a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:17ed04878417546740b33ec3d8eeb42802b0ec3f58ca0278035a4f494457bc66 a cssv:Specification ,
-owl:NamedIndividual ;
+cssvrsc:17ed04878417546740b33ec3d8eeb42802b0ec3f58ca0278035a4f494457bc66 a cssv:Specification ;
+    cssv:acronym ""@en ;
     cssv:alternative "ETSI TS 103 828"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 828 specification is addressed to give clear guidelines on how the SAREF suite can fill important gaps and be expanded to model complex digital twins (DTs). This specification helps engineers build better DT systems that handle data well and make sure data collection is accurate, which improves the overall reliability of these systems."@en ;
     dct:title "SmartM2M; SAREF: Ontology Support for  Urban Digital Twins and usage guidelines (ETSI TS 103 828)"@en ;
-    dcat:distribution cssvrsc:648244da452677f94c61c94267f5185f26c8c31ed50ffde275215d46219187fc ;
+    dcat:distribution cssvrsc:f74b7a9d-26f2-46eb-8cf1-5b5838fe4b51 ;
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en,
         "Technology Architecture"@en ;
@@ -904,8 +927,8 @@ cssvrsc:17ef121c79a2af9c2fda71b7c5e8cab758d80d11360ac9ab544d87e2be009f1c a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:18405d991d37278ddebcd6a92b30138fef82844c37c073806683094fb8e4ac94 a cssv:Specification ,
-    owl:NamedIndividual ;
+cssvrsc:18405d991d37278ddebcd6a92b30138fef82844c37c073806683094fb8e4ac94 a cssv:Specification ;
+    cssv:acronym ""@en ;
     cssv:alternative "ETSI EN 319 412-3"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI EN 319 412-3 specification is designed to increase the interoperability and trustworthiness of certificate profiles across different countries by establishing a common method for creating them. In this context, the specification defines the requirements and attributes that a certificate must have."@en ;
@@ -1147,7 +1170,7 @@ cssvrsc:1be69ec52c743a85d06e01cac0710095c340643c5fbe90fcff3d9aa7bd395f16 a cssv:
 
 cssvrsc:1c4f6d87cf0b9a0a74ee091663959b45e057a66785bcd0ab38d3b2d2b5a11a35 a cssv:Specification,
         owl:NamedIndividual ;
-        cssv:acronym "OSI"@en ;
+    cssv:acronym "OSI"@en ;
     cssv:alternative "ISO/IEC 7498-1"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The model provides a common basis for the coordination of standards development for the purpose of systems interconnection, while allowing existing standards to be placed into perspective within the overall Reference Model. The model identifies areas for developing or improving standards. It does not intend to serve as an implementation specification."@en ;
@@ -1326,13 +1349,12 @@ cssvrsc:2181312d2dc991ec7d6b75b78a286220b811385dac02a6b43573ac002dfe48d0 a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:22702e20504dff2bb6f6363dc90614cabefc67f9a23f838309ac500978586ff5 a cssv:Specification ,
-     owl:NamedIndividual ;
+cssvrsc:22702e20504dff2bb6f6363dc90614cabefc67f9a23f838309ac500978586ff5 a cssv:Specification ;
     cssv:alternative "ITU-T X.1752"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T X.1752 analyses security threats and challenges for big data infrastructure and big data platform and specifies a reference framework for mapping security guidelines against threats for the big data infrastructure and platform."@en ;
     dct:title "ITU-T X.1752: Security guidelines for big data infrastructure and platform"@en ;
-    dcat:distribution cssvrsc:d775eaffaad51633f1952afb191a8c0f4e6e7fbc6a7dabf12af907d6373543cf ;
+    dcat:distribution cssvrsc:28191cb6-611f-455c-ad46-50b03ff5af1e ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -1412,20 +1434,18 @@ cssvrsc:250a2567c0af286f50ca3eecc071fe4258191c1270dbea6b82b557d74c0aaa7c a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:2519e714fe2baccf790d51fb84978ee4d368a871889fdf261630d3a1a9e7d237 a cssv:Specification ,
-    owl:NamedIndividual ;
+cssvrsc:2519e714fe2baccf790d51fb84978ee4d368a871889fdf261630d3a1a9e7d237 a cssv:Specification ;
     cssv:alternative "ETSI TS 103 410-4"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 410-4 specification is designed to offer an extension of SAREF for the Smart Cities domain. In this context, the specification provides an ontology that specifies different classes and attributes to establish a common core of general concepts for smart city data, oriented towards the IoT field."@en ;
     dct:title "SmartM2M; Extension to SAREF;  Part 4: Smart Cities Domain (ETSI TS 103 410-4)"@en ;
-    dcat:distribution cssvrsc:e1f0804f20e12b6064a880cb729f07000f8375c24607fef896bd84310d44f73d ;
+    dcat:distribution cssvrsc:830daac5-a657-4223-8ba3-c7de25698a60 ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "2.1.1" .
 
 cssvrsc:2530ab0daee506060b46a67ad31e86192dd538d189d049ef59718edc7c2ea121 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
-   
+    cssv:alternative "Recommendation X.509 (10/19)"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The X.509 specification addresses some of the security requirements in the areas of authentication and other security services through the provision of a set of frameworks upon which full services can be based."@en ;
     dct:title "X.509: Information technology - Open Systems Interconnection - The Directory: Public-key and attribute certificate frameworks"@en ;
@@ -1488,7 +1508,7 @@ cssvrsc:2703d04f985f18e711a774d3c6491024ec67d3465255c1c85d95132753e7ecf1 a cssv:
 
 cssvrsc:2721bff356ea48aeec43ba3b34d6cc9929bdf42bf89084cafc8a39d4aaa54a7d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ETSI TS 103 523-5"@en ;
+    cssv:acronym "ETSI TS 103 523-5"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 103 523-5 CYBER defines Requirements - such as legal mandates and service agreements - that exist for enterprise network, data centre operators and service providers, organizations and small businesses to be able to observe and audit the content and metadata of encrypted sessions transported across their infrastructures. The IPsec protocol standards [1], [i.2] and [i.3] can be managed in a way that enables this enterprise visibility."@en ;
     dct:title "ETSI TS 103 523-5 CYBER; Middlebox Security Protocol; Part 5: CYBER; Middlebox Security Protocol; Part 5: Enterprise Network Security"@en ;
@@ -1572,7 +1592,7 @@ cssvrsc:2922fcd7e5c71dac1c931650a7d31583d7ed4b1b8edea4c586dc36de487f401e a cssv:
 cssvrsc:29d0e11f39637851673a42720653d25e6b2eaead425e7d5b0a5c9f28292a8cfa a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-        cssv:acronym "WADL"@en ;
+    cssv:acronym "WADL"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Web Application Description Language (WADL) is an XML-based language designed to describe HTTP-based web services. It models the resources provided by a service and the relationships between them, aiming to simplify the reuse of web services that are based on the existing HTTP architecture of the Web. WADL is platform and language-independent, promoting the reuse of applications beyond basic web browser use."@en ;
     dct:title "Web Application Description Language (WADL) "@en ;
@@ -1584,7 +1604,7 @@ cssvrsc:2a521d23323c60aba6c4b5313f96c1a87eb91353a8e2ee1f95ce0cfad3dc9045 a cssv:
         cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "CPSV-AP"@en ;
-    
+    cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "CPSV-AP is a reusable and extensible data model for harmonising the way public services are described in a machine-readable format. It captures fundamental characteristics of a public service, such as the name, description, competent public organisation, output, etc."@en ;
     dct:title "Core Public Service Vocabulary Application Profile (CPSV-AP) 3.2.0"@en ;
@@ -1841,7 +1861,7 @@ cssvrsc:306a35d81f90aa7233be25cf6633a942ee5beaa3ed85ee73992ad6f6b86d2bc6 a cssv:
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The MFI specification provides the standards for registries that enable the discovery and sharing of meta-information, such as metadata or models, which are key enablers for the sharing of information across different communities through the interoperability of systems."@en ;
     dct:title "ISO/IEC 19763 Series Information technology — Metamodel framework for interoperability (MFI)"@en ;
-    dcat:distribution cssvrsc:7bc7d3abe1d613eb731d45f6b0b45ea99a4e50084921e5738904a10892f7cc85 ;
+    dcat:distribution cssvrsc:794f4097-36e1-48db-adf1-e0a18bba0e22 ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -1934,7 +1954,7 @@ cssvrsc:327c67acb2fdfe18fe292586ee0d282e25e00dbec3a8a20923b6ef14c05c074e a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 104 050 specification aims to define and characterise Artificial Intelligence. Additionally, it provides an ontology model of an Artificial Intelligence Threat, detailing properties and relationships to identify the role of each component within a threat and how they interact."@en ;
     dct:title "Securing Artificial Intelligence (SAI); AI Threat Ontology and definitions (ETSI TS 104 050)"@en ;
-    dcat:distribution cssvrsc:f0e3f1837420464fd1652d38e03b9dfd943cfcf724ad1ab40b0e97cd22b8b343 ;
+    dcat:distribution cssvrsc:f953fb1c-ad87-43be-8d8f-5af382cfdcc7 ;
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en ;
     dcat:version "1.1.1" .
@@ -2087,6 +2107,16 @@ cssvrsc:34ae965b550d09334658a78fd5eca236e8640a1ba4df78f05a728ccddafacfd1 a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:34dc870c1a82f85f95a3b4a57f09f5af0871ebf13c572d53db6b96bfbcf02e9b a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "ITU-T Y.4903" ;
+    cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
+    dct:description "The ITU-T Y.4903 specification establishes a framework of key performance indicators (KPIs) for smart and sustainable cities (SSCs). These KPIs are designed to assess the role and performance of information and communication technologies (ICTs) across three fundamental dimensions of a city: economy, environment, and society and culture."@en ;
+    dct:title "Key performance indicators for smart sustainable cities to assess the achievement of sustainable development goals"@en ;
+    dcat:distribution cssvrsc:0071ac7f-8294-4f24-bb7b-cadfc5f3080b ;
+    dcat:theme "Implementation Governance"@en ;
+    dcat:version "2.0.0" .
+
 cssvrsc:34f7f3c04b048748001c49b60cb45a2e764ec17e1dc486be1bc1d05cdffc1b27 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
@@ -2207,12 +2237,12 @@ cssvrsc:3665dab2bbd00e1738ac4265d4059f8cd57fc981eafb242082cdbfa91a32979d a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:36d51704e7a82bf08efe19b8adea8c4eb23671175fb48318426ad0b1189e3164 a cssv:Specification ;
-    
+    cssv:acronym "" ;
     cssv:alternative "EN 301 549"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI EN 301 549 specification is designed to offer an accessible means for people with disabilities to access digital resources and services. In this context, the specification focuses on making applications, websites, and other ICT systems available to all users by providing clear accessibility guidelines.The ETSI EN 301 549 specification is designed to offer an accessible means for people with disabilities to access digital resources and services. In this context, the specification focuses on making applications, websites, and other ICT systems available to all users by providing clear accessibility guidelines."@en ;
     dct:title "Accessibility requirements for ICT products and services (EN 301 549)"@en ;
-    dcat:distribution cssvrsc:c8e37cd16a38e30987f5407d6a5860e2e47c600aae36d0d637a3920d29c73789 ;
+    dcat:distribution cssvrsc:22b20489-4256-49ab-8502-dbc9792019a9 ;
     dcat:theme "Business Architecture"@en ;
     dcat:version "3.2.1" .
 
@@ -2264,7 +2294,7 @@ cssvrsc:38d692aaa784768a604ca19e1231c520063ec3ad082433fa35f4089f9b2a29b7 a cssv:
     cssv:isMaintainedBy cssvrsc:3fa4f14bdd83e1d0ea9fcdfe81a9ad8a7b7dd37042e5f520425016263046ba9a ;
     dct:description "The Trusted Data Transaction specification is addressed to provide terminology, concepts and mechanisms in the field of data exchange focusing on trusted data transactions. Those elements can be used in the development of standards in support of trusted data transactions. These terminology, concepts and mechanisms constitute the basis to identify key dimensions and criteria that contribute to the trust in a data transaction between interested parties."@en ;
     dct:title "CEN/CWA 18125 :2024 ‘Trusted Data Transaction'"@en ;
-    dcat:distribution cssvrsc:c79968fd77c6ebba5d6cf1182ef8ef1c7112da3a9e59fda452bc55a56f605472 ;
+    dcat:distribution cssvrsc:cc43b9fb-a997-4a44-8acc-aba1597bfb5e ;
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en ;
     dcat:version "1.0.0" .
@@ -2282,7 +2312,7 @@ cssvrsc:393f49d6eb2498dc190763c2914503ddd39b037cd62ce64561b2106b4a7e9786 a cssv:
 cssvrsc:39eee9a3f8d54dac0e11456b98c29454ebb157dc3a8991f456b7b659bf990370 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "OCSP"@en ;
-    cssv:alternative "RFC 6960"@en ; 
+    cssv:alternative "RFC 6960"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "This specification specifies a protocol useful in determining the current status of a digital certificate without requiring Certificate Revocation Lists (CRLs)."@en ;
     dct:title "X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP"@en ;
@@ -2347,7 +2377,7 @@ cssvrsc:3c538b852c1b5d6eb809952b0c8e4f0aee93208b7cca180b273519b17ce2c6cf a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI EN 319 411-2 is a European standard that sets out policy and security requirements for Trust Service Providers (TSPs). Its primary focus is the issuance of EU qualified certificates, covering electronic signatures, electronic seals, and website authentication, as defined by Regulation (EU) No 910/2014."@en ;
     dct:title "Electronic Signatures and Trust Infrastructures (ESI); Policy and security requirements for  Trust Service Providers issuing certificates; Part 2: Requirements for trust service providers issuing EU qualified certificates (ETSI EN 319 411-2)"@en ;
-    dcat:distribution cssvrsc:04dc498f22c1105768922b5497fa7f17441c681d12bb3829bcc88b5b6a7d0a2a ;
+    dcat:distribution cssvrsc:8db2c7fe-d0fa-4565-8616-aa8e72094d49 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "2.6.1" .
 
@@ -2506,7 +2536,6 @@ cssvrsc:40c6aac837357cdbc673a103d053d4fa78b7617bbaa2975df98b87b826f9bb6d a cssv:
 
 cssvrsc:41b2c79f6cfb66676430b6c3a94ff0ed87617341081c7ef1a147129c5c605b3e a cssv:Specification,
         owl:NamedIndividual ;
-    
     cssv:alternative "RFC 8943"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Concise Binary Object Representation (CBOR), as specified in RFC 7049, is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation."@en ;
@@ -2527,7 +2556,6 @@ cssvrsc:427811e6aa654e75d96f37710bec7a7a4e07b7f7eeae2433a40f01b1a5c99434 a cssv:
 
 cssvrsc:435032349eaed190675292bef1f89caea4d90a86f1b7bfaa06b81ed58188e895 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
     cssv:alternative "RFC 3647"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 3647 specification provides a framework for specifying Certificate Policies (CPs) and Certification Practices Statements (CPSs) for X.509 public key certificates. These certificates are used in a Public Key Infrastructure (PKI) to ensure secure digital communication through encryption, authentication, and data integrity."@en ;
@@ -2567,6 +2595,16 @@ cssvrsc:43c19a093b34b581ddcc7207f6bd094f6940db69f035c444425ed84d2cac037d a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.20.0" .
 
+cssvrsc:43c225a0b3a969615a19f525ad19d49bc0916e190f06ff374b7ab3ea7fe8ee99 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "RFC 7668" ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "The RFC 7668 specification enables Bluetooth Low Energy (BLE) devices to communicate by providing them with IPv6 connectivity. In this way, the specification ensures that devices can operate efficiently both individually and in groups, allowing applications and users on the network to interact with them indirectly. Although it does not focus on direct communication between users, it facilitates interaction between devices and other systems using IPv6 connectivity."@en ;
+    dct:title "IPv6 over BLUETOOTH(R) Low Energy"@en ;
+    dcat:distribution cssvrsc:1dbbe14d-878d-4907-909a-8cd4774952b0 ;
+    dcat:theme "Technology Architecture"@en ;
+    dcat:version "1.0.0" .
+
 cssvrsc:4436eacc9ca95a0a58e5e7992d9b210830720a4aeec5009ed5ef7437b80f3987 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:alternative "Directive 2018/1972/EU"@en ;
@@ -2587,6 +2625,16 @@ cssvrsc:446e7301829e85707da02adcf6c1b42a20d725363731cfa6e8c362b9713cf2e7 a cssv:
     dcat:distribution cssvrsc:87633c0a-ab9d-4d87-a098-386001085283 ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
+    dcat:version "1.0.0" .
+
+cssvrsc:449d772a61928d1cdd3940897b7e25adfb553c1947aa38504667c0eaf8a7a7cf a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "" ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "The RFC 7641 specification specifies a mechanism that allows devices to observe resources on a network using the CoAP protocol and it enables a client to subscribe to a resource so that it receives automatic updates whenever that resource changes which is particularly useful for devices with limited resources such as sensors or Internet of Things equipment and it reduces the need for constant polling of resources, thereby saving energy and bandwidth, while facilitating the detection of changes in the environment or digital systems, allowing notifications to be delivered in real time"@en ;
+    dct:title "Observing Resources in the Constrained Application Protocol (CoAP) (RFC 7641)"@en ;
+    dcat:distribution cssvrsc:527dd0e7-50c2-4762-af80-37684b682606 ;
+    dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
 cssvrsc:44f1bdffd784bbc0a93d05ae169fd1a3965afa3abd9b6ba7b40ebccd9282d2d5 a cssv:Specification,
@@ -2611,9 +2659,18 @@ cssvrsc:459ce55245869fa8d2fe286ec86dfea886241f1366deef90c41db0686c7eab12 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:464eea9a4a3838cf0ccf4c37d19eb5e1edec6e52d0690d516b6dde92daf47766 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "RFC 5448" ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "RFC 5448 extends the RFC 3748 specification, which defines a framework for supporting multiple authentication methods. Building on this framework, RFC 5448 specifies EAP-AKA′, an enhanced authentication method that strengthens the security of verifying users or devices in mobile and wireless networks, thereby providing a more reliable basis for authorising access to network services."@en ;
+    dct:title "Improved Extensible Authentication Protocol Method for 3rd Generation Authentication and Key Agreement (EAP-AKA')"@en ;
+    dcat:distribution cssvrsc:fd23fc7a-23b2-462b-bc77-f657be97ff83 ;
+    dcat:theme "Technology Architecture"@en ;
+    dcat:version "1.0.0" .
+
 cssvrsc:46686dc0ef5e64da788fbdb188bf9adeacb04109ebe59d1af30b582744b1c07d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
     cssv:alternative "OpenDocument"@en ;
     cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
     dct:description "Semantic Interoperability agreements base on open standards and commonly agreed semantic [interoperability] specifications to establish the rules that enable the collaboration between peers when they extract, map and transform the data onto the external environment, and vice-versa when they transform/map and integrate the data from the external environment into the internal systems."@en ;
@@ -2697,7 +2754,6 @@ cssvrsc:48aa5a5a1163f86089d4577b9e577c601c7b5673cceeb45e97700ba4f43736a4 a cssv:
 cssvrsc:4909c79d2759fc5cdbd6e87160f397452ee9484bd8d9e9bf838be385108c987c a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
     cssv:alternative "ISO/IEC 27001:2022"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
@@ -2852,7 +2908,7 @@ cssvrsc:4dd23efd702c35d1d55f5535b533a9b7b90a450f379fd89d811b248f4c2c7959 a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The EN 16931-1:2017+A1:2019/AC:2020 standard is designed to address the obstacles created by the fragmentation of e-Invoicing solutions on the market. By establishing a clear and well documented structure for the essential elements of any invoice, it allows everyone to have the same reference for the exchange of invoices. "@en ;
     dct:title "EN 16931-1:2017+A1:2019/AC:2020"@en ;
-    dcat:distribution cssvrsc:cf90fbb2c0083363905ed2b7db53cfa23e269ed4db1b2d12042d093b87681136 ;
+    dcat:distribution cssvrsc:17d1b3fd-2b34-40fa-b5e1-678cda757d54 ;
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en,
         "Technology Architecture"@en ;
@@ -3048,7 +3104,7 @@ cssvrsc:5373b170e5317c1c4e73551703f4880d871ccbe1d710847974a494c58643b13d a cssv:
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Extended Log File Format specification is a standardised method for web servers to record detailed information about HTTP transactions. Unlike the Common Log Format, which captures a fixed set of data, the Extended Log Format allows web administrators to customise the fields they wish to log, providing flexibility to capture a broader range of information."@en ;
     dct:title "Extended Log File Format"@en ;
-    dcat:distribution cssvrsc:a0d1a8f3881e43fe24636d5f0fe60ce7b12e8c0f8eecc8670ec77babea8ffd91 ;
+    dcat:distribution cssvrsc:6027504e-3daa-497c-80b4-7bbd7fab7a6d ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "Working Draft" .
 
@@ -3378,7 +3434,7 @@ cssvrsc:5deb655042cb9266d83ddbc3efaf04d0593941afe6b5ce004433c090d28baa87 a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 3628 specification is addressed to define the policy requirements to Time-Stamping Authorities (TSA's) issuing time-stamp tokens, which serve as trusted proofs that a datum existed at a particular time. In this sense, the specification can help to prove the digital signature was generated while the signer's certificate was valid."@en ;
     dct:title "Policy Requirements for Time-Stamping Authorities (TSAs) (RFC 3628)"@en ;
-    dcat:distribution cssvrsc:0609f643a55d5601c4d6f6ebc132b3ae493329b8057becc8a1cec11dfd4a9d7a ;
+    dcat:distribution cssvrsc:00a2a799-bc65-4714-97e6-7cbe581d6186 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -3388,7 +3444,7 @@ cssvrsc:5e055257d3c0c61888b38e58a8eab1058088afa4711f27e6ec14deb65807e90f a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 142 specification details interoperability test descriptions for the OCCI and CDMI standards in cloud computing. It covers a wide range of tests, including the creation, reading, updating, and deletion of resources and objects in both OCCI and CDMI. Additionally, it defines test configurations for interoperability between OCCI and CDMI, ensuring that implementations of these protocols can work together effectively."@en ;
     dct:title "CLOUD; Test Descriptions for Cloud Interoperability (ETSI TS 103 142)"@en ;
-    dcat:distribution cssvrsc:f071571d4bdd4fa93eaff8261a396fe0dee0cc06c0fcfbb0ce0fc92b5a27fff0 ;
+    dcat:distribution cssvrsc:4a55000f-3838-4b6b-9f0d-1cb3f9aabd78 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.1.1" .
 
@@ -3428,16 +3484,16 @@ cssvrsc:60ce304ab2b48bcc9dea1f580064d77b84e1ed23b51944a2bd1b1601caa12853 a cssv:
         owl:NamedIndividual ;
     cssv:alternative "ITU-T X.1363"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
-    dct:description """Internet of things (IoT) devices can collect many kinds of data, including personally identifiable information (PII). Because PII data are useful for different types of services, they may be shared among multiple service providers.
-
-It is better for users to manage their own data, including PII, in IoT environment based on their own intentions. As data usage in IoT environment with multiple service providers is complicated, user intentions for data usage should be accommodated flexibly. For example, if an IoT service provider provides the following functions, user can appreciate that the service provider collects and controls data collected (including PII) properly:
-
-−          Users can configure their own PII preferences. These preferences include a list of permitted data for sharing among other service providers.
-
-−          Collection and share of data are subject to controlled access based on PII preferences. Unauthorized data cannot be stored in data storage, and cannot be shared among other service providers.
-
-−          Users can check history log of data sharing among service providers. Users can also check times of data usage.
-
+    dct:description """Internet of things (IoT) devices can collect many kinds of data, including personally identifiable information (PII). Because PII data are useful for different types of services, they may be shared among multiple service providers.\r
+\r
+It is better for users to manage their own data, including PII, in IoT environment based on their own intentions. As data usage in IoT environment with multiple service providers is complicated, user intentions for data usage should be accommodated flexibly. For example, if an IoT service provider provides the following functions, user can appreciate that the service provider collects and controls data collected (including PII) properly:\r
+\r
+−          Users can configure their own PII preferences. These preferences include a list of permitted data for sharing among other service providers.\r
+\r
+−          Collection and share of data are subject to controlled access based on PII preferences. Unauthorized data cannot be stored in data storage, and cannot be shared among other service providers.\r
+\r
+−          Users can check history log of data sharing among service providers. Users can also check times of data usage.\r
+\r
 This Recommendation specifies a technical framework for PII handling in IoT environment with single or multiple service providers."""@en,
         "The X.1363 Recommendation specifies a technical framework of personally identifiable information (PII) handling in Internet of things (IoT) environment. Moreover, the specification allows to specify for which uses data can be stored and managed, by third parties organisations."@en ;
     dct:title "X.1363 : Technical framework of personally identifiable information handling system in Internet of things environment"@en ;
@@ -3746,8 +3802,8 @@ cssvrsc:6c793fd1d17062d9fd8edd8d37932cd56cb00840ae3ef37568ad77404230f05b a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:6ce01c099ee9d575af9a0f7408690e704182728163a54969da7402f6ba7e4a8d a cssv:Specification ;
-    cssv:acronym "CoAP"@en ;
-    cssv:alternative ""@en ;
+    cssv:acronym ""@en ;
+    cssv:alternative "CoAP"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Constrained Application Protocol (CoAP) specification is designed to facilitate communication and data exchange between constrained devices and networks. In this context, the protocol can be useful in scenarios such as smart homes and intelligent wearables, among others."@en ;
     dct:title "Constrained Application Protocol (CoAP)"@en ;
@@ -3799,13 +3855,13 @@ cssvrsc:6eb2a0776547a9750027a031719cb9ca3e620970f7dfd42bd96ac025b8a6f463 a cssv:
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The SPARQL 1.1 Graph Store HTTP Protocol specification is designed to effectively manage data across multiple RDF graphs. In this context, the specification enables operations such as deleting and updating information within different graphs in a straightforward manner."@en ;
     dct:title "SPARQL 1.1 Graph Store HTTP Protocol"@en ;
-    dcat:distribution cssvrsc:264c7486aa070e0384284a108832a77b4d4a49a5e9dae98feaf3f39df7e5fab1 ;
+    dcat:distribution cssvrsc:20f6ce11-89bf-479a-aa8f-beb7e5b3d77c ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.1.0" .
 
 cssvrsc:6f03402e98acfd1f4c58b6533bdb88e793efffd35b0a6a3389b8c7c77220a310 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ETSI TS 103 744"@en ;
+    cssv:acronym "ETSI TS 103 744"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The focus of TS 103 744 CYBER is on the practical implementation of quantum-safe primitives, including performance considerations, implementation capabilities, protocols, benchmarking and practical architectural considerations for specific applications. The group’s work also feeds into other groups and standards bodies such as International Telecommunications Union (ITU), Internet Engineering Task Force (IETF), International Standards Organisation (ISO) and GlobalPlatform."@en ;
     dct:title "ETSI TS 103 744 CYBER; Quantum-safe Hybrid Key Exchanges"@en ;
@@ -3890,7 +3946,7 @@ cssvrsc:7107d45e32eb9a8ab7a10909c9fa87a1a4a2dbe52afc647edb46dc1f2f11effd a cssv:
 
 cssvrsc:710c271ac62cdb5a5a194d8a48dbeaa906bf84f68d4f2872b6aa978102994442 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "Council Directive 2006/112/EC"@en ;
+    cssv:alternative "Directive 2006/112/EC"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act providing a common scope on the context of European Public services and taxation aspects."@en ;
     dct:title "Council Directive 2006/112/EC of 28 November 2006 on the common system of value added tax"@en ;
@@ -3948,7 +4004,7 @@ cssvrsc:7241a67b5f3d3fca7be475fb56446bace3ef101ecb5f2bc67382cce0afdaa0f3 a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 779 specification is designed to provide guidelines on how IoT devices should exchange data to achieve a common understanding. In this context, the specification supports communication between devices—such as sensors in a smart home—by enabling data exchange in a standardised format that can be understood across different IoT systems."@en ;
     dct:title "SmartM2M; Requirements and Guidelines for cross-domain data usability of IoT devices (ETSI TS 103 779)"@en ;
-    dcat:distribution cssvrsc:7a6c979aeaa0e79ed7ba8ca49fa83065a0b58e2ead9edf4f55ba7cedcb3bc433 ;
+    dcat:distribution cssvrsc:79dc4869-f8b3-4d96-b885-b55dca170cff ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "1.1.1" .
@@ -4020,7 +4076,7 @@ cssvrsc:7410b9bd5581c927fbd89713206c65da5e921fbccd1961936d17786aec1bd2bf a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 486 specification provides a robust and flexible framework for identity management in IoT environments, enabling granular control over exposed information and enhancing security and privacy during discovery and communication processes."@en ;
     dct:title "CYBER; Identity Management and Discovery for IoT (ETSI TS 103 486)"@en ;
-    dcat:distribution cssvrsc:a9ad6e8d7302ad855a6b44316eafb1a9908e238b01c79715680a652eee1c48b3 ;
+    dcat:distribution cssvrsc:819a4318-e812-4ba3-be4e-78bc71177761 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.1.1" .
 
@@ -4166,7 +4222,7 @@ cssvrsc:798f57c9a79c00ba21874151b6145d33cf5c11a551a7e337224f670ebaaefcac a cssv:
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Open Digital Rights Language (ODRL) is a policy expression language offering a flexible and interoperable framework, including an information model, vocabulary, and encoding methods, for articulating rules about how content and services may be used. The ODRL Information Model defines the core concepts, entities, and relationships that underpin the meaning and structure of ODRL policies."@en ;
     dct:title "ODRL Information Model 2.2"@en ;
-    dcat:distribution cssvrsc:2314f66ba21b44daf21fb21adae00f9ebcb8bcf544f600139115f5eeddd4a07f ;
+    dcat:distribution cssvrsc:b56574bb-0d63-4caa-bf82-35af44912b1a ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "2.2.0" .
 
@@ -4350,9 +4406,18 @@ cssvrsc:7f3a6b194d0bd127d1a6851a86fa7498415964a4d56d56749607faf692e2f7ad a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:7f9b20000e60e4cdcc457714628e5d9ad52ff0d696e1ffd344d06a23615d492d a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "ITU-T Y.4119" ;
+    cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
+    dct:description "The ITU-T Y.4119 specification is designed to define and establish the requirements and capabilities for the Automotive Emergency Response System (AERS). In this sense, the system is created with the objective of detecting traffic accidents and reducing mortality. The system uses sensors and is capable of transmitting data to facilitate assistance in the event of accidents on the roads."@en ;
+    dct:title "Requirements and capability framework for IoT-based automotive emergency response system"@en ;
+    dcat:distribution cssvrsc:fcc3d06b-e308-422d-8a6c-1dd7a3d5a83a ;
+    dcat:theme "Technology Architecture"@en ;
+    dcat:version "1.0.0" .
+
 cssvrsc:7fa1cb50b03a684843349c75a6533a376020f0c71a4829a4aa250554a5c33896 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
     cssv:alternative "ETSI TS 119 612"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 119 612 provides a common time-stamping protocol and token profiles for a Trusted List Scheme Operator (TLSO) to provide information on the status and history of Trusted Service Provider (TSP) services concerning compliance with relevant legislation."@en ;
@@ -4408,18 +4473,18 @@ cssvrsc:824fc0b24ca7946efb482864b66291f5226e724c95eabb8fcc19d75ec7ecfb7e a cssv:
         owl:NamedIndividual ;
     cssv:alternative "ITU-T X.1770"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
-    dct:description """Recommendation ITU-T X.1770 establishes technical guidelines for multi-party computation (MPC) and provides a technical standard basis for information and communication technology (ICT) stakeholders to use MPC to protect data in data collaboration and big data analysis scenarios. It also describes applications for which MPC can be used and how it can serve as a reference for ICT stakeholders to develop MPC applications.
-
-Data has become one of the most important assets in ICT. Secure MPC can build trust and security in data collaboration and big data analysis-related areas by balancing usage and protection of data.
-
-Recommendation ITU-T X.1770 includes:
-
-–           a technical framework for MPC, in which its elements and the workflow between them is determined;
-
-–           security levels of MPC protocols, used in the analysis and determination of the security model and threshold;
-
-–           applications of MPC, illustrated by use cases, including an application scenario description and processes, with appropriate security requirement recommendations.
-
+    dct:description """Recommendation ITU-T X.1770 establishes technical guidelines for multi-party computation (MPC) and provides a technical standard basis for information and communication technology (ICT) stakeholders to use MPC to protect data in data collaboration and big data analysis scenarios. It also describes applications for which MPC can be used and how it can serve as a reference for ICT stakeholders to develop MPC applications.\r
+\r
+Data has become one of the most important assets in ICT. Secure MPC can build trust and security in data collaboration and big data analysis-related areas by balancing usage and protection of data.\r
+\r
+Recommendation ITU-T X.1770 includes:\r
+\r
+–           a technical framework for MPC, in which its elements and the workflow between them is determined;\r
+\r
+–           security levels of MPC protocols, used in the analysis and determination of the security model and threshold;\r
+\r
+–           applications of MPC, illustrated by use cases, including an application scenario description and processes, with appropriate security requirement recommendations.\r
+\r
 Based on the framework and security levels established in Recommendation ITU-T X.1770, standards for MPC applications in different fields can be determined."""@en ;
     dct:title "X.1770 : Technical guidelines for secure multi-party computation"@en ;
     dcat:distribution cssvrsc:7ea3e1e1-8bc6-4839-a13a-eb21851eca94 ;
@@ -4428,7 +4493,6 @@ Based on the framework and security levels established in Recommendation ITU-T X
 
 cssvrsc:82631e4f6b9cb3ba51ee3824a6e5926231d68d13dc3b2f520b67c8f114887b48 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
     cssv:alternative "ITU-T Q.3914"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "This Recommendation provides a set of parameters that indicate the status and event of a cloud computing system, including resource layer, service layer and access layer, in accordance with the functional reference architecture of cloud computing that was defined in Recommendation ITU-T Y.3502.  Recommendation ITU-T Q.3914 specifies the functional reference  architecture of cloud computing according to Recommendation ITU-T Y.3500."@en ;
@@ -4472,7 +4536,7 @@ cssvrsc:835a37b6f8f926c2c1b50b623f2fcd833ecb87d7e6b85b3b1732b4766bbadf8f a cssv:
 
 cssvrsc:836a6233b47faa7042272c870db4cfa50e3c21868d852e142e4f8656c0635561 a cssv:Specification,
         owl:NamedIndividual ;
-        cssv:acronym "RAPIS"@en ;
+    cssv:acronym "RAPIS"@en ;
     cssv:isMaintainedBy cssvrsc:38670c19d5ed998a3896f7dd55d5644b3622402d5375b41612541112e3be3e61 ;
     dct:description "The REST API Standard (RAPIS) is a proposed specification for designing REST APIs. It aims to provide a structured approach to API design, ensuring consistency and best practices across different implementations."@en ;
     dct:title "REST API Standard (RAPIS)"@en ;
@@ -4506,7 +4570,6 @@ cssvrsc:844a9f33532b78144bb6f037efcfd10e05ba0e751b89bad502062c993192b154 a cssv:
 cssvrsc:84a1c8b0d4ee9f8d53a50e8529a99516c5f79ba2728b0784d8e2108fa849a0de a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
     cssv:alternative "IEEE 7001-2021"@en ;
     cssv:isMaintainedBy cssvrsc:3c1250b675a3e22cc3555ea1c94489048376f76e7af7ac7c649ad868cbdb5259 ;
     dct:description "IEEE 7001 sets out metrics for measuring AI trustworthiness as mentioned in the AI Watch report (). The standard is broadly applicable to provide measurable and verifiable levels of transparency so that autonomous systems, including physical and non-physical systems, can be objectively evaluated and compliance levels, determined. The IEEE Grant Program grants public access to view or download this standard."@en ;
@@ -4518,7 +4581,7 @@ cssvrsc:84a1c8b0d4ee9f8d53a50e8529a99516c5f79ba2728b0784d8e2108fa849a0de a cssv:
 cssvrsc:84b85235ee46701a6b95a3f1ef00844e95091763815a88edfcb291aa29ffffb8 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "HTTPS"@en ;
-    cssv:alternative "RFC 2818"@en ;
+    cssv:alternative "RFC 2818"en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "HTTP over SSL/TLS (also known as Hypertext Transfer Protocol Secure, HTTP over SSL, HTTP over TLS, or HTTPS) is a protocol for secure communication over a computer network that is widely used on the Internet."@en ;
     dct:title "HTTP over SSL/TLS (HTTPS) (RFC 2818)"@en ;
@@ -4573,7 +4636,7 @@ cssvrsc:8571211bbf3815c7457d9b6d99d478c1008acc227358597ca9dd30eb8087bf81 a cssv:
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The PROV-N specification provides a human-readable notation for representing provenance information. Provenance refers to the history or origin of data, essentially, answering questions like Who created this data?, What processes were involved?, and How did this data come to be?. In this sense, it offers a functional-style syntax designed to describe the relationships between entities, activities, and agents involved in producing or modifying data."@en ;
     dct:title "W3C PROV-N: The Provenance Notation"@en ;
-    dcat:distribution cssvrsc:45adb50381e00274d0e54e031d3dbba9d96543142902f2dbfa45e22f7a811b84 ;
+    dcat:distribution cssvrsc:f48f7cf1-7912-4602-bf49-7a7a5290b289 ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -4583,7 +4646,7 @@ cssvrsc:85822b766ddea16db2ac9ccc096ec38387cde874801350c048413e0bad44b864 a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 103 264 defines the SAREF ontology, a standardised semantic framework for smart appliances and IoT domains. It provides core concepts and relationships to model devices and their functions consistently. The specification includes mappings to oneM2M for semantic interoperability across platforms. It supports aligning different data models through ontology matching and agreements. Overall, it enables seamless data integration and collaboration in smart ecosystems."@en ;
     dct:title "SmartM2M; Smart Applications;  Reference Ontology and oneM2M Mapping (ETSI TS 103 264)"@en ;
-    dcat:distribution cssvrsc:daaa8ef21b7d044f16fa6e77e26c93cb5af5a9983e8d49e5c6f7a395502b071a ;
+    dcat:distribution cssvrsc:ed6d26fa-6b0a-4ec8-9306-9fe5e489f572 ;
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en ;
     dcat:version "4.1.1" .
@@ -4812,6 +4875,16 @@ cssvrsc:8e0e44174d80fd53a6007b49e39d22186c76e67f6750545e9c383beca16edd38 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.1.0" .
 
+cssvrsc:8e2c8ec84395efa47a28ad653231f0194c5b9eb2943282b2346a37032a140682 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "ITU-T Y.4471" ;
+    cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
+    dct:description "The ITU-T Y.4471 establishes a functional architecture for network-based driving assistance (NDA) for autonomous vehicles. It details how coordination between vehicles and infrastructures can improve the safety and efficiency of automated driving. Thus, the NDA involves the collection and processing of sensor data from both the road and the vehicles."@en ;
+    dct:title "Functional architecture of network-based driving assistance for autonomous vehicles"@en ;
+    dcat:distribution cssvrsc:a9b0796e-2592-41b7-a4dc-96278fc8e90f ;
+    dcat:theme "Technology Architecture"@en ;
+    dcat:version "1.0.0" .
+
 cssvrsc:8e67f8b2a6bc993d9a543529f61b1e7dbf347b40a14948562e65ca9560f6eede a cssv:Specification ;
     cssv:acronym "GXFS DELS"@en ;
     cssv:alternative ""@en ;
@@ -4876,7 +4949,7 @@ cssvrsc:8fe3b1da6801f8be408c193d21e850b679d122d9571dc376bcb79e32c36f6330 a cssv:
 
 cssvrsc:90b4da7a36d0b8f01c64463622df32fc84fc4954e08fecc8897874f4f20444eb a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:Alternative "Regulation 2017/0086/COD"@en ;
+    cssv:alternative "Regulation 2017/0086/COD"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on establishing a single digital gateway to provide information, procedures, assistance and problem solving services"@en ;
     dct:title "Proposal for regulation on establishing a Single Digital GateWay Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on establishing a single digital gateway to provide information, procedures, assistance and problem solving services and amending Regulation (EU) No 1024/2012 COM/2017/0256 final - 2017/086 (COD)"@en ;
@@ -4903,7 +4976,7 @@ cssvrsc:90cc1d25c84061f0094962de974205c4701a2168f14ed3794fcaeac98321650d a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 103 701 is a technical specification that provides a structured framework to assess the cybersecurity of consumer Internet of Things (IoT) devices. It translates the baseline security requirements defined in ETSI EN 303 645 into modular, testable criteria. The specification enables manufacturers, testers, and certification bodies to systematically evaluate IoT products for compliance through defined test cases and assessment methods. By doing so, it helps ensure that IoT devices implement essential security measures, protecting user data, maintaining confidentiality, and reducing vulnerabilities."@en ;
     dct:title "Cyber Security (CYBER); Cyber Security for Consumer Internet of Things: Conformance Assessment of Baseline Requirements (ETSI TS 103 701)"@en ;
-    dcat:distribution cssvrsc:4f850aacffdcacda778a2a045db1e8e371bb2d11bf742369eb6165b53b78960f ;
+    dcat:distribution cssvrsc:13ba010b-b96c-4525-8f2a-1054a07d6f31 ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
     dcat:version "2.1.1" .
@@ -4997,7 +5070,6 @@ cssvrsc:92ebc757bde281e7120ecbc142055e8ebb6e0d29e0de746366cbe36e97fd2f86 a cssv:
 
 cssvrsc:9304a7f7222ff5780ee07f1af30e1a2aa57d84746fd3d6062dea700caa7e080b a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
     cssv:alternative "RFC 3339"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 3339 specification addresses many of the problems encountered and makes recommendations to improve consistency and interoperability when representing and using date and time in Internet protocols. There are many ways in which date and time values can appear in Internet protocols, and this document focuses on just one common usage."@en ;
@@ -5007,12 +5079,11 @@ cssvrsc:9304a7f7222ff5780ee07f1af30e1a2aa57d84746fd3d6062dea700caa7e080b a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:939f584779f9906a9f033ee778b30639a08bbbbdfa5b1f518086b9324c16136f a cssv:Specification ;
-    cssv:acronym ""@en ;
     cssv:alternative "ITU-T X.1751"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T X.1751 provides security guidelines for managing telecommunication big data services, emphasising the importance of lifecycle protection and subscriber consent. It outlines vulnerabilities and recommends safeguards throughout the data handling process, while noting that detailed protection mechanisms for specific data categories fall outside its scope."@en ;
     dct:title "ITU-T X.1751: Security guidelines on big data lifecycle management for telecom operators"@en ;
-    dcat:distribution cssvrsc:c71a058355f70b3849908e96c2d9746765b4370152b6b99ab0a19096b74698c9 ;
+    dcat:distribution cssvrsc:50cfac32-b432-41d7-90dd-5827528aef7f ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -5277,7 +5348,7 @@ cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 a cssv:
 
 cssvrsc:9a0d93a6a4a55176ed1f09f191b3ca8f3a0c534f7930248a7115c6d469826136 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ETSI TS 103 532"@en ;
+    cssv:acronym "ETSI TS 103 532"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TS 103 532 focuses on Attribute-Based Encryption to control access to data, aiming to provide user identity protection whilst preventing disclosure of data to an unauthorized entity."@en ;
     dct:title "ETSI TS 103 532 CYBER; Attribute Based Encryption for Attribute Based Access Control"@en ;
@@ -5311,14 +5382,14 @@ cssvrsc:9affd5b469c2a5951a9fb61fcfaa48b6a899e130a8af1e9f633fc23ee52ab3a3 a cssv:
     cssv:acronym "FQSCS"@en ;
     cssv:alternative "ETSI TR 103 619"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
-    dct:description """The present document identifies a framework of actions that should be taken by an organization to enable migration to a 
-Fully Quantum Safe Cryptographic State (FQSCS). The migration framework, and the migration plan that documents it, 
-comprises the following three stages: 
-1) Inventory compilation. 
-2) Preparation of the migration plan. 
-3) Migration execution. 
-The present document describes the activities that fulfil each of these stages. The rationale for, and purpose of, 
-migration is to mitigate the existential risk from Quantum Computing to cryptographic assets that is documented in 
+    dct:description """The present document identifies a framework of actions that should be taken by an organization to enable migration to a \r
+Fully Quantum Safe Cryptographic State (FQSCS). The migration framework, and the migration plan that documents it, \r
+comprises the following three stages: \r
+1) Inventory compilation. \r
+2) Preparation of the migration plan. \r
+3) Migration execution. \r
+The present document describes the activities that fulfil each of these stages. The rationale for, and purpose of, \r
+migration is to mitigate the existential risk from Quantum Computing to cryptographic assets that is documented in \r
 ETSI GR QSC 004 [i.1] and in ETSI EG 203 310 [i.2]."""@en ;
     dct:title "ETSI TR 103 619 CYBER; Migration strategies and recommendations to Quantum Safe schemes"@en ;
     dcat:distribution cssvrsc:1059cc95-5e26-4390-8647-db5da6b3c285 ;
@@ -5368,11 +5439,11 @@ cssvrsc:9c2f765f7d194336045492bd806b3413413afac3d440bf4a043d4886ce4e75cf a cssv:
     dcat:version "2.2.0" .
 
 cssvrsc:9c9547a44019de35fc19caada88d4eb61b4e015547e8fdb858b5ea7b033b1184 a cssv:Specification ;
-    
-    cssv:alternative "Xquery"@en ;
+    cssv:alternative "XQuery"@en ;
+    cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The XQuery specification is designed to search for information and manage data from various XML sources. By using queries, it allows users to search for different attributes across multiple resources and store the results, thereby facilitating the organisation and management of data."@en ;
-    dct:title "XML Query Language (Xquery)"@en ;
+    dct:title "XML Query Language (XQuery)"@en ;
     dcat:distribution cssvrsc:c7d34947-40a0-4c27-a2f7-bfaf0cea4a98 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "3.0.0" .
@@ -5397,7 +5468,7 @@ cssvrsc:9d0f39c61d26720ef52833ad89a6bf09d7bd7148dac6eb1306edf7516b68b395 a cssv:
     dcat:version "0.0.2" .
 
 cssvrsc:9d677b70169824b046a4a82616729da6bbd4321ea14a7f825e3e16f23697b1f1 a cssv:Specification ;
-    
+    cssv:acronym ""@en ;
     cssv:alternative "DSSC Blueprint"@en ;
     cssv:isMaintainedBy cssvrsc:58b7adb6cb104ce15756c8e7a40e9d3dd08e127a73747177cc5697b398510739 ;
     dct:description "The DSSC Blueprint is a strategic document that provides a roadmap for establishing and operating the support structures necessary for the successful deployment and utilisation of common European data spaces. It aims to ensure that these data spaces are well-governed, technically sound, legally compliant, and ultimately deliver value to their participants and the wider European economy and society."@en ;
@@ -5428,7 +5499,7 @@ cssvrsc:9eee7b5f591edb9c84e3d07d234b97ce0f5e84c26989b649ac96715af0adf328 a cssv:
     dcat:distribution cssvrsc:4c1ed9e1-c375-4e98-aac2-07424c4b761f ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "L 178" .
+    dcat:version "1.0.0" .
 
 cssvrsc:9f20060720cf509194734e94953c33a87e28b82bebad2ea64ba192e1ade4e4bf a cssv:Specification,
         owl:NamedIndividual ;
@@ -5439,11 +5510,11 @@ cssvrsc:9f20060720cf509194734e94953c33a87e28b82bebad2ea64ba192e1ade4e4bf a cssv:
     dcat:distribution cssvrsc:9add2852-2961-4fdf-841e-63b15dfbb2eb ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 178" .
 
 cssvrsc:9f33e6fe5d13ddc426e44b02c777119f89ff87d41397ce2f135a0c3c71724fb6 a cssv:Specification,
         owl:NamedIndividual ;
-        cssv:alternative "RFC 7807"@en ;
+    cssv:alternative "RFC 7807"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Problem Details for HTTP APIs (RFC 7808) specification provides a standardised way to convey error details in HTTP responses by defining simple JSON and XML document formats and a HTTP field to describe the specifics of problem(s) encountered."@en ;
     dct:title "Problem Details for HTTP APIs (RFC 7807)"@en ;
@@ -5490,7 +5561,7 @@ cssvrsc:a142711ed8708c76f722d2e0a6558277f6d82e5f1fe23a9931276e65d8ea5c16 a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TR 104 074 specification provides methodologies for the testing and validation of services based on network applications over 5G networks. Its objective is to establish consistent approaches to evaluate the performance and interoperability of these services in complex network environments. In this sense, the specification addresses key aspects such as the definition of test cases, the selection of relevant metrics, and the implementation of automation tools to facilitate the validation process."@en ;
     dct:title "Core Network and Interoperability Testing (INT); Methodologies for Testing & Validation of  Network Application based services over 5G networks (ETSI TR 104 074)"@en ;
-    dcat:distribution cssvrsc:0cca82a5c0026aec58926ca407b379dc65f52b7412b2ef0c16cd65086ef5e3c1 ;
+    dcat:distribution cssvrsc:a5915315-cbfd-4634-bf0f-e26d4c5f81aa ;
     dcat:version "1.1.1" .
 
 cssvrsc:a2bc39e065a06e4b71b65ef56f88a1d7b903dfa8c881996cabd0fffddab2658c a cssv:Specification ;
@@ -5499,7 +5570,7 @@ cssvrsc:a2bc39e065a06e4b71b65ef56f88a1d7b903dfa8c881996cabd0fffddab2658c a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 3126 specification primary objective is to define a standardised format for electronic signatures that ensures their validity over extended periods, addressing concerns such as cryptographic algorithm obsolescence and potential key compromises."@en ;
     dct:title "Electronic Signature Formats for long term electronic signatures (RFC 3126)"@en ;
-    dcat:distribution cssvrsc:468bdc52c7d725b50cb55588f7859bb77e9e18f491b55f395504ae5bc0eb0b1f ;
+    dcat:distribution cssvrsc:18982075-6927-417a-bef8-234ce10cecc9 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -5577,7 +5648,7 @@ cssvrsc:a5ff6314281d29f9cefdd12f752e2aaa42613c156bc4bfcf9a1d36cdccab358b a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 133 501 specification outlines the security architecture and procedures for the 5G System. It provides detailed guidelines on how to secure various aspects of the 5G network, including the 5G Core Network (5GC), User Equipment (UE), and the Radio Access Network (RAN)."@en ;
     dct:title "5G; Security architecture and procedures for 5G System (3GPP TS 33.501 version 18.9.0 Release 18) (ETSI TS 133 501)"@en ;
-    dcat:distribution cssvrsc:be4de35f3debd3d188fded40104107093a0cd8a9059cc5e096a29d419abe817c ;
+    dcat:distribution cssvrsc:81a670e7-7051-4560-9d6f-d80118de739b ;
     dcat:version "18.9.0" .
 
 cssvrsc:a61e46d2918487a44fe12b59273afd2fd4326225041c92534ed339c600fc12ac a cssv:Specification,
@@ -5625,10 +5696,10 @@ cssvrsc:a6cacf6e7ebe28177247263b39490df951e74a725a9140bd547efaeb5298a41f a cssv:
         owl:NamedIndividual ;
     cssv:alternative "ITU-T X.1451"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
-    dct:description """Recommendation ITU-T X.1451 specifies a risk identification function in an information and communication technology (ICT) service system as a pre-processor before the authentication function is invoked. It enables the ICT service system to optimize user authentication based on identified risks.
-
-With this specific risk identification function, the ICT service system can make choices on authentication mechanisms adaptively to its users and achieve multiple benefits such as: 1) to improve user experiences; 2) to increase the capacity and reduce the per transaction cost of user authentication; and 3) to reduce the risk of user identity forgery.
-
+    dct:description """Recommendation ITU-T X.1451 specifies a risk identification function in an information and communication technology (ICT) service system as a pre-processor before the authentication function is invoked. It enables the ICT service system to optimize user authentication based on identified risks.\r
+\r
+With this specific risk identification function, the ICT service system can make choices on authentication mechanisms adaptively to its users and achieve multiple benefits such as: 1) to improve user experiences; 2) to increase the capacity and reduce the per transaction cost of user authentication; and 3) to reduce the risk of user identity forgery.\r
+\r
 For ICT systems, user authentication is a critical security function. Various authentication mechanisms are available, but it may not be clear how to make the best choice from a number of options. Authentication of ICT services should strive to balance multiple functional objectives such as security, user experience, cost and performance."""@en ;
     dct:title "X.1451 : Risk identification to optimize authentication"@en ;
     dcat:distribution cssvrsc:a8b90731-e17c-4607-8199-0b6d077aa90a ;
@@ -5697,7 +5768,7 @@ cssvrsc:a8a5e1741adf3ad56993183b5026b17b7727383c21c521ec34f005fbb32e99f9 a cssv:
     cssv:alternative "VoID"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Vocabulary of Interlinked Datasets (VoID) is concerned with metadata about RDF datasets. It is an RDF Schema vocabulary that provides terms and patterns for describing RDF datasets, and is intended as a bridge between the publishers and users of RDF data. VoiD descriptions can be used in many situations, ranging from data discovery to cataloging and archiving of datasets, but most importantly it helps users find the right data for their tasks."@en ;
-    dct:title "VoID"@en ;
+    dct:title "Vocabulary of Interlinked Datasets (VoID)"@en ;
     dcat:distribution cssvrsc:bf3415b1-b6ac-4035-b305-247f99aa50bb ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
@@ -5797,6 +5868,16 @@ cssvrsc:ab5a0eef3ca9727fa2abd88cd5034f4dcc8fe05df17e1995f8d552dbae6ae95e a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
+cssvrsc:ac283a50733f9b996279bbf977b1823b734bb7b5814056130b92cca7c4635e21 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "Y.4466" ;
+    cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
+    dct:description "The Y.4466 specification is intended to provide a general framework for smart greenhouse services. In this sense, the specification supports the definition and implementation of mechanisms that help to automate various processes, thereby making operations more efficient and streamlining procedures. It also offers guidance for integrating different technologies and services within a greenhouse environment to improve management, productivity, and sustainability."@en ;
+    dct:title "Framework of smart greenhouse service"@en ;
+    dcat:distribution cssvrsc:cbc73724-0b51-4167-a147-a929d691e8f2 ;
+    dcat:theme "Technology Architecture"@en ;
+    dcat:version "1.0.0" .
+
 cssvrsc:ac4d786e488498e14387bee462f7cf35b824aadc2fb05ec749805bb516d8211c a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
@@ -5891,15 +5972,14 @@ cssvrsc:aebabad39063fe48d7b4b36e7a0d8d0b718188b178b0b6509c64a4d67dd43216 a cssv:
 
 cssvrsc:af155131fd898adbbf4b0c635ba4180412afad567cbc26a6773dc227c24462cf a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
-    cssv:alternative "COM 2005 596"@en ;
+    cssv:alternative "52005DC0596"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Non-binding legal instrument in format of Commission Communication providing a set of principles for the framework of multilingualism."@en ;
     dct:title "COM 2005 596 Framework strategy for multilingualism"@en ;
     dcat:distribution cssvrsc:352e8175-4f18-4271-8a7d-b2c08417bf9f ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "COM(2005) 596 final" .
 
 cssvrsc:af51783e9c513430c9f5841f98a3d3383efe7528ae8d91d8e2a1f9fbf91cbe45 a cssv:Specification,
         owl:NamedIndividual ;
@@ -5994,7 +6074,7 @@ cssvrsc:b3dfe12c5254a67f393044105641b4ead09feced4c7fdf3e581862cdf7f46959 a cssv:
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Semantic Definition Format (SDF) specification is designed for domain specialists to develop and manage data and interaction models within the Internet of Things. It was established as a common language to support the creation of definitions by the One Data Model liaison group (OneDM). Various tools translate this format into database schemas and other serialisations as required. Additionally, it defines SDF Objects along with their related interactions, such as events, actions, and properties, and specifies the data types used for information exchanged during these interactions."@en ;
     dct:title "Semantic Definition Format (SDF) for Data and Interactions of Things"@en ;
-    dcat:distribution cssvrsc:d60003320659b604359e8023c65deff5ffd757dd3dc2772d3af6dd040874b273 ;
+    dcat:distribution cssvrsc:b94237f8-628a-4ce4-86a5-eb72485ff2a5 ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -6146,9 +6226,9 @@ cssvrsc:b6f8429b83d4239eb9144340d43c90ff79ea304f5eb3244e57f570c16a6feb47 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "OBDC"@en ;
     cssv:isMaintainedBy cssvrsc:2fa6506e519707a9712e3dcf552eeb9ccf07c95b96cd0c603053ee5655800420 ;
-    dct:description """Microsoft ODBC is a widely adopted, standard, client-side API for accessing data.
-Microsoft ODBC version 4.0 is a new version of ODBC for modern data sources that adds support for features such as:
-Private drivers, Additional capability reporting, Language extensions through additional SQL Escape Clauses,Semi-structured data – Tables whose schema may not be defined or may change on a row-by-row basis,Hierarchical Data – Data with nested structure (structured fields, lists).
+    dct:description """Microsoft ODBC is a widely adopted, standard, client-side API for accessing data.\r
+Microsoft ODBC version 4.0 is a new version of ODBC for modern data sources that adds support for features such as:\r
+Private drivers, Additional capability reporting, Language extensions through additional SQL Escape Clauses,Semi-structured data – Tables whose schema may not be defined or may change on a row-by-row basis,Hierarchical Data – Data with nested structure (structured fields, lists).\r
 Web Authentication model"""@en ;
     dct:title "Microsoft ODBC 4.0 Specification"@en ;
     dcat:distribution cssvrsc:f85f7d6a-0fde-41de-8e5b-8845ca540268 ;
@@ -6445,18 +6525,17 @@ cssvrsc:bf8ca84480718ba54b04d5422b10b92de74207b731b086b36ef5810bd414fbbb a cssv:
     dcat:version "2.8.1" .
 
 cssvrsc:bf9c7fcbc267a909106b6822be6217946011995f281d7e3278761e3a7437fb32 a cssv:Specification ;
-    cssv:acronym ""@en ;
     cssv:alternative "ITU-T Y.4461"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T Y.4461 defines a framework of open data in smart cities, in orther to promote the sharing of data between different entities in a smart city, taking advantage of the potentialities of data in smart city to build a better and smarter cities."@en ;
     dct:title "ITU-T Y.4461: Framework of open data in smart cities"@en ;
-    dcat:distribution cssvrsc:0d5868ebc348a453127e792c5dd1b8653ebc0e419f81d8d6a7348560caf35da7 ;
+    dcat:distribution cssvrsc:acddcfee-b287-4fb9-a7bf-bb9ef1a0c67a ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
 cssvrsc:bfae866356552984c68139c12d76abefd25832f19eb1b0f78d773a88bc3bf3d4 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ETSI TS 103 458"@en ;
+    cssv:acronym "ETSI TS 103 458"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TS 103 458 CYBER specifies high level requirements for the application of Attribute Based Encryption (ABE) to protect PII and personal data on IoT devices/services, cloud services, Wireless Local Area Networks and mobile services, where access to data has to be given to multiple parties and under different conditions. With a main focus on the confidentiality of data, including personal data and Personally Identifiable Information, the present document may help in supporting the General Data Protection Regulation [i.19]."@en ;
     dct:title "ETSI TS 103 458 CYBER; Application of Attribute Based Encryption (ABE) for PII and personal data protection on IoT devices, WLAN, cloud and mobile services - High level requirements"@en ;
@@ -6511,7 +6590,7 @@ cssvrsc:c129658aea490fe9b0870e4535bea9265eb6f45c1ed2cdbb2061e2fa0278b5fb a cssv:
         owl:NamedIndividual ;
     cssv:alternative "ITU-T Q.5001"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
-    dct:description """A large volume of data have been generated from the use of various types of smart things. The related smart services have been working based on cloud systems. However, various issues has occurred as a result of the network bottleneck between terminals and a cloud system (e.g., data loss, network delay, etc.). An edge computing technology between the user equipment and a cloud server system is envisaged to solve these problems. In addition, applying the intelligent data processing functions by providing artificial intelligence (AI) technologies will provide enhanced networking capabilities for new emerging services and applications.
+    dct:description """A large volume of data have been generated from the use of various types of smart things. The related smart services have been working based on cloud systems. However, various issues has occurred as a result of the network bottleneck between terminals and a cloud system (e.g., data loss, network delay, etc.). An edge computing technology between the user equipment and a cloud server system is envisaged to solve these problems. In addition, applying the intelligent data processing functions by providing artificial intelligence (AI) technologies will provide enhanced networking capabilities for new emerging services and applications.\r
 Regarding these emerging environments, Recommendation ITU-T Q.5001 defines the intelligent edge computing (IEC). It is applicable to collect, store, and process data reliably in the intelligent edge computing, especially to support mission critical services. Thus, the main functionality of intelligent edge computing is collecting, processing, analysing the data and providing the values based on intelligent data processing."""@en ;
     dct:title "Q.5001 : Signalling requirements and architecture of intelligent edge computing"@en ;
     dcat:distribution cssvrsc:d11ea50a-7c9c-4449-a354-fed4901c5258 ;
@@ -6530,12 +6609,11 @@ cssvrsc:c1a11c5fe4dea90d0294bcb16297d051b941586d9caae264eb553e91329989d5 a cssv:
     dcat:version "1.12.1" .
 
 cssvrsc:c1a595059fd2e8cd3273c2cb507d2a3625ba693b3c71b3e5f4cd55c0f338d6db a cssv:Specification ;
-    cssv:acronym ""@en ;
     cssv:alternative "ITU-T X.1147"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T X.1147 provides a security framework and requirements for big data analytics in  mobile Internet services. The intent of this specification is to study the challenges brought forward by big data analytics, and the specific security requirements for mobile Internet services as  well as the security framework."@en ;
     dct:title "ITU-T X.1147: Security requirements and framework for big data analytics in mobile internet services"@en ;
-    dcat:distribution cssvrsc:9db0eeef68e212bd1fc9c7bb64521b59a8373915544902abe40abe8940405460 ;
+    dcat:distribution cssvrsc:34fb3f75-9fc9-4d22-9f3d-a55366ec5eda ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -6598,7 +6676,7 @@ cssvrsc:c2fa543b4c27894a0ee2d3c2f7d72bc36936887a945571cbc8b3760e4d3a2f2f a cssv:
     cssv:isMaintainedBy cssvrsc:a062623ad5cf4583d8137ae7ad5e12cd8731097a8e936949a0fa613721988f35 ;
     dct:description "The HAL specification is designed to complement the information provided by an API—for example, in a bookstore website—by including links to related resources. In this context, the specification is useful not only for providing additional information, but also for organising and consolidating related data in a single, structured format."@en ;
     dct:title "HAL - Hypertext Application Language"@en ;
-    dcat:distribution cssvrsc:456f44845ac17262b87cd138bd498775b31eeb7db09b0bb90a0193836e660a4b ;
+    dcat:distribution cssvrsc:29666c3d-82af-4aaa-b0f7-cf9118ded40d ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -6688,12 +6766,12 @@ cssvrsc:c557ab03e2068ecea18323e556c320c5381ae87c79bb3c1f59e565a417517c84 a cssv:
         owl:NamedIndividual ;
     cssv:alternative "ISO/IEC TR 22678"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
-    dct:description """TR 22678 provides guidance on the use of international standards as a tool in the development of those policies that govern or regulate cloud service providers (CSPs) and cloud services, and those policies and practices that govern the use of cloud services in organisations.
-
-This includes material that explains cloud computing concepts and the role of cloud computing international standards in formulating policies and practices.
-
-The document makes references to various international standards. Where possible, these standards are ISO/IEC standards. Where a suitable ISO/IEC standard is not available, references are made to documents published by other WTO-registered standards bodies.
-
+    dct:description """TR 22678 provides guidance on the use of international standards as a tool in the development of those policies that govern or regulate cloud service providers (CSPs) and cloud services, and those policies and practices that govern the use of cloud services in organisations.\r
+\r
+This includes material that explains cloud computing concepts and the role of cloud computing international standards in formulating policies and practices.\r
+\r
+The document makes references to various international standards. Where possible, these standards are ISO/IEC standards. Where a suitable ISO/IEC standard is not available, references are made to documents published by other WTO-registered standards bodies.\r
+\r
 As explained in the WTO Agreement on Technical Barriers to Trade (TBT), standards play a vital role in supporting technical regulations and conformity assessment, however this document does not cover matters of trade."""@en ;
     dct:title "ISO/IEC TR 22678 --Cloud Computing --Guidance for Policy Development"@en ;
     dcat:distribution cssvrsc:7db1661c-6e44-43d6-a282-0dda31688ab0 ;
@@ -6726,8 +6804,8 @@ cssvrsc:c5df220e521f34ea71e56e1b834cbf20bdf43d12d00c3c0350aa90ceb2ac815d a cssv:
         owl:NamedIndividual ;
     cssv:alternative "ITU-T Y.4122"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
-    dct:description """The Y.4122 gateway is an important component of Internet of things (IoT) systems, enabling IoT devices to connect to communication networks. Edge computing technologies can benefit the IoT, providing computation, storage, networking and intelligence in proximity to IoT devices.
-Compared with the common gateway [ITU-T Y.4101], the edge-computing-enabled gateway in the IoT (EC-enabled IoT gateway) has additional capabilities supporting service layer interworking, and application layer interworking between IoT devices, IoT platforms and IoT application servers. In addition, the EC-enabled IoT gateway supports data transmission capabilities for IoT applications sensitive to time, latency, jitter and packet loss.
+    dct:description """The Y.4122 gateway is an important component of Internet of things (IoT) systems, enabling IoT devices to connect to communication networks. Edge computing technologies can benefit the IoT, providing computation, storage, networking and intelligence in proximity to IoT devices.\r
+Compared with the common gateway [ITU-T Y.4101], the edge-computing-enabled gateway in the IoT (EC-enabled IoT gateway) has additional capabilities supporting service layer interworking, and application layer interworking between IoT devices, IoT platforms and IoT application servers. In addition, the EC-enabled IoT gateway supports data transmission capabilities for IoT applications sensitive to time, latency, jitter and packet loss.\r
 Based on the common requirements and capabilities of a gateway for IoT applications [ITU-T Y.4101] and IoT requirements for support of edge computing [ITU-T Y.4208], additional capabilities and capability framework of the edge-computing-enabled gateway in the IoT are specified."""@en ;
     dct:title "Y.4122 : Requirements and capability framework of the edge-computing-enabled gateway in the Internet of things"@en ;
     dcat:distribution cssvrsc:a2e52791-7512-4612-a521-4c68a6be3843 ;
@@ -6736,7 +6814,7 @@ Based on the common requirements and capabilities of a gateway for IoT applicati
 
 cssvrsc:c68c118663bdaec42dcc2bbd683897cdbe4f670e27aab2c346d953281b0265c2 a cssv:Specification,
         owl:NamedIndividual ;
-     cssv:alternative "Directive 2016/1148/EU"@en ;
+    cssv:alternative "Directive 2016/1148/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act concerning measures for a high common level of security of network and information systems across the Union"@en ;
     dct:title "Directive (EU) 2016/1148 of the European Parliament and of the Council of 6 July 2016 concerning measures for a high common level of security of network and information systems across the Union"@en ;
@@ -6933,6 +7011,16 @@ cssvrsc:cf73d9238a419781d904b0da2ece913b60f29328913212efcc98d22de22914a8 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "2.2.1" .
 
+cssvrsc:cfa094dfca76277e80fc8e9e4f98d8011407290eb0fac2db2d07b70312300f10 a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "RFC 7390" ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "The RFC 7390 specification is designed to facilitate communication among constrained devices, such as IoT sensors or smart appliances. It enables these devices to send messages to a group and coordinate actions simultaneously. For example, RFC 7390 can simplify processes like turning on all the lights in a room at once with a single command."@en ;
+    dct:title "Group Communication for the Constrained Application Protocol (CoAP)"@en ;
+    dcat:distribution cssvrsc:94bd36c6-a8e5-4a0c-891e-cf66634375c0 ;
+    dcat:theme "Technology Architecture"@en ;
+    dcat:version "1.0.0" .
+
 cssvrsc:cfb2208446c9eaa8ceb3a92bbd3e07f5f41f1d770b1a2d16a8a66ae9e82dacc1 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:alternative "BPM-001"@en ;
@@ -6949,7 +7037,7 @@ cssvrsc:d0057dad767bfb598b13c7a68692ce2696304af2840d8c2b4e344321f9a2fe06 a cssv:
     cssv:isMaintainedBy cssvrsc:7249b8458bef859086cf553812ebc2761a6c6fcc73c4f8bb9868f3ba2767103b ;
     dct:description "GS1 XML provides a standardised and predictable structure for electronic commerce messages, allowing business partners to communicate business data quickly, efficiently, and accurately, regardless of their internal hardware or types of software."@en ;
     dct:title "GS1 XML Electronic Data Interchange"@en ;
-    dcat:distribution cssvrsc:12508c4f22a179beb522e0bac2b879e3c79baa4f5fbd05a6eff8c18edcb9e0c8 ;
+    dcat:distribution cssvrsc:103b866f-ede6-439a-be6a-b1574e30c95b ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
@@ -6960,7 +7048,7 @@ cssvrsc:d0c2a9ada3fa1a1d4252743338c7cf9e547ffee3b379197a8af4f35ce821ceae a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 845 specification describes the communication requirements for Digital Twins (DTs) in SmartM2M environments, focusing on their interaction with physical counterparts and the digital world. It addresses the requirements for Digital Twin Description (DTD) and discoverability, which are essential for building connected and adaptable DT ecosystems."@en ;
     dct:title "SmartM2M; Digital Twins Communication Requirements (ETSI TS 103 845)"@en ;
-    dcat:distribution cssvrsc:d9c59a1c5ff91f30a74ef23755df0b8bcb7e3550b45356b773ed2888a8961bd9 ;
+    dcat:distribution cssvrsc:65187440-e793-487b-aa2f-335acf6fcde1 ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
     dcat:version "1.1.1" .
@@ -6982,7 +7070,7 @@ cssvrsc:d0d8ea27bcb34163af6c5bbdf120557e0a2edd1b38e85e52f06256729faf38c7 a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 864 specification is addressed to guarantee the security of the relevant data for the sensor hub (data storage), ensure the safe and proper handling of data within the sensor hub (data processing), and determine which data can be transferred from the sensor hub to the device applications, ensuring such transfer at the sensor hub interface."@en ;
     dct:title "Cyber Security; Security Threats and related Requirements  for Consumer Sensor Hubs (ETSI TS 103 864)"@en ;
-    dcat:distribution cssvrsc:462afd4385792c9d56f24db690d34745c85f420311ee5ec66cf88c7a7ad1fd28 ;
+    dcat:distribution cssvrsc:bea8e301-51af-4635-a92e-ac542defad8c ;
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en ;
     dcat:version "1.1.1" .
@@ -7053,8 +7141,8 @@ cssvrsc:d2316abfe2cbdee7c2aa70e9c6feaa6e2db2970a8eddb366ad5f38d52267b4e6 a cssv:
         owl:NamedIndividual ;
     cssv:alternative "ISO/IEC 15408-1:2022"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
-    dct:description """This document establishes the general concepts and principles of IT security evaluation and specifies the general model of evaluation given by various parts of the standard which in its entirety is meant to be used as the basis for evaluation of security properties of IT products.
-
+    dct:description """This document establishes the general concepts and principles of IT security evaluation and specifies the general model of evaluation given by various parts of the standard which in its entirety is meant to be used as the basis for evaluation of security properties of IT products.\r
+\r
 This document provides an overview of all parts of the ISO/IEC 15408 series. It describes the various parts of the ISO/IEC 15408 series; defines the terms and abbreviations to be used in all parts of the standard; establishes the core concept of a Target of Evaluation (TOE); describes the evaluation context and describes the audience to which the evaluation criteria is addressed. An introduction to the basic security concepts necessary for evaluation of IT products is given."""@en ;
     dct:title "ISO/IEC 15408-1:2022 Information security, cybersecurity and privacy protection — Evaluation criteria for IT security Part 1: Introduction and general model"@en ;
     dcat:distribution cssvrsc:6a5f8585-e793-491a-b15a-5baab1d43f34 ;
@@ -7158,7 +7246,7 @@ cssvrsc:d501609df79752738a4bcfa47918a604cbcd5be2d5768f91db6328e26b108376 a cssv:
 
 cssvrsc:d50c217890ba0c807f0af68830798ebaf638a0be2f14418c4090e51dcd70f30e a cssv:Specification,
         owl:NamedIndividual ;
-        cssv:alternative "RFC 6838"@en ;
+    cssv:alternative "RFC 6838"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The IANA Media Types specification (also known as a Multipurpose Internet Mail Extensions or MIME type) indicates the nature and format of a document, file, or assortment of bytes."@en ;
     dct:title "IANA Media Types (RFC 6838, MIME  types)"@en ;
@@ -7284,7 +7372,7 @@ cssvrsc:db6cf8a73c9466853f99606b2f9eb6a89616f351d02b7c246c0bf87d5d18d50f a cssv:
 
 cssvrsc:dbbcf731896ac255a462fd008c619158922f551be78e24342e93f2279abf94ed a cssv:Specification,
         owl:NamedIndividual ;
-     cssv:alternative "Decision 2014/771/EU"@en ;
+    cssv:alternative "Decision 2014/771/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on the identification of Universal Business Language for referencing in public procurement"@en ;
     dct:title "2014/771/EU: Commission Implementing Decision of 31 October 2014 on the identification of Universal Business Language version 2.1 for referencing in public procurement Text with EEA relevance"@en ;
@@ -7299,7 +7387,7 @@ cssvrsc:dbd0b032b3ec7eb0b043fa1dc3b5df5913b1388ffde57e8e3650b5b0f2f33eb1 a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 119 312 specification provides guidance on cryptographic suites for the creation and validation of digital signatures and electronic timestamps, as well as related certificates. Its main objective is to ensure interoperability and a high level of security in trust services. To achieve this, it is based on the cryptographic mechanisms agreed upon by SOG-IS agreement."@en ;
     dct:title "Electronic Signatures and Trust Infrastructures (ESI); Cryptographic Suites (ETSI TS 119 312)"@en ;
-    dcat:distribution cssvrsc:23915a455e39b2775663fc98d465837bd49e54aea6f653b699a69884e325b940 ;
+    dcat:distribution cssvrsc:61117562-6f61-4f7c-9d07-bce4c22bcd30 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.5.1" .
 
@@ -7327,7 +7415,7 @@ cssvrsc:dd3c03c70c338994d0cb5a38c92ea1920f2526959fa7fa1bcb1d6f4eb345374a a cssv:
 
 cssvrsc:dddff8544042eb988c47233f82dabea445e63f0cc63a8d4b3927aaa10a7a1829 a cssv:Specification,
         owl:NamedIndividual ;
-     cssv:alternative "Decision 2017/2288/EU"@en ;
+    cssv:alternative "Decision 2017/2288/EU"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Legal act on the identification of ICT Technical Specifications for referencing in public procurement"@en ;
     dct:title "Commission Implementing Decision (EU) 2017/2288 of 11 December 2017 on the identification of ICT Technical Specifications for referencing in public procurement"@en ;
@@ -7466,6 +7554,16 @@ cssvrsc:e140535a651dd589a52fc2404c4e53078c2daf735f2d5a3789ebbf5fc06beef8 a cssv:
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.15.0" .
 
+cssvrsc:e16c26ec6e45082030648832bf5b07a2a55d64968582d394bf18b7b873c2776b a cssv:Specification ;
+    cssv:acronym "" ;
+    cssv:alternative "GXFSv2" ;
+    cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
+    dct:description "The GXFSv2 specification is designed to protect digital services by applying identification and authentication mechanisms to ensure that the users who wish to access these services are legitimate. In this sense, the specification enables the use of digital identities issued by other institutions to access resources without the need to create a new account for every site, while ensuring that access is granted in a secure and protected manner."@en ;
+    dct:title "GXFSv2 - Identity and Access Management"@en ;
+    dcat:distribution cssvrsc:60b04e78-e399-41ac-9a31-b3582693b167 ;
+    dcat:theme "Technology Architecture"@en ;
+    dcat:version "22.10.0" .
+
 cssvrsc:e18e0ff3a765d703476a68b32ec9396d2e6be8b32243d911a5cb154e4bc201ec a cssv:Specification,
         owl:NamedIndividual ;
     cssv:alternative "ISO/IEC 27701:2019"@en ;
@@ -7525,7 +7623,7 @@ cssvrsc:e26fcc022b94285e0ddc4f69d72ea42655bc3a7372447989b8a1516b0d108559 a cssv:
     cssv:isMaintainedBy cssvrsc:b81760b816b510a70611d2063c0482540f7d59edfd48d9e0adab747e067d6ae4 ;
     dct:description "The JSON Lines specification defines a format for organising data where each line is a separate JSON object. Unlike JSON, which typically requires the full dataset to be read at once, JSON Lines allows data to be read and processed line by line, avoiding the need to load all information at once."@en ;
     dct:title "JSON Lines"@en ;
-    dcat:distribution cssvrsc:c1e29cfcaa1e104e7e9a109839fd124e38917227cd5fc2eca4eea87c19f4efc4 ;
+    dcat:distribution cssvrsc:5b8ac86f-fade-4acc-a509-348a4cf0f97d ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "1.0.0" .
 
@@ -7554,7 +7652,7 @@ cssvrsc:e3a490e2b7118f66895f5e5f9d5924479b9d940d9b2cbc80ce13540f94c369a6 a cssv:
     cssv:isMaintainedBy cssvrsc:7249b8458bef859086cf553812ebc2761a6c6fcc73c4f8bb9868f3ba2767103b ;
     dct:description "The GS1 Digital Link specification transforms a traditional barcode into a web address, effectively integrating the product’s information and additional data into the broader Internet ecosystem. This enables consumers, retailers, brand owners, and all stakeholders within the supply chain to access a comprehensive range of up-to-date product information. It functions much like the Internet of Things, albeit without the embedded sensors and microchips."@en ;
     dct:title "Digital Link -  GS1 Digital Link | GS1"@en ;
-    dcat:distribution cssvrsc:9a84e16e5cc8d7392c1970dcc1c90f7a41e3fc5b0f4130d1b964972ce84b2247 ;
+    dcat:distribution cssvrsc:c7fd2724-1473-4772-83a1-aa123efbd735 ;
     dcat:version "1.0.0" .
 
 cssvrsc:e40e1dad713e4ac1d66f54e1b53cbbce61f57635e6aeeb82bc6eefb469303e01 a cssv:Specification,
@@ -7645,12 +7743,11 @@ cssvrsc:e4f09a7e4ed379becfbe33fde381b5219e83adb71b921bfb7a861e7d9f394ab5 a cssv:
     dcat:version "2.0.0" .
 
 cssvrsc:e56c152b24acda08a37a0e99044a42e6eea9bde90c4b4629b6aa005d3c253d3d a cssv:Specification ;
-    cssv:acronym ""@en ;
     cssv:alternative "ITU-T Y.3500"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The Y.3500 specification establishes a terminology foundation for cloud computing, intending to standardise the vocabulary used across cloud computing standards, serving as a consensus baseline without precluding additional, domain‑specific terminology in related or future standards."@en ;
     dct:title "ITU-T Y.3500: Information technology - Cloud computing - Overview and vocabulary"@en ;
-    dcat:distribution cssvrsc:5ff2d53d5bfbbe97ae428b9d53417e0e76c97c497d1064b13584f643a005b62a ;
+    dcat:distribution cssvrsc:89611b64-efb8-49b2-b6ca-62676bb9562b ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
@@ -7661,7 +7758,7 @@ cssvrsc:e57fea291208c8917fd7d5b30ed302d6498ed036acaf03eae5e56d672d1eb2bc a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 846 specification is designed to establish how Digital Twins (DTs) can be designed through the presentation of a reference blueprint architecture with a specific focus on communication, discoverability and interoperability aspect. It also sets guidelines for DT adoption and applicability analysing how they can be deployed and monitored over time. Finally, the specification sets the definition and communication aspects for DTs."@en ;
     dct:title "SmartM2M; Digital Twins: Functionalities and  communication Reference Architecture (ETSI TS 103 846)"@en ;
-    dcat:distribution cssvrsc:c4e9803707b87e634918d3da5cb516af23008b9f659a5cb07d6ced51a33745c3 ;
+    dcat:distribution cssvrsc:be6f6bb4-9223-4c31-b2f8-4ff9c0837932 ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "1.1.1" .
@@ -7700,7 +7797,7 @@ cssvrsc:e5b93bfdb3252d290b8d69275202406c6a66d38f3b85d1afc7dd834d4e0c3085 a cssv:
 
 cssvrsc:e5be83b5c5d042d8ecde5179bed404cfd3dffb45fa1546b754e002dca216349d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "NGSI-LD API"@en;
+    cssv:acronym "NGSI-LD API"@en ;
     cssv:alternative "ETSI GS CIM 009"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The NGSI-LD API enables users to apply context information in multiple scenarios. Context information is modeled as attributes of context entities, also called digital twins, which represent real-world assets (e.g., a bus in a city or a baggage claim ticket). The NGSI-LD API is typically used to provide standardized access to digital twin data."@en ;
@@ -7722,7 +7819,7 @@ cssvrsc:e5ce69e94864a19b278266d0b71a3a740a6de0993464c47dff495c5036ab8dbb a cssv:
 
 cssvrsc:e7104ff4d29d40f12241e050a7abdcf70d5250f2d16c3610631cf2798594b5d7 a cssv:Specification,
         owl:NamedIndividual ;
-     cssv:alternative "Regulation 2018/1807/EU"@en ;
+    cssv:acronym "Regulation 2018/1807/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal Act n a framework for the free flow of non-personal data in the European Union"@en ;
     dct:title "REGULATION (EU) 2018/1807 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL, of 14 November 2018 on a framework for the free flow of non-personal data in the European Union (Text with EEA relevance)"@en ;
@@ -7924,7 +8021,7 @@ cssvrsc:ed09ca216774dc1192ed4558ade3e6d589af8442d78621fd699462c5180afc94 a cssv:
 
 cssvrsc:ed45256d0f41d440c9e7109ee9120dee2dfff47807a609bf30654e68dac7cc51 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:alternative "ISO/IEC 19086-1:2016"@en ;
+    cssv:acronym "ISO/IEC 19086-1:2016"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 19086-1:2016 is for the benefit and use of both cloud service providers and cloud service customers. The aim is to avoid confusion and facilitate a common understanding between cloud service providers and cloud service customers. Cloud service agreements and their associated cloud SLAs vary between cloud service providers, and in some cases different cloud service customers can negotiate different contract terms with the same cloud service provider for the same cloud service. This document aims to assist cloud service customers when they compare cloud services from different cloud service providers."@en ;
     dct:title "ISO/IEC 19086-1:2016 Information technology — Cloud computing — Service level agreement (SLA) framework — Part 1: Overview and concepts"@en ;
@@ -7982,7 +8079,7 @@ cssvrsc:ee26d4cf27daf86fba3ef06c4746ca31cd28f292c5fb4b50062b8b1fa041dec2 a cssv:
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 182 032 specification defines a framework for interconnection between different Content Delivery Networks (CDNs). It establishes standardised interfaces that allow CDNs to expose and consume delivery, control, and reporting services across networks. Thus, the specification ensures interoperability by enabling translation of metadata and protocols between heterogeneous systems."@en ;
     dct:title "CDN Interconnection Architecture (ETSI TS 182 032)"@en ;
-    dcat:distribution cssvrsc:6f81a9bdf8f8c2a2d170a9dc0924b1b1a2470f80e4aaaa1b6a51d64d4bd201dd ;
+    dcat:distribution cssvrsc:e49a1a05-91e0-4176-a4b1-5622c084f163 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.1.1" .
 
@@ -8008,19 +8105,9 @@ cssvrsc:ef08c2789f6b3c4df7347426999a885397045dfa90a29f3a7009505988c9a9b2 a cssv:
         "Technology Architecture"@en ;
     dcat:version "1.0.0" .
 
-cssvrsc:ef58703ca13db385e38bf5d7756d191c7425e481cee6232c33812352d809bb81 a cssv:Specification ;
-    cssv:acronym "OIDC"@en ;
-    cssv:alternative "" ;
-    cssv:isMaintainedBy cssvrsc:4e04f19455ff8628a12285cdca275b0ee3faeaa0223f10095bf19b7bc584ac1c ;
-    dct:description "OpenID Connect 1.0 (OIDC) is a simple identity layer on top of the OAuth 2.0 protocol. It enables Clients to verify the identity of the End-User based on the authentication performed by an Authorisation Server, as well as to obtain basic profile information about the End-User in an interoperable and REST-like manner (an approach that borrows some, but not all, of the principles of Representational State Transfer)."@en ;
-    dct:title "OpenID Connect (OIDC)"@en ;
-    dcat:distribution cssvrsc:cfd2790a544c9e6d54679bfed9f01f2a78469349d934f59d5a4d1a8c65781df5 ;
-    dcat:theme "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
-
 cssvrsc:efb40789fe3ad96b26d88aeb5afa229851bc73b19b6a3d4b8220ef3a37fed1c7 a cssv:Specification,
         owl:NamedIndividual ;
-      cssv:alternative "Directive 2016/2102/EU"@en ;
+    cssv:alternative "Directive 2016/2102/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal act on the accessibility of the websites and mobile applications of public sector bodies"@en ;
     dct:title "DIRECTIVE (EU) 2016/2102 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies"@en ;
@@ -8083,9 +8170,9 @@ cssvrsc:f246e4a67ffaaa842c3b3a78787b19628d9a6928fd4f91239372c73d1b9e618d a cssv:
 
 cssvrsc:f2c5ca77b353f96dffe6df722a1f36cddf6e502c744ea9c59459d9144156494f a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "OID"@en ;
+    cssv:acronym "OIDC"@en ;
     cssv:isMaintainedBy cssvrsc:4e04f19455ff8628a12285cdca275b0ee3faeaa0223f10095bf19b7bc584ac1c ;
-    dct:description "OpenID is an open standard and decentralized authentication protocol promoted by the non-profit OpenID Foundation. It allows users to be authenticated by cooperating sites (known as relying parties, or RP) using a third-party identity provider (IDP) service, eliminating the need for webmasters to provide their own ad hoc login systems, and allowing users to log in to multiple unrelated websites without having to have a separate identity and password for each."@en ;
+    dct:description "OpenID Connect (OIDC) is an open standard and a simple identity layer built on top of the OAuth 2.0 protocol. Developed by the OpenID Foundation, it enables clients (also known as relying parties) to verify the identity of end-users based on authentication carried out by an authorisation server (identity provider), and to obtain basic profile information in an interoperable, REST-like manner. OIDC simplifies user login by allowing secure single sign-on (SSO) across multiple, unrelated websites without the need for separate credentials for each, thereby reducing the reliance on site-specific authentication systems."@en ;
     dct:title "OpenID"@en ;
     dcat:distribution cssvrsc:a5b41ea7-8e94-4529-b849-ea05ad88c936 ;
     dcat:theme "Technology Architecture"@en ;
@@ -8114,7 +8201,7 @@ cssvrsc:f36ce406cf0470d6b8c3d4f04141fb8c35c10e1342c6fb68a55e4cbf1b30eb9d a cssv:
 
 cssvrsc:f37fec7b3b5a865877ce8663c3efe7f2442877c774e86cdc5fc9bd262f8adef1 a cssv:Specification,
         owl:NamedIndividual ;
-        cssv:acronym "RBAC"@en ;
+    cssv:acronym "RBAC"@en ;
     cssv:isMaintainedBy cssvrsc:2b6de1326e1fa61562752256c54150944ec28a04926ea0f96f178888f112b0af ;
     dct:description "The Role-Based Access Control (RBAC) specification is a security model that assigns permissions to roles based on job functions. Users are then assigned to these roles, inheriting the associated permissions. This approach simplifies management, enhances security, and ensures users have only the access they need. RBAC also supports role hierarchies and constraints to enforce policies like separation of duties."@en ;
     dct:title "Role-Based Access Controls (RBAC)"@en ;
@@ -8234,7 +8321,7 @@ cssvrsc:f64a3ba68f3870aacc0280464fb8e957566d9aa0040db5dd45777ddcae7db118 a cssv:
 
 cssvrsc:f75650204c41b7547d47aed953052a72de01cbc9d3ac65c3bf949780a2f6ff70 a cssv:Specification,
         owl:NamedIndividual ;
-        cssv:acronym "UBER"@en ;
+    cssv:acronym "UBER"@en ;
     cssv:isMaintainedBy cssvrsc:9b720c7c045589425b5858f4f0dcfcb5fd8ac0a1a743ebfb9a8cf04bffa2f324 ;
     dct:description "The UBER document format is a minimal read/write hypermedia type designed to support simple state transfers and ad-hoc hypermedia-based transitions. This specification describes both the XML and JSON variants of the format and provides guidelines for supporting UBER-encoded messages over the HTTP protocol."@en ;
     dct:title "Uniform Basis for Exchanging Representations (UBER)"@en ;
@@ -8448,7 +8535,7 @@ cssvrsc:fcaa7f85fa91302efdb61d13847ac73d68de5e1271689add2a2fde99b6a546e0 a cssv:
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The SPARQL 1.1 Protocol is a standardised way for applications to send SPARQL queries and updates to a server and receive results over the web using HTTP. It defines how to structure requests and responses, ensuring consistent communication between clients and SPARQL services."@en ;
     dct:title "SPARQL 1.1 Protocol"@en ;
-    dcat:distribution cssvrsc:5598670176ea1fdd66230c0280d06fe23b67f6db456256adf9ec752f33baa82c ;
+    dcat:distribution cssvrsc:49a84942-e737-47eb-ae47-b4f305a7e319 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.1.0" .
 
@@ -8474,8 +8561,8 @@ cssvrsc:fcdeb5ed4c1c98a819128796d63ab13fe57b5d0bf69e42dd6c8718334a6e3ccb a cssv:
     dcat:version "2.1.6" .
 
 cssvrsc:fd0c80e9e707b0479cc1751b71f503af5ab778c1ffeb023ab983c01220889acb a cssv:Specification ;
-    cssv:acronym "Web eID"@en ;
-    cssv:alternative ""@en ;
+    cssv:acronym ""@en ;
+    cssv:alternative "Web eID"@en ;
     cssv:isMaintainedBy cssvrsc:9d2e8a4b1b697e7d135a190176454a2249450797a3aebca1197cdfe9882409ae ;
     dct:description "The Web Electronic Identity specification is designed to authenticate users who want to access certain resources or documentation. Based on the Estonian ID card (EstEID) and the Open Electronic Identity (Open eID), a card must be inserted into a card reader to grant access. Additionally, the specification allows for data signing following a verification process."@en ;
     dct:title "Web electronic identity (Web eID)"@en ;
@@ -8625,6 +8712,11 @@ cssvrsc:009d52fc-dd1f-4702-be65-92d2d9cc78ac a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/38920.html> .
 
+cssvrsc:00a2a799-bc65-4714-97e6-7cbe581d6186 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rfc-editor.org/rfc/pdfrfc/rfc3628.txt.pdf"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.rfc-editor.org/rfc/pdfrfc/rfc3628.txt.pdf"^^xsd:anyURI .
+
 cssvrsc:00b4ad3f-ccc1-41c6-9a58-dacc07b161b4 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-Y.3605-202009-I/en> .
@@ -8688,11 +8780,6 @@ cssvrsc:048f22d6-6843-4e9e-af5f-2383b5d08c31 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://boss.cenelec.eu/media/Guides/CLC/13_cenelecguide13.pdf> .
 
-cssvrsc:04dc498f22c1105768922b5497fa7f17441c681d12bb3829bcc88b5b6a7d0a2a a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.06.01_60/en_31941102v020601p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.06.01_60/en_31941102v020601p.pdf> .
-
 cssvrsc:05d3bea192e6a2dd70da22d8906608a25d81d0eb3d0b816939f0bc919c9bca59 a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "protobuf.dev"@en ;
@@ -8702,11 +8789,6 @@ cssvrsc:05d3bea192e6a2dd70da22d8906608a25d81d0eb3d0b816939f0bc919c9bca59 a owl:N
 cssvrsc:05f5a91a-5357-4d5b-a053-320ec08482f0 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/e-Signature+standards#e-Signaturestandards-XAdES(XMLAdvancedElectronicSignatures)BaselineProfile> .
-
-cssvrsc:0609f643a55d5601c4d6f6ebc132b3ae493329b8057becc8a1cec11dfd4a9d7a a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://www.rfc-editor.org/rfc/pdfrfc/rfc3628.txt.pdf"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.rfc-editor.org/rfc/pdfrfc/rfc3628.txt.pdf"^^xsd:anyURI .
 
 cssvrsc:060e694b-6267-4be8-ad25-159b7cb3a7a4 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -8770,16 +8852,6 @@ cssvrsc:0cb32fcd-fe8e-4a7b-a13b-944870ec902c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/68305.html> .
 
-cssvrsc:0cca82a5c0026aec58926ca407b379dc65f52b7412b2ef0c16cd65086ef5e3c1 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_tr/104000_104099/104074/01.01.01_60/tr_104074v010101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_tr/104000_104099/104074/01.01.01_60/tr_104074v010101p.pdf> .
-
-cssvrsc:0d5868ebc348a453127e792c5dd1b8653ebc0e419f81d8d6a7348560caf35da7 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.itu.int/rec/T-REC-Y.4461-202001-I> ;
-    dcat:downloadURL <https://www.itu.int/rec/T-REC-Y.4461-202001-I> .
-
 cssvrsc:0d79aa9b-5de9-48bc-9be7-5b5a4ac200e5 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/digital-single-market/en/news/ethics-guidelines-trustworthy-ai> .
@@ -8810,6 +8882,11 @@ cssvrsc:0e8cbf63-b591-4f59-b143-ba5984eeede6 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-X.509> .
 
+cssvrsc:0ea23056-4981-4b50-bd98-c8c794f6bbbd a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/103900_103999/103964/01.01.01_60/ts_103964v010101p.pdf"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.etsi.org/deliver/etsi_ts/103900_103999/103964/01.01.01_60/ts_103964v010101p.pdf"^^xsd:anyURI .
+
 cssvrsc:0ec72e1c-3d6f-4b64-8931-af5b8172482d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://specs.opencontainers.org/distribution-spec/?v=v1.0.0> .
@@ -8825,6 +8902,11 @@ cssvrsc:0f14c5ef-d832-4a2e-bab7-b36eb0aadd85 a owl:NamedIndividual,
 cssvrsc:0fb53786-86db-4388-b226-f73d53077a35 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://pubs.opengroup.org/onlinepubs/009654899/toc.pdf> .
+
+cssvrsc:103b866f-ede6-439a-be6a-b1574e30c95b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.gs1.org/standards/edi/gs1-xml> ;
+    dcat:downloadURL <https://www.gs1.org/standards/edi/gs1-xml> .
 
 cssvrsc:105873aa-6a3e-43d3-a0f4-018205bf3c1c a owl:NamedIndividual,
         dcat:Distribution ;
@@ -8855,11 +8937,6 @@ cssvrsc:117ccd38-3a88-4fa5-874d-3d9d4d47068b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <http://www.etsi.org/deliver/etsi_ts/102600_102699/10264002/02.02.01_60/ts_10264002v020201p.pdf> .
 
-cssvrsc:12508c4f22a179beb522e0bac2b879e3c79baa4f5fbd05a6eff8c18edcb9e0c8 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.gs1.org/standards/edi/gs1-xml> ;
-    dcat:downloadURL <https://www.gs1.org/standards/edi/gs1-xml> .
-
 cssvrsc:1252a71a-76a5-4491-b962-93f7a88a6e3e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://edps.europa.eu/sites/edp/files/publication/16-11-07_guidelines_web_services_en.pdf> .
@@ -8871,6 +8948,16 @@ cssvrsc:1299fca9339f5a37496a784c5dfda44bd2e0f4241df684a757e67b1ee9c6c077 a owl:N
 cssvrsc:138aad90-43f8-4dbe-b850-291e61391781 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/63500.html> .
+
+cssvrsc:13ba010b-b96c-4525-8f2a-1054a07d6f31 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103700_103799/103701/02.01.01_60/ts_103701v020101p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103700_103799/103701/02.01.01_60/ts_103701v020101p.pdf> .
+
+cssvrsc:94bd36c6-a8e5-4a0c-891e-cf66634375c0 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc7390"^^xsd:anyURI ;
+    dcat:downloadURL "https://datatracker.ietf.org/doc/html/rfc7390"^^xsd:anyURI .
 
 cssvrsc:1468ebb5-c2b3-45fd-abae-77fd6406e6f7 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -8904,6 +8991,11 @@ cssvrsc:154330b8-5b07-42e8-9e33-42550dbc202c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019R1157&qid=1614856763142> .
 
+cssvrsc:cbc73724-0b51-4167-a147-a929d691e8f2 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.itu.int/rec/T-REC-Y.4466-202001-I/en"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.itu.int/rec/T-REC-Y.4466-202001-I/en"^^xsd:anyURI .
+
 cssvrsc:16073de4-dda5-4a3b-80bc-5b87ec8df8c8 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/4767.html> .
@@ -8927,6 +9019,16 @@ cssvrsc:17999609-de08-49c7-8c16-ea39b8b40964 a owl:NamedIndividual,
 cssvrsc:17c59708-0ea5-4b21-8d88-af621b566f33 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://tools.ietf.org/html/rfc2595> .
+
+cssvrsc:17d1b3fd-2b34-40fa-b5e1-678cda757d54 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=226273&p40_language_code=en&p40_detail_id=94411&session=27361077061641"^^xsd:anyURI ;
+    dcat:downloadURL "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=226273&p40_language_code=en&p40_detail_id=94411&session=27361077061641"^^xsd:anyURI .
+
+cssvrsc:18982075-6927-417a-bef8-234ce10cecc9 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rfc-editor.org/rfc/rfc3126.txt"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.rfc-editor.org/rfc/rfc3126.txt"^^xsd:anyURI .
 
 cssvrsc:18994df5d814569558db98d6a8a07ee18468d4f374ab5c19569058efaf7553e4 a owl:NamedIndividual,
         org:Organization ;
@@ -9022,6 +9124,11 @@ cssvrsc:20b74e91-4d2d-4c3c-82d3-c0fad9dce735 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.ecma-international.org/publications/standards/Ecma-262.htm> .
 
+cssvrsc:20f6ce11-89bf-479a-aa8f-beb7e5b3d77c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/sparql11-http-rdf-update/"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.w3.org/TR/sparql11-http-rdf-update/"^^xsd:anyURI .
+
 cssvrsc:20f7ddab-5260-4ffe-bdd5-6df4c69bbc92 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ieeexplore.ieee.org/document/9844436> .
@@ -9044,15 +9151,10 @@ cssvrsc:2210fda0-002f-4ace-bbf9-52c9e837face a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/74909.html> .
 
-cssvrsc:2314f66ba21b44daf21fb21adae00f9ebcb8bcf544f600139115f5eeddd4a07f a owl:NamedIndividual,
+cssvrsc:22b20489-4256-49ab-8502-dbc9792019a9 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL <https://www.w3.org/TR/odrl-model/> ;
-    dcat:downloadURL <https://www.w3.org/TR/odrl-model/> .
-
-cssvrsc:23915a455e39b2775663fc98d465837bd49e54aea6f653b699a69884e325b940 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/119300_119399/119312/01.05.01_60/ts_119312v010501p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/119300_119399/119312/01.05.01_60/ts_119312v010501p.pdf> .
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"^^xsd:anyURI .
 
 cssvrsc:23a254b4-2a23-4e42-a2e6-6e6d399ba0f1 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -9085,11 +9187,6 @@ cssvrsc:252b7f80-7012-4b8d-b57c-b3c6ba7a4b9b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://datatracker.ietf.org/doc/html/rfc7946> .
 
-cssvrsc:25f9b3e437cbfe4e85616608263b0f5ac73aa0f169eee150f4e687fd5367fa0a a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.05.01_60/en_31941101v010501p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.05.01_60/en_31941101v010501p.pdf> .
-
 cssvrsc:26030079-4e2b-4375-a318-14b34ea2761b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103500_103599/10352305/01.01.01_60/ts_10352305v010101p.pdf> .
@@ -9097,11 +9194,6 @@ cssvrsc:26030079-4e2b-4375-a318-14b34ea2761b a owl:NamedIndividual,
 cssvrsc:263984fd-4eb2-4d75-83bb-502f5d765c49 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://datatracker.ietf.org/doc/rfc8484/> .
-
-cssvrsc:264c7486aa070e0384284a108832a77b4d4a49a5e9dae98feaf3f39df7e5fab1 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://www.w3.org/TR/sparql11-http-rdf-update/"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.w3.org/TR/sparql11-http-rdf-update/"^^xsd:anyURI .
 
 cssvrsc:267d8a2a-b801-4834-9d2d-2557528e997b a owl:NamedIndividual,
         dcat:Distribution ;
@@ -9133,6 +9225,11 @@ cssvrsc:2807628e-76b7-4e00-a32c-d25440afe2e5 a owl:NamedIndividual,
     dcat:accessURL <https://www.apdex.org/wp-content/uploads/2020/09/ApdexTechnicalSpecificationV11_000.pdf> ;
     dcat:downloadURL <https://www.apdex.org/wp-content/uploads/2020/09/ApdexTechnicalSpecificationV11_000.pdf> .
 
+cssvrsc:28191cb6-611f-455c-ad46-50b03ff5af1e a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.1752-202201-I!!PDF-E&type=items> ;
+    dcat:downloadURL <https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.1752-202201-I!!PDF-E&type=items> .
+
 cssvrsc:28cd3c1a-07a3-4e8c-86c9-576a2c402d84 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://internationaldataspaces.org/ids-is-officially-a-standard-din-spec-27070-is-published/> .
@@ -9148,6 +9245,11 @@ cssvrsc:292c62ad-3393-4708-b5d4-f664c1fafeed a owl:NamedIndividual,
 cssvrsc:2944cd4a-1532-4d59-b2ed-b8307143f5b4 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.italia.it/italia/developers-italia/publiccodeyml-en/en/master/index.html> .
+
+cssvrsc:29666c3d-82af-4aaa-b0f7-cf9118ded40d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://stateless.co/hal_specification.html"^^xsd:anyURI ;
+    dcat:downloadURL "https://stateless.co/hal_specification.html"^^xsd:anyURI .
 
 cssvrsc:298ad6282ce2f4beefb74b9c0e633c8d9de2af11ca73dfb2dd41b9400199dd22 a owl:NamedIndividual,
         org:Organization ;
@@ -9303,6 +9405,11 @@ cssvrsc:3464341b-4ef0-46d4-9c0c-ca228d684a2b a owl:NamedIndividual,
 cssvrsc:3464341b-4ef7-46d4-9c0c-ca228d684a2b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://groups.niso.org/higherlogic/ws/public/download/29097/Z39-93-2014_SUSHI-1_7.pdf> .
+
+cssvrsc:34fb3f75-9fc9-4d22-9f3d-a55366ec5eda a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.itu.int/rec/T-REC-X.1147-201811-I/en> ;
+    dcat:downloadURL <https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.1147-201811-I!!PDF-E&type=items> .
 
 cssvrsc:352e8175-4f18-4271-8a7d-b2c08417bf9f a owl:NamedIndividual,
         dcat:Distribution ;
@@ -9595,11 +9702,6 @@ cssvrsc:451ed6f3-8c70-4340-aada-eb105c4b99ec a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.w3.org/TR/dwbp/> .
 
-cssvrsc:456f44845ac17262b87cd138bd498775b31eeb7db09b0bb90a0193836e660a4b a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://stateless.co/hal_specification.html"^^xsd:anyURI ;
-    dcat:downloadURL "https://stateless.co/hal_specification.html"^^xsd:anyURI .
-
 cssvrsc:45a0d3e4-dedf-42b0-a64c-573c02b83d40 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/cpv> .
@@ -9607,11 +9709,6 @@ cssvrsc:45a0d3e4-dedf-42b0-a64c-573c02b83d40 a owl:NamedIndividual,
 cssvrsc:45a8fc6f-5dfa-4e6e-95c5-9d8f6d2d34f9 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.omg.org/spec/CORBA/3.4/About-CORBA/#document-metadata> .
-
-cssvrsc:45adb50381e00274d0e54e031d3dbba9d96543142902f2dbfa45e22f7a811b84 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://www.w3.org/TR/prov-n/"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.w3.org/TR/prov-n/"^^xsd:anyURI .
 
 cssvrsc:45e17ce2-dc9b-45c3-805c-a023a2b5109d a owl:NamedIndividual,
         dcat:Distribution ;
@@ -9621,11 +9718,6 @@ cssvrsc:460d911f-1550-4f3f-ad84-a3043d3c3b1d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.ietf.org/rfc/rfc9293.html> .
 
-cssvrsc:462afd4385792c9d56f24db690d34745c85f420311ee5ec66cf88c7a7ad1fd28 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103864/01.01.01_60/ts_103864v010101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103864/01.01.01_60/ts_103864v010101p.pdf> .
-
 cssvrsc:464c5387-4f4a-47a5-91c6-f5d1aa62e364 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/eurostat/ramon/statmanuals/files/methodology_for_data_validation_v2_0_rev2018.pdf> .
@@ -9633,11 +9725,6 @@ cssvrsc:464c5387-4f4a-47a5-91c6-f5d1aa62e364 a owl:NamedIndividual,
 cssvrsc:467b11ac-e17a-4f6e-bf3e-08ec0287c036 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/> .
-
-cssvrsc:468bdc52c7d725b50cb55588f7859bb77e9e18f491b55f395504ae5bc0eb0b1f a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://www.rfc-editor.org/rfc/rfc3126.txt"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.rfc-editor.org/rfc/rfc3126.txt"^^xsd:anyURI .
 
 cssvrsc:46aeafbd-8e38-4c49-bd20-e132a89ef825 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -9668,6 +9755,11 @@ cssvrsc:48e8fc70-65aa-4c5f-8c67-5ec790fa82b8 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/34342.html> .
 
+cssvrsc:49a84942-e737-47eb-ae47-b4f305a7e319 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/sparql11-protocol/"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.w3.org/TR/sparql11-protocol/"^^xsd:anyURI .
+
 cssvrsc:49b6b7de-d20b-4064-b074-11a9a0e10946 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.openstack.org/> .
@@ -9675,6 +9767,11 @@ cssvrsc:49b6b7de-d20b-4064-b074-11a9a0e10946 a owl:NamedIndividual,
 cssvrsc:49eb60c6-db43-4de6-b448-96ab4124104b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://web.mit.edu/kerberos/> .
+
+cssvrsc:4a55000f-3838-4b6b-9f0d-1cb3f9aabd78 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103100_103199/103142/01.01.01_60/ts_103142v010101p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103100_103199/103142/01.01.01_60/ts_103142v010101p.pdf> .
 
 cssvrsc:4a566a06-43a8-4ae2-ad71-2221e78e0f5c a owl:NamedIndividual,
         dcat:Distribution ;
@@ -9766,11 +9863,6 @@ cssvrsc:4f7c9104-8318-46d5-bcd6-3755ba9c07fc a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://standard.publiccode.net/> .
 
-cssvrsc:4f850aacffdcacda778a2a045db1e8e371bb2d11bf742369eb6165b53b78960f a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103700_103799/103701/02.01.01_60/ts_103701v020101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103700_103799/103701/02.01.01_60/ts_103701v020101p.pdf> .
-
 cssvrsc:5092dc4b-4acf-4d55-8565-16e9c73ed203 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://sfia-online.org/en/sfia-8/documentation> .
@@ -9778,6 +9870,11 @@ cssvrsc:5092dc4b-4acf-4d55-8565-16e9c73ed203 a owl:NamedIndividual,
 cssvrsc:50cf8e98-d0e7-458a-a958-42562d204ec7 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/eli/dir/2006/112/oj> .
+
+cssvrsc:50cfac32-b432-41d7-90dd-5827528aef7f a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.itu.int/rec/T-REC-X.1751-202009-I> ;
+    dcat:downloadURL <https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.1751-202009-I!!PDF-E&type=items> .
 
 cssvrsc:50f461de-3558-4b83-8e3d-84f3e46174a4 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -9859,11 +9956,6 @@ cssvrsc:5597ae1d-4bd4-433c-8a4a-8a7ba71de086 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://opensource.org/licenses/MIT> .
 
-cssvrsc:5598670176ea1fdd66230c0280d06fe23b67f6db456256adf9ec752f33baa82c a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://www.w3.org/TR/sparql11-protocol/"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.w3.org/TR/sparql11-protocol/"^^xsd:anyURI .
-
 cssvrsc:55b4162c-e58f-49b6-93b1-12bd8eafe2eb a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32013R1316> .
@@ -9941,6 +10033,11 @@ cssvrsc:5b4a391e-838e-4340-96ea-797fa07f6e09 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-X.1603> .
 
+cssvrsc:5b8ac86f-fade-4acc-a509-348a4cf0f97d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://jsonlines.org/"^^xsd:anyURI ;
+    dcat:downloadURL "https://jsonlines.org/"^^xsd:anyURI .
+
 cssvrsc:5bd7513e-b736-4733-ab71-c7a42831a3ca a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-X.1604-202003-I/en> .
@@ -10000,18 +10097,28 @@ cssvrsc:5fd92f20-6982-4db5-9316-144d450c6f73 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A31987H0598> .
 
-cssvrsc:5ff2d53d5bfbbe97ae428b9d53417e0e76c97c497d1064b13584f643a005b62a a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.itu.int/rec/T-REC-Y.3500-201408-I> ;
-    dcat:downloadURL <https://www.itu.int/rec/T-REC-Y.3500-201408-I> .
-
 cssvrsc:60189a06-3794-4975-a57d-ddb6455d8274 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103500_103599/10352301/01.01.01_60/ts_10352301v010101p.pdf> .
 
+cssvrsc:6027504e-3daa-497c-80b4-7bbd7fab7a6d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/WD-logfile.html"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.w3.org/TR/WD-logfile.html"^^xsd:anyURI .
+
 cssvrsc:60b909a4-748a-43b9-a093-be96c35ad49b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.oasis-open.org/csaf/csaf-cvrf/v1.2/csaf-cvrf-v1.2.html> .
+
+cssvrsc:61117562-6f61-4f7c-9d07-bce4c22bcd30 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/119300_119399/119312/01.05.01_60/ts_119312v010501p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/119300_119399/119312/01.05.01_60/ts_119312v010501p.pdf> .
+
+cssvrsc:fd23fc7a-23b2-462b-bc77-f657be97ff83 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc5448"^^xsd:anyURI ;
+    dcat:downloadURL "https://datatracker.ietf.org/doc/html/rfc5448"^^xsd:anyURI .
 
 cssvrsc:61cf2593-e4d0-4c33-871f-e3c0b3d0ea47 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10033,11 +10140,6 @@ cssvrsc:628fdc86-4908-428a-a920-e49ef9f54d11 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/78914.html> .
 
-cssvrsc:62bc6c34538955972d0e36a47fa109330d599049718d92e312a0e79ebc7642f2 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/103900_103999/103964/01.01.01_60/ts_103964v010101p.pdf"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.etsi.org/deliver/etsi_ts/103900_103999/103964/01.01.01_60/ts_103964v010101p.pdf"^^xsd:anyURI .
-
 cssvrsc:637d6194-586f-4212-acae-ca4bcbfa71d3 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/119600_119699/119612/02.02.01_60/ts_119612v020201p.pdf> .
@@ -10046,14 +10148,14 @@ cssvrsc:63c0b63f-37e1-4691-8da3-1215bc727dc8 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_gr/CIM/001_099/018/01.01.01_60/gr_CIM018v010101p.pdf> .
 
-cssvrsc:648244da452677f94c61c94267f5185f26c8c31ed50ffde275215d46219187fc a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103828/01.01.01_60/ts_103828v010101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103828/01.01.01_60/ts_103828v010101p.pdf> .
-
 cssvrsc:650c9842-fad9-42fc-8f81-021f0538cfe5 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://github.com/EBISPOT/DUO> .
+
+cssvrsc:65187440-e793-487b-aa2f-335acf6fcde1 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103845/01.01.01_60/ts_103845v010101p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103845/01.01.01_60/ts_103845v010101p.pdf> .
 
 cssvrsc:6530e8a2-a997-4dc2-acce-18c41580bcfa a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10075,6 +10177,11 @@ cssvrsc:668caa50-b4b1-4afc-a0c3-cf1ff02e516d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_en/303600_303699/303645/03.01.03_60/en_303645v030103p.pdf> ;
     dcat:downloadURL <https://www.etsi.org/deliver/etsi_en/303600_303699/303645/03.01.03_60/en_303645v030103p.pdf> .
+
+cssvrsc:66df07c1-ebb8-450d-a0d2-f7dd775bd8f6 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.05.01_60/en_31941101v010501p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.05.01_60/en_31941101v010501p.pdf> .
 
 cssvrsc:670c171c-7f30-4b88-9d9f-ad0f7b330db6 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10107,6 +10214,11 @@ cssvrsc:68a467e2-e1ca-45b1-88bd-20d71e741c72 a owl:NamedIndividual,
 cssvrsc:68bed1eb-3359-4254-be84-84314f88e5e8 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/euroscivoc> .
+
+cssvrsc:1dbbe14d-878d-4907-909a-8cd4774952b0 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rfc-editor.org/rfc/rfc7668.html"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.rfc-editor.org/rfc/rfc7668.html"^^xsd:anyURI .
 
 cssvrsc:695ead93-66ef-4962-a7c8-496783132e07 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10199,11 +10311,6 @@ cssvrsc:6e9f4bab-38aa-464a-83d0-c2bec84369ff a owl:NamedIndividual,
 cssvrsc:6f4e981f-c44c-4d9d-b503-8cefe9cd9c4a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ga4gh.github.io/task-execution-schemas/docs/> .
-
-cssvrsc:6f81a9bdf8f8c2a2d170a9dc0924b1b1a2470f80e4aaaa1b6a51d64d4bd201dd a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/182000_182099/182032/01.01.01_60/ts_182032v010101p.pdf"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.etsi.org/deliver/etsi_ts/182000_182099/182032/01.01.01_60/ts_182032v010101p.pdf"^^xsd:anyURI .
 
 cssvrsc:6fc92a1b-9202-4827-ba0c-7cb75a9af781 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10335,9 +10442,19 @@ cssvrsc:794af917f0f1602e880a1014ed241b48854d0add468723e42893d989db850736 a owl:N
     skos:prefLabel "Stichting Elektronische Transacties Uitzendbranche"@en ;
     foaf:homepage <https://setu.nl/> .
 
+cssvrsc:794f4097-36e1-48db-adf1-e0a18bba0e22 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.iso.org/standard/84749.html> ;
+    dcat:downloadURL <https://www.iso.org/standard/84749.html> .
+
 cssvrsc:795abae6-b699-45a3-9f9a-97600aac8610 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://joinup.ec.europa.eu/collection/european-interoperability-reference-architecture-eira/solution/eira/release/v310-0> .
+
+cssvrsc:79dc4869-f8b3-4d96-b885-b55dca170cff a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/103700_103799/103779/01.01.01_60/ts_103779v010101p.pdf"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.etsi.org/deliver/etsi_ts/103700_103799/103779/01.01.01_60/ts_103779v010101p.pdf"^^xsd:anyURI .
 
 cssvrsc:79e07b74-da41-4a9d-9e44-35cfc2019eb1 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10351,10 +10468,10 @@ cssvrsc:7a6694ed-5916-43e2-98c8-66896b859507 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/asset-description-metadata-schema-adms/release/100> .
 
-cssvrsc:7a6c979aeaa0e79ed7ba8ca49fa83065a0b58e2ead9edf4f55ba7cedcb3bc433 a owl:NamedIndividual,
+cssvrsc:7ab3c6d4-809a-47f0-94d8-bf85acb875c3 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/103700_103799/103779/01.01.01_60/ts_103779v010101p.pdf"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.etsi.org/deliver/etsi_ts/103700_103799/103779/01.01.01_60/ts_103779v010101p.pdf"^^xsd:anyURI .
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_tr/103200_103299/103290/01.01.01_60/tr_103290v010101p.pdf"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.etsi.org/deliver/etsi_tr/103200_103299/103290/01.01.01_60/tr_103290v010101p.pdf"^^xsd:anyURI .
 
 cssvrsc:7b0acb94-43b1-4d66-8165-ba5385dafbc3 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10367,11 +10484,6 @@ cssvrsc:7b8209cd-5517-494a-9928-ba309ffe13ce a owl:NamedIndividual,
 cssvrsc:7babc90d-a7d0-4e5e-a2b2-3eda6ecf05ee a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eDelivery+BDXL+1.6> .
-
-cssvrsc:7bc7d3abe1d613eb731d45f6b0b45ea99a4e50084921e5738904a10892f7cc85 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.iso.org/standard/84749.html> ;
-    dcat:downloadURL <https://www.iso.org/standard/84749.html> .
 
 cssvrsc:7c25d6be-e3fd-4fd0-988c-2a985a9d2ebf a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10488,6 +10600,16 @@ cssvrsc:817ad00d-4300-4de6-a7bd-2498f1f44a3a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-Y.3653-202104-I/en> .
 
+cssvrsc:819a4318-e812-4ba3-be4e-78bc71177761 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103400_103499/103486/01.01.01_60/ts_103486v010101p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103400_103499/103486/01.01.01_60/ts_103486v010101p.pdf> .
+
+cssvrsc:81a670e7-7051-4560-9d6f-d80118de739b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/133500_133599/133501/18.09.00_60/ts_133501v180900p.pdf"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.etsi.org/deliver/etsi_ts/133500_133599/133501/18.09.00_60/ts_133501v180900p.pdf"^^xsd:anyURI .
+
 cssvrsc:81f1302315032c452962ab3ba76aaf2e25facbde7d8c8776452baadef5627449 a owl:NamedIndividual,
         org:Organization ;
     skos:prefLabel "Health Level Seven International (HL7)"@en .
@@ -10495,6 +10617,11 @@ cssvrsc:81f1302315032c452962ab3ba76aaf2e25facbde7d8c8776452baadef5627449 a owl:N
 cssvrsc:8261041d-17d6-4f61-bd1e-73a003d81445 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://cdn.standards.iteh.ai/samples/56639/a54cfb1185604d40ae297e02cbf9ded3/ISO-IEC-38505-1-2017.pdf> .
+
+cssvrsc:60b04e78-e399-41ac-9a31-b3582693b167 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://docs.gaia-x.eu/technical-committee/identity-credential-access-management/22.10/product_overview/"^^xsd:anyURI ;
+    dcat:downloadURL "https://docs.gaia-x.eu/technical-committee/identity-credential-access-management/22.10/product_overview/"^^xsd:anyURI .
 
 cssvrsc:8283eecd-954b-4137-98bf-c83113fdda33 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10504,6 +10631,11 @@ cssvrsc:8293e4d5-bc3b-4ea4-8ab1-9c17fa4d6589 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://gitlab.com/gaia-x/lab/compliance/gx-registry> ;
     dcat:downloadURL <https://gitlab.com/gaia-x/lab/compliance/gx-registry> .
+
+cssvrsc:830daac5-a657-4223-8ba3-c7de25698a60 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/02.01.01_60/ts_10341004v020101p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/02.01.01_60/ts_10341004v020101p.pdf> .
 
 cssvrsc:837350b2-12a8-4d7a-b3f8-dbe6d75c7fdc a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10559,6 +10691,11 @@ cssvrsc:89163e94-fd3b-4f31-9a59-101eae4e908d a owl:NamedIndividual,
 cssvrsc:895f3518-425b-4000-b973-8e0182cadecb a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/cefdigital/wiki/download/attachments/82773108/eIDAS%20Interoperability%20Architecture%20v.1.2%20Final.pdf?version=3&modificationDate=1571068651790&api=v2> .
+
+cssvrsc:89611b64-efb8-49b2-b6ca-62676bb9562b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.itu.int/rec/T-REC-Y.3500-201408-I> ;
+    dcat:downloadURL <https://www.itu.int/rec/T-REC-Y.3500-201408-I> .
 
 cssvrsc:89f61d74-aa7a-40de-a3f1-97db49794fea a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10617,6 +10754,11 @@ cssvrsc:8d131790-bc2d-4865-93ea-338f838514ec a owl:NamedIndividual,
 cssvrsc:8d1ab579-4c6a-40d2-967f-28dfdfd9f917 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52011DC0900> .
+
+cssvrsc:8db2c7fe-d0fa-4565-8616-aa8e72094d49 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.06.01_60/en_31941102v020601p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.06.01_60/en_31941102v020601p.pdf> .
 
 cssvrsc:8e3e80d9-0012-4143-bce7-5ffd39b9787e a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10832,11 +10974,6 @@ cssvrsc:9a4c88ff-549a-4264-9a62-2b91cc918ebf a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.peppol.eu/edelivery/smp/PEPPOL-EDN-Service-Metadata-Publishing-1.2.0-2021-02-24.pdf> .
 
-cssvrsc:9a84e16e5cc8d7392c1970dcc1c90f7a41e3fc5b0f4130d1b964972ce84b2247 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.gs1.org/standards/gs1-digital-link> ;
-    dcat:downloadURL <https://www.gs1.org/standards/gs1-digital-link> .
-
 cssvrsc:9a99c0dd-eabd-4a3e-867b-9928c5803443 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://opennetworking.org/wp-content/uploads/2014/10/openflow-spec-v1.3.0.pdf> .
@@ -10879,11 +11016,6 @@ cssvrsc:9d2e8a4b1b697e7d135a190176454a2249450797a3aebca1197cdfe9882409ae a org:O
 cssvrsc:9d56f150-d853-42f0-83b9-741e3d2e94a3 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.rfc-editor.org/rfc/rfc1035.html> .
-
-cssvrsc:9db0eeef68e212bd1fc9c7bb64521b59a8373915544902abe40abe8940405460 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.itu.int/rec/T-REC-X.1147-201811-I/en> ;
-    dcat:downloadURL <https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.1147-201811-I!!PDF-E&type=items> .
 
 cssvrsc:9deba8c9-b0cb-48fa-8cc9-d54b3f1ea0d3 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10947,11 +11079,6 @@ cssvrsc:a080c7d4a8cc9c696af9040f26f9f558ca79d8133e613084b95d8f9a44787394 a owl:N
     skos:prefLabel "JCP"@en ;
     foaf:homepage <https://jcp.org/en/home/index> .
 
-cssvrsc:a0d1a8f3881e43fe24636d5f0fe60ce7b12e8c0f8eecc8670ec77babea8ffd91 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://www.w3.org/TR/WD-logfile.html"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.w3.org/TR/WD-logfile.html"^^xsd:anyURI .
-
 cssvrsc:a11245bc-681d-4aa6-bf61-955ad24a50b2 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Digital+Homepage> .
@@ -10976,6 +11103,11 @@ cssvrsc:a1d42803-a8dd-4093-a470-2373dd254f90 a owl:NamedIndividual,
 cssvrsc:a2456d0d-2fe8-4dc5-a994-7f1191c1a55b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.w3.org/TR/2011/REC-CSS2-20110607/> .
+
+cssvrsc:d6d01e07-302a-488d-bf2a-6ba348ee44ff a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.itu.int/rec/T-REC-X.1365-202003-I"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.itu.int/rec/T-REC-X.1365-202003-I"^^xsd:anyURI .
 
 cssvrsc:a293f5017e7e85ac58c4aebab35823a20602f1c41c853f1d654a583facc20620 a owl:NamedIndividual,
         org:Organization ;
@@ -11047,6 +11179,11 @@ cssvrsc:a5772975-4b3a-4697-9140-5f2e4cde584a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0-10.html> .
 
+cssvrsc:a5915315-cbfd-4634-bf0f-e26d4c5f81aa a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_tr/104000_104099/104074/01.01.01_60/tr_104074v010101p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_tr/104000_104099/104074/01.01.01_60/tr_104074v010101p.pdf> .
+
 cssvrsc:a5939132-6f22-4a15-ad34-16d64944d4bd a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://semiceu.github.io/Core-Location-Vocabulary/releases/2.00/> ;
@@ -11054,7 +11191,7 @@ cssvrsc:a5939132-6f22-4a15-ad34-16d64944d4bd a owl:NamedIndividual,
 
 cssvrsc:a5b41ea7-8e94-4529-b849-ea05ad88c936 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL <https://openid.net/> .
+    dcat:accessURL <https://openid.net/specs/openid-connect-core-1_0.html> .
 
 cssvrsc:a60a6e40-ccae-4e41-b78b-c9d197143049 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -11114,11 +11251,6 @@ cssvrsc:a96aace8-7659-4c0e-b7db-2d0b60c484c8 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://jcp.org/en/jsr/all> .
 
-cssvrsc:a9ad6e8d7302ad855a6b44316eafb1a9908e238b01c79715680a652eee1c48b3 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103400_103499/103486/01.01.01_60/ts_103486v010101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103400_103499/103486/01.01.01_60/ts_103486v010101p.pdf> .
-
 cssvrsc:a9bf2536-656d-4beb-af88-c17523df1646 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://catenax-ev.github.io/docs/next/standards/CX-0006-RegistrationAndInitialOnboarding> ;
@@ -11172,6 +11304,11 @@ cssvrsc:ac8c733c-aec1-470a-92a7-7cadfa484d94 a owl:NamedIndividual,
 cssvrsc:ac9b9011-3466-4e2d-a1d7-e2b723174966 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.02.01_60/gs_CIM006v010201p.pdf> .
+
+cssvrsc:acddcfee-b287-4fb9-a7bf-bb9ef1a0c67a a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.itu.int/rec/T-REC-Y.4461-202001-I> ;
+    dcat:downloadURL <https://www.itu.int/rec/T-REC-Y.4461-202001-I> .
 
 cssvrsc:ad151b75-d3f1-43f7-a829-41478410402c a owl:NamedIndividual,
         dcat:Distribution ;
@@ -11303,6 +11440,11 @@ cssvrsc:b4fa8f22-4194-4401-b140-7387c8362ebc a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ieeexplore.ieee.org/document/9382202> .
 
+cssvrsc:b56574bb-0d63-4caa-bf82-35af44912b1a a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.w3.org/TR/odrl-model/> ;
+    dcat:downloadURL <https://www.w3.org/TR/odrl-model/> .
+
 cssvrsc:b591d657-ef18-437f-a3ce-c284751f1985 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://csvw.org/> .
@@ -11356,6 +11498,11 @@ cssvrsc:b9219aba-1cc6-4d47-a726-209b93c692be a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-X.1750-202009-I/en> .
 
+cssvrsc:b94237f8-628a-4ce4-86a5-eb72485ff2a5 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.ietf.org/archive/id/draft-onedm-t2trg-sdf-00.html> ;
+    dcat:downloadURL <https://www.ietf.org/archive/id/draft-onedm-t2trg-sdf-00.html> .
+
 cssvrsc:b9783197-722b-4db1-90df-7d3eeaad372e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32006L0123> .
@@ -11380,6 +11527,11 @@ cssvrsc:b9b6634c-70e9-4e17-9179-c14076dfb454 a owl:NamedIndividual,
 cssvrsc:b9c28a8a-b2e1-40dd-8176-39c3e08e49aa a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://tools.ietf.org/html/rfc3629> .
+
+cssvrsc:fcc3d06b-e308-422d-8a6c-1dd7a3d5a83a a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.itu.int/rec/T-REC-Y.4119-201803-I/en"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.itu.int/rec/T-REC-Y.4119-201803-I/en"^^xsd:anyURI .
 
 cssvrsc:ba30c644f48be51fd975c8ee45995341d854cbdf607bc4e560b56034b5580023 a owl:NamedIndividual,
         org:Organization ;
@@ -11442,10 +11594,15 @@ cssvrsc:bdc2e58f-d8ce-42ee-8186-9cbae10b1a84 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+ebCore+Party+Id+1.4> .
 
-cssvrsc:be4de35f3debd3d188fded40104107093a0cd8a9059cc5e096a29d419abe817c a owl:NamedIndividual,
+cssvrsc:be6f6bb4-9223-4c31-b2f8-4ff9c0837932 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/133500_133599/133501/18.09.00_60/ts_133501v180900p.pdf"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.etsi.org/deliver/etsi_ts/133500_133599/133501/18.09.00_60/ts_133501v180900p.pdf"^^xsd:anyURI .
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103846/01.01.01_60/ts_103846v010101p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103846/01.01.01_60/ts_103846v010101p.pdf> .
+
+cssvrsc:bea8e301-51af-4635-a92e-ac542defad8c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103864/01.01.01_60/ts_103864v010101p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103864/01.01.01_60/ts_103864v010101p.pdf> .
 
 cssvrsc:bead2000-898f-48ee-b78f-634e55e58019 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -11503,11 +11660,6 @@ cssvrsc:c1c6cb73-4bb4-46d0-b2bc-dd596417d95d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://data.europa.eu/euodp/en/home> .
 
-cssvrsc:c1e29cfcaa1e104e7e9a109839fd124e38917227cd5fc2eca4eea87c19f4efc4 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://jsonlines.org/"^^xsd:anyURI ;
-    dcat:downloadURL "https://jsonlines.org/"^^xsd:anyURI .
-
 cssvrsc:c21d21f0-042a-4135-ad38-4de42df941dc a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/eurostat/web/nuts> ;
@@ -11564,11 +11716,6 @@ cssvrsc:c4447252-1e80-45a7-ad03-e9f3d445d050 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/71885.html> .
 
-cssvrsc:c4e9803707b87e634918d3da5cb516af23008b9f659a5cb07d6ced51a33745c3 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103846/01.01.01_60/ts_103846v010101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103846/01.01.01_60/ts_103846v010101p.pdf> .
-
 cssvrsc:c4f20f49-959c-4f6a-9d57-de45880b5710 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://lov.linkeddata.es/dataset/lov/> .
@@ -11612,11 +11759,6 @@ cssvrsc:c6b549be-7b5e-4971-9a6a-ad9298bd1a2a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://joinup.ec.europa.eu/release/core-criterion-and-core-evidence-vocabulary-v100> .
 
-cssvrsc:c71a058355f70b3849908e96c2d9746765b4370152b6b99ab0a19096b74698c9 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.itu.int/rec/T-REC-X.1751-202009-I> ;
-    dcat:downloadURL <https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.1751-202009-I!!PDF-E&type=items> .
-
 cssvrsc:c71c8b6c-b49c-4837-b7ec-10772d8981e9 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://tools.ietf.org/html/rfc791> .
@@ -11629,11 +11771,6 @@ cssvrsc:c78d0329-bf27-4366-99c0-e5f2ace5cb7d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://cdn.standards.iteh.ai/samples/56643/6fe0dbe7d22a4f8c8d43b560c42c56b8/ISO-IEC-TS-38505-3-2021.pdf> .
 
-cssvrsc:c79968fd77c6ebba5d6cf1182ef8ef1c7112da3a9e59fda452bc55a56f605472 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2024/cwa18125_2024.pdf> ;
-    dcat:downloadURL <https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2024/cwa18125_2024.pdf> .
-
 cssvrsc:c7a19d91-a472-4de9-9cd0-02251fad5614 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.w3.org/TR/ldn/> .
@@ -11642,6 +11779,11 @@ cssvrsc:c7d34947-40a0-4c27-a2f7-bfaf0cea4a98 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.w3.org/TR/xquery-30/> ;
     dcat:downloadURL <https://www.w3.org/TR/xquery-30/> .
+
+cssvrsc:c7fd2724-1473-4772-83a1-aa123efbd735 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.gs1.org/standards/gs1-digital-link> ;
+    dcat:downloadURL <https://www.gs1.org/standards/gs1-digital-link> .
 
 cssvrsc:c82e6f20-c1c6-43b3-b7ba-2936434fd715 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -11658,11 +11800,6 @@ cssvrsc:c884dc53-1b39-4676-b23f-7c0fbaabc024 a owl:NamedIndividual,
 cssvrsc:c8c68cd0-a889-488e-831d-3cbad5c48b9e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.gaia-x.eu/technical-committee/data-exchange/22.10/dewg/#data-exchange-services> .
-
-cssvrsc:c8e37cd16a38e30987f5407d6a5860e2e47c600aae36d0d637a3920d29c73789 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"^^xsd:anyURI .
 
 cssvrsc:c949ea34d44e337a042f10a82b35d2a07fe01c3257cd6551d7197b13a9097921 a owl:NamedIndividual,
         org:Organization ;
@@ -11719,6 +11856,11 @@ cssvrsc:cb868a40-1a2b-4d29-84b9-99a77efae65e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32013L0037> .
 
+cssvrsc:cc43b9fb-a997-4a44-8acc-aba1597bfb5e a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2024/cwa18125_2024.pdf> ;
+    dcat:downloadURL <https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2024/cwa18125_2024.pdf> .
+
 cssvrsc:cd7f827a-64c2-49ea-a869-16c4bc79c1d8 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://joinup.ec.europa.eu/release/core-location-vocabulary/100> .
@@ -11747,24 +11889,24 @@ cssvrsc:cec045df57a9ce247ca3de97c677767596baef03def71374cb291359b4dd9a8e a owl:N
     skos:prefLabel "OPC"@en ;
     foaf:homepage <https://opcfoundation.org/> .
 
-cssvrsc:cf90fbb2c0083363905ed2b7db53cfa23e269ed4db1b2d12042d093b87681136 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=226273&p40_language_code=en&p40_detail_id=94411&session=27361077061641"^^xsd:anyURI ;
-    dcat:downloadURL "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=226273&p40_language_code=en&p40_detail_id=94411&session=27361077061641"^^xsd:anyURI .
-
 cssvrsc:cfcdb0ec-8494-4fc8-af2c-5309ad0147ca a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.rfc-editor.org/rfc/rfc7807> ;
     dcat:downloadURL <https://www.rfc-editor.org/rfc/rfc7807> .
 
-cssvrsc:cfd2790a544c9e6d54679bfed9f01f2a78469349d934f59d5a4d1a8c65781df5 a owl:NamedIndividual,
+cssvrsc:a9b0796e-2592-41b7-a4dc-96278fc8e90f a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://openid.net/specs/openid-connect-core-1_0.html"^^xsd:anyURI ;
-    dcat:downloadURL "https://openid.net/specs/openid-connect-core-1_0.html"^^xsd:anyURI .
+    dcat:accessURL "https://www.itu.int/rec/T-REC-Y.4471-202105-I/en"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.itu.int/rec/T-REC-Y.4471-202105-I/en"^^xsd:anyURI .
 
 cssvrsc:cff089dc-437e-4f5c-a6d5-7e435d5a4508 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.rd-alliance.org/group/rdawds-publishing-data-services-wg/outcomes/rdawds-publishing-data-services-wg-recommendations> .
+
+cssvrsc:527dd0e7-50c2-4762-af80-37684b682606 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc7641"^^xsd:anyURI ;
+    dcat:downloadURL "https://datatracker.ietf.org/doc/html/rfc7641"^^xsd:anyURI .
 
 cssvrsc:d06710ad-e622-4fe3-b2fd-cb7e87283ecc a owl:NamedIndividual,
         dcat:Distribution ;
@@ -11852,11 +11994,6 @@ cssvrsc:d5a0f3bf-e2c7-43c2-a0bd-6b1ca6c5306a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://datatracker.ietf.org/doc/html/rfc6143> .
 
-cssvrsc:d60003320659b604359e8023c65deff5ffd757dd3dc2772d3af6dd040874b273 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.ietf.org/archive/id/draft-onedm-t2trg-sdf-00.html> ;
-    dcat:downloadURL <https://www.ietf.org/archive/id/draft-onedm-t2trg-sdf-00.html> .
-
 cssvrsc:d60947f5562ad10eca1a7227a196a5a7917c97b64c85f118a0419640a654e5ff a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "NIEM Technical Architecture Committee"@en ;
@@ -11875,11 +12012,6 @@ cssvrsc:d759d0c4-ec5c-4ece-a53b-49f1cd5e97f1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://hub-test.ebsi.eu/vc-framework> .
 
-cssvrsc:d775eaffaad51633f1952afb191a8c0f4e6e7fbc6a7dabf12af907d6373543cf a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.1752-202201-I!!PDF-E&type=items> ;
-    dcat:downloadURL <https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.1752-202201-I!!PDF-E&type=items> .
-
 cssvrsc:d778d5f2-2c3e-4573-89c5-9f360b37ea00 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/homepage.html?locale=en> .
@@ -11887,11 +12019,6 @@ cssvrsc:d778d5f2-2c3e-4573-89c5-9f360b37ea00 a owl:NamedIndividual,
 cssvrsc:d79f0de0-1c6a-4ee5-8f72-9790cff9d7c1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/55290.html> .
-
-cssvrsc:d872518303bc516672ca3f81e5809ee71807a565cfbbbf33e92845411f117ad9 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL "https://www.etsi.org/deliver/etsi_tr/103200_103299/103290/01.01.01_60/tr_103290v010101p.pdf"^^xsd:anyURI ;
-    dcat:downloadURL "https://www.etsi.org/deliver/etsi_tr/103200_103299/103290/01.01.01_60/tr_103290v010101p.pdf"^^xsd:anyURI .
 
 cssvrsc:d8ac2b1b-390d-42ec-b979-3cdc73b38389 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -11927,11 +12054,6 @@ cssvrsc:d9b63f55-a23f-4ef5-bb9e-08dc8142fe7e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.ogc.org/standard/sos/> .
 
-cssvrsc:d9c59a1c5ff91f30a74ef23755df0b8bcb7e3550b45356b773ed2888a8961bd9 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103845/01.01.01_60/ts_103845v010101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103845/01.01.01_60/ts_103845v010101p.pdf> .
-
 cssvrsc:da55a9d6-de3f-40f8-9be9-c48d45842060 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/73906.html> .
@@ -11939,11 +12061,6 @@ cssvrsc:da55a9d6-de3f-40f8-9be9-c48d45842060 a owl:NamedIndividual,
 cssvrsc:da57466d-cfe9-43c0-9142-104ca9402fa8 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://tools.ietf.org/html/rfc4180> .
-
-cssvrsc:daaa8ef21b7d044f16fa6e77e26c93cb5af5a9983e8d49e5c6f7a395502b071a a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103200_103299/103264/04.01.01_60/ts_103264v040101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103200_103299/103264/04.01.01_60/ts_103264v040101p.pdf> .
 
 cssvrsc:dad8a07f-af75-4560-b0c5-418b7b9149e8 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12012,11 +12129,6 @@ cssvrsc:e1b50fc5-9880-4921-9471-69031fa89edf a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_en/319100_319199/31912201/01.02.01_60/en_31912201v010201p.pdf> .
 
-cssvrsc:e1f0804f20e12b6064a880cb729f07000f8375c24607fef896bd84310d44f73d a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/02.01.01_60/ts_10341004v020101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/02.01.01_60/ts_10341004v020101p.pdf> .
-
 cssvrsc:e23a559faf29434d32ce0eba0a2ee0c9df01c72f09ce98a0878254db0740852a a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "RESTfulAPI"@en ;
@@ -12027,6 +12139,11 @@ cssvrsc:e2c04506-8292-4675-93ed-49b7bb4470eb a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.hydra-cg.com/spec/latest/core/> ;
     dcat:downloadURL <https://www.hydra-cg.com/spec/latest/core/> .
+
+cssvrsc:0071ac7f-8294-4f24-bb7b-cadfc5f3080b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.itu.int/rec/T-REC-Y.4903-202203-I/en"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.itu.int/rec/T-REC-Y.4903-202203-I/en"^^xsd:anyURI .
 
 cssvrsc:e312c9b7-ab7d-4146-8fb0-4039770abce3 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12047,6 +12164,11 @@ cssvrsc:e3d76d47-d5dd-4ebc-9395-90b20ebaf3bb a owl:NamedIndividual,
 cssvrsc:e4796f9f-0a42-4025-9baa-f0079c4bee68 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://datatracker.ietf.org/doc/html/rfc8414> .
+
+cssvrsc:e49a1a05-91e0-4176-a4b1-5622c084f163 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/182000_182099/182032/01.01.01_60/ts_182032v010101p.pdf"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.etsi.org/deliver/etsi_ts/182000_182099/182032/01.01.01_60/ts_182032v010101p.pdf"^^xsd:anyURI .
 
 cssvrsc:e4f0f128-7c95-474f-b85d-4e891db96296 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12112,6 +12234,11 @@ cssvrsc:e9e9f30f-7d12-48eb-acdf-b4cd91e182c5 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.axelos.com/best-practice-solutions/itil> .
 
+cssvrsc:6218c6c9-18fd-4b89-aed8-c55882e48d9b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rfc-editor.org/rfc/rfc3748"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.rfc-editor.org/rfc/rfc3748"^^xsd:anyURI .
+
 cssvrsc:eb2e3800-f5b3-48ac-b039-0df587062d7e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://op.europa.eu/en/web/eu-vocabularies/alignments> .
@@ -12150,6 +12277,11 @@ cssvrsc:ed583062-b7cb-45a5-a34e-9e99142fe6ac a owl:NamedIndividual,
 cssvrsc:ed5c116e-be8c-4815-87a2-208202b2ab79 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/DomiSMP+FAQs#:~:text=Service%20Metadata%20Publisher%20%28DomiSMP%2C%20previously%20called%20SMP%29%20is,about%20the%20location%20and%20capabilities%29%20of%20the%20receiver.> .
+
+cssvrsc:ed6d26fa-6b0a-4ec8-9306-9fe5e489f572 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103200_103299/103264/04.01.01_60/ts_103264v040101p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103200_103299/103264/04.01.01_60/ts_103264v040101p.pdf> .
 
 cssvrsc:ed98b016-d489-4cc2-9ca0-dea07d0ba18d a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12192,11 +12324,6 @@ cssvrsc:f0201e06-5c9f-4710-856a-d77ca57efd1e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-Y.4208-202001-I/en> .
 
-cssvrsc:f071571d4bdd4fa93eaff8261a396fe0dee0cc06c0fcfbb0ce0fc92b5a27fff0 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103100_103199/103142/01.01.01_60/ts_103142v010101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103100_103199/103142/01.01.01_60/ts_103142v010101p.pdf> .
-
 cssvrsc:f077a607-3239-4918-83f0-a5707206190d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-X.1605/en> .
@@ -12209,11 +12336,6 @@ cssvrsc:f08fa076-3a93-459d-a13d-d0d22ebbf500 a owl:NamedIndividual,
 cssvrsc:f0abe976-d736-4ca0-b89c-6feb2b3b75ad a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.apache.org/licenses/LICENSE-2.0> .
-
-cssvrsc:f0e3f1837420464fd1652d38e03b9dfd943cfcf724ad1ab40b0e97cd22b8b343 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf> .
 
 cssvrsc:f0f70f27-e3a9-42bb-a689-e793b375e54d a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12257,6 +12379,11 @@ cssvrsc:f45da6c7-029d-4f83-93ac-ae65431434a3 a owl:NamedIndividual,
 cssvrsc:f4672b91-aead-44e4-868b-420a042b8f36 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf> .
+
+cssvrsc:f48f7cf1-7912-4602-bf49-7a7a5290b289 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/prov-n/"^^xsd:anyURI ;
+    dcat:downloadURL "https://www.w3.org/TR/prov-n/"^^xsd:anyURI .
 
 cssvrsc:f492990d-7a5f-4078-b419-ce15cea185be a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12325,6 +12452,11 @@ cssvrsc:f6fbb9c0-8453-4dcf-af17-3637f57ac0b9 a owl:NamedIndividual,
     dcat:accessURL <https://schema.org/docs/gs.html> ;
     dcat:downloadURL <https://schema.org/docs/gs.html> .
 
+cssvrsc:f74b7a9d-26f2-46eb-8cf1-5b5838fe4b51 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103828/01.01.01_60/ts_103828v010101p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103828/01.01.01_60/ts_103828v010101p.pdf> .
+
 cssvrsc:f7df2e19-8f2f-44fd-90c5-b46ca9a7e672 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32001R1049> .
@@ -12374,6 +12506,11 @@ cssvrsc:f876a2e1-9960-4a88-9fca-4b4be884def1 a owl:NamedIndividual,
 cssvrsc:f8fbab9a-796f-4d8d-bbdb-94be764554bb a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://standards.cen.eu/dyn/www/f?p=204:110:0::::FSP_PROJECT,FSP_ORG_ID:67073,1218399&cs=1A148766F9EC80CBD3340728E3B8BB892> .
+
+cssvrsc:f953fb1c-ad87-43be-8d8f-5af382cfdcc7 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf> ;
+    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf> .
 
 cssvrsc:fa5989d3-819e-4da8-ae6f-58782a1a2ed4 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12619,6 +12756,12 @@ cssvrsc:3ccd5eb4c630bce8cc7e1adee15bd015260a39fda75e5abb4a6ac2c6bb76119f a owl:N
     skos:prefLabel "Linux Foundation"@en ;
     foaf:homepage <https://www.linuxfoundation.org/> .
 
+cssvrsc:4e04f19455ff8628a12285cdca275b0ee3faeaa0223f10095bf19b7bc584ac1c a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "OpenID Foundation"@en ;
+    skos:prefLabel "OpenID Foundation"@en ;
+    foaf:homepage <https://openid.net/> .
+
 cssvrsc:629bdcdf6ffd2d15e817fc5617f4b7c7de4fcceacc7e8e746d941bc1d10ce23a a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "Schema.org"@en ;
@@ -12650,12 +12793,6 @@ cssvrsc:2c4d759449b430b92a4443c6d6eb13703e3b9361a9bf87c244c9db3f01e0461e a owl:N
     skos:altLabel "United Nations Economic Commission for Europe"@en ;
     skos:prefLabel "UNECE"@en ;
     foaf:homepage <https://unece.org/es> .
-
-cssvrsc:4e04f19455ff8628a12285cdca275b0ee3faeaa0223f10095bf19b7bc584ac1c a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "OpenID Foundation"@en ;
-    skos:prefLabel "OpenID Foundation"@en ;
-    foaf:homepage <https://openid.net/> .
 
 cssv:ApplicationProfile a owl:Class .
 
@@ -12722,17 +12859,17 @@ cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a a owl:N
 schema:ContactPoint a owl:AnnotationProperty,
         owl:Class .
 
-cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "International Telecommunication Union"@en ;
-    skos:prefLabel "ITU"@en ;
-    foaf:homepage <https://www.itu.int/en/about/Pages/default.aspx> .
-
 cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "Organization for the Advancement of Structured Information Standards"@en ;
     skos:prefLabel "OASIS"@en ;
     foaf:homepage <https://www.oasis-open.org/> .
+
+cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "International Telecommunication Union"@en ;
+    skos:prefLabel "ITU"@en ;
+    foaf:homepage <https://www.itu.int/en/about/Pages/default.aspx> .
 
 cssv:Standard a owl:Class .
 
@@ -12760,15 +12897,15 @@ cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 a owl:N
     skos:prefLabel "W3C"@en ;
     foaf:homepage <https://www.w3.org/> .
 
-cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b a owl:NamedIndividual,
-        org:Organization ;
-    skos:altLabel "Internet Engineering Task Force"@en ;
-    skos:prefLabel "IETF"@en ;
-    foaf:homepage <https://www.ietf.org/> .
-
 cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "European Commission"@en ;
     skos:prefLabel "EC"@en ;
     foaf:homepage <https://commission.europa.eu/index_en> .
+
+cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "Internet Engineering Task Force"@en ;
+    skos:prefLabel "IETF"@en ;
+    foaf:homepage <https://www.ietf.org/> .
 
