@@ -117,6 +117,7 @@ to store the monitoring data"""@en ;
 cssvrsc:01bd555b2f394f3ab04d4099da0137a4f7764c33c4fb4e5c4018be1a53c04b05 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T X.1275"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "Recommendation ITU-T X.1275 recognizes that radio frequency identification (RFID) technology renders information pertaining specifically to the merchandise worn or carried by individuals open to abuse even as it greatly facilitates access to and distribution of such information for useful purpose. The abuse can manifest as tracking the location of the individual or invasion of his or her privacy in another malfeasant manner. For this reason, this Recommendation provides guidelines regarding the RFID procedures that can be used to enjoy the benefits of RFID while attempting to protect personally identifiable information."@en ;
     dct:title "X.1275 : Guidelines on protection of personally identifiable information in the application of RFID technology"@en ;
@@ -624,7 +625,7 @@ cssvrsc:0e2bad82870e7abae827de478cff738ca43ce1e7ed07c7c400652936d8731105 a cssv:
 
 cssvrsc:0e933635134babec537800b3a518bc3f98b95e43dcd0cedaede685fba47a8a3a a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:slternative "Regulation 2019/881/EU"@en ;
+    cssv:alternative "Regulation 2019/881/EU"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
     dct:title "The EU Cybersecurity Act"@en ;
@@ -1508,7 +1509,7 @@ cssvrsc:2703d04f985f18e711a774d3c6491024ec67d3465255c1c85d95132753e7ecf1 a cssv:
 
 cssvrsc:2721bff356ea48aeec43ba3b34d6cc9929bdf42bf89084cafc8a39d4aaa54a7d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ETSI TS 103 523-5"@en ;
+    cssv:alternative "ETSI TS 103 523-5"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI TS 103 523-5 CYBER defines Requirements - such as legal mandates and service agreements - that exist for enterprise network, data centre operators and service providers, organizations and small businesses to be able to observe and audit the content and metadata of encrypted sessions transported across their infrastructures. The IPsec protocol standards [1], [i.2] and [i.3] can be managed in a way that enables this enterprise visibility."@en ;
     dct:title "ETSI TS 103 523-5 CYBER; Middlebox Security Protocol; Part 5: CYBER; Middlebox Security Protocol; Part 5: Enterprise Network Security"@en ;
@@ -1595,7 +1596,7 @@ cssvrsc:29d0e11f39637851673a42720653d25e6b2eaead425e7d5b0a5c9f28292a8cfa a cssv:
     cssv:acronym "WADL"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Web Application Description Language (WADL) is an XML-based language designed to describe HTTP-based web services. It models the resources provided by a service and the relationships between them, aiming to simplify the reuse of web services that are based on the existing HTTP architecture of the Web. WADL is platform and language-independent, promoting the reuse of applications beyond basic web browser use."@en ;
-    dct:title "Web Application Description Language (WADL) "@en ;
+    dct:title "Web Application Description Language (WADL)"@en ;
     dcat:distribution cssvrsc:6d738cfa-4a70-4662-8158-eddf9f0876fe ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
@@ -3861,7 +3862,7 @@ cssvrsc:6eb2a0776547a9750027a031719cb9ca3e620970f7dfd42bd96ac025b8a6f463 a cssv:
 
 cssvrsc:6f03402e98acfd1f4c58b6533bdb88e793efffd35b0a6a3389b8c7c77220a310 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ETSI TS 103 744"@en ;
+    cssv:alternative "ETSI TS 103 744"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The focus of TS 103 744 CYBER is on the practical implementation of quantum-safe primitives, including performance considerations, implementation capabilities, protocols, benchmarking and practical architectural considerations for specific applications. The group’s work also feeds into other groups and standards bodies such as International Telecommunications Union (ITU), Internet Engineering Task Force (IETF), International Standards Organisation (ISO) and GlobalPlatform."@en ;
     dct:title "ETSI TS 103 744 CYBER; Quantum-safe Hybrid Key Exchanges"@en ;
@@ -4581,7 +4582,7 @@ cssvrsc:84a1c8b0d4ee9f8d53a50e8529a99516c5f79ba2728b0784d8e2108fa849a0de a cssv:
 cssvrsc:84b85235ee46701a6b95a3f1ef00844e95091763815a88edfcb291aa29ffffb8 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "HTTPS"@en ;
-    cssv:alternative "RFC 2818"en ;
+    cssv:alternative "RFC 2818"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "HTTP over SSL/TLS (also known as Hypertext Transfer Protocol Secure, HTTP over SSL, HTTP over TLS, or HTTPS) is a protocol for secure communication over a computer network that is widely used on the Internet."@en ;
     dct:title "HTTP over SSL/TLS (HTTPS) (RFC 2818)"@en ;
@@ -5348,7 +5349,7 @@ cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 a cssv:
 
 cssvrsc:9a0d93a6a4a55176ed1f09f191b3ca8f3a0c534f7930248a7115c6d469826136 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ETSI TS 103 532"@en ;
+    cssv:alternative "ETSI TS 103 532"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TS 103 532 focuses on Attribute-Based Encryption to control access to data, aiming to provide user identity protection whilst preventing disclosure of data to an unauthorized entity."@en ;
     dct:title "ETSI TS 103 532 CYBER; Attribute Based Encryption for Attribute Based Access Control"@en ;
@@ -5499,7 +5500,7 @@ cssvrsc:9eee7b5f591edb9c84e3d07d234b97ce0f5e84c26989b649ac96715af0adf328 a cssv:
     dcat:distribution cssvrsc:4c1ed9e1-c375-4e98-aac2-07424c4b761f ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 178" .
 
 cssvrsc:9f20060720cf509194734e94953c33a87e28b82bebad2ea64ba192e1ade4e4bf a cssv:Specification,
         owl:NamedIndividual ;
@@ -5510,7 +5511,7 @@ cssvrsc:9f20060720cf509194734e94953c33a87e28b82bebad2ea64ba192e1ade4e4bf a cssv:
     dcat:distribution cssvrsc:9add2852-2961-4fdf-841e-63b15dfbb2eb ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "L 178" .
+    dcat:version "COM(2020) 67 final" .
 
 cssvrsc:9f33e6fe5d13ddc426e44b02c777119f89ff87d41397ce2f135a0c3c71724fb6 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6535,7 +6536,7 @@ cssvrsc:bf9c7fcbc267a909106b6822be6217946011995f281d7e3278761e3a7437fb32 a cssv:
 
 cssvrsc:bfae866356552984c68139c12d76abefd25832f19eb1b0f78d773a88bc3bf3d4 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ETSI TS 103 458"@en ;
+    cssv:alternative "ETSI TS 103 458"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TS 103 458 CYBER specifies high level requirements for the application of Attribute Based Encryption (ABE) to protect PII and personal data on IoT devices/services, cloud services, Wireless Local Area Networks and mobile services, where access to data has to be given to multiple parties and under different conditions. With a main focus on the confidentiality of data, including personal data and Personally Identifiable Information, the present document may help in supporting the General Data Protection Regulation [i.19]."@en ;
     dct:title "ETSI TS 103 458 CYBER; Application of Attribute Based Encryption (ABE) for PII and personal data protection on IoT devices, WLAN, cloud and mobile services - High level requirements"@en ;
@@ -7819,7 +7820,7 @@ cssvrsc:e5ce69e94864a19b278266d0b71a3a740a6de0993464c47dff495c5036ab8dbb a cssv:
 
 cssvrsc:e7104ff4d29d40f12241e050a7abdcf70d5250f2d16c3610631cf2798594b5d7 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "Regulation 2018/1807/EU"@en ;
+    cssv:alternative "Regulation 2018/1807/EU"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
     dct:description "Legal Act n a framework for the free flow of non-personal data in the European Union"@en ;
     dct:title "REGULATION (EU) 2018/1807 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL, of 14 November 2018 on a framework for the free flow of non-personal data in the European Union (Text with EEA relevance)"@en ;
@@ -8021,7 +8022,7 @@ cssvrsc:ed09ca216774dc1192ed4558ade3e6d589af8442d78621fd699462c5180afc94 a cssv:
 
 cssvrsc:ed45256d0f41d440c9e7109ee9120dee2dfff47807a609bf30654e68dac7cc51 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ISO/IEC 19086-1:2016"@en ;
+    cssv:alternative "ISO/IEC 19086-1:2016"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 19086-1:2016 is for the benefit and use of both cloud service providers and cloud service customers. The aim is to avoid confusion and facilitate a common understanding between cloud service providers and cloud service customers. Cloud service agreements and their associated cloud SLAs vary between cloud service providers, and in some cases different cloud service customers can negotiate different contract terms with the same cloud service provider for the same cloud service. This document aims to assist cloud service customers when they compare cloud services from different cloud service providers."@en ;
     dct:title "ISO/IEC 19086-1:2016 Information technology — Cloud computing — Service level agreement (SLA) framework — Part 1: Overview and concepts"@en ;
