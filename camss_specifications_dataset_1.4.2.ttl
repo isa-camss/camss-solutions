@@ -696,7 +696,8 @@ cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af a cssv:
     dct:title "Core Location Vocabulary 2.0.0"@en ;
     dcat:distribution cssvrsc:a5939132-6f22-4a15-ad34-16d64944d4bd ;
     dcat:theme "Data Architecture"@en ;
-    dcat:version "2.0.0" .
+    dcat:version "2.0.0" ;
+    dcat:previousVersion cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8.
 
 cssvrsc:1331c2c0a75eea8b5d5a413c0bebab78509bf1b0c3aa6fc8dd05c2ff0d5784cd a cssv:Specification,
         owl:NamedIndividual ;
@@ -787,7 +788,7 @@ cssvrsc:15934bcfcb57d72b1b73d913180ce7f86d2773c32725efa41ddb6b14e143cb84 a cssv:
 
 cssvrsc:15a8627ef6b3409bf534b8537edc2e9778d2587cf643b4a5ec7c6b556a75bb13 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "" ;
+    cssv:alternative "ITU-T X.1365" ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T X.1365 specification is designed to facilitate and simplify the implementation of security mechanisms to protect data collected by sensors. In this sense, the specification proposes identity-based cryptography (IBC) to protect entities when exchanging data. Thus, sensors can authenticate their identity and communicate with the central platform in order to manage sensors if necessary."@en ;
     dct:title "Security methodology for the use of identity-based cryptography in support of Internet of things (IoT) services over telecommunication networks (ITU-T X.1365)"@en ;
@@ -1093,7 +1094,8 @@ cssvrsc:1a8173a4057c4f0692a5b40a4e008aa27c12324df6c59b5e11635ec9e31afe38 a cssv:
     dct:title "eDelivery SMP - 2.0"@en ;
     dcat:distribution cssvrsc:f298ba69-2ab9-4720-b7d8-37eaa5426ee1 ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "2.0.0" .
+    dcat:version "2.0.0" ;
+    dcat:previousVersion cssvrsc:7ee0cc960f1c173317ee71839772b906a3d9df220bba897aebba61f44576828f .
 
 cssvrsc:1aaece616295cfc1328fc41cc166ca74cdb0cb07d2a9973c09c6a2e694ee6ed8 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1613,7 +1615,8 @@ cssvrsc:2a521d23323c60aba6c4b5313f96c1a87eb91353a8e2ee1f95ce0cfad3dc9045 a cssv:
     dcat:theme "Business Architecture"@en,
         "Data Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "3.2.0" .
+    dcat:version "3.2.0" ;
+    dcat:previousVersion cssvrsc:f4314f9cf9c8e1b1f57df755f3c11d9797e235f51e0f4bebf15035b1ac4a0074  .
 
 cssvrsc:2a7a035c6f663d12152d8b3d42b0d3f7c014d1d4ff98f60cdf71911b25d9d53f a cssv:Specification,
         owl:NamedIndividual ;
@@ -2858,7 +2861,8 @@ cssvrsc:4ac03729ce6059a948f986d308360c552166a22ef62b90dc47d0f735371830a2 a cssv:
     dct:title "SAML 2.0 - Security Assertion Markup Language"@en ;
     dcat:distribution cssvrsc:0bb556bf-d384-4a09-a45a-1a413b307435 ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "2.0.0" .
+    dcat:version "2.0.0" ;
+    dcat:previousVersion cssvrsc:0b319bf69d7a0413978bac35d8483f5b816fbda0e77c0291093cc3e6fe1bbae8 .
 
 cssvrsc:4b29066dcc62514f2a65f8c08693a99161caf9e0e359583423edf4e34bd4afe5 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4181,7 +4185,8 @@ cssvrsc:75e66e68436f77c638b9793293bd4d44046f2752e333f86db44a6dc3edb73d78 a cssv:
     dcat:distribution cssvrsc:ed98b016-d489-4cc2-9ca0-dea07d0ba18d ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
-    dcat:version "6.1.0" .
+    dcat:version "6.1.0" ;
+    dcat:previousVersion cssvrsc:89a1f6f39df338480a37da0fe1061844311b1a0df47ef118740126147685fc53  .
 
 cssvrsc:75f4644e499649caf33b8aa091f6605db19c3b65ad5b5398f72d587a3dc72c66 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4809,7 +4814,8 @@ cssvrsc:89a1f6f39df338480a37da0fe1061844311b1a0df47ef118740126147685fc53 a cssv:
     dcat:distribution cssvrsc:ed98b816-d489-4cc2-9ca0-dea07d0ba18d ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
-    dcat:version "5.0.0" .
+    dcat:version "5.0.0" ;
+    dcat:previousVersion cssvrsc:3d85f2c2d49effc22e709d81664f8ca99e5a6eada7a895a241062889680a5196  .
 
 cssvrsc:89b586243efc375b64830c6b29be46357c67975d881a7612e648e783a8f3d030 a cssv:Specification,
         owl:NamedIndividual ;
@@ -5246,7 +5252,9 @@ cssvrsc:96362edca15a9600bba5b743f54269be55ee70fa456eab0352346007ad3ea29a a cssv:
     dcat:distribution cssvrsc:e0a1e240-8ef0-4cbf-b45d-efa11ce130fd ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "3.0.0" .
+    dcat:version "3.0.0" ;
+    dcat:previousVersion cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4  .
+
 
 cssvrsc:9663adc228c60c001b469c7d5cde6c4fa2496e59b27a0449b6363b0231018e48 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6349,7 +6357,8 @@ cssvrsc:b79a51ce1d39534777937044c6bf0d5e99590eced5b6fa3b7c40d2bc6c70686c a cssv:
     dct:title "eIDAS2"@en ;
     dcat:distribution cssvrsc:61cf2593-e4d0-4c33-871f-e3c0b3d0ea47 ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "2.0.0" .
+    dcat:version "2.0.0" ;
+    dcat:previousVersion cssvrsc:c796c0c59e2a1573bab99dbaf934e82784f6e1f4cd63a72d819e1175399826b4  .
 
 cssvrsc:b8135cadaf0612f1d8760b46c8111ca96c11abf0f8c6f5d2f4db3e364e178866 a cssv:Specification,
         owl:NamedIndividual ;
@@ -7590,7 +7599,8 @@ cssvrsc:dfa58525250ce8c35f18952c91fdcc18a8ebe6ae967c834563157541b4dab46f a cssv:
     dcat:distribution cssvrsc:76d55860-5732-4176-a559-5392b789d5cf ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "2.1.0" .
+    dcat:version "2.1.0" ;
+    dcat:previousVersion cssvrsc:a61e46d2918487a44fe12b59273afd2fd4326225041c92534ed339c600fc12ac  .
 
 cssvrsc:e0041e683c35119779bcb5ebef3ea214e56127e3b5d0f32c844302d945308b22 a cssv:Specification,
         owl:NamedIndividual ;
@@ -7863,7 +7873,7 @@ cssvrsc:e5910967202d9f2b17572731ab8250fbcb581359d59e2f1472fa3b610a7527d2 a cssv:
     dcat:distribution cssvrsc:093880a4-2e8b-425c-9c1b-10e8f71fcfdf ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 316/12" .
 
 cssvrsc:e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a a cssv:Specification,
         cssv:Standard,
@@ -8020,7 +8030,8 @@ cssvrsc:e9bb09990f610bec081e4275f7a49d6a4cdf7df89e3903a5daff682135f02c35 a cssv:
     dcat:distribution cssvrsc:9e89acd2-b5ad-49af-bd32-9cd4a2992b08 ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "2.0.0" .
+    dcat:version "2.0.0";
+    dcat:previousVersion cssvrsc:1051d9d733d3a1f21d84e7efb0d9812dba7a5fb8b467dcfacf33ca6c86904e10  .
 
 cssvrsc:e9d18f5f7e9f1b8f178f6c21bbb9e6ef032f44cc13b6ad8bc32ccba28df2f4bf a cssv:Specification,
         owl:NamedIndividual ;
@@ -8078,7 +8089,7 @@ cssvrsc:eb4fd3bc764a569ed44dec18880280e26c18956ae35f8e59c25daebde27731d3 a cssv:
     dcat:distribution cssvrsc:4e00bee5-9107-4c3d-99b9-4ff9d7d4853d ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 295/39" .
 
 cssvrsc:ebd93d463d7322855e433bed2fee2789f473e013e6d3033d8866e0bef4de51f8 a cssv:Specification,
         owl:NamedIndividual ;
