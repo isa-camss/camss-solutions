@@ -697,7 +697,7 @@ cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af a cssv:
     dcat:distribution cssvrsc:a5939132-6f22-4a15-ad34-16d64944d4bd ;
     dcat:theme "Data Architecture"@en ;
     dcat:version "2.0.0" ;
-    dcat:previousVersion cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8.
+    dcat:previousVersion cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8 .
 
 cssvrsc:1331c2c0a75eea8b5d5a413c0bebab78509bf1b0c3aa6fc8dd05c2ff0d5784cd a cssv:Specification,
         owl:NamedIndividual ;
@@ -1616,7 +1616,7 @@ cssvrsc:2a521d23323c60aba6c4b5313f96c1a87eb91353a8e2ee1f95ce0cfad3dc9045 a cssv:
         "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "3.2.0" ;
-    dcat:previousVersion cssvrsc:f4314f9cf9c8e1b1f57df755f3c11d9797e235f51e0f4bebf15035b1ac4a0074  .
+    dcat:previousVersion cssvrsc:f4314f9cf9c8e1b1f57df755f3c11d9797e235f51e0f4bebf15035b1ac4a0074 .
 
 cssvrsc:2a7a035c6f663d12152d8b3d42b0d3f7c014d1d4ff98f60cdf71911b25d9d53f a cssv:Specification,
         owl:NamedIndividual ;
@@ -4186,7 +4186,7 @@ cssvrsc:75e66e68436f77c638b9793293bd4d44046f2752e333f86db44a6dc3edb73d78 a cssv:
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
     dcat:version "6.1.0" ;
-    dcat:previousVersion cssvrsc:89a1f6f39df338480a37da0fe1061844311b1a0df47ef118740126147685fc53  .
+    dcat:previousVersion cssvrsc:89a1f6f39df338480a37da0fe1061844311b1a0df47ef118740126147685fc53 .
 
 cssvrsc:75f4644e499649caf33b8aa091f6605db19c3b65ad5b5398f72d587a3dc72c66 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4815,7 +4815,7 @@ cssvrsc:89a1f6f39df338480a37da0fe1061844311b1a0df47ef118740126147685fc53 a cssv:
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
     dcat:version "5.0.0" ;
-    dcat:previousVersion cssvrsc:3d85f2c2d49effc22e709d81664f8ca99e5a6eada7a895a241062889680a5196  .
+    dcat:previousVersion cssvrsc:3d85f2c2d49effc22e709d81664f8ca99e5a6eada7a895a241062889680a5196 .
 
 cssvrsc:89b586243efc375b64830c6b29be46357c67975d881a7612e648e783a8f3d030 a cssv:Specification,
         owl:NamedIndividual ;
@@ -5253,7 +5253,7 @@ cssvrsc:96362edca15a9600bba5b743f54269be55ee70fa456eab0352346007ad3ea29a a cssv:
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "3.0.0" ;
-    dcat:previousVersion cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4  .
+    dcat:previousVersion cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4 .
 
 
 cssvrsc:9663adc228c60c001b469c7d5cde6c4fa2496e59b27a0449b6363b0231018e48 a cssv:Specification,
@@ -6358,7 +6358,7 @@ cssvrsc:b79a51ce1d39534777937044c6bf0d5e99590eced5b6fa3b7c40d2bc6c70686c a cssv:
     dcat:distribution cssvrsc:61cf2593-e4d0-4c33-871f-e3c0b3d0ea47 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "2.0.0" ;
-    dcat:previousVersion cssvrsc:c796c0c59e2a1573bab99dbaf934e82784f6e1f4cd63a72d819e1175399826b4  .
+    dcat:previousVersion cssvrsc:c796c0c59e2a1573bab99dbaf934e82784f6e1f4cd63a72d819e1175399826b4 .
 
 cssvrsc:b8135cadaf0612f1d8760b46c8111ca96c11abf0f8c6f5d2f4db3e364e178866 a cssv:Specification,
         owl:NamedIndividual ;
@@ -7600,7 +7600,7 @@ cssvrsc:dfa58525250ce8c35f18952c91fdcc18a8ebe6ae967c834563157541b4dab46f a cssv:
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "2.1.0" ;
-    dcat:previousVersion cssvrsc:a61e46d2918487a44fe12b59273afd2fd4326225041c92534ed339c600fc12ac  .
+    dcat:previousVersion cssvrsc:a61e46d2918487a44fe12b59273afd2fd4326225041c92534ed339c600fc12ac .
 
 cssvrsc:e0041e683c35119779bcb5ebef3ea214e56127e3b5d0f32c844302d945308b22 a cssv:Specification,
         owl:NamedIndividual ;
@@ -8031,7 +8031,7 @@ cssvrsc:e9bb09990f610bec081e4275f7a49d6a4cdf7df89e3903a5daff682135f02c35 a cssv:
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
     dcat:version "2.0.0";
-    dcat:previousVersion cssvrsc:1051d9d733d3a1f21d84e7efb0d9812dba7a5fb8b467dcfacf33ca6c86904e10  .
+    dcat:previousVersion cssvrsc:1051d9d733d3a1f21d84e7efb0d9812dba7a5fb8b467dcfacf33ca6c86904e10 .
 
 cssvrsc:e9d18f5f7e9f1b8f178f6c21bbb9e6ef032f44cc13b6ad8bc32ccba28df2f4bf a cssv:Specification,
         owl:NamedIndividual ;
