@@ -144,7 +144,8 @@ cssvrsc:0237826d2cb5240a734c0094bf95f4ce7283557582866d62bf8cd6f042103017 a cssv:
     dct:title "Transport Layer Security 1.3 (TLS 1.3)"@en ;
     dcat:distribution cssvrsc:b9b6634c-70e9-4e17-9179-c14076dfb454 ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "1.3.0" .
+    dcat:version "1.3.0" ;
+    dcat:previousVersion cssvrsc:9507d4ac72d66333e672b706dec4d4c278150753852ba3bb607554dc9bfb64f9 .
 
 cssvrsc:028b7f6ed5d30af4e734c1386c0922731cc444fdab451fd6e8319860f8464371 a cssv:Specification,
         owl:NamedIndividual ;
@@ -570,8 +571,8 @@ cssvrsc:0d185280c7e0fb66ab5bae0aa28e834491a538620bcee40eb0d27107e9cdcf4c a cssv:
     dcat:version "5.6.0" .
 
 cssvrsc:0d3afc2bec841bc6e01d5399eb445dd06444d8c53055e00f12dd6f85bb2ab96a a cssv:Specification ;
-    cssv:acronym "" ;
-    cssv:alternative "" ;
+    cssv:acronym "EAP"@en;
+    cssv:alternative "RFC 3748"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "RFC 3748 defines the Extensible Authentication Protocol (EAP), which serves as a flexible framework for supporting multiple authentication methods. Rather than authenticating users directly, EAP facilitates the exchange of authentication messages. These messages are carried between the device requesting access and the network’s authentication server. In this way, the protocol enables consistent communication regardless of the chosen authentication method. Ultimately, the server determines whether the user or device is granted access to the network or service."@en ;
     dct:title "Extensible Authentication Protocol (EAP) (RFC 3748)"@en ;
@@ -899,7 +900,7 @@ cssvrsc:177270d5ccd7531560d9d2e61847d370328e4b14e51d38c14f5442c1d28d6700 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "The eID specification is a set of services provided by the European Commission to enable the mutual recognition of national electronic identification schemes (eID) across borders. It allows European citizens to use their national eIDs when accessing online services from other European countries."@en ;
+    dct:description "The eID specification is a set of services provided by the European Commission to enable the mutual recognition of national electronic identification schemes (eID) across borders. It allows European citizens to use their national eIDs when accessing online services from other European countries."@en ;
     dct:title "eID building block"@en ;
     dcat:distribution cssvrsc:9d2dd470-500e-4376-8318-fc145a7a05ce ;
     dcat:theme "Implementation Governance"@en,
@@ -934,7 +935,7 @@ cssvrsc:18405d991d37278ddebcd6a92b30138fef82844c37c073806683094fb8e4ac94 a cssv:
     cssv:alternative "ETSI EN 319 412-3"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI EN 319 412-3 specification is designed to increase the interoperability and trustworthiness of certificate profiles across different countries by establishing a common method for creating them. In this context, the specification defines the requirements and attributes that a certificate must have."@en ;
-    dct:title "ETSI EN 319 412-3"@en ;
+    dct:title "ETSI EN 319 412-3 Certificate profile for certificates issued to legal persons"@en ;
     dcat:distribution cssvrsc:c6060446-feb9-40d3-8eef-979cee25d443 ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
@@ -954,12 +955,14 @@ cssvrsc:186c9d5a5460aa1951cb5ee95e889e9d0620fd22d962b38459f0074af4869f8d a cssv:
 cssvrsc:1882dc8dd53cd68ae6f4ef083f0a36929b238739d27d72ee21f1da2ca020f7b6 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "L2VPNs"@en ;
+    cssv:alternative "RFC 4664"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "Service Requirements for L2VPNs provides requirements for provider-provisioned Layer 2 Virtual Private Networks (L2VPNs). Besides a specific taxonomy and terminology, the specification makes use of common components of the Framework for Layer 2 Virtual Private Networks (specification)."@en ;
     dct:title "Service Requirements for Layer 2 Provider-Provisioned Virtual Private Networks"@en ;
     dcat:distribution cssvrsc:68755963-3f90-485c-8e60-795fb747397d ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "7.0.0" .
+    dcat:version "7.0.0" ;
+    dcat:previousVersion cssvrsc:d4e941075bdab8f5195d438fa2defe892522db4b90f577d44471f9648f120cb1 .
 
 cssvrsc:189e9f104cccc0c206c4d749f5009ce2caf50024d8a61cc20e0d9877a4948cb8 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1332,8 +1335,8 @@ cssvrsc:2140b3afdb41a13d3605865a682f533963aedddb38c6509e50379b7434bcbc1b a cssv:
 
 cssvrsc:214be066cd7717905a8d88a25d7a306ad172741cb227dc78c9a4f197e15c5e7d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "CYBER"@en ;
-    cssv:alternative "ETSI TR 103 619 CYBER"@en ;
+    cssv:acronym "FQSCS"@en ;
+    cssv:alternative "ETSI TR 103 619"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TR 103 619 CYBER addresses the problem of migration to an environment in a Fully Quantum Safe Cryptographic State (FQSCS) from a non-Quantum Safe Cryptographic State. The present document provides recommendations and guidance to ensure safe transition between the two (2) states. The scope of attack considered in the present document includes those attacks against the cryptographic elements of the system. All other elements of the system that rely upon cryptography, but which are not susceptible to attack by a quantum computer, are presumed secure and are not addressed in the scope of the present document."@en ;
     dct:title "ETSI TR 103 619 CYBER; Migration strategies and recommendations to Quantum Safe schemes"@en ;
@@ -1897,7 +1900,8 @@ cssvrsc:319b94ba551dff5570f3aa41bad79c7b4899464b5f05ce7d1f3775a2352beae9 a cssv:
     dct:title "Cyber Security for Consumer Internet of Things Baseline Requirements (EN 303 645 3.1.3)"@en ;
     dcat:distribution cssvrsc:668caa50-b4b1-4afc-a0c3-cf1ff02e516d ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "3.1.3" .
+    dcat:version "3.1.3" ;
+    dcat:previousVersion cssvrsc:7c1f89606ff29d6fa4ee1f4cd6e67f59ffebcefe54b70b325e3ab031c3c9aeb0 .
 
 cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1912,6 +1916,7 @@ cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 a cssv:
 
 cssvrsc:31f2ff5bbc6982b0c6fd24e4faa75012a9c88823b142548f13d75da7c853b7cd a cssv:Specification,
         owl:NamedIndividual ;
+    cssv:acronym "SCIM"@en ;
     cssv:alternative "RFC 7644"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "System for Cross-domain Identity Management (SCIM) is a standard for automating the exchange of user identity information between identity domains, or IT systems."@en ;
@@ -2113,7 +2118,7 @@ cssvrsc:34ae965b550d09334658a78fd5eca236e8640a1ba4df78f05a728ccddafacfd1 a cssv:
 
 cssvrsc:34dc870c1a82f85f95a3b4a57f09f5af0871ebf13c572d53db6b96bfbcf02e9b a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T Y.4903" ;
+    cssv:alternative "ITU-T Y.4903"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T Y.4903 specification establishes a framework of key performance indicators (KPIs) for smart and sustainable cities (SSCs). These KPIs are designed to assess the role and performance of information and communication technologies (ICTs) across three fundamental dimensions of a city: economy, environment, and society and culture."@en ;
     dct:title "Key performance indicators for smart sustainable cities to assess the achievement of sustainable development goals"@en ;
@@ -2123,6 +2128,7 @@ cssvrsc:34dc870c1a82f85f95a3b4a57f09f5af0871ebf13c572d53db6b96bfbcf02e9b a cssv:
 
 cssvrsc:34f7f3c04b048748001c49b60cb45a2e764ec17e1dc486be1bc1d05cdffc1b27 a cssv:Specification,
         owl:NamedIndividual ;
+        cssv:acronym "OWL-S"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "OWL-S is an OWL-based Web service ontology, which supplies Web service providers with a core set of markup language constructs for describing the properties and capabilities of their Web services in unambiguous, computer-interpretable form."@en ;
     dct:title "OWL-based Web Service Ontology (OWL-S)"@en ;
@@ -2278,7 +2284,8 @@ cssvrsc:37fbdab3d5a73a430a6bd0ca3c25e859b4bf83a01e6f81d224238d3bbede8315 a cssv:
     dct:title "Data Catalog Vocabulary (DCAT) - Version 3"@en ;
     dcat:distribution cssvrsc:8b9e4db2-df7a-4678-abc8-4530e8728183 ;
     dcat:theme "Data Architecture"@en ;
-    dcat:version "3.0.0" .
+    dcat:version "3.0.0" ;
+    dcat:previousVersion cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b .
 
 cssvrsc:382fa033079de7215c1ed36bf0d5f610c883a8d3e50a2e1171ce2f34b4fd2852 a cssv:Specification,
         owl:NamedIndividual ;
@@ -2480,6 +2487,7 @@ cssvrsc:3f0e996daf7320b1e9e2f49c8924803316a979dfeb0c6430393e1dc3ac725452 a cssv:
 cssvrsc:3f4284817995061ae9c2a06ef18271f92ca4dc6a91e5b2204be5db5d58808ab6 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "TCP"@en ;
+    cssv:alternative "RFC 9293"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Transmission Control Protocol (TCP) is a transport layer protocol with a long history. RFC 9293 collects and brings together all the changes (dating back to 1981, from the DARPA Internet Program) and deprecates the usual RFC 793 normative documentation."@en ;
     dct:title "Transmission Control Protocol (TCP) Specification"@en ;
@@ -2549,6 +2557,7 @@ cssvrsc:40c6aac837357cdbc673a103d053d4fa78b7617bbaa2975df98b87b826f9bb6d a cssv:
 
 cssvrsc:41b2c79f6cfb66676430b6c3a94ff0ed87617341081c7ef1a147129c5c605b3e a cssv:Specification,
         owl:NamedIndividual ;
+    cssv:acronym ""@en ;    
     cssv:alternative "RFC 8943"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Concise Binary Object Representation (CBOR), as specified in RFC 7049, is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation."@en ;
@@ -2610,9 +2619,9 @@ cssvrsc:43c19a093b34b581ddcc7207f6bd094f6940db69f035c444425ed84d2cac037d a cssv:
 
 cssvrsc:43c225a0b3a969615a19f525ad19d49bc0916e190f06ff374b7ab3ea7fe8ee99 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "RFC 7668" ;
+    cssv:alternative "RFC 7668"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    dct:description "The RFC 7668 specification enables Bluetooth Low Energy (BLE) devices to communicate by providing them with IPv6 connectivity. In this way, the specification ensures that devices can operate efficiently both individually and in groups, allowing applications and users on the network to interact with them indirectly. Although it does not focus on direct communication between users, it facilitates interaction between devices and other systems using IPv6 connectivity."@en ;
+    dct:description "The RFC 7668 specification enables Bluetooth Low Energy (BLE) devices to communicate by providing them with IPv6 connectivity. In this way, the specification ensures that devices can operate efficiently both individually and in groups, allowing applications and users on the network to interact with them indirectly. Although it does not focus on direct communication between users, it facilitates interaction between devices and other systems using IPv6 connectivity."@en ;
     dct:title "IPv6 over BLUETOOTH(R) Low Energy"@en ;
     dcat:distribution cssvrsc:1dbbe14d-878d-4907-909a-8cd4774952b0 ;
     dcat:theme "Technology Architecture"@en ;
@@ -2641,8 +2650,8 @@ cssvrsc:446e7301829e85707da02adcf6c1b42a20d725363731cfa6e8c362b9713cf2e7 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:449d772a61928d1cdd3940897b7e25adfb553c1947aa38504667c0eaf8a7a7cf a cssv:Specification ;
-    cssv:acronym "" ;
-    cssv:alternative "" ;
+    cssv:acronym "CoAP" ;
+    cssv:alternative "RFC 7641"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 7641 specification specifies a mechanism that allows devices to observe resources on a network using the CoAP protocol and it enables a client to subscribe to a resource so that it receives automatic updates whenever that resource changes which is particularly useful for devices with limited resources such as sensors or Internet of Things equipment and it reduces the need for constant polling of resources, thereby saving energy and bandwidth, while facilitating the detection of changes in the environment or digital systems, allowing notifications to be delivered in real time"@en ;
     dct:title "Observing Resources in the Constrained Application Protocol (CoAP) (RFC 7641)"@en ;
@@ -2674,7 +2683,7 @@ cssvrsc:459ce55245869fa8d2fe286ec86dfea886241f1366deef90c41db0686c7eab12 a cssv:
 
 cssvrsc:464eea9a4a3838cf0ccf4c37d19eb5e1edec6e52d0690d516b6dde92daf47766 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "RFC 5448" ;
+    cssv:alternative "RFC 5448"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "RFC 5448 extends the RFC 3748 specification, which defines a framework for supporting multiple authentication methods. Building on this framework, RFC 5448 specifies EAP-AKA′, an enhanced authentication method that strengthens the security of verifying users or devices in mobile and wireless networks, thereby providing a more reliable basis for authorising access to network services."@en ;
     dct:title "Improved Extensible Authentication Protocol Method for 3rd Generation Authentication and Key Agreement (EAP-AKA')"@en ;
@@ -3134,6 +3143,7 @@ cssvrsc:5373b170e5317c1c4e73551703f4880d871ccbe1d710847974a494c58643b13d a cssv:
 cssvrsc:539b0ea4eb21104f85de822c93b21e8d564c92ec514bd462c95addb1dc315ae6 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "RTP"@en ;
+    cssv:alternative "RFC 3550"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Real-Time Transport Protocol (RTP) is a network protocol designed for delivering audio and video over networks in real-time."@en ;
     dct:title "Real-Time Transport Protocol (RTP) RFC 3550"@en ;
@@ -3244,7 +3254,7 @@ cssvrsc:578a245491099fbd553bfffa58fe777354650804003a7704782c2c6ed7f294d0 a cssv:
 
 cssvrsc:578f6013abfcd7bf66fa97ef4a6503cb9414d0291b2b1304ce469294a4bcf30b a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "RFC 9340" ;
+    cssv:alternative "RFC 9340"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "RFC 9340 is an informational document that lays out the architectural principles for a quantum internet. Authored by the Quantum Internet Research Group (QIRG) of the Internet Research Task Force (IRTF), its purpose is to provide a foundational framework and general guidelines for the design and construction of future quantum networks. The document highlights the key differences between classical and quantum networks, which are based on phenomena like superposition and entanglement. It outlines the need for a new network stack built from the ground up to account for these unique properties. This is not a technical standard for immediate deployment but rather a high-level guide for the ongoing research and development in this emerging field."@en ;
     dct:title "Architectural Principles for a Quantum Internet"@en ;
@@ -3705,6 +3715,7 @@ cssvrsc:67b54613c5b523c5dd115156c625ea64601ef0ed0732d91b3008f24a86f2a6b3 a cssv:
         cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "L2TP/IPSec"@en ;
+    cssv:alternative "RFC 3193"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "L2TP, defined in RFC 2661, is an IETF Proposed Standard, and the integration of L2TP with IPSec is defined in RFC 3193. Implementations from Microsoft, Cisco, and Nortel Networks have been demonstrated to interoper-ate. L2TP/IPsec tunnels traffic, preserving the full end-to-end semantics of communications conducted inside the tunnel. It fully supports legacy address and host configuration technologies, such as Internet Protocol Control Protocol (IPCP). It is commonly used by customers in multivendor environments. It supports password authentication using PAP, CHAP, MS-CHAP, and MS-CHAP v2, and it supports strong authentication using EAP."@en ;
     dct:title "L2TP over IPSec using ESP transport mode (L2TP/IPSec)"@en ;
@@ -3873,7 +3884,7 @@ cssvrsc:6e011b5dce30b2ccafb13f608d72696e6259f6955b8afbc6e1fd68c22b5a67c6 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "IT4IT"@en ;
     cssv:isMaintainedBy cssvrsc:dde171ece184ae137e7828528574b1965bd3e0a5e5079d9fa7a442527c7ed6b5 ;
-    dct:description "The IT4IT Standard provides a flexible, value stream-based approach that supports your digital business on its continuous improvement journey to deliver digital products better, faster, cheaper, and safer. Moreover, the specification also describes tools and services that the organisations need."@en ;
+    dct:description "The IT4IT Standard provides a flexible, value stream-based approach that supports your digital business on its continuous improvement journey to deliver digital products better, faster, cheaper, and safer. Moreover, the specification also describes tools and services that the organisations need."@en ;
     dct:title "IT4IT"@en ;
     dcat:distribution cssvrsc:3464341b-4ef0-46d4-9c0c-ca228d684a2b ;
     dcat:theme "Data Architecture"@en ;
@@ -4305,7 +4316,8 @@ cssvrsc:7a60cc09dff41e329a8a629b0263eb4cee74145130507ea6dfc808d634e6380f a cssv:
     dct:title "ETSI TS 119 512 Electronic Signatures and Infrastructures (ESI); Protocols for trust service providers providing long-term data preservation services."@en ;
     dcat:distribution cssvrsc:b4a121df-86a0-40a1-9ff8-0b367e4ea53f ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "1.2.1" .
+    dcat:version "1.2.1" ;
+    dcat:previousVersion cssvrsc:e5b93bfdb3252d290b8d69275202406c6a66d38f3b85d1afc7dd834d4e0c3085 .
 
 cssvrsc:7a6cc9a04e501f41aef0173ec2fe5584226fb37b3d34996fe85b4d884a094a61 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4430,6 +4442,7 @@ cssvrsc:7e5b582a3c74cd4e83996b52e8e97cd8f344bc4cd5b318d2f0aae9c48ecb0307 a cssv:
 
 cssvrsc:7e78b5f3def0a23bfadb861f3d71b4f3cb672b9cebda15379a55a01d2b4c7efa a cssv:Specification,
         owl:NamedIndividual ;
+    cssv:alternative "RFC 6585"@en ;    
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 6585 specification adds extra HTTP status codes to improve communication between servers and clients. These codes help handle specific situations like requiring certain conditions before processing a request, indicating too many requests have been sent, dealing with overly large request headers, and needing network authentication."@en ;
     dct:title "Additional HTTP Status Codes (RFC 6585)"@en ;
@@ -4459,7 +4472,7 @@ cssvrsc:7f3a6b194d0bd127d1a6851a86fa7498415964a4d56d56749607faf692e2f7ad a cssv:
 
 cssvrsc:7f9b20000e60e4cdcc457714628e5d9ad52ff0d696e1ffd344d06a23615d492d a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T Y.4119" ;
+    cssv:alternative "ITU-T Y.4119"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T Y.4119 specification is designed to define and establish the requirements and capabilities for the Automotive Emergency Response System (AERS). In this sense, the system is created with the objective of detecting traffic accidents and reducing mortality. The system uses sensors and is capable of transmitting data to facilitate assistance in the event of accidents on the roads."@en ;
     dct:title "Requirements and capability framework for IoT-based automotive emergency response system"@en ;
@@ -4480,6 +4493,7 @@ cssvrsc:7fa1cb50b03a684843349c75a6533a376020f0c71a4829a4aa250554a5c33896 a cssv:
 cssvrsc:7fbf82d5e0b36fc428a8858e4c2f43dea7e6b68f9266409e746b6c521f6cb2c2 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "CDDL"@en ;
+    cssv:alternative "RFC 8610"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 8610 specification is used to improve DNS security and privacy by sending DNS queries over HTTPS (DoH). This means when you look up a website, the request is encrypted, making it harder for anyone to see or tamper with your browsing information. It helps protect against attacks like DNS spoofing and keeps your online activity more private. It's used by modern browsers, apps, and DNS services that support DoH."@en ;
     dct:title "Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures (RFC 8610)"@en ;
@@ -4652,13 +4666,15 @@ cssvrsc:84b85235ee46701a6b95a3f1ef00844e95091763815a88edfcb291aa29ffffb8 a cssv:
 cssvrsc:84fe8f7f1c87eb481193cdb27043afa1b40ddc7efd1fd268f7ae9398bb8170f5 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "GeoJSON"@en ;
+    cssv:alternative "RFC 7946"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "GeoJSON is a geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents."@en ;
     dct:title "GeoJSON"@en ;
     dcat:distribution cssvrsc:2f3f5730-1162-4c6d-9b85-1dc81b1e21bc ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "5.0.0" .
+    dcat:version "5.0.0" ;
+    dcat:previousVersion cssvrsc:1f1c3416937b929d8a29a0d84ea60bb97838d53a4143efd010516ff14a548fb6 .
 
 cssvrsc:853a6e4f2ac85b56d15900142e8b431d57583ee4d18e5fd3354e9868de6d0649 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4978,7 +4994,7 @@ cssvrsc:8ef4449817a74c2f19c7b02f804893fc803bb1f0fe8526488f8d29ceed7d2d2b a cssv:
 
 cssvrsc:8f428e489e1ad2545c8ec37e1f78e258e140d66d2e0a636a65909c013999244d a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "RFC 3551" ;
+    cssv:alternative "RFC 3551"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "RTP Profile for Audio and Video Conferences with Minimal Control is a foundational Internet standard. It defines how to use the Real-time Transport Protocol (RTP) and its control protocol, RTCP, specifically for transmitting audio and video over IP networks. In essence, RFC 3551 provides the recipe for using RTP in common multimedia applications like video conferencing and streaming. "@en ;
     dct:title "RTP Profile for Audio and Video Conferences with Minimal Control"@en ;
@@ -5511,8 +5527,7 @@ cssvrsc:9c2f765f7d194336045492bd806b3413413afac3d440bf4a043d4886ce4e75cf a cssv:
     dcat:version "2.2.0" .
 
 cssvrsc:9c9547a44019de35fc19caada88d4eb61b4e015547e8fdb858b5ea7b033b1184 a cssv:Specification ;
-    cssv:alternative ""@en,
-        "XQuery"@en ;
+    cssv:acronym "XQuery"@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The XQuery specification is designed to search for information and manage data from various XML sources. By using queries, it allows users to search for different attributes across multiple resources and store the results, thereby facilitating the organisation and management of data."@en ;
     dct:title "XML Query Language (XQuery)"@en ;
@@ -5721,7 +5736,8 @@ cssvrsc:a5ff6314281d29f9cefdd12f752e2aaa42613c156bc4bfcf9a1d36cdccab358b a cssv:
     dct:description "The ETSI TS 133 501 specification outlines the security architecture and procedures for the 5G System. It provides detailed guidelines on how to secure various aspects of the 5G network, including the 5G Core Network (5GC), User Equipment (UE), and the Radio Access Network (RAN)."@en ;
     dct:title "5G; Security architecture and procedures for 5G System (3GPP TS 33.501 version 18.9.0 Release 18) (ETSI TS 133 501)"@en ;
     dcat:distribution cssvrsc:81a670e7-7051-4560-9d6f-d80118de739b ;
-    dcat:version "18.9.0" .
+    dcat:version "18.9.0" ;
+    dcat:previousVersion cssvrsc:32e27d01a59f153659ba74f97ec03ba4d1beaf7b23bed4d2d1433a1ca5c8cd66 .
 
 cssvrsc:a61e46d2918487a44fe12b59273afd2fd4326225041c92534ed339c600fc12ac a cssv:Specification,
         owl:NamedIndividual ;
@@ -5927,7 +5943,8 @@ cssvrsc:ab2608294d81094994cfbd297e503e4d095777ecc299119c43bb57a64ca13478 a cssv:
     dcat:distribution cssvrsc:14ba123c-add6-460e-a8a9-746e84eb9333 ;
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en ;
-    dcat:version "2.1.0" .
+    dcat:version "2.1.0" ;
+    dcat:previousVersion cssvrsc:f4e184ca98937f5afbd41c1eb28269fee518423fa7ef2a0da06997db8eb9ac8e .
 
 cssvrsc:ab5a0eef3ca9727fa2abd88cd5034f4dcc8fe05df17e1995f8d552dbae6ae95e a cssv:Specification,
         owl:NamedIndividual ;
@@ -5985,8 +6002,8 @@ cssvrsc:ad20dcd688066edeef815926f8bf2df7508a5798fcee9144447a67c7dffb419e a cssv:
         owl:NamedIndividual ;
     cssv:alternative "ITU-T Y.4473"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
-    dct:description "SensorThings API – Sensing specifies a SensorThings application programming interface (API) which provides an open, standards-based, geospatially-enabled framework for interconnecting devices, data and applications via the web devices, data and applications over the web."@en ;
-    dct:title "ITU-T Y.4473 SensorThings API – Sensing"@en ;
+    dct:description "SensorThings API - Sensing specifies a SensorThings application programming interface (API) which provides an open, standards-based, geospatially-enabled framework for interconnecting devices, data and applications via the web devices, data and applications over the web."@en ;
+    dct:title "ITU-T Y.4473 SensorThings API - Sensing"@en ;
     dcat:distribution cssvrsc:f5787912-4775-4698-8166-6e0ec2f6a278 ;
     dcat:theme "Technology Architecture"@en ;
     dcat:version "1.0.0" .
@@ -6163,6 +6180,7 @@ cssvrsc:b45e2e1c1010076014fb743fb76f93cd7947810dab8312fff58afe4747c4ccd6 a cssv:
 cssvrsc:b4ae8cf6c3010eac5434606441e7bb6a001d0ed7034ff64b1311b481df048991 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "LDAP"@en ;
+    cssv:alternative "RFC 4511"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "LDAP provides access to distributed directory services that act in accordance with X.500 data and service models. These protocol elements are based on those described in the X.500 Directory Access Protocol (DAP)."@en ;
     dct:title "Lightweight Directory Access Protocol (LDAP) (RFC 4511)"@en ;
@@ -7095,7 +7113,7 @@ cssvrsc:cf73d9238a419781d904b0da2ece913b60f29328913212efcc98d22de22914a8 a cssv:
 
 cssvrsc:cfa094dfca76277e80fc8e9e4f98d8011407290eb0fac2db2d07b70312300f10 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "RFC 7390" ;
+    cssv:alternative "RFC 7390"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 7390 specification is designed to facilitate communication among constrained devices, such as IoT sensors or smart appliances. It enables these devices to send messages to a group and coordinate actions simultaneously. For example, RFC 7390 can simplify processes like turning on all the lights in a room at once with a single command."@en ;
     dct:title "Group Communication for the Constrained Application Protocol (CoAP)"@en ;
@@ -7752,7 +7770,7 @@ cssvrsc:e3a490e2b7118f66895f5e5f9d5924479b9d940d9b2cbc80ce13540f94c369a6 a cssv:
     cssv:alternative "Digital Link"@en ;
     cssv:isMaintainedBy cssvrsc:7249b8458bef859086cf553812ebc2761a6c6fcc73c4f8bb9868f3ba2767103b ;
     dct:description "The GS1 Digital Link specification transforms a traditional barcode into a web address, effectively integrating the product’s information and additional data into the broader Internet ecosystem. This enables consumers, retailers, brand owners, and all stakeholders within the supply chain to access a comprehensive range of up-to-date product information. It functions much like the Internet of Things, albeit without the embedded sensors and microchips."@en ;
-    dct:title "Digital Link -  GS1 Digital Link | GS1"@en ;
+    dct:title "Digital Link - GS1 Digital Link | GS1"@en ;
     dcat:distribution cssvrsc:c7fd2724-1473-4772-83a1-aa123efbd735 ;
     dcat:version "1.0.0" .
 
@@ -7774,7 +7792,7 @@ cssvrsc:e41213fb14c1adb9399c01ba2716777ad755f60c7900cc97cbd7d16bc774452c a cssv:
     dct:title "File Transfer Protocol over Transport Layer Security (FTPS or FTP over TLS)"@en ;
     dcat:distribution cssvrsc:01c84f93-d585-4544-9216-ff86134764aa ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "None" .
+    dcat:version "1.0.0" .
 
 cssvrsc:e438965c54bc7f78e6ede46f4d408abe398302a3b33e374a9ed4662b8b44df77 a cssv:Specification,
         owl:NamedIndividual ;
@@ -7796,7 +7814,8 @@ cssvrsc:e438965c54bc7f78e6ede46f4d408abe398302a3b33e374a9ed4662b8b44df99 a cssv:
     dcat:distribution cssvrsc:a77fe5d2-a7ee-4bd3-97cc-3459f0d78eec ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.1.0" .
+    dcat:version "1.1.0" ;
+    dcat:previousVersion cssvrsc:e438965c54bc7f78e6ede46f4d408abe398302a3b33e374a9ed4662b8b44df77 .
 
 cssvrsc:e466c9d975d60dcbb51231519f02eea8a79ccecf3a85e7292c427a23a9d9fbe6 a cssv:Specification,
         owl:NamedIndividual ;
@@ -8062,7 +8081,8 @@ cssvrsc:ea30145871f432c72652a48da7e62e40c6edd45884449c99a8f31080eab0b9b0 a cssv:
     dct:description "Nomenclature of Territorial Units for Statistics or NUTS is a geocode standard for referencing the administrative divisions of countries for statistical purposes. The standard, adopted in 2003, is developed and regulated by the European Union, and thus only covers the EU member states in detail."@en ;
     dct:title "NUTS"@en ;
     dcat:distribution cssvrsc:c21d21f0-042a-4135-ad38-4de42df941dc ;
-    dcat:version "2024" .
+    dcat:version "2024";
+    dcat:previousVersion cssvrsc:fdb314a96c718420f5bd2980558e2fb413b60f28e8ccb87669744be3f337d7f7 .
 
 cssvrsc:eac80d18d00c07fc17567f3fa106420425e82feb933d55da39281d6cebc0b8fd a cssv:Specification,
         owl:NamedIndividual ;
@@ -8288,7 +8308,7 @@ cssvrsc:f2f2f35925cd025b8a049734cd1ad9c3343684abe4050795e84f86b36bece0c1 a cssv:
     dct:title "Simple Mail Transfer Protocol (SMTP)"@en ;
     dcat:distribution cssvrsc:2d200ff2-e3da-434b-8910-91ed344714e0 ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "None" .
+    dcat:version "1.0.0" .
 
 cssvrsc:f36ce406cf0470d6b8c3d4f04141fb8c35c10e1342c6fb68a55e4cbf1b30eb9d a cssv:Specification,
         owl:NamedIndividual ;
@@ -8691,7 +8711,7 @@ cssvrsc:fdb314a96c718420f5bd2980558e2fb413b60f28e8ccb87669744be3f337d7f7 a cssv:
     dcat:distribution cssvrsc:f492990d-7a5f-4078-b419-ce15cea185be ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.9.0" .
+    dcat:version "2021" .
 
 cssvrsc:fde042cd63deec50c59dbf0714ffc5c87e72019964262a0dc96abb6543182501 a cssv:Specification,
         owl:NamedIndividual ;
