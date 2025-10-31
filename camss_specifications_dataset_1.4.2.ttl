@@ -260,7 +260,7 @@ cssvrsc:05cb8884a4a4dfef89e8d78ad03202187bcf840359840add00d0ff20d1f8e549 a cssv:
     dcat:distribution cssvrsc:a41f1928-6711-4e4c-9cae-1fe0ccd85f85 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 133/1" .
 
 cssvrsc:070acd69015d461438bb2a59f884185e05e8b4deb1cecbc6fdc32dd65c03e45e a cssv:Specification ;
     cssv:acronym "" ;
@@ -789,7 +789,7 @@ cssvrsc:15934bcfcb57d72b1b73d913180ce7f86d2773c32725efa41ddb6b14e143cb84 a cssv:
 
 cssvrsc:15a8627ef6b3409bf534b8537edc2e9778d2587cf643b4a5ec7c6b556a75bb13 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T X.1365" ;
+    cssv:alternative "ITU-T X.1365"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T X.1365 specification is designed to facilitate and simplify the implementation of security mechanisms to protect data collected by sensors. In this sense, the specification proposes identity-based cryptography (IBC) to protect entities when exchanging data. Thus, sensors can authenticate their identity and communicate with the central platform in order to manage sensors if necessary."@en ;
     dct:title "Security methodology for the use of identity-based cryptography in support of Internet of things (IoT) services over telecommunication networks (ITU-T X.1365)"@en ;
@@ -1335,7 +1335,7 @@ cssvrsc:2140b3afdb41a13d3605865a682f533963aedddb38c6509e50379b7434bcbc1b a cssv:
 
 cssvrsc:214be066cd7717905a8d88a25d7a306ad172741cb227dc78c9a4f197e15c5e7d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "FQSCS"@en ;
+    cssv:acronym ""@en ;
     cssv:alternative "ETSI TR 103 619"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TR 103 619 CYBER addresses the problem of migration to an environment in a Fully Quantum Safe Cryptographic State (FQSCS) from a non-Quantum Safe Cryptographic State. The present document provides recommendations and guidance to ensure safe transition between the two (2) states. The scope of attack considered in the present document includes those attacks against the cryptographic elements of the system. All other elements of the system that rely upon cryptography, but which are not susceptible to attack by a quantum computer, are presumed secure and are not addressed in the scope of the present document."@en ;
@@ -2045,7 +2045,7 @@ cssvrsc:33e608ce1c154134803bd24d1b1ca36c264f6c16d2f59850efbd8ba9e320760a a cssv:
     dcat:distribution cssvrsc:2ded42d0-4ced-4023-b40d-105414c29a3e ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 295/39" .
 
 cssvrsc:341cd22fca53904d27866d4279aecb7de38664b33573a74d00dc153d2d0238eb a cssv:Specification,
         owl:NamedIndividual ;
@@ -2304,7 +2304,7 @@ cssvrsc:38d692aaa784768a604ca19e1231c520063ec3ad082433fa35f4089f9b2a29b7 a cssv:
     cssv:alternative "Trusted Data Transaction"@en ;
     cssv:isMaintainedBy cssvrsc:3fa4f14bdd83e1d0ea9fcdfe81a9ad8a7b7dd37042e5f520425016263046ba9a ;
     dct:description "The Trusted Data Transaction specification is addressed to provide terminology, concepts and mechanisms in the field of data exchange focusing on trusted data transactions. Those elements can be used in the development of standards in support of trusted data transactions. These terminology, concepts and mechanisms constitute the basis to identify key dimensions and criteria that contribute to the trust in a data transaction between interested parties."@en ;
-    dct:title "CEN/CWA 18125 :2024 ‘Trusted Data Transaction'"@en ;
+    dct:title "CEN/CWA 18125 :2024 'Trusted Data Transaction'"@en ;
     dcat:distribution cssvrsc:cc43b9fb-a997-4a44-8acc-aba1597bfb5e ;
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en ;
@@ -2353,7 +2353,7 @@ cssvrsc:3ac90955aa96eedf7114693c57e1862f5dc359b7f26327a4878201bb0934a53b a cssv:
 
 cssvrsc:3b1d705a99ba85063c2996aac98a680ea5e72d023951b62d48ece7923affa235 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T X.1361" ;
+    cssv:alternative "ITU-T X.1361"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T X.1361 specification provides a security framework for the Internet of Things (IoT) based on the gateway model. Its purpose is to protect IoT ecosystems by securing communications between devices, gateways, and networks. In this context, it ensures that data exchanged through IoT gateways remains confidential, authentic, and intact, preventing unauthorised interception or modification."@en ;
     dct:title "Security framework for the Internet of things based on the gateway model"@en ;
@@ -2557,7 +2557,7 @@ cssvrsc:40c6aac837357cdbc673a103d053d4fa78b7617bbaa2975df98b87b826f9bb6d a cssv:
 
 cssvrsc:41b2c79f6cfb66676430b6c3a94ff0ed87617341081c7ef1a147129c5c605b3e a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym ""@en ;    
+    cssv:acronym "CBOR"@en ;    
     cssv:alternative "RFC 8943"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The Concise Binary Object Representation (CBOR), as specified in RFC 7049, is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation."@en ;
@@ -2647,10 +2647,10 @@ cssvrsc:446e7301829e85707da02adcf6c1b42a20d725363731cfa6e8c362b9713cf2e7 a cssv:
     dcat:distribution cssvrsc:87633c0a-ab9d-4d87-a098-386001085283 ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 008" .
 
 cssvrsc:449d772a61928d1cdd3940897b7e25adfb553c1947aa38504667c0eaf8a7a7cf a cssv:Specification ;
-    cssv:acronym "CoAP" ;
+    cssv:acronym ""@en ;
     cssv:alternative "RFC 7641"@en ;
     cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
     dct:description "The RFC 7641 specification specifies a mechanism that allows devices to observe resources on a network using the CoAP protocol and it enables a client to subscribe to a resource so that it receives automatic updates whenever that resource changes which is particularly useful for devices with limited resources such as sensors or Internet of Things equipment and it reduces the need for constant polling of resources, thereby saving energy and bandwidth, while facilitating the detection of changes in the environment or digital systems, allowing notifications to be delivered in real time"@en ;
@@ -2990,6 +2990,7 @@ cssvrsc:4f35dbaf59d944f04b8274951b3220e9186621c50f814412417000656821d254 a cssv:
 cssvrsc:4f5086956ce7e0b60b68a495894409cd87434260749581ec127f9072afb4c6c6 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "IAM - 003"@en ;
     cssv:isMaintainedBy cssvrsc:016cfaecc57938bae17bba2342973db6591994bf3013eeec27113e825d8ef03f ;
     dct:description "The IAM - 003 specification is addressed to establish a decentralised and dynamic IAM for the interaction between a providing and a consuming company based on ABAC. Moreover, the specification provides mechanisms to authorise and authenticate users trough Java-based server."@en ;
     dct:title "Access Control Paradigm (IAM - 003 IAM & Access Control Paradigm)"@en ;
@@ -3010,7 +3011,7 @@ cssvrsc:4fc4d2011afea421c53f511b8cc5b2757e24a04071e28c0a38161f609a60d135 a cssv:
 
 cssvrsc:4ff74b5f8a5b13bcd81d457f0691665fb458a19b8ac83ba4a36a31d0e614efc2 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T Y.4805" ;
+    cssv:alternative "ITU-T Y.4805"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T Y.4805 specification focuses on the identification service requirements necessary for the interoperability of smart city applications. The recommendation defines a set of requirements for these identification services, including security features such as data confidentiality and service integrity."@en ;
     dct:title "Identifier service requirements for the interoperability of smart city applications"@en ;
@@ -3211,7 +3212,8 @@ cssvrsc:5569aaaeadc581ef0c35c13e3147723d2c6d890006aafc835efac10ce3947e1e a cssv:
     dct:title "EPCIS 2.0 Standard"@en ;
     dcat:distribution cssvrsc:50f461de-3558-4b83-8e3d-84f3e46174a4 ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "2.0.0" .
+    dcat:version "2.0.0" ;
+    dcat:previousVersion cssvrsc:d7e1c0fa3a2ee789e7a6bed4662655d9f2dea7d026d68eb7b0fc095e371518d9 .
 
 cssvrsc:570bde3872d3e82a54ec25616d301762073d31a76291a3cc221372462101418f a cssv:Specification,
         owl:NamedIndividual ;
@@ -3235,7 +3237,7 @@ cssvrsc:577a7df2bfb0c13084b3d6337c95c6c78e49b7dfc5984d39ff8f5382ef867d7b a cssv:
 
 cssvrsc:577bea543e4769c619d8e7748b6edc42fc3e9d911c64bf64a527df02b42b3dbf a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T Y.4505" ;
+    cssv:alternative "ITU-T Y.4505"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T Y.4505 specification is designed to define the Minimum Interoperability Mechanisms (MIMs), which are specifications of the minimal, but sufficient, functional and quality requirements needed to achieve interoperability in smart and sustainable cities and communities."@en ;
     dct:title "Minimal interoperability mechanisms for smart and sustainable cities and communities"@en ;
@@ -3375,7 +3377,7 @@ cssvrsc:5b1c61061215ed0377b7ecb42a07ab723c1612ca79ca0c6a58163c44660f8573 a cssv:
     dcat:distribution cssvrsc:bc1de7ee-d8fd-4b44-8166-fa196134fb55 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 249/38" .
 
 cssvrsc:5b49cc24ed5f6ea574fa9d078ebb7436853742825869addf4c4a5f939f7f79d9 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4135,6 +4137,7 @@ cssvrsc:7410b9bd5581c927fbd89713206c65da5e921fbccd1961936d17786aec1bd2bf a cssv:
 cssvrsc:742174fb9d7cbf3758c62a6856199a79560f6dbd24085c9ed4c0f1b795140b81 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T Y.4464"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "Recommendation ITU-T Y.4464 includes an introduction to the Blockchain of Things (BoT), common characteristics and high-level requirements of the BoT, and relevant common capabilities and functionalities, as well as general procedures. The BoT operates in a decentralised environment established on blockchain-related technologies or is provided by a blockchain platform."@en ;
     dct:title "ITU-T Y.4464 Framework of blockchain of things as decentralized service platform"@en ;
@@ -4175,6 +4178,7 @@ cssvrsc:759da1d5deb16402a0b61d54c1bd328fc19c7cfcfc33a25ff4092b01756d2604 a cssv:
 cssvrsc:75ae3189eab12d5d72bd97d739d37259404397c78e83d4009788bfaf98d90465 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T Y.3653"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The specification ITU-T Y.3653 specifies a functional architecture for big data-driven networking,which includes an overview of functional architecture per se, functional architecture for a big-data plan, functional architecture for a network plan and functional architecture for a management plan."@en ;
     dct:title "ITU-T Y.3653 Functional architecture of big data-driven networking"@en ;
@@ -4231,7 +4235,7 @@ cssvrsc:76561e651b1eba274958bcd8670df0dd02469b18b963f1d6a8314db1301be5db a cssv:
 
 cssvrsc:765bcdf23e5926412306719bd573aa3c3492e7b1ca55075f2534fe946d6a4713 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T L.1061" ;
+    cssv:alternative "ITU-T L.1061"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T L.1061 specification is designed to improve ICT equipment procurement. In this context, the specification minimises the generation of electronic waste (e-waste) and its adverse effects, maximises the service life and energy efficiency of the equipment, and increases the recyclability of ICT. In addition, it details a broad set of procurement criteria covering aspects such as product design, hazardous materials management, maintenance services, and end-of-life practices."@en ;
     dct:title "Circular public procurement of information and communication technologies"@en ;
@@ -4342,6 +4346,7 @@ cssvrsc:7a76b8336c2ba9ad6148ba1934fd9a4af24f825626f5bb898f071f58cd7c4fa7 a cssv:
 cssvrsc:7ac89cd0aacfdd06867255fc18eacde087e244f0a09b948de10b066c7854f4a8 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "ITU-T X.1606"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T X.1606 identifies security threats and recommends security requirements for communications as a service (CaaS) application environments. The Recommendation describes scenarios and features of CaaS containing multi-communication capabilities. Then it identifies specific threats arising from unique CaaS features and recommends appropriate CaaS security requirements."@en ;
     dct:title "ITU-T X.1606 Security requirements for communication as a service application environments"@en ;
@@ -4569,6 +4574,7 @@ cssvrsc:82631e4f6b9cb3ba51ee3824a6e5926231d68d13dc3b2f520b67c8f114887b48 a cssv:
 cssvrsc:827bc09770778219408259abb6c8340e1ff8787629360d80fdc2a90248d91e09 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "ONB - 004"@en ;
     cssv:isMaintainedBy cssvrsc:016cfaecc57938bae17bba2342973db6591994bf3013eeec27113e825d8ef03f ;
     dct:description "The ONB - 004 specification enables the Registration Service containing all the API calls that are needed for the Registration process, during the Interaction with the Registration Portal."@en ;
     dct:title "ONB - 004 CX Registration API"@en ;
@@ -4590,7 +4596,7 @@ cssvrsc:82849d1b9524e5e4cff8fa6d22d80c334f7fd03a5adb89339b08071bf2a5f3ee a cssv:
 
 cssvrsc:8311f3f72a9516dd5b0f5d73c79181feff42b3bd76040cf2997005ec230ad542 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T Y.4225" ;
+    cssv:alternative "ITU-T Y.4225"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "ITU-T Y.4225 specifies the requirements and capability framework of digital twin for intelligent transport system, providing a digital representation of the physical transportation world. With meaningful and full-scale understanding of historical, real-time, and statistical traffic related data in digital twin for intelligent transport system, the  awareness of physical transportation is significantly enhanced, problems of transportation system can be discovered in advance, various traffic situations can be simulated, different long term, medium, short term strategies can be properly decided, and a lot of applications supported by intelligent transport systems can be better provided and be more intelligent."@en ;
     dct:title "Requirements and capability framework of digital twin for intelligent transport system"@en ;
@@ -4763,7 +4769,7 @@ cssvrsc:865cefb01ca8e8280d9c4751f0ba71d66cb6925ed1987c4c4f53e078b1703eca a cssv:
 
 cssvrsc:86e15b12ccc6ef6ccd012a2ef9882e1dd2b03d4819d87ed646299f261c1e71e2 a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "JSON-stat"@en ;
     cssv:isMaintainedBy cssvrsc:336101138d3a4c4f5ecf48f99f9f856737b791134d4d0aa70c52c6e21767c4fa ;
     dct:description "The JSON-stat format is a simple lightweight JSON format for data dissemination. It is based in a cube model that arises from the evidence that the most common form of aggregated data dissemination is the tabular form. In this cube model, datasets are organised in dimensions. Dimensions are organised in categories."@en ;
     dct:title "JSON-stat Dataset Format"@en ;
@@ -4853,7 +4859,8 @@ cssvrsc:89c360d073560b627db7529a0b2b9af5bbc1983342c3ba9498faba662f136993 a cssv:
     dcat:distribution cssvrsc:3554321e-dfd9-4ae5-9fc6-1a80ada3f506 ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "4.0.0" .
+    dcat:version "4.0.0" ;
+    dcat:previousVersion cssvrsc:b89bf2f2e85adfbce96e08482415575dc845d44067f8ff7dce7c603b41af9cbe .
 
 cssvrsc:8a81a114cb3c00a804499fcb6c89f3f05c8d9734fc95decce23db6db5bef40bb a cssv:Specification,
         owl:NamedIndividual ;
@@ -4954,7 +4961,7 @@ cssvrsc:8e0e44174d80fd53a6007b49e39d22186c76e67f6750545e9c383beca16edd38 a cssv:
 
 cssvrsc:8e2c8ec84395efa47a28ad653231f0194c5b9eb2943282b2346a37032a140682 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T Y.4471" ;
+    cssv:alternative "ITU-T Y.4471"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T Y.4471 establishes a functional architecture for network-based driving assistance (NDA) for autonomous vehicles. It details how coordination between vehicles and infrastructures can improve the safety and efficiency of automated driving. Thus, the NDA involves the collection and processing of sensor data from both the road and the vehicles."@en ;
     dct:title "Functional architecture of network-based driving assistance for autonomous vehicles"@en ;
@@ -5452,7 +5459,8 @@ cssvrsc:9a622444bb31aa338b55d19a58d9c7b4dc25147126ddf27e983449f105d88193 a cssv:
     dct:title "Standard Business Document Header (SBDH)"@en ;
     dcat:distribution cssvrsc:273e2ca3-13a1-4c63-af41-f5f1fbccb447 ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "1.3.0" .
+    dcat:version "1.3.0" ;
+    dcat:previousVersion cssvrsc:7a6cc9a04e501f41aef0173ec2fe5584226fb37b3d34996fe85b4d884a094a61 .
 
 cssvrsc:9ade3964acf524fddcff802c14d16a93362acaab5aace4867be8856f48c0c30f a cssv:Specification,
         owl:NamedIndividual ;
@@ -5959,7 +5967,7 @@ cssvrsc:ab5a0eef3ca9727fa2abd88cd5034f4dcc8fe05df17e1995f8d552dbae6ae95e a cssv:
 
 cssvrsc:ac283a50733f9b996279bbf977b1823b734bb7b5814056130b92cca7c4635e21 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "Y.4466" ;
+    cssv:alternative "Y.4466"@en;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The Y.4466 specification is intended to provide a general framework for smart greenhouse services. In this sense, the specification supports the definition and implementation of mechanisms that help to automate various processes, thereby making operations more efficient and streamlining procedures. It also offers guidance for integrating different technologies and services within a greenhouse environment to improve management, productivity, and sustainability."@en ;
     dct:title "Framework of smart greenhouse service"@en ;
@@ -6100,7 +6108,8 @@ cssvrsc:b059e5051bb83f9abf3009b747716a429d552c29ffec38039c830dbe2f45a1b9 a cssv:
     dcat:distribution cssvrsc:7898e8e9-a243-4357-b800-757e20668eb3 ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "2.4.0" .
+    dcat:version "2.4.0" ;
+    dcat:previousVersion cssvrsc:b059e5051bb83f9abf3009b747716a429d552c29ffec38039c830dbe2f45a1b4 .
 
 cssvrsc:b059e5051bb83f9abf3009b747716a429d552c29ffec38039c830dbe2f45a1b4 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6344,7 +6353,8 @@ cssvrsc:b72fb2c4dfb0df9e683b4dbaf942bd20114cc2d4a81e1592c70b9752c4bc1577 a cssv:
     dcat:distribution cssvrsc:31f52204-8961-44e1-86d6-313e1a8d0459 ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "4.0.0" .
+    dcat:version "4.0.0" ;
+    dcat:previousVersion cssvrsc:6f13fa8a840b2e772daad1f7091c757819df5a583941cc0889a97ea4fca8e3e5 .
 
 cssvrsc:b733a9c3774b60cf2827fa64f566d9fa72a33a3c3ea1e7ede2c7c44eb2448f8a a cssv:Specification,
         owl:NamedIndividual ;
@@ -6570,7 +6580,8 @@ cssvrsc:be2083d3dd272001ac9759c4b6f4e7fc3883f7c879b793ebd7d5a7fbbb51458c a cssv:
     dct:title "Attribute-based Access Control (ABAC) v2.0.0"@en ;
     dcat:distribution cssvrsc:7197451c-a2c9-41e6-babb-e12ddfad3e8b ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "2.0.0" .
+    dcat:version "2.0.0" ;
+    dcat:previousVersion cssvrsc:15ce31dd1e75f38268774bb631b05e2fbace171047215921da31e75d2270588d .
 
 cssvrsc:be42c15832ab4d32f3581e93cde7ab0e77be66d93031df8ffeea54c6f563bb16 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6804,7 +6815,7 @@ cssvrsc:c3f1e21d6e8e8c29be57d98cf26a0ffa4098bb5f06b7048b77da99e59f66acfd a cssv:
 
 cssvrsc:c421e39e1aef0ead409b81a2a54646f5b814ef118168ccdb34776651631892c1 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T L.1070" ;
+    cssv:alternative "ITU-T L.1070"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T L.1070 specification is designed to describe the digital product passport (DPP) to represent the sustainability of ICT products. In this regard, the specification provides guidance on how to access information about ICT products, such as smartphones or other devices. The DPP enables users to obtain information about a product’s utility, composition, and other details that support environmental sustainability."@en ;
     dct:title "Global digital sustainable product passport opportunities to achieve a circular economy"@en ;
@@ -6974,7 +6985,7 @@ cssvrsc:c796c0c59e2a1573bab99dbaf934e82784f6e1f4cd63a72d819e1175399826b4 a cssv:
     dcat:theme "Business Architecture"@en,
         "Implementation Governance"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 257/73" .
 
 cssvrsc:c833915edfd03d94674b67707df6c86d7a2b8f7237c7a403f10c873d3aff39bc a cssv:Specification ;
     cssv:acronym ""@en ;
@@ -7133,7 +7144,7 @@ cssvrsc:cfb2208446c9eaa8ceb3a92bbd3e07f5f41f1d770b1a2d16a8a66ae9e82dacc1 a cssv:
 
 cssvrsc:d00017429fc2731338356215ebbbb25e93ea899e644f05d58a55849e1150926a a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T Y.4211" ;
+    cssv:alternative "ITU-T Y.4211"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T Y.4211 specification aims to ensure that transport public services are accessible to everyone, including individuals with diverse disabilities. It serves as a guide for enhancing user experience in public transport services by adapting specific features to meet the needs of people with different types of disabilities."@en ;
     dct:title "Accessibility requirements for smart public transport services"@en ;
@@ -7426,7 +7437,7 @@ cssvrsc:d7e1c0fa3a2ee789e7a6bed4662655d9f2dea7d026d68eb7b0fc095e371518d9 a cssv:
     dct:title "ISO/IEC 19987:2024 Information technology — EPC Information Services (EPCIS)"@en ;
     dcat:distribution cssvrsc:ed583062-b7cb-45a5-a34e-9e99142fe6ac ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "1" .
+    dcat:version "1.0.0" .
 
 cssvrsc:d841729107af0386e501554a6e07fd118ccd53aec9677ca22a2f9b2e0ca8919b a cssv:Specification,
         owl:NamedIndividual ;
@@ -7471,7 +7482,7 @@ cssvrsc:dade18d348d93c2e0d190bc8fd5532162d3fcd40cad800051741e9c1bb6bbc42 a cssv:
 
 cssvrsc:db69ef7a4684763d397e1ce500907bc18cc0063bfe56480edde9831fb8b99e53 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "ITU-T L.1040" ;
+    cssv:alternative "ITU-T L.1040"@en ;
     cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
     dct:description "The ITU-T L.1040 specification is designed to provide guidelines on how autonomous vehicles should contribute to reducing e-waste. In this regard, the specification offers vendors supplying equipment for autonomous vehicles recommendations on extending the lifecycle of vehicle components and on using environmentally friendly and recyclable materials. Consequently, manufacturers can follow a shared set of guidelines to support the reduction of e-waste."@en ;
     dct:title "Effects of information and communication technology-enabled autonomy on vehicles longevity and waste creation"@en ;
@@ -7671,11 +7682,12 @@ cssvrsc:e140535a651dd589a52fc2404c4e53078c2daf735f2d5a3789ebbf5fc06beef8 a cssv:
     dct:title "e-delivery AS4"@en ;
     dcat:distribution cssvrsc:b20c565a-20fd-46c5-9978-57548577e200 ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "1.15.0" .
+    dcat:version "1.15.0" ;
+    dcat:previousVersion cssvrsc:0c29d2cb413399491569ef6ed8f2eaa3624e4feda6c3c3d88d51862416a23dc3 .
 
 cssvrsc:e16c26ec6e45082030648832bf5b07a2a55d64968582d394bf18b7b873c2776b a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "GXFSv2" ;
+    cssv:alternative "GXFSv2"@en ;
     cssv:isMaintainedBy cssvrsc:ecf344cf05885c1eee7d97c70ed1f34080cb9a04db7d4d0a859c09b62ebf927a ;
     dct:description "The GXFSv2 specification is designed to protect digital services by applying identification and authentication mechanisms to ensure that the users who wish to access these services are legitimate. In this sense, the specification enables the use of digital identities issued by other institutions to access resources without the need to create a new account for every site, while ensuring that access is granted in a secure and protected manner."@en ;
     dct:title "GXFSv2 - Identity and Access Management"@en ;
@@ -8160,7 +8172,7 @@ cssvrsc:ed6a64677edc639c9631d69bb22ab685927454f0a79e0b682efe13f4c9fa35d7 a cssv:
     dcat:distribution cssvrsc:e83736f2-f29f-4b5c-935f-4e21c55c5b7b ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 172/56" .
 
 cssvrsc:ed84e5cca1a760f8086028752750c99774b3f00ba2391d1ef8bd0da658fbf183 a cssv:Specification,
         owl:NamedIndividual ;
@@ -8182,7 +8194,7 @@ cssvrsc:eda8963fef30913a42e112250c4b58b0fd42baaeb3d601cac3a427b1d2b5290e a cssv:
     dcat:theme "Business Architecture"@en,
         "Implementation Governance"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 119/1" .
 
 cssvrsc:edb5639f5ea83e0523503d803f95c1667224564ae2d85eb9677bcce63e543567 a cssv:Specification,
         cssv:Standard,
@@ -8319,7 +8331,7 @@ cssvrsc:f36ce406cf0470d6b8c3d4f04141fb8c35c10e1342c6fb68a55e4cbf1b30eb9d a cssv:
     dcat:distribution cssvrsc:4a841ea0-6b50-4e53-bfe9-c707800841b7 ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "COM/2012/0721" .
 
 cssvrsc:f37fec7b3b5a865877ce8663c3efe7f2442877c774e86cdc5fc9bd262f8adef1 a cssv:Specification,
         owl:NamedIndividual ;
@@ -8418,7 +8430,7 @@ cssvrsc:f5e1b39cfe134794973341782570d3f5999ee97719451ee8e18b4c0383cdadae a cssv:
     dcat:distribution cssvrsc:ac66f179-4236-4b4d-b2b3-21035f35b82d ;
     dcat:theme "Business Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "COM(2011) 882" .
 
 cssvrsc:f5f48a4c870ee0803124dca2c14551cc649b4b4559bfa0188b20a0f844e63edf a cssv:Specification,
         owl:NamedIndividual ;
