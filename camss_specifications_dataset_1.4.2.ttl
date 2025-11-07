@@ -264,7 +264,7 @@ cssvrsc:05cb8884a4a4dfef89e8d78ad03202187bcf840359840add00d0ff20d1f8e549 a cssv:
 
 cssvrsc:070acd69015d461438bb2a59f884185e05e8b4deb1cecbc6fdc32dd65c03e45e a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "" ;
+    cssv:alternative "ETSI TS 103 964"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 964 specification is designed to enable user authentication in a privacy-preserving manner. In this context, it allows users to access services through the use of Attribute-Based Encryption (ABE). ABE facilitates the demonstration of compliance with specific requirements, such as age or residency, without revealing the actual personal attributes. It extracts relevant information from a Verifiable Credential and anonymises the data, thereby safeguarding the user's sensitive details."@en ;
     dct:title "Cyber Security (CYBER); A Verifiable Credentials extension using  Attribute-Based Encryption (ETSI TS 103 964)"@en ;
@@ -519,7 +519,7 @@ cssvrsc:0c9ff444ad4f5a1d7ef7d81108c7980b166d4f3ae9899b82d92347298f874f87 a cssv:
 
 cssvrsc:0caf69e4413cd2da152767c1ad3b645914d4c6e64f2fb244f4a6352971e99225 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "CYBER"@en ;
+    cssv:acronym ""@en ;
     cssv:alternative "ETSI TS 103 523-2 CYBER"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TS 103 523-2 CYBER lists requirements existing for network operators, service providers, users, enterprises, and small businesses, to be able to grant varied (fine grained) permissions and to enable visibility of middleboxes, where the middleboxes in turn gain observability of the content and metadata of encrypted sessions. Various cyber defence techniques motivate these requirements. At present, the solutions used often break security mechanisms and/or ignore the desire for explicit authorization by the endpoints. Man-In-The-Middle (MITM) proxies frequently used by enterprises prevent the use of certificate pinning and EV (Extended Validation) certificates. Where no such mechanisms exist, some encryption protocols can even be blocked altogether at the enterprise gateway, forcing users to revert to insecure protocols."@en ;
@@ -583,7 +583,7 @@ cssvrsc:0d3afc2bec841bc6e01d5399eb445dd06444d8c53055e00f12dd6f85bb2ab96a a cssv:
 
 cssvrsc:0dcbdac68ab52b1d6207c1f5046c2e34d4a0cdfac33a9197e79151f7781a368e a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "CYBER"@en ;
+    cssv:acronym ""@en ;
     cssv:alternative "ETSI TS 103 523-3 CYBER"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "TS 103 523-3 CYBER lists requirements - such as legal mandates and service agreements - existing for enterprise network and data centre operators and service providers, organizations, and small businesses to be able to observe and audit the content and metadata of encrypted sessions transported across their infrastructures [i.2]. The original TLS protocol standards adopted in the 1986-1995 period in multiple bodies and IETF versions up to and including TLS 1.2, provided for these capabilities [i.3] and [1]. The latest version of the protocol, TLS 1.3, does not provide for these capabilities [2]. Where these capabilities do not exist, this new encryption protocol could be blocked altogether at the enterprise gateway, forcing users to revert to older, less secure TLS protocols."@en ;
@@ -943,7 +943,7 @@ cssvrsc:18405d991d37278ddebcd6a92b30138fef82844c37c073806683094fb8e4ac94 a cssv:
 
 cssvrsc:186c9d5a5460aa1951cb5ee95e889e9d0620fd22d962b38459f0074af4869f8d a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "CYBER"@en ;
+    cssv:acronym ""@en ;
     cssv:alternative "ETSI TS 103 523-1"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "CYBER Middlebox Security Protocol Part 1: MSP Framework and Template Requirements (ETSI TS 103 523-1) defines the security properties of a Middle Box Security Protocol, which protects against cyber-attacks and involves encrypted traffic and VPN provisions."@en ;
@@ -1114,7 +1114,7 @@ cssvrsc:1afa67f3a0715391de31e550f6f4ae43c310b7d0fffc1bb565da0cf81990610e a cssv:
         owl:NamedIndividual ;
     cssv:acronym "OVF"@en ;
     cssv:isMaintainedBy cssvrsc:ad6d5efcd1b04b8006e0a3228fcebdb1347925d8cdf3b1790d43285aa8614e41 ;
-    dct:description "DMTF’s Open Virtualization Format (OVF) standard provides the industry with a standard packaging format for software solutions based on virtual systems, solving critical business needs for software vendors and cloud computing service providers"@en ;
+    dct:description "DMTF's Open Virtualization Format (OVF) standard provides the industry with a standard packaging format for software solutions based on virtual systems, solving critical business needs for software vendors and cloud computing service providers"@en ;
     dct:title "Open Virtualization Format"@en ;
     dcat:distribution cssvrsc:c879f3cd-64e6-44c1-9371-8cbac617995c ;
     dcat:theme "Technology Architecture"@en ;
@@ -1232,7 +1232,7 @@ cssvrsc:1db4b73d79c4745a67c5be20e0006b042569498e82631153b7756554d0847d80 a cssv:
         owl:NamedIndividual ;
     cssv:alternative "Directive 2009/136/EC"@en ;
     cssv:isMaintainedBy cssvrsc:42881db41ff12ed3884076dad8f8783684d6c9d6ae7a2b45c7ce4fc95dd8856e ;
-    dct:description "Legal act on universal service and users’ rights relating to electronic communications networks and services."@en ;
+    dct:description "Legal act on universal service and users rights relating to electronic communications networks and services."@en ;
     dct:title "Directive 2009/136/EC - EU Cookie Directive Directive 2009/136/EC of the European Parliament and of the Council of 25 November 2009 amending Directive 2002/22/EC on universal service and users’ rights relating to electronic communications networks and services, Directive 2002/58/EC concerning the processing of personal data and the protection of privacy in the electronic communications sector and Regulation (EC) No 2006/2004 on cooperation between national authorities responsible for the enforcement of consumer protection laws (Text with EEA relevance)"@en ;
     dcat:distribution cssvrsc:d98abeed-26ea-4f31-935d-9587c140fabf ;
     dcat:theme "Business Architecture"@en,
@@ -2849,7 +2849,8 @@ cssvrsc:4a2ba85289a81e144f2262fdb717cc9f8db725edd81c22c0187f7403bd8bfc9d a cssv:
     dcat:distribution cssvrsc:f2b1743f-9a5c-4421-adb0-847dba67813a ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en ;
-    dcat:version "3.0.1" .
+    dcat:version "3.0.1" ;
+    dcat:previousVersion cssvrsc:7d372848f2752f95f57864edf1c26afddadc8af1f4069124bca255069860aaf5 .
 
 cssvrsc:4abdf0772fd22a12fffce6714b8c00f1aadae3af2190781ad8077714d48f42d4 a cssv:Specification,
         owl:NamedIndividual ;
@@ -2927,7 +2928,7 @@ cssvrsc:4d8e966bd2feb44e2bf4851dac340c4af4c79068aa14eed8eec1ab89e83add83 a cssv:
 
 cssvrsc:4dd23efd702c35d1d55f5535b533a9b7b90a450f379fd89d811b248f4c2c7959 a cssv:Standard ;
     cssv:acronym "" ;
-    cssv:alternative "" ;
+    cssv:alternative "EN 16931-1:2017+A1:2019/AC:2020"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The EN 16931-1:2017+A1:2019/AC:2020 standard is designed to address the obstacles created by the fragmentation of e-Invoicing solutions on the market. By establishing a clear and well documented structure for the essential elements of any invoice, it allows everyone to have the same reference for the exchange of invoices. "@en ;
     dct:title "EN 16931-1:2017+A1:2019/AC:2020"@en ;
@@ -3129,7 +3130,7 @@ cssvrsc:5257a76df96b3820d68645d248e70622ad068f90dd193e6004c908cbd62b1e54 a cssv:
     dct:title "ISO/IEC 20802-1:2016 Information technology — Open data protocol (OData) v4.0 Part 1: Core"@en ;
     dcat:distribution cssvrsc:3bf6dd11-c2bc-46d1-93f8-3b3653a9f4f7 ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "1" .
+    dcat:version "1.0.0" .
 
 cssvrsc:5373b170e5317c1c4e73551703f4880d871ccbe1d710847974a494c58643b13d a cssv:Specification ;
     cssv:acronym "" ;
@@ -3445,7 +3446,7 @@ cssvrsc:5cb171424de13d12a0286f8aea06e357b051a5fef37b5c2a29a84d4bdb0987c3 a cssv:
         owl:NamedIndividual ;
     cssv:alternative "ISO/IEC/IEEE 12207:2017"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
-    dct:description "ISO/IEC/IEEE 12207:2017’s comprehensive approach to systems and software engineering ensures that these critical infrastructure components are effectively integrated, maintained, and optimized throughout the software lifecycle."@en ;
+    dct:description "ISO/IEC/IEEE 12207:2017's comprehensive approach to systems and software engineering ensures that these critical infrastructure components are effectively integrated, maintained, and optimized throughout the software lifecycle."@en ;
     dct:title "ISO/IEC/IEEE 12207:2017 Systems and software engineering — Software life cycle processes"@en ;
     dcat:distribution cssvrsc:b36931ae-7cbc-46cf-af26-7f5bbdd6f3c8 ;
     dcat:theme "Technology Architecture"@en ;
@@ -4054,7 +4055,7 @@ cssvrsc:72090268c68b4a977a65285103fa1fe43043c8b2085efe06850ab4716587c05c a cssv:
 
 cssvrsc:7241a67b5f3d3fca7be475fb56446bace3ef101ecb5f2bc67382cce0afdaa0f3 a cssv:Specification ;
     cssv:acronym "" ;
-    cssv:alternative "" ;
+    cssv:alternative "ETSI TS 103 779"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 779 specification is designed to provide guidelines on how IoT devices should exchange data to achieve a common understanding. In this context, the specification supports communication between devices—such as sensors in a smart home—by enabling data exchange in a standardised format that can be understood across different IoT systems."@en ;
     dct:title "SmartM2M; Requirements and Guidelines for cross-domain data usability of IoT devices (ETSI TS 103 779)"@en ;
@@ -4076,6 +4077,7 @@ cssvrsc:7254992a31e2dd9a8ad126e69e8eb7876a6d8d0b3c08eaff42dc6d9fb9be811f a cssv:
 cssvrsc:72d464211ca659665f05b7166d0b5f7e91d2d4e3f6958d70ed3c2502eaea58a0 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "EPUB OCF"@en ;
+    cssv:alternative "ISO/IEC 23736-4:2020"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "EPUB Open Container Format (OCF) defines a file format comprising an EPUB publication as an interchangeable and deliverable format. OCF is the container technology required for EPUB publications."@en ;
     dct:title "ISO/IEC 23736-4:2020 Information technology — Digital publishing — EPUB 3.0.1 — Part 4: Open container format"@en ;
@@ -4096,6 +4098,7 @@ cssvrsc:72d75210afae55513c2e80d91cc4188e0370614d5b6e50ed1464a99aa5c0c1c9 a cssv:
 cssvrsc:72e4dd491ecc447eeea1bb8dc297ae0370a8a2eeb91aff19020fa174db2b40ac a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC 30115:2018"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The Redfish scalable platforms management API specification is an API specification that uses RESTful interface semantics to access data."@en ;
     dct:title "ISO/IEC 30115:2018 Information technology — Redfish scalable platforms management API specification"@en ;
@@ -4126,7 +4129,7 @@ cssvrsc:73b7782e8c0a77d8020d17b1ac45638bb6b383b8d17a195d980ef37eae9d7737 a cssv:
 
 cssvrsc:7410b9bd5581c927fbd89713206c65da5e921fbccd1961936d17786aec1bd2bf a cssv:Specification ;
     cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
+    cssv:alternative "ETSI TS 103 486"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The ETSI TS 103 486 specification provides a robust and flexible framework for identity management in IoT environments, enabling granular control over exposed information and enhancing security and privacy during discovery and communication processes."@en ;
     dct:title "CYBER; Identity Management and Discovery for IoT (ETSI TS 103 486)"@en ;
@@ -4215,7 +4218,7 @@ cssvrsc:75f4644e499649caf33b8aa091f6605db19c3b65ad5b5398f72d587a3dc72c66 a cssv:
 
 cssvrsc:760a6c32c2c05037e32f819d417f35864badcb71b405230fe709f13a4bfeba10 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ISO/IEC/IEEE 24774:2021"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC/IEEE 24774:2021 outlines how to define and describe processes, including the requirements and recommendations for their formulation. It covers the elements and rules for process description and the use of process views. It also explains how to define conformance to a process based on the document’s guidelines. However, it does not address how processes are combined into larger frameworks, how to assess process performance, or evaluate process outputs. Notably, it references ISO/IEC/IEEE standards 12207 and 15288 for software and system engineering process descriptions and notes that ISO/IEC/IEEE 15289 provides additional details on these processes."@en ;
     dct:title "ISO/IEC/IEEE 24774:2021 Systems and software engineering — Life cycle management — Specification for process description"@en ;
@@ -4335,7 +4338,7 @@ cssvrsc:7a6cc9a04e501f41aef0173ec2fe5584226fb37b3d34996fe85b4d884a094a61 a cssv:
 
 cssvrsc:7a76b8336c2ba9ad6148ba1934fd9a4af24f825626f5bb898f071f58cd7c4fa7 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "ETSI ES 203 199"@en ;
+    cssv:alternative "ETSI ES 203 199"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "The development of information and communication technologies (ICTs) has led to concerns regarding its environmental impact. Taking into consideration the ongoing efforts within the United Nations Framework Convention on Climate Change [b-UNFCCC] to combat climate change, ITU-T and ETSI decided to enhance their previous work by jointly developing an internationally agreed methodology to help the ICT sector to assess the environmental impact of ICT goods, networks and services. The present document also gives guidance to the assessment of software."@en ;
     dct:title "ETSI ES 203 199 Environmental Engineering (EE); Methodology for environmental Life Cycle Assessment (LCA) of Information and Communication Technology (ICT) goods, networks and services"@en ;
@@ -4377,7 +4380,7 @@ cssvrsc:7bb9561fdc649c2b43a5b95d6ae3aaa54b2fcdcd45404630ec3c3cdc5a74b507 a cssv:
 
 cssvrsc:7c1f89606ff29d6fa4ee1f4cd6e67f59ffebcefe54b70b325e3ab031c3c9aeb0 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "None"@en ;
+    cssv:alternative "ETSI EN 303 645"@en ;
     cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
     dct:description "ETSI EN 303 645 specifies high-level security and data protection provisions for consumer IoT devices that are connected to network infrastructure (such as the Internet or home network) and their interactions with associated services."@en ;
     dct:title "Cyber Security for Consumer Internet of Things Baseline Requirements (EN 303 645)"@en ;
@@ -4408,6 +4411,7 @@ cssvrsc:7d372848f2752f95f57864edf1c26afddadc8af1f4069124bca255069860aaf5 a cssv:
 cssvrsc:7d40a79649484b1ab2217c43332f6a6eb13979cdd71705624f8bb6f75df3d2de a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "MDR-IB"@en ;
+    cssv:alternative "ISO/IEC 20944-1:2013"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "The ISO/IEC 20944-1:2013 is a part of a series of standards developed by ISO and IEC, that specifies the framework for the interoperability of metadata registries (MDR). The primary focus of this part of the standard is on the framework for specifying the principles and concepts needed to enable interoperability between different metadata registries."@en ;
     dct:title "Metadata Registries Interoperability and Bindings (MDR-IB) (ISO/IEC 20944-1:2013)"@en ;
@@ -6211,6 +6215,7 @@ cssvrsc:b4afdb3f03be93511429c2ebf56b4d6eff0dfe7b6e41fe3f9d1768e2e7331e5f a cssv:
 cssvrsc:b4d1ac2bb48dd8d002c7f17e88269727d1089e74203cb1f9c0fed4e4233f6339 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "DAPS"@en ;
+    cssv:alternative "ISO/IEC 20933"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
     dct:description "ISO/IEC 20933 specifies a framework for a real-time distributed access system, which includes, in addition to a modular system architecture for access to distributed systems (IDs, module functions, data exchange semantics), mechanisms for sending responses and for measuring performance by means of a time stamping function that can be used for the system evaluation."@en ;
     dct:title "ISO/IEC 20933:2019 Information technology — Distributed application platforms and services (DAPS) — Framework for distributed real-time access systems"@en ;
@@ -6535,6 +6540,7 @@ cssvrsc:bc0e425e8b7e66bec97502564b15525ee4d624d15671f9647037f2ad9ec9bb0f a cssv:
 cssvrsc:bc1330ad4ce3c637e7ec4e0d9807976a5a548de8503fc278d43a9058cc46d49a a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "NetCDF"@en ;
+    cssv:alternative "Network Common Data Form"@en ;
     cssv:isMaintainedBy cssvrsc:a2023cc3269b699f92bb59545d6d021dd661e25367193cd4a19b417230b7a19e ;
     dct:description "NetCDF (Network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data."@en ;
     dct:title "NetCDF (Network Common Data Form)"@en ;
@@ -6738,7 +6744,7 @@ cssvrsc:c231b8af9ced594390978d9841c76b5ba3d8e84519f493a11818ad28260a5f11 a cssv:
     dcat:distribution cssvrsc:77c18599-68ca-4c88-9ab5-8747ce336bb2 ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en ;
-    dcat:version "1.0.0" .
+    dcat:version "L 318/1" .
 
 cssvrsc:c23342d6622bff477f2dfc1c386b5926d4ed73480aff3da1a799a8735f7c4b92 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6773,7 +6779,7 @@ cssvrsc:c2835b4bd225a222097f1a15b749419e91025408327b8b4acabeaa458f4e9f26 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:c2fa543b4c27894a0ee2d3c2f7d72bc36936887a945571cbc8b3760e4d3a2f2f a cssv:Specification ;
-    cssv:acronym "" ;
+    cssv:acronym "HAL"@en ;
     cssv:alternative "" ;
     cssv:isMaintainedBy cssvrsc:a062623ad5cf4583d8137ae7ad5e12cd8731097a8e936949a0fa613721988f35 ;
     dct:description "The HAL specification is designed to complement the information provided by an API—for example, in a bookstore website—by including links to related resources. In this context, the specification is useful not only for providing additional information, but also for organising and consolidating related data in a single, structured format."@en ;
@@ -6991,7 +6997,7 @@ cssvrsc:c833915edfd03d94674b67707df6c86d7a2b8f7237c7a403f10c873d3aff39bc a cssv:
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:d8bcbcc4bb1379ce5e12fc5aebfd10433830a325c42ba8d99280cdf27d6cb8c5 ;
-    dct:description "JSLT is a complete query and transformation language for JSON. "@en ;
+    dct:description "JSLT is a complete query and transformation language for JSON."@en ;
     dct:title "JSON transformation language JSLT"@en ;
     dcat:distribution cssvrsc:060e694b-6267-4be8-ad25-159b7cb3a7a4 ;
     dcat:theme "Data Architecture"@en,
@@ -7267,7 +7273,7 @@ This document provides an overview of all parts of the ISO/IEC 15408 series. It 
     dct:title "ISO/IEC 15408-1:2022 Information security, cybersecurity and privacy protection — Evaluation criteria for IT security Part 1: Introduction and general model"@en ;
     dcat:distribution cssvrsc:6a5f8585-e793-491a-b15a-5baab1d43f34 ;
     dcat:theme "Technology Architecture"@en ;
-    dcat:version "1" .
+    dcat:version "1.0.0" .
 
 cssvrsc:d2bd77c7a28e64616e1e5c9de657c2b1cdfa7e79812b0912e21ae190032e9537 a cssv:Specification,
         owl:NamedIndividual ;
