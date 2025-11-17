@@ -9,6 +9,11 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+cssvrsc:
+    rdfs:label "CSSV A-Box of specifications"@en ;
+    dct:modified "2025-11-17"^^xsd:date ;
+    owl:versionInfo "2.0.0" .
+
 cssvrsc:0046834e1507afcd215d2fb7801a4b53ed42dc81f370944e96c13738ac1ee102 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
