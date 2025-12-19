@@ -73,7 +73,7 @@ cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af a cssv:
 cssvrsc:13a8f29ba149c2a24b86b7773c1a3019595a5d9cece88aca54c8cfd23280d0f9 a cssv:Specification ;
     dct:relation [ dct:description "JSON Schema enables systems to encode and store data in a JSON-structured manner."@en ;
             dct:relation eira:DataRepresentationRepresentation ],
-        [ dct:description "Specification that use to put constraints on the data syntax used in the data."@en ;
+        [ dct:description "JSON Schema is used for constraining JSON data syntax, ensuring data conforms to defined structures and formats."@en ;
             dct:relation eira:DataSyntaxDataObject ] .
 
 cssvrsc:16457b5ee8e1e504f1cdfe408e09993336b9480b1cf53f4a38b320aeeab94814 a cssv:Specification ;
@@ -97,11 +97,11 @@ cssvrsc:2ddd01784d77f481907f1c64a5d2c5318bf451bdc16dfc0011e5f0af93f32192 a cssv:
         camssa:f1c563fe8733a8e32e85e846faa20a733a94b00d44476a518d1d3d9635dc4884 .
 
 cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 a cssv:Specification ;
-    dct:relation [ dct:description "XSD is a specification that is used to put constraints on the data syntax used in the data of given XML document. It is a set of rules that defines what constitutes a valid XML document for a specific application and it's contents."@en ;
+    dct:relation [ dct:description "XSD 1.1 Part 1 is used for structuring XML data, enabling metadata representation and consistent resource description."@en ;
             dct:relation eira:MetadataDataObject ],
         [ dct:description "The specificaiton is a schema definition language."@en ;
             dct:relation eira:DataModelDataObject ],
-        [ dct:description "Specification that use to put constraints on the data syntax used in the data by menas of a controlled vocabulary."@en ;
+        [ dct:description "XSD 1.1 Part 1 defines structural constraints on XML data using controlled vocabularies to ensure consistent syntax."@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
         camssa:3b6795acd286431abd3ed379dee974077aa5531bcab4f31d406c995a0fa5908f,
         camssa:d1b4bffb5cad71dfeda592f969c7477185fca53851e5d1f4bc2ec54b71a4f86f .
@@ -155,7 +155,7 @@ cssvrsc:47e4996e13cda2e492f84c40ae7462f8ae1ae3595150ab5537d0a0a69eba659f a cssv:
             dct:relation eira:LinkedOpenDataRepresentation ],
         [ dct:description "JSON-LD 1.1 defines a JSON-based format for serializing Linked Data, supporting the representation of immutable objects that can be published and consumed in real-time, adhering to Linked Data principles."@en ;
             dct:relation eira:LinkedDataEventStreamRepresentation ],
-        [ dct:description "RDF is a data format used for the semantic description of resources."@en ;
+        [ dct:description "JSON-LD is a lightweight JSON-based format for expressing linked data, enabling semantic description of resources while remaining easily readable and processable by web applications."@en ;
             dct:relation eira:DataRepresentationRepresentation ] .
 
 cssvrsc:49a5104e8266f39774df9b2a4369da8368f26b2249409aa3222419b6441840a3 a cssv:Specification ;
@@ -193,29 +193,29 @@ cssvrsc:65b67ca6bf1de17747001ce01a8f19e868d80d2b9200012393bb6dc9671fbb71 a cssv:
             dct:relation eira:DataRepresentationRepresentation ] .
 
 cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4 a cssv:Specification ;
-    dct:relation [ dct:description "Vocabulary used for the description of dataset catalogues"@en ;
+    dct:relation [ dct:description "DCAT-AP 2.0 is a vocabulary used for dataset catalogue description, metadata interoperability, and secure referencing using hash codes."@en ;
             dct:relation eira:DatasetCatalogueDataObject ],
         [ dct:description "Vocabulary used to make data available according to the open data principles, for common use."@en ;
             dct:relation eira:DataPublicationApplicationService ],
-        [ dct:description "Specification used for the description of catalogues and datasets. It allows the creation, storage, categorisation and retrieval of Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT-AP v2.0.0 is used for describing catalogues and datasets, enabling the creation, storage, categorisation, and retrieval of metadata with semantic interoperability."@en ;
             dct:relation eira:MetadataManagementApplicationService ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT-AP 2.0 is a vocabulary used for dataset catalogue description, metadata interoperability, and secure referencing using hash codes."@en ;
             dct:relation eira:DataModelDataObject ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT-AP v2.0.0 provides an RDF-based application profile enabling harmonised representation of dataset catalogues. As a linked data representation, it defines semantic structures to describe datasets, services, distributions, and relationships, thereby enabling their discovery and reuse across catalogues through interoperable metadata graphs."@en ;
             dct:relation eira:LinkedDataRepresentation ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT-AP 2.0 functions as Europe’s interoperable semantic profile for catalogues. It adapts DCAT to cross-border requirements, enforcing consistent metadata patterns and semantic clarity. In this form, public accessibility and strict RDF-based interoperability work together to enable pan-European catalogue federation and harmonised data publication practices."@en ;
             dct:relation eira:LinkedOpenDataRepresentation ],
         [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
         [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:MetadataDataObject ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT-AP 2.0 broadens its reach by allowing the same profile to be expressed in non-RDF formats. It preserves the structural intent of the application profile while making it usable by organisations without semantic infrastructure. This flexibility ensures that the profile supports European interoperability goals even in environments where linked data is not the default technical foundation."@en ;
             dct:relation eira:OpenDataRepresentation ],
         [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:DataDataObject ],
         [ dct:description "Vocabulary used to make data available according to the open data principles, for common use."@en ;
             dct:relation eira:DataPublicationApplicationComponent ],
-        [ dct:description "Specification used for the description of catalogues and datasets. It allows the creation, storage, categorisation and retrieval of Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "As a metadata management component, DCAT-AP structures how catalogues and datasets are described, categorised, and retrieved. It supports metadata harvesting, catalogue interoperability, and alignment of national and European open data portals through consistent semantic definitions."@en ;
             dct:relation eira:MetadataManagementApplicationComponent ],
         camssa:c06cc1a04165f44d6f79637d1fe620687062023e31fafce3d99445286d6c50ab,
         camssa:c28a7ac017af6477c6613493f16fb6ee164c862b4fe21890a6a6df3818b73dea .
@@ -240,27 +240,27 @@ cssvrsc:90b892f316000b3f7e9c96ff2c0cb7bd8a2e5da58051db814f8471f3e64e4f42 a cssv:
         camssa:ecd7b31500b3575985645987cae63917d33c1f0c6fac038c2f97c31f1ba64c8f .
 
 cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b a cssv:Specification ;
-    dct:relation [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+    dct:relation [ dct:description "DCAT 2.0 is a vocabulary used for dataset catalogue description, metadata interoperability, and secure referencing using hash codes."@en ;
             dct:relation eira:DataDataObject ],
         [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
         [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:DataModelDataObject ],
-        [ dct:description "Specification used for the description of catalogues and datasets. It allows the creation, storage, categorisation and retrieval of Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT v2 supports dataset and catalogue description for publishing, storing, and retrieving metadata in an interoperable way."@en ;
             dct:relation eira:DataPublicationApplicationService ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT 2.0 offers structured catalogue metadata in formats that do not require RDF. This simplicity makes it easy to adopt but also constrains its modelling depth. It stands as the historical starting point—a stable, usable framework that prepared the field for the more advanced capabilities of DCAT v3."@en ;
             dct:relation eira:OpenDataRepresentation ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues"@en ;
+        [ dct:description "DCAT 2.0 is a vocabulary used for dataset catalogue description, metadata interoperability, and secure referencing using hash codes."@en ;
             dct:relation eira:DatasetCatalogueDataObject ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT 2.0 provides the first stable RDF framework for describing datasets and distributions. Its structure is straightforward, prioritising foundational interoperability rather than advanced modelling."@en ;
             dct:relation eira:LinkedDataRepresentation ],
         [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:MetadataDataObject ],
-        [ dct:description "The specification defines a mechanism that allows restricted resources on a web page to be requested from another domain and embedded."@en ;
+        [ dct:description "DCAT 2.0 defines a mechanism that allows restricted resources on a web page to be requested from another domain and embedded."@en ;
             dct:relation eira:MetadataManagementApplicationService ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT 2.0 widens accessibility by making its RDF-based catalogue metadata publicly reusable. It reinforces a consistent publishing pattern across organisations, though the level of expressiveness remains limited to basic dataset-and-distribution relationships. Its openness laid the groundwork for broader international adoption but without the dynamic features required by more complex catalogue infrastructures."@en ;
             dct:relation eira:LinkedOpenDataRepresentation ],
-        [ dct:description "The specification defines a mechanism that allows restricted resources on a web page to be requested from another domain and embedded."@en ;
+        [ dct:description "DCAT v2 defines extensible metadata structures for describing datasets and related resources on the web. As a metadata management component, it provides a foundation for catalogues to structure their metadata holdings, enabling search, retrieval, and integration of datasets across distributed catalogue systems."@en ;
             dct:relation eira:MetadataManagementApplicationComponent ],
         [ dct:description "Specification used for the description of catalogues and datasets. It allows the creation, storage, categorisation and retrieval of Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:DataPublicationApplicationComponent ],
@@ -286,25 +286,25 @@ cssvrsc:9c2f765f7d194336045492bd806b3413413afac3d440bf4a043d4886ce4e75cf a cssv:
             dct:relation eira:DataRepresentationRepresentation ] .
 
 cssvrsc:9f33e6fe5d13ddc426e44b02c777119f89ff87d41397ce2f135a0c3c71724fb6 a cssv:Specification ;
-    dct:relation [ dct:description " RFC 7807 enables machines to process error information reliably, facilitating automated error handling and debugging by HTTP responses. This error information is context-related, as it provides specific details about what went wrong in a particular instance."@en ;
-            dct:relation eira:DataFormatDataObject ],
-        [ dct:description "RFC 7807 specifies a structured data format, using JSON, to transmit error details within HTTP responses, ensuring uniform error reporting in APIs.This defined syntax ensures that error information is context-related, providing specific, machine-readable details about the nature and location of errors within a given API interaction."@en ;
-            dct:relation eira:DataSyntaxDataObject ] .
+    dct:relation [ dct:description "RFC 7807 specifies a structured data format, using JSON, to transmit error details within HTTP responses, ensuring uniform error reporting in APIs.This defined syntax ensures that error information is context-related, providing specific, machine-readable details about the nature and location of errors within a given API interaction."@en ;
+            dct:relation eira:DataSyntaxDataObject ],
+        [ dct:description " RFC 7807 enables machines to process error information reliably, facilitating automated error handling and debugging by HTTP responses. This error information is context-related, as it provides specific details about what went wrong in a particular instance."@en ;
+            dct:relation eira:DataFormatDataObject ] .
 
 cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8 a cssv:Specification ;
-    dct:relation [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+    dct:relation [ dct:description "CLV defines location data and can be serialised using methods such as linked data or open data."@en ;
             dct:relation eira:DataDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CLV provides a harmonised, reusable set of classes and properties describing spatial features such as addresses, administrative units, and geographic identifiers. As a generic, cross-domain controlled vocabulary, it offers a stable reference model that can be adapted and extended by national administrations or sector-specific initiatives."@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CLV maintains its structural integrity but shifts towards a more flexible approach, allowing data to be consumed in various formats beyond RDF, thus enabling broader usability in non-semantic web contexts. This flexibility makes CLV a powerful tool for sharing location-based data, catering to diverse user needs in both RDF and non-RDF environments."@en ;
             dct:relation eira:OpenDataRepresentation ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CLV extends its value by ensuring that location data is not only semantically rich but also openly accessible for reuse across various sectors and jurisdictions."@en ;
             dct:relation eira:LinkedOpenDataRepresentation ],
         [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
             dct:relation eira:MetadataDataObject ],
         [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
             dct:relation eira:DataModelDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CLV provides a highly structured RDF vocabulary that facilitates integration with geospatial and administrative datasets, enabling the seamless exchange of location-based data."@en ;
             dct:relation eira:LinkedDataRepresentation ],
         camssa:57bf894f64d3f8828131acaae8877a958881afe73e3e3d08ee0c2cdc7402f51a,
         camssa:b65627405e43050badef08a21114c94acd4f284b31ab2343fe0b76264f166891 .
@@ -314,11 +314,11 @@ cssvrsc:a61e46d2918487a44fe12b59273afd2fd4326225041c92534ed339c600fc12ac a cssv:
             dct:relation eira:DataModelDataObject ],
         [ dct:description "CCCEV serves as a foundational framework for structuring open data in a machine-readable format, ensuring interoperability between base registries while representing Requirements and Evidences in linked open data structures."@en ;
             dct:relation eira:LinkedOpenDataRepresentation ],
-        [ dct:description "CCCEV enables the structured representation of linked data, supporting seamless integration and exchange of Requirements and corresponding Evidences across registries."@en ;
+        [ dct:description "CCCEV 2.1.0 enables the structured representation of linked data, facilitating the seamless integration and exchange of requirements and corresponding evidences across registries. It is enhanced by incorporating EvidenceTypeLists to enable structured data collection and classification, ensuring that authorities can enforce requirements by validating diverse types of evidences."@en ;
             dct:relation eira:LinkedDataRepresentation ],
         [ dct:description "CCCEV defines structured vocabularies to standardise the classification and description of Requirements, ensuring consistency in semantic representation for organisations or individuals providing Evidences. The Core Criterion and Core Evidence Vocabulary is a simplified, reusable and extensible data model for describing the principles and the means that a private entity must fulfil in order to become eligible or to be qualified to perform public services or participate in public procurement."@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
-        [ dct:description "CCCEV provides a reusable model for organising data in open formats, facilitating transparency and accessibility in how Requirements are established and how Evidences are submitted within base registries."@en ;
+        [ dct:description "CCCEV provides a reusable model for organising data in open formats, serving as a form of data representation. This model facilitates transparency and accessibility in how requirements are established and how evidences are submitted within base registries."@en ;
             dct:relation eira:OpenDataRepresentation ],
         [ dct:description "CCCEV structures data objects related to Requirements and Evidences, ensuring standardised data exchange within public administration services."@en ;
             dct:relation eira:DataDataObject ],
@@ -346,13 +346,13 @@ cssvrsc:ab2608294d81094994cfbd297e503e4d095777ecc299119c43bb57a64ca13478 a cssv:
             dct:relation eira:MetadataDataObject ],
         [ dct:description "The DPV specification enables the procedures for publishing structured data enriched with metadata to ensure data understanding, connection, findability and link with informational resources."@en ;
             dct:relation eira:LinkedOpenDataRepresentation ],
-        [ dct:description "The Data Privacy Vocabulary (DPV) represents a taxonomy of terms related to privacy and data protection, and describes their properties and the relationships among them."@en ;
+        [ dct:description "DPV 2.1.0 is an updated version of DPV providing enhanced structure and semantics for privacy-related data modeling."@en ;
             dct:relation eira:DataModelDataObject ],
         [ dct:description "The DPV defines a set of representational elements that will define the model of the domain applied to. These elements include various properties and relationships that help to accurately recreate or represent the specific domain or concept."@en ;
             dct:relation eira:OntologyDataObject ] .
 
 cssvrsc:aebabad39063fe48d7b4b36e7a0d8d0b718188b178b0b6509c64a4d67dd43216 a cssv:Specification ;
-    dct:relation [ dct:description "The specification is a widely used XML-based framework for communicating user authentication, entitlement, and attribute information. It is generally used by access management components and services to allow authorized users to make us of an IT service."@en ;
+    dct:relation [ dct:description "OAuth 2.0 is a framework for delegated authorization that allows applications to obtain limited access to user resources, enabling secure identification and controlled use of IT services."@en ;
             dct:relation eira:IdentificationApplicationComponent ],
         [ dct:description "The OAuth specification allows for user authorization of cloud services, providing authentication, entitlement, and attribute communication. It is generally used by access management components and services to allow authorized users to make us of an IT service."@en ;
             dct:relation eira:CloudPrivateNetworkCommunicationNetwork ],
@@ -370,9 +370,9 @@ cssvrsc:b3dfe12c5254a67f393044105641b4ead09feced4c7fdf3e581862cdf7f46959 a cssv:
 cssvrsc:b9929e88d6e711750b8a162b00f84c50f21e4d35bd79c648bfa5186ae447336a a cssv:Specification ;
     dct:relation [ dct:description "The specificaiton is a schema definition language, including language constraints."@en ;
             dct:relation eira:DataModelDataObject ],
-        [ dct:description "Specification that use to put constraints on the data syntax used in the data by menas of a controlled vocabulary."@en ;
+        [ dct:description "XSD 1.1 Part 2 defines datatype constraints on XML data with controlled vocabularies to ensure correct data types and formats."@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
-        [ dct:description "XSD is a specification that is used to put constraints on the data syntax used in the data of given XML document. It is a set of rules that defines what constitutes a valid XML document for a specific application and it's contents."@en ;
+        [ dct:description "XSD 1.1 Part 2 is usedfor defining XML data types, supporting metadata consistency and semantic clarity in resource description."@en ;
             dct:relation eira:MetadataDataObject ],
         camssa:3b6795acd286431abd3ed379dee974077aa5531bcab4f31d406c995a0fa5908f,
         camssa:d1b4bffb5cad71dfeda592f969c7477185fca53851e5d1f4bc2ec54b71a4f86f .
@@ -469,7 +469,7 @@ cssvrsc:d5d426fadecd4bf723cb15532e2bb495aaaca594936ba8891258988920564c43 a cssv:
 cssvrsc:dfa58525250ce8c35f18952c91fdcc18a8ebe6ae967c834563157541b4dab46f a cssv:Specification ;
     dct:relation [ dct:description "CCCEV v2.0.0 harmonises definitions and aligns structured vocabularies with the Open Guidelines, ensuring Requirements and Evidences are clearly categorised. The introduction of self-associated Requirement subclasses (Criterion, Information Requirement, Constraint) enhances semantic clarity while maintaining flexibility for domain-specific adaptations."@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
-        [ dct:description "CCCEV provides a reusable model for organising data in open formats, facilitating transparency and accessibility in how Requirements are established and how Evidences are submitted within base registries."@en ;
+        [ dct:description "CCCEV provides a reusable model for organising data in open formats, serving as a form of data representation. This model facilitates transparency and accessibility in how requirements are established and how evidences are submitted within base registries. CCCEV v2.1.0 is enhanced because it incorporates EvidenceTypeLists to enable structured data collection and classification, ensuring that authorities can enforce requirements by validating diverse types of evidences."@en ;
             dct:relation eira:OpenDataRepresentation ],
         [ dct:description "CCCEV v2.0.0 allows for semantically enriched representations of requirements by introducing a more abstract and flexible Requirement class. Domain-specific Requirements and corresponding properties ensure a structured data model that enhances understanding and interoperability of organisations or individuals."@en ;
             dct:relation eira:DataModelDataObject ],
@@ -483,7 +483,7 @@ cssvrsc:dfa58525250ce8c35f18952c91fdcc18a8ebe6ae967c834563157541b4dab46f a cssv:
             dct:relation eira:PublicAdministrationSingleWindowApplicationService ],
         [ dct:description "CCCEV structures data objects related to Requirements and Evidences, ensuring standardised data exchange within public administration services. CCCEV v2.1.0 incorporates EvidenceTypeLists to enable structured data collection and classification, ensuring that authorities can enforce Requirements by validating diverse types of Evidences."@en ;
             dct:relation eira:PublicAdministrationSingleWindowApplicationComponent ],
-        [ dct:description "CCCEV enables the structured representation of linked data, supporting seamless integration and exchange of Requirements and corresponding Evidences across registries."@en ;
+        [ dct:description "CCCEV 2.1.0 provides an enhanced and updated model for publishing and interlinking structured data on requirements and evidences, enabling improved semantic alignment and interoperability across registries."@en ;
             dct:relation eira:LinkedDataRepresentation ] .
 
 cssvrsc:e4940944a20f90dcd28ec5ccaa3bbd3cb74c15004568cc32968faeb0819a69a2 a cssv:Specification ;
@@ -495,13 +495,13 @@ cssvrsc:e4940944a20f90dcd28ec5ccaa3bbd3cb74c15004568cc32968faeb0819a69a2 a cssv:
             dct:relation eira:APICatalogueApplicationComponent ],
         [ dct:description "Specification used for the description of catalogues, including catalogues of APIs."@en ;
             dct:relation eira:APIDiscoveryAndCatalogueApplicationService ],
-        [ dct:description "Specification used for the description of catalogues and datasets. It allows the creation, storage, categorisation and retrieval of Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "ADMS is a specification designed to support the publication, discovery, and reuse of interoperability assets such as metadata schemas, ontologies, taxonomies, and code lists. It provides structured metadata elements describing these assets, enabling catalogues to store, categorise, and expose them in a harmonised way. As a data publication component, ADMS improves the visibility and retrievability of interoperability assets, supporting federated catalogues and semantic interoperability across administrative domains."@en ;
             dct:relation eira:DataPublicationApplicationComponent ],
-        [ dct:description "Specification used for the description of catalogues and datasets. It allows the creation, storage, categorisation and retrieval of Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "ADMS 1.0 focuses on enabling organisations to expose metadata about standards, semantic assets, and specifications. It acts as a service layer, providing a framework for the publication, federation, and synchronisation of metadata across different systems."@en ;
             dct:relation eira:DataPublicationApplicationService ],
-        [ dct:description "Specification used for the description of catalogues and datasets. It allows the creation, storage, categorisation and retrieval of Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "ADMS 1.0 reflects its initial implementation, where its capabilities centre around managing the lifecycle of metadata, including versioning, updates, and changes. This component helps organisations maintain control over their metadata, ensuring that updates to standards and assets are consistently tracked and synchronised across distributed systems."@en ;
             dct:relation eira:MetadataManagementApplicationComponent ],
-        [ dct:description "Specification used for the description of catalogues and datasets. It allows the creation, storage, categorisation and retrieval of Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "ADMS broadens its scope, providing the outward-facing functionality that enables organisations to publish and manage metadata effectively."@en ;
             dct:relation eira:MetadataManagementApplicationService ],
         [ dct:description "ADMS is an specification that implements shared platform ABB as it is the basis of the European Platform Joinup, being the Metadata, semantics & ontologies, interoperability data model for the description of Interoperable solutions (datasets). By providing a common way to describe, and index datasets or assets in human and readable format, it fosters the reuse of digital public services."@en ;
             dct:relation eira:LinkedDataRepresentation ],
@@ -1264,10 +1264,6 @@ elis:3909f2c8-11f1-406b-bf2a-8d1a4b84bbb6 a dcat:CatalogRecord ;
     dct:title "Meta-Share ontology (MS-OWL)"@en ;
     foaf:primaryTopic cssvrsc:be53f576f7ac020fcba25ce7c83e599514bd297caa7fc500316662997e68f9d5 .
 
-elis:39e45c6e-e438-498c-b530-7575ad57de65 a dcat:CatalogRecord ;
-    dct:title "DIRECTIVE 2013/37/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 June 2013 amending Directive 2003/98/EC on the re-use of public sector information"@en ;
-    foaf:primaryTopic cssvrsc:57d034134fde774a09d3434c0677311f4f4460daea3244fc286e63f67e434ac2 .
-
 elis:39e9ef18-f59b-433e-b87f-b77e453af510 a dcat:CatalogRecord ;
     dct:title "Collaboration Protocol Profile and Agreement (CPPA)"@en ;
     foaf:primaryTopic cssvrsc:add73cf4a6631216ae24450448a9c94dd4089a3bba45e2d1c960db1a6085ca7a .
@@ -1729,10 +1725,6 @@ elis:61a4a219-aef9-460f-ad93-2454fe3183c1 a dcat:CatalogRecord ;
     dct:title "Electronic Signatures and Infrastructures (ESI); XAdES digital signatures; Part 1: Building blocks and XAdES baseline signatures (ETSI EN 319 132-1)"@en ;
     foaf:primaryTopic cssvrsc:8fa9cd7abc111f52f04bbcf3ebdfa44e08756fdf213722ef95c6fb3470975b07 .
 
-elis:62a4a219-aef9-460f-ad93-2454fe3153c1 a dcat:CatalogRecord ;
-    dct:title "Electronic Signatures and Infrastructures (ESI); XAdES digital signatures; Part 1: Building blocks and XAdES baseline signatures (ETSI EN 319 132-1)"@en ;
-    foaf:primaryTopic cssvrsc:8ea9cd7abc111f52f04bbcf3ebdfa44e08756fdf213722ef95c6fb3470975b08 .
-
 elis:61b3be9b-45f7-437f-a3f5-091f550a85b0 a dcat:CatalogRecord ;
     dct:title "Requirements and capability framework for IoT-based automotive emergency response system" ;
     foaf:primaryTopic cssvrsc:7f9b20000e60e4cdcc457714628e5d9ad52ff0d696e1ffd344d06a23615d492d .
@@ -1740,6 +1732,10 @@ elis:61b3be9b-45f7-437f-a3f5-091f550a85b0 a dcat:CatalogRecord ;
 elis:622b6cc8-fd5e-4732-ae3f-60750ffcb48a a dcat:CatalogRecord ;
     dct:title "X.1148 : Framework of de-identification process for telecommunication service providers"@en ;
     foaf:primaryTopic cssvrsc:08dcfceb430258afca7c26e6347dbfe2ba85e8bfa280581c2aad246bc2ddf485 .
+
+elis:62a4a219-aef9-460f-ad93-2454fe3153c1 a dcat:CatalogRecord ;
+    dct:title "Electronic Signatures and Infrastructures (ESI); XAdES digital signatures; Part 1: Building blocks and XAdES baseline signatures (ETSI EN 319 132-1)"@en ;
+    foaf:primaryTopic cssvrsc:8ea9cd7abc111f52f04bbcf3ebdfa44e08756fdf213722ef95c6fb3470975b08 .
 
 elis:62ef41ad-177d-4146-b1b4-01c07b5ed7d0 a dcat:CatalogRecord ;
     dct:title "eXtensible Markup Language (XML)" ;
@@ -2426,10 +2422,6 @@ elis:9c37e051-a9e1-4b3d-ae31-8ba16747ddbd a dcat:CatalogRecord ;
     dct:title "AMQP Filter Expressions"@en ;
     foaf:primaryTopic cssvrsc:3faff356f6aa85371f46b8ba6d13998ad72859e0d1331af307e6e5fe42ce71cb .
 
-elis:9d84ebb4-d362-4ad2-a729-06ee49392649 a dcat:CatalogRecord ;
-    dct:title "Directive 2009/140/EC of the European Parliament and of the Council of 25 November 2009 amending Directives 2002/21/EC on a common regulatory framework for electronic communications networks and services, 2002/19/EC on access to, and interconnection of, electronic communications networks and associated facilities, and 2002/20/EC on the authorisation of electronic communications networks and services"@en ;
-    foaf:primaryTopic cssvrsc:0046834e1507afcd215d2fb7801a4b53ed42dc81f370944e96c13738ac1ee102 .
-
 elis:9dcc3c1a-5882-4835-b36f-c2b88261868f a dcat:CatalogRecord ;
     dct:title "Linked Open Data Vocabularies LOD Vocabularies"@en ;
     foaf:primaryTopic cssvrsc:291a4700b5d611dbd7032f4830a96a179e8b86edf5787fde48299eb75d68bcd4 .
@@ -2634,10 +2626,6 @@ elis:b2138da9-3710-402d-b1fc-e28354f41476 a dcat:CatalogRecord ;
     dct:title "Context Information Management (CIM); NGSI-LD Information Model (ETSI GS CIM 006)"@en ;
     foaf:primaryTopic cssvrsc:5c609eb6f297d79bff294f1f03c2e346133df99e0ca5e066f6ef3787052516bd .
 
-elis:b25e4a98-960c-4a35-b996-5154fc26758b a dcat:CatalogRecord ;
-    dct:title "Directive-proposal COM/2012/0721 on the accessibility of public sector websites. "@en ;
-    foaf:primaryTopic cssvrsc:f36ce406cf0470d6b8c3d4f04141fb8c35c10e1342c6fb68a55e4cbf1b30eb9d .
-
 elis:b2646e68-0a06-4193-9d90-4016190accb2 a dcat:CatalogRecord ;
     dct:title "ITU-T X.1752: Security guidelines for big data infrastructure and platform" ;
     foaf:primaryTopic cssvrsc:22702e20504dff2bb6f6363dc90614cabefc67f9a23f838309ac500978586ff5 .
@@ -2737,14 +2725,6 @@ elis:bbfecf36-bc56-47fb-a732-8374f8d52350 a dcat:CatalogRecord ;
 elis:bc5a75f2-abd9-4d28-b50e-7ec306643870 a dcat:CatalogRecord ;
     dct:title "Linked Data Event Streams (LDES)"@en ;
     foaf:primaryTopic cssvrsc:8c25fc22b6b6f1ff9ac5f698258c1bac7ea63c99f2f818130b7933f25f8cafa7 .
-
-elis:bc6c29ba-46c9-4c07-baa4-18d9d61a4947 a dcat:CatalogRecord ;
-    dct:title "Ethic Guidelines for Trustworthy Artificial Intelligence (AI)"@en ;
-    foaf:primaryTopic cssvrsc:a1069cd1458550e59b2d65e8783110b20421abc5ee0c011fd0e71c8dbe699940 .
-
-elis:bc6d68e4-afc1-4c77-aea3-9afc0ab2b07c a dcat:CatalogRecord ;
-    dct:title "Regulation (EU) No 1316/2013 of the European Parliament and of the Council of 11 December 2013 establishing the Connecting Europe Facility, amending Regulation (EU) No 913/2010 and repealing Regulations (EC) No 680/2007 and (EC) No 67/2010 Text with EEA"@en ;
-    foaf:primaryTopic cssvrsc:ff8279db1fde0e4287ecd59aab3e2eeba63097e58dcd9ccfa4c55022f881e5e4 .
 
 elis:bc7152b9-cdef-4de9-a0e4-4e760cb220ce a dcat:CatalogRecord ;
     dct:title "Regulation (EU) 2023/2854 of the European Parliament and of the Council of 13 December 2023 on harmonised rules on fair access to and use of data and amending Regulation (EU) 2017/2394 and Directive (EU) 2020/1828 (Data Act)"@en ;
@@ -2925,10 +2905,6 @@ elis:cc36276c-1a39-4836-99ea-b3876a3cbf98 a dcat:CatalogRecord ;
     dct:title "System for Cross-domain Identity Management (SCIM) Protocol (RFC 7644)"@en ;
     foaf:primaryTopic cssvrsc:31f2ff5bbc6982b0c6fd24e4faa75012a9c88823b142548f13d75da7c853b7cd .
 
-elis:cd7e94cb-fbf4-4edc-869b-8af45fa7a5b0 a dcat:CatalogRecord ;
-    dct:title "Directive (EU) 2016/1148 of the European Parliament and of the Council of 6 July 2016 concerning measures for a high common level of security of network and information systems across the Union"@en ;
-    foaf:primaryTopic cssvrsc:c68c118663bdaec42dcc2bbd683897cdbe4f670e27aab2c346d953281b0265c2 .
-
 elis:ce584ae9-c829-47c6-b7eb-7197db703dbe a dcat:CatalogRecord ;
     dct:title "File Transfer Protocol (FTP) (RFC 959)"@en ;
     foaf:primaryTopic cssvrsc:35e2ef41fca202e1fba4b5003d4f50987162664aa81f794762fa7c14d7c9f61c .
@@ -3108,10 +3084,6 @@ elis:dc7ee642-727c-443a-99a8-32d538415206 a dcat:CatalogRecord ;
     dct:title "Catalogue Services Standard 2.0 Extension Package for ebRIM Application Profile: Earth Observation Products"@en ;
     foaf:primaryTopic cssvrsc:dde05f7ca9b85d5179d8e9d31a70388f11eb71611c0b8982951f5fc8b78e193d .
 
-elis:dcb07e77-d736-466a-9255-63f0018f5837 a dcat:CatalogRecord ;
-    dct:title "DECISION (EU) 2015/2240 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 25 November 2015, establishing a programme on interoperability solutions and common frameworks for European public administrations, businesses and citizens (ISA2 programme) as a means for modernising the public sector"@en ;
-    foaf:primaryTopic cssvrsc:c231b8af9ced594390978d9841c76b5ba3d8e84519f493a11818ad28260a5f11 .
-
 elis:dd7d11a7-780f-4fe4-9326-e236662b5c58 a dcat:CatalogRecord ;
     dct:title "Data Distribution Service (DDS)"@en ;
     foaf:primaryTopic cssvrsc:48437f93739cc7174430c3c368a82f20a2292ae03d39732fdb6d9fe9d89bcd70 .
@@ -3151,10 +3123,6 @@ elis:dfcc68dc-016b-43df-a53d-79c8eb4aec66 a dcat:CatalogRecord ;
 elis:e03b061c-346b-43e6-9b96-377d7a1180a4 a dcat:CatalogRecord ;
     dct:title "Simple Network Management Protocol (SNMP)"@en ;
     foaf:primaryTopic cssvrsc:e33194f8a67103011e1220a24bd87c01924760e098594f86af74948a26a0feed .
-
-elis:e0e19f8f-e0c4-4cbb-8167-cb83e4e11aac a dcat:CatalogRecord ;
-    dct:title "Directive 2003/98/EC of the European Parliament and of the Council of 17 November 2003 on the re-use of public sector information"@en ;
-    foaf:primaryTopic cssvrsc:cf42ed66151cf874dbb8eb198c8035f5441279275791ae74581afc523d968ade .
 
 elis:e207f893-7f7c-4a02-bdd9-fce8ab21e1c5 a dcat:CatalogRecord ;
     dct:title "ETL specification"@en ;
@@ -3309,10 +3277,6 @@ elis:f01ee692-a9c5-4f60-a4ce-4b3da4509628 a dcat:CatalogRecord ;
     dct:title "Electronic Signatures and Infrastructures (ESI); PAdES digital signatures; Part 1: Building blocks and PAdES baseline signatures (ETSI EN 319 142-1)"@en ;
     foaf:primaryTopic cssvrsc:759da1d5deb16402a0b61d54c1bd328fc19c7cfcfc33a25ff4092b01756d2604 .
 
-elis:f31ee692-a9c5-4f60-a4ce-4b3da4509528 a dcat:CatalogRecord ;
-    dct:title "Electronic Signatures and Infrastructures (ESI); PAdES digital signatures; Part 1: Building blocks and PAdES baseline signatures (ETSI EN 319 142-1)"@en ;
-    foaf:primaryTopic cssvrsc:759de1d5deb16402a0b61d54c1bd328fc19c7cfcfc33a25ff4092b01766d2604 .
-
 elis:f0558a7e-1bd7-40a4-996a-aaf5806afec3 a dcat:CatalogRecord ;
     dct:title "Open Document Format for Office Applications (OpenDocument)"@en ;
     foaf:primaryTopic cssvrsc:46686dc0ef5e64da788fbdb188bf9adeacb04109ebe59d1af30b582744b1c07d .
@@ -3328,6 +3292,10 @@ elis:f20e4193-b5e4-4d5f-8a6f-e22c8c2cf0f8 a dcat:CatalogRecord ;
 elis:f22ba8a7-1357-4588-b280-09bdedc1836d a dcat:CatalogRecord ;
     dct:title "ISO/IEC 20000-1:2018 Information technology — Service management — Part 1: Service management system requirements"@en ;
     foaf:primaryTopic cssvrsc:d3c763a62cbb890447c67932b34050ae382276be164fd6f8b22480941ca0cb21 .
+
+elis:f31ee692-a9c5-4f60-a4ce-4b3da4509528 a dcat:CatalogRecord ;
+    dct:title "Electronic Signatures and Infrastructures (ESI); PAdES digital signatures; Part 1: Building blocks and PAdES baseline signatures (ETSI EN 319 142-1)"@en ;
+    foaf:primaryTopic cssvrsc:759de1d5deb16402a0b61d54c1bd328fc19c7cfcfc33a25ff4092b01766d2604 .
 
 elis:f327b0bc-b681-4852-9e14-1e3f02dcd1ad a dcat:CatalogRecord ;
     dct:title "IDSA Rulebook"@en ;
@@ -3470,18 +3438,6 @@ elis:ff9ace97-3487-472e-a810-74a3f35eadc8 a dcat:CatalogRecord ;
     dct:title "ESS handbook for quality and metadata reports (EHQMR)"@en ;
     foaf:primaryTopic cssvrsc:d13b00508474ac53815d9b6faab303cb42aaae9546ff64c443fb9f2040c233bd .
 
-cssvrsc:0046834e1507afcd215d2fb7801a4b53ed42dc81f370944e96c13738ac1ee102 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
-            dct:relation eira:LegalActRequirement ],
-        [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
-            dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
-            dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
-            dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
-            dct:relation eira:BindingInstrumentRequirement ] .
-
 cssvrsc:00748d5c4bf3205488416caf1081c9f86265f6937ea7487b18d63710b7c233d0 a cssv:Specification ;
     dct:relation [ dct:description "Schema.org is a vocabulary in multiple ecodings, this kind of specification like Catalogues of Vocabularies, Ontologies and Reference Data promote the reuse of open mature and largely adopted ontologies. "@en ;
             dct:relation eira:OntologiesCatalogueDataObject ] .
@@ -3602,15 +3558,15 @@ cssvrsc:03f53fba6787826578af1c24a213c77ce3a2fdf8bc19d5c58c51a69e65219467 a cssv:
             dct:relation eira:BlockchainApplicationComponent ] .
 
 cssvrsc:0451cf7280b71e0ba29350bc606ef4599f53336dc99f4fc4419b4fa50686e127 a cssv:Specification ;
-    dct:relation [ dct:description "Some of the operations that WFC provide includes discovery operations that allow the service to be interrogated to determine its capabilities and to retrieve the application schema that defines the feature types that the service offers."@en ;
+    dct:relation [ dct:description "OGC Catalogue Services supports discovery operations that allow clients to query service capabilities and retrieve the schemas defining available feature types."@en ;
             dct:relation eira:MetadataManagementApplicationComponent ],
-        [ dct:description "Some of the operations that WFC provide includes stored query operations that allow clients to create, drop, list and described parameterized query expressions that are stored by the server and can be repeatedly invoked using different parameter values."@en ;
+        [ dct:description "OGC Catalogue Services enables stored query operations, allowing clients to create, manage, and repeatedly execute parameterised queries maintained on the server."@en ;
             dct:relation eira:DataManagementApplicationService ],
         [ dct:description "Some of the operations that WFC provide includes query operations that allow features or values of feature properties to be retrieved from the underlying data store based upon constraints, defined by the client, on feature properties. In addition, transaction operations allow features to be created, changed, replaced and deleted from the underlying data store."@en ;
             dct:relation eira:DataPublicationApplicationService ],
         [ dct:description "Some of the operations that WFC provide includes query operations that allow features or values of feature properties to be retrieved from the underlying data store based upon constraints, defined by the client, on feature properties. In addition, transaction operations allow features to be created, changed, replaced and deleted from the underlying data store."@en ;
             dct:relation eira:DataPublicationApplicationComponent ],
-        [ dct:description "Some of the operations that WFC provide includes stored query operations that allow clients to create, drop, list and described parameterized query expressions that are stored by the server and can be repeatedly invoked using different parameter values."@en ;
+        [ dct:description "OGC Catalogue Services provide a standards-based interface for the management and discovery of geospatial resources, allowing clients to search, browse, and retrieve metadata about spatial datasets, services, and applications. As a data management component, CSW enables persistent catalogue functionality, including support for stored queries and metadata harvesting."@en ;
             dct:relation eira:DataManagementApplicationComponent ],
         [ dct:description "Some of the operations that WFC provide includes discovery operations that allow the service to be interrogated to determine its capabilities and to retrieve the application schema that defines the feature types that the service offers."@en ;
             dct:relation eira:MetadataManagementApplicationService ] .
@@ -3641,7 +3597,7 @@ cssvrsc:05ae30452745c8e7b857a6cea3d573d8454da4491ae4e348f6735d3dc4b0c79b a cssv:
             dct:relation eira:AccessManagementApplicationService ] .
 
 cssvrsc:05cb8884a4a4dfef89e8d78ad03202187bcf840359840add00d0ff20d1f8e549 a cssv:Specification ;
-    dct:relation [ dct:description "Legal act providing a common scope on the context of European Public services and interoperability aspects."@en ;
+    dct:relation [ dct:description "Policy defining a common scope for electronic invoicing across the EU."@en ;
             dct:relation eira:PublicPolicyCourseOfAction ] .
 
 cssvrsc:070acd69015d461438bb2a59f884185e05e8b4deb1cecbc6fdc32dd65c03e45e a cssv:Specification ;
@@ -3661,7 +3617,7 @@ cssvrsc:070bc738b1189f7127e17cc433f6e1e9417f91f8b0858d90c8bbd4054170021c a cssv:
             dct:relation eira:DataExchangeApplicationService ] .
 
 cssvrsc:0725fcf92d52b15e9c5f5ce37020558dc9f4a021215cccaa56ee101535bf2440 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "The EU cybersecurity certification framework defines the system and procedures for EU-wide cybersecurity certification of ICT products, services, and processes, ensuring trusted security levels and facilitating interoperability through standardized assurance criteria."@en ;
             dct:relation eira:SecurityFrameworkBusinessObject ] .
 
 cssvrsc:0762f422b839ba0815430c77fcc3b4174a97f4970951be420c596a524d0c0a08 a cssv:Specification ;
@@ -3741,9 +3697,9 @@ cssvrsc:09ce00273fb3ddb27a19e763415866b93a6ac114f4e1f42e6b9f24e48bacc705 a cssv:
             dct:relation eira:DataExchangeApplicationService ] .
 
 cssvrsc:09d5f955aa3f2e89a91b884839963a35be68332c58006c53d8d7f88e882cb4fa a cssv:Specification ;
-    dct:relation [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+    dct:relation [ dct:description "CPOV provides a simplified, reusable and extensible data model to give structure and format for the structure of a public organisation."@en ;
             dct:relation eira:DataModelDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CPOV supplies a common semantic model for describing public organisations, their structures, roles, and relationships. It facilitates harmonised representation of public administration entities across Member States, enabling interoperability in registries, public-sector directories, service descriptions, and organisational metadata. As a foundational vocabulary, it can be extended or profiled to meet national or sector-specific requirements while ensuring compatibility with broader European interoperability efforts."@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
         camssa:25a391b815d1366d9abbd182f846ef1953956c6ff4460c7a6741d114ee3a8fb3,
         camssa:4d275ba63d9fc120129b7025cd8826c702866a10b710bb8c8f46d5d43bcf0c1b .
@@ -3799,13 +3755,13 @@ cssvrsc:0b5ca6a33100cb56e1cc66c9d98fb21b5ccfa47736ae8c8b6a9f9ade5b82e349 a cssv:
 cssvrsc:0bea14534616081e41ae6305b70508a1cc5e43feb05a1f254e495c902c1c0330 a cssv:Specification ;
     dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in the EU context."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+        [ dct:description "National-level requirement defining minimum rules for processing electronically signed documents to support interoperability."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "A binding instrument defining obligations for electronic signature validation across borders."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
         [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects. This ABB association is inherited from the Legal Act ABB in EIRA v6.0.0."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Decision establishes mandatory conditions for the cross-border recognition and processing of electronically signed documents, defining interoperability obligations and implementation milestones for competent authorities."@en ;
             dct:relation eira:LegalActRequirement ] .
 
 cssvrsc:0c29d2cb413399491569ef6ed8f2eaa3624e4feda6c3c3d88d51862416a23dc3 a cssv:Specification ;
@@ -3863,7 +3819,7 @@ cssvrsc:0e2bad82870e7abae827de478cff738ca43ce1e7ed07c7c400652936d8731105 a cssv:
             dct:relation eira:AccessManagementApplicationComponent ] .
 
 cssvrsc:0e933635134babec537800b3a518bc3f98b95e43dcd0cedaede685fba47a8a3a a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "The EU Cybersecurity Act establishes the overarching EU governance, roles, and measures for strengthening cybersecurity, enabling the protection of information assets through harmonized rules, oversight structures, and interoperability-oriented obligations."@en ;
             dct:relation eira:SecurityFrameworkBusinessObject ] .
 
 cssvrsc:1051d9d733d3a1f21d84e7efb0d9812dba7a5fb8b467dcfacf33ca6c86904e10 a cssv:Specification ;
@@ -3927,7 +3883,7 @@ cssvrsc:1362f2b9dae365a631a0b39ec1c250e36b7936eee4fae44e43606eb7f2bb9c78 a cssv:
             dct:relation eira:Digital-readyPolicymakingBusinessProcess ] .
 
 cssvrsc:145e9d989fe756ecae982fd3edbaea0e2c4b6b80aef13525e10a04a84730e119 a cssv:Specification ;
-    dct:relation [ dct:description "This agreement constitutes a way of collaboration in the development of ICT standards that can be considered as the forum where specialised organisation work in close collaboration for the development of common opportunities. This can mean the creation of technical specifications or best practices for their development."@en ;
+    dct:relation [ dct:description "The Frankfurt Agreement formalises collaboration between IEC and CENELEC, allowing for coordinated development, harmonization, and parallel voting on international and European electrotechnical standards. It ensures that European standards are consistent with global IEC deliverables, thereby reducing duplication of effort and ensuring technical coherence across jurisdictions. As an interoperability agreement, it provides a structured framework for joint work, shared technical committees, and aligned processes, facilitating the production of harmonized electrotechnical specifications that support cross-border interoperability, safety, and market consistency."@en ;
             dct:relation eira:TechnicalInteroperabilityAgreementContract ],
         [ dct:description "This agreement constitutes a way of collaboration in the development of ICT standards that can be considered as the forum where specialised organisation work in close collaboration for the development of common opportunities. This can mean the creation of technical specifications or best practices for their development."@en ;
             dct:relation eira:TechnicalAgreementContract ] .
@@ -4085,7 +4041,7 @@ cssvrsc:1882dc8dd53cd68ae6f4ef083f0a36929b238739d27d72ee21f1da2ca020f7b6 a cssv:
             dct:relation eira:VirtualPrivateNetworkTechnologyService ] .
 
 cssvrsc:189e9f104cccc0c206c4d749f5009ce2caf50024d8a61cc20e0d9877a4948cb8 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A binding instrument defining obligations for cross-border service provision."@en ;
             dct:relation eira:BindingInstrumentRequirement ] .
 
 cssvrsc:18e962f8926c32cf12933a15d98fa0827bf23521f480c819de718584788b2aa7 a cssv:Specification ;
@@ -4277,7 +4233,7 @@ cssvrsc:1d65e81e4d8a4d523d4e534fe3a81980841368cc1b57a177741dda9a20a41abc a cssv:
             dct:relation eira:OrchestrationApplicationService ] .
 
 cssvrsc:1db4b73d79c4745a67c5be20e0006b042569498e82631153b7756554d0847d80 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A binding instrument defining obligations for privacy and user rights in digital services."@en ;
             dct:relation eira:BindingInstrumentRequirement ] .
 
 cssvrsc:1e0210702ccff26bc388a1d4dd382ce9807ab4f0bba75206e10cedc66fa1af4b a cssv:Specification ;
@@ -4289,9 +4245,9 @@ cssvrsc:1e13187a6644da3edd13e840dc4476833aace930d4a7fc373fde842f3ef69739 a cssv:
             dct:relation eira:VirtualPrivateNetworkTechnologyService ] .
 
 cssvrsc:1ea83628effae4976a072f101539af9ae9596e3a8ac9b456dc958a57fb5a92cb a cssv:Specification ;
-    dct:relation [ dct:description "This standard explains how Catalogue Services based on the ISO19115/ISO19119 Application Profile for the OGC® Catalogue Services Specification v 2.0.2 are organized and implemented for the discovery, retrieval and management of data, metadata, services metadata and application metadata."@en ;
+    dct:relation [ dct:description "OpenGIS Catalogue Services Specification defines catalogue mechanisms for interoperable management of geospatial metadata and services."@en ;
             dct:relation eira:MetadataManagementApplicationComponent ],
-        [ dct:description "This standard explains how Catalogue Services based on the ISO19115/ISO19119 Application Profile for the OGC® Catalogue Services Specification v 2.0.2 are organized and implemented for the discovery, retrieval and management of data, metadata, services metadata and application metadata."@en ;
+        [ dct:description "This profile defines how OGC Catalogue Services should handle ISO 19115/19119 metadata, specifying service operations, bindings, and processing models for geospatial metadata management. It guides the implementation of catalogue services capable of interoperable metadata discovery, retrieval, and service chaining in distributed spatial data infrastructures."@en ;
             dct:relation eira:MetadataManagementApplicationService ] .
 
 cssvrsc:1ebf0c83e76bab3c6b3bda22b6843136de849f906ed66b8e39ab927f4bb6d2bf a cssv:Specification ;
@@ -4396,9 +4352,9 @@ cssvrsc:2519e714fe2baccf790d51fb84978ee4d368a871889fdf261630d3a1a9e7d237 a cssv:
             dct:relation eira:DataModelDataObject ] .
 
 cssvrsc:2530ab0daee506060b46a67ad31e86192dd538d189d049ef59718edc7c2ea121 a cssv:Specification ;
-    dct:relation [ dct:description "The X.509 specification can evaluate digital signatures and decide whether a signature is valid or invalid."@en ;
+    dct:relation [ dct:description "Service specification enabling validation of digital signatures using public-key and certificate structures."@en ;
             dct:relation eira:E-SignatureVerificationAndValidationApplicationService ],
-        [ dct:description "The X.509 specification defines a framework for obtaining and trusting a public key of an entity in order to verify the digital signature of that entity."@en ;
+        [ dct:description "The X.509 specifications defines a framework for obtaining and trusting a public key of an entity in order to verify the digital signature of that entity."@en ;
             dct:relation eira:TrustServiceProvisioningApplicationComponent ] .
 
 cssvrsc:259adc3aa3395ec35cb2831ab4ec0e2831afe598dc401dd48f183fd9310dcfbf a cssv:Specification ;
@@ -4584,15 +4540,15 @@ cssvrsc:2a8d11054390e9202db664920d2fb0ddb1a28c805e5d1d96a24c081fa6cb349d a cssv:
         camssa:8d195b05db64fb4b62544fb55e920029bbb6b2a0fb514ed9323455aa21c4d850 .
 
 cssvrsc:2b1360464d9f04688a468f625ce1b738d81cf37a037ddee359143646bb7b8c3e a cssv:Specification ;
-    dct:relation [ dct:description "This is not a regulation that would apply in any and all cases but most domains would involve at least identification."@en ;
+    dct:relation [ dct:description "European-level legal act defining rules for interoperable electronic identification."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "This is not a regulation that would apply in any and all cases but most domains would involve at least identification."@en ;
+        [ dct:description "This Implementing Regulation defines compulsory interoperability standards for cross-border electronic identification, applying primarily to contexts requiring identity assurance rather than universally to all domains."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "This is not a regulation that would apply in any and all cases but most domains would involve in a specific national context."@en ;
+        [ dct:description "A requirement enabling national transposition into domain-specific contexts."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "This is not a regulation that would apply in any and all cases but most domains would involve at least identification."@en ;
+        [ dct:description "This Implementing Decision supports consistent cross-border electronic identification by defining operational and technical interoperability rules necessary for trust services and eID systems."@en ;
             dct:relation eira:LegalActRequirement ],
-        [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
+        [ dct:description "Non-binding guidance proposing interoperability requirements that national legislators may consider."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185 a cssv:Specification ;
@@ -4640,7 +4596,7 @@ cssvrsc:2c73d6b18174b513c3cd39edb04010430a6173de2653f03fdbbb17872d16c496 a cssv:
             dct:relation eira:TechnicalInteroperabilityAgreementContract ] .
 
 cssvrsc:2cb6c107c7d64a31bb0fb9e3df66f29f5bd1a7f371160200d5aabddfb58e038e a cssv:Specification ;
-    dct:relation [ dct:description "Legal act providing a common scope on the context of European Public services and interoperability aspects."@en ;
+    dct:relation [ dct:description "Policy proposal defining a harmonised approach to VAT in cross-border digital services."@en ;
             dct:relation eira:PublicPolicyCourseOfAction ] .
 
 cssvrsc:2d2f0ff93964c210c3760141f4528c0cf9cdef54b02886ea42f170b71e095b98 a cssv:Specification ;
@@ -4648,21 +4604,21 @@ cssvrsc:2d2f0ff93964c210c3760141f4528c0cf9cdef54b02886ea42f170b71e095b98 a cssv:
             dct:relation eira:AgreementOnDataSharingContract ],
         [ dct:description "The Regulation for the European Data Governance provides requirements and principles to establish a common framework for data goveranance fostering interoperability across borders."@en ;
             dct:relation eira:InteroperabilityFrameworkBusinessObject ],
-        [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+        [ dct:description "Defines policy elements regulating personal data handling and data protection principles."@en ;
             dct:relation eira:PrivacyPolicyBusinessObject ],
-        [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+        [ dct:description "This Communication outlines strategic principles and key elements for designing interoperable, data-driven public services, highlighting governance, data management, and cross-border service integration."@en ;
             dct:relation eira:DataPortabilityPolicyBusinessObject ],
-        [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+        [ dct:description "This European Communication encourages structured management of core datasets to ensure consistency, reusability and reliable linkage across systems."@en ;
             dct:relation eira:MasterDataPolicyBusinessObject ],
         [ dct:description "The Regulation for the European Data Governance provides requirements and principles to establish a common framework for data goveranance fostering interoperability across borders."@en ;
             dct:relation eira:AgreementOfTheUseOnCommonInfrastructureContract ],
-        [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+        [ dct:description "This European Communication defines governance mechanisms for data reuse and sharing, supporting trustworthy and interoperable data ecosystems across domains."@en ;
             dct:relation eira:DataPolicyBusinessObject ],
-        [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+        [ dct:description "This European Communication establishes safeguards and risk-handling requirements to maintain the security and integrity of shared data within interoperable environments."@en ;
             dct:relation eira:SecurityPolicyBusinessObject ],
         [ dct:description "Non-binding legal instrument that is business domain agnostic with the following objectives: (1) Making public sector data available for re-use, in situations where such data is subject to rights of others; (2) Sharing of data among businesses, against remuneration in any form; (3)Allowing personal data to be used with the help of a ‘personal data-sharing intermediary’, designed to help individuals exercise their rights under the General Data Protection Regulation (GDPR); (4)Allowing data use on altruistic grounds."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+        [ dct:description "This European Communication promotes transparent access and controlled reuse of public-sector data, enabling interoperable open-data services and innovation."@en ;
             dct:relation eira:OpenDataPolicyBusinessObject ] .
 
 cssvrsc:2d537e8d36b69a52f7fa4f16d23f00c25701f6ce500e4150eefb592599c32344 a cssv:Specification ;
@@ -4731,15 +4687,15 @@ cssvrsc:2f66490fddd1e3f289a6943532714965ad7d1222830eb937d6c3bf740b152066 a cssv:
             dct:relation eira:AuditApplicationService ] .
 
 cssvrsc:2f848b09bbfd40328bd513dc06611fdd900e08b4f95c6ab5e0e5b7c957ab57a1 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+    dct:relation [ dct:description "National-level requirement establishing minimum technical specifications for assurance levels in electronic identification."@en ;
             dct:relation eira:NationalLegalActRequirement ],
         [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects at European level."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
+        [ dct:description "Non-binding guidance proposing technical rules for eID assurance applicable in specific contexts."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "A binding EU legal act specifying minimum technical rules for eID assurance, introducing requirements impacting digital public services."@en ;
             dct:relation eira:LegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Regulation establishes technical specifications and procedural obligations for electronic identification assurance levels, providing interoperability-oriented requirements applicable across sectors handling trusted electronic identification."@en ;
             dct:relation eira:EuropeanLegalActRequirement ] .
 
 cssvrsc:2f856146c296f898d22bb9f902b57a9165aa118215b17854df23e4642ceb4c06 a cssv:Specification ;
@@ -4815,7 +4771,7 @@ cssvrsc:323029c09f075ae9d8e17527dc94a5bfdadbf301095096a3d9c52f528e1a791e a cssv:
             dct:relation eira:DatasetCatalogueDataObject ] .
 
 cssvrsc:323f9183321bfcf41cf4b055c06d5c31f6d31023c1eecd49f299235fdf803eb2 a cssv:Specification ;
-    dct:relation [ dct:description "Legal act providing a common scope on the context of European Public services and interoperability aspects."@en ;
+    dct:relation [ dct:description "Policy establishing a harmonised EU framework for awarding concession contracts, ensuring transparent, non-discriminatory, and interoperable procedures for cross-border service provision."@en ;
             dct:relation eira:PublicPolicyCourseOfAction ] .
 
 cssvrsc:32734470ba159f230ee255180239975caec190ecd44e769d8a57df7e16b90efe a cssv:Specification ;
@@ -4884,15 +4840,15 @@ cssvrsc:34878e59928307297140ebf6c50d13e1ffec2f210f921cbfafa15dffaa0d6747 a cssv:
             dct:relation eira:DataAnalyticsApplicationService ] .
 
 cssvrsc:34a80d468898329016f4b93cbab810ea6fb1da5b54076014fb64d46f4b36a66a a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A binding instrument establishing obligations for secure and interoperable payment services."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Directive introduces obligations related to secure, interoperable payment services in the internal market, establishing milestones and regulatory requirements for institutions offering digital payment services."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+        [ dct:description "National-level requirement defining obligations for secure and interoperable payment services."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Regulation sets rules enabling secure, interoperable payment services and data access mechanisms while harmonising digital financial operations across Member States."@en ;
             dct:relation eira:LegalActRequirement ],
-        [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
+        [ dct:description "Non-binding guidance proposing provisions applicable in selected legislative contexts."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:34ae965b550d09334658a78fd5eca236e8640a1ba4df78f05a728ccddafacfd1 a cssv:Specification ;
@@ -5002,31 +4958,31 @@ cssvrsc:3753324ce5b4d64e25a8a1de1e6fb40cfbd4a73ade38696b0fb56692368ab548 a cssv:
             dct:relation eira:DataLakeStorageTechnologyService ] .
 
 cssvrsc:37fbdab3d5a73a430a6bd0ca3c25e859b4bf83a01e6f81d224238d3bbede8315 a cssv:Specification ;
-    dct:relation [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+    dct:relation [ dct:description "DCAT 3.0 is a vocabulary used for dataset catalogue and service catalogue description, metadata interoperability, and secure referencing using hash codes."@en ;
             dct:relation eira:DataDataObject ],
         [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
         [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:DataModelDataObject ],
-        [ dct:description "Specification used for the description of catalogues and datasets. It allows the creation, storage, categorisation and retrieval of Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT v3 extends DCAT v2 with enhanced dataset description capabilities, supporting semantic interoperability and advanced metadata management."@en ;
             dct:relation eira:DataPublicationApplicationService ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT v3 emphasises accessibility beyond RDF ecosystems. It maintains the core organisational logic of datasets, distributions, and temporal structures, but allows this information to be exposed in a variety of formats. This flexibility makes DCAT v3 valuable in environments where semantic technologies are optional rather than required, ensuring that metadata remains usable even in heterogeneous technical landscapes."@en ;
             dct:relation eira:OpenDataRepresentation ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues"@en ;
+        [ dct:description "DCAT 3.0 is a vocabulary used for dataset catalogue and service catalogue description, metadata interoperability, and secure referencing using hash codes."@en ;
             dct:relation eira:DatasetCatalogueDataObject ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT v3 becomes an RDF-native framework capable of expressing rich catalogue metadata with precision. Its support for dataset series, temporal evolution, and multi-distribution modelling gives linked data ecosystems a far more expressive structure, allowing metadata to be interwoven across organisational and jurisdictional boundaries. In this form, interoperability is not merely a technical property but a structural expectation, enabling automatic discovery and seamless cross-catalogue integration."@en ;
             dct:relation eira:LinkedDataRepresentation ],
         [ dct:description "DCAT enables a publisher to describe datasets and data services in a catalog using a standard model and vocabulary that facilitates the consumption and aggregation of metadata from multiple catalogs."@en ;
             dct:relation eira:MetadataDataObject ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability, including the use of hash codes."@en ;
+        [ dct:description "DCAT 3.0 is a vocabulary used for secure referencing using hash codes."@en ;
             dct:relation eira:HashCodeDataObject ],
-        [ dct:description "The specification defines a mechanism that allows restricted resources on a web page to be requested from another domain and embedded."@en ;
+        [ dct:description "DCAT 3.0 defines a mechanism that allows restricted resources on a web page to be requested from another domain and embedded."@en ;
             dct:relation eira:MetadataManagementApplicationService ],
-        [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT v3 extends this semantic expressiveness into the public domain. Openness ensures that catalogue metadata—already semantically interconnected—can flow freely across sectors. This enables large-scale federations of catalogues, strengthens transparency, and promotes reuse by both public institutions and private innovators. DCAT v3 thus becomes a shared semantic layer capable of supporting continent-scale interoperability."@en ;
             dct:relation eira:LinkedOpenDataRepresentation ],
-        [ dct:description "The specification defines a mechanism that allows restricted resources on a web page to be requested from another domain and embedded."@en ;
+        [ dct:description "DCAT v3 extends the metadata model to support richer dataset descriptions, dynamic data services, access control metadata, and domain-specific profiles. As a metadata management component, it enhances interoperability among open data platforms and supports more sophisticated catalogue functionalities, including real-time or API-driven dataset access."@en ;
             dct:relation eira:MetadataManagementApplicationComponent ],
-        [ dct:description "Specification used for the description of catalogues and datasets. It allows the creation, storage, categorisation and retrieval of Metadata, semantics & ontologies, interoperability"@en ;
+        [ dct:description "DCAT 3.0 evolves into a sophisticated platform for metadata publication. DCAT v3 enables complex catalogue infrastructures that span organisations and jurisdictions. It introduces advanced features like dataset series, temporal evolution, and multi-distribution modelling, offering a more nuanced approach to catalogue management across diverse environments. This version marks a step forward in the field of metadata management, moving beyond the basics of dataset publishing to embrace a more dynamic, flexible approach to data organisation and retrieval."@en ;
             dct:relation eira:DataPublicationApplicationComponent ],
         [ dct:description "DCAT enables a publisher to describe datasets and data services in a catalog using a standard model and vocabulary. This can increase the discoverability of datasets and data services. And it also makes it possible to have a decentralized approach to publishing data catalogs and makes federated search for datasets across catalogs in multiple sites possible using the same query mechanism and structure."@en ;
             dct:relation eira:MetadataCatalogueDataObject ] .
@@ -5099,9 +5055,9 @@ cssvrsc:3cf37deed7227e09410700f709cf5b0d23c424437e200878f99264d420a135d6 a cssv:
             dct:relation eira:APIApplicationInterface ] .
 
 cssvrsc:3d85f2c2d49effc22e709d81664f8ca99e5a6eada7a895a241062889680a5196 a cssv:Specification ;
-    dct:relation [ dct:description "EIRA is an Architecture content metamodel defining the most salient architectural building blocks (ABBs) needed to guide public authorities in their transition to an interoperable e-Government."@en ;
+    dct:relation [ dct:description "EIRA 3.1.0 acts as an early contract defining core technical specifications to help organisations operate across different technical frameworks. In this version, the focus is on stabilising the essential ABB set and clarifying the basic interoperability structure."@en ;
             dct:relation eira:InteroperableDigitalPublicServiceImplementationOrientationConstraint ],
-        [ dct:description "EIRA is an Architecture content metamodel defining the most salient architectural building blocks (ABBs) needed to build interoperable e-Government systems."@en ;
+        [ dct:description "EIRA 3.1.0 represents a mature, stable stage of the framework, focusing on clarifying key ABBs and strengthening the baseline needed to support Technical Interoperability and the creation of interoperable European digital public services."@en ;
             dct:relation eira:TechnicalInteroperabilityAgreementContract ] .
 
 cssvrsc:3da81aadf6d3e0c7393a90c6b17089c391e42fa9648b20dbc73fb718bda3ef7f a cssv:Specification ;
@@ -5129,11 +5085,11 @@ cssvrsc:3e468bebc4faefc2bb1f1157bb50144419901ac3b93660b184ce3211cd47de28 a cssv:
             dct:relation eira:PrivacyPolicyBusinessObject ] .
 
 cssvrsc:3edf88b70b2b0484e950151349cc7fe54172a992ac41cca4b854d158fb23477a a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A binding instrument establishing obligations for fair access and sharing of data."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects. "@en ;
+        [ dct:description "This Regulation sets cross-sector obligations for fair, interoperable access to and use of data, defining rights, duties, and mechanisms to support data sharing across the internal market."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects. "@en ;
+        [ dct:description "This Regulation requires Member States to implement harmonised rules enabling fair access to and sharing of data, impacting national frameworks for data governance and interoperability."@en ;
             dct:relation eira:NationalLegalActRequirement ] .
 
 cssvrsc:3f08339e9b30d02808e34e1d1d4505b6b07ebdb5e75b00fb84381e17e7bbc44f a cssv:Specification ;
@@ -5231,15 +5187,15 @@ cssvrsc:43c225a0b3a969615a19f525ad19d49bc0916e190f06ff374b7ab3ea7fe8ee99 a cssv:
             dct:relation eira:PhysicalNetworkInfrastructureEquipment ] .
 
 cssvrsc:4436eacc9ca95a0a58e5e7992d9b210830720a4aeec5009ed5ef7437b80f3987 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A European legal act defining obligations for interoperable electronic communications services."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
+        [ dct:description "Non-binding guidance proposing communications-related requirements that may be adopted nationally."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Directive consolidates and modernises rules governing electronic communications networks and services, including interoperability-related obligations, to ensure consistent, reliable digital communications across the internal market."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+        [ dct:description "National-level requirement defining obligations for interoperable electronic communications services."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Directive establishes a harmonised regulatory framework for electronic communications networks and services, promoting interoperability, consumer protection, and consistent cross-border digital communications across the Union."@en ;
             dct:relation eira:LegalActRequirement ] .
 
 cssvrsc:446e7301829e85707da02adcf6c1b42a20d725363731cfa6e8c362b9713cf2e7 a cssv:Specification ;
@@ -5343,7 +5299,7 @@ cssvrsc:4909c79d2759fc5cdbd6e87160f397452ee9484bd8d9e9bf838be385108c987c a cssv:
         camssa:92b49a4322c2ed1be0313bd366752cc6e7f76dea41127319c7129fb7d59f1fe1 .
 
 cssvrsc:4935c8df45126dd2e1b9dec2099e3842c21bf2bf1a9862ac0ae3823dc8591ac9 a cssv:Specification ;
-    dct:relation [ dct:description "RDF is a specification that is used in defining the way in which data is put together with appropriate identifiers, delimiters, separator character(s), and other non-data characters to form messages."@en ;
+    dct:relation [ dct:description "RML is a generic mapping language used to express rules that transform heterogeneous data sources (CSV, XML, JSON, relational databases, etc.) into RDF. As a syntax-level data object, RML describes the structural rules governing the mapping process, enabling automated conversion into linked data graphs."@en ;
             dct:relation eira:DataSyntaxDataObject ],
         [ dct:description "RML allows any solution to establish correspondences between original and target formated data scheme, based on a set of rules."@en ;
             dct:relation eira:DataExtractionTransformationAndLoadingApplicationComponent ],
@@ -5414,7 +5370,7 @@ cssvrsc:4abdf0772fd22a12fffce6714b8c00f1aadae3af2190781ad8077714d48f42d4 a cssv:
             dct:relation eira:ControlledVocabularyDataObject ] .
 
 cssvrsc:4ac03729ce6059a948f986d308360c552166a22ef62b90dc47d0f735371830a2 a cssv:Specification ;
-    dct:relation [ dct:description "The specification is a widely used XML-based framework for communicating user authentication, entitlement, and attribute information. It is generally used by access management components and services to allow authorized users to make us of an IT service."@en ;
+    dct:relation [ dct:description "SAML 2.0 is an XML-based framework enabling access management services to communicate authentication, authorisation, and user attributes, allowing authorised users to access IT services securely."@en ;
             dct:relation eira:AccessManagementApplicationService ],
         [ dct:description "The specification is a widely used XML-based framework for communicating user authentication, entitlement, and attribute information. It is generally used by access management components and services to allow authorized users to make us of an IT service."@en ;
             dct:relation eira:IdentificationApplicationComponent ],
@@ -5458,7 +5414,7 @@ cssvrsc:4ce75b13d1326e2fe8c37f475f8fba0e10b181848b14fe203ff8f47c322c536d a cssv:
             dct:relation eira:AuthorisationApplicationService ] .
 
 cssvrsc:4d8e966bd2feb44e2bf4851dac340c4af4c79068aa14eed8eec1ab89e83add83 a cssv:Specification ;
-    dct:relation [ dct:description "Technical Interoperability agreements base on common best practices, methodologies, technical standards and specifications to perform the monitoring, control and accountability on the collaboration between services."@en ;
+    dct:relation [ dct:description "CMMI provides a framework of best practices and standards to guide process improvement and interoperability monitoring between services."@en ;
             dct:relation eira:TechnicalInteroperabilityAgreementContract ] .
 
 cssvrsc:4dd23efd702c35d1d55f5535b533a9b7b90a450f379fd89d811b248f4c2c7959 a cssv:Standard ;
@@ -5478,7 +5434,7 @@ cssvrsc:4dd23efd702c35d1d55f5535b533a9b7b90a450f379fd89d811b248f4c2c7959 a cssv:
             dct:relation eira:SemanticInteroperabilityAgreementContract ] .
 
 cssvrsc:4e317c4cabfaf03c9499e8d04c8df76425b374623b60542747b0e4857161f46a a cssv:Specification ;
-    dct:relation [ dct:description "All representations of data that must be encoded for the need of interoperability"@en ;
+    dct:relation [ dct:description "UTF-16 offers more uniform encoding for languages with large character sets than UTF-8 to support accurate identification, management, and use within interoperable environments."@en ;
             dct:relation eira:MetadataDataObject ],
         [ dct:description "All representations of data that must be encoded for the need of interoperability"@en ;
             dct:relation eira:LinkedDataRepresentation ],
@@ -5498,19 +5454,19 @@ cssvrsc:4e317c4cabfaf03c9499e8d04c8df76425b374623b60542747b0e4857161f46a a cssv:
 cssvrsc:4ee31498c8419fd779b4bb5165b45cd4b13218e699df198b7f4d35ac3bfb2a9d a cssv:Specification ;
     dct:relation [ dct:description "Business agnostic legal act defining interoperability requirements in a specific national context."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "A binding instrument setting obligations for unified access to procedures and information."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "This communication from the Commission includes a set of plans and principles to achieve a common data space enhancing the Interoperability across borders."@en ;
+        [ dct:description "This communication from the Commission establishes a catalogue of public services and their descriptions, enabling consistent discovery across the EU."@en ;
             dct:relation eira:DigitalPublicServiceCatalogueBusinessObject ],
-        [ dct:description "Business agnostic legal act defining interoperability requirements."@en ;
+        [ dct:description "A non-binding instrument guiding harmonised access to procedures, information, and assistance services."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Regulation also acts as a driver of digitalisation, setting milestones and obligations for the development of interoperable, user-centric digital public services across Member States."@en ;
             dct:relation eira:DigitalisationRoadmapWorkPackage ],
-        [ dct:description "Business agnostic legal act defining interoperability requirements."@en ;
+        [ dct:description "This Regulation mandates interoperable access to online procedures, assistance services, and authoritative information, defining requirements for seamless cross-border digital interactions within the EU."@en ;
             dct:relation eira:LegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Regulation defines organisational, semantic and technical elements needed to integrate administrative procedures into a coherent EU-wide digital environment."@en ;
             dct:relation eira:InteroperabilityFrameworkBusinessObject ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects. "@en ;
+        [ dct:description "This Regulation creates a unified access point for cross-border digital public services, promoting seamless online procedures for citizens and businesses."@en ;
             dct:relation eira:DigitalPublicServiceProvisionBusinessFunction ],
         [ dct:description "Business agnostic legal act defining interoperability requirements."@en ;
             dct:relation eira:EuropeanLegalActRequirement ] .
@@ -5524,7 +5480,7 @@ cssvrsc:4f5086956ce7e0b60b68a495894409cd87434260749581ec127f9072afb4c6c6 a cssv:
             dct:relation eira:IdentificationApplicationComponent ] .
 
 cssvrsc:4fc4d2011afea421c53f511b8cc5b2757e24a04071e28c0a38161f609a60d135 a cssv:Specification ;
-    dct:relation [ dct:description "Legal act providing a common scope on the context of European Public services and interoperability aspects."@en ;
+    dct:relation [ dct:description "Policy defining a unified EU framework for public procurement, promoting transparency, competition, and interoperability across Member States by standardising procedures and procurement practices."@en ;
             dct:relation eira:PublicPolicyCourseOfAction ] .
 
 cssvrsc:501b3f4af1f8c60c0a97be87156ea16a796c318f0083ca5700916e0f3c87e3bc a cssv:Specification ;
@@ -5542,9 +5498,9 @@ cssvrsc:504bd13a4c26c1ce656ab26a3d62e9bcfd26c4172a0a8ed4ea2e6d782fffaa51 a cssv:
             dct:relation eira:AccessManagementApplicationService ],
         [ dct:description "The eDelivery Access Point (AP) Domibus acts as a single entry point for multiple APIs, managing and coordinating the flow of messages in a standardised manner, thereby facilitating seamless integration and communication between different systems."@en ;
             dct:relation eira:APIGatewayTechnologyService ],
-        [ dct:description "The eDelivery Access Point (AP) Domibus implements a standardised message exchange protocol for data exchange, which is the eDelivery AS4 Access Point open source project."@en ;
+        [ dct:description "Domibus v5.1.7 implements a standardised message exchange protocol (AS4) to support interoperable communication between systems."@en ;
             dct:relation eira:EnterpriseServiceBusTechnologyService ],
-        [ dct:description "The eDelivery Access Point (AP) Domibus enables the transformation and exchange of information, data, or communications between different protocols or formats, ensuring that diverse systems can effectively communicate and exchange data within a secure and reliable framework."@en ;
+        [ dct:description "Domibus v5.1.7 implements a secure technology service enabling transformation and exchange of messages between different protocols or formats."@en ;
             dct:relation eira:GatewayTechnologyService ],
         [ dct:description "The eDelivery Access Point (AP) Domibus provides a point of access where the services offered by the Domibus infrastructure can be accessed, ensuring standardised and reliable communication channels between different entities and systems."@en ;
             dct:relation eira:TechnologyInterfaceTechnologyInterface ] .
@@ -5589,9 +5545,9 @@ cssvrsc:518f0b53aee77da1c57915e1cff397d1462586a03f378df104a427cc731643ce a cssv:
 
 cssvrsc:51aa8da33acb4d1f781a14489e22d4bb165c8c2d9f29138db9082c308be68eac a cssv:Specification ;
     dct:relation [ dct:description "The standards and specifications distributed by SETU are addressed to improve the exchange of data between two organisations. "@en ;
-            dct:relation eira:DataExchangeApplicationComponent ],
+            dct:relation eira:DataExchangeApplicationService ],
         [ dct:description "The standards and specifications distributed by SETU are addressed to improve the exchange of data between two organisations. "@en ;
-            dct:relation eira:DataExchangeApplicationService ] .
+            dct:relation eira:DataExchangeApplicationComponent ] .
 
 cssvrsc:51d1925c43d21238f4015a77a657691d3e21c5cbaaf8e8188bb3754e752b5161 a cssv:Specification ;
     dct:relation [ dct:description "RapidIO includes a wide range of features, including high data bandwidth, low latency capability and support for high performance I/O devices, as well as providing globally shared memory, message passing and software managed programming models."@en ;
@@ -5707,20 +5663,6 @@ cssvrsc:57b56a8345bfa9184413953a5392709e8b7eb0950414b63552c6189a9e42ff7c a cssv:
     dct:relation [ dct:description "Scripting language based on JavaScript for the web pages front-end."@en ;
             dct:relation eira:HumanInterfaceApplicationInterface ] .
 
-cssvrsc:57d034134fde774a09d3434c0677311f4f4460daea3244fc286e63f67e434ac2 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining interoperability requirements."@en ;
-            dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "It is a directive setting rules for the reuse of public sector information."@en ;
-            dct:relation eira:OpenDataPolicyBusinessObject ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
-            dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining interoperability requirements in a specific national context."@en ;
-            dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining interoperability requirements."@en ;
-            dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining interoperability requirements."@en ;
-            dct:relation eira:LegalActRequirement ] .
-
 cssvrsc:5847bc029f2ee4b773c8cdff71b6a8469f44c6249801448496530f8d4f4dfe42 a cssv:Specification ;
     dct:relation [ dct:description "The OAIS is a holisitic archive system related to long term information preservation of digital records and physical ones, ensuring that information remains accessible over time. The specification defines best practices for structuring stored data, which ensures compatibility with evolving storage technologies and enables organisations to archive information in an adaptive manner despite technological change."@en ;
             dct:relation eira:DataPersistenceApplicationComponent ],
@@ -5744,15 +5686,15 @@ cssvrsc:597992364235f0462f20e8347dffb83844944f7f4f29b4631cd6330f03e6b2fe a cssv:
             dct:relation eira:LoadBalancerTechnologyService ] .
 
 cssvrsc:5a0c3b63516f9a12ce43ecfe15eed4276f46e41b0e8ac8554e4489ff48e7fa69 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A non-binding instrument providing recommended standards supporting interoperability."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+        [ dct:description "National-level requirement identifying standards and specifications relevant for interoperable electronic communications."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Commission Decision establishes the official list of standards and technical specifications applicable to electronic communications networks and services under the EU regulatory framework. It provides binding guidance for market actors and national authorities, mandating the use or recognition of specific standards to ensure interoperability, lawful operation, and consistent service quality within the internal market. As a legal act, it sets formal requirements, aligns national implementations, and supports harmonised deployment of electronic communication technologies across Member States."@en ;
             dct:relation eira:LegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Regulation sets out harmonised EU-level specifications to promote consistent implementation of interoperable communication networks across Member States."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Regulation provides a mandatory reference framework for technical standards, ensuring cross-border compatibility of electronic communication services within the EU."@en ;
             dct:relation eira:BindingInstrumentRequirement ] .
 
 cssvrsc:5a81dd874f6ef2c75576b4c7594373c802831daf20243c70d0459ed71ca09a8c a cssv:Specification ;
@@ -6084,7 +6026,7 @@ cssvrsc:6e011b5dce30b2ccafb13f608d72696e6259f6955b8afbc6e1fd68c22b5a67c6 a cssv:
             dct:relation eira:ControlledVocabularyDataObject ] .
 
 cssvrsc:6e26f89f14b60fb8dcb3a51ed3abc8ff53023b51520f2e578b707919b81a7f66 a cssv:Specification ;
-    dct:relation [ dct:description "Legal act providing a common scope on the context of European Public services and interoperability aspects."@en ;
+    dct:relation [ dct:description "Policy defining a common approach for reuse of Commission documents supporting interoperability."@en ;
             dct:relation eira:PublicPolicyCourseOfAction ] .
 
 cssvrsc:6eb2a0776547a9750027a031719cb9ca3e620970f7dfd42bd96ac025b8a6f463 a cssv:Specification ;
@@ -6112,25 +6054,25 @@ cssvrsc:6f03402e98acfd1f4c58b6533bdb88e793efffd35b0a6a3389b8c7c77220a310 a cssv:
             dct:relation eira:AccessManagementApplicationComponent ] .
 
 cssvrsc:6f13dfe5d3cbc63b902dc75f769c50c47ed27a460631585163f7a3ea723d11c1 a cssv:Specification ;
-    dct:relation [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary. The specification considers the use of hash codes."@en ;
+    dct:relation [ dct:description "A core vocabulary enabling the definition of requirements that may include hash codes for integrity."@en ;
             dct:relation eira:HashCodeDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CAV is a domain-agnostic vocabulary that serialises and publishes data as open data or linked data."@en ;
             dct:relation eira:DataDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CAV provides a structured semantic model for defining assessment concepts, criteria, and scoring mechanisms used in conformity and compliance evaluations. As a mapping catalogue data object, it facilitates alignment and cross-referencing between different assessment frameworks, enabling consistent interpretation and comparison of assessment results across domains."@en ;
             dct:relation eira:DataMappingCatalogueDataObject ],
         [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
             dct:relation eira:MetadataDataObject ],
         [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CAV takes on a more internalised, conceptual role, serving as the structural backbone that governs the relationships and axioms that define assessments. This version positions CAV not only as a technical asset but also as a guiding framework for the development of assessment-related ontologies."@en ;
             dct:relation eira:OntologyDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CAV focuses on its accessibility, presenting data that is openly available, even if it is not fully integrated within the RDF ecosystem. The open data representation prioritises usability and wide-scale dissemination over strict semantic interlinking."@en ;
             dct:relation eira:OpenDataRepresentation ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "Cav emphasises in the shifts from just interlinking data to ensuring openness and accessibility. In this form, CAV becomes a universally accessible semantic framework that allows for cross-jurisdictional and cross-domain reuse, ensuring that the underlying assessment data can be freely leveraged by diverse users."@en ;
             dct:relation eira:LinkedOpenDataRepresentation ],
         [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
             dct:relation eira:DataModelDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CAV assumes a role as a semantic tool for the description of assessments and conformance criteria in an RDF-native format. The structure of CAV enables machines to dereference and link assessment terms across different systems, facilitating automatic cross-referencing of related assessment data."@en ;
             dct:relation eira:LinkedDataRepresentation ] .
 
 cssvrsc:6f13fa8a840b2e772daad1f7091c757819df5a583941cc0889a97ea4fca8e3e5 a cssv:Specification ;
@@ -6138,13 +6080,13 @@ cssvrsc:6f13fa8a840b2e772daad1f7091c757819df5a583941cc0889a97ea4fca8e3e5 a cssv:
             dct:relation eira:PublicAdministrationSingleWindowApplicationComponent ],
         [ dct:description "UN/EDIFACT Syntax 3 comprises a set of internationally agreed standards, directories and guidelines for the electronic interchange of structured data, defined as a set of syntactic messages."@en ;
             dct:relation eira:DataSyntaxDataObject ],
-        [ dct:description "UN/EDIFACT Syntax 4 comprises a set of internationally agreed standards, directories and guidelines for the electronic interchange of structured data that defines admnistrative, commerce and transport data as set of computerized information."@en ;
+        [ dct:description "UN/EDIFACT Syntax 3 comprises a set of internationally agreed standards, directories and guidelines for the electronic interchange of structured data that defines admnistrative, commerce and transport data as set of computerized information."@en ;
             dct:relation eira:FormsStructureDataObject ],
         [ dct:description "UN/EDIFACT Syntax 3 comprises a set of internationally agreed standards, directories and guidelines for the electronic interchange of structured data, in particular, related to trade in goods and services, between independent and computerized information systems."@en ;
             dct:relation eira:PublicAdministrationSingleWindowApplicationService ] .
 
 cssvrsc:6f161b3c6e88ef2e48c9ab4dd930390a0e34804cc6ced5d3f265c01b5265fbf9 a cssv:Specification ;
-    dct:relation [ dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
+    dct:relation [ dct:description "A non-binding declaration promoting interoperability in provision of public services."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:70137d7dbadcaf742ae5cfef049aa13d0aef86fb19b68d50e5d98b6408f02786 a cssv:Specification ;
@@ -6172,7 +6114,7 @@ cssvrsc:7107d45e32eb9a8ab7a10909c9fa87a1a4a2dbe52afc647edb46dc1f2f11effd a cssv:
             dct:relation eira:PrivacyApplicationComponent ] .
 
 cssvrsc:710c271ac62cdb5a5a194d8a48dbeaa906bf84f68d4f2872b6aa978102994442 a cssv:Specification ;
-    dct:relation [ dct:description "Legal act providing a common scope on the context of European Public services and interoperability aspects."@en ;
+    dct:relation [ dct:description "Policy providing harmonised rules for VAT supporting interoperable cross-border services."@en ;
             dct:relation eira:PublicPolicyCourseOfAction ] .
 
 cssvrsc:7123d0491b1b73634fe44db3899aa0d8b486e4899024c5e6bf6479b381c03bdd a cssv:Specification ;
@@ -6232,7 +6174,7 @@ cssvrsc:72e4dd491ecc447eeea1bb8dc297ae0370a8a2eeb91aff19020fa174db2b40ac a cssv:
             dct:relation eira:ApplicationServerTechnologyService ] .
 
 cssvrsc:73b2af6cb530611b74e4ec3ee7fa1e11b45bf7512db6bbf5823bf45e78165696 a cssv:Specification ;
-    dct:relation [ dct:description "The CloudEvents specification allows for the description of event data in a standardised way, ensuring consistency and understandability across different information systems and contexts."@en ;
+    dct:relation [ dct:description "CloudEvents v1.0.2 is a versioned update of CloudEvents ensuring the standardisation of the representation of event data for consistent and interoperable communication across systems."@en ;
             dct:relation eira:DataFormatDataObject ],
         [ dct:description "The CloudEvents specification aims to make data more understandable for users and organisations. By using a common format, the specification enables efficient data sharing, which can help public administrations communicate more effectively."@en ;
             dct:relation eira:SemanticInteroperabilityAgreementContract ],
@@ -6301,9 +6243,9 @@ cssvrsc:75ae3189eab12d5d72bd97d739d37259404397c78e83d4009788bfaf98d90465 a cssv:
             dct:relation eira:DataAnalyticsApplicationService ] .
 
 cssvrsc:75e66e68436f77c638b9793293bd4d44046f2752e333f86db44a6dc3edb73d78 a cssv:Specification ;
-    dct:relation [ dct:description "EIRA is an Architecture content metamodel defining the most salient architectural building blocks (ABBs) needed to guide public authorities in their transition to an interoperable e-Government."@en ;
+    dct:relation [ dct:description "EIRA 6.1.0 formalises technical specifications with added semantic precision. This version links to the EIRA Ontology and aligns with EAF guidelines, offering clearer conceptual grounding for cross-framework technical interoperability."@en ;
             dct:relation eira:InteroperableDigitalPublicServiceImplementationOrientationConstraint ],
-        [ dct:description "EIRA is an Architecture content metamodel defining the most salient architectural building blocks (ABBs) needed to build interoperable e-Government systems."@en ;
+        [ dct:description "EIRA 6.1.0 introduces stronger semantic and conceptual coherence by establishing a formal relationship with the EIRA Ontology. It also integrates alignment with the Enterprise Architecture Framework (EAF) guidelines, providing enhanced methodological support for public administrations. This version represents a more semantically enriched, governance-aligned iteration of the framework, further strengthening its role in defining Interoperability Specifications and supporting the creation of interoperable European solutions."@en ;
             dct:relation eira:TechnicalInteroperabilityAgreementContract ],
         camssa:51facf719df32967d97f304beb6081dd348f307b922abfb04f9702409b7415ae .
 
@@ -6657,15 +6599,15 @@ cssvrsc:87d636d50fea4f3267d2993f5f15fcb633c9b411f6201fe08b270c556c09534e a cssv:
             dct:relation eira:DataExchangeApplicationComponent ] .
 
 cssvrsc:87fd1766fc6e072ec1fdd3319775ffbefafb6429da76e67fafd1b436e6b5aec7 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A binding EU legal act formalising rules on secure identification documents, relevant for digital identity and public services."@en ;
             dct:relation eira:LegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+        [ dct:description "National-level requirement establishing obligations for harmonised access to EU procedures and information."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Regulation establishes security and interoperability standards for Union identity cards and residence documents, ensuring consistent identification mechanisms across Member States."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Regulation introduces mandatory security and interoperability standards for identity documents to ensure reliable authentication throughout the EU."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
+        [ dct:description "Non-binding guidance proposing identity security requirements applicable in selected contexts."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:88655d83e1e07e94197ba457206815a463f265068bfc2e631276ea1358affe25 a cssv:Specification ;
@@ -6677,9 +6619,9 @@ cssvrsc:88ddb5be8546e01762091de25801601fdc0a86ed4f38b6adbc705e59c20baf21 a cssv:
             dct:relation eira:IaaSTechnologyService ] .
 
 cssvrsc:89a1f6f39df338480a37da0fe1061844311b1a0df47ef118740126147685fc53 a cssv:Specification ;
-    dct:relation [ dct:description "EIRA is an Architecture content metamodel defining the most salient architectural building blocks (ABBs) needed to guide public authorities in their transition to an interoperable e-Government."@en ;
+    dct:relation [ dct:description "EIRA 5.0.0 provides a more refined contract for technical specifications, reflecting updated interoperability principles and emerging EU digital requirements. This version strengthens consistency and modernises the technical framework alignment."@en ;
             dct:relation eira:InteroperableDigitalPublicServiceImplementationOrientationConstraint ],
-        [ dct:description "EIRA is an Architecture content metamodel defining the most salient architectural building blocks (ABBs) needed to build interoperable e-Government systems."@en ;
+        [ dct:description "EIRA 5.0.0 expands the previous metamodel defining the most salient Architectural Building Blocks (ABBs) required for interoperable e-Government systems and introducing refinements to existing ABBs, which incorporates updated interoperability principles, and aligns more closely with evolving EU policies on digital governance."@en ;
             dct:relation eira:TechnicalInteroperabilityAgreementContract ] .
 
 cssvrsc:89b586243efc375b64830c6b29be46357c67975d881a7612e648e783a8f3d030 a cssv:Specification ;
@@ -6691,7 +6633,7 @@ cssvrsc:89b586243efc375b64830c6b29be46357c67975d881a7612e648e783a8f3d030 a cssv:
         camssa:fd84864d1f3f4a90d7db942de7b090a34cc11153a0d121dc7f41c44bd6c8549d .
 
 cssvrsc:89c360d073560b627db7529a0b2b9af5bbc1983342c3ba9498faba662f136993 a cssv:Specification ;
-    dct:relation [ dct:description "The standard provides sets of messages, their properties and the relationships among them, which focus at formally representing data interchange for administration, commerce and transport."@en ;
+    dct:relation [ dct:description "GS1 EANCOM Syntax 4 provides sets of messages, their properties and the relationships among them, which focus at formally representing data interchange for administration, commerce and transport."@en ;
             dct:relation eira:DataModelDataObject ],
         [ dct:description "UN/EDIFACT syntax version 4 provides a set of controlled vocabularies for the digital message systems within a supply chain service."@en ;
             dct:relation eira:ControlledVocabularyDataObject ] .
@@ -6712,19 +6654,19 @@ cssvrsc:8afac68b06e1a49b054c6749647f23886ab736592496b2687a8ffa0e8aae9d0d a cssv:
             dct:relation eira:TechnicalInteroperabilityAgreementContract ] .
 
 cssvrsc:8c25fc22b6b6f1ff9ac5f698258c1bac7ea63c99f2f818130b7933f25f8cafa7 a cssv:Specification ;
-    dct:relation [ dct:description "Linked Data Event Streams allow to replicate all of their items and stay synchronised when items are added in the form of subject-predicate-object triplets."@en ;
+    dct:relation [ dct:description "LDES 1.0.0 allow to replicate all of their items and stay synchronised when items are added in the form of subject-predicate-object triplets."@en ;
             dct:relation eira:DataManagementApplicationService ],
-        [ dct:description "LDES leverages the TREE specification for managing data collection and pagination, ensuring compatibility with other standards like DCAT v2, ultimately aiding in the extraction of meaningful insights and information from interconnected data sources."@en ;
+        [ dct:description "LDES 1.0.0 supported data collection and pagination using TREE, enabling the extraction of insights from distributed and interconnected datasets."@en ;
             dct:relation eira:KnowledgeDiscoveryApplicationComponent ],
-        [ dct:description "Linked Data Event Streams allow to replicate all of their items and stay synchronised when items are added in the form of subject-predicate-object triplets."@en ;
+        [ dct:description "LDES 1.0 represents the first generation of operational systems designed to disseminate evolving RDF datasets in an append-only manner. In this version, the logic for synchronisation and item replication is still relatively straightforward: items are exposed as immutable subject–predicate–object event triplets, and consumers follow a simple replication pattern that mirrors the event stream as new updates appear."@en ;
             dct:relation eira:DataManagementApplicationComponent ],
-        [ dct:description "Linked Data Event Streams allow to replicate all of their items and stay synchronised when items are added in the form of subject-predicate-object triplets."@en ;
+        [ dct:description "LDES 1.0 represents items, events, and versions inside a knowledge store. This model remains relatively simple: events represent changes, immutability is assumed but not formally extended with additional metadata, and the semantics of version derivation or fragmentation are understated."@en ;
             dct:relation eira:KnowledgeTriplestoreDataObject ],
-        [ dct:description "Linked Data Event Streams allow to replicate all of their items and stay synchronised when items are added. Some EU public administrations use the specification as the core API of their publishing strategy."@en ;
+        [ dct:description "LDES 1.0.0 provides an immutable, real-time stream representation where items can be replicated and kept synchronised, increasingly used by EU public administrations as a publishing API."@en ;
             dct:relation eira:LinkedDataEventStreamRepresentation ],
-        [ dct:description "LDES enables the collection, analysis, and management of events through the TREE specification. The compatibility with DCAT v2 ensures that it can integrate and respond to events generated by various digital platforms, thereby implementing the behavior of an effective event management service."@en ;
+        [ dct:description "LDES enables efficient event collection, filtering, and real-time response across heterogeneous digital platforms, which supports the core behaviour of an event management service."@en ;
             dct:relation eira:EventManagerTechnologyService ],
-        [ dct:description "LDES supports creating a reliable and traceable data history, crucial for applications requiring robust and tamper-evident data management."@en ;
+        [ dct:description "LDES 2.0.0 supports creating a reliable and traceable data history, crucial for applications requiring robust and tamper-evident data management by allowing reliable append-only event histories."@en ;
             dct:relation eira:InmutableDatabaseManagerTechnologyService ],
         camssa:3307f908202db68e55e59bd5b1188380243cb0e5b6cb2a33f03c66323f24070c .
 
@@ -6735,19 +6677,19 @@ cssvrsc:8d02cdfe3cc0ca239b550469888230339822ae24b27b9ba0ad5583e1c7715d5d a cssv:
             dct:relation eira:DigitalGovernancePlanBusinessObject ] .
 
 cssvrsc:8d031fe1857ec129ffbbcd2074f28f5237921438af0c4ee526a35398afef5d35 a cssv:Specification ;
-    dct:relation [ dct:description "Linked Data Event Streams allow to replicate all of their items and stay synchronised when items are added in the form of subject-predicate-object triplets."@en ;
+    dct:relation [ dct:description "LDES 2.0.0 enables synchronised replication of RDF triples, ensuring reliable, consistent, and up-to-date data management across distributed systems."@en ;
             dct:relation eira:DataManagementApplicationService ],
-        [ dct:description "LDES leverages the TREE specification for managing data collection and pagination, ensuring compatibility with other standards like DCAT v2, ultimately aiding in the extraction of meaningful insights and information from interconnected data sources."@en ;
+        [ dct:description "LDES 2.0.0 uses TREE-based structuring and DCAT v2 compatibility to organise, paginate, and interlink distributed data, facilitating the extraction of valuable insights in knowledge discovery processes."@en ;
             dct:relation eira:KnowledgeDiscoveryApplicationComponent ],
-        [ dct:description "Linked Data Event Streams allow to replicate all of their items and stay synchronised when items are added in the form of subject-predicate-object triplets."@en ;
+        [ dct:description "LDES 2.0 introduces more explicit stream segmentation strategies, more deterministic versioning behaviour, and improved definitions for event envelopes. As an application component, it becomes a more robust engine capable of handling complex replication scenarios, supporting large-scale streaming and offering finer control over how evolving RDF datasets are exposed and synchronised across distributed nodes."@en ;
             dct:relation eira:DataManagementApplicationComponent ],
-        [ dct:description "Linked Data Event Streams allow to replicate all of their items and stay synchronised when items are added in the form of subject-predicate-object triplets."@en ;
+        [ dct:description "LDES 2.0 enriches the RDF model with clearer constraints, more expressive metadata for version relationships, and better alignment between event-level and dataset-level representations. This object expresses a more formalised and interoperable view of event streams, better suited for advanced query processing and deterministic synchronisation in distributed environments. It stands as a more complete conceptual artefact than its predecessor."@en ;
             dct:relation eira:KnowledgeTriplestoreDataObject ],
-        [ dct:description "Linked Data Event Streams allow to replicate all of their items and stay synchronised when items are added. Some EU public administrations use the specification as the core API of their publishing strategy."@en ;
+        [ dct:description "LDES 2.0.0 offers immutable real-time streams with replication where RDF triples can be replicated and kept synchronised, increasingly used by EU public administrations as a publishing API."@en ;
             dct:relation eira:LinkedDataEventStreamRepresentation ],
-        [ dct:description "LDES enables the collection, analysis, and management of events through the TREE specification. The compatibility with DCAT v2 ensures that it can integrate and respond to events generated by various digital platforms, thereby implementing the behavior of an effective event management service."@en ;
+        [ dct:description "LDES, through the TREE specification and DCAT v2 compatibility, enables efficient event collection, filtering, and real-time response across heterogeneous digital platforms, which supports the core behaviour of an event management service."@en ;
             dct:relation eira:EventManagerTechnologyService ],
-        [ dct:description "LDES supports creating a reliable and traceable data history, crucial for applications requiring robust and tamper-evident data management."@en ;
+        [ dct:description "LDES 2.0.0 supports immutable, append-only data publication, creating verifiable and tamper-evident event histories essential for systems requiring strong data integrity."@en ;
             dct:relation eira:InmutableDatabaseManagerTechnologyService ] .
 
 cssvrsc:8d8a9063977269b9511a82b8c6e20a2fb19da720bde0b3e6d37175b3a9945737 a cssv:Specification ;
@@ -6810,6 +6752,17 @@ cssvrsc:8e67f8b2a6bc993d9a543529f61b1e7dbf347b40a14948562e65ca9560f6eede a cssv:
         [ dct:description "The GFXS DELS specification helps create an auditable and traceable record of the steps involved in data exchanges. It supports the registration of key actions, such as verifying that data has been sent. By logging both the sending and receiving of data, the specification also enables tracking and documentation of how specific exchanged information is accessed."@en ;
             dct:relation eira:AccountingApplicationService ] .
 
+cssvrsc:8ea9cd7abc111f52f04bbcf3ebdfa44e08756fdf213722ef95c6fb3470975b08 a cssv:Specification ;
+    dct:relation [ dct:description "The ETSI EN 319 132-1 specification aims to ensure that electronic signatures can be created and validated anywhere in Europe, and that they can be used for any transaction between an individual and a company, between two companies or between an individual and a government body."@en ;
+            dct:relation eira:E-SealVerificationAndValidationApplicationService ],
+        [ dct:description "The ETSI EN 319 132-1 specification aims to ensure that electronic signatures can be created and validated anywhere in Europe, and that they can be used for any transaction between an individual and a company, between two companies or between an individual and a government body."@en ;
+            dct:relation eira:E-SealCreationApplicationService ],
+        [ dct:description "The ETSI EN 319 132-1 specification aims to ensure that electronic signatures can be created and validated anywhere in Europe, and that they can be used for any transaction between an individual and a company, between two companies or between an individual and a government body."@en ;
+            dct:relation eira:E-SignatureVerificationAndValidationApplicationService ],
+        [ dct:description "The ETSI EN 319 132-1 specification aims to ensure that electronic signatures can be created and validated anywhere in Europe, and that they can be used for any transaction between an individual and a company, between two companies or between an individual and a government body."@en ;
+            dct:relation eira:E-SignatureCreationApplicationService ],
+        camssa:bc16c66793f19ff22ba4aebb6ac35a73610784fdc19195a49f0de17eb3386286 .
+
 cssvrsc:8eb93f554a3440a30b522cf4f0f9f6800045bf0b2741c518fab12bac16ca84c6 a cssv:Specification ;
     dct:relation [ dct:description "E-ARK CSIP is a specification consisting in a set of specifications used for transmitting, describing and preserving digital data. They have been produced to help data creators, software developers and digital archives to tackle the challenge of short-, medium- and long-term data management and reuse in a sustainable, authentic, cost-efficient, manageable and interoperable way. The specications defines interoperability requirements for e-archiving components."@en ;
             dct:relation eira:E-ArchivingApplicationComponent ],
@@ -6850,23 +6803,12 @@ cssvrsc:8fa9cd7abc111f52f04bbcf3ebdfa44e08756fdf213722ef95c6fb3470975b07 a cssv:
         [ dct:description "The ETSI EN 319 132-1 specification aims to ensure that electronic signatures can be created and validated anywhere in Europe, and that they can be used for any transaction between an individual and a company, between two companies or between an individual and a government body."@en ;
             dct:relation eira:E-SignatureCreationApplicationService ] .
 
-cssvrsc:8ea9cd7abc111f52f04bbcf3ebdfa44e08756fdf213722ef95c6fb3470975b08 a cssv:Specification ;
-    dct:relation [ dct:description "The ETSI EN 319 132-1 specification aims to ensure that electronic signatures can be created and validated anywhere in Europe, and that they can be used for any transaction between an individual and a company, between two companies or between an individual and a government body."@en ;
-            dct:relation eira:E-SealVerificationAndValidationApplicationService ],
-        [ dct:description "The ETSI EN 319 132-1 specification aims to ensure that electronic signatures can be created and validated anywhere in Europe, and that they can be used for any transaction between an individual and a company, between two companies or between an individual and a government body."@en ;
-            dct:relation eira:E-SealCreationApplicationService ],
-        [ dct:description "The ETSI EN 319 132-1 specification aims to ensure that electronic signatures can be created and validated anywhere in Europe, and that they can be used for any transaction between an individual and a company, between two companies or between an individual and a government body."@en ;
-            dct:relation eira:E-SignatureVerificationAndValidationApplicationService ],
-        [ dct:description "The ETSI EN 319 132-1 specification aims to ensure that electronic signatures can be created and validated anywhere in Europe, and that they can be used for any transaction between an individual and a company, between two companies or between an individual and a government body."@en ;
-            dct:relation eira:E-SignatureCreationApplicationService ],
-        camssa:bc16c66793f19ff22ba4aebb6ac35a73610784fdc19195a49f0de17eb3386286 .
-
 cssvrsc:8fe3b1da6801f8be408c193d21e850b679d122d9571dc376bcb79e32c36f6330 a cssv:Specification ;
     dct:relation [ dct:description "The CEF eDelivery PKI Service enables the emission and management of digital certificates used in the CEF eDelivery components to guarantee the confidentiality, integrity and non-repudiation of the data exchanged between systems. The use of the CEF eDelivery PKI is optional; policy domains may choose to use any other PKI service or other mechanism."@en ;
             dct:relation eira:TechnicalInteroperabilityAgreementContract ] .
 
 cssvrsc:90b4da7a36d0b8f01c64463622df32fc84fc4954e08fecc8897874f4f20444eb a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A binding proposal establishing obligations for harmonised access to services across the EU."@en ;
             dct:relation eira:BindingInstrumentRequirement ] .
 
 cssvrsc:90cc1d25c84061f0094962de974205c4701a2168f14ed3794fcaeac98321650d a cssv:Specification ;
@@ -7195,31 +7137,23 @@ cssvrsc:9d677b70169824b046a4a82616729da6bbd4321ea14a7f825e3e16f23697b1f1 a cssv:
             dct:relation eira:DataSpaceApplicationService ] .
 
 cssvrsc:9e21a37b249d893fe860af3d75242b0ec36bcb1cab879931796f883891287b9e a cssv:Specification ;
-    dct:relation [ dct:description "Technical Interoperability agreements base on common best practices, methodologies, technical standards and specifications to perform the monitoring, control and accountability on the collaboration between services."@en ;
+    dct:relation [ dct:description "COBIT defines best practices, standards, and methodologies to monitor, control, and ensure accountability across interoperable IT services."@en ;
             dct:relation eira:TechnicalInteroperabilityAgreementContract ] .
 
 cssvrsc:9eee7b5f591edb9c84e3d07d234b97ce0f5e84c26989b649ac96715af0adf328 a cssv:Specification ;
-    dct:relation [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
+    dct:relation [ dct:description "Non-binding guidance proposing rules applicable in certain national scenarios."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "A European legal act establishing obligations for online services and information society rules."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+        [ dct:description "National-level requirement defining obligations for online information society services."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Directive sets foundational rules for information society services and online commercial practices, establishing interoperability-related obligations to support the free movement of digital services in the internal market."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Directive sets foundational rules for the functioning of information society services, enabling interoperable digital markets by harmonising liability, transparency, and trust requirements for online service providers."@en ;
             dct:relation eira:LegalActRequirement ] .
 
 cssvrsc:9f20060720cf509194734e94953c33a87e28b82bebad2ea64ba192e1ade4e4bf a cssv:Specification ;
-    dct:relation [ dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
-            dct:relation eira:Non-bindingInstrumentRequirement ] .
-
-cssvrsc:9f449b5bce1a06d4c605281dd7aeecf1c5da08ac9500752dbaa6a5c7cbde4043 a cssv:Specification ;
-    dct:relation [ dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
-            dct:relation eira:Non-bindingInstrumentRequirement ] .
-
-cssvrsc:a1069cd1458550e59b2d65e8783110b20421abc5ee0c011fd0e71c8dbe699940 a cssv:Specification ;
-    dct:relation [ dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
+    dct:relation [ dct:description "A non-binding communication setting strategic directions for EU digital transformation."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:a123e1ca64f1e2eb54ed4c0c173aa9fc79ce836c50e9c01fe6c9ac9f01798631 a cssv:Specification ;
@@ -7286,13 +7220,13 @@ cssvrsc:a3f267616bb3a1424169217f549974ea39ebd11ffa80d8d3cafba1be9fc62d2b a cssv:
         camssa:94f5707a8749e938157d4094a15d7bf6d7b35e1977354a0f7de216b09ad6ce90 .
 
 cssvrsc:a4a7987e596ba4b307e31ac3ee5f8011e0bc7baf38f31bdda3122c2d25cd461e a cssv:Specification ;
-    dct:relation [ dct:description "RDF is a data format used for the semantic description of resources."@en ;
+    dct:relation [ dct:description "RDF is a data format used for representing and interchanging structured information on the web, allowing semantic description of resources and their relationships in a machine-readable way."@en ;
             dct:relation eira:DataRepresentationRepresentation ],
         [ dct:description "RDF is a data format used for the semantic storage of resources."@en ;
             dct:relation eira:KnowledgeTriplestoreDataObject ],
         [ dct:description "RDF is a data format used for the semantic description of resources and their sharing."@en ;
             dct:relation eira:KnowledgeRepresentation ],
-        [ dct:description "RDF is a specification that is used in defining the way in which data is put together with appropriate identifiers, delimiters, separator character(s), and other non-data characters to form messages."@en ;
+        [ dct:description "RDF provides a graph-based data model and serialization syntax for representing information as subject–predicate–object triples. It enables machine-readable semantics and linking across datasets. As a data syntax object, RDF establishes structural rules for expressing relationships, enabling interoperable data integration, federation of knowledge graphs, and the use of shared ontologies across domains and applications."@en ;
             dct:relation eira:DataSyntaxDataObject ],
         camssa:8260a0d19400809ba6b5fa82308c972720aa2ce81d550c3ac36177a7d3cb06d4,
         camssa:a86112691da8759a108fa48c02f657314a2fcdc6bbb425f727bb89f419fde3f8 .
@@ -7304,21 +7238,21 @@ cssvrsc:a4b0213d2b7fd9f78a32ced4d068c853ae689a7d5affa13dab7782be4d8fd97f a cssv:
             dct:relation eira:ContainerRegistryTechnologyService ] .
 
 cssvrsc:a5741434cd7caa0e1b5b5b1d4d89d9fceccd894aeea9fb2ed7b0d669f24ebd4a a cssv:Specification ;
-    dct:relation [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+    dct:relation [ dct:description "This European Communication defines policy directions for the management, sharing, and governance of data in the EU."@en ;
             dct:relation eira:DataPolicyBusinessObject ],
         [ dct:description "Non-binding legal instrument that is business domain agnostic"@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+        [ dct:description "This European Communication provides strategic guidance for enabling seamless movement of data between public-sector systems, promoting user-centric services where individuals and organisations can transfer their information across platforms without technical or legal barriers."@en ;
             dct:relation eira:DataPortabilityPolicyBusinessObject ],
-        [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+        [ dct:description "This European Communication  highlights the need for robust security frameworks—covering risk management, secure communication, and system integrity—to support trustworthy interoperability between European public administrations."@en ;
             dct:relation eira:SecurityPolicyBusinessObject ],
-        [ dct:description "This communication from the Commission includes a set of plans and principles to achieve a common data space enhancing the Interoperability across borders."@en ;
+        [ dct:description "A policy outlining strategic principles and plans to strengthen cross-border interoperability."@en ;
             dct:relation eira:InteroperabilityStrategyGoal ],
-        [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+        [ dct:description "This European Communication emphasises coherent management of key datasets -such as identifiers, registers, and authoritative sources, to ensure consistent and reliable data across administrative domains and Member States."@en ;
             dct:relation eira:MasterDataPolicyBusinessObject ],
-        [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+        [ dct:description "This European Communication encourages the systematic opening, sharing, and reuse of public-sector information, outlining principles that foster transparency and stimulate innovation through interoperable open-data ecosystems."@en ;
             dct:relation eira:OpenDataPolicyBusinessObject ],
-        [ dct:description "This European Communication depicts the main steps and elements to be taken into account for the development of data driven solutions and services, which inevitably includes the data management."@en ;
+        [ dct:description "This European Communication frames interoperability in a way that respects data-protection principles, ensuring that cross-border data exchange and service integration safeguard individuals’ privacy and comply with EU fundamental rights."@en ;
             dct:relation eira:PrivacyPolicyBusinessObject ],
         [ dct:description "This decision defines requirements for public authorities in order to foster interoperability through the development interoperability solutions."@en ;
             dct:relation eira:DigitalAgendaGoal ] .
@@ -7382,15 +7316,15 @@ cssvrsc:a82049f8a4467b37731be1c684fe5f1d1b6b2d3fb27519aa871e250966e36630 a cssv:
             dct:relation eira:APIApplicationInterface ] .
 
 cssvrsc:a8a3b7c669eb2bbcd0f9771431fb1aa7ec28ec91ee195254785a29598b9809f6 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+    dct:relation [ dct:description "National-level requirement defining technical obligations for secure authentication and communication interfaces."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "A European legal act establishing obligations for secure authentication and communication."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Delegated Regulation sets binding security and interoperability requirements for strong customer authentication and open communication standards in the payment services sector, defining clear obligations for compliant implementation."@en ;
             dct:relation eira:LegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Regulation defines enforceable security and interoperability requirements for payment service providers, including strong customer authentication and secure data exchange."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Regulation  clarifies how organisations may voluntarily align with established best practices for secure digital payments beyond the strict legal minimum."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:a8a5e1741adf3ad56993183b5026b17b7727383c21c521ec34f005fbb32e99f9 a cssv:Specification ;
@@ -7492,25 +7426,25 @@ cssvrsc:ad20dcd688066edeef815926f8bf2df7508a5798fcee9144447a67c7dffb419e a cssv:
             dct:relation eira:SensorDevice ] .
 
 cssvrsc:ad376c04e72257bbcaa5feaab45553b20d12ec18b29b7ae27eb32a65a7f2fd65 a cssv:Specification ;
-    dct:relation [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+    dct:relation [ dct:description "CSSV is a domain-agnostic vocabulary that serialises and publishes metadata of a specification as open data or linked data."@en ;
             dct:relation eira:MetadataDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CSSV provides an ontological model for representing standards, specifications, and their relationships. As an ontology data object, it supports semantic classification, alignment, and reuse of information about standards across catalogues and interoperability frameworks. It enables consistent referencing, mapping, and integration of specifications at national or domain-specific levels, promoting semantic coherence across digital governance ecosystems."@en ;
             dct:relation eira:OntologyDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary. The specification considers the use of hash codes."@en ;
+        [ dct:description "A vocabulary that uses hash codes to maintain consistent referencing of standards and specifications."@en ;
             dct:relation eira:HashCodeDataObject ],
         [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
             dct:relation eira:DataDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CSSV provides a curated catalogue of relationships between standards, specifications, and versions. Its core function is to map the connections between various technical artefacts, forming a comprehensive cross-referencing system."@en ;
             dct:relation eira:DataMappingCatalogueDataObject ],
         [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CSSV further extends its utility by making its mappings open and publicly accessible, enabling seamless reuse by external systems and facilitating a more fluid exchange of standardised metadata across domains."@en ;
             dct:relation eira:LinkedOpenDataRepresentation ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CSSV embraces RDF and resolvable URIs, allowing for dynamic linking of standards across repositories, sectors, and communities. This RDF-based structure ensures that the data is machine-readable and can be integrated with other linked data systems."@en ;
             dct:relation eira:LinkedDataRepresentation ],
         [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
             dct:relation eira:DataModelDataObject ],
-        [ dct:description "Core vocabulary that can define requirements for a national or policy domain-specific vocabulary."@en ;
+        [ dct:description "CSSV transitions towards a lighter, more flexible publishing format that focuses on openness and accessibility, making it easier to share standardised information outside the strictures of RDF."@en ;
             dct:relation eira:OpenDataRepresentation ] .
 
 cssvrsc:ada520dfe348a4219f62ec6e255a207ad0f4d72f32cff473e3df8162ffdbaf64 a cssv:Specification ;
@@ -7542,7 +7476,7 @@ cssvrsc:ae3369b8dce309c8d0bc6949f47d3534b64dec0da9359ef1a3ca9f5db2cf9943 a cssv:
             dct:relation eira:WebServiceApplicationInterface ] .
 
 cssvrsc:af155131fd898adbbf4b0c635ba4180412afad567cbc26a6773dc227c24462cf a cssv:Specification ;
-    dct:relation [ dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
+    dct:relation [ dct:description "A non-binding policy instrument supporting multilingual interoperability."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:af51783e9c513430c9f5841f98a3d3383efe7528ae8d91d8e2a1f9fbf91cbe45 a cssv:Specification ;
@@ -7568,24 +7502,24 @@ cssvrsc:b0336e92e6cd33d0dbc0ccb6e282bf3d612616ca9c4bdb0fdbe12d098f156d99 a cssv:
             dct:relation eira:AuditManagerTechnologyService ] .
 
 cssvrsc:b059e5051bb83f9abf3009b747716a429d552c29ffec38039c830dbe2f45a1b4 a cssv:Specification ;
-    dct:relation [ dct:description "The Universal Business Language (UBL) provides an open library of standard XML electronic business documents defined in an ontology basis."@en ;
+    dct:relation [ dct:description "The Universal Business Language (UBL) provides an open library of standard XML electronic business documents and defines the documents in an ontology basis."@en ;
             dct:relation eira:OntologyDataObject ],
-        [ dct:description "The Universal Business Language (UBL) provides an open library of standard XML electronic business documents as a form of a controlled vocabulary."@en ;
+        [ dct:description "The Universal Business Language (UBL) provides an open library of standard XML electronic business documents as a form of a controlled vocabulary, standardised document vocabulary."@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
-        [ dct:description "The Universal Business Language (UBL) provides an open library of standard XML electronic business documents, their components and relationships."@en ;
+        [ dct:description "The Universal Business Language (UBL) represents a document's components and relationships."@en ;
             dct:relation eira:DataModelDataObject ],
-        [ dct:description "The Universal Business Language (UBL) provides an open library of standard XML electronic business documents defined in an ontology basis."@en ;
+        [ dct:description "The Universal Business Language (UBL) provides an open library of standard XML electronic business documents and defines the documents in an ontology basis."@en ;
             dct:relation eira:OntologyDataObject ],
         camssa:37876dfd2d513da1ae2da1a24e9ce0fc52cd66258065093a4ded1120240bdd10 .
 
 cssvrsc:b059e5051bb83f9abf3009b747716a429d552c29ffec38039c830dbe2f45a1b9 a cssv:Specification ;
-    dct:relation [ dct:description "The Universal Business Language (UBL) provides an open library of standard XML electronic business documents defined in an ontology basis."@en ;
+    dct:relation [ dct:description "UBL 2.4 provides an open library of standard XML electronic business documents defined in an ontology basis."@en ;
             dct:relation eira:OntologyDataObject ],
-        [ dct:description "The Universal Business Language (UBL) provides an open library of standard XML electronic business documents as a form of a controlled vocabulary."@en ;
+        [ dct:description "UBL 2.4 provides an open library of standard XML electronic business documents as a form of a controlled vocabulary, standardised document vocabulary."@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
-        [ dct:description "The Universal Business Language (UBL) provides an open library of standard XML electronic business documents, their components and relationships."@en ;
+        [ dct:description "UBL 2.4 represents document components and relationships."@en ;
             dct:relation eira:DataModelDataObject ],
-        [ dct:description "The Universal Business Language (UBL) provides an open library of standard XML electronic business documents defined in an ontology basis."@en ;
+        [ dct:description "UBL 2.4 provides an open library of standard XML electronic business documents defined in an ontology basis."@en ;
             dct:relation eira:OntologyDataObject ] .
 
 cssvrsc:b08b1c408400bfae954a739eaefeefec0208de49ff648e63ead13e58e7415ffd a cssv:Specification ;
@@ -7775,7 +7709,7 @@ cssvrsc:b79a51ce1d39534777937044c6bf0d5e99590eced5b6fa3b7c40d2bc6c70686c a cssv:
             dct:relation eira:TrustServiceProvisioningApplicationComponent ] .
 
 cssvrsc:b89bf2f2e85adfbce96e08482415575dc845d44067f8ff7dce7c603b41af9cbe a cssv:Specification ;
-    dct:relation [ dct:description "The standard provides sets of messages, their properties and the relationships among them, which focus at formally representing data interchange for administration, commerce and transport."@en ;
+    dct:relation [ dct:description "GS1 EANCOM Syntax 3 provides sets of messages, their properties and the relationships among them, which focus at formally representing data interchange for administration, commerce and transport."@en ;
             dct:relation eira:DataModelDataObject ],
         [ dct:description "UN/EDIFACT syntax version 3 provides a set of controlled vocabularies for the digital message systems within a supply chain service."@en ;
             dct:relation eira:ControlledVocabularyDataObject ] .
@@ -7957,10 +7891,6 @@ cssvrsc:c21eec6aa0cd89b3814a3d984d5d4e5f9003026f467d934a5418871f407fda78 a cssv:
         [ dct:description "MoReq2010 helps to implement a file management solution by establishing a common set of basic elements shared by many different types of file systems, which are modular and flexible, allowing them to be incorporated into highly specialized and dedicated applications."@en ;
             dct:relation eira:E-ArchivingApplicationComponent ] .
 
-cssvrsc:c231b8af9ced594390978d9841c76b5ba3d8e84519f493a11818ad28260a5f11 a cssv:Specification ;
-    dct:relation [ dct:description "This decision defines requirements for public authorities in order to foster interoperability through the development interoperability solutions."@en ;
-            dct:relation eira:InteroperabilityFrameworkBusinessObject ] .
-
 cssvrsc:c23342d6622bff477f2dfc1c386b5926d4ed73480aff3da1a799a8735f7c4b92 a cssv:Specification ;
     dct:relation [ dct:description "exFAT is used for embedded systems as the best suited solution for firmware that have low memory and power requirements. The specification is an optimised file system that offers compatibility and scalability with various operating systems, and also can be easily implemented for its use on flash memory, such as USB flash drives and SD cards."@en ;
             dct:relation eira:E-ArchivingApplicationComponent ],
@@ -8010,7 +7940,7 @@ cssvrsc:c3f1e21d6e8e8c29be57d98cf26a0ffa4098bb5f06b7048b77da99e59f66acfd a cssv:
             dct:relation eira:AgreementOnPrivacyContract ] .
 
 cssvrsc:c4225249fa825c2a074f079d643e0a10f82c8e3a1f189fc0958225c078c3cddf a cssv:Specification ;
-    dct:relation [ dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
+    dct:relation [ dct:description "A non-binding guideline encouraging reuse of public sector information."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:c4424d160bca806534e4fe98593c558007d9e4080167ff7192d15b057e92ed1d a cssv:Specification ;
@@ -8051,10 +7981,6 @@ cssvrsc:c5df220e521f34ea71e56e1b834cbf20bdf43d12d00c3c0350aa90ceb2ac815d a cssv:
         [ dct:description "Y.4122 helps organizations ensure that their edge computing gateways meet the necessary requirements for performance, scalability, security, and interoperability in IoT environments."@en ;
             dct:relation eira:GatewayTechnologyService ] .
 
-cssvrsc:c68c118663bdaec42dcc2bbd683897cdbe4f670e27aab2c346d953281b0265c2 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
-            dct:relation eira:BindingInstrumentRequirement ] .
-
 cssvrsc:c6f93df663ecf8b0c48d8dd95d6caf35ca48fcec7ba598f809bddb4651bcc230 a cssv:Specification ;
     dct:relation [ dct:description "The DSS aims to be an IT solution for electronic signatures to ensure that signatures are created in line with European legislation and standards. DSS allows reuse in a variety of different ways: in an applet, in a stand-alone application or in a server application. "@en ;
             dct:relation eira:E-SignatureCreationApplicationService ],
@@ -8064,16 +7990,16 @@ cssvrsc:c6f93df663ecf8b0c48d8dd95d6caf35ca48fcec7ba598f809bddb4651bcc230 a cssv:
 cssvrsc:c7044e666c4df232aa32e6348ed132eac78961c2a83c493e7972b3a69043c7bb a cssv:Specification ;
     dct:relation [ dct:description "The Directory is a collection of open systems which cooperate to hold a logical database of information about a set of objects in the real world. The users of the directory, including people and computer programs, can read or modify the information, or parts of it."@en ;
             dct:relation eira:ActiveDirectoryTechnologyService ],
-        [ dct:description "The X.509 specification can evaluate digital signatures and decide whether a signature is valid or invalid."@en ;
+        [ dct:description "Service specification supporting verification of digital signatures through directory-based identity information."@en ;
             dct:relation eira:E-SignatureVerificationAndValidationApplicationService ],
-        [ dct:description "The X.509 specification defines a framework for obtaining and trusting a public key of an entity in order to verify the digital signature of that entity."@en ;
+        [ dct:description "Standards enabling the creation, verification, and validation of public keys and digital signatures for trusted service provisioning."@en ;
             dct:relation eira:TrustServiceProvisioningApplicationComponent ],
         camssa:8f32ec706a46d2f07f98f81c4bfed1170e3952cc34b3ee7d35ab799428930627 .
 
 cssvrsc:c747bcc29e933f77261b08b02977440192e05ad0555c99d25127943c0c310a4d a cssv:Specification ;
-    dct:relation [ dct:description "This agreement constitutes a way of collaboration in the development of ICT standards that can be considered as the forum where specialised organisation work in close collaboration for the development of common opportunities. This can mean the creation of technical specifications or best practices for their development."@en ;
+    dct:relation [ dct:description "Agreement enabling coordinated development of ICT standards through cooperative processes."@en ;
             dct:relation eira:TechnicalAgreementContract ],
-        [ dct:description "This agreement constitutes a way of collaboration in the development of ICT standards that can be considered as the forum where specialised organisation work in close collaboration for the development of common opportunities. This can mean the creation of technical specifications or best practices for their development."@en ;
+        [ dct:description "The Vienna Agreement establishes a formal cooperation framework between ISO and CEN to avoid duplication in the creation of international and European standards. It enables joint technical work, synchronized approval processes, and coordinated publication of standards that serve both global and European needs. As an interoperability agreement, it promotes efficient alignment of technical specifications, reduces fragmentation in ICT and non-ICT standardisation, and ensures uniform adoption of standards across markets."@en ;
             dct:relation eira:TechnicalInteroperabilityAgreementContract ] .
 
 cssvrsc:c76dceb677542b090be5f87c1264baec772ca4ac4b9ac791449c0ccde7f15942 a cssv:Specification ;
@@ -8083,9 +8009,9 @@ cssvrsc:c76dceb677542b090be5f87c1264baec772ca4ac4b9ac791449c0ccde7f15942 a cssv:
             dct:relation eira:PhysicalComputingInfrastructureEquipment ] .
 
 cssvrsc:c796c0c59e2a1573bab99dbaf934e82784f6e1f4cd63a72d819e1175399826b4 a cssv:Specification ;
-    dct:relation [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
+    dct:relation [ dct:description "Non-binding guidance proposing trust and identification elements relevant in specific national contexts."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "This is not a regulation that would apply in any and all cases but most domains would involve at least identification."@en ;
+        [ dct:description "European-level legal act establishing rules for trusted electronic identification and signatures."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
         [ dct:description "This is not a regulation that would apply in any and all cases but most domains would involve in a specific national context."@en ;
             dct:relation eira:NationalLegalActRequirement ],
@@ -8093,11 +8019,11 @@ cssvrsc:c796c0c59e2a1573bab99dbaf934e82784f6e1f4cd63a72d819e1175399826b4 a cssv:
             dct:relation eira:PrivacyFrameworkBusinessObject ],
         [ dct:description "It is primarily intended for use by system managers, developers, TTP operators and business users in selecting those TTP services needed for particular requirements, their subsequent management, use and operational deployment, and the establishment of a security policy within a TTP. It is not intended to be used as a basis for a formal evaluation of a TTP or a comparison of TTPs."@en ;
             dct:relation eira:DigitalGovernancePlanBusinessObject ],
-        [ dct:description "This is not a regulation that would apply in any and all cases but most domains would involve at least identification."@en ;
+        [ dct:description "This Regulation establishes mandatory rules for electronic identification, trust services, and cross-border recognition, applying particularly in domains requiring secure identity and trust-service interoperability."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
         [ dct:description "This regulation foresees by 2023 exactly an EU-wide cross-border public service catalogue along with the procedure types that are to be supported."@en ;
             dct:relation eira:DigitalPublicServiceCatalogueBusinessObject ],
-        [ dct:description "This is not a regulation that would apply in any and all cases but most domains would involve at least identification."@en ;
+        [ dct:description "This Regulation provides the EU-wide legal foundation for trusted electronic identification and signature services, essential to interoperable digital interactions in most sectors."@en ;
             dct:relation eira:LegalActRequirement ] .
 
 cssvrsc:c833915edfd03d94674b67707df6c86d7a2b8f7237c7a403f10c873d3aff39bc a cssv:Specification ;
@@ -8145,7 +8071,7 @@ cssvrsc:caa48956f697a918c2a7aadba6b89e778404c60ed350fa795eb4df40875d2777 a cssv:
             dct:relation eira:AgreementOnPrivacyContract ] .
 
 cssvrsc:cb163cafa81d4892c4587939d02888172ad8b1e87e3ab8e6356c5532174881ef a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A binding instrument defining obligations for privacy in electronic communications."@en ;
             dct:relation eira:BindingInstrumentRequirement ] .
 
 cssvrsc:cbce0e84ee4555701de3c0aa98dd30ffcfd20060d9e938068ae9906beefac8db a cssv:Specification ;
@@ -8159,18 +8085,6 @@ cssvrsc:cbce0e84ee4555701de3c0aa98dd30ffcfd20060d9e938068ae9906beefac8db a cssv:
 cssvrsc:cc1eeeee1f8950f1d0c4661615f7f3fc06d85b9f57930d2f780839bd89a8c177 a cssv:Specification ;
     dct:relation [ dct:description "The RFC 2119 allows to understand a set of temrs used to describe some IETF specifications. In this sense, the specification helps to describe specifications in a standardised manner. This codes or terms have the same meanings in all documents, and allows to clarify and describe better some specifications elements."@en ;
             dct:relation eira:ReferenceDataDataObject ] .
-
-cssvrsc:cf42ed66151cf874dbb8eb198c8035f5441279275791ae74581afc523d968ade a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
-            dct:relation eira:LegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
-            dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
-            dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
-            dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
-            dct:relation eira:BindingInstrumentRequirement ] .
 
 cssvrsc:cf73d9238a419781d904b0da2ece913b60f29328913212efcc98d22de22914a8 a cssv:Specification ;
     dct:relation [ dct:description "The Secutiry Controls - Linking eIDAS (Q)ERDS & CEF eDelivery specification uses the AS4 messaging protocol and prescribes the Access Point (AP) of CEF eDelivery implementations according to the e-SENS profile, ensuring standardised, interoperable, secure and reliable data exchange."@en ;
@@ -8203,7 +8117,7 @@ cssvrsc:d0c2a9ada3fa1a1d4252743338c7cf9e547ffee3b379197a8af4f35ce821ceae a cssv:
             dct:relation eira:GatewayTechnologyService ] .
 
 cssvrsc:d0d74f80cb1c08bff33c480fe37f8209a802479bc9ac5c785fb47a9d3703ba8d a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A binding instrument establishing obligations for data protection in criminal justice systems."@en ;
             dct:relation eira:BindingInstrumentRequirement ] .
 
 cssvrsc:d0d8ea27bcb34163af6c5bbdf120557e0a2edd1b38e85e52f06256729faf38c7 a cssv:Specification ;
@@ -8413,7 +8327,7 @@ cssvrsc:db6cf8a73c9466853f99606b2f9eb6a89616f351d02b7c246c0bf87d5d18d50f a cssv:
             dct:relation eira:FileStorageTechnologyService ] .
 
 cssvrsc:dbbcf731896ac255a462fd008c619158922f551be78e24342e93f2279abf94ed a cssv:Specification ;
-    dct:relation [ dct:description "Legal act providing a common scope on the context of European Public services and interoperability aspects."@en ;
+    dct:relation [ dct:description "Policy defining a common framework for referencing business document standards in procurement."@en ;
             dct:relation eira:PublicPolicyCourseOfAction ] .
 
 cssvrsc:dbd0b032b3ec7eb0b043fa1dc3b5df5913b1388ffde57e8e3650b5b0f2f33eb1 a cssv:Specification ;
@@ -8441,13 +8355,13 @@ cssvrsc:dd3c03c70c338994d0cb5a38c92ea1920f2526959fa7fa1bcb1d6f4eb345374a a cssv:
 cssvrsc:dddff8544042eb988c47233f82dabea445e63f0cc63a8d4b3927aaa10a7a1829 a cssv:Specification ;
     dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects, some of them with no legal obligation."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+        [ dct:description "National-level requirement identifying specifications applicable to interoperable public procurement."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "A European legal act identifying technical specifications for use in procurement."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Implementing Decision identifies ICT technical specifications that meet EU criteria for interoperability, openness, and market relevance, allowing them to be referenced within public procurement procedures. It provides legal certainty for contracting authorities by clarifying which non-harmonised ICT specifications may be used in tenders, promoting competition and avoiding vendor lock-in. As a legal act requirement, it establishes obligations and governance mechanisms that harmonise procurement practices across the EU, ensuring that publicly procured ICT systems are interoperable, secure, and based on widely recognised standards."@en ;
             dct:relation eira:LegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Implementing Decision designates ICT technical specifications eligible for use in public procurement, guiding administrations toward interoperable, future-proof digital solutions."@en ;
             dct:relation eira:BindingInstrumentRequirement ] .
 
 cssvrsc:dde05f7ca9b85d5179d8e9d31a70388f11eb71611c0b8982951f5fc8b78e193d a cssv:Specification ;
@@ -8610,22 +8524,22 @@ cssvrsc:e40e1dad713e4ac1d66f54e1b53cbbce61f57635e6aeeb82bc6eefb469303e01 a cssv:
             dct:relation eira:DataSpaceConnectorConsumerApplicationService ] .
 
 cssvrsc:e438965c54bc7f78e6ede46f4d408abe398302a3b33e374a9ed4662b8b44df77 a cssv:Specification ;
-    dct:relation [ dct:description "XML is a subset of SGML that enables generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML."@en ;
+    dct:relation [ dct:description "XML 1.0 is a subset of SGML that enables generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML."@en ;
             dct:relation eira:DataRepresentationRepresentation ],
         [ dct:description "XML is a specification that is used in defining the way in which data is put together with appropriate identifiers, delimiters, separator character(s), and other non-data characters to form messages."@en ;
             dct:relation eira:DataSyntaxDataObject ] .
 
 cssvrsc:e438965c54bc7f78e6ede46f4d408abe398302a3b33e374a9ed4662b8b44df99 a cssv:Specification ;
-    dct:relation [ dct:description "XML is a subset of SGML that enables generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML."@en ;
+    dct:relation [ dct:description "XML 1.1 is a subset of SGML that enables generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML."@en ;
             dct:relation eira:DataRepresentationRepresentation ],
-        [ dct:description "XML is a specification that is used in defining the way in which data is put together with appropriate identifiers, delimiters, separator character(s), and other non-data characters to form messages."@en ;
+        [ dct:description "XML defines a flexible, hierarchical syntax for structuring data using tags, attributes, and schemas. As a data syntax object, it standardises how data structures are encoded, parsed, and validated across systems, supporting interoperability in messaging, document exchange, service interfaces, and configuration files. XML’s extensibility and schema-based validation make it widely suitable for cross-organisational information exchange and long-term data preservation."@en ;
             dct:relation eira:DataSyntaxDataObject ],
         camssa:74ecd64479f85251863f23f53392bae51524e571729b196dfd39350bbba5aeff,
         camssa:8c9b9c54f21176231185cf4455e3d23b6e3c3048d33ae408047c28088e4733f6,
         camssa:d1f7f0f04d5a8542ea3e1fbdceb5c5a598f4060f1a254ef731d2e90a43095b33 .
 
 cssvrsc:e466c9d975d60dcbb51231519f02eea8a79ccecf3a85e7292c427a23a9d9fbe6 a cssv:Specification ;
-    dct:relation [ dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
+    dct:relation [ dct:description "A non-binding strategic instrument guiding digital government interoperability."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:e4758e56eb60846408c6608ca3309836f2cb84c7ff44697aadcc08b531c57cae a cssv:Specification ;
@@ -8881,15 +8795,15 @@ cssvrsc:ed84e5cca1a760f8086028752750c99774b3f00ba2391d1ef8bd0da658fbf183 a cssv:
             dct:relation eira:DistributedBlockchainNetworkTechnologyService ] .
 
 cssvrsc:eda8963fef30913a42e112250c4b58b0fd42baaeb3d601cac3a427b1d2b5290e a cssv:Specification ;
-    dct:relation [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
+    dct:relation [ dct:description "Non-binding guidance proposing interoperability principles applicable to certain data processing scenarios."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
         [ dct:description "The GDPR regulation is a data policy with regard to the processing of personal data and the free movement of such data."@en ;
             dct:relation eira:DataPolicyBusinessObject ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "A binding proposal establishing obligations for harmonised access to data across the EU."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining interoperability requirements."@en ;
+        [ dct:description "A binding EU legal act formalising rules for personal data protection and free movement of data, setting requirements relevant for digital public services."@en ;
             dct:relation eira:LegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining interoperability requirements in a specific national context."@en ;
+        [ dct:description "National-level requirement defining obligations for personal data protection and interoperability of data processing."@en ;
             dct:relation eira:NationalLegalActRequirement ],
         [ dct:description "The GDPR regulation is a data policy with regard to the processing of personal data and the free movement of such data."@en ;
             dct:relation eira:DataHolderBusinessRole ],
@@ -8913,7 +8827,7 @@ cssvrsc:eda8963fef30913a42e112250c4b58b0fd42baaeb3d601cac3a427b1d2b5290e a cssv:
             dct:relation eira:AgreementOnPrivacyContract ],
         [ dct:description "Detailed legal act defining interoperability y requirement for privacy components that should be compliant with it."@en ;
             dct:relation eira:PrivacyApplicationComponent ],
-        [ dct:description "Business agnostic legal act defining interoperability requirements."@en ;
+        [ dct:description "This Regulation establishes harmonised data protection rules across the EU, including interoperability-relevant requirements for lawful, secure, and consistent processing and exchange of personal data."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
         [ dct:description "Detailed legal act defining interoperability y requirement for privacy components that should be compliant with it."@en ;
             dct:relation eira:PrivacyApplicationService ] .
@@ -8969,19 +8883,19 @@ cssvrsc:ee27322554e46143c3c56f419fc28b71a445380e4e5af7332aabdb87c7d0ec26 a cssv:
         camssa:823e431f9b239388833256e1b97780359bc145aca3bce46ff4a8cbcf81b68be8 .
 
 cssvrsc:ef08c2789f6b3c4df7347426999a885397045dfa90a29f3a7009505988c9a9b2 a cssv:Specification ;
-    dct:relation [ dct:description "This communication from the Commission includes a set of plans and principles to achieve a common data space enhancing the Interoperability across borders."@en ;
+    dct:relation [ dct:description "A communication defining strategic measures to protect digital assets and ensure cybersecurity across the Union."@en ;
             dct:relation eira:SecurityFrameworkBusinessObject ] .
 
 cssvrsc:efb40789fe3ad96b26d88aeb5afa229851bc73b19b6a3d4b8220ef3a37fed1c7 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+    dct:relation [ dct:description "National-level requirement establishing obligations to ensure accessibility of public sector websites and mobile apps."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
+        [ dct:description "Non-binding guidance proposing accessibility principles applicable in specific domains."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "A European legal act defining obligations for accessibility of public sector sites and apps."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Directive mandates accessibility requirements for public-sector websites and mobile applications, defining interoperability-oriented obligations to ensure inclusive and harmonised digital access across the EU."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Directive defines binding obligations for public bodies to ensure digital accessibility, supporting interoperable, inclusive online services that can be reliably accessed by all users, including persons with disabilities."@en ;
             dct:relation eira:LegalActRequirement ] .
 
 cssvrsc:f02ea1d3690a89ddc570508919eb8bc2468493430ab03f24fd0d61998501e306 a cssv:Specification ;
@@ -9014,7 +8928,7 @@ cssvrsc:f13fe97c82507e0945b310962f9cf3c269e731ce29b8ef5aa62bcfc57edaa0f3 a cssv:
             dct:relation eira:DataExchangeApplicationService ] .
 
 cssvrsc:f246e4a67ffaaa842c3b3a78787b19628d9a6928fd4f91239372c73d1b9e618d a cssv:Specification ;
-    dct:relation [ dct:description "This standard explains how Catalogue Services based on the ISO19115/ISO19119 Application Profile for the OGC® Catalogue Services Specification v 2.0.2 are organized and implemented for the discovery, retrieval and management of data, metadata, services metadata and application metadata."@en ;
+    dct:relation [ dct:description "This specification describes how the CSW ebRIM profile can be extended to support ISO 19115 and ISO 19119 metadata standards for geospatial resources. It details service-level behaviour for storing, querying, discovering, and managing metadata based on international geospatial standards. As an application service, it enables interoperability between catalogue services implementing different metadata profiles."@en ;
             dct:relation eira:MetadataManagementApplicationService ],
         [ dct:description "This standard explains how Catalogue Services based on the ISO19115/ISO19119 Application Profile for the OGC® Catalogue Services Specification v 2.0.2 are organized and implemented for the discovery, retrieval and management of data, metadata, services metadata and application metadata."@en ;
             dct:relation eira:MetadataManagementApplicationComponent ] .
@@ -9026,10 +8940,6 @@ cssvrsc:f2c5ca77b353f96dffe6df722a1f36cddf6e502c744ea9c59459d9144156494f a cssv:
             dct:relation eira:AuthenticationApplicationService ],
         [ dct:description "OIDC provides decentralised authentication, over domains, facilitating interoperability. OpenID has a very broad adoption in large commercial and public organizations. It is a reliable protocol."@en ;
             dct:relation eira:IdentificationApplicationComponent ] .
-
-cssvrsc:f36ce406cf0470d6b8c3d4f04141fb8c35c10e1342c6fb68a55e4cbf1b30eb9d a cssv:Specification ;
-    dct:relation [ dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
-            dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:f37fec7b3b5a865877ce8663c3efe7f2442877c774e86cdc5fc9bd262f8adef1 a cssv:Specification ;
     dct:relation [ dct:description "RBAC reduces the administrative burden and enhances the consistency of access control policies by managing permissions at the role level."@en ;
@@ -9062,7 +8972,7 @@ cssvrsc:f4314f9cf9c8e1b1f57df755f3c11d9797e235f51e0f4bebf15035b1ac4a0074 a cssv:
         camssa:e2467b920113fac3c7fb0aafb9d2ae37eb817b7c881b3ddb222e6ab390e1ce95 .
 
 cssvrsc:f4d282a8b83575a2b688620086fadc5247e246daf62a5335f6f9251e6f3db07d a cssv:Specification ;
-    dct:relation [ dct:description "Legal act providing a common scope on the context of European Public services and interoperability aspects."@en ;
+    dct:relation [ dct:description "Policy setting harmonised rules for procurement in specific network industries, ensuring interoperability, transparency, and equal access in essential services such as water, energy, transport, and postal operations."@en ;
             dct:relation eira:PublicPolicyCourseOfAction ] .
 
 cssvrsc:f583cf0bd8c648594647d8361d498fa4514355f12a4233b496de8f51d1debfc0 a cssv:Specification ;
@@ -9087,7 +8997,7 @@ cssvrsc:f5a013fc7b47e09ba927b4b6dbcf29447046873c380bc86384a134ebc1adad1a a cssv:
             dct:relation eira:PrivacyPolicyBusinessObject ] .
 
 cssvrsc:f5e1b39cfe134794973341782570d3f5999ee97719451ee8e18b4c0383cdadae a cssv:Specification ;
-    dct:relation [ dct:description "Non-binding legal instrument that can be reused across business areas"@en ;
+    dct:relation [ dct:description "A non-binding policy instrument promoting open data and reuse."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:f5f48a4c870ee0803124dca2c14551cc649b4b4559bfa0188b20a0f844e63edf a cssv:Specification ;
@@ -9164,11 +9074,11 @@ cssvrsc:f87dfdb640b6ae7225549d78c0e76b11c1ad9e9356a17182b260e4923432b646 a cssv:
             dct:relation eira:MetadataManagementApplicationService ] .
 
 cssvrsc:f89d504119769a02d8f58d34e7b645d168a78fa1c1de631d48b3e0f2331d3d00 a cssv:Specification ;
-    dct:relation [ dct:description "Some of the operations that WFC provide includes stored query operations that allow clients to create, drop, list and described parameterized query expressions that are stored by the server and can be repeatedly invoked using different parameter values."@en ;
+    dct:relation [ dct:description "WFS supports stored query operations for defining, managing, and repeatedly invoking parameterised queries on server-side feature data."@en ;
             dct:relation eira:DataManagementApplicationComponent ],
-        [ dct:description "Some of the operations that WFC provide includes discovery operations that allow the service to be interrogated to determine its capabilities and to retrieve the application schema that defines the feature types that the service offers."@en ;
+        [ dct:description "WFS enables public administrations to perform administrative functions by providing discovery operations and access to feature type schemas."@en ;
             dct:relation eira:DigitalBusinessCapabilityCapability ],
-        [ dct:description "Some of the operations that WFC provide includes stored query operations that allow clients to create, drop, list and described parameterized query expressions that are stored by the server and can be repeatedly invoked using different parameter values."@en ;
+        [ dct:description "WFS is a service interface that allows access to and manipulation of geospatial features at the data level, enabling clients to query, retrieve, and update geographic information directly on the server. Through operations such as stored queries, parameterised filtering, feature encoding, and transactional updates, WFS provides flexible, machine-readable access to vector data."@en ;
             dct:relation eira:DataManagementApplicationService ],
         [ dct:description "Some of the operations that WFC provide includes stored query operations that allow clients to create, drop, list and described parameterized query expressions that are stored by the server and can be repeatedly invoked using different parameter values."@en ;
             dct:relation eira:DataExtractionTransformationAndLoadingApplicationComponent ],
@@ -9182,15 +9092,15 @@ cssvrsc:f8f87159fcb3a6a0d0731f58a217206a03908f2d6f7f6923060efc8dfe03380d a cssv:
             dct:relation eira:WebServiceApplicationInterface ] .
 
 cssvrsc:f9f266ff5a4e9932ce671b5e0d44de75978ba8ed545b989a8c197e26be9a1fda a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A European legal act setting requirements for interoperable spatial data infrastructures."@en ;
             dct:relation eira:EuropeanLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "INSPIRE establishes a legal framework for creating a harmonised spatial data infrastructure across the EU, requiring Member States to ensure interoperability, discoverability, and accessibility of geospatial datasets and services. Article 18 specifically outlines obligations related to data sharing, service operation, and enabling cross-border reuse of spatial information."@en ;
             dct:relation eira:LegalActRequirement ],
         [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+        [ dct:description "National-level requirement establishing obligations for interoperable spatial data infrastructures."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
+        [ dct:description "Non-binding guidance proposing requirements for spatial data interoperability."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ] .
 
 cssvrsc:f9fabf6f9e386fd28c1b6776c65cb19baf8dca7999e7612481594bfd852c4af7 a cssv:Specification ;
@@ -9263,19 +9173,19 @@ cssvrsc:fdb314a96c718420f5bd2980558e2fb413b60f28e8ccb87669744be3f337d7f7 a cssv:
         camssa:2836247db1b027768ff05fa3087daec1689555e8d7843766707f25e1bf8fd636 .
 
 cssvrsc:fde042cd63deec50c59dbf0714ffc5c87e72019964262a0dc96abb6543182501 a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects in a specific national context."@en ;
+    dct:relation [ dct:description "National-level requirement establishing obligations for interoperable skills and qualifications services."@en ;
             dct:relation eira:NationalLegalActRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "A binding instrument defining obligations for interoperability of skills and qualifications services."@en ;
             dct:relation eira:BindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Decision defines a unified interoperability framework for skills and qualifications information, setting obligations for harmonised and cross-border service delivery in the Europass ecosystem."@en ;
             dct:relation eira:LegalActRequirement ],
-        [ dct:description "It is not a regulation that applies in all cases, but in some areas it proposes non-mandatory requirements that a specific legislative body could consider."@en ;
+        [ dct:description "Non-binding guidance proposing requirements for skills and qualifications services."@en ;
             dct:relation eira:Non-bindingInstrumentRequirement ],
-        [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+        [ dct:description "This Regulation establishes a unified framework for digital skills and qualification services, facilitating interoperability of learning credentials across the EU."@en ;
             dct:relation eira:EuropeanLegalActRequirement ] .
 
 cssvrsc:fe1938f85a6bad78270df0f3028ee3b204a1eac4bb5970f1fecc55f78e50e71a a cssv:Specification ;
-    dct:relation [ dct:description "Business agnostic legal act defining milestones, goals and obligations involving interoperability aspects."@en ;
+    dct:relation [ dct:description "A binding instrument defining obligations for transparency and access to EU documents."@en ;
             dct:relation eira:BindingInstrumentRequirement ] .
 
 cssvrsc:fec0fd9b514e720e88d41baca3909a4e567a9bef966ffae60d8abc6b068c5861 a cssv:Specification ;
@@ -9304,10 +9214,6 @@ cssvrsc:fef432d5ee4920705bc86d0d0c4750a88d6e2c7cef1f895e9037ab0776c49fa9 a cssv:
             dct:relation eira:DigitalGovernancePlanBusinessObject ],
         [ dct:description "A white paper that serves as a first approach to defining the design principles of data spaces, agreements on the basic components of a soft infrastructure and the governance of data spaces."@en ;
             dct:relation eira:DataSpaceApplicationService ] .
-
-cssvrsc:ff8279db1fde0e4287ecd59aab3e2eeba63097e58dcd9ccfa4c55022f881e5e4 a cssv:Specification ;
-    dct:relation [ dct:description "Legal act providing a common scope on the context of European Public services and interoperability aspects."@en ;
-            dct:relation eira:PublicPolicyCourseOfAction ] .
 
 cssvrsc:ffa44598fbf3f5e780ae0a6d7551e37c25f9b7261e80efb2848dcc74d7c969e3 a cssv:Specification ;
     dct:relation [ dct:description "The BSBA Technical Convergence Discussion Document aims to guide the technical alignment and interoperability of the various initiatives and technologies that are coming together to build a federated and functional ecosystem of data spaces. It serves as a basis for discussion, collaboration, and the eventual development of shared technical standards and frameworks. The document outlines the elements that will define the governance of the data space at technical level, making it the foundation of a governance plan."@en ;
@@ -9623,6 +9529,8 @@ eira:KnowledgeRepresentation eira:concept eira:ArchitectureBuildingBlock .
 
 eira:OntologiesCatalogueDataObject eira:concept eira:ArchitectureBuildingBlock .
 
+eira:OpenDataPolicyBusinessObject eira:concept eira:ArchitectureBuildingBlock .
+
 eira:PhysicalComputingInfrastructureEquipment eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ReferenceDataDataObject eira:concept eira:ArchitectureBuildingBlock .
@@ -9646,8 +9554,6 @@ eira:DatabricksTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 eira:DigitalSolutionApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DistributedBlockchainNetworkTechnologyService eira:concept eira:ArchitectureBuildingBlock .
-
-eira:OpenDataPolicyBusinessObject eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DataPolicyBusinessObject eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9677,6 +9583,8 @@ eira:AuditApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
 eira:AuditApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
+eira:PublicPolicyCourseOfAction eira:concept eira:ArchitectureBuildingBlock .
+
 eira:TechnicalAgreementContract eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DataExtractionTransformationAndLoadingApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
@@ -9687,13 +9595,9 @@ eira:DataMappingDataObject eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DigitalGovernancePlanBusinessObject eira:concept eira:ArchitectureBuildingBlock .
 
-eira:E-SealCreationApplicationService eira:concept eira:ArchitectureBuildingBlock .
-
 eira:IntegrityVerificationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:MetadataCatalogueDataObject eira:concept eira:ArchitectureBuildingBlock .
-
-eira:PublicPolicyCourseOfAction eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DataFormatDataObject eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9703,11 +9607,13 @@ eira:E-ArchivingApplicationComponent eira:concept eira:ArchitectureBuildingBlock
 
 eira:E-ArchivingApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:E-SealVerificationAndValidationApplicationService eira:concept eira:ArchitectureBuildingBlock .
+eira:E-SealCreationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:IdentityManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:HashCodeDataObject eira:concept eira:ArchitectureBuildingBlock .
+
+eira:InteroperabilityFrameworkBusinessObject eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ConformanceTestingApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9719,7 +9625,7 @@ eira:DataPublicationApplicationComponent eira:concept eira:ArchitectureBuildingB
 
 eira:DataPublicationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:InteroperabilityFrameworkBusinessObject eira:concept eira:ArchitectureBuildingBlock .
+eira:E-SealVerificationAndValidationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ConformanceTestingApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9735,8 +9641,6 @@ eira:SemanticAgreementContract eira:concept eira:ArchitectureBuildingBlock .
 
 eira:WebServiceApplicationInterface eira:concept eira:ArchitectureBuildingBlock .
 
-eira:E-SignatureCreationApplicationService eira:concept eira:ArchitectureBuildingBlock .
-
 eira:MachineToMachineInterfaceApplicationInterface eira:concept eira:ArchitectureBuildingBlock .
 
 eira:SecurityFrameworkBusinessObject eira:concept eira:ArchitectureBuildingBlock .
@@ -9747,27 +9651,31 @@ eira:PrivacyApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
 eira:PrivacyPolicyBusinessObject eira:concept eira:ArchitectureBuildingBlock .
 
+eira:E-SignatureCreationApplicationService eira:concept eira:ArchitectureBuildingBlock .
+
+eira:LegalActRequirement eira:concept eira:ArchitectureBuildingBlock .
+
 eira:MetadataManagementApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
 eira:MetadataManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DataDataObject eira:concept eira:ArchitectureBuildingBlock .
 
+eira:EuropeanLegalActRequirement eira:concept eira:ArchitectureBuildingBlock .
+
 eira:AuthorisationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:LegalActRequirement eira:concept eira:ArchitectureBuildingBlock .
+eira:NationalLegalActRequirement eira:concept eira:ArchitectureBuildingBlock .
 
 eira:SecurityPolicyBusinessObject eira:concept eira:ArchitectureBuildingBlock .
-
-eira:E-SignatureVerificationAndValidationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:OpenDataRepresentation eira:concept eira:ArchitectureBuildingBlock .
 
 eira:SemanticInteroperabilityAgreementContract eira:concept eira:ArchitectureBuildingBlock .
 
-eira:EuropeanLegalActRequirement eira:concept eira:ArchitectureBuildingBlock .
+eira:E-SignatureVerificationAndValidationApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:NationalLegalActRequirement eira:concept eira:ArchitectureBuildingBlock .
+eira:BindingInstrumentRequirement eira:concept eira:ArchitectureBuildingBlock .
 
 eira:TechnicalInteroperabilityAgreementContract eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9775,7 +9683,7 @@ eira:APIApplicationInterface eira:concept eira:ArchitectureBuildingBlock .
 
 eira:LinkedDataRepresentation eira:concept eira:ArchitectureBuildingBlock .
 
-eira:BindingInstrumentRequirement eira:concept eira:ArchitectureBuildingBlock .
+eira:Non-bindingInstrumentRequirement eira:concept eira:ArchitectureBuildingBlock .
 
 eira:LinkedOpenDataRepresentation eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9786,8 +9694,6 @@ eira:DataManagementApplicationService eira:concept eira:ArchitectureBuildingBloc
 eira:DataManagementApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DataRepresentationRepresentation eira:concept eira:ArchitectureBuildingBlock .
-
-eira:Non-bindingInstrumentRequirement eira:concept eira:ArchitectureBuildingBlock .
 
 eira:OntologyDataObject eira:concept eira:ArchitectureBuildingBlock .
 
