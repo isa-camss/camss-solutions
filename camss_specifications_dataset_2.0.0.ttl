@@ -4156,6 +4156,9 @@ cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "VC"@en ;
     cssv:alternative ""@en ;
+    #prueba
+    cssv:combines cssvrsc: 7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 ; 
+    cssv:combines cssvrsc: 7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "Verifiable Credentials is a specification that provides a mechanism to express credentials (e.g., driver's license or government-issued passports) on the Web in a way that is cryptographically secure, privacy respecting, and machine-verifiable. This means they can be stored on digital devices, and it is possible to use cryptography to verify their data and authorship."@en ;
     dct:title "Verifiable Credentials"@en ;
@@ -4166,6 +4169,8 @@ cssvrsc:7d372848f2752f95f57864edf1c26afddadc8af1f4069124bca255069860aaf5 a cssv:
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
+    #prueba
+    cssv:combinedin cssvrsc: 7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 ;
     cssv:isMaintainedBy cssvrsc:ea947630ddc61c59b5a1743223c4f802ef2ccf45155a6700f28f09504c6e9343 ;
     dct:description "The Asset Administration Shell (AAS) Metamodel specification is a conceptual framework and set of guidelines used in the context of Industry 4.0 to define the structure and semantics of the digital representation of assets."@en ;
     dct:title "Details of the AAS Part 1 - Metamodel and Package File formats (AAS Metamodel)"@en ;
