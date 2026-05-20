@@ -4157,8 +4157,7 @@ cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 a cssv:
     cssv:acronym "VC"@en ;
     cssv:alternative ""@en ;
     #prueba
-    cssv:combines cssvrsc: 7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 ; 
-    cssv:combines cssvrsc: 7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 ;
+    cssv:combines cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14, cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 ; 
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "Verifiable Credentials is a specification that provides a mechanism to express credentials (e.g., driver's license or government-issued passports) on the Web in a way that is cryptographically secure, privacy respecting, and machine-verifiable. This means they can be stored on digital devices, and it is possible to use cryptography to verify their data and authorship."@en ;
     dct:title "Verifiable Credentials"@en ;
