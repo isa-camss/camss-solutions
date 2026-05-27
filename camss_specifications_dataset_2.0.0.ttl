@@ -224,6 +224,19 @@ cssvrsc:0581b0d95abc27e8cadc938b779ec379a9de9af2182dcd9ce35f119b34e38df3 a cssv:
     dcat:distribution cssvrsc:b8076314-2a5b-4a05-919a-0b612a9974ec ;
     dcat:version "1.1.1" .
 
+cssvrsc:e0d67bbafa776a1ec31b8e1958431b650a473dac02daa77e50f8492d719c7c4a a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:60d7c734ba553bbf77ec1eff77f59d9f9931d9dacad83cc9c718a4ee1ca9ca78,
+        cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9,
+        cssvrsc:95632f502902a5902d8b5b16cf33e48be7b34f51ceeeb5002b516a6bf57da5b2 ; 
+    cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
+    dct:description "Peppol is a global standard for the structured electronic exchange of business documents such as invoices and purchase orders. It enables organisations worldwide to interoperate seamlessly for digital trade, serving buyers, suppliers, and service providers across both public and private sectors."@en ;
+    dct:title "Peppol"@en ;
+    dcat:distribution cssvrsc:9e89774d-267c-47ee-84a8-47e962fcbd9a ;
+    dcat:version "1.0.0" .
+
 cssvrsc:05ae30452745c8e7b857a6cea3d573d8454da4491ae4e348f6735d3dc4b0c79b a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "UMA"@en ;
@@ -374,6 +387,7 @@ cssvrsc:09d5f955aa3f2e89a91b884839963a35be68332c58006c53d8d7f88e882cb4fa a cssv:
         owl:NamedIndividual ;
     cssv:acronym "CPOV"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:50d73e0dba359f9bb1681c18061997e22e7ad61ee8aa93d3ea4a55576e5f861c ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The Core Public Organisation Vocabulary aspires to become a common data model for describing public organisations in the European Union"@en ;
     dct:title "Core Public Organisation Vocabulary (CPOV)"@en ;
@@ -424,11 +438,28 @@ cssvrsc:0b37cecddd46617439a61a5c025d428e597d6288ba1989baf0946aea43badbc4 a cssv:
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:e5f0bd66f256cd1de4a7dd743ad2daa16ef94fcc0b4c4d6a9b54eea78e9b2df5 ;
     cssv:isMaintainedBy cssvrsc:72b8809dd96e3442fb49081b36b63feecb177659fb5273de26f9ae3ce72b8656 ;
     dct:description "MyData Service Linking enables to manage access to a centralised database by attaching the related service to the MyData Account."@en ;
     dct:title "MyData Service Linking Specification"@en ;
     dcat:distribution cssvrsc:6fcacc9e-23eb-4b7d-a12f-68b988d92134 ;
     dcat:version "1.2.1" .
+
+cssvrsc:e5f0bd66f256cd1de4a7dd743ad2daa16ef94fcc0b4c4d6a9b54eea78e9b2df5 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:9bb5ed8aeeaac36ae03d2d557379facd9e2c20e039bab1cdf1d29a5c53b0a205, 
+        cssvrsc:5f129c4a4681c4dedd2a0743ebe10d477c0ebd4267bd3ea08b74f19fae6d926d,
+        cssvrsc:3aaa12483d62fa12aacc83930d0506d941b7c58b7d944e78e5110137fcf1b1a2,
+        cssvrsc:0b37cecddd46617439a61a5c025d428e597d6288ba1989baf0946aea43badbc4,
+        cssvrsc:b9cd5c4f17e7b599e3e34669c79a0905121dd66cf1bdeb74f4a4b74e957001df,
+        cssvrsc:c3bb5295e7631fec8c2f14aabe3e408396a7f08f7e32640548219f88a98a9160 ; 
+    cssv:isMaintainedBy cssvrsc:72b8809dd96e3442fb49081b36b63feecb177659fb5273de26f9ae3ce72b8656 ;
+    dct:description "MyData implements MyData principles at infrastructure level, covering consent management, service linking, and personal data authorisation. It is an unmaintained early-stage proposal with no formal standing within MyData Global."@en ;
+    dct:title "MyData"@en ;
+    dcat:distribution cssvrsc:434938b7-868c-4dfb-811a-490aae0469a8 ;
+    dcat:version "1.0.0" .
 
 cssvrsc:0b4b029f1965046fe8688fef791e98f65a200be8dc9c99224672a4280b9df91e a cssv:Specification,
         owl:NamedIndividual ;
@@ -565,6 +596,8 @@ cssvrsc:0e12967520ef4b68bb5fb857177827c0094abca637175e68a0a09bd24130694c a cssv:
         owl:NamedIndividual ;
     cssv:acronym "PROV"@en ;
     cssv:alternative ""@en ;
+    cssv:combines cssvrsc:94dbf8026c56f46835b561c3d8cf686177ad4bba055dc31733858568cd41580f, 
+        cssvrsc:8571211bbf3815c7457d9b6d99d478c1008acc227358597ca9dd30eb8087bf81 ; 
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Provenance (PROV) Family provides a publication and exchange schema for representing the provenance of information objects in information systems. The specification family provides definitions for accessing provenance information, mechanisms to validate it and to assesse its status. PROV is compatible with other schemas, such as Dublin Core."@en ;
     dct:title "PROV Family"@en ;
@@ -645,6 +678,7 @@ cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af a cssv:
         owl:NamedIndividual ;
     cssv:acronym "CLV"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:50d73e0dba359f9bb1681c18061997e22e7ad61ee8aa93d3ea4a55576e5f861c ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Location, represented as an address, a geographic name, or geometry. This specification can be used as the foundation of a common export format for data in base registries."@en ;
     dct:title "Core Location Vocabulary 2.0.0"@en ;
@@ -1559,6 +1593,19 @@ cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185 a cssv:
     dcat:distribution cssvrsc:c5230e34-2971-43f6-bca7-24799cf101ba ;
     dcat:version "2.2.0" .
 
+cssvrsc:3e4ec39e2489ffad7531d44a15eccf98708580e5060cd50b0e5527e3921f87ba a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185, 
+        cssvrsc:798f57c9a79c00ba21874151b6145d33cf5c11a551a7e337224f670ebaaefcac ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:description "ODRL is designed for expressing policies, permissions, prohibitions, and obligations, over digital assets in a machine-readable format. It defines who can do what with which resource, under which conditions."@en ;
+    dct:title "ODRL"@en ;
+    dcat:distribution cssvrsc:d982e7fe-ef7e-4f52-9538-27644e3a843d ;
+    dcat:version "1.0.0" .
+
 cssvrsc:2b51120824a210a60b6a87d0c9e73b91afe31c37154175bf85c61d9ee5f17725 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
@@ -1728,11 +1775,27 @@ cssvrsc:2fd54ed3719f3760bf87a951ac49d2a4f73a451ac4f7e840baf709e3164fe524 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "AIP"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:0bc5e35251b0d18a8b9fe1ad261a86eeff4fe2798948eaf5bdd7accfa9ee553e ;
     cssv:isMaintainedBy cssvrsc:10baa47b87cd6477d9b70a292bda2cc453310c1ca016182ee2426ee1d1de8e4e ;
     dct:description "E-ARK AIP belongs to the suite of E-ARK CSIP specifications that are used to transmit, describe and retain digital data. E-ARK AIP defines requirements and guidelines for creating AIPs that are suitable for long-term storage of information packets."@en ;
     dct:title "E-ARK Archival Information Packages (AIP)"@en ;
     dcat:distribution cssvrsc:8bb95a42-d0c2-4ba6-abf2-b54526e82374 ;
     dcat:version "2.1.0" .
+
+cssvrsc:0bc5e35251b0d18a8b9fe1ad261a86eeff4fe2798948eaf5bdd7accfa9ee553e a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:2fd54ed3719f3760bf87a951ac49d2a4f73a451ac4f7e840baf709e3164fe524, 
+        cssvrsc:8eb93f554a3440a30b522cf4f0f9f6800045bf0b2741c518fab12bac16ca84c6,
+        cssvrsc:f86fa8439db10ab4dec432b3939b5527adc12fa217845661736959eccf896e35, 
+        cssvrsc:6a25fd786696be4d42b22911d4d88b28235dbac0ce6924ecaae50a287ac8b02a ;
+    cssv:isMaintainedBy cssvrsc:10baa47b87cd6477d9b70a292bda2cc453310c1ca016182ee2426ee1d1de8e4e ;
+    dct:description "E-ARK (European Archival Records and Knowledge Preservation) was an EU-funded multinational project aimed at standardising and improving digital archiving methods across Europe. It delivered open technical specifications, tools, and an OAIS-compliant archival infrastructure to ensure long-term authenticity and accessibility of electronic records and databases."@en ;
+    dct:title "E-ARK"@en ;
+    dcat:distribution cssvrsc:a221dd81-3333-4add-95c2-654337530e62 ;
+    dcat:version "1.0.0" .
 
 cssvrsc:3007fa234804557ae13e980021a5513a93ff6782a3c0911ec59a0274ec85db36 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1824,7 +1887,8 @@ cssvrsc:323f9183321bfcf41cf4b055c06d5c31f6d31023c1eecd49f299235fdf803eb2 a cssv:
     dcat:distribution cssvrsc:0a84d164-01a5-4b19-a093-f70f8224901f ;
     dcat:version "L 94/1" .
 
-cssvrsc:32734470ba159f230ee255180239975caec190ecd44e769d8a57df7e16b90efe a cssv:Specification,
+cssvrsc:32734470ba159f230ee255180239975caec190ecd44e769d8a57df7e16b90efe a cssv:Family,
+        cssv:Specification
         owl:NamedIndividual ;
     cssv:acronym "OData"@en ;
     cssv:alternative ""@en ;
@@ -2191,6 +2255,7 @@ cssvrsc:3aaa12483d62fa12aacc83930d0506d941b7c58b7d944e78e5110137fcf1b1a2 a cssv:
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:e5f0bd66f256cd1de4a7dd743ad2daa16ef94fcc0b4c4d6a9b54eea78e9b2df5 ;
     cssv:isMaintainedBy cssvrsc:72b8809dd96e3442fb49081b36b63feecb177659fb5273de26f9ae3ce72b8656 ;
     dct:description "MyData Data Connection provides a mechanism to transfer data from the data owner database to a third-party system."@en ;
     dct:title "MyData Data Connection Specification"@en ;
@@ -3317,6 +3382,7 @@ cssvrsc:5f129c4a4681c4dedd2a0743ebe10d477c0ebd4267bd3ea08b74f19fae6d926d a cssv:
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:e5f0bd66f256cd1de4a7dd743ad2daa16ef94fcc0b4c4d6a9b54eea78e9b2df5 ;
     cssv:isMaintainedBy cssvrsc:72b8809dd96e3442fb49081b36b63feecb177659fb5273de26f9ae3ce72b8656 ;
     dct:description "MyData Authorisation allows users to grant consent to transfer data for its processing in a third-party system, and authorises the service to process it under rules and restrictions set by the data owner."@en ;
     dct:title "MyData Authorisation Specification"@en ;
@@ -3369,6 +3435,7 @@ cssvrsc:60d7c734ba553bbf77ec1eff77f59d9f9931d9dacad83cc9c718a4ee1ca9ca78 a cssv:
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:e0d67bbafa776a1ec31b8e1958431b650a473dac02daa77e50f8492d719c7c4a ;
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
     dct:description "The PEPPOL AS2 Profile is the predecessor of the AS4 profile and is used to exchange business messages between Access Points (APs) as part of the PEPPOL infrastructure. The specification is based on the AS2 specification (MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP Applicability Statement 2 - RFC4130)."@en ;
     dct:title "PEPPOL AS2 Profile"@en ;
@@ -3565,6 +3632,7 @@ cssvrsc:6a25fd786696be4d42b22911d4d88b28235dbac0ce6924ecaae50a287ac8b02a a cssv:
         owl:NamedIndividual ;
     cssv:acronym "E-ARK SIP"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:0bc5e35251b0d18a8b9fe1ad261a86eeff4fe2798948eaf5bdd7accfa9ee553e ;
     cssv:isMaintainedBy cssvrsc:10baa47b87cd6477d9b70a292bda2cc453310c1ca016182ee2426ee1d1de8e4e ;
     dct:description "E-ARK SIP belongs to the E-ARK CSIP suite of specifications used to transmit, describe and preserve digital data. E-ARK SIP defines a general structure for a presentation information package format suitable for a wide variety of archival resources (e.g. documents, image collections, databases or geospatial data), and enhances interoperability in archives."@en ;
     dct:title "E-ARK Submission Information Package (SIP)"@en ;
@@ -4152,14 +4220,26 @@ cssvrsc:7c1f89606ff29d6fa4ee1f4cd6e67f59ffebcefe54b70b325e3ab031c3c9aeb0 a cssv:
     dcat:distribution cssvrsc:e60d4554-97ce-4bb9-9098-7f9019f68e57 ;
     dcat:version "2.1.1" .
 
-cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 a cssv:Specification,
+cssvrsc:5e1bf66abd1bd4b89fd8cef14c56e565e7781cd153042f1dd73e530664c0716e a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym "VC"@en ;
+    cssv:acronym "VCDM"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "Verifiable Credentials is a specification that provides a mechanism to express credentials (e.g., driver's license or government-issued passports) on the Web in a way that is cryptographically secure, privacy respecting, and machine-verifiable. This means they can be stored on digital devices, and it is possible to use cryptography to verify their data and authorship."@en ;
-    dct:title "Verifiable Credentials"@en ;
+    dct:title "Verifiable Credentials Data Model"@en ;
     dcat:distribution cssvrsc:4d8484f1-dddd-4f2b-b25d-55e5b7cea92c ;
+    dcat:version "2.0.0" .
+
+cssvrsc:00fc754431ae68a5376a55bb52339b48882208483edd948025e4cc446f5dbfea a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym "VC 2.0"@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:5e1bf66abd1bd4b89fd8cef14c56e565e7781cd153042f1dd73e530664c0716e ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:description "The Verifiable Credentials 2.0 family is a set of seven W3C Recommendations defining how to express, secure, and manage tamper-evident digital credentials on the Web, covering the core data model, cryptographic integrity mechanisms (Data Integrity, EdDSA, ECDSA, JOSE/COSE), identifier control, and credential status (revocation/suspension)."@en ;
+    dct:title "Verifiable Credentials 2.0"@en ;
+    dcat:distribution cssvrsc:e3d7c5a5-7729-478d-9860-8b50734ff136 ;
     dcat:version "2.0.0" .
 
 cssvrsc:7d372848f2752f95f57864edf1c26afddadc8af1f4069124bca255069860aaf5 a cssv:Specification,
@@ -4725,6 +4805,7 @@ cssvrsc:8eb93f554a3440a30b522cf4f0f9f6800045bf0b2741c518fab12bac16ca84c6 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "E-ARK CSIP"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:0bc5e35251b0d18a8b9fe1ad261a86eeff4fe2798948eaf5bdd7accfa9ee553e ;
     cssv:isMaintainedBy cssvrsc:10baa47b87cd6477d9b70a292bda2cc453310c1ca016182ee2426ee1d1de8e4e ;
     dct:description "E-ARK CSIP is a specification consisting in a set of specifications used for transmitting, describing and preserving digital data. They have been produced to help data creators, software developers and digital archives to tackle the challenge of short-, medium- and long-term data management and reuse in a sustainable, authentic, cost-efficient, manageable and interoperable way. The specications defines interoperability requirements for e-archiving components (CEF eArchiving building blocks)."@en ;
     dct:title "E-ARK Common Specification for Information Packages (CSIP)"@en ;
@@ -4997,6 +5078,7 @@ cssvrsc:95632f502902a5902d8b5b16cf33e48be7b34f51ceeeb5002b516a6bf57da5b2 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "SML"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:e0d67bbafa776a1ec31b8e1958431b650a473dac02daa77e50f8492d719c7c4a ;
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
     dct:description "Peppol SML is used to add, update, delete the IDs of the participants, offering a DNS-based mechanism to discover the Service Metadata Publisher (Peppol SMP) where the specific participant data is described."@en ;
     dct:title "Peppol Transport Infrastructure Service Metadata Locator (Peppol SML)"@en ;
@@ -5118,6 +5200,23 @@ cssvrsc:985060febbd0c7129afb8735db61f11ed728a4609d4103e0738c841230078d7d a cssv:
     dcat:distribution cssvrsc:eb2e3800-f5b3-48ac-b039-0df587062d7e ;
     dcat:version "1.0.0" .
 
+cssvrsc:50d73e0dba359f9bb1681c18061997e22e7ad61ee8aa93d3ea4a55576e5f861c a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
+    cssv:combines cssvrsc:a61e46d2918487a44fe12b59273afd2fd4326225041c92534ed339c600fc12ac, 
+        cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af,
+        cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8,
+        cssvrsc:e9bb09990f610bec081e4275f7a49d6a4cdf7df89e3903a5daff682135f02c35,
+        cssvrsc:09d5f955aa3f2e89a91b884839963a35be68332c58006c53d8d7f88e882cb4fa,
+        cssvrsc:dfa58525250ce8c35f18952c91fdcc18a8ebe6ae967c834563157541b4dab46f ;
+    dct:description "Core Vocabularies are simplified, re-usable and extensible data models that capture the fundamental characteristics of an entity in a context-neutral fashion. Public administrations can use and extend the Core Vocabularies in different contexts."@en ;
+    dct:title "Core Vocabularies"@en ;
+    dcat:distribution cssvrsc:e57df8bc-61bc-4d56-a1e5-472098e960f7 ;
+    dcat:version "1.0.0" .
+
 cssvrsc:985d914a-4c6a-4bdf-80a0-ea3aaf7ff03a a owl:NamedIndividual,
         schema:ContactPoint ;
     schema:ContactPoint cssvrsc:99a1c59109fbb140de6894255d96f33d70d6a04373a38a3d1d418d3d534ecd67 ;
@@ -5169,6 +5268,7 @@ cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 a cssv:
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:e0d67bbafa776a1ec31b8e1958431b650a473dac02daa77e50f8492d719c7c4a ;
     cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
     dct:description "Peppol eDelivery Network Specifications, in the past known as the Business Document Exchange Network (BUSDOX) specifications, is a Family enabling the access to the Peppol eDelivery Network. The family includes, among others, the following components: Access Points (Peppol AS4 profile); Service Metadata Publishers (Peppol SMP); Service Metadata Locator (Peppol SML)."@en ;
     dct:title "Peppol eDelivery Network Specifications"@en ;
@@ -5247,6 +5347,7 @@ cssvrsc:9bb5ed8aeeaac36ae03d2d557379facd9e2c20e039bab1cdf1d29a5c53b0a205 a cssv:
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:e5f0bd66f256cd1de4a7dd743ad2daa16ef94fcc0b4c4d6a9b54eea78e9b2df5 ;
     cssv:isMaintainedBy cssvrsc:72b8809dd96e3442fb49081b36b63feecb177659fb5273de26f9ae3ce72b8656 ;
     dct:description "The MyData Account specification is a key enabler for linking services and consents together with their history in a one-stop shop. It helps to provide a unified view of all of all data flow authorizations, their management and control. It is part of the MyData Architecture."@en ;
     dct:title "MyData Account Specification"@en ;
@@ -5453,6 +5554,7 @@ cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "CLV"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:50d73e0dba359f9bb1681c18061997e22e7ad61ee8aa93d3ea4a55576e5f861c ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The Core Location Vocabulary is a simplified, reusable and extensible data model that captures the fundamental characteristics of a location, represented as an address, a geographic name, or geometry. This specification can be used as the foundation of a common export format for data in base registries."@en ;
     dct:title "Core Location Vocabulary"@en ;
@@ -5473,6 +5575,7 @@ cssvrsc:a61e46d2918487a44fe12b59273afd2fd4326225041c92534ed339c600fc12ac a cssv:
         owl:NamedIndividual ;
     cssv:acronym "CCCEV"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedIn cssvrsc:50d73e0dba359f9bb1681c18061997e22e7ad61ee8aa93d3ea4a55576e5f861c ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The Core Criterion and Core Evidence Vocabulary (CCCEV) is designed to support the exchange of information between organisations defining criteria and organisations responding to these criteria by means of evidences."@en ;
     dct:title "Core Criterion and Core Evidence Vocabulary v1.0.0"@en ;
@@ -6139,6 +6242,7 @@ cssvrsc:b9cd5c4f17e7b599e3e34669c79a0905121dd66cf1bdeb74f4a4b74e957001df a cssv:
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:e5f0bd66f256cd1de4a7dd743ad2daa16ef94fcc0b4c4d6a9b54eea78e9b2df5 ;
     cssv:isMaintainedBy cssvrsc:72b8809dd96e3442fb49081b36b63feecb177659fb5273de26f9ae3ce72b8656 ;
     dct:description "The MyData Service Registry Specification maintains a database for service registration and enables searching for compatible (discovery) services."@en ;
     dct:title "MyData Service Registry Specification"@en ;
@@ -6468,6 +6572,7 @@ cssvrsc:c3bb5295e7631fec8c2f14aabe3e408396a7f08f7e32640548219f88a98a9160 a cssv:
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:e5f0bd66f256cd1de4a7dd743ad2daa16ef94fcc0b4c4d6a9b54eea78e9b2df5 ;
     cssv:isMaintainedBy cssvrsc:72b8809dd96e3442fb49081b36b63feecb177659fb5273de26f9ae3ce72b8656 ;
     dct:description "The MyData White Paper provides a framework, principles and model for a human-centered approach to the management and processing of personal information, focused on the right of individuals to access the data collected about them. The MyData Architecture is defined by all the specifications developed under this approach."@en ;
     dct:title "MyData White paper"@en ;
@@ -7267,6 +7372,7 @@ cssvrsc:dfa58525250ce8c35f18952c91fdcc18a8ebe6ae967c834563157541b4dab46f a cssv:
         owl:NamedIndividual ;
     cssv:acronym "CCCEV"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:50d73e0dba359f9bb1681c18061997e22e7ad61ee8aa93d3ea4a55576e5f861c ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The Core Criterion and Core Evidence Vocabulary (CCCEV) specification is designed to support the exchange of information between organisations or persons (more generally Agents) defining requirements and organisations or persons responding to these requirements by means of structured or unstructured evidences."@en ;
     dct:title "Core Criterion and Core Evidence Vocabulary (CCCEV) v2.1.0"@en ;
@@ -7680,6 +7786,7 @@ cssvrsc:e9bb09990f610bec081e4275f7a49d6a4cdf7df89e3903a5daff682135f02c35 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "CPV"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:50d73e0dba359f9bb1681c18061997e22e7ad61ee8aa93d3ea4a55576e5f861c ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The Core Person Vocabulary is a simplified, reusable and extensible data model that captures the fundamental characteristics of a person, e.g. the name, the gender, the date of birth, etc. This specification can be used as the foundation of a common export format for data in base registries."@en ;
     dct:title "Core Person Vocabulary"@en ;
@@ -7926,6 +8033,20 @@ cssvrsc:f2c5ca77b353f96dffe6df722a1f36cddf6e502c744ea9c59459d9144156494f a cssv:
     dcat:distribution cssvrsc:a5b41ea7-8e94-4529-b849-ea05ad88c936 ;
     dcat:version "2.0.0" .
 
+cssvrsc:4bb5e18ab46489fd6f6b71d65e209f500457aac1554a7a02cf4174d703d418ca a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:8f688d53afcca27546d8b931207e249c83c17293e5218a730ecb12f58c07faf6, 
+        cssvrsc:2dbc3b7b2c9116e11bc358ba3e35aac777e12ac966e16a1813d61540209b6ffe,
+        cssvrsc:cf607476dd87aa844e3c2a62d978d810afd936f4afd580dd3eeb97979fad9b1b ; 
+    cssv:isMaintainedBy cssvrsc:4e04f19455ff8628a12285cdca275b0ee3faeaa0223f10095bf19b7bc584ac1c ;
+    dct:description "OpenID for Verifiable Credentials (OID4VC) is an OpenID Foundation framework consisting of three specifications, OID4VCI, OID4VP, and SIOPv2, that together define how verifiable credentials are issued, presented, and authenticated using OAuth 2.0 and OpenID Connect as the underlying trust infrastructure."@en ;
+    dct:title "OpenID4VC"@en ;
+    dcat:distribution cssvrsc:903e2d6f-2eae-48d6-b2e2-fd2a66baf5c8 ;
+    dcat:version "2.0.0" .
+
 cssvrsc:f2f2f35925cd025b8a049734cd1ad9c3343684abe4050795e84f86b36bece0c1 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "SMTP"@en ;
@@ -8107,6 +8228,20 @@ cssvrsc:f80fdcd27632e81bb3a152830fb9541330d762b3714731fd1eee03fdecf06f9a a cssv:
     dcat:distribution cssvrsc:23a254b4-2a23-4e42-a2e6-6e6d399ba0f1 ;
     dcat:version "22.0.0" .
 
+cssvrsc:646624813194fc899a480e622517d16a9ba9d0764e0dac6968b426631795a998 a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:6d5f15d3694c6b3db3f8e473234a697578f623c25ec45201b2313edcfca0b9ee, 
+        cssvrsc:f80fdcd27632e81bb3a152830fb9541330d762b3714731fd1eee03fdecf06f9a,
+        cssvrsc:31f2ff5bbc6982b0c6fd24e4faa75012a9c88823b142548f13d75da7c853b7cd ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "SCIM defines a common schema and REST API for automating the provisioning and management of user identities, such as creating, updating, and deleting accounts, across cloud applications and services, reducing the cost and complexity of user lifecycle management."@en ;
+    dct:title "SCIM Family"@en ;
+    dcat:distribution cssvrsc:6c7a438b-cf49-4ab2-b421-1acca5b99933 ;
+    dcat:version "2.0.0" .
+
 cssvrsc:f823c0302a70749e803ef387521e366fe72024eb831150420296e430dd0b04ee a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
@@ -8152,6 +8287,7 @@ cssvrsc:f86fa8439db10ab4dec432b3939b5527adc12fa217845661736959eccf896e35 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "E-ARK DIP"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedin cssvrsc:0bc5e35251b0d18a8b9fe1ad261a86eeff4fe2798948eaf5bdd7accfa9ee553e ;
     cssv:isMaintainedBy cssvrsc:10baa47b87cd6477d9b70a292bda2cc453310c1ca016182ee2426ee1d1de8e4e ;
     dct:description "E-ARK DIP belongs to the suite of E-ARK CSIP specifications that are used to transmit, describe and retain digital data. E-ARK SIP defines an information packet (derived from an E-ARK AIP) specific to a particular consumer, so that this information package can be processed by its designated access software."@en ;
     dct:title "E-ARK Dissemination Information Package (DIP)"@en ;
@@ -8898,6 +9034,10 @@ cssvrsc:23a254b4-2a23-4e42-a2e6-6e6d399ba0f1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.rfc-editor.org/rfc/rfc7643.html> .
 
+cssvrsc:6c7a438b-cf49-4ab2-b421-1acca5b99933 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://scim.cloud/#Specification> .
+
 cssvrsc:23b27824-3f14-46b1-b7b6-9b2e45068be2 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.internationaldataspaces.org/ids-knowledgebase/v/ids-g/Components/IdentityProvider/ParIS> .
@@ -9561,6 +9701,10 @@ cssvrsc:4d8484f1-dddd-4f2b-b25d-55e5b7cea92c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.w3.org/TR/vc-data-model-2.0/> .
 
+cssvrsc:e3d7c5a5-7729-478d-9860-8b50734ff136 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.w3.org/news/2025/the-verifiable-credentials-2-0-family-of-specifications-is-now-a-w3c-recommendation/> .
+
 cssvrsc:4d8bd35a-f86b-431f-b386-1ac20f0b67b1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.bar.admin.ch/bar/en/home/archiving/tools/siard-suite.html> .
@@ -10070,6 +10214,10 @@ cssvrsc:6fcacc9e-23eb-4b7d-a12f-68b988d92134 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://github.com/HIIT/mydata-stack/blob/v1.2.1/mydata-service-linking.pdf> .
 
+cssvrsc:434938b7-868c-4dfb-811a-490aae0469a8 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://github.com/mydata-sdk/mydata-docs/tree/master>
+
 cssvrsc:704e7924-ec75-440e-86f7-b7c059be8dd1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/cefdigital/wiki/download/attachments/359203344/%28eDelivery%29%28Digital%20Certificates%20used%20in%20eDelivery%29%281.00%29.pdf?version=3&modificationDate=1617087525527&api=v2> .
@@ -10476,6 +10624,10 @@ cssvrsc:8bb697ed-90f7-4e0f-8505-f9d4888b1a3e a owl:NamedIndividual,
 cssvrsc:8bb95a42-d0c2-4ba6-abf2-b54526e82374 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://earkaip.dilcis.eu/> .
+
+cssvrsc:a221dd81-3333-4add-95c2-654337530e62 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://eark-project.com/> .
 
 cssvrsc:8bec3405-7224-402e-a2e3-62d77c0b8777 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10939,6 +11091,14 @@ cssvrsc:a5b41ea7-8e94-4529-b849-ea05ad88c936 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://openid.net/specs/openid-connect-core-1_0.html> .
 
+cssvrsc:903e2d6f-2eae-48d6-b2e2-fd2a66baf5c8 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://openid.net/sg/openid4vc/specifications/> .
+
+cssvrsc: a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://openid.net/specs/openid-connect-core-1_0.html> .
+
 cssvrsc:a60a6e40-ccae-4e41-b78b-c9d197143049 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://joinup.ec.europa.eu/> .
@@ -11224,6 +11384,10 @@ cssvrsc:b8076314-2a5b-4a05-919a-0b612a9974ec a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.peppol.eu/edelivery/directory/PEPPOL-EDN-Directory-1.1.1-2020-10-15.pdf> .
 
+cssvrsc:9e89774d-267c-47ee-84a8-47e962fcbd9a a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://peppol.org/> .
+
 cssvrsc:b81760b816b510a70611d2063c0482540f7d59edfd48d9e0adab747e067d6ae4 a org:Organization ;
     skos:altLabel "JSON Lines"@en ;
     skos:prefLabel "JSON Lines"@en ;
@@ -11482,6 +11646,10 @@ cssvrsc:c511d561-3c88-4872-8359-cde825fa0f28 a owl:NamedIndividual,
 cssvrsc:c5230e34-2971-43f6-bca7-24799cf101ba a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.w3.org/TR/odrl-vocab/> .
+
+cssvrsc:d982e7fe-ef7e-4f52-9538-27644e3a843d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.w3.org/community/odrl/> .
 
 cssvrsc:c590fb62-0611-49ab-babe-5feb12185afe a owl:NamedIndividual,
         dcat:Distribution ;
@@ -11983,6 +12151,10 @@ cssvrsc:e9e9f30f-7d12-48eb-acdf-b4cd91e182c5 a owl:NamedIndividual,
 cssvrsc:eb2e3800-f5b3-48ac-b039-0df587062d7e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://op.europa.eu/en/web/eu-vocabularies/alignments> .
+
+cssvrsc:e57df8bc-61bc-4d56-a1e5-472098e960f7 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://op.europa.eu/en/web/eu-vocabularies/corevocs> .
 
 cssvrsc:eb5efbb9-ba90-4c91-a338-d1a4db051a97 a owl:NamedIndividual,
         dcat:Distribution ;
