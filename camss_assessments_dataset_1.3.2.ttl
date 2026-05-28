@@ -129435,19 +129435,6 @@ camssa:fffb75eb-c66c-4dc4-b11d-2a07244a7a71 a cav:Score,
     cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
     cav:value "20" .
 
-@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
-@prefix cav: <http://data.europa.eu/2sa/cav#> .
-@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix org: <http://www.w3.org/ns/org#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
-@prefix schema: <http://schema.org/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
 camssa:0a4072a1ff1666c5726e675ca3f736498034f114c2aae506385b82221085ec8c a cav:Assessment,
         owl:NamedIndividual ;
     cav:assesses cssvrsc:08f50fa324dbbec86c051639c4ccf6a16d5ed456e6a962567cb321ab56814ebe ;
@@ -131936,19 +131923,6 @@ camssa:fe72bd7e-1482-436f-a855-26f749b7b18a a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
     cav:value "100"^^xsd:string .
-
-    @prefix camssa: <http://data.europa.eu/2sa/assessments/> .
-@prefix cav: <http://data.europa.eu/2sa/cav#> .
-@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix org: <http://www.w3.org/ns/org#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
-@prefix schema: <http://schema.org/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 camssa:d4cf9e2c33fc0608fd18cd11309d3afbc92dfb3281cfe2aef2a0b68c4a82968b a cav:Assessment,
         owl:NamedIndividual ;
