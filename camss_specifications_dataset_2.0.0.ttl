@@ -490,7 +490,6 @@ cssvrsc:09ce00273fb3ddb27a19e763415866b93a6ac114f4e1f42e6b9f24e48bacc705 a cssv:
     dcat:version "1.1.1" .
 
 cssvrsc:09d5f955aa3f2e89a91b884839963a35be68332c58006c53d8d7f88e882cb4fa a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "CPOV"@en ;
     cssv:alternative ""@en ;
@@ -567,7 +566,6 @@ cssvrsc:0b319bf69d7a0413978bac35d8483f5b816fbda0e77c0291093cc3e6fe1bbae8 a cssv:
         ] .
 
 cssvrsc:0b37cecddd46617439a61a5c025d428e597d6288ba1989baf0946aea43badbc4 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
@@ -722,10 +720,40 @@ cssvrsc:0e12967520ef4b68bb5fb857177827c0094abca637175e68a0a09bd24130694c a cssv:
         owl:NamedIndividual ;
     cssv:acronym "PROV"@en ;
     cssv:alternative ""@en ;
+    cssv:combines cssvrsc:94dbf8026c56f46835b561c3d8cf686177ad4bba055dc31733858568cd41580f, 
+                cssvrsc:8571211bbf3815c7457d9b6d99d478c1008acc227358597ca9dd30eb8087bf81 ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Provenance (PROV) Family provides a publication and exchange schema for representing the provenance of information objects in information systems. The specification family provides definitions for accessing provenance information, mechanisms to validate it and to assesse its status. PROV is compatible with other schemas, such as Dublin Core."@en ;
     dct:title "PROV Family"@en ;
     dcat:distribution cssvrsc:adaec688-a18d-4483-ad4f-3f52c5903778 ;
+    dcat:version "1.0.0" .
+
+cssvrsc:3e4ec39e2489ffad7531d44a15eccf98708580e5060cd50b0e5527e3921f87ba a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185, 
+        cssvrsc:798f57c9a79c00ba21874151b6145d33cf5c11a551a7e337224f670ebaaefcac ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:description "ODRL is designed for expressing policies, permissions, prohibitions, and obligations, over digital assets in a machine-readable format. It defines who can do what with which resource, under which conditions."@en ;
+    dct:title "ODRL"@en ;
+    dcat:distribution cssvrsc:d982e7fe-ef7e-4f52-9538-27644e3a843d ;
+    dcat:version "1.0.0" .
+
+cssvrsc:0bc5e35251b0d18a8b9fe1ad261a86eeff4fe2798948eaf5bdd7accfa9ee553e a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:2fd54ed3719f3760bf87a951ac49d2a4f73a451ac4f7e840baf709e3164fe524, 
+        cssvrsc:8eb93f554a3440a30b522cf4f0f9f6800045bf0b2741c518fab12bac16ca84c6,
+        cssvrsc:f86fa8439db10ab4dec432b3939b5527adc12fa217845661736959eccf896e35, 
+        cssvrsc:6a25fd786696be4d42b22911d4d88b28235dbac0ce6924ecaae50a287ac8b02a ;
+    cssv:isMaintainedBy cssvrsc:10baa47b87cd6477d9b70a292bda2cc453310c1ca016182ee2426ee1d1de8e4e ;
+    dct:description "E-ARK (European Archival Records and Knowledge Preservation) was an EU-funded multinational project aimed at standardising and improving digital archiving methods across Europe. It delivered open technical specifications, tools, and an OAIS-compliant archival infrastructure to ensure long-term authenticity and accessibility of electronic records and databases."@en ;
+    dct:title "E-ARK"@en ;
+    dcat:distribution cssvrsc:a221dd81-3333-4add-95c2-654337530e62 ;
     dcat:version "1.0.0" .
 
 cssvrsc:0e2bad82870e7abae827de478cff738ca43ce1e7ed07c7c400652936d8731105 a cssv:Specification,
@@ -799,7 +827,6 @@ cssvrsc:12942011e3dbce66ff2eb098ac1c452a5bbb3ab2c7a7845cfa40284077be7110 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "CLV"@en ;
     cssv:alternative ""@en ;
@@ -1905,7 +1932,6 @@ cssvrsc:2b1360464d9f04688a468f625ce1b738d81cf37a037ddee359143646bb7b8c3e a cssv:
     dcat:version "L 235/1" .
 
 cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "ODRL"@en ;
     cssv:alternative ""@en ;
@@ -2060,7 +2086,6 @@ cssvrsc:2dabce2a650059704db69b06a4b1aaf8fc58af0f16f9b5022565b5e6dc2d7e5c a cssv:
         ] .
 
 cssvrsc:2dbc3b7b2c9116e11bc358ba3e35aac777e12ac966e16a1813d61540209b6ffe a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "OID4VP"@en ;
     cssv:alternative ""@en ;
@@ -2173,7 +2198,6 @@ cssvrsc:2f856146c296f898d22bb9f902b57a9165aa118215b17854df23e4642ceb4c06 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:2fd54ed3719f3760bf87a951ac49d2a4f73a451ac4f7e840baf709e3164fe524 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "AIP"@en ;
     cssv:alternative ""@en ;
@@ -2282,7 +2306,6 @@ cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 a cssv:
         ] .
 
 cssvrsc:31f2ff5bbc6982b0c6fd24e4faa75012a9c88823b142548f13d75da7c853b7cd a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "SCIM"@en ;
     cssv:alternative "RFC 7644"@en ;
@@ -2871,7 +2894,6 @@ cssvrsc:39eee9a3f8d54dac0e11456b98c29454ebb157dc3a8991f456b7b659bf990370 a cssv:
         ] .
 
 cssvrsc:3aaa12483d62fa12aacc83930d0506d941b7c58b7d944e78e5110137fcf1b1a2 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
@@ -3934,6 +3956,34 @@ cssvrsc:57b56a8345bfa9184413953a5392709e8b7eb0950414b63552c6189a9e42ff7c a cssv:
     dcat:distribution cssvrsc:43eb7eba-977f-4fc1-b89f-c66b7ead3161 ;
     dcat:version "1.5.0" .
 
+cssvrsc:4bb5e18ab46489fd6f6b71d65e209f500457aac1554a7a02cf4174d703d418ca a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:8f688d53afcca27546d8b931207e249c83c17293e5218a730ecb12f58c07faf6, 
+        cssvrsc:2dbc3b7b2c9116e11bc358ba3e35aac777e12ac966e16a1813d61540209b6ffe,
+        cssvrsc:cf607476dd87aa844e3c2a62d978d810afd936f4afd580dd3eeb97979fad9b1b ; 
+    cssv:isMaintainedBy cssvrsc:4e04f19455ff8628a12285cdca275b0ee3faeaa0223f10095bf19b7bc584ac1c ;
+    dct:description "OpenID for Verifiable Credentials (OID4VC) is an OpenID Foundation framework consisting of three specifications, OID4VCI, OID4VP, and SIOPv2, that together define how verifiable credentials are issued, presented, and authenticated using OAuth 2.0 and OpenID Connect as the underlying trust infrastructure."@en ;
+    dct:title "OpenID4VC"@en ;
+    dcat:distribution cssvrsc:903e2d6f-2eae-48d6-b2e2-fd2a66baf5c8 ;
+    dcat:version "1.0.0" .
+
+cssvrsc:646624813194fc899a480e622517d16a9ba9d0764e0dac6968b426631795a998 a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:6d5f15d3694c6b3db3f8e473234a697578f623c25ec45201b2313edcfca0b9ee, 
+        cssvrsc:f80fdcd27632e81bb3a152830fb9541330d762b3714731fd1eee03fdecf06f9a,
+        cssvrsc:31f2ff5bbc6982b0c6fd24e4faa75012a9c88823b142548f13d75da7c853b7cd ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "SCIM defines a common schema and REST API for automating the provisioning and management of user identities, such as creating, updating, and deleting accounts, across cloud applications and services, reducing the cost and complexity of user lifecycle management."@en ;
+    dct:title "SCIM Family"@en ;
+    dcat:distribution cssvrsc:6c7a438b-cf49-4ab2-b421-1acca5b99933 ;
+    dcat:version "2.0.0" .
+
 cssvrsc:57f94ddc093ddc32cd79221ba6fbf6b61410ae60aff1127417ec2325354aff18 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "JADN"@en ;
@@ -4198,7 +4248,6 @@ cssvrsc:5e055257d3c0c61888b38e58a8eab1058088afa4711f27e6ec14deb65807e90f a cssv:
     dcat:version "1.1.1" .
 
 cssvrsc:5f129c4a4681c4dedd2a0743ebe10d477c0ebd4267bd3ea08b74f19fae6d926d a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
@@ -4251,7 +4300,6 @@ This Recommendation specifies a technical framework for PII handling in IoT envi
     dcat:version "1.0.0" .
 
 cssvrsc:60d7c734ba553bbf77ec1eff77f59d9f9931d9dacad83cc9c718a4ee1ca9ca78 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
@@ -4490,7 +4538,6 @@ cssvrsc:698bc162667bed731836c1c65d215898e431b93a293c9b27374779c41636cddb a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:6a25fd786696be4d42b22911d4d88b28235dbac0ce6924ecaae50a287ac8b02a a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "E-ARK SIP"@en ;
     cssv:alternative ""@en ;
@@ -4601,7 +4648,6 @@ cssvrsc:6d456546-3cbf-4609-b75a-a19b93975649 a owl:NamedIndividual,
     schema:email "NaN"^^xsd:double .
 
 cssvrsc:6d5f15d3694c6b3db3f8e473234a697578f623c25ec45201b2313edcfca0b9ee a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "SCIM"@en ;
     cssv:alternative "RFC 7642"@en ;
@@ -4675,6 +4721,23 @@ cssvrsc:6f13fa8a840b2e772daad1f7091c757819df5a583941cc0889a97ea4fca8e3e5 a cssv:
     dct:title "UN/EDIFACT Syntax 3"@en ;
     dcat:distribution cssvrsc:a180185c-38e8-4e80-9bd4-9abdfaffee81 ;
     dcat:version "3.0.0" .
+
+cssvrsc:e5f0bd66f256cd1de4a7dd743ad2daa16ef94fcc0b4c4d6a9b54eea78e9b2df5 a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:9bb5ed8aeeaac36ae03d2d557379facd9e2c20e039bab1cdf1d29a5c53b0a205, 
+        cssvrsc:5f129c4a4681c4dedd2a0743ebe10d477c0ebd4267bd3ea08b74f19fae6d926d,
+        cssvrsc:3aaa12483d62fa12aacc83930d0506d941b7c58b7d944e78e5110137fcf1b1a2,
+        cssvrsc:0b37cecddd46617439a61a5c025d428e597d6288ba1989baf0946aea43badbc4,
+        cssvrsc:b9cd5c4f17e7b599e3e34669c79a0905121dd66cf1bdeb74f4a4b74e957001df,
+        cssvrsc:c3bb5295e7631fec8c2f14aabe3e408396a7f08f7e32640548219f88a98a9160 ; 
+    cssv:isMaintainedBy cssvrsc:72b8809dd96e3442fb49081b36b63feecb177659fb5273de26f9ae3ce72b8656 ;
+    dct:description "MyData implements MyData principles at infrastructure level, covering consent management, service linking, and personal data authorisation. It is an unmaintained early-stage proposal with no formal standing within MyData Global."@en ;
+    dct:title "MyData"@en ;
+    dcat:distribution cssvrsc:434938b7-868c-4dfb-811a-490aae0469a8 ;
+    dcat:version "1.0.0" .
 
 cssvrsc:6f161b3c6e88ef2e48c9ab4dd930390a0e34804cc6ced5d3f265c01b5265fbf9 a cssv:Specification,
         owl:NamedIndividual ;
@@ -5164,8 +5227,20 @@ cssvrsc:7c1f89606ff29d6fa4ee1f4cd6e67f59ffebcefe54b70b325e3ab031c3c9aeb0 a cssv:
     dcat:distribution cssvrsc:e60d4554-97ce-4bb9-9098-7f9019f68e57 ;
     dcat:version "2.1.1" .
 
-cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 a cssv:Specification,
+cssvrsc:00fc754431ae68a5376a55bb52339b48882208483edd948025e4cc446f5dbfea a cssv:Specification,
         cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym "VC 2.0"@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14,
+                cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e16 ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:description "The Verifiable Credentials 2.0 family is a set of seven W3C Recommendations defining how to express, secure, and manage tamper-evident digital credentials on the Web, covering the core data model, cryptographic integrity mechanisms (Data Integrity, EdDSA, ECDSA, JOSE/COSE), identifier control, and credential status (revocation/suspension)."@en ;
+    dct:title "Verifiable Credentials 2.0"@en ;
+    dcat:distribution cssvrsc:e3d7c5a5-7729-478d-9860-8b50734ff136 ;
+    dcat:version "2.0.0" .
+
+cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "VCDM"@en ;
     cssv:alternative ""@en ;
@@ -5176,7 +5251,6 @@ cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14 a cssv:
     dcat:version "2.0.0" .
 
 cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e16 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "VCDM"@en ;
     cssv:alternative ""@en ;
@@ -5871,7 +5945,6 @@ cssvrsc:8e67f8b2a6bc993d9a543529f61b1e7dbf347b40a14948562e65ca9560f6eede a cssv:
     dcat:version "Working draft" .
 
 cssvrsc:8eb93f554a3440a30b522cf4f0f9f6800045bf0b2741c518fab12bac16ca84c6 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "E-ARK CSIP"@en ;
     cssv:alternative ""@en ;
@@ -5902,7 +5975,6 @@ cssvrsc:8f428e489e1ad2545c8ec37e1f78e258e140d66d2e0a636a65909c013999244d a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:8f688d53afcca27546d8b931207e249c83c17293e5218a730ecb12f58c07faf6 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "OID4VCI"@en ;
     cssv:alternative ""@en ;
@@ -6237,7 +6309,6 @@ cssvrsc:952850add52e9e262b87d631edaeab808793d4d0b0a5542eb87763900ebd43a6 a cssv:
     dcat:version "0.4.0" .
 
 cssvrsc:95632f502902a5902d8b5b16cf33e48be7b34f51ceeeb5002b516a6bf57da5b2 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "SML"@en ;
     cssv:alternative ""@en ;
@@ -6442,8 +6513,7 @@ cssvrsc:99e59a3cac7e8d0300e4f19f439afce1f1a1aa6558a6ce046cd2656dc04e85be a cssv:
              foaf:page <https://www.avropa.se/globalassets/dokument/open-it-standards.pdf?_t_id=1B2M2Y8AsgTpgAmY7PhCfg%3d%3d&_t_q=standards&_t_tags=language%3asv%2csiteid%3a95d515a5-23ca-47bf-87a9->
         ] .
 
-cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 a cssv:Family,
-        cssv:Specification,
+cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
@@ -6522,7 +6592,6 @@ cssvrsc:9bb092d0b9117def258e7636130447eb4cbe4158632be373a61a59d18f9b8e71 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:9bb5ed8aeeaac36ae03d2d557379facd9e2c20e039bab1cdf1d29a5c53b0a205 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
@@ -6778,7 +6847,6 @@ cssvrsc:a5741434cd7caa0e1b5b5b1d4d89d9fceccd894aeea9fb2ed7b0d669f24ebd4a a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "CLV"@en ;
     cssv:alternative ""@en ;
@@ -7615,7 +7683,6 @@ cssvrsc:b9b71a63c121a9e781e72e35313590ca0ba8df82b92a5b5bc8980cefe5cbdbe4 a cssv:
     dcat:version "2.1.0" .
 
 cssvrsc:b9cd5c4f17e7b599e3e34669c79a0905121dd66cf1bdeb74f4a4b74e957001df a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
@@ -7952,7 +8019,6 @@ cssvrsc:c33014ab175e922c80ba41d897de15edd980f31ee15084e0a9b7f21bc4f7672a a cssv:
     dcat:version "2.0.0" .
 
 cssvrsc:c3bb5295e7631fec8c2f14aabe3e408396a7f08f7e32640548219f88a98a9160 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
@@ -8241,7 +8307,6 @@ cssvrsc:cdf4cfc4a0023b448b0ea2ed459d29df14076a7bd192a9b69078af337c6d6b23 a cssv:
     dcat:version "1.3.0" .
 
 cssvrsc:cf607476dd87aa844e3c2a62d978d810afd936f4afd580dd3eeb97979fad9b1b a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "SIOPv2"@en ;
     cssv:alternative ""@en ;
@@ -8895,7 +8960,6 @@ cssvrsc:df996b8bedad61f94fda0784aa9207219bdb89fe8c4ea73e7fc0790583ae2d28 a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:dfa58525250ce8c35f18952c91fdcc18a8ebe6ae967c834563157541b4dab46f a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "CCCEV"@en ;
     cssv:alternative ""@en ;
@@ -9521,7 +9585,6 @@ cssvrsc:e97c9b46dadbe2de7f910a520ccdb4c9277940948b5044f7b11f753d4edcadd8 a cssv:
     dcat:version "9.0.0" .
 
 cssvrsc:e989d211aeda55f69629a8980f5119cef22e4b1423b3e853a78601f251699e10 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative "ISO/IEC 29500-1:2016"@en ;
@@ -9532,7 +9595,6 @@ cssvrsc:e989d211aeda55f69629a8980f5119cef22e4b1423b3e853a78601f251699e10 a cssv:
     dcat:version "4.0.0" .
 
 cssvrsc:e9bb09990f610bec081e4275f7a49d6a4cdf7df89e3903a5daff682135f02c35 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "CPV"@en ;
     cssv:alternative ""@en ;
@@ -9830,11 +9892,9 @@ cssvrsc:f246e4a67ffaaa842c3b3a78787b19628d9a6928fd4f91239372c73d1b9e618d a cssv:
     dcat:version "1.0.2" .
 
 cssvrsc:f2c5ca77b353f96dffe6df722a1f36cddf6e502c744ea9c59459d9144156494f a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "OIDC"@en ;
     cssv:alternative ""@en ;
-    cssv:combines cssvrsc:8f688d53afcca27546d8b931207e249c83c17293e5218a730ecb12f58c07faf6, cssvrsc:2dbc3b7b2c9116e11bc358ba3e35aac777e12ac966e16a1813d61540209b6ffe, cssvrsc:3138d6dd5d17444fe9146b3224c89363c57565d72a4e5deeff23d8858e68b05d ;
     cssv:isMaintainedBy cssvrsc:4e04f19455ff8628a12285cdca275b0ee3faeaa0223f10095bf19b7bc584ac1c ;
     dct:description "OpenID Connect (OIDC) is an open standard and a simple identity layer built on top of the OAuth 2.0 protocol. Developed by the OpenID Foundation, it enables clients (also known as relying parties) to verify the identity of end-users based on authentication carried out by an authorisation server (identity provider), and to obtain basic profile information in an interoperable, REST-like manner. OIDC simplifies user login by allowing secure single sign-on (SSO) across multiple, unrelated websites without the need for separate credentials for each, thereby reducing the reliance on site-specific authentication systems."@en ;
     dct:title "OpenID Connect"@en ;
@@ -10121,7 +10181,6 @@ cssvrsc:f7d12e782b52314ba773fa5744332db962524cd890e18af8a5238de654a68391 a cssv:
     dcat:version "2.0.0" .
 
 cssvrsc:f80fdcd27632e81bb3a152830fb9541330d762b3714731fd1eee03fdecf06f9a a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
@@ -10173,7 +10232,6 @@ cssvrsc:f85eef022a9c0cc28708847c3ee1bd317df799a1fe348d76acff1c7a5c2c8d50 a cssv:
     dcat:version "1.1.1" .
 
 cssvrsc:f86fa8439db10ab4dec432b3939b5527adc12fa217845661736959eccf896e35 a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "E-ARK DIP"@en ;
     cssv:alternative ""@en ;
@@ -10245,6 +10303,20 @@ cssvrsc:f9fabf6f9e386fd28c1b6776c65cb19baf8dca7999e7612481594bfd852c4af7 a cssv:
     dct:description "The EBSI-OpenID4VC specification integrates OpenID Connect with the European Blockchain Services Infrastructure (EBSI) to enable the issuance and verification of Verifiable Credentials (VCs). It supports secure and interoperable digital identities and credentials using JSON Web Tokens (JWT) and Linked Data Proofs (LDP) formats, enhancing trust and privacy in digital transactions​"@en ;
     dct:title "EBSI OpenID Connect for Verifiable Credentials (EBSI-OpenID4VC)"@en ;
     dcat:distribution cssvrsc:67ea8ceb-7866-4ed0-8902-02aa95e4365a ;
+    dcat:version "1.0.0" .
+
+cssvrsc:e0d67bbafa776a1ec31b8e1958431b650a473dac02daa77e50f8492d719c7c4a a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:60d7c734ba553bbf77ec1eff77f59d9f9931d9dacad83cc9c718a4ee1ca9ca78,
+        cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9,
+        cssvrsc:95632f502902a5902d8b5b16cf33e48be7b34f51ceeeb5002b516a6bf57da5b2 ; 
+    cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
+    dct:description "Peppol is a global standard for the structured electronic exchange of business documents such as invoices and purchase orders. It enables organisations worldwide to interoperate seamlessly for digital trade, serving buyers, suppliers, and service providers across both public and private sectors."@en ;
+    dct:title "Peppol"@en ;
+    dcat:distribution cssvrsc:9e89774d-267c-47ee-84a8-47e962fcbd9a ;
     dcat:version "1.0.0" .
 
 cssvrsc:fa1ca0429a628b89323bf5677343ada8ad700197ca9a3d467e79de87beda3149 a cssv:Specification,
@@ -11164,6 +11236,10 @@ cssvrsc:2db43385-5d63-4f83-a907-82a72ecfeefb a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://github.com/schemaorg/schemaorg/blob/main/data/releases/14.0/schema-all.html> .
 
+cssvrsc:903e2d6f-2eae-48d6-b2e2-fd2a66baf5c8 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://openid.net/sg/openid4vc/specifications/> .
+
 cssvrsc:2ded42d0-4ced-4023-b40d-105414c29a3e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1725> .
@@ -11638,6 +11714,14 @@ cssvrsc:49b6b7de-d20b-4064-b074-11a9a0e10946 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.openstack.org/> .
 
+cssvrsc:d982e7fe-ef7e-4f52-9538-27644e3a843d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.w3.org/community/odrl/> .
+
+cssvrsc:6c7a438b-cf49-4ab2-b421-1acca5b99933 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://scim.cloud/#Specification> .
+
 cssvrsc:49eb60c6-db43-4de6-b448-96ab4124104b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://web.mit.edu/kerberos/> .
@@ -11687,6 +11771,10 @@ cssvrsc:4c9c8322acfb1af86222a3ca917330181fff3458591830886a90fa0939cda788 a org:O
 cssvrsc:4ca7fda9-92c1-4bbd-8e5c-a7d706070766 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.07.01_60/gs_CIM009v010701p.pdf> .
+
+cssvrsc:e3d7c5a5-7729-478d-9860-8b50734ff136 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.w3.org/news/2025/the-verifiable-credentials-2-0-family-of-specifications-is-now-a-w3c-recommendation/> .
 
 cssvrsc:4d8484f1-dddd-4f2b-b25d-55e5b7cea92c a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12382,6 +12470,10 @@ cssvrsc:7df5f2c7-4966-44e7-a3ac-116f93ce5b44 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <http://www.etsi.org/deliver/etsi_en/319100_319199/31916201/> .
 
+cssvrsc:a221dd81-3333-4add-95c2-654337530e62 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://eark-project.com/> .
+
 cssvrsc:7e820129-3619-42d6-b50f-42dc24cf8a16 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/Digital+Signature+Service+-++DSS> .
@@ -12893,6 +12985,10 @@ cssvrsc:9d2e8a4b1b697e7d135a190176454a2249450797a3aebca1197cdfe9882409ae a org:O
 cssvrsc:9d56f150-d853-42f0-83b9-741e3d2e94a3 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.rfc-editor.org/rfc/rfc1035.html> .
+
+cssvrsc:434938b7-868c-4dfb-811a-490aae0469a8 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://github.com/mydata-sdk/mydata-docs/tree/master>
 
 cssvrsc:9deba8c9-b0cb-48fa-8cc9-d54b3f1ea0d3 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -14100,7 +14196,7 @@ cssvrsc:e9e9f30f-7d12-48eb-acdf-b4cd91e182c5 a owl:NamedIndividual,
 
 cssvrsc:eb2e3800-f5b3-48ac-b039-0df587062d7e a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL <https://op.europa.eu/en/web/eu-vocabularies/alignments> .
+    dcat:accessURL <https://op.europa.eu/en/web/eu-vocabularies/corevocs> .
 
 cssvrsc:eb5efbb9-ba90-4c91-a338-d1a4db051a97 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -14436,6 +14532,10 @@ cssvrsc:fd5c8d92-b07f-4a34-8e6b-9572c8e86602 a owl:NamedIndividual,
 cssvrsc:fde74177-cf38-44c0-992d-12aea884a70f a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.gaia-x.eu/policy-rules-committee/policy-rules-labelling/22.11/policy_rules_labeling_document/> .
+
+cssvrsc:9e89774d-267c-47ee-84a8-47e962fcbd9a a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://peppol.org/> .
 
 cssvrsc:fdf51d73-01a5-490e-81a2-cfc215fb8a0e a owl:NamedIndividual,
         dcat:Distribution ;
