@@ -11774,7 +11774,7 @@ cssvrsc:4ca7fda9-92c1-4bbd-8e5c-a7d706070766 a owl:NamedIndividual,
 
 cssvrsc:e3d7c5a5-7729-478d-9860-8b50734ff136 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL <https://www.w3.org/news/2025/the-verifiable-credentials-2-0-family-of-specifications-is-now-a-w3c-recommendation/> .
+    dcat:accessURL <https://www.w3.org/TR/vc-overview/> .
 
 cssvrsc:4d8484f1-dddd-4f2b-b25d-55e5b7cea92c a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12472,7 +12472,7 @@ cssvrsc:7df5f2c7-4966-44e7-a3ac-116f93ce5b44 a owl:NamedIndividual,
 
 cssvrsc:a221dd81-3333-4add-95c2-654337530e62 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL <https://eark-project.com/> .
+    dcat:accessURL <https://earkcsip.dilcis.eu/> .
 
 cssvrsc:7e820129-3619-42d6-b50f-42dc24cf8a16 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12988,7 +12988,7 @@ cssvrsc:9d56f150-d853-42f0-83b9-741e3d2e94a3 a owl:NamedIndividual,
 
 cssvrsc:434938b7-868c-4dfb-811a-490aae0469a8 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL <https://github.com/mydata-sdk/mydata-docs/tree/master>
+    dcat:accessURL <https://hiit.github.io/mydata-stack/>
 
 cssvrsc:9deba8c9-b0cb-48fa-8cc9-d54b3f1ea0d3 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -14535,7 +14535,7 @@ cssvrsc:fde74177-cf38-44c0-992d-12aea884a70f a owl:NamedIndividual,
 
 cssvrsc:9e89774d-267c-47ee-84a8-47e962fcbd9a a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL <https://peppol.org/> .
+    dcat:accessURL <https://peppol.org/documentation/technical-documentation/> .
 
 cssvrsc:fdf51d73-01a5-490e-81a2-cfc215fb8a0e a owl:NamedIndividual,
         dcat:Distribution ;
