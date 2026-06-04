@@ -94779,6 +94779,7 @@ camssa:0a4072a1ff1666c5726e675ca3f736498034f114c2aae506385b82221085ec8c a cav:As
         camssa:f44413a9-3e91-45ef-aca4-58602b549251,
         camssa:f6fd1bb8-b954-400e-b022-3051d819023a ;
     dct:issued "2025-12-09"^^xsd:date ;
+    dct:description "Assessment of the CAdES with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en ;
     dct:title "CAMSS Assessment of CAdES EIF Scenario v1.0.0"@en ;
     dcat:version "1.0.0"@en ;
     dcat:distribution camssa:9190235c-db7e-4056-8c06-af2bd31b6b9e .
