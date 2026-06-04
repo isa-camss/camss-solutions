@@ -100407,7 +100407,7 @@ _x000D_
 SAMM reference:_x000D_
 https://owaspsamm.org/about/'"""@en ;
     cav:refersTo camssa:15f91fda-4eaa-4df6-b58d-c225f1d90cd0 .
-    
+
 camssa:e1e7dd90a8e4ce592f2ad46bd2ef19c92721ec8644a1bb0fa1b8ce13346a961a a cav:Assessment,
         owl:NamedIndividual ;
     cav:assesses cssvrsc:934c4d67a7293e968120eb9590df1d0bb8c2f16fa5212cb5db0ac7a5e1c564d8 ;
@@ -135132,7 +135132,7 @@ camssa:e73c5ad8e7fffe5e67573a9688be8e3fe574c517c3251048028c6d340d7c2686 a cav:As
         camssa:ffdd2d89-7c43-453c-83c7-f7d3373f4635 ;
     dct:issued "2026-03-31"^^xsd:date ;
     dct:title "CAMSS Assessment of JWS EIF Scenario v1.0.0"@en ;
-    dct:description "JSON Web Signature (JWS) is a specification that ensures the integrity and authenticity of data by applying a cryptographic digital signature to a JSON payload. It allows the recipient to verify that the content has not been altered and to confirm the identity of the signer, without encrypting the data itself. JWS is commonly used to securely transmit claims, such as in authentication tokens and API communications." ;
+    dct:description "Assessment of the JSON Web Signature (JWS) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
     dcat:version "RFC 7515" ;
     dcat:distribution camssa:aba15aa1-798d-4978-b7bc-9385aef3da41 .
 
