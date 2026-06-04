@@ -136758,7 +136758,7 @@ camssa:8fa8605e3597dfd2715ed79409af0b1bd612ace0d9ed5bc143888d755e26ee3b a cav:As
     dct:title "CAMSS Assessment of ShEx EIF Scenario v1.0.0"@en ;
     dcat:version "2.0.0" ;
     dcat:distribution camssa:8e5de8f7-f4ab-4270-805e-755ef852cd9d ;
-    dct:previousVersion 4a789f6e046908e1c7e4cab937e8e0e898fedc0ce72cf06a10a78e7a7635f0dd ;
+    dcat:previousVersion 4a789f6e046908e1c7e4cab937e8e0e898fedc0ce72cf06a10a78e7a7635f0dd ;
 
 camssa:003421d0-d78f-40f3-ab6e-5e9b761be795 a cav:Statement,
         owl:NamedIndividual ;
