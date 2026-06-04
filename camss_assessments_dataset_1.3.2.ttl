@@ -96497,6 +96497,7 @@ camssa:ead9c7c7d11b74af8c11149d52278ab87fdd05672c12f6b7a37e9e9fef0d17d3 a cav:As
         camssa:f78683bb-bde9-4d56-974b-88b79fef2446,
         camssa:fdb5f66f-f136-44b2-b28f-9c262d7f4a6d ;
     dct:issued "2026-04-14"^^xsd:date ;
+    dct:description "Assessment of the CAMSS Assessment of VC DM 2.0 EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
     dct:title "CAMSS Assessment of VC DM 2.0 EIF Scenario v1.0.0"@en ;
     dcat:version "1.0.0" ;
     dcat:distribution camssa:7dc9bf4a-6abc-4ddb-96d7-2995182ae230 ;
@@ -97316,6 +97317,7 @@ camssa:cab7df2d2b4e07580772d7b1d3df78373df37a4d40fe5fd6120e59f40464a8cd a cav:As
         camssa:fd3d0734-7fc7-4aed-8a51-33c36a91c3b2,
         camssa:fe3f0ede-309a-4d41-826c-dff2b4ec3494 ;
     dct:issued "2026-04-14"^^xsd:date ;
+    dct:description "Assessment of the Secure Shell Protocol (SSH) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
     dct:title "Secure Shell Protocol (SSH)"@en ;
     dcat:version "1.0.0"@en ;
     dcat:distribution camssa:211d7496-3021-4f4f-92ff-e8f43412d071 .
