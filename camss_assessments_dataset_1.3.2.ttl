@@ -99658,7 +99658,7 @@ camssa:e1e7dd90a8e4ce592f2ad46bd2ef19c92721ec8644a1bb0fa1b8ce13346a961a a cav:As
         camssa:ff14f9f2-d2b7-4309-8da8-3a023613a9c3 ;
     dct:issued "2026-04-14"^^xsd:date ;
     dct:title "CAMSS Assessment of SD-JWT EIF Scenario v1.0.0"@en ;
-    dct:description "SD-JWT specification defines a standardised extension to JSON Web Tokens (JWTs) that enables the selective disclosure of claims. This allows the holder of a credential to reveal only specific claims while keeping the remaining claims undisclosed, without invalidating the issuer’s digital signature."@en ;
+    dct:description "Assessment of the SD-JWT with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en ;
     dcat:version "1.0.0" ;
     dcat:distribution camssa:f49d5f04-79dd-4532-80d4-02f9f23d8593 .
 
