@@ -135778,6 +135778,783 @@ SD-JWT Reference:_x000D_
 https://www.rfc-editor.org/rfc/rfc9901.html'"""@en ;
     cav:refersTo camssa:5c9bedbf-e554-4bf2-8b30-fc359e5996d7 .
 
+camssa:8fa8605e3597dfd2715ed79409af0b1bd612ace0d9ed5bc143888d755e26ee3b a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:assesses cssvrsc:b9b71a63c121a9e781e72e35313590ca0ba8df82b92a5b5bc8980cefe5cbdbe4 ;
+    cav:considers camssa:c0544088-6c01-44c2-b49c-d0b13698f527 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
+    cav:resultsIn camssa:003421d0-d78f-40f3-ab6e-5e9b761be795,
+        camssa:07fec51d-65d4-4c9d-9fec-bdfc6438de6a,
+        camssa:090de865-f478-4edb-8b31-bc800b6c378a,
+        camssa:0931c56d-853b-4936-a9b7-d8f93e7ae24a,
+        camssa:0d056c45-32f3-4b5d-9627-dda9f4ff6eee,
+        camssa:0d43c299-4d52-40b6-a1a4-6d678a242043,
+        camssa:0e75fc15-3b74-49e9-8126-0230625081a9,
+        camssa:14646b58-3d01-4519-ae33-610397d295aa,
+        camssa:222a8230-378c-43a1-bcdd-4b3001f0d70f,
+        camssa:2c53bf41-76e4-413e-9acd-69c834a575c8,
+        camssa:2d31cad0-d1da-4a28-9865-e8d4a1b334ee,
+        camssa:2e7df028-1891-4128-98c5-3686405f01c4,
+        camssa:36f34208-1b9b-489c-a496-d8e2f6f87fbd,
+        camssa:3845746a-1542-4756-b5cf-a02600213fc9,
+        camssa:3d7b9f2e-775c-4777-81d9-02d80f839ce6,
+        camssa:3ef812ad-ee2c-42ae-b935-21c76c5ff3a5,
+        camssa:4550bb13-8baf-44d7-a79d-cdd0954dff53,
+        camssa:4d35d5b6-746c-459d-92a2-3680941a59f6,
+        camssa:6ab20c0e-50ce-46fb-84cd-62d3ec686f05,
+        camssa:726e0f33-2da2-49d4-b836-256ac467c5a7,
+        camssa:75f75c19-a3ed-4489-9015-63f8db08c4a0,
+        camssa:7af7cae3-a086-499d-b5bf-b98b6494f036,
+        camssa:7b6900cb-6a02-49ca-9647-ce76ee459510,
+        camssa:8113d62f-6e08-42f8-9d7e-09199f0365a7,
+        camssa:8bb6fe12-e05e-4416-935c-b83ce9111510,
+        camssa:90c4c6f9-0375-4ee9-800e-bd0b28dd2085,
+        camssa:91915185-445c-4a74-923b-447dcf11b1b5,
+        camssa:a08cc598-320b-44b6-92a9-8d877fc9fdb0,
+        camssa:a3b67283-1a25-45a5-869e-ef4c8555bc69,
+        camssa:a8b6896c-f735-433f-8b97-82aaa0abced3,
+        camssa:b3d2590d-cbb1-4201-a1b3-ec39c4b97e5f,
+        camssa:b7625c1c-7eb6-4de1-899a-a9df8f9d5b4b,
+        camssa:ba7ee1ca-accc-4a07-9a23-73c452366a93,
+        camssa:bb8506e6-dcd8-4f09-8e70-4a4e8236c1ed,
+        camssa:bc832166-d8a9-4035-86d6-e496cc5385af,
+        camssa:c09792b2-e9e8-46dd-ad4e-a9cc7927c3a7,
+        camssa:c136207f-eaa7-4324-b36a-489be3befcea,
+        camssa:c9643163-5f0e-42d8-8d4b-3a27456c0e53,
+        camssa:cdd34661-e542-4cdd-b373-aa125090c193,
+        camssa:d239a148-b761-473f-84a4-6f251ee996f1,
+        camssa:d8f6410b-f18e-4cbd-9c21-831aabd01070,
+        camssa:dde24c96-886c-4c43-95a1-4e8bbf71ebeb,
+        camssa:ebef6646-7d74-47a7-b6e9-fd43ac7444fb,
+        camssa:f5b19c2c-82ee-4bdb-8794-b8a88d3cb6e3,
+        camssa:f8bcab39-bfa5-4fd6-9a68-a54b50287b9d ;
+    dct:issued "2025-12-09"^^xsd:date ;
+    dct:description "Assessment of the Shape Expressions (ShEx) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
+    dct:title "CAMSS Assessment of ShEx EIF Scenario v1.0.0"@en ;
+    dcat:version "2.0.0" ;
+    dcat:distribution camssa:8e5de8f7-f4ab-4270-805e-755ef852cd9d ;
+    dct:previousVersion 4a789f6e046908e1c7e4cab937e8e0e898fedc0ce72cf06a10a78e7a7635f0dd ;
+
+camssa:003421d0-d78f-40f3-ab6e-5e9b761be795 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx provides a formal, machine‑readable way to describe and validate RDF data structures, enabling different organisations to agree on common “shapes” as a shared model for data exchange. Moreover, ShEx schemas can be translated into SPARQL queries, meaning that any constraint expressible by a SPARQL graph pattern or data query can be captured as a ShEx shape, making shapes the common agreement on what the data should look like._x000D_
+_x000D_
+ShEx - Validating RDF data Reference:_x000D_
+https://www.weso.es/websem/slides/course2223/03_ShExByExample.pdf_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:1d319432-f8a5-4ad2-89b5-7228050eec21 .
+
+camssa:01a0daaa-5d9e-4f46-94d9-beb78be2d0a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:string .
+
+camssa:07fec51d-65d4-4c9d-9fec-bdfc6438de6a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx ensures and enables data processing accuracy by rigorously validating the structure and content of RDF data before it is processed. ShEx achieves accuracy by eliminating structural errors, controlling value ranges, and preventing the inclusion of unexpected data, therefore ensuring that processing systems only handle verified, predictable input._x000D_
+_x000D_
+Shape Expressions (ShEx) Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:12faf410-bde4-4a34-bf7c-6f9b362efe62 .
+
+camssa:090de865-f478-4edb-8b31-bc800b6c378a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx is not included in any initiative at European or National level covering privacy aspects. Therefore, this criterion is not applicable to this specification._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:fbe43801-c30d-4066-a37a-63590421b58a .
+
+camssa:0931c56d-853b-4936-a9b7-d8f93e7ae24a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx allows relevant information to be reused to a significant extent, as it provides a standardised and machine-readable way to define data structures. By specifying the shapes and relationships of data, ShEx ensures that the same definitions can be applied across different datasets, systems, or projects, promoting both consistency and interoperability._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:85d565ac-9b77-42d1-bc58-23873994cb12 .
+
+camssa:0bd46856-a645-455a-bc21-d5f654df4865 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:string .
+
+camssa:0d04f5fd-ba39-4bac-887d-3e35cb95dda0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "60"^^xsd:string .
+
+camssa:0d056c45-32f3-4b5d-9627-dda9f4ff6eee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx main purpose is to define and validate the structure of RDF data. When a change (authorised or unauthorised) is made to the data, ShEx acts as a quality gate to ensure the modified data still conforms to the expected model. Therefore this criterion does not apply to the specification._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:8d1b4385-2670-4beb-ad51-40759c4d5b4b .
+
+camssa:0d43c299-4d52-40b6-a1a4-6d678a242043 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx is not included in any open repository/catalogue of standards at European level._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:15e9ae43-de3e-4b6f-a8c3-413d91a14e80 .
+
+camssa:0e75fc15-3b74-49e9-8126-0230625081a9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ShEx specification is developed by a non-European organisation. In this sense, the specification cannot be considered a European standard._x000D_
+_x000D_
+Shape Expressions Github Reference:_x000D_
+https://github.com/shexSpec/spec_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:5b56f41a-ec03-443a-9e8a-0485471b2f6c .
+
+camssa:0eb2f754-35ed-4103-85d7-d3da091bc873 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:string .
+
+camssa:123d78fe-d7bf-444c-b523-9a4aa5909075 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:string .
+
+camssa:12faf410-bde4-4a34-bf7c-6f9b362efe62 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:string .
+
+camssa:14646b58-3d01-4519-ae33-610397d295aa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies'"""@en ;
+    cav:refersTo camssa:7bb0824e-3469-43fa-905d-5ac7bdfe3502 .
+
+camssa:15a6c114-2831-419f-8850-26e4995183fe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:string .
+
+camssa:15d16800-9890-4caf-8aba-1589d2ba3e1c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100"^^xsd:string .
+
+camssa:15e9ae43-de3e-4b6f-a8c3-413d91a14e80 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:string .
+
+camssa:17c22c66-c8e0-444e-8e9d-ac368cd244b9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:string .
+
+camssa:17c68654-9681-4e0a-8dd8-41379d7120c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:string .
+
+camssa:1d319432-f8a5-4ad2-89b5-7228050eec21 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "80"^^xsd:string .
+
+camssa:200b7cd2-eae3-4362-8b6a-85f6eb70907a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "80"^^xsd:string .
+
+camssa:205fa391-dc12-41ae-ab6f-06475e75337c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:string .
+
+camssa:222a8230-378c-43a1-bcdd-4b3001f0d70f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx is platform agnostic as it defines a language and validation framework independent of specific software environments or vendors. It can be implemented across different platforms and technologies that support RDF. However, its use is limited outside the RDF ecosystem._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+W3C RDF Concepts and Abstract Data Model Reference:_x000D_
+https://www.w3.org/TR/rdf12-concepts/'"""@en ;
+    cav:refersTo camssa:b226750e-ce64-4e76-bdaa-705aa5546a87 .
+
+camssa:2ae3edae-5953-4f43-848e-73b1d3736e72 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:string .
+
+camssa:2c53bf41-76e4-413e-9acd-69c834a575c8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx allows extensions. Mechanisms like semantic actions, custom datatypes, and annotations enable controlled, implementation-specific extensions without altering core validation semantics. For example, ShExMap supports mapping and transformation of RDF data. The official ShEx extensions catalogue collects such extensions, showing how ShEx provides flexibility for domain-specific needs._x000D_
+_x000D_
+ShEx Extensions Github reference:_x000D_
+https://shexspec.github.io/extensions/_x000D_
+_x000D_
+ShExMap Extension Reference:_x000D_
+https://shex.io/extensions/Map/_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:7dc9a76f-7068-4c28-8249-d083369c3bae .
+
+camssa:2d31cad0-d1da-4a28-9865-e8d4a1b334ee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx is technology-agnostic but depends on the RDF specification. It can be applied across platforms and domains that use RDF, ensuring data consistency and interoperability regardless of the technologies. However, its aplication outside the RDF ecosystem is limited._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+W3C RDF Concepts and Abstract Data Model Reference:_x000D_
+https://www.w3.org/TR/rdf12-concepts/'"""@en ;
+    cav:refersTo camssa:0bd46856-a645-455a-bc21-d5f654df4865 .
+
+camssa:2e593e11-db37-4b0b-8ba6-647717634534 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "60"^^xsd:string .
+
+camssa:2e7df028-1891-4128-98c5-3686405f01c4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ShEx Community Group is an active W3C Community Group of developers, tasked with the maintenance and evolution of the ShEx specification. The group also operates via Github, where anyone interested can raise issues and pull requests about its implementation._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+ShEx Community Group:_x000D_
+https://www.w3.org/community/shex/_x000D_
+_x000D_
+ShEx Github:_x000D_
+https://github.com/shexSpec/spec/issues'"""@en ;
+    cav:refersTo camssa:01a0daaa-5d9e-4f46-94d9-beb78be2d0a2 .
+
+camssa:316deea2-c270-4a1c-8164-1da832dbc06d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:string .
+
+camssa:36f34208-1b9b-489c-a496-d8e2f6f87fbd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx allows the creation of core shape definitions that can be customised to fit specific business or domain requirements, ensuring interoperability without imposing technology-specific constraints._x000D_
+_x000D_
+Shape Expressions (ShEx) Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:c76ea2c0-7ea4-4b11-bbce-657514180c05 .
+
+camssa:3845746a-1542-4756-b5cf-a02600213fc9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx specification does not provide mechanisms for restricting access to information or data, since it focuses more on data validation, ensuring that it conforms to predefined shapes and relationships. Therefore, this criterion is not applicable to this specification._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:89aa8bc2-6e66-4be7-ad17-cb1000c50184 .
+
+camssa:3bff5a5a-9938-4ed7-bc27-40efb9f40fc3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:string .
+
+camssa:3d7b9f2e-775c-4777-81d9-02d80f839ce6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx allows for partial implementations, as its specification is modular and focused on RDF validation semantics. Implementers can adopt only the core or relevant features needed for their use case without compromising overall interoperability. An example of partial implementation can be shex.js, a javascript implementation, its ideal for browser-based validation tools and lightweight RDF data checks, focusing on core ShEx functionality without full language complexity._x000D_
+_x000D_
+shex.js Javascript implementation reference:_x000D_
+https://github.com/shexjs/shex.js_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+W3C RDF Concepts and Abstract Data Model Reference:_x000D_
+https://www.w3.org/TR/rdf12-concepts/'"""@en ;
+    cav:refersTo camssa:123d78fe-d7bf-444c-b523-9a4aa5909075 .
+
+camssa:3ef812ad-ee2c-42ae-b935-21c76c5ff3a5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx can be used in a multilingual context because it provides standardised, machine-readable validation for language information. Built upon RDF native support for language-tagged literals, the specification includes value sets that can also contain stems for IRIs, strings, and language tags. An IRI or string stem matches any IRI or string that starts with the stem._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/#value-sets'"""@en ;
+    cav:refersTo camssa:b98c85f4-6381-4bfb-99d5-52b848057f90 .
+
+camssa:4550bb13-8baf-44d7-a79d-cdd0954dff53 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx acts as a language for validating semantic data and ensuring structural consistency within the Linked Data environment. By defining standardised Shapes (data contracts) for specific public service domains built upon RDF, different systems can exchange data that is not only structurally correct but also semantically reliable. _x000D_
+_x000D_
+For example, projects like the Yosemite project leverage ShEx to create a robust, interoperable data model for clinical data exchange, significantly reducing the administrative and technical burden of integrating health records across organisations and national systems. The Yosemite Project is a collaborative effort dedicated to healthcare information interoperability. It is comprised of experts in healthcare and technology and guided by a six-member steering committee._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+Yosemite Project Reference:_x000D_
+https://yosemiteproject.org/interoperability-roadmap/_x000D_
+_x000D_
+Using Shape Expressions (ShEx) to Share RDF Data Models and to Guide Curation with Rigorous _x000D_
+Validation:_x000D_
+https://link.springer.com/chapter/10.1007/978-3-030-21348-0_39'"""@en ;
+    cav:refersTo camssa:8b085bec-13d9-4da0-ae74-200b8752da0f .
+
+camssa:4a27bc1f-ecba-4423-afb4-d7a866d8c234 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100"^^xsd:string .
+
+camssa:4ab50526-8ce1-41cf-96e0-70cc98e0ac15 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:string .
+
+camssa:4d35d5b6-746c-459d-92a2-3680941a59f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx validates RDF datasets, ensuring they conform to defined shapes and constraints. It is dependent on the RDF specification because it relies on the core concepts of triples, subjects, predicates, objects, and the definitions of RDF Terms (IRIs, blank nodes, and literals) to exist and be functional, without RDF data, ShEx has nothing to validate. By supporting the consistency, correctness, and structure of this foundational RDF data, ShEx can then enable the visibility of administrative procedures, rules data, and services across public administrations._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+W3C RDF Concepts and Abstract Data Model Reference:_x000D_
+https://www.w3.org/TR/rdf12-concepts/'"""@en ;
+    cav:refersTo camssa:200b7cd2-eae3-4362-8b6a-85f6eb70907a .
+
+camssa:53f6c999-65dd-4add-9983-72246a72d9f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "80"^^xsd:string .
+
+camssa:5596078d-899e-4f23-b526-8a2dbe585f9b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:string .
+
+camssa:56b0024e-56a6-40fa-ac4f-83e4d5d22eb8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:string .
+
+camssa:5b56f41a-ec03-443a-9e8a-0485471b2f6c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:string .
+
+camssa:6ab20c0e-50ce-46fb-84cd-62d3ec686f05 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx is not included in any open repository/catalogue of standards at national level._x000D_
+_x000D_
+CAMSS list of standards: _x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer//'"""@en ;
+    cav:refersTo camssa:17c68654-9681-4e0a-8dd8-41379d7120c8 .
+
+camssa:70190da0-768a-498f-bb2e-e4e0adf7d438 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:string .
+
+camssa:726e0f33-2da2-49d4-b836-256ac467c5a7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx is not recommended by any European Member State._x000D_
+_x000D_
+CAMSS List of Standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:3bff5a5a-9938-4ed7-bc27-40efb9f40fc3 .
+
+camssa:75f75c19-a3ed-4489-9015-63f8db08c4a0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The ShEx specification is not included in any Member States' catalogue of recommended specifications._x000D_
+_x000D_
+NIFO factsheets:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2024_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference: _x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+\""""@en ;
+    cav:refersTo camssa:b436bf8a-d37f-49f3-9d7a-cffabfc5fe94 .
+
+camssa:7af7cae3-a086-499d-b5bf-b98b6494f036 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx demonstrates a good level of maturity and domain acceptance. It is maintained by an active W3C Community Group. Several research and implementation cases, in healthcare and linked-data validation, confirm its practical use._x000D_
+_x000D_
+Although ShEx is not a formal W3C Recommendation, it is considered a highly stable, community-driven specification. Its current "candidate" status for the Final 2.0 Release, combined with growing academic and technical uptake, makes it a viable and credible choice for RDF-based solutions._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+Modeling and validating HL7 FHIR profiles using semantic web Shape Expressions (ShEx):_x000D_
+https://pubmed.ncbi.nlm.nih.gov/28213144/_x000D_
+_x000D_
+Development of a FHIR RDF data transformation and validation framework and its evaluation:_x000D_
+https://mayoclinic.elsevierpure.com/en/publications/development-of-a-fhir-rdf-data-transformation-and-validation-fram/'"""@en ;
+    cav:refersTo camssa:b517a6be-1a6f-4946-a498-6a5a4240ad6c .
+
+camssa:7b6900cb-6a02-49ca-9647-ce76ee459510 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx main function is to facilitate data exhange in RDF format by providing the means to validate RDF data graphs and does not directly enable the secure processing of data. ShEx is a schema and validation language, not a security protocol, this criterion is not applicable to this specification. _x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:d3925d94-c75a-44ed-9b7d-440b6acd06a3 .
+
+camssa:7bb0824e-3469-43fa-905d-5ac7bdfe3502 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:string .
+
+camssa:7dc9a76f-7068-4c28-8249-d083369c3bae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:string .
+
+camssa:8113d62f-6e08-42f8-9d7e-09199f0365a7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx specification itself does not guarantee the authenticity and authentication of the roles or agents involved in data transactions, since its a structural schema language for RDF graphs. Its function is strictly focused on data validation. Therefore this criterion does not apply to the specification._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:56b0024e-56a6-40fa-ac4f-83e4d5d22eb8 .
+
+camssa:85d565ac-9b77-42d1-bc58-23873994cb12 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:string .
+
+camssa:89aa8bc2-6e66-4be7-ad17-cb1000c50184 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:string .
+
+camssa:8a4859f7-0216-48f2-bb4e-58858b0c26c6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "80"^^xsd:string .
+
+camssa:8b085bec-13d9-4da0-ae74-200b8752da0f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:string .
+
+camssa:8bb6fe12-e05e-4416-935c-b83ce9111510 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies'"""@en ;
+    cav:refersTo camssa:15a6c114-2831-419f-8850-26e4995183fe .
+
+camssa:8d1b4385-2670-4beb-ad51-40759c4d5b4b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:8e5de8f7-f4ab-4270-805e-755ef852cd9d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+
+camssa:90c4c6f9-0375-4ee9-800e-bd0b28dd2085 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx specification does not include or define an explicit access control mechanism. The main function of ShEx is limited entirely to describing, validating, and ensuring the structural integrity of RDF data graphs. Therefore this criterion does not apply to the specification._x000D_
+_x000D_
+Shape Expressions (ShEx) Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:948555f4-9e64-4da7-aa10-6d0315898869 .
+
+camssa:91915185-445c-4a74-923b-447dcf11b1b5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ShEx specification and schemas are publicly available for implementation and use on GitHub. The developer community involved with ShEx uses GitHub to collaborate on the specification, raise issues, and propose solutions for development. Additionally, platforms like StackOverflow serve as key channels where developers can ask and share technical questions, advice, and solutions, further supporting the robust growth and adoption of ShEx._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+ShEx Community Group:_x000D_
+https://www.w3.org/community/shex/_x000D_
+_x000D_
+ShEx StackOverflow Reference:_x000D_
+https://stackoverflow.com/questions/tagged/shex_x000D_
+_x000D_
+ShEx Github:_x000D_
+https://github.com/shexSpec/spec/issues'"""@en ;
+    cav:refersTo camssa:4a27bc1f-ecba-4423-afb4-d7a866d8c234 .
+
+camssa:948555f4-9e64-4da7-aa10-6d0315898869 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a16c678a586cf542d2ae1d6cd8a987bd6ed0b2af52ba0e04d8872fe616a9b7bd ;
+    cav:value "100"^^xsd:string .
+
+camssa:9aa84525-a82f-411d-bcc7-62b58723ef0d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:string .
+
+camssa:a08cc598-320b-44b6-92a9-8d877fc9fdb0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The effectiveness of the ShEx specification has been assessed by multiple health institutions. In the study, "Modeling and validating HL7 FHIR profiles using semantic web Shape Expressions (ShEx)," researchers evaluated the specification's efficacy in describing and validating FHIR (Fast Healthcare Interoperability Resources) RDF data, which highlighted the considerable benefits of employing the ShEx RDF validator in that domain._x000D_
+_x000D_
+Modeling and validating HL7 FHIR profiles using semantic web Shape Expressions (ShEx):_x000D_
+https://www.sciencedirect.com/science/article/pii/S1532046417300345_x000D_
+_x000D_
+Using Shape Expressions (ShEx) to Share RDF Data Models and to Guide Curation with Rigorous Validation:_x000D_
+https://link.springer.com/chapter/10.1007/978-3-030-21348-0_39_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:2ae3edae-5953-4f43-848e-73b1d3736e72 .
+
+camssa:a228128d-6356-41ac-bd4e-87003dfde1b8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a3b67283-1a25-45a5-869e-ef4c8555bc69 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ShEx is not related to e-accessibility. Therefore, this criterion is not applicable to this specification._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:0d04f5fd-ba39-4bac-887d-3e35cb95dda0 .
+
+camssa:a8b6896c-f735-433f-8b97-82aaa0abced3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ShEx can simplify the delivery of European public services by ensuring that data conforms to specific structural and value constraints (e.g., properties exist, data types are correct, values fall within a range)._x000D_
+ _x000D_
+For instance, a system that processes job applications might use a ShEx rule to ensure the applicant's date of birth field adheres strictly to the standard date format and verifies that the age falls within the eligible range (e.g., 18 to 65). This prevents bad data from entering the service's processing pipeline, directly reducing system errors, exceptions, and crashes that require complex error handling. By providing this common structure, ShEx can eliminate the need to manually verify the data from public administrations._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/\""""@en ;
+    cav:refersTo camssa:70190da0-768a-498f-bb2e-e4e0adf7d438 .
+
+camssa:b226750e-ce64-4e76-bdaa-705aa5546a87 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:string .
+
+camssa:b3d2590d-cbb1-4201-a1b3-ec39c4b97e5f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'W3C provides the ShEx Simple Online Validator, an online tool that allows performing RDF data validation using Shape Expressions._x000D_
+_x000D_
+ShEx Simple Online Validator:_x000D_
+https://rawgit.com/shexSpec/shex.js/master/packages/shex-webapp/doc/shex-simple.html_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:205fa391-dc12-41ae-ab6f-06475e75337c .
+
+camssa:b436bf8a-d37f-49f3-9d7a-cffabfc5fe94 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:string .
+
+camssa:b517a6be-1a6f-4946-a498-6a5a4240ad6c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:string .
+
+camssa:b7625c1c-7eb6-4de1-899a-a9df8f9d5b4b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx is fully dependent on RDF, which serves as a domain-neutral data model. As a result, the specification is inherently reusable across business domains that represent their information in RDF. Its structural validation mechanism can be applied to any RDF-based dataset, whether in public administration, healthcare, research, or other sectors._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+W3C RDF Concepts and Abstract Data Model Reference:_x000D_
+https://www.w3.org/TR/rdf12-concepts/'"""@en ;
+    cav:refersTo camssa:febd33f1-3a49-4a5b-a1e3-3f58ed245b8a .
+
+camssa:b98c85f4-6381-4bfb-99d5-52b848057f90 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ba7ee1ca-accc-4a07-9a23-73c452366a93 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx enables data portability as it provides a common language to describe and share data structures between different systems or interfaces, making it easier to transfer data across platforms and understand it more easily._x000D_
+_x000D_
+An example of ShEx in use is the Hercules ASIO project, which aims to build a Research Management System (RMS) based on semantic open data. This system provides a unified view of research information across the Spanish University System (SUE), helping to improve management, analysis, and collaboration among universities and the public. In doing so, it also supports the development of European public services._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+Hercules ASIO Project ShEx Reference:_x000D_
+https://datos.gob.es/en/blog/hercules-asio-initiative-integration-publication-and-consultation-linked-open-research-data'"""@en ;
+    cav:refersTo camssa:a228128d-6356-41ac-bd4e-87003dfde1b8 .
+
+camssa:bb8506e6-dcd8-4f09-8e70-4a4e8236c1ed a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The efficiency and utility of the ShEx specification have been assessed and demonstrated by multiple health institutions. In the study, "Development of a FHIR RDF data transformation and validation framework and its evaluation," researchers evaluated the specification's effectiveness at enhancing data quality and interoperability in both open and domain-specific contexts. ShEx has been successfully applied in areas such as healthcare and digital libraries, demonstrating its value for ensuring data consistency, validation, and reusability across diverse systems._x000D_
+_x000D_
+Development of a FHIR RDF data transformation and validation framework and its evaluation:_x000D_
+https://pubmed.ncbi.nlm.nih.gov/33781919/_x000D_
+_x000D_
+A Shape Expression approach for assessing the quality of Linked Open Data in digital libraries:_x000D_
+https://www.semantic-web-journal.net/content/shape-expression-approach-assessing-quality-linked-open-data-digital-libraries_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:ec7d89ef-4a41-490b-91d0-2127da5f3e51 .
+
+camssa:bc832166-d8a9-4035-86d6-e496cc5385af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx is already associated to EIRA ABBs in the EIRA Library of Interoperability Specifications (ELIS). More specifically, ShEx can define the interoperability aspects of the "Conformance Testing" and "Data Quality" ABBs of the EIRA Technical-Application View, and "Semantic interoperability agreement" ABBs of the EIRA Semantic View._x000D_
+_x000D_
+ELIS referenece:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/611_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:9aa84525-a82f-411d-bcc7-62b58723ef0d .
+
+camssa:c0544088-6c01-44c2-b49c-d0b13698f527 a cav:Score,
+        owl:NamedIndividual ;
+    cav:value "100%StrengthOfAssessmentScoreAverage"^^xsd:string,
+        "84.32%AssessmentScoreAverage"^^xsd:string .
+
+camssa:c09792b2-e9e8-46dd-ad4e-a9cc7927c3a7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx does work as a data validation and structural constrain language that can enforce precise rules when needed, to protect data quality and preventing errors that could expose sensitive information. The ShEx schema prescribes specific conditions that RDF data graphs must meet to be considered "conformant". This means data managers can ensure that data adheres to established privacy requirements (e.g., ensuring a record for a specific entity is complete or correctly linked)._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:2e593e11-db37-4b0b-8ba6-647717634534 .
+
+camssa:c136207f-eaa7-4324-b36a-489be3befcea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx main function is to facilitate data exhange in RDF format by providing the means to validate RDF data graphs and does not directly enable the secure exchange of data. ShEx is a schema and validation language, not a security protocol, this criterion is not applicable to this specification._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:4ab50526-8ce1-41cf-96e0-70cc98e0ac15 .
+
+camssa:c76ea2c0-7ea4-4b11-bbce-657514180c05 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:string .
+
+camssa:c9643163-5f0e-42d8-8d4b-3a27456c0e53 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including this specification.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC'"""@en ;
+    cav:refersTo camssa:15d16800-9890-4caf-8aba-1589d2ba3e1c .
+
+camssa:cdd34661-e542-4cdd-b373-aa125090c193 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx is the product of the ShEx Community Group from the W3C organisation. ShEx was first introduced in June 2014, as Shape Expressions 1.0 Primer (https://www.w3.org/submissions/2014/SUBM-shex-primer-20140602/). Moreover, the Shape Expressions Community Group (ShEx) was initiated in January 2017 on the W3C Community and Business Groups page. Since the release of this specification, several releases have been launched._x000D_
+_x000D_
+In this sense, in march 2017, the group launched the Shape Expressions (ShEx) Primer, a draft community group report, accompained by the ShapeMap Structure and Language release (ttps://shex.io/shape-map/). Since this release, different releases of the ShEx specification have been launched, being the latest one on the December 2022._x000D_
+_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+ShEx Community Group Reference:_x000D_
+https://www.w3.org/community/shex/_x000D_
+_x000D_
+ShEx Github Reference:_x000D_
+https://github.com/shexSpec/spec/issues'"""@en ;
+    cav:refersTo camssa:d5d75d9c-82e2-4043-b345-eabd0321d31a .
+
+camssa:d239a148-b761-473f-84a4-6f251ee996f1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ShEx is not related to enable the long-term preservation of data/information/knowledge (electronic records included. Therefore, this criterion does is not applicable to this specification._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:316deea2-c270-4a1c-8164-1da832dbc06d .
+
+camssa:d3925d94-c75a-44ed-9b7d-440b6acd06a3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:string .
+
+camssa:d5d75d9c-82e2-4043-b345-eabd0321d31a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:string .
+
+camssa:d8f6410b-f18e-4cbd-9c21-831aabd01070 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx schemas ensure data is well-structured for release as open data because they are used for validating instance data, communicating interface parameters, defining complex data structures, and facilitating transformations into other formats. ShEx supports serialisation using ShExJ, a JSON-LD syntax, which is itself considered an open standard developed by the W3C._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+RDF Reference:_x000D_
+https://www.w3.org/RDF'"""@en ;
+    cav:refersTo camssa:0eb2f754-35ed-4103-85d7-d3da091bc873 .
+
+camssa:dde24c96-886c-4c43-95a1-4e8bbf71ebeb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ShEx is being used in projects such as the Hercules-ASIO Initiative. Furthermore, by 2019 ShEx Community Group, announced that Wikidata's support for ShEx moved from testing to deployment. Using a new Wikidata extension, ShEx schemas are stored in ShEx compact syntax on wiki pages and linked to a tool for checking selected data, which clearly demonstrates its value and effectiveness._x000D_
+_x000D_
+Hercules-ASIO Initiative:_x000D_
+https://datos.gob.es/en/blog/hercules-asio-initiative-integration-publication-and-consultation-linked-open-research-data_x000D_
+_x000D_
+Wikidata W3C Announcement: _x000D_
+https://www.w3.org/community/shex/2019/06/18/wikidata-infrastructure-supports-shex/_x000D_
+_x000D_
+Wikidata Schemas Reference:_x000D_
+https://www.wikidata.org/wiki/Wikidata:WikiProject_Schemas_x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/\""""@en ;
+    cav:refersTo camssa:5596078d-899e-4f23-b526-8a2dbe585f9b .
+
+camssa:ebef6646-7d74-47a7-b6e9-fd43ac7444fb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx provides a schema mechanism for RDF data, enabling precise validation and documentation of data structures. While it does not directly expose or implement service interfaces, ShEx can support their development by ensuring that the RDF data exchanged through APIs or datasets is consistent and well-structured._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+W3C RDF Concepts and Abstract Data Model Reference:_x000D_
+https://www.w3.org/TR/rdf12-concepts/'"""@en ;
+    cav:refersTo camssa:53f6c999-65dd-4add-9983-72246a72d9f3 .
+
+camssa:ec7d89ef-4a41-490b-91d0-2127da5f3e51 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:string .
+
+camssa:f5b19c2c-82ee-4bdb-8794-b8a88d3cb6e3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ShEx can be applied in data model development (creating new ones and refining existing ones) and is useful for reviewing or validate data, as it identifies and corrects issues before the data enters a business workflow._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/'"""@en ;
+    cav:refersTo camssa:17c22c66-c8e0-444e-8e9d-ac368cd244b9 .
+
+camssa:f8bcab39-bfa5-4fd6-9a68-a54b50287b9d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Since public administration procedures, rules, and services are often represented in RDF, ShEx can be applied to validate these datasets. By enforcing consistent and complete structures, ShEx ensures that all relevant elements of administrative procedures and services are correctly represented._x000D_
+_x000D_
+Shape Expressions (ShEx) 2.1 Reference:_x000D_
+https://shex.io/shex-primer/_x000D_
+_x000D_
+W3C RDF Concepts and Abstract Data Model Reference:_x000D_
+https://www.w3.org/TR/rdf12-concepts/'"""@en ;
+    cav:refersTo camssa:8a4859f7-0216-48f2-bb4e-58858b0c26c6 .
+
+camssa:fbe43801-c30d-4066-a37a-63590421b58a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:string .
+
+camssa:febd33f1-3a49-4a5b-a1e3-3f58ed245b8a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:string .
+
 
 
 
