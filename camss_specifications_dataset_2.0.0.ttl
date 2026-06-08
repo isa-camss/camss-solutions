@@ -1161,6 +1161,7 @@ cssvrsc:19219acb5225c55079b6b46e21bbc6621331163dcf8087dc65ee4676d79c5a98 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "AMQP CBS"@en ;
     cssv:alternative ""@en ;
+    cssv:configures cssvrsc:8a81a114cb3c00a804499fcb6c89f3f05c8d9734fc95decce23db6db5bef40bb ;
     cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
     dct:description "The AMQP Claims-based Security specification is an extension of the Advanced Message Queuing Protocol (AMQP) that defines an authorization mechanism based on claims-based security tokens. By leveraging claims-based tokens, the specification enhances security and flexibility in managing permissions and access rights."@en ;
     dct:title "AMQP Claims-based Security"@en ;
@@ -1490,6 +1491,7 @@ cssvrsc:1ea83628effae4976a072f101539af9ae9596e3a8ac9b456dc958a57fb5a92cb a cssv:
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
+    cssv:configures cssvrsc:0451cf7280b71e0ba29350bc606ef4599f53336dc99f4fc4419b4fa50686e127 ;
     cssv:isMaintainedBy cssvrsc:660e51b8105da3b41278152e1050aa45419708bdf5b48530d9e644a44ef8c7c0 ;
     dct:description "This application profile document specifies the interfaces, bindings, and encodings required to publish and access digital catalogues of metadata for geospatial data, services, and applications that comply with the given profile."@en ;
     dct:title "OpenGIS Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile"@en ;
@@ -2797,7 +2799,6 @@ cssvrsc:37fbdab3d5a73a430a6bd0ca3c25e859b4bf83a01e6f81d224238d3bbede8315 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "DCAT"@en ;
     cssv:alternative ""@en ;
-    cssv:configures cssvrsc:96362edca15a9600bba5b743f54269be55ee70fa456eab0352346007ad3ea29a ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web."@en ;
     dct:title "Data Catalog Vocabulary (DCAT) - Version 3"@en ;
@@ -3692,6 +3693,7 @@ cssvrsc:504bd13a4c26c1ce656ab26a3d62e9bcfd26c4172a0a8ed4ea2e6d782fffaa51 a cssv:
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
     cssv:alternative ""@en ;
+    cssv:configures cssvrsc:e140535a651dd589a52fc2404c4e53078c2daf735f2d5a3789ebbf5fc06beef8 ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "Domibus is the Open Source project of the AS4 Access Point maintained by the European Commission. It is a sample software implementation that follows the AS4 profile developed by e-SENS. It can be used to familiarise oneself with this profile in a testing environment or as a functional solution in production."@en ;
     dct:title "Domibus v5.1.7"@en ;
@@ -4348,6 +4350,7 @@ cssvrsc:6327b8eef8bae4c922a91203eef220faf3319f675e644a87014c03512b18e8a0 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "Geo-DCAT-AP"@en ;
     cssv:alternative ""@en ;
+    cssv:configures cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "The GeoDCAT-AP specification is an extension of the DCAT application profile for data portals in Europe (DCAT-AP) for describing geospatial datasets, dataset series, and services."@en ;
     dct:title "Geo-DCAT-AP"@en ;
@@ -5136,7 +5139,6 @@ cssvrsc:78d61d2335d5faa7446ae94d457e58df4adb4a73c987053ef5b03ff92e21221f a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:798f57c9a79c00ba21874151b6145d33cf5c11a551a7e337224f670ebaaefcac a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "ODRL"@en ;
     cssv:alternative ""@en ;
@@ -5516,6 +5518,7 @@ cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "DCAT-AP"@en ;
     cssv:alternative ""@en ;
+    cssv:configures cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "This ApplicationProfile is a specification for metadata records to meet the specific application needs of data portals in Europe while providing semantic interoperability with other applications on the basis of reuse of established controlled vocabularies (e.g. EuroVoc) and mappings to existing metadata vocabularies (e.g. Dublin Core, SDMX, INSPIRE metadata, etc.)."@en ;
     dct:title "DCAT-AP v2.0.0"@en ;
@@ -6159,7 +6162,6 @@ cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b a cssv:
         owl:NamedIndividual ;
     cssv:acronym "DCAT"@en ;
     cssv:alternative ""@en ;
-    cssv:configures cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4 ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web. This document defines the schema and provides examples for its use."@en ;
     dct:title "Data Catalog Vocabulary (DCAT) - Version 2"@en ;
@@ -6333,6 +6335,7 @@ cssvrsc:96362edca15a9600bba5b743f54269be55ee70fa456eab0352346007ad3ea29a a cssv:
         owl:NamedIndividual ;
     cssv:acronym "DCAT-AP"@en ;
     cssv:alternative ""@en ;
+    cssv:configures cssvrsc:37fbdab3d5a73a430a6bd0ca3c25e859b4bf83a01e6f81d224238d3bbede8315 ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "DCAT-AP is a DCAT profile for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe. the scope of the specification was the exchange between Open Data Portals in Europa. Although this is still at the core of the specification, DCAT-AP is not limited to public accessible Open Data, but can be applied to any kind of datasets. This current version of DCAT-AP 3.0.0 is fully aligned and compatible with the proposed recommendation of DCAT 3."@en ;
     dct:title "DCAT-AP"@en ;
@@ -10599,22 +10602,6 @@ cssvrsc:6da670f6a030973c0d0e9154c62bff7a4bdd90de6d8e4018f0329c94e4564a3e a cssv:
     dct:title "eDelivery Access Point Domibus"@en ;
     dcat:distribution cssvrsc:2c33c58c-2093-4896-8cf0-529306c56a57 ;
     dcat:version "5.1.8" .
- 
-cssvrsc:2a521d23323c60aba6c4b5313f96c1a87eb91353a8e2ee1f95ce0cfad3dc9045 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "CPSV-AP"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "CPSV-AP is a reusable and extensible data model for harmonising the way public services are described in a machine-readable format. It captures fundamental characteristics of a public service, such as the name, description, competent public organisation, output, etc."@en ;
-    dct:title "Core Public Service Vocabulary Application Profile (CPSV-AP) 3.2.0"@en ;
-    dct:title "Core Public Service Vocabulary Application Profile"@en ;
-    dcat:distribution cssvrsc:3954468d-17b8-42b7-8a2e-4e0816c15142 ;
-    dcat:version "3.2.0" ;
-    cssv:isRecommendedBy 
-        [ org:classification org-type:GOV, org-type:AGENCY ; 
-             dct:spatial <http://publications.europa.eu/resource/authority/atu/BE> ;
-             foaf:page <https://www.belgif.be/page/specifications.en.html>
-        ] .
 
 cssvrsc:p17b73c8-174d-475a-94e9-5e046df85f45 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -11537,6 +11524,10 @@ cssvrsc:3f3a8990-b4da-4df0-a752-a561247d1f52 a owl:NamedIndividual,
 cssvrsc:3f9b5be4-6880-4cf6-a8ed-586c016b4424 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-X.1403-202009-I/en> .
+
+cssvrsc:64012505-a4ba-441d-976e-49095406523e a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://github.com/SEMICeu/CPSV/tree/master/releases/1.0.2> .
 
 cssvrsc:400af8bfcae143884800876b423e15b7152c38780beda7599c8ea2291b946367 a owl:NamedIndividual,
         org:Organization ;

@@ -201,6 +201,34 @@ elis:059f3cf1-b768-43c5-badf-d264cd919014 a dcat:CatalogRecord ;
     dct:title "SHA-3"@en ;
     foaf:primaryTopic cssvrsc:921d8e57de77fca8f754a5ffecfa81a553b655d9f408c8630821ddd83eb4b6b0 .
 
+elis:e2ee10df-15fa-41ed-b25e-b5a447903f35 a dcat:CatalogRecord ;
+    dct:title "ODRL"@en ;
+    foaf:primaryTopic cssvrsc:3e4ec39e2489ffad7531d44a15eccf98708580e5060cd50b0e5527e3921f87ba .
+
+elis:29661184-b514-4cc1-ac96-99cc8758a133 a dcat:CatalogRecord ;
+    dct:title "E-ARK"@en ;
+    foaf:primaryTopic cssvrsc:0bc5e35251b0d18a8b9fe1ad261a86eeff4fe2798948eaf5bdd7accfa9ee553e .
+
+elis:c90d3588-d119-43e9-afe7-187358f30df4 a dcat:CatalogRecord ;
+    dct:title "OpenID4VC"@en ;
+    foaf:primaryTopic cssvrsc:4bb5e18ab46489fd6f6b71d65e209f500457aac1554a7a02cf4174d703d418ca .
+
+elis:6209c093-61ff-44aa-a9a9-340279479a81 a dcat:CatalogRecord ;
+    dct:title "SCIM Family"@en ;
+    foaf:primaryTopic cssvrsc:646624813194fc899a480e622517d16a9ba9d0764e0dac6968b426631795a998 .
+
+elis:b926f7d2-854e-4f9c-b21c-d1de5d21b220 a dcat:CatalogRecord ;
+    dct:title "MyData"@en ;
+    foaf:primaryTopic cssvrsc:e5f0bd66f256cd1de4a7dd743ad2daa16ef94fcc0b4c4d6a9b54eea78e9b2df5 .
+
+elis:a7ddd039-f012-494b-9e4f-4478c5d3d99f a dcat:CatalogRecord ;
+    dct:title "Verifiable Credentials 2.0"@en ;
+    foaf:primaryTopic cssvrsc:00fc754431ae68a5376a55bb52339b48882208483edd948025e4cc446f5dbfea .
+
+elis:b959abc0-19c5-4d03-8c7f-cbe9f87f77b0 a dcat:CatalogRecord ;
+    dct:title "Peppol"@en ;
+    foaf:primaryTopic cssvrsc:e0d67bbafa776a1ec31b8e1958431b650a473dac02daa77e50f8492d719c7c4a .
+
 elis:05a5073e-1ef5-42f3-9ab2-f43f45c32d25 a dcat:CatalogRecord ;
     dct:title "PROV Family"@en ;
     foaf:primaryTopic cssvrsc:0e12967520ef4b68bb5fb857177827c0094abca637175e68a0a09bd24130694c .
@@ -8590,6 +8618,133 @@ cssvrsc:e56c152b24acda08a37a0e99044a42e6eea9bde90c4b4629b6aa005d3c253d3d a cssv:
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en,
         "Technology Architecture"@en .
+
+cssvrsc:3e4ec39e2489ffad7531d44a15eccf98708580e5060cd50b0e5527e3921f87ba a cssv:Specification ;
+    dct:relation [ dct:description "ODRL is a policy expression language that provides a flexible and interoperable information model, vocabulary, and encoding mechanisms for representing statements about the use of content and services. Therefore, it makes it possible to exchange information regarding access to digital public services, permitted and prohibited actions over a given asset, as well as the obligations required to be met by stakeholders."@en ;
+            dct:relation eira:LegalActRepresentationRepresentation ],
+        [ dct:description "ODRL is a policy expression language that provides a flexible and interoperable information model, vocabulary, and encoding mechanisms for representing statements about the usage of content and services. The ODRL Vocabulary and Expression describes the terms used in ODRL policies and how to encode them. Therefore, it can be considered and used for the common description and usage for the Digital Rights."@en ;
+            dct:relation eira:SemanticInteroperabilityAgreementContract ],
+        [ dct:description "ODRL is a policy expression language that provides a flexible and interoperable information model, vocabulary, and encoding mechanisms for representing statements about the usage of content and services. The ODRL Vocabulary and Expression describes the terms used in ODRL policies and how to encode them."@en ;
+            dct:relation eira:LegalInteroperabilityAgreementContract ],
+        [ dct:description "ODRL describes the terms used in ODRL policies and how to encode them at European and, by extension, national level."@en ;
+            dct:relation eira:NationalLegalInteroperabilityAgreementContract ],
+        [ dct:description "ODRL provides a flexible and interoperable information model, vocabulary, and encoding mechanisms for representing statements about the usage of content and services. The ODRL Vocabulary and Expression describes the terms used in ODRL policies and how to encode them."@en ;
+            dct:relation eira:LegalAgreementContract ],
+        [ dct:description "ODRL provides a flexible and interoperable information model, vocabulary, and encoding mechanisms for representing statements about the usage of content and services. Once it is used, it is considered an agreement."@en ;
+            dct:relation eira:TechnicalInteroperabilityAgreementContract ],
+        [ dct:description "ODRL describes the terms used in ODRL policies and how to encode them in the European context."@en ;
+            dct:relation eira:EuropeanLegalInteroperabilityAgreementContract ],
+        [ dct:description "ODRL offers a set of policy terms expressing permissions, prohibitions, and duties related to the use of asset resources, expressed in classes and properties. In this sense, the specification offers standardised descriptions of how these terms can be defined and what they represent, in order to foster interoperability by enabling common understanding."@en ;
+            dct:relation eira:VocabularyDataObject ],
+        [ dct:description "ODRL specifies how its policy expressions should be encoded and serialised (for example, in JSON-LD) so that they are readable and processable by computer systems, which aligns with the idea of transforming data into a format that can be manipulated by a computer."@en ;
+            dct:relation eira:DataRepresentationRepresentation ],
+        [ dct:description "ODRL is fundamentally a definition of concepts, entities, and relationships to model the specific domain of rights and obligations policies, and is designed so that these policies can be transformed and processed by computer systems through encoding mechanisms."@en ;
+            dct:relation eira:OntologyDataObject ],
+        [ dct:description "ODRL defines various classes and properties that represent policies expressing permissions, prohibitions, and duties related to the use of asset resources. It outlines how these policies can govern the conditions under which assets may be accessed, shared, or restricted. In this context, the specification also details the relationships between different classes and their properties, providing a structured and coherent framework for modelling complex usage rules and ensuring clear interpretation and interoperability across diverse systems."@en ;
+            dct:relation eira:DataModelDataObject ] ;
+    dcat:theme "Data Architecture"@en,
+        "Business Architecture"@en,
+        "Implementation Governance"@en .
+
+cssvrsc:0bc5e35251b0d18a8b9fe1ad261a86eeff4fe2798948eaf5bdd7accfa9ee553e a cssv:Specification ;
+    dct:relation [ dct:description "E-ARK provides a format suitable for the long-term storage of a wide variety of data types, such as document and image collections, archival records, databases or geographic data."@en ;
+            dct:relation eira:E-ArchivingApplicationService ],
+        [ dct:description "E-ARK provides a format suitable for the long-term storage of a wide variety of data types, such as document and image collections, archival records, databases or geographic data."@en ;
+            dct:relation eira:E-ArchivingApplicationComponent ] ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:4bb5e18ab46489fd6f6b71d65e209f500457aac1554a7a02cf4174d703d418ca a cssv:Specification ;
+    dct:relation [ dct:description "OpenID4VC is related to distributed blockchain networks because it enables the issuance and verification of verifiable credentials, which are often stored and managed on decentralized blockchain networks."@en ;
+            dct:relation eira:DistributedBlockchainNetworkTechnologyService ],
+        [ dct:description "OpenID4VC facilitates secure user authentication through the issuance and use of Verifiable Credentials. These credentials allow individuals to prove specific attributes, such as identity or qualifications, in order to gain access to protected resources. Within this framework, OID4VCI defines mechanisms for creating and distributing Verifiable Credentials, while also requiring authentication during the issuance process to ensure that credentials are issued only to verified holders. This approach strengthens trust, privacy, and interoperability."@en ;
+            dct:relation eira:AuthenticationApplicationService ],
+        [ dct:description "OpenID4VC enables identification as OpenID Connect defines mechanisms by which an End-User can leverage an OpenID Provider (OP) to release identity information to a Relying Party (RP) which can act on that information. It extends OpenID Connect with the concept of a Self-Issued OpenID Provider (Self-Issued OP), an OP which is within the End-User's local control."@en ;
+            dct:relation eira:IdentificationApplicationComponent ] ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:646624813194fc899a480e622517d16a9ba9d0764e0dac6968b426631795a998 a cssv:Specification ;
+    dct:relation [ dct:description "The SCIM Family indicates how to handle user identity in cloud-based applications and services in a standardised way to enable interoperability, security and scalability."@en ;
+            dct:relation eira:TechnicalInteroperabilityAgreementContract ],
+        [ dct:description "The SCIM Family indicates how to handle user identity in cloud-based applications and services in a standardised way to enable interoperability, security and scalability."@en ;
+            dct:relation eira:TechnicalAgreementContract ],
+        [ dct:description "SCIM Family standardises the automation of user identity information exchange across different IT systems and identity domains, enhancing the efficiency of Access Management ABB, facilitating accurate and timely control over user access rights and improving overall security across interconnected systems."@en ;
+            dct:relation eira:AccessManagementApplicationComponent ],
+        [ dct:description "SCIM Family enables consistent and automated provisioning of user identities, which is a prerequisite for granting appropriate access rights and permissions."@en ;
+            dct:relation eira:IdentityManagementApplicationService ],
+        [ dct:description "SCIM Family ensures consistent and efficient identity management, and enhances the ability to accurately and securely verify user identities."@en ;
+            dct:relation eira:IdentificationApplicationComponent ],
+        [ dct:description "SCIM Family enables consistent and automated provisioning of user identities, which is a prerequisite for granting appropriate access rights and permissions."@en ;
+            dct:relation eira:AuthorisationApplicationService ],
+        [ dct:description "SCIM Family ensures consistent and efficient identity management from an identity provider."@en ;
+            dct:relation eira:IdentityProviderTechnologyService ],
+        [ dct:description "SCIM Family standardises the automation of user identity information exchange across different IT systems and identity domains, enhancing the efficiency of Access Management ABB, facilitating accurate and timely control over user access rights and improving overall security across interconnected systems."@en ;
+            dct:relation eira:AccessManagementApplicationService ],
+        [ dct:description "SCIM Family ensures consistent and efficient identity management within platforms by automating data flow between an identity provider or identity and access management system and cloud-based applications."@en ;
+            dct:relation eira:FederatedIdentityProviderTechnologyService ],
+        [ dct:description "SCIM Family provides secure authentication, over domains, facilitating interoperability."@en ;
+            dct:relation eira:SelfSovereignIdentityApplicationComponent ] ;
+    dcat:theme "Implementation Governance"@en,
+        "Technology Architecture"@en .
+
+cssvrsc:e5f0bd66f256cd1de4a7dd743ad2daa16ef94fcc0b4c4d6a9b54eea78e9b2df5 a cssv:Specification ;
+    dct:relation [ dct:description "MyData processes and stores personal data and links it to services."@en ;
+            dct:relation eira:AccessManagementApplicationComponent ],
+        [ dct:description "MyData processes and stores personal data and link services about a personal data owner."@en ;
+            dct:relation eira:AccountingApplicationService ],
+        [ dct:description "MyData processes and stores personal data and links it to services."@en ;
+            dct:relation eira:AccessManagementApplicationService ],
+        [ dct:description "MyData serves as a single point to prove that the data owner has provided permission for their data to be processed in a given service."@en ;
+            dct:relation eira:APIGatewayTechnologyService ],
+        [ dct:description "MyData allows the user to validate a data request coming from a third-party system in order to authorise its transfer and processing within a service. The authorisation can only take place after the service has been linked to the user's single point of identification."@en ;
+            dct:relation eira:FederatedIdentityProviderTechnologyService ],
+        [ dct:description "MyData allows the user to validate a data request coming from a third-party system in order to authorise its transfer and processing within a service."@en ;
+            dct:relation eira:IdentityProviderTechnologyService ],
+        [ dct:description "MyData provides a means to a data provider of authorising a data transfer in a secure network."@en ;
+            dct:relation eira:DataSpaceConnectorProviderApplicationService ],
+        [ dct:description "MyData provides a means of authorising a data transfer in a secure network."@en ;
+            dct:relation eira:DataSpaceConnectorApplicationService ],
+        [ dct:description "MyData provides a means to a data consumer of authorising a data transfer in a secure network."@en ;
+            dct:relation eira:DataSpaceConnectorConsumerApplicationService ],
+        [ dct:description "MyData provides the required information to use and discover services in a uniform manner."@en ;
+            dct:relation eira:ServiceDiscoveryAndRegistryApplicationService ],
+        [ dct:description "MyData provides a service registry process along with formed resources for each service."@en ;
+            dct:relation eira:RegistrationApplicationService ],
+        [ dct:description "MyData enables the human-centric personal data management model introduced at a conceptual level in the MyData white paper."@en ;
+            dct:relation eira:ServiceRegistryDataObject ],
+        [ dct:description "MyData is an approach that reinforces digital human rights and creates new opportunities for companies to develop innovative services based on personal data based on mutual trust."@en ;
+            dct:relation eira:TechnicalAgreementContract ],
+        [ dct:description "MyData is an approach that reinforces digital human rights and creates new opportunities for companies to develop innovative services based on personal data based on mutual trust."@en ;
+            dct:relation eira:TechnicalInteroperabilityAgreementContract ] ;
+    dcat:theme "Implementation Governance"@en,
+        "Technology Architecture"@en .
+
+cssvrsc:00fc754431ae68a5376a55bb52339b48882208483edd948025e4cc446f5dbfea a cssv:Specification ;
+    dct:relation [ dct:description "Verifiable Credentials allows for selective disclosure, enabling users to share only the specific credentials needed for a transaction or interaction."@en ;
+            dct:relation eira:PrivacyApplicationComponent ],
+        [ dct:description "Verifiable Credentials enables the creation and verification of digital credentials in a decentralized manner, providing a secure, tamper-evident ledger that ensures the integrity and authenticity of credentials"@en ;
+            dct:relation eira:DistributedBlockchainNetworkTechnologyService ],
+        [ dct:description "Verifiable Credentials allows for selective disclosure, enabling users to share only the specific credentials needed for a transaction or interaction."@en ;
+            dct:relation eira:PrivacyApplicationService ],
+        [ dct:description "The Verifiable Credentials specification is designed to enable users to digitally prove their identity or other personal attributes. In this context, it can be used for user authentication in services that require high levels of trust, such as financial platforms or government websites, allowing individuals to securely access resources and official documentation."@en ;
+            dct:relation eira:AuthenticationApplicationService ] ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:e0d67bbafa776a1ec31b8e1958431b650a473dac02daa77e50f8492d719c7c4a a cssv:Specification ;
+    dct:relation [ dct:description "Peppol is used for the exchange of business messages between Access Points (APs), and is still used today by Electronic data interchange (EDI) service providers such as e-delivery solutions at European level."@en ;
+            dct:relation eira:DataExchangeApplicationComponent ],
+        [ dct:description "Peppol is used for the exchange of business messages between Access Points (APs), and is still used today by Electronic data interchange (EDI) service providers such as e-delivery solutions at European level."@en ;
+            dct:relation eira:DataExchangeApplicationService ],
+        [ dct:description "Peppol implements a standardised technical transport layer for data exchange."@en ;
+            dct:relation eira:EnterpriseServiceBusTechnologyService ],
+        [ dct:description "Peppol implements a standardised technical transport layer for data exchange in an e-delivery context."@en ;
+            dct:relation eira:PrivateSubnetworkCommunicationNetwork ],
+        [ dct:description "Peppol is based on the use of DNS queries to find the address of the service metadata for a given participant ID. This approach uses the underlying infrastructure that supports DNS, providing controlled access to the creation and update of DNS entries."@en ;
+            dct:relation eira:AccessManagementApplicationService ],
+        [ dct:description "Peppol is based on the use of DNS queries to find the address of the service metadata for a given participant ID. This approach uses the underlying infrastructure that supports DNS, providing controlled access to the creation and update of DNS entries."@en ;
+            dct:relation eira:DomainNameServiceTechnologyService ],
+        [ dct:description "Peppol is based on the use of DNS queries to find the address of the service metadata for a given participant ID. This approach uses the underlying infrastructure that supports DNS, providing controlled access to the creation and update of DNS entries."@en ;
+            dct:relation eira:AccessManagementApplicationComponent ] ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:e57fea291208c8917fd7d5b30ed302d6498ed036acaf03eae5e56d672d1eb2bc a cssv:Specification ;
     dct:relation [ dct:description "The ETSI TS 103 846 specification is designed to define a reference architecture for Digital Twins (DTs). One of its core focuses is enabling data exchange between DTs to ensure effective communication and coordination. This allows DTs to adjust parameters in real time based on analysed data, for example, regulating temperature in a smart building according to occupancy or environmental conditions. By standardising these interactions, the specification supports intelligent automation and interoperability across platforms."@en ;
