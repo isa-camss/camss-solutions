@@ -5139,7 +5139,6 @@ cssvrsc:78d61d2335d5faa7446ae94d457e58df4adb4a73c987053ef5b03ff92e21221f a cssv:
     dcat:version "1.0.0" .
 
 cssvrsc:798f57c9a79c00ba21874151b6145d33cf5c11a551a7e337224f670ebaaefcac a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "ODRL"@en ;
     cssv:alternative ""@en ;
