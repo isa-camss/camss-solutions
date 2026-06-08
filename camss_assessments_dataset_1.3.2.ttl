@@ -6500,6 +6500,15 @@ EIF reference, 'EIF brochure' document:\r
 https://ec.europa.eu/isa2/eif_en\""""@en ;
     cav:refersTo camssa:af724c97-d7db-4f7e-bfae-132af5df3787 .
 
+camssa:ce42a35899604f9d542773a5cf82e5230597169d8928f05bcdb2835ac514e088 a owl:NamedIndividual,
+        org:Organization ;
+    sc:contactPoint camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c ;
+    skos:prefLabel "Jääsaari Finnish Tax Administration"@en .
+
+camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c a sc:ContactPoint,
+        owl:NamedIndividual ;
+    sc:email "jussi.jaasaari@vero.fi" .
+
 camssa:d1b4bffb5cad71dfeda592f969c7477185fca53851e5d1f4bc2ec54b71a4f86f a cav:Assessment,
         owl:NamedIndividual ;
     cav:assesses cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023,
@@ -7883,7 +7892,7 @@ camssa:ecd7b31500b3575985645987cae63917d33c1f0c6fac038c2f97c31f1ba64c8f a cav:As
     cav:assesses cssvrsc:90b892f316000b3f7e9c96ff2c0cb7bd8a2e5da58051db814f8471f3e64e4f42 ;
     cav:considers camssa:da57fd27-6c29-432b-bbc8-372ec472ac4b ;
     cav:contextualisedBy sc:f717f525751d9de54fc478770a2fb1845767ec01f1661d602383ae868d2bb5b7 ;
-    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
+    cav:performedBy camssa:ce42a35899604f9d542773a5cf82e5230597169d8928f05bcdb2835ac514e088 ;
     cav:resultsIn camssa:041af2d8-abeb-41ab-a960-42e9de6686ea,
         camssa:0c4317ef-9aeb-4e33-89d9-1a4a52cdd24d,
         camssa:10e87ae3-83f4-44f0-88e4-36b50924d5d0,
