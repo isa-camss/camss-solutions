@@ -1864,7 +1864,6 @@ cssvrsc:2a521d23323c60aba6c4b5313f96c1a87eb91353a8e2ee1f95ce0cfad3dc9045 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "CPSV-AP"@en ;
     cssv:alternative ""@en ;
-    cssv:configures cssvrsc:de1564e820d5167fbf30a51d90be180a0cdd696cb8576f51a6b1e1bc64520aa9 ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "CPSV-AP is a reusable and extensible data model for harmonising the way public services are described in a machine-readable format. It captures fundamental characteristics of a public service, such as the name, description, competent public organisation, output, etc."@en ;
     dct:title "Core Public Service Vocabulary Application Profile (CPSV-AP) 3.2.0"@en ;
@@ -10024,7 +10023,6 @@ cssvrsc:f4314f9cf9c8e1b1f57df755f3c11d9797e235f51e0f4bebf15035b1ac4a0074 a cssv:
         owl:NamedIndividual ;
     cssv:acronym "CPSV-AP"@en ;
     cssv:alternative ""@en ;
-    cssv:configures cssvrsc:de1564e820d5167fbf30a51d90be180a0cdd696cb8576f51a6b1e1bc64520aa9 ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
     dct:description "CPSV-AP is a reusable and extensible data model for harmonising the way public services are described in a machine-readable format. It captures fundamental characteristics of a public service, such as the name, description, competent public organisation, output, etc."@en ;
     dct:title "Core Public Service Vocabulary Application Profile 2.2"@en ;
@@ -10605,16 +10603,6 @@ cssvrsc:6da670f6a030973c0d0e9154c62bff7a4bdd90de6d8e4018f0329c94e4564a3e a cssv:
     dct:title "eDelivery Access Point Domibus"@en ;
     dcat:distribution cssvrsc:2c33c58c-2093-4896-8cf0-529306c56a57 ;
     dcat:version "5.1.8" .
- 
- cssvrsc:de1564e820d5167fbf30a51d90be180a0cdd696cb8576f51a6b1e1bc64520aa9 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "CPSV"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "The Core Public Service Vocabulary is a simplified, reusable and extensible data model that captures the fundamental characteristics of a service offered by public administration."@en ;
-    dct:title "Core Public Service Vocabulary"@en ;
-    dcat:distribution cssvrsc:64012505-a4ba-441d-976e-49095406523e ;
-    dcat:version "1.0.2" .
 
 cssvrsc:p17b73c8-174d-475a-94e9-5e046df85f45 a owl:NamedIndividual,
         dcat:Distribution ;
