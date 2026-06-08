@@ -7995,7 +7995,7 @@ camssa:efc8c1fd36e7e9c74e1c8ebb5eaa0e05a2fc3a30f88bae180f249c027edc7911 a cav:As
     dct:title "CAMSS Assessment of XBRL GL EIF Scenario v2.0.0"@en ;
     dcat:version "2.0.0" ;
     dcat:distribution camssa:f0ed778b-1ad1-47d8-828a-9624503c1036 ;
-    dcat:previousVersion ecd7b31500b3575985645987cae63917d33c1f0c6fac038c2f97c31f1ba64c8f .
+    dcat:previousVersion camssa:ecd7b31500b3575985645987cae63917d33c1f0c6fac038c2f97c31f1ba64c8f .
 
 camssa:026fb412-17f6-4cac-b071-eea6536b8bf7 a cav:Statement,
         owl:NamedIndividual ;
@@ -98897,7 +98897,7 @@ camssa:09c5751d65ae22ad38b74e7ba0b7cc173ce37e4a0b60f1149ff88d2c74b953c4 a cav:As
     dct:description "Assessment of the SAMM EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
     dcat:version "2.0.0";
     dcat:distribution camssa:72bb4bd4-6eca-409a-ac9c-aee3470f3ccf ;
-    dcat:previousVersion 0dae9ff44053cfac7f524cca9edc8ddab0cd00460e007259159e74f25c1d9dea .
+    dcat:previousVersion camssa:0dae9ff44053cfac7f524cca9edc8ddab0cd00460e007259159e74f25c1d9dea .
 
 camssa:049cf422-7000-4e10-ba85-cfc78fdc1f54 a cav:Statement,
         owl:NamedIndividual ;
@@ -134330,7 +134330,7 @@ camssa:11679e13fbce84e2211a18fbc47e3a3a5f5844526f68deeb4feef0a63b9c6259 a cav:As
     dct:description "Assessment of the Representational State Transfer (REST) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
     dct:title "CAMSS Assessment EIF Scenario of REST (2.0.0)"@en ;
     dcat:version "2.0.0" ;
-    dcat:previousVersion 8d3865076d549117b88c16224ddab2b3a114b2dfbd683303f021845c4c63d994 ;
+    dcat:previousVersion camssa:8d3865076d549117b88c16224ddab2b3a114b2dfbd683303f021845c4c63d994 ;
     dcat:distribution camssa:6e6bbc38-2167-473b-a21a-0942a6128a4c .
 
 camssa:02c361f9-00b1-4122-915c-f69bd9f39f9f a cav:Score,
@@ -136758,7 +136758,7 @@ camssa:8fa8605e3597dfd2715ed79409af0b1bd612ace0d9ed5bc143888d755e26ee3b a cav:As
     dct:title "CAMSS Assessment of ShEx EIF Scenario v1.0.0"@en ;
     dcat:version "2.0.0" ;
     dcat:distribution camssa:8e5de8f7-f4ab-4270-805e-755ef852cd9d ;
-    dcat:previousVersion 4a789f6e046908e1c7e4cab937e8e0e898fedc0ce72cf06a10a78e7a7635f0dd ;
+    dcat:previousVersion camssa:4a789f6e046908e1c7e4cab937e8e0e898fedc0ce72cf06a10a78e7a7635f0dd ;
 
 camssa:003421d0-d78f-40f3-ab6e-5e9b761be795 a cav:Statement,
         owl:NamedIndividual ;
