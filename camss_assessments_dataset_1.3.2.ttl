@@ -6500,11 +6500,6 @@ EIF reference, 'EIF brochure' document:\r
 https://ec.europa.eu/isa2/eif_en\""""@en ;
     cav:refersTo camssa:af724c97-d7db-4f7e-bfae-132af5df3787 .
 
-camssa:ce42a35899604f9d542773a5cf82e5230597169d8928f05bcdb2835ac514e088 a owl:NamedIndividual,
-        org:Organization ;
-    sc:contactPoint camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c ;
-    skos:prefLabel "Jääsaari Finnish Tax Administration"@en .
-
 camssa:d1b4bffb5cad71dfeda592f969c7477185fca53851e5d1f4bc2ec54b71a4f86f a cav:Assessment,
         owl:NamedIndividual ;
     cav:assesses cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023,
@@ -8497,10 +8492,6 @@ camssa:7ce3599a-09c6-4042-966b-4d45deaec327 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
     cav:value "100"^^xsd:string .
-
-camssa:7f600488-2b08-49b5-83b8-9477696044b9 a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "nan" .
 
 camssa:80400180-e163-4ce4-b4d1-06fa6fbb6a82 a cav:Score,
         owl:NamedIndividual ;
@@ -97548,10 +97539,6 @@ https://www.rfc-editor.org/rfc/rfc4253.html_x000D_
 https://www.rfc-editor.org/rfc/rfc4254.html'"""@en ;
     cav:refersTo camssa:fc0820ea-b547-4af5-b602-c1862d276056 .
 
-camssa:5329e466-47d8-4892-aff8-b3998fca6f6e a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "nan" .
-
 camssa:57349d75-4a89-4d6f-9a59-bd20a2971256 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'SSH provides the technical foundation for protecting data through strong encryption and integrity protection, which are essential components for securing the exchange of personal data. It mandates cryptographic host authentication to ensure that data is only shared with verified entities. However, as a low-level transport protocol, SSH does not define procedures for the management, classification, or long-term storage of personal data, nor does it explicitly reference specific European privacy regulations like the GDPR._x000D_
@@ -97951,12 +97938,6 @@ SSH Transport Layer:_x000D_
 https://www.rfc-editor.org/rfc/rfc4253.html_x000D_
 https://www.rfc-editor.org/rfc/rfc4254.html'"""@en ;
     cav:refersTo camssa:1275dd99-3677-4e7b-baa2-a49aa9af0fcf .
-
-camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 a owl:NamedIndividual,
-        org:Organization ;
-    schema:contactPoint camssa:5329e466-47d8-4892-aff8-b3998fca6f6e ;
-    skos:prefLabel "nan European Commission DG-DIGIT"@en .
-
 camssa:e3c912a4-e025-4010-8553-b36a963a9320 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
@@ -118141,10 +118122,6 @@ camssa:e6c8a046-11b2-47f1-94ed-5eda8bb6ccc2 a cav:Score,
     cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
     cav:value "100" .
 
-camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c a sc:ContactPoint,
-        owl:NamedIndividual ;
-    sc:email "jussi.jaasaari@vero.fi" .
-
 camssa:e6dc05eb-2536-484d-970f-8f18e0314eb3 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """Standard for Public Code is publicly available for implementation and study for free in its dedicated webpage.\r
@@ -129964,10 +129941,6 @@ camssa:81f1dda7-cc0d-4a0c-8e4a-ba141166d655 a cav:Score,
     cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
     cav:value "100"^^xsd:string .
 
-camssa:847f8911-a9db-44c7-9278-994e7eaf6a29 a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "nan" .
-
 camssa:84c4db0b-2764-4185-b3be-5b9c88d757f7 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
@@ -130277,11 +130250,6 @@ camssa:dee3ee26-7d38-4c62-83d0-fb6edc985188 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
     cav:value "100"^^xsd:string .
-
-camssa:e2cf6943bb0c32336dfbf8b3a77f43a673c444e3e6c6bacb3b3b25bf8ad0fa35 a owl:NamedIndividual,
-        org:Organization ;
-    schema:contactPoint camssa:847f8911-a9db-44c7-9278-994e7eaf6a29 ;
-    skos:prefLabel "nan European Commission DG - DIGIT"@en .
 
 camssa:e4773f00-6cde-4e6f-bf09-2728bef3bd9b a cav:Statement,
         owl:NamedIndividual ;
@@ -132037,10 +132005,6 @@ camssa:fb39d2ee-34d5-4232-8ba8-449e8a4da598 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "No formal agreement has been found established between organisations or administrations involved in European public service provision including the usage of WS-BPEL."@en ;
     cav:refersTo camssa:7197eef9-e629-448e-b824-4aa06a78b38d .
-
-camssa:fb3a3abd-910e-4c2c-984d-924897e1b830 a sc:ContactPoint,
-        owl:NamedIndividual ;
-    sc:email "DIGIT-CAMSS@ec.europa.eu" .
 
 camssa:fb3fe0d3-ae4d-4935-b354-efdf44931df9 a cav:Score,
         owl:NamedIndividual ;
@@ -135805,11 +135769,6 @@ camssa:de650950-c17c-4a7e-b858-31d54ef9d425 a cav:Score,
     cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
     cav:value "100"^^xsd:string .
 
-camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 a owl:NamedIndividual,
-        org:Organization ;
-    schema:contactPoint camssa:92561bfb-c6a0-43c1-874e-6951139c029e ;
-    skos:prefLabel "nan European Commission DG-DIGIT"@en .
-
 camssa:e530a698-88c8-4d72-96db-d229b006e6d0 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'JWS is included in European initiatives covering privacy aspects through the eSignature Building Block. This building block helps public administrations and businesses accelerate the creation and verification of electronic signatures, while supporting mutual recognition and cross-border interoperability of e-signatures across Member States._x000D_
@@ -136171,10 +136130,6 @@ camssa:4018ab9c-e55b-47ab-be27-58c1684ff1bb a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
     cav:value "100"^^xsd:string .
-
-camssa:48ab755d-722a-4510-8631-dd12bd35455d a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "nan" .
 
 camssa:492d6001-b6e4-4b85-80d6-fdae8dc01936 a cav:Statement,
         owl:NamedIndividual ;
@@ -136590,11 +136545,6 @@ _x000D_
 IETF Organisation:_x000D_
 https://www.ietf.org/'"""@en ;
     cav:refersTo camssa:89086190-abab-4466-a143-e334791e6ba8 .
-
-camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 a owl:NamedIndividual,
-        org:Organization ;
-    schema:contactPoint camssa:48ab755d-722a-4510-8631-dd12bd35455d ;
-    skos:prefLabel "nan European Commission DG-DIGIT"@en .
 
 camssa:e165e43b-5ba5-4536-aa17-4e467469952d a cav:Score,
         owl:NamedIndividual ;
