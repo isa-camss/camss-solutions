@@ -13029,7 +13029,7 @@ cssvrsc:9d56f150-d853-42f0-83b9-741e3d2e94a3 a owl:NamedIndividual,
 
 cssvrsc:434938b7-868c-4dfb-811a-490aae0469a8 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL <https://hiit.github.io/mydata-stack/>
+    dcat:accessURL <https://hiit.github.io/mydata-stack/> .
 
 cssvrsc:9deba8c9-b0cb-48fa-8cc9-d54b3f1ea0d3 a owl:NamedIndividual,
         dcat:Distribution ;
