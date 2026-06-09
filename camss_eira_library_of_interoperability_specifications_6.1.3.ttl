@@ -2622,6 +2622,10 @@ elis:e4b9a06b-d806-403f-97e0-80bf7f67a51b a dcat:CatalogRecord ;
     dct:title "XML Schema Definition Language (XSD) 1.1 Part 1: Structures"@en ;
     foaf:primaryTopic cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 .
 
+elis:e6b9a06b-d806-403f-97e0-80bf7f69a51b a dcat:CatalogRecord ;
+    dct:title "XML Schema Part 0: Primer"@en ;
+    foaf:primaryTopic cssvrsc:31bf36e23a01098bggec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 .
+
 elis:e4e61fca-8b59-4010-8239-0e080ad2b5e8 a dcat:CatalogRecord ;
     dct:title "ISO 639-2:1998 Codes for the representation of names of languages -- Part 2: Alpha-3 code"@en ;
     foaf:primaryTopic cssvrsc:ea1887cf6ceb4929fc4a5de8a2180ce8ce23f197de2b61a275d88cd46323fb6a .
@@ -4287,6 +4291,17 @@ cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 a cssv:
             dct:relation eira:MetadataDataObject ],
         [ dct:description "The specification is a schema definition language."@en ;
             dct:relation eira:DataModelDataObject ],
+        camssa:3b6795acd286431abd3ed379dee974077aa5531bcab4f31d406c995a0fa5908f,
+        camssa:d1b4bffb5cad71dfeda592f969c7477185fca53851e5d1f4bc2ec54b71a4f86f ;
+    dcat:theme "Data Architecture"@en .
+
+cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 a cssv:Specification ;
+    dct:relation [ dct:description "XSD 1.1 provides a standardized XML schema framework for structuring, describing, and validating metadata. It enables the consistent representation of metadata elements, their relationships, and associated datatype constraints, supporting interoperability and reliable resource description across systems."@en ;
+            dct:relation eira:MetadataDataObject ],
+        [ dct:description "XSD 1.1 supports the definition and validation of XML-based metadata structures, ensuring consistent and interoperable resource descriptions."@en ;
+            dct:relation eira:DataModelDataObject ],
+        [ dct:description "The XSD 1.1 family of specifications provides a standardized mechanism for defining datatypes and value constraints, enabling the consistent interpretation, validation, and exchange of data values across systems."@en ;
+            dct:relation eira:VocabularyDataObject ],
         camssa:3b6795acd286431abd3ed379dee974077aa5531bcab4f31d406c995a0fa5908f,
         camssa:d1b4bffb5cad71dfeda592f969c7477185fca53851e5d1f4bc2ec54b71a4f86f ;
     dcat:theme "Data Architecture"@en .

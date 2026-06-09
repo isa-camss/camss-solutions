@@ -2259,8 +2259,58 @@ cssvrsc:319b94ba551dff5570f3aa41bad79c7b4899464b5f05ce7d1f3775a2352beae9 a cssv:
     dcat:distribution cssvrsc:668caa50-b4b1-4afc-a0c3-cf1ff02e516d ;
     dcat:version "3.1.3" .
 
-cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 a cssv:Specification,
+
+cssvrsc:31bf36e23a01098bggec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 a cssv:Specification,
         cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym "XSD"@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023,
+        cssvrsc:b9929e88d6e711750b8a162b00f84c50f21e4d35bd79c648bfa5186ae447336a ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:description "XML Schema Part 0: Primer is a non-normative document intended to provide an easily readable description of the XML Schema facilities, and is oriented towards quickly understanding how to create schemas using the XML Schema language."@en ;
+    dct:title "XML Schema Part 0: Primer"@en ;
+    dcat:distribution cssvrsc:gg02d997-c674-4d6b-8727-c26d2caeeb3c ;
+    dcat:version "1.1.0" ;
+    cssv:isRecommendedBy 
+        [ org:classification org-type:GOV, org-type:AGENCY ; 
+             dct:spatial <http://publications.europa.eu/resource/authority/atu/HR> ;
+             foaf:page <https://ssi.gov.hr/en/catalogue>
+        ],
+    [ org:classification org-type:GOV, org-type:AGENCY ; 
+             dct:spatial <http://publications.europa.eu/resource/authority/atu/CY> ;
+             foaf:page <https://dits.dmrid.gov.cy/dmrid/dits/dits.nsf/all/B83AA8E4EB4EFD19C225855800288B10/$file/Cyprus%20eGovernment%20Interoperability%20Framework_new%20EIF_v2.0-To%20Publish.pdf>
+             ],
+       [ org:classification org-type:GOV, org-type:AGENCY ; 
+             dct:spatial <http://publications.europa.eu/resource/authority/atu/FR> ;
+             foaf:page <https://www.numerique.gouv.fr/offre-accompagnement/reference-interoperabilite-rgi/>
+             ],
+       [ org:classification org-type:GOV, org-type:AGENCY ; 
+             dct:spatial <http://publications.europa.eu/resource/authority/atu/GR> ;
+             foaf:page <https://www.e-gif.gov.gr/wp-content/uploads/2022/01/744027.pdf>
+             ],
+       [ org:classification org-type:GOV, org-type:AGENCY ; 
+             dct:spatial <http://publications.europa.eu/resource/authority/atu/MT> ;
+             foaf:page <https://mccaa.org.mt/Section/Content?contentId=1243>
+             ],
+       [ org:classification org-type:GOV, org-type:AGENCY ; 
+             dct:spatial <http://publications.europa.eu/resource/authority/atu/NL> ;
+             foaf:page <https://www.forumstandaardisatie.nl/open-standaarden/lijst>
+             ],
+       [ org:classification org-type:GOV, org-type:AGENCY ; 
+             dct:spatial <http://publications.europa.eu/resource/authority/atu/PL> ;
+             foaf:page <http://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20170002247/O/D20172247.pdf>
+             ],
+       [ org:classification org-type:GOV, org-type:AGENCY ; 
+             dct:spatial <http://publications.europa.eu/resource/authority/atu/PT> ;
+             foaf:page <https://files.diariodarepublica.pt/1s/2018/01/00400/0012100127.pdf>
+             ],
+       [ org:classification org-type:GOV, org-type:AGENCY ; 
+             dct:spatial <http://publications.europa.eu/resource/authority/atu/ES> ;
+             foaf:page <https://administracionelectronica.gob.es/pae_Home/dam/jcr:97912041-c1c3-47c4-b517-df9f51db321d/Guia_aplicacion_Norma_Tecnica_Interoperabilidad_Catalogo_de_estandares.pdf>
+        ] .
+
+cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "XSD"@en ;
     cssv:alternative ""@en ;
@@ -9184,7 +9234,7 @@ cssvrsc:e41213fb14c1adb9399c01ba2716777ad755f60c7900cc97cbd7d16bc774452c a cssv:
     dcat:version "None" .
 
 cssvrsc:e438965c54bc7f78e6ede46f4d408abe398302a3b33e374a9ed4662b8b44df77 a cssv:Specification,
-        cssv:Family,
+        cssv:Standard,
         owl:NamedIndividual ;
     cssv:acronym "XML"@en ;
     cssv:alternative ""@en ;
@@ -13503,6 +13553,10 @@ cssvrsc:ba687377f7db80d84796901d295e6a7207c00c867762db897849f2f6083299a4 a owl:N
     skos:altLabel "vlaanderen.be"@en ;
     skos:prefLabel "vlaanderen.be"@en ;
     foaf:homepage <https://www.vlaanderen.be/> .
+
+cssvrsc:gg02d997-c674-4d6b-8727-c26d2caeeb3c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.w3.org/TR/xmlschema-0/> .
 
 cssvrsc:bb02d997-c674-4d6b-8727-c26d2caeeb3c a owl:NamedIndividual,
         dcat:Distribution ;
