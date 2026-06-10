@@ -7998,7 +7998,7 @@ camssa:efc8c1fd36e7e9c74e1c8ebb5eaa0e05a2fc3a30f88bae180f249c027edc7911 a cav:As
     dct:description "Assessment of the XBRL GL EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
     dct:title "CAMSS Assessment of XBRL GL EIF Scenario v2.0.0"@en ;
     dcat:version "2.0.0" ;
-    dcat:distribution camssa:f0ed778b-1ad1-47d8-828a-9624503c1036 ;
+    dcat:distribution camssa:8184774d-7d2d-48bf-a7da-2bd7e799ed80 ;
     dcat:previousVersion camssa:ecd7b31500b3575985645987cae63917d33c1f0c6fac038c2f97c31f1ba64c8f .
 
 camssa:026fb412-17f6-4cac-b071-eea6536b8bf7 a cav:Statement,
@@ -8514,7 +8514,7 @@ camssa:812bcd97-aac5-463b-872e-4ebe16a85536 a cav:Score,
 
 camssa:8184774d-7d2d-48bf-a7da-2bd7e799ed80 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/f0ed778b-1ad1-47d8-828a-9624503c1036"^^xsd:anyURI .
 
 camssa:83875c93-6627-41f8-8261-75e27d92a7d2 a cav:Score,
         owl:NamedIndividual ;
@@ -95720,7 +95720,7 @@ camssa:0a4072a1ff1666c5726e675ca3f736498034f114c2aae506385b82221085ec8c a cav:As
     dct:description "Assessment of the CAdES with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en ;
     dct:title "CAMSS Assessment of CAdES EIF Scenario v1.0.0"@en ;
     dcat:version "1.0.0"@en ;
-    dcat:distribution camssa:9190235c-db7e-4056-8c06-af2bd31b6b9e .
+    dcat:distribution camssa:e3d328b8-b360-4a94-b6e3-36dc882f2d92 .
 
 camssa:0b60e933-1e9f-4a2f-bbe0-0501c22dffe3 a cav:Score,
         owl:NamedIndividual ;
@@ -96393,7 +96393,7 @@ camssa:e1e80ea9-b2eb-474a-bc84-7d9d814c4ba9 a cav:Score,
 
 camssa:e3d328b8-b360-4a94-b6e3-36dc882f2d92 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/9190235c-db7e-4056-8c06-af2bd31b6b9e"^^xsd:anyURI .
 
 camssa:e7ca1e49-2fdb-467c-a951-09aafa7b500b a cav:Score,
         owl:NamedIndividual ;
@@ -96500,7 +96500,7 @@ camssa:ead9c7c7d11b74af8c11149d52278ab87fdd05672c12f6b7a37e9e9fef0d17d3 a cav:As
     dct:description "Assessment of the CAMSS Assessment of VC DM 2.0 EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
     dct:title "CAMSS Assessment of VC DM 2.0 EIF Scenario v1.0.0"@en ;
     dcat:version "1.0.0" ;
-    dcat:distribution camssa:7dc9bf4a-6abc-4ddb-96d7-2995182ae230 ;
+    dcat:distribution camssa:579d8598-7f2d-45fa-a442-e65a7d308a94 ;
     dcat:previousVersion camssa:de426a8f0af72fb4f63a37baa472bddd4f265833292fdbe61a25a54b5af785d1 .
 
 camssa:00998345-79a7-474c-971b-7f1d6645539b a cav:Statement,
@@ -96820,7 +96820,7 @@ https://www.w3.org/TR/vc-data-model-2.0/'"""@en ;
 
 camssa:579d8598-7f2d-45fa-a442-e65a7d308a94 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/7dc9bf4a-6abc-4ddb-96d7-2995182ae230"^^xsd:anyURI .
 
 camssa:58064492-daf4-41a6-8a00-4ffaa335100f a cav:Statement,
         owl:NamedIndividual ;
@@ -98886,7 +98886,7 @@ camssa:09c5751d65ae22ad38b74e7ba0b7cc173ce37e4a0b60f1149ff88d2c74b953c4 a cav:As
     dct:title "CAMSS Assessment of SAMM EIF Scenario 2.0.0"@en ;
     dct:description "Assessment of the SAMM EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
     dcat:version "2.0.0";
-    dcat:distribution camssa:72bb4bd4-6eca-409a-ac9c-aee3470f3ccf ;
+    dcat:distribution camssa:d6d02a0d-b925-4cd6-b8e3-cb0c141261f4 ;
     dcat:previousVersion camssa:0dae9ff44053cfac7f524cca9edc8ddab0cd00460e007259159e74f25c1d9dea .
 
 camssa:049cf422-7000-4e10-ba85-cfc78fdc1f54 a cav:Statement,
@@ -99440,7 +99440,7 @@ camssa:ccdc180f-b3ca-45b8-ad5c-14b964a001bb a cav:Score,
 
 camssa:d6d02a0d-b925-4cd6-b8e3-cb0c141261f4 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/72bb4bd4-6eca-409a-ac9c-aee3470f3ccf"^^xsd:anyURI .
 
 camssa:d77d3d56-e11c-494b-a886-e36e85034acd a cav:Statement,
         owl:NamedIndividual ;
@@ -99650,7 +99650,7 @@ camssa:e1e7dd90a8e4ce592f2ad46bd2ef19c92721ec8644a1bb0fa1b8ce13346a961a a cav:As
     dct:title "CAMSS Assessment of SD-JWT EIF Scenario v1.0.0"@en ;
     dct:description "Assessment of the SD-JWT with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en ;
     dcat:version "1.0.0" ;
-    dcat:distribution camssa:f49d5f04-79dd-4532-80d4-02f9f23d8593 .
+    dcat:distribution camssa:b81af555-9d9c-4f2f-aadf-0f0d04904eb5 .
 
 camssa:00e6755c-82df-456c-a58a-ca2780fbf0f5 a cav:Statement,
         owl:NamedIndividual ;
@@ -100200,7 +100200,7 @@ https://www.rfc-editor.org/rfc/rfc9901.html'"""@en ;
 
 camssa:b81af555-9d9c-4f2f-aadf-0f0d04904eb5 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/f49d5f04-79dd-4532-80d4-02f9f23d8593"^^xsd:anyURI .
 
 camssa:b8bc09f9-0ad4-47f6-ae24-7fa96a0744b5 a cav:Score,
         owl:NamedIndividual ;
@@ -134304,7 +134304,7 @@ camssa:11679e13fbce84e2211a18fbc47e3a3a5f5844526f68deeb4feef0a63b9c6259 a cav:As
     dct:title "CAMSS Assessment EIF Scenario of REST (2.0.0)"@en ;
     dcat:version "2.0.0" ;
     dcat:previousVersion camssa:8d3865076d549117b88c16224ddab2b3a114b2dfbd683303f021845c4c63d994 ;
-    dcat:distribution camssa:6e6bbc38-2167-473b-a21a-0942a6128a4c .
+    dcat:distribution camssa:3ffc6d21-1fbb-4dc5-ab15-31712f958613 .
 
 camssa:02c361f9-00b1-4122-915c-f69bd9f39f9f a cav:Score,
         owl:NamedIndividual ;
@@ -134451,7 +134451,7 @@ https://restfulapi.net/'"""@en ;
 
 camssa:3ffc6d21-1fbb-4dc5-ab15-31712f958613 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/6e6bbc38-2167-473b-a21a-0942a6128a4c"^^xsd:anyURI .
 
 camssa:414491c6-c995-4d34-b08e-47eb93c6bc9b a cav:Score,
         owl:NamedIndividual ;
@@ -135133,7 +135133,11 @@ camssa:e73c5ad8e7fffe5e67573a9688be8e3fe574c517c3251048028c6d340d7c2686 a cav:As
     dct:title "CAMSS Assessment of JWS EIF Scenario v1.0.0"@en ;
     dct:description "Assessment of the JSON Web Signature (JWS) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
     dcat:version "RFC 7515" ;
-    dcat:distribution camssa:aba15aa1-798d-4978-b7bc-9385aef3da41 .
+    dcat:distribution camssa:12203f7d-fa3a-4557-871a-28b705dab3ba .
+
+camssa:12203f7d-fa3a-4557-871a-28b705dab3ba a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://data.europa.eu/w21/aba15aa1-798d-4978-b7bc-9385aef3da41"^^xsd:anyURI .
 
 camssa:02fe284b-92a6-4bc9-bb28-cc5bd73676f5 a cav:Statement,
         owl:NamedIndividual ;
@@ -135912,7 +135916,7 @@ camssa:e914ec905210814ad36a00fa67e9b889cc86c55ee8a95cd9576599f65b0272cf a cav:As
     dct:title "CAMSS Assessment of JWT EIF Scenario v1.0.0"@en ;
      dct:description "Assessment of the JWT with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en ;
     dcat:version "1.0.0" ;
-    dcat:distribution camssa:878704c5-bd09-4c93-bf37-45490f140d1b .
+    dcat:distribution camssa:54e38134-e5ab-4caf-b7ec-e3246105cf06 .
 
 camssa:0077493b-c7c3-4014-8834-550cf45c8af6 a cav:Score,
         owl:NamedIndividual ;
@@ -136197,7 +136201,7 @@ https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-st
 
 camssa:54e38134-e5ab-4caf-b7ec-e3246105cf06 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/878704c5-bd09-4c93-bf37-45490f140d1b"^^xsd:anyURI .
 
 camssa:56509729-970b-4cd4-83c8-f5f06b0b91f7 a cav:Statement,
         owl:NamedIndividual ;
