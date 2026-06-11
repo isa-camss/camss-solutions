@@ -2626,6 +2626,17 @@ elis:e6b9a06b-d806-403f-97e0-80bf7f69a51b a dcat:CatalogRecord ;
     dct:title "XML Schema Part 0: Primer"@en ;
     foaf:primaryTopic cssvrsc:31bf36e23a01098bggec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 .
 
+cssvrsc:31bf36e23a01098bggec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 a cssv:Specification ;
+    dct:relation [ dct:description "The specificaiton is a schema definition language, including language constraints."@en ;
+            dct:relation eira:DataModelDataObject ],
+        [ dct:description "XSD 1.1 Part 2 defines datatype constraints on XML data with vocabularies to ensure correct data types and formats."@en ;
+            dct:relation eira:VocabularyDataObject ],
+        [ dct:description "XSD 1.1 Part 2 is usedfor defining XML data types, supporting metadata consistency and semantic clarity in resource description."@en ;
+            dct:relation eira:MetadataDataObject ],
+        camssa:3b6795acd286431abd3ed379dee974077aa5531bcab4f31d406c995a0fa5908f,
+        camssa:d1b4bffb5cad71dfeda592f969c7477185fca53851e5d1f4bc2ec54b71a4f86f ;
+    dcat:theme "Data Architecture"@en .
+
 elis:e4e61fca-8b59-4010-8239-0e080ad2b5e8 a dcat:CatalogRecord ;
     dct:title "ISO 639-2:1998 Codes for the representation of names of languages -- Part 2: Alpha-3 code"@en ;
     foaf:primaryTopic cssvrsc:ea1887cf6ceb4929fc4a5de8a2180ce8ce23f197de2b61a275d88cd46323fb6a .
@@ -4259,7 +4270,8 @@ cssvrsc:2fd54ed3719f3760bf87a951ac49d2a4f73a451ac4f7e840baf709e3164fe524 a cssv:
     dct:relation [ dct:description "E-ARK AIP extends E-ARK CSIP by providing a format suitable for the long-term storage of a wide variety of data types, such as document and image collections, archival records, databases or geographic data."@en ;
             dct:relation eira:E-ArchivingApplicationService ],
         [ dct:description "E-ARK AIP extends E-ARK CSIP by providing a format suitable for the long-term storage of a wide variety of data types, such as document and image collections, archival records, databases or geographic data."@en ;
-            dct:relation eira:E-ArchivingApplicationComponent ] ;
+            dct:relation eira:E-ArchivingApplicationComponent ],
+        camssa:7bdcee38b8832b5e65de110cc08648cf32d1b4b1437aa39384ebf735426c9585 ;
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:306a35d81f90aa7233be25cf6633a942ee5beaa3ed85ee73992ad6f6b86d2bc6 a cssv:Specification ;
@@ -4322,7 +4334,8 @@ cssvrsc:31f2ff5bbc6982b0c6fd24e4faa75012a9c88823b142548f13d75da7c853b7cd a cssv:
         [ dct:description "SCIM ensures consistent and efficient identity management within platforms by automating data flow between an identity provider or identity and access management system and cloud-based applications."@en ;
             dct:relation eira:FederatedIdentityProviderTechnologyService ],
         [ dct:description "SCIM provides secure authentication, over domains, facilitating interoperability."@en ;
-            dct:relation eira:SelfSovereignIdentityApplicationComponent ] ;
+            dct:relation eira:SelfSovereignIdentityApplicationComponent ],
+        camssa:40dcf607628e6df990961781fcf09bf70296f64d7c0b23572be56d78f3177037 ;
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:323029c09f075ae9d8e17527dc94a5bfdadbf301095096a3d9c52f528e1a791e a cssv:Specification ;
@@ -5640,7 +5653,8 @@ cssvrsc:6a25fd786696be4d42b22911d4d88b28235dbac0ce6924ecaae50a287ac8b02a a cssv:
     dct:relation [ dct:description "E-ARK SIP extends E-ARK CSIP by supporting the specific requirements related to the process of selection, packaging, transmission, reception, validation and ingest of information originally maintained by a Producer."@en ;
             dct:relation eira:E-ArchivingApplicationService ],
         [ dct:description "E-ARK SIP extends E-ARK CSIP by supporting the specific requirements related to the process of selection, packaging, transmission, reception, validation and ingest of information originally maintained by a Producer."@en ;
-            dct:relation eira:E-ArchivingApplicationComponent ] ;
+            dct:relation eira:E-ArchivingApplicationComponent ],
+        camssa:7bdcee38b8832b5e65de110cc08648cf32d1b4b1437aa39384ebf735426c9585 ;
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:6a81cdb7e813e96b835ada5c18c9cc7817ecae35172637c8f953a65fc77db705 a cssv:Specification ;
@@ -6006,7 +6020,9 @@ cssvrsc:798f57c9a79c00ba21874151b6145d33cf5c11a551a7e337224f670ebaaefcac a cssv:
         [ dct:description "ODRL Information Model 2.2 is fundamentally a definition of concepts, entities, and relationships to model the specific domain of rights and obligations policies, and is designed so that these policies can be transformed and processed by computer systems through encoding mechanisms."@en ;
             dct:relation eira:OntologyDataObject ],
         [ dct:description "The ODRL Information Model specification defines various classes and properties that represent policies expressing permissions, prohibitions, and duties related to the use of asset resources. It outlines how these policies can govern the conditions under which assets may be accessed, shared, or restricted. In this context, the specification also details the relationships between different classes and their properties, providing a structured and coherent framework for modelling complex usage rules and ensuring clear interpretation and interoperability across diverse systems."@en ;
-            dct:relation eira:DataModelDataObject ] ;
+            dct:relation eira:DataModelDataObject ],
+        camssa:490448e2345ff99740c611df1ca66842ae2ca40af883ba43e62f1e4c339ecefb,
+        camssa:76fe82953d1a73842b8a0ccf0474cf8ad8c675842f8d8e496b518351e0e7fc41 ;
     dcat:theme "Data Architecture"@en .
 
 cssvrsc:79b2db5db9caa60d526c6696ce5203285081183cb035004c1b30c281ffe6345b a cssv:Specification ;
@@ -6266,7 +6282,8 @@ cssvrsc:8571211bbf3815c7457d9b6d99d478c1008acc227358597ca9dd30eb8087bf81 a cssv:
         [ dct:description "The PROV-N specification is intended to offer a clear syntax that fosters the human readability of changes made to data. In this sense, the specification introduces different categories, such as entity, activity, and agent, in which data is organised, as well as relationships, through which elements are connected, thereby providing a clear structure."@en ;
             dct:relation eira:DataSyntaxDataObject ],
         [ dct:description "The PROV-N specification is intended to provide a clear structure for representing changes made to data, by offering fields for defining entities, the agents responsible for the changes, and the relationships between them, among others. In this way, data is organised into fields, and relationships establish a clear structure for representing data changes."@en ;
-            dct:relation eira:DataModelDataObject ] ;
+            dct:relation eira:DataModelDataObject ],
+        camssa:6aaac32a96bf453639c86f846602b92f57f7477e72169783916756e36faa225c ;
     dcat:theme "Data Architecture"@en .
 
 cssvrsc:85822b766ddea16db2ac9ccc096ec38387cde874801350c048413e0bad44b864 a cssv:Specification ;
@@ -6664,7 +6681,8 @@ cssvrsc:94120719cde2555408f1875b809aa1dd6c3b1762b9390648a9fa5b7cb62e0a5c a cssv:
 
 cssvrsc:94dbf8026c56f46835b561c3d8cf686177ad4bba055dc31733858568cd41580f a cssv:Specification ;
     dct:relation [ dct:description "PROV-O uses ontologies and their OWL representations to provide syntactic and semantic interoperability with multiple systems."@en ;
-            dct:relation eira:OntologyDataObject ] ;
+            dct:relation eira:OntologyDataObject ],
+        camssa:6aaac32a96bf453639c86f846602b92f57f7477e72169783916756e36faa225c ;
     dcat:theme "Data Architecture"@en .
 
 cssvrsc:94f7b9e6b0bfa51daff3a6c4d874a37ece50ff8c4d58e6660fcb4a4517912897 a cssv:Specification ;
@@ -7193,7 +7211,8 @@ cssvrsc:a9bcf5bca953614a3acf4db7879af4bfd3cb49c77602e4862ccd9110fa94604e a cssv:
 
 cssvrsc:aa075e34312ed93ea5a6a4ab439ba2db6432b61b13ec128580b9865a21f940a0 a cssv:Specification ;
     dct:relation [ dct:description "The specification defines a standardised way to represent entities, their properties, and relationships, which makes it easier to understand and exchange data consistently across different systems and applications. "@en ;
-            dct:relation eira:DataRepresentationRepresentation ] ;
+            dct:relation eira:DataRepresentationRepresentation ],
+        camssa:88fb0d12a44d8becc464e4e3aecc5635f7d568184901527106e81bb7f071920d ;
     dcat:theme "Data Architecture"@en .
 
 cssvrsc:ab04c13ab096d25f51455719374727d7dbe3b13d8e894f2280c3398c615252bb a cssv:Specification ;
@@ -8656,7 +8675,9 @@ cssvrsc:3e4ec39e2489ffad7531d44a15eccf98708580e5060cd50b0e5527e3921f87ba a cssv:
         [ dct:description "ODRL is fundamentally a definition of concepts, entities, and relationships to model the specific domain of rights and obligations policies, and is designed so that these policies can be transformed and processed by computer systems through encoding mechanisms."@en ;
             dct:relation eira:OntologyDataObject ],
         [ dct:description "ODRL defines various classes and properties that represent policies expressing permissions, prohibitions, and duties related to the use of asset resources. It outlines how these policies can govern the conditions under which assets may be accessed, shared, or restricted. In this context, the specification also details the relationships between different classes and their properties, providing a structured and coherent framework for modelling complex usage rules and ensuring clear interpretation and interoperability across diverse systems."@en ;
-            dct:relation eira:DataModelDataObject ] ;
+            dct:relation eira:DataModelDataObject ],
+        camssa:490448e2345ff99740c611df1ca66842ae2ca40af883ba43e62f1e4c339ecefb,
+        camssa:76fe82953d1a73842b8a0ccf0474cf8ad8c675842f8d8e496b518351e0e7fc41 ;
     dcat:theme "Data Architecture"@en,
         "Business Architecture"@en,
         "Implementation Governance"@en .
@@ -8665,7 +8686,8 @@ cssvrsc:0bc5e35251b0d18a8b9fe1ad261a86eeff4fe2798948eaf5bdd7accfa9ee553e a cssv:
     dct:relation [ dct:description "E-ARK provides a format suitable for the long-term storage of a wide variety of data types, such as document and image collections, archival records, databases or geographic data."@en ;
             dct:relation eira:E-ArchivingApplicationService ],
         [ dct:description "E-ARK provides a format suitable for the long-term storage of a wide variety of data types, such as document and image collections, archival records, databases or geographic data."@en ;
-            dct:relation eira:E-ArchivingApplicationComponent ] ;
+            dct:relation eira:E-ArchivingApplicationComponent ],
+        camssa:7bdcee38b8832b5e65de110cc08648cf32d1b4b1437aa39384ebf735426c9585 ;
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:4bb5e18ab46489fd6f6b71d65e209f500457aac1554a7a02cf4174d703d418ca a cssv:Specification ;
@@ -9329,7 +9351,8 @@ cssvrsc:f86fa8439db10ab4dec432b3939b5527adc12fa217845661736959eccf896e35 a cssv:
     dct:relation [ dct:description "E-ARK DIP extends E-ARK CSIP by providing a format suitable for the long-term storage of a wide variety of data types in a designated software."@en ;
             dct:relation eira:E-ArchivingApplicationService ],
         [ dct:description "E-ARK DIP extends E-ARK CSIP by providing a format suitable for the long-term storage of a wide variety of data types in a designated software."@en ;
-            dct:relation eira:E-ArchivingApplicationComponent ] ;
+            dct:relation eira:E-ArchivingApplicationComponent ],
+        camssa:7bdcee38b8832b5e65de110cc08648cf32d1b4b1437aa39384ebf735426c9585 ;
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:f89d504119769a02d8f58d34e7b645d168a78fa1c1de631d48b3e0f2331d3d00 a cssv:Specification ;

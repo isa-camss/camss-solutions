@@ -808,14 +808,7 @@ camssa:235d154484e9dca20d3607addaf6e0b1f5eb19d730e55854ba864f00436bbdb9 a cav:As
 
 camssa:25a391b815d1366d9abbd182f846ef1953956c6ff4460c7a6741d114ee3a8fb3 a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:985060febbd0c7129afb8735db61f11ed728a4609d4103e0738c841230078d7d,
-                cssvrsc:09d5f955aa3f2e89a91b884839963a35be68332c58006c53d8d7f88e882cb4fa,
-                cssvrsc:2a521d23323c60aba6c4b5313f96c1a87eb91353a8e2ee1f95ce0cfad3dc9045,
-                cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8,
-                cssvrsc:dfa58525250ce8c35f18952c91fdcc18a8ebe6ae967c834563157541b4dab46f,
-                cssvrsc:e9bb09990f610bec081e4275f7a49d6a4cdf7df89e3903a5daff682135f02c35,
-                cssvrsc:f4314f9cf9c8e1b1f57df755f3c11d9797e235f51e0f4bebf15035b1ac4a0074,
-                cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af ;
+    cav:assesses cssvrsc:09d5f955aa3f2e89a91b884839963a35be68332c58006c53d8d7f88e882cb4fa ;
     cav:considers camssa:71639ded-7dde-4a40-bb83-e456ff90d92b ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -1924,7 +1917,7 @@ camssa:412032ebe0f16dc5cd19a909452ad85d9bef4c6edae7b8af0a71c36f4b50c43d a cav:As
 
 camssa:4461a0b5c36539cbe32a1a3f88e0bc6b438eb53765a4ffa2e7b03a874fab3cf6 a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:47e7ed6830faf5afca36b869493258d3bb509577b30ef469770a164a0f602ec3 ;
+    cav:assesses cssvrsc:a8cde9fcb788ec3dfc91af261dfd455cae1f60266dd340a1fba632013375e08f ;
     cav:considers camssa:2365125a-9b1c-4c7e-a3a8-543ada341a3a ;
     cav:contextualisedBy sc:44119b394568e5be30da9b83729a3cba1f19eadd53373d5cc6ff6a73fd3e26e8 ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -3361,9 +3354,7 @@ camssa:6a311ee3b10facc4292feb2db53ffc99d5b07e0c510fdc75400313354c0e757f a cav:As
 
 camssa:6aaac32a96bf453639c86f846602b92f57f7477e72169783916756e36faa225c a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:0e12967520ef4b68bb5fb857177827c0094abca637175e68a0a09bd24130694c,
-                 cssvrsc:8571211bbf3815c7457d9b6d99d478c1008acc227358597ca9dd30eb8087bf81,
-                 cssvrsc:94dbf8026c56f46835b561c3d8cf686177ad4bba055dc31733858568cd41580f ;
+    cav:assesses cssvrsc:0e12967520ef4b68bb5fb857177827c0094abca637175e68a0a09bd24130694c ;
     cav:considers camssa:b5bbe0d3-3a25-477f-8400-88572407b2dc ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -3760,8 +3751,7 @@ camssa:74ecd64479f85251863f23f53392bae51524e571729b196dfd39350bbba5aeff a cav:As
 
 camssa:76fe82953d1a73842b8a0ccf0474cf8ad8c675842f8d8e496b518351e0e7fc41 a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185,
-                 cssvrsc:798f57c9a79c00ba21874151b6145d33cf5c11a551a7e337224f670ebaaefcac ;
+    cav:assesses cssvrsc:3e4ec39e2489ffad7531d44a15eccf98708580e5060cd50b0e5527e3921f87ba ;
     cav:considers camssa:9c2981fa-f59e-4a5a-8691-c97726ab68ef ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -3975,10 +3965,7 @@ camssa:79ef8940853ce9452c468bf6d0e1e93e37f519e07b492227d423c610c84ad78b a cav:As
 
 camssa:7bdcee38b8832b5e65de110cc08648cf32d1b4b1437aa39384ebf735426c9585 a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:8eb93f554a3440a30b522cf4f0f9f6800045bf0b2741c518fab12bac16ca84c6,
-                 cssvrsc:2fd54ed3719f3760bf87a951ac49d2a4f73a451ac4f7e840baf709e3164fe524,
-                 cssvrsc:6a25fd786696be4d42b22911d4d88b28235dbac0ce6924ecaae50a287ac8b02a,
-                 cssvrsc:f86fa8439db10ab4dec432b3939b5527adc12fa217845661736959eccf896e35 ;
+    cav:assesses cssvrsc:3e4ec39e2489ffad7531d44a15eccf98708580e5060cd50b0e5527e3921f87ba ;
     cav:considers camssa:439c1b64-8238-48e0-a087-6ef2306a682c ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -4027,9 +4014,9 @@ camssa:7bdcee38b8832b5e65de110cc08648cf32d1b4b1437aa39384ebf735426c9585 a cav:As
         camssa:e06cd93c-8ab9-469b-9027-43faa68f8860,
         camssa:eaa2d71c-3f35-4793-977f-9b4121c99846,
         camssa:fa691bef-55d4-4a72-bfe6-7a84615d8721 ;
-    dct:description "Assessment of the CSIP with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en ;
+    dct:description "Assessment of the E-ARK with the Common Assesssment Method for Standards and Specifications (CAMSS)"@en ;
     dct:issued "2023-08-31"^^xsd:date ;
-    dct:title "CAMSS Assessment of CSIP EIF Scenario v1.0.0"@en ;
+    dct:title "CAMSS Assessment of E-ARK EIF Scenario v1.0.0"@en ;
     dcat:distribution camssa:c2a59169-eb2d-43de-90e4-695721eec4ba ;
     dcat:version "1.0.0" .
 
@@ -4219,7 +4206,7 @@ camssa:81f3f3a5f803fbdb460b4a48a63a8ec3c583634ff84e6dcf0225dd7533a65684 a cav:As
 
 camssa:82255069fde5fe3f766cec0df8039da1f6d0ad23d7c4a31d0facdb4bc140a7b5 a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:8545a14d87fc7d455b2dac7fb8e2feb27bcb18c547b8abe308a031d1d1bac62c ;
+    cav:assesses cssvrsc:7fa1cb50b03a684843349c75a6533a376020f0c71a4829a4aa250554a5c33896 ;
     cav:considers camssa:a48a787b-fe0c-4621-8ddb-5e4fc267312d ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -5276,7 +5263,7 @@ camssa:9fa9acbccfc3ca6ca147ea2fb68778c303db8846458b745cd819608abceaff63 a cav:As
 
 camssa:a1f8a355af798acfa03ae24dbf4fd5ced2c90890a4f829fd215f4e86ea6f2b69 a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:c0f2181ed2ad8fa2b1650af4d11c93a570040bc7d83057be33f45e05deeee611 ;
+    cav:assesses cssvrsc:f583cf0bd8c648594647d8361d498fa4514355f12a4233b496de8f51d1debfc0 ;
     cav:considers camssa:218abca1-0034-48aa-b7d6-9ecc1cfe8b11 ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -5462,7 +5449,7 @@ camssa:a9cfd7fa6a997276d6f0a226576aa58a2576379e8a9c5f2436ec3ff3bd89de42 a cav:As
 
 camssa:aa2d20fb2cbed593b3549a61191bc4975e902a6631cb0b6cf06b7527ae00d232 a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:4fddc58bb8882fbd687bde5c5c2da15d6138c624f10aab712495cb4b8437358e ;
+    cav:assesses cssvrsc:d5d426fadecd4bf723cb15532e2bb495aaaca594936ba8891258988920564c43 ;
     cav:considers camssa:516f23b6-d0bc-4022-b5f2-7e674cbbaf94 ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -5979,7 +5966,7 @@ camssa:b5c3c9bce19d59efd767d946b2ce398e577bfa2b2b38a488324768ecdfaf2df2 a cav:As
 
 camssa:b65627405e43050badef08a21114c94acd4f284b31ab2343fe0b76264f166891 a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:c25405f31a6f1260ae1af4a87b86fcac2429084bc238c68addf319b793c21839 ;
+    cav:assesses cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8 ;
     cav:considers camssa:ee33ffeb-c0e2-4d7b-8928-d33ce596826a ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -6511,8 +6498,7 @@ camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c a sc:ContactPoint,
 
 camssa:d1b4bffb5cad71dfeda592f969c7477185fca53851e5d1f4bc2ec54b71a4f86f a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023,
-        cssvrsc:b9929e88d6e711750b8a162b00f84c50f21e4d35bd79c648bfa5186ae447336a ;
+    cav:assesses cssvrsc:31bf36e23a01098bggec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 ;
     cav:considers camssa:067398a5-d94f-4e52-8f89-727b4942d12e ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -7679,7 +7665,7 @@ camssa:e672cb981a8cc862550f0377774ad29a3de86884d96e007be32f0441e9b5e234 a cav:As
 
 camssa:e974cb8a32013d044d672e309221057207cc44a034b35798d949ec683a56ca44 a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:615508fb540009cb48d7c5ca8efffbef6c53e96148b0d95025fdd6cd725d131d ;
+    cav:assesses cssvrsc:d76354663e545f8981dd61cf50a3dfe13e3938a004373dfd3ac2438896f006b8 ;
     cav:considers camssa:65346ff7-a8ff-4e45-8890-d9fafcd14e81 ;
     cav:contextualisedBy sc:3aadede3d912d8ab2b20d40221274da3af8f9ee9c14f0e1226f9217a3e8953e4 ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -35295,8 +35281,7 @@ https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/soluti
 
 camssa:3b6795acd286431abd3ed379dee974077aa5531bcab4f31d406c995a0fa5908f a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:31bf36e23a01098bffec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023,
-        cssvrsc:b9929e88d6e711750b8a162b00f84c50f21e4d35bd79c648bfa5186ae447336a ;
+    cav:assesses cssvrsc:31bf36e23a01098bggec507a6c9cdde488d39d2eb0bc143cfc65c5c04cdfa023 ;
     cav:considers camssa:31a7b521-3339-420d-ae9a-af7648f0836b ;
     cav:contextualisedBy sc:3aadede3d912d8ab2b20d40221274da3af8f9ee9c14f0e1226f9217a3e8953e4 ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -41517,7 +41502,7 @@ https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-
 
 camssa:490448e2345ff99740c611df1ca66842ae2ca40af883ba43e62f1e4c339ecefb a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185 ;
+    cav:assesses cssvrsc:3e4ec39e2489ffad7531d44a15eccf98708580e5060cd50b0e5527e3921f87ba ;
     cav:considers camssa:12358749-8707-4957-9385-5ab455908518 ;
     cav:contextualisedBy sc:44119b394568e5be30da9b83729a3cba1f19eadd53373d5cc6ff6a73fd3e26e8 ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;

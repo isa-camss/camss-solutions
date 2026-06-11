@@ -5376,7 +5376,7 @@ cssvrsc:7fa1cb50b03a684843349c75a6533a376020f0c71a4829a4aa250554a5c33896 a cssv:
     dct:description "ETSI TS 119 612 provides a common time-stamping protocol and token profiles for a Trusted List Scheme Operator (TLSO) to provide information on the status and history of Trusted Service Provider (TSP) services concerning compliance with relevant legislation."@en ;
     dct:title "ETSI TS 119 612 - Electronic Signatures and Infrastructures (ESI); Trusted Lists"@en ;
     dcat:distribution cssvrsc:637d6194-586f-4212-acae-ca4bcbfa71d3 ;
-    dcat:version "2.2.1" .
+    dcat:version "1.2.1" .
 
 cssvrsc:7fbf82d5e0b36fc428a8858e4c2f43dea7e6b68f9266409e746b6c521f6cb2c2 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6771,7 +6771,7 @@ cssvrsc:80c0a3dad7a266e7126bc63963d1c7961e0b78bd626dc9d964904cfcead3a896 a cssv:
     dcat:distribution cssvrsc:aba15aa1-798d-4978-b7bc-9385aef3da41 ;
     dcat:version "RFC 7515" .
 
-cssvrsc:e1e7dd90a8e4ce592f2ad46bd2ef19c92721ec8644a1bb0fa1b8ce13346a961a a cssv:Specification,
+cssvrsc:934c4d67a7293e968120eb9590df1d0bb8c2f16fa5212cb5db0ac7a5e1c564d8 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "SD-JWT"@en ;
     cssv:alternative "RFC 9901"@en ;
@@ -7649,7 +7649,6 @@ cssvrsc:b8ed390470bf8ebbbf573f68a7e7bb80643b7e4ccad211857b531e53ec489616 a cssv:
         ] .
 
 cssvrsc:b9929e88d6e711750b8a162b00f84c50f21e4d35bd79c648bfa5186ae447336a a cssv:Specification,
-        cssv:Family,
         owl:NamedIndividual ;
     cssv:acronym "XSD"@en ;
     cssv:alternative ""@en ;
