@@ -605,16 +605,6 @@ cssvrsc:0bea14534616081e41ae6305b70508a1cc5e43feb05a1f254e495c902c1c0330 a cssv:
     dcat:distribution cssvrsc:a96281d3-4a3a-4556-b7f0-945eb65d5f91 ;
     dcat:version "L 53/66" .
 
-cssvrsc:0c29d2cb413399491569ef6ed8f2eaa3624e4feda6c3c3d88d51862416a23dc3 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "AS4"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
-    dct:description "The AS4 Profile of ebMS 3.0 Version 1.0 is a profile of the OASIS ebXML Messaging Services Version 3.0 that defines a protocol for exchanging business documents (via AS4 messages)."@en ;
-    dct:title "AS4 Interoperability Profile for Four-Corner Networks"@en ;
-    dcat:distribution cssvrsc:5ada24f5-b4fc-4ee1-baae-6f3a578c24c8 ;
-    dcat:version "1.0.0" .
-
 cssvrsc:0c9ff444ad4f5a1d7ef7d81108c7980b166d4f3ae9899b82d92347298f874f87 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
@@ -1179,16 +1169,10 @@ cssvrsc:1947f7448708ff5539674878abefc1dee36c97e41397243c16d6208c42a905ce a cssv:
     dcat:distribution cssvrsc:4f7c9104-8318-46d5-bcd6-3755ba9c07fc ;
     dcat:version "0.2.2" .
 
-cssvrsc:1953ab5ec7302b1af19ee368f5fe9728b9aec2570a6add0ea592e55f10b22a5c a cssv:Specification,
-        cssv:Standard,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "ISO/IEC/IEEE 24748-3:2020"@en ;
-    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
-    dct:description "ISO/IEC/IEEE 24748-3:2020 is a guideline for the application of ISO/IEC/IEEE 12207:2017. This document establishes guidance to implement a common framework for software life cycle processes, with well-defined terminology, that can be referenced by the software industry. This document recommends methods and approaches suitable for a variety of life cycle models"@en ;
-    dct:title "ISO/IEC/IEEE 24748-3:2020 Systems and software engineering — Life cycle management Part 3: Guidelines for the application of ISO/IEC/IEEE 12207 (software life cycle processes)"@en ;
-    dcat:distribution cssvrsc:f876a2e1-9960-4a88-9fca-4b4be884def1 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/1953ab5ec7302b1af19ee368f5fe9728b9aec2570a6add0ea592e55f10b22a5c> a prof:Profile ;
+    dct:title "ISO/IEC/IEEE 24748-3:2020 Systems and software engineering — Life cycle management Part 3: Guidelines for the application of ISO/IEC/IEEE 12207 (software life cycle processes)" ;
+    prof:isProfileOf cssvrsc:e4f09a7e4ed379becfbe33fde381b5219e83adb71b921bfb7a861e7d9f394ab5 ;
+    <http://purl.org/dc/terms/publisher> <https://www.iso.org/standard/77698.html> .
 
 cssvrsc:1967f8110ed61e7efbb329e9489e26d6fde9a037fa28da5c9b673d9b22032ccb a cssv:Specification,
         owl:NamedIndividual ;
@@ -1507,16 +1491,6 @@ cssvrsc:1ebf0c83e76bab3c6b3bda22b6843136de849f906ed66b8e39ab927f4bb6d2bf a cssv:
     dct:title "XA+ specification"@en ;
     dcat:distribution cssvrsc:0dac84fe-c1eb-496a-b093-d6caba53df57 ;
     dcat:version "2.0.0" .
-
-cssvrsc:1eff89bf2e1526ab3acc339038c4fbc290d1d6731859d09b788ad09f919524b1 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "RFC 5280"@en ;
-    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    dct:description "The RFC 5280 specification defines standards for digital certificates and public key infrastructure (PKI), which are used to secure online communication. It ensures that websites and users can be authenticated, protecting sensitive data through encryption."@en ;
-    dct:title "Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile (RFC 5280)"@en ;
-    dcat:distribution cssvrsc:723d61b1-0590-49f9-a951-aee2f86ea4ee ;
-    dcat:version "1.0.0" .
 
 cssvrsc:1f0fd3a95a8bd90338a7da09965349b3776dd310f8d5851afd56d2a5ce1a19f2 a cssv:Specification,
         owl:NamedIndividual ;
@@ -2039,16 +2013,6 @@ cssvrsc:2d537e8d36b69a52f7fa4f16d23f00c25701f6ce500e4150eefb592599c32344 a cssv:
              dct:spatial <http://publications.europa.eu/resource/authority/country/ESP> ;
              foaf:page <https://administracionelectronica.gob.es/pae_Home/dam/jcr:97912041-c1c3-47c4-b517-df9f51db321d/Guia_aplicacion_Norma_Tecnica_Interoperabilidad_Catalogo_de_estandares.pdf>
         ] .
-
-cssvrsc:2d66dbb8449c3cd9810e6d651451e6c73252d7ea27888ef306e911cff7320ea9 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "ISO/IEC/IEEE 24748"@en ;
-    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
-    dct:description "ISO/IEC/IEEE 24748-2 is a guideline for the application of ISO/IEC/IEEE 15288. It addresses system, life cycle, organizational, project, and process, concept application, principally through reference to ISO/IEC/IEEE 24748-1 and ISO/IEC/IEEE 15288. It gives guidance on applying ISO/IEC/IEEE 15288 from the aspects of strategy, planning, application in organizations, and application on projects. It also provides comparison of the differences between ISO/IEC/IEEE 15288 current revision and the prior version, ISO/IEC 15288:2015."@en ;
-    dct:title "ISO/IEC/IEEE 24748-2:2024 Systems and software engineering — Life cycle management Part 2: Guidelines for the application of ISO/IEC/IEEE 15288 (system life cycle processes)"@en ;
-    dcat:distribution cssvrsc:952c0d1a-1fef-463f-98ce-c47dec108864 ;
-    dcat:version "2.0.0" .
 
 cssvrsc:2d868761-fd43-4bcc-b5fd-fe6e75d1224f a owl:NamedIndividual,
         schema:ContactPoint ;
@@ -8230,15 +8194,10 @@ cssvrsc:c747bcc29e933f77261b08b02977440192e05ad0555c99d25127943c0c310a4d a cssv:
     dcat:distribution cssvrsc:89f61d74-aa7a-40de-a3f1-97db49794fea ;
     dcat:version "1.0.0" .
 
-cssvrsc:c76dceb677542b090be5f87c1264baec772ca4ac4b9ac791449c0ccde7f15942 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "ISO/IEC/IEEE 24748-1:2024"@en ;
-    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
-    dct:description "ISO/IEC/IEEE 24748-1:2024 provides comprehensive guidelines for life cycle management applicable to systems and software engineering. This standard addresses the entire life cycle, from conception through retirement, ensuring effective management and engineering of systems and software."@en ;
-    dct:title "ISO/IEC/IEEE 24748-1:2024 Systems and software engineering — Life cycle management Part 1: Guidelines for life cycle management"@en ;
-    dcat:distribution cssvrsc:152c0d1a-1fef-463f-98ce-c47dec108864 ;
-    dcat:version "2.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/c76dceb677542b090be5f87c1264baec772ca4ac4b9ac791449c0ccde7f15942> a prof:Profile ;
+    dct:title "ISO/IEC/IEEE 24748-1:2024 Systems and software engineering — Life cycle management Part 1: Guidelines for life cycle management" ;
+    prof:isProfileOf cssvrsc:e4f09a7e4ed379becfbe33fde381b5219e83adb71b921bfb7a861e7d9f394ab5 ;
+    <http://purl.org/dc/terms/publisher> <https://www.iso.org/standard/84709.html> .
 
 cssvrsc:c796c0c59e2a1573bab99dbaf934e82784f6e1f4cd63a72d819e1175399826b4 a cssv:Specification,
         owl:NamedIndividual ;
@@ -9063,6 +9022,10 @@ cssvrsc:e070cdaaaf2f8e66e562f7d3dfe35baafd7ddb7e118eb72b66ef5adfeccb1a71 a cssv:
     dct:title "ISO 19011:2018 Guidelines for auditing management systems"@en ;
     dcat:distribution cssvrsc:24972b95-2751-45d0-b6ab-3dc2dfd68e3b ;
     dcat:version "3.0.0" .
+
+<http://data.europa.eu/2sa/cssv/rsc/e070cdaaaf2f8e66e562f7d3dfe35baafd7ddb7e118eb72b66ef5adfeccb1a71> a prof:Profile ;
+    dct:title "ISO 19011:2018 Guidelines for auditing management systems" ;
+    <http://purl.org/dc/terms/publisher> <https://www.iso.org/standard/70017.html> .
 
 cssvrsc:e140535a651dd589a52fc2404c4e53078c2daf735f2d5a3789ebbf5fc06beef8 a cssv:Specification,
         owl:NamedIndividual ;
@@ -10950,10 +10913,6 @@ cssvrsc:1512cfd9-9559-4d7c-9e77-84a45228b968 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://fidoalliance.org/specs/u2f-specs-master/fido-u2f-overview.html> .
 
-cssvrsc:152c0d1a-1fef-463f-98ce-c47dec108864 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.iso.org/standard/84709.html> .
-
 cssvrsc:154330b8-5b07-42e8-9e33-42550dbc202c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019R1157&qid=1614856763142> .
@@ -12025,9 +11984,10 @@ cssvrsc:5a66ac7a-b8d5-4822-8a6e-e516bcecb797 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127> .
 
-cssvrsc:5ada24f5-b4fc-4ee1-baae-6f3a578c24c8 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://docs.oasis-open.org/bdxr/bdx-as4/v1.0/cs01/bdx-as4-v1.0-cs01.html#_Toc85107734> .
+<http://data.europa.eu/2sa/cssv/rsc/0c29d2cb413399491569ef6ed8f2eaa3624e4feda6c3c3d88d51862416a23dc3> a prof:Profile ;
+    dct:title "AS4 Interoperability Profile for Four-Corner Networks" ;
+    prof:isProfileOf cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 ;
+    <http://purl.org/dc/terms/publisher> <https://docs.oasis-open.org/bdxr/bdx-as4/v1.0/cs01/bdx-as4-v1.0-cs01.html#_Toc85107734> .
 
 cssvrsc:5b4a391e-838e-4340-96ea-797fa07f6e09 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12367,9 +12327,10 @@ cssvrsc:72106533-78aa-4c84-9803-4e8256bf2a48 a owl:NamedIndividual,
     dcat:accessURL schema: ;
     dcat:downloadURL schema: .
 
-cssvrsc:723d61b1-0590-49f9-a951-aee2f86ea4ee a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.rfc-editor.org/rfc/rfc5280> .
+<http://data.europa.eu/2sa/cssv/rsc/1eff89bf2e1526ab3acc339038c4fbc290d1d6731859d09b788ad09f919524b1> a prof:Profile ;
+    dct:title "Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile (RFC 5280)" ;
+    prof:isProfileOf cssvrsc:39eee9a3f8d54dac0e11456b98c29454ebb157dc3a8991f456b7b659bf990370 ;
+    <http://purl.org/dc/terms/publisher> <https://www.rfc-editor.org/rfc/rfc5280> .
 
 cssvrsc:723ecdbb-9cb7-4af0-8b9c-b201a7af9195 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12900,9 +12861,10 @@ cssvrsc:94bd36c6-a8e5-4a0c-891e-cf66634375c0 a owl:NamedIndividual,
     dcat:accessURL <https://datatracker.ietf.org/doc/html/rfc7390> ;
     dcat:downloadURL <https://datatracker.ietf.org/doc/html/rfc7390> .
 
-cssvrsc:952c0d1a-1fef-463f-98ce-c47dec108864 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.iso.org/standard/84661.html> .
+<http://data.europa.eu/2sa/cssv/rsc/2d66dbb8449c3cd9810e6d651451e6c73252d7ea27888ef306e911cff7320ea9> a prof:Profile ;
+    dct:title "ISO/IEC/IEEE 24748-2:2024 Systems and software engineering — Life cycle management Part 2: Guidelines for the application of ISO/IEC/IEEE 15288 (system life cycle processes)" ;
+    prof:isProfileOf cssvrsc:e4f09a7e4ed379becfbe33fde381b5219e83adb71b921bfb7a861e7d9f394ab5 ;
+    <http://purl.org/dc/terms/publisher> <https://www.iso.org/standard/84661.html> .
 
 cssvrsc:953ac28c-f052-4abd-9ce1-69fa748ddb40 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -14499,10 +14461,6 @@ cssvrsc:f85f7d6a-0fde-41de-8e5b-8845ca540268 a owl:NamedIndividual,
 cssvrsc:f86345aa-14d5-4663-a370-6416d774f24c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1807&qid=1602080562519&from=ES> .
-
-cssvrsc:f876a2e1-9960-4a88-9fca-4b4be884def1 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.iso.org/standard/77698.html> .
 
 cssvrsc:f8fbab9a-796f-4d8d-bbdb-94be764554bb a owl:NamedIndividual,
         dcat:Distribution ;
