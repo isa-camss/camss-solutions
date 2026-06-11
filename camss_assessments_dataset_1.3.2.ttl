@@ -45720,7 +45720,7 @@ camssa:52144820-d68e-4dbb-903a-e0e98bafbf5b a owl:NamedIndividual,
 
 camssa:5217b681-4660-4e4d-b4f5-d4d6fa019f1c a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/camss-assessment-uddi-eif-scenario/release/200"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/21e3d85d-b301-49f4-ab00-a4e6195c29cc"^^xsd:anyURI .
 
 camssa:5222fbc7-fa29-44d5-863b-2f803f6c4cb8 a cav:Statement,
         owl:NamedIndividual ;
@@ -97417,7 +97417,7 @@ https://www.rfc-editor.org/rfc/rfc4253.html\""""@en ;
 
 camssa:211d7496-3021-4f4f-92ff-e8f43412d071 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/7ca7bb06-58b2-4d5d-b8ba-8085baf5b282"^^xsd:anyURI .
 
 camssa:22aae577-1046-4e2c-b07e-f62d14d69f87 a cav:Statement,
         owl:NamedIndividual ;
@@ -98076,7 +98076,7 @@ camssa:d4cf9e2c33fc0608fd18cd11309d3afbc92dfb3281cfe2aef2a0b68c4a82968b a cav:As
     dct:issued "2026-02-05"^^xsd:date ;
     dct:title "CAMSS Assessment of OIDC EIF Scenario v1.0.0"@en ;
     dcat:version "1.0.0" ;
-    dcat:distribution camssa:e4dd47f6-63cd-4589-936e-80d2c43c6340 .
+    dcat:distribution camssa:2b1155ec-6534-4454-922c-0e04655427fb .
 
 camssa:06f8f79b-62ff-460e-9a36-72619bc9dc87 a cav:Score,
         owl:NamedIndividual ;
@@ -98170,7 +98170,7 @@ camssa:27fdba46-3db3-45ac-a536-f5798a1dddc8 a cav:Score,
 
 camssa:2b1155ec-6534-4454-922c-0e04655427fb a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/e4dd47f6-63cd-4589-936e-80d2c43c6340"^^xsd:anyURI .
 
 camssa:32e012aa-5da0-4955-817d-7f7ddc5aeb39 a cav:Score,
         owl:NamedIndividual ;
@@ -116651,7 +116651,7 @@ https://www.w3.org/TR/ld-bp/"""@en ;
 
 camssa:e38da191-6840-4ea9-8328-5d868c9db657 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/assment-tsp/release/200"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/915ea425-ce83-4d10-9687-20d46eb8061f"^^xsd:anyURI .
 
 camssa:e390357d-2566-4847-99ec-caa803238658 a cav:Statement,
         owl:NamedIndividual ;
@@ -125447,7 +125447,7 @@ https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-sp
 
 camssa:f38ea21e-c88d-4d01-baca-6c978ba5dc31 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/camss-assessment-yaml-eif-scenario/release/100"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/56883084-5abe-4f95-96bb-00e455a679b1"^^xsd:anyURI .
 
 camssa:f38edfc6-d4b4-49b7-9484-9a1398b4626e a cav:Score,
         owl:NamedIndividual ;
@@ -128717,7 +128717,7 @@ camssa:5992d3aee423d799beeebcc23e76132a8b7b9de49562cd60a495599878e8c89c a cav:As
     dct:title "CAMSS Assessment of UBL EIF Scenario v2.0.0"@en ;
     dcat:version "2.0.0"@en ;
     dcat:previousVersion camssa:37876dfd2d513da1ae2da1a24e9ce0fc52cd66258065093a4ded1120240bdd10 ;
-    dcat:distribution camssa:4af129ed-1cc5-43c8-872b-8bbea05e775b .
+    dcat:distribution camssa:70e219b0-17e9-4e1d-8c44-323c93c2c55a .
 
 camssa:0a488d85-d1a3-4f3c-8ed9-d9fdf4e6895c a cav:Statement,
         owl:NamedIndividual ;
@@ -130637,7 +130637,7 @@ camssa:4eef4394-4fa5-4a00-85d5-ccf85cd52fc6 a cav:Score,
 
 camssa:516a382d-b58f-49f6-9267-9f90c8623697 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/fc67c300-c9ab-47d2-84c3-0258ac36eb7a"^^xsd:anyURI .
 
 camssa:532a7281-428c-4c3d-8199-9a12cfa45df6 a cav:Score,
         owl:NamedIndividual ;
@@ -131209,7 +131209,7 @@ camssa:c7e68fd6e0a64127bafc735bfa2b8a1833463cf595970e5264cd422847d2667c a cav:As
 
 camssa:4af129ed-1cc5-43c8-872b-8bbea05e775b a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/e456b9ab-0534-44fc-a5aa-dcd98cf5a691"^^xsd:anyURI .
 
 camssa:007581f7-3c45-47c2-9607-7d11fdfa81d3 a cav:Score,
         owl:NamedIndividual ;
@@ -137146,7 +137146,7 @@ camssa:8d1b4385-2670-4beb-ad51-40759c4d5b4b a cav:Score,
 
 camssa:8e5de8f7-f4ab-4270-805e-755ef852cd9d a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/5b97214b-c9ad-4ed6-9427-6605425e27f0"^^xsd:anyURI .
 
 camssa:90c4c6f9-0375-4ee9-800e-bd0b28dd2085 a cav:Statement,
         owl:NamedIndividual ;
