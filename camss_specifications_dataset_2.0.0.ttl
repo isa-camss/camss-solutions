@@ -258,15 +258,10 @@ cssvrsc:0581b0d95abc27e8cadc938b779ec379a9de9af2182dcd9ce35f119b34e38df3 a cssv:
     dcat:distribution cssvrsc:b8076314-2a5b-4a05-919a-0b612a9974ec ;
     dcat:version "1.1.1" .
 
-cssvrsc:05ae30452745c8e7b857a6cea3d573d8454da4491ae4e348f6735d3dc4b0c79b a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "UMA"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:70977595146f1f99232f1135f1bfd7d7ea853c23a9d2628ff3a6c26e75a5a3ce ;
-    dct:description "User-Managed Access (UMA) is an OAuth-based protocol that enables individuals to manage access to their digital resources and data. It allows a resource owner to control the sharing of their resources with others, granting and revoking access permissions dynamically and securely."@en ;
-    dct:title "User-Managed Access 2.0 (UMA)"@en ;
-    dcat:distribution cssvrsc:7ffc3ebc-d822-41d1-bfad-3a3e1213c05c ;
-    dcat:version "2.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/05ae30452745c8e7b857a6cea3d573d8454da4491ae4e348f6735d3dc4b0c79b> a prof:Profile ;
+    dct:title "User-Managed Access 2.0 (UMA)" ;
+    prof:isProfileOf cssvrsc:aebabad39063fe48d7b4b36e7a0d8d0b718188b178b0b6509c64a4d67dd43216 ;
+    <http://purl.org/dc/terms/publisher> <https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html> .
 
 cssvrsc:05cb8884a4a4dfef89e8d78ad03202187bcf840359840add00d0ff20d1f8e549 a cssv:Specification,
         owl:NamedIndividual ;
@@ -278,15 +273,10 @@ cssvrsc:05cb8884a4a4dfef89e8d78ad03202187bcf840359840add00d0ff20d1f8e549 a cssv:
     dcat:distribution cssvrsc:a41f1928-6711-4e4c-9cae-1fe0ccd85f85 ;
     dcat:version "L 133/1" .
 
-cssvrsc:070acd69015d461438bb2a59f884185e05e8b4deb1cecbc6fdc32dd65c03e45e a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "ETSI TS 103 964"@en ;
-    cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
-    dct:description "The ETSI TS 103 964 specification is designed to enable user authentication in a privacy-preserving manner. In this context, it allows users to access services through the use of Attribute-Based Encryption (ABE). ABE facilitates the demonstration of compliance with specific requirements, such as age or residency, without revealing the actual personal attributes. It extracts relevant information from a Verifiable Credential and anonymises the data, thereby safeguarding the user's sensitive details."@en ;
-    dct:title "Cyber Security (CYBER); A Verifiable Credentials extension using  Attribute-Based Encryption (ETSI TS 103 964)"@en ;
-    dcat:distribution cssvrsc:0ea23056-4981-4b50-bd98-c8c794f6bbbd ;
-    dcat:version "1.1.1" .
+<http://data.europa.eu/2sa/cssv/rsc/070acd69015d461438bb2a59f884185e05e8b4deb1cecbc6fdc32dd65c03e45e> a prof:Profile ;
+    dct:title "Cyber Security (CYBER); A Verifiable Credentials extension using  Attribute-Based Encryption (ETSI TS 103 964)" ;
+    prof:isProfileOf cssvrsc:00fc754431ae68a5376a55bb52339b48882208483edd948025e4cc446f5dbfea ;
+    <http://purl.org/dc/terms/publisher> <https://www.etsi.org/deliver/etsi_ts/103900_103999/103964/01.01.01_60/ts_103964v010101p.pdf> .
 
 cssvrsc:070bc738b1189f7127e17cc433f6e1e9417f91f8b0858d90c8bbd4054170021c a cssv:Specification,
         owl:NamedIndividual ;
@@ -308,15 +298,10 @@ cssvrsc:0725fcf92d52b15e9c5f5ce37020558dc9f4a021215cccaa56ee101535bf2440 a cssv:
     dcat:distribution cssvrsc:084a86ab-70fc-478a-895b-8654db96cb39 ;
     dcat:version "1.0.0" .
 
-cssvrsc:0762f422b839ba0815430c77fcc3b4174a97f4970951be420c596a524d0c0a08 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "BDXL"@en ;
-    cssv:alternative "BDX Location"@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "BDX Location specifies a method to query DNS resource records to retrieve a URL for metadata services. The URL is used as machine-processable description of services. The eDelivery BDXL is part of the SML specifications for locating Access Points within a network. The specification is based on the OASIS Business Document Metadata Service Location 1.0, and is intended to be used in conjunction with the eDelivery SMP profile, and the eDelivery ebCore Party Id profile (eDelivery EBCOREP), as a discovery infrastructure for the eDelivery AS4 Dynamic Sender Profile Enhancement."@en ;
-    dct:title "eDelivery BDX Location profile (eDelivery BDXL)"@en ;
-    dcat:distribution cssvrsc:7babc90d-a7d0-4e5e-a2b2-3eda6ecf05ee ;
-    dcat:version "1.6.0" .
+<http://data.europa.eu/2sa/cssv/rsc/0762f422b839ba0815430c77fcc3b4174a97f4970951be420c596a524d0c0a08> a prof:Profile ;
+    dct:title "eDelivery BDX Location profile (eDelivery BDXL)" ;
+    prof:isProfileOf cssvrsc:d566ca7be6fd3a5e83ce8d58c9c51c516f8846e3d8d9c6364b57104b0cde0c3b ;
+    <http://purl.org/dc/terms/publisher> <https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eDelivery+BDXL+1.6> .
 
 cssvrsc:085dc10cf2e33d26e682d056df20e9283e886cea3aad4184ff835e2253eb2ea0 a cssv:Specification,
         owl:NamedIndividual ;
@@ -510,15 +495,10 @@ cssvrsc:0a36b3860abeaf926cd831b891196f612a82684e3a063ae7e2f9109d71748106 a cssv:
     dcat:distribution cssvrsc:63c0b63f-37e1-4691-8da3-1215bc727dc8 ;
     dcat:version "1.1.1" .
 
-cssvrsc:0a542b23651b48e9f6021567e08284aa8ebcf021a74a440f76b6a9c734396530 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "UUDI"@en ;
-    cssv:alternative "RFC 4122"@en ;
-    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    dct:description "The RFC 4122 specification defines a Uniform Resource Name namespace for UUIDs (Universally Unique IDentifier), also known as GUIDs (Globally Unique IDentifier). These identifiers allow to categorise and organise information by non repeteable ID's."@en ;
-    dct:title "Universally Unique IDentifier (UUID) URN Namespace (RFC 4122)"@en ;
-    dcat:distribution cssvrsc:43f35e3e-e054-4a9e-a256-cd29759eeeeb ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/0a542b23651b48e9f6021567e08284aa8ebcf021a74a440f76b6a9c734396530> a prof:Profile ;
+    dct:title "Universally Unique IDentifier (UUID) URN Namespace (RFC 4122)" ;
+    prof:isProfileOf cssvrsc:92ebc757bde281e7120ecbc142055e8ebb6e0d29e0de746366cbe36e97fd2f86 ;
+    <http://purl.org/dc/terms/publisher> <https://www.rfc-editor.org/rfc/rfc4122> .
 
 cssvrsc:0b20d84fe402cde345d199f82abee4c0c80ba0b54a8af80aab8ce982cef2692d a cssv:Specification,
         owl:NamedIndividual ;
@@ -530,40 +510,10 @@ cssvrsc:0b20d84fe402cde345d199f82abee4c0c80ba0b54a8af80aab8ce982cef2692d a cssv:
     dcat:distribution cssvrsc:fa5989d3-819e-4da8-ae6f-58782a1a2ed4 ;
     dcat:version "23.10.0" .
 
-cssvrsc:0b319bf69d7a0413978bac35d8483f5b816fbda0e77c0291093cc3e6fe1bbae8 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "SAML"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "The eIDAS SAML message format is an extension of OASIS SAML 2.0, namely two SAML-based profiles: Kantara Initiative eGovernment Implementation Profile of SAML 2.0 and STORK 2.0. The specification supports cross-border identification and authentication processes in accordance with the eIDAS interoperability architecture."@en ;
-    dct:title "eIDAS SAML message format"@en ;
-    dcat:distribution cssvrsc:af6333bb-4896-45b4-8e43-c293905a2a9a ;
-    dcat:version "1.2.0" ;
-    cssv:isRecommendedBy 
-        [ org:classification org-type:GOV, org-type:AGENCY ; 
-             dct:spatial <http://publications.europa.eu/resource/authority/country/BGR> ;
-             foaf:page <https://www.mtc.government.bg/upload/docs/2016-01/BNIF_EN.pdf>
-             ],
-       [ org:classification org-type:GOV, org-type:AGENCY ; 
-             dct:spatial <http://publications.europa.eu/resource/authority/country/HRV> ;
-             foaf:page <https://ssi.gov.hr/en/catalogue>
-        ],
-    [ org:classification org-type:GOV, org-type:AGENCY ; 
-             dct:spatial <http://publications.europa.eu/resource/authority/country/CYP> ;
-             foaf:page <https://dits.dmrid.gov.cy/dmrid/dits/dits.nsf/all/B83AA8E4EB4EFD19C225855800288B10/$file/Cyprus%20eGovernment%20Interoperability%20Framework_new%20EIF_v2.0-To%20Publish.pdf>
-             ],
-       [ org:classification org-type:GOV, org-type:AGENCY ; 
-             dct:spatial <http://publications.europa.eu/resource/authority/country/FRA> ;
-             foaf:page <https://www.numerique.gouv.fr/offre-accompagnement/reference-interoperabilite-rgi/>
-             ],
-       [ org:classification org-type:GOV, org-type:AGENCY ; 
-             dct:spatial <http://publications.europa.eu/resource/authority/country/GRC> ;
-             foaf:page <https://www.e-gif.gov.gr/wp-content/uploads/2022/01/744027.pdf>
-             ],
-       [ org:classification org-type:GOV, org-type:AGENCY ; 
-             dct:spatial <http://publications.europa.eu/resource/authority/country/MTL> ;
-             foaf:page <https://mccaa.org.mt/Section/Content?contentId=1243>
-        ] .
+<http://data.europa.eu/2sa/cssv/rsc/0b319bf69d7a0413978bac35d8483f5b816fbda0e77c0291093cc3e6fe1bbae8> a prof:Profile ;
+    dct:title "eIDAS SAML message format" ;
+    prof:isProfileOf cssvrsc:4ac03729ce6059a948f986d308360c552166a22ef62b90dc47d0f735371830a2 ;
+    <http://purl.org/dc/terms/publisher> <https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467109280/eIDAS+eID+Profile?preview=%2F467109280%2F467109285%2FeIDAS+SAML+Message+Format+v.1.2+Final.pdf> .
 
 cssvrsc:0b37cecddd46617439a61a5c025d428e597d6288ba1989baf0946aea43badbc4 a cssv:Specification,
         owl:NamedIndividual ;
@@ -656,15 +606,10 @@ cssvrsc:0d0358cc6104ba9e15b02884c65417aea28c7246ed1ca5bfc77dfb13e2917088 a cssv:
     dcat:distribution cssvrsc:292c62ad-3393-4708-b5d4-f664c1fafeed ;
     dcat:version "2.1.0" .
 
-cssvrsc:0d185280c7e0fb66ab5bae0aa28e834491a538620bcee40eb0d27107e9cdcf4c a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:c8c696d3644095af8ba87690d43ac7da7d3f9637779ee16d5af72263145194b0 ;
-    dct:description "This Recommendation harmonizes and specifies the end-to-end oneM2M functional architecture in the M2M service layer."@en ;
-    dct:title "oneM2M Functional Architecture"@en ;
-    dcat:distribution cssvrsc:39e54331-628d-4e8a-a602-442987c96875 ;
-    dcat:version "5.6.0" .
+<http://data.europa.eu/2sa/cssv/rsc/0d185280c7e0fb66ab5bae0aa28e834491a538620bcee40eb0d27107e9cdcf4c> a prof:Profile ;
+    dct:title "oneM2M Functional Architecture" ;
+    prof:isProfileOf cssvrsc:a7869cc68bd2b2cd8da20baa875aaa8e5b43964048772cbbf4a286213fae31c0 ;
+    <http://purl.org/dc/terms/publisher> <https://www.onem2m.org/technical/published-specifications/release-5> .
 
 cssvrsc:0d3afc2bec841bc6e01d5399eb445dd06444d8c53055e00f12dd6f85bb2ab96a a cssv:Specification,
         owl:NamedIndividual ;
@@ -806,15 +751,10 @@ cssvrsc:1267e8c151b0d93d7fb405fb253185b38d3148dbec15b2f022b3810d03583a8e a cssv:
     dcat:distribution cssvrsc:7b0acb94-43b1-4d66-8165-ba5385dafbc3 ;
     dcat:version "1.0.0" .
 
-cssvrsc:12942011e3dbce66ff2eb098ac1c452a5bbb3ab2c7a7845cfa40284077be7110 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "Verifiable Trust Model by EBSI contains permissions and policies in the context of Verifiable Credentials (VCs). Permissions allow governance or issuance in the Trust Model, while policies are used to define who made the accreditation, which Trust Framework is followed, and the legal basis of it. Trust Model participants make the whole Verifiable Trust Model publicly available by registering it in the EBSI Trusted Issuers Registry."@en ;
-    dct:title "EBSI Trust Model"@en ;
-    dcat:distribution cssvrsc:b7d704e1-453f-42fb-a434-6b67017eb05e ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/12942011e3dbce66ff2eb098ac1c452a5bbb3ab2c7a7845cfa40284077be7110> a prof:Profile ;
+    dct:title "EBSI Trust Model" ;
+    prof:isProfileOf cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e16 ;
+    <http://purl.org/dc/terms/publisher> <https://hub.ebsi.eu/vc-framework/trust-model> .
 
 cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af a cssv:Specification,
         owl:NamedIndividual ;
@@ -827,15 +767,10 @@ cssvrsc:129565a27edebc4742952cc6d7804fc8f7b59dfed59ccd1b93056aa5d76e81af a cssv:
     dcat:previousVersion cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8 ;
     dcat:version "2.0.0" .
 
-cssvrsc:1331c2c0a75eea8b5d5a413c0bebab78509bf1b0c3aa6fc8dd05c2ff0d5784cd a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "SLA4OAI"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:b2a320f84cde17d39b6e60323ef64beede4cc6d3be6f72a6ac28ca5da507e98d ;
-    dct:description "SLA4OAI Specification aims to promote an open specification for services level agreement over OpenAPI-compliant REST APIs to support the exchange of data."@en ;
-    dct:title "SLA for Open API Initiative Specification (SLA4OAI)"@en ;
-    dcat:distribution cssvrsc:5fc5f407-aabb-43c0-a1b2-98645b2e77ac ;
-    dcat:version "0.10.0" .
+<http://data.europa.eu/2sa/cssv/rsc/1331c2c0a75eea8b5d5a413c0bebab78509bf1b0c3aa6fc8dd05c2ff0d5784cd> a prof:Profile ;
+    dct:title "SLA for Open API Initiative Specification (SLA4OAI)" ;
+    prof:isProfileOf cssvrsc:f236dc7ff527259efd080ce8e08ea42d6ccec39a99302f2da33e927666fbdf18 ;
+    <http://purl.org/dc/terms/publisher> <https://sla4oai.specs.governify.io/> .
 
 cssvrsc:1362f2b9dae365a631a0b39ec1c250e36b7936eee4fae44e43606eb7f2bb9c78 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1214,16 +1149,10 @@ cssvrsc:1a7498f69820fb0fd55e3ca51b090872c45e0cf7cca42bd30e0a5331ae9a993d a cssv:
     dcat:distribution cssvrsc:99b94880-1cc5-4665-9ab1-7646c1a02b87 ;
     dcat:version "1.0.0" .
 
-cssvrsc:1a8173a4057c4f0692a5b40a4e008aa27c12324df6c59b5e11635ec9e31afe38 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "The eDelivery SMP (Service Metadata Publisher) profile provides a set of implementation guidelines for the OASIS SMP version 2.0 specification. In this context, the SMP specification defines an XML-based service metadata data model and a REST binding to retrieve service metadata."@en ;
-    dct:title "eDelivery SMP - 2.0"@en ;
-    dcat:distribution cssvrsc:f298ba69-2ab9-4720-b7d8-37eaa5426ee1 ;
-    dcat:previousVersion cssvrsc:7ee0cc960f1c173317ee71839772b906a3d9df220bba897aebba61f44576828f ;
-    dcat:version "2.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/1a8173a4057c4f0692a5b40a4e008aa27c12324df6c59b5e11635ec9e31afe38> a prof:Profile ;
+    dct:title "eDelivery SMP - 2.0" ;
+    prof:isProfileOf cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 ;
+    <http://purl.org/dc/terms/publisher> <https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=708412335> .
 
 cssvrsc:1aaece616295cfc1328fc41cc166ca74cdb0cb07d2a9973c09c6a2e694ee6ed8 a cssv:Specification,
         owl:NamedIndividual ;
@@ -1470,17 +1399,10 @@ cssvrsc:1e85868a77907ed9e59d1e3a3804c3d40add047c68ff02fd121b51812c7006ab a cssv:
              foaf:page <https://www.avropa.se/globalassets/dokument/open-it-standards.pdf?_t_id=1B2M2Y8AsgTpgAmY7PhCfg%3d%3d&_t_q=standards&_t_tags=language%3asv%2csiteid%3a95d515a5-23ca-47bf-87a9->
         ] .
 
-cssvrsc:1ea83628effae4976a072f101539af9ae9596e3a8ac9b456dc958a57fb5a92cb a cssv:Specification,
-        cssv:ApplicationProfile,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:configures cssvrsc:0451cf7280b71e0ba29350bc606ef4599f53336dc99f4fc4419b4fa50686e127 ;
-    cssv:isMaintainedBy cssvrsc:660e51b8105da3b41278152e1050aa45419708bdf5b48530d9e644a44ef8c7c0 ;
-    dct:description "This application profile document specifies the interfaces, bindings, and encodings required to publish and access digital catalogues of metadata for geospatial data, services, and applications that comply with the given profile."@en ;
-    dct:title "OpenGIS Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile"@en ;
-    dcat:distribution cssvrsc:6530e8a2-a997-4dc2-acce-18c41580bcfa ;
-    dcat:version "1.0.2" .
+<http://data.europa.eu/2sa/cssv/rsc/1ea83628effae4976a072f101539af9ae9596e3a8ac9b456dc958a57fb5a92cb> a prof:Profile ;
+    dct:title "OpenGIS Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile" ;
+    prof:isProfileOf cssvrsc:0451cf7280b71e0ba29350bc606ef4599f53336dc99f4fc4419b4fa50686e127 ;
+    <http://purl.org/dc/terms/publisher> <https://www.ogc.org/standard/cat2eoext4ebrim/> .
 
 cssvrsc:1ebf0c83e76bab3c6b3bda22b6843136de849f906ed66b8e39ab927f4bb6d2bf a cssv:Specification,
         owl:NamedIndividual ;
@@ -1632,25 +1554,15 @@ cssvrsc:250a2567c0af286f50ca3eecc071fe4258191c1270dbea6b82b557d74c0aaa7c a cssv:
     dcat:distribution cssvrsc:c125b1be-a974-4939-82bf-1247b2c6588b ;
     dcat:version "1.0.0" .
 
-cssvrsc:2519e714fe2baccf790d51fb84978ee4d368a871889fdf261630d3a1a9e7d237 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "ETSI TS 103 410-4"@en ;
-    cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
-    dct:description "The ETSI TS 103 410-4 specification is designed to offer an extension of SAREF for the Smart Cities domain. In this context, the specification provides an ontology that specifies different classes and attributes to establish a common core of general concepts for smart city data, oriented towards the IoT field."@en ;
-    dct:title "SmartM2M; Extension to SAREF;  Part 4: Smart Cities Domain (ETSI TS 103 410-4)"@en ;
-    dcat:distribution cssvrsc:830daac5-a657-4223-8ba3-c7de25698a60 ;
-    dcat:version "2.1.1" .
+<http://data.europa.eu/2sa/cssv/rsc/2519e714fe2baccf790d51fb84978ee4d368a871889fdf261630d3a1a9e7d237> a prof:Profile ;
+    dct:title "SmartM2M; Extension to SAREF;  Part 4: Smart Cities Domain (ETSI TS 103 410-4)" ;
+    prof:isProfileOf cssvrsc:85822b766ddea16db2ac9ccc096ec38387cde874801350c048413e0bad44b864 ;
+    <http://purl.org/dc/terms/publisher> <https://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/02.01.01_60/ts_10341004v020101p.pdf> .
 
-cssvrsc:2530ab0daee506060b46a67ad31e86192dd538d189d049ef59718edc7c2ea121 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "Recommendation X.509 (10/19)"@en ;
-    cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
-    dct:description "The X.509 specification addresses some of the security requirements in the areas of authentication and other security services through the provision of a set of frameworks upon which full services can be based."@en ;
-    dct:title "X.509: Information technology - Open Systems Interconnection - The Directory: Public-key and attribute certificate frameworks"@en ;
-    dcat:distribution cssvrsc:0e8cbf63-b591-4f59-b143-ba5984eeede6 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/2530ab0daee506060b46a67ad31e86192dd538d189d049ef59718edc7c2ea121> a prof:Profile ;
+    dct:title "X.509: Information technology - Open Systems Interconnection - The Directory: Public-key and attribute certificate frameworks" ;
+    prof:isProfileOf cssvrsc:39eee9a3f8d54dac0e11456b98c29454ebb157dc3a8991f456b7b659bf990370 ;
+    <http://purl.org/dc/terms/publisher> <https://www.itu.int/rec/T-REC-X.509> .
 
 cssvrsc:259adc3aa3395ec35cb2831ab4ec0e2831afe598dc401dd48f183fd9310dcfbf a cssv:Specification,
         owl:NamedIndividual ;
@@ -1756,15 +1668,10 @@ cssvrsc:277e155e0f685127dfac33c5b3149aafc992002af06016ff3733f2bcfbc47d0a a cssv:
              foaf:page <https://administracionelectronica.gob.es/pae_Home/dam/jcr:97912041-c1c3-47c4-b517-df9f51db321d/Guia_aplicacion_Norma_Tecnica_Interoperabilidad_Catalogo_de_estandares.pdf>
         ] .
 
-cssvrsc:280d7e348a562d904fa3a89578d60580e667fcbdb35890c65e40556cfc2490d5 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
-    dct:description "The Event Stream Extensions for AMQP specification defines a set of extensions for the Advanced Message Queuing Protocol (AMQP) to facilitate interaction with event stream engines. These extensions include annotations for partition selection and filter definitions for indicating offsets into an event stream to which a link shall be attached."@en ;
-    dct:title "Event Stream Extensions for AMQP"@en ;
-    dcat:distribution cssvrsc:ef441164-0db0-4604-b3a3-bcee4ea4eaa1 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/280d7e348a562d904fa3a89578d60580e667fcbdb35890c65e40556cfc2490d5> a prof:Profile ;
+    dct:title "Event Stream Extensions for AMQP" ;
+    prof:isProfileOf cssvrsc:8a81a114cb3c00a804499fcb6c89f3f05c8d9734fc95decce23db6db5bef40bb ;
+    <http://purl.org/dc/terms/publisher> <https://docs.oasis-open.org/amqp/event-streams/v1.0/event-streams-v1.0.html> .
 
 cssvrsc:282fbf529fb851a9da3ed39f48d235c69fd1da93947dfd668889fb8191777920 a cssv:Specification,
         cssv:Standard,
@@ -2173,15 +2080,10 @@ cssvrsc:2fd54ed3719f3760bf87a951ac49d2a4f73a451ac4f7e840baf709e3164fe524 a cssv:
     dcat:distribution cssvrsc:8bb95a42-d0c2-4ba6-abf2-b54526e82374 ;
     dcat:version "2.1.0" .
 
-cssvrsc:3007fa234804557ae13e980021a5513a93ff6782a3c0911ec59a0274ec85db36 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
-    dct:description "This Core Accessibility API Mappings specification defines support that applies across multiple content technologies, including general keyboard navigation support and mapping of general-purpose roles, states, and properties provided in Web content via WAI-ARIA. Other Accessibility API Mappings specifications depend on and extend this Core specification for specific technologies, including native technology features and WAI-ARIA extensions."@en ;
-    dct:title "Core Accessibility API Mappings"@en ;
-    dcat:distribution cssvrsc:dc42158a-13bd-4a1e-9f60-80130ca9e280 ;
-    dcat:version "1.1.0" .
+<http://data.europa.eu/2sa/cssv/rsc/3007fa234804557ae13e980021a5513a93ff6782a3c0911ec59a0274ec85db36> a prof:Profile ;
+    dct:title "Core Accessibility API Mappings" ;
+    prof:isProfileOf cssvrsc:d22a7f4993386b2cbdf6d21bc369c92bbdf5c5df6ce46fa89574c0a633e2b469 ;
+    <http://purl.org/dc/terms/publisher> <https://www.w3.org/TR/core-aam-1.1/> .
 
 cssvrsc:306a35d81f90aa7233be25cf6633a942ee5beaa3ed85ee73992ad6f6b86d2bc6 a cssv:Specification,
         owl:NamedIndividual ;
@@ -3308,15 +3210,10 @@ cssvrsc:459ce55245869fa8d2fe286ec86dfea886241f1366deef90c41db0686c7eab12 a cssv:
     dcat:distribution cssvrsc:9f722a13-d32c-4275-a3f5-1bbe069d4a41 ;
     dcat:version "1.0.0" .
 
-cssvrsc:464eea9a4a3838cf0ccf4c37d19eb5e1edec6e52d0690d516b6dde92daf47766 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "RFC 5448"@en ;
-    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    dct:description "RFC 5448 extends the RFC 3748 specification, which defines a framework for supporting multiple authentication methods. Building on this framework, RFC 5448 specifies EAP-AKA′, an enhanced authentication method that strengthens the security of verifying users or devices in mobile and wireless networks, thereby providing a more reliable basis for authorising access to network services."@en ;
-    dct:title "Improved Extensible Authentication Protocol Method for 3rd Generation Authentication and Key Agreement (EAP-AKA')"@en ;
-    dcat:distribution cssvrsc:fd23fc7a-23b2-462b-bc77-f657be97ff83 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/464eea9a4a3838cf0ccf4c37d19eb5e1edec6e52d0690d516b6dde92daf47766> a prof:Profile ;
+    dct:title "Improved Extensible Authentication Protocol Method for 3rd Generation Authentication and Key Agreement (EAP-AKA')" ;
+    prof:isProfileOf cssvrsc:0d3afc2bec841bc6e01d5399eb445dd06444d8c53055e00f12dd6f85bb2ab96a ;
+    <http://purl.org/dc/terms/publisher> <https://datatracker.ietf.org/doc/html/rfc5448> .
 
 cssvrsc:46686dc0ef5e64da788fbdb188bf9adeacb04109ebe59d1af30b582744b1c07d a cssv:Specification,
         owl:NamedIndividual ;
@@ -3399,15 +3296,10 @@ cssvrsc:485408399b7aa98aa3d1622ae2ca8e34ef5803bca01a4d696b63fff17d7dc8aa a cssv:
     dcat:distribution cssvrsc:dd0a5be3-f0ac-46a2-ae1b-ed98fbb8a87f ;
     dcat:version "4.1.0" .
 
-cssvrsc:48aa5a5a1163f86089d4577b9e577c601c7b5673cceeb45e97700ba4f43736a4 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "EBSI-VC SF"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "EBSI-VC SF defines how to manage and verify the status of Verifiable Credentials (VCs) within the EBSI ecosystem. This framework ensures that credentials are up-to-date and have not been revoked."@en ;
-    dct:title "EBSI - Verifiable Credentials Status Framework (EBSI-VC SF)"@en ;
-    dcat:distribution cssvrsc:c264050e-4fed-4134-81c8-25237268e538 ;
-    dcat:version "3.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/48aa5a5a1163f86089d4577b9e577c601c7b5673cceeb45e97700ba4f43736a4> a prof:Profile ;
+    dct:title "EBSI - Verifiable Credentials Status Framework (EBSI-VC SF)" ;
+    prof:isProfileOf cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e16 ;
+    <http://purl.org/dc/terms/publisher> <https://hub-test.ebsi.eu/vc-framework> .
 
 cssvrsc:4909c79d2759fc5cdbd6e87160f397452ee9484bd8d9e9bf838be385108c987c a cssv:Specification,
         cssv:Standard,
@@ -3575,15 +3467,10 @@ cssvrsc:4c88080d1b35207e61a132fabfd18f0214b9675db447a20b706c0ef591affb88 a cssv:
     dcat:distribution cssvrsc:51343421-ba19-4395-9165-471cfcd32908 ;
     dcat:version "2.0.0" .
 
-cssvrsc:4ce75b13d1326e2fe8c37f475f8fba0e10b181848b14fe203ff8f47c322c536d a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    dct:description "The Resource Public Key Infrastructure (RPKI) architecture describes an architecture for an infrastructure to to support the security enhancement of the Border Gateway Protocol (BGP-4) routing for the Internet. The architecture encompasses Public Key Infrastructure (RPKI) resources, which represents the IP address space allocation hierarchy (X.509 PKI) and Autonomous System (AS) numbers; digitally signed routing objects to provide routing security support; and a distributed repository system to maintain PKI objects and signed routing objects."@en ;
-    dct:title "RPKI Architecture"@en ;
-    dcat:distribution cssvrsc:4248756a-3f00-4cfe-81d8-31f54db6c3b6 ;
-    dcat:version "13.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/4ce75b13d1326e2fe8c37f475f8fba0e10b181848b14fe203ff8f47c322c536d> a prof:Profile ;
+    dct:title "RPKI Architecture" ;
+    prof:isProfileOf cssvrsc:2530ab0daee506060b46a67ad31e86192dd538d189d049ef59718edc7c2ea121 ;
+    <http://purl.org/dc/terms/publisher> <https://www.rfc-editor.org/rfc/rfc6480> .
 
 cssvrsc:4d8e966bd2feb44e2bf4851dac340c4af4c79068aa14eed8eec1ab89e83add83 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4294,26 +4181,10 @@ cssvrsc:5f54fc4ff6bfb0c964461af9c76cfb2f02a1d19e9c35f055b5cdf1eb805be1c0 a cssv:
     dcat:distribution cssvrsc:5126c89e-26b4-4ecb-bf31-dc785fbba205 ;
     dcat:version "2.0.0" .
 
-cssvrsc:60ce304ab2b48bcc9dea1f580064d77b84e1ed23b51944a2bd1b1601caa12853 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "ITU-T X.1363"@en ;
-    cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
-    dct:description """Internet of things (IoT) devices can collect many kinds of data, including personally identifiable information (PII). Because PII data are useful for different types of services, they may be shared among multiple service providers.\r\r\r\r
-\r\r\r\r
-It is better for users to manage their own data, including PII, in IoT environment based on their own intentions. As data usage in IoT environment with multiple service providers is complicated, user intentions for data usage should be accommodated flexibly. For example, if an IoT service provider provides the following functions, user can appreciate that the service provider collects and controls data collected (including PII) properly:\r\r\r\r
-\r\r\r\r
-−          Users can configure their own PII preferences. These preferences include a list of permitted data for sharing among other service providers.\r\r\r\r
-\r\r\r\r
-−          Collection and share of data are subject to controlled access based on PII preferences. Unauthorized data cannot be stored in data storage, and cannot be shared among other service providers.\r\r\r\r
-\r\r\r\r
-−          Users can check history log of data sharing among service providers. Users can also check times of data usage.\r\r\r\r
-\r\r\r\r
-This Recommendation specifies a technical framework for PII handling in IoT environment with single or multiple service providers."""@en,
-        "The X.1363 Recommendation specifies a technical framework of personally identifiable information (PII) handling in Internet of things (IoT) environment. Moreover, the specification allows to specify for which uses data can be stored and managed, by third parties organisations."@en ;
-    dct:title "X.1363 : Technical framework of personally identifiable information handling system in Internet of things environment"@en ;
-    dcat:distribution cssvrsc:0a2db953-cc71-4f7f-9a1e-20241e642b83 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/60ce304ab2b48bcc9dea1f580064d77b84e1ed23b51944a2bd1b1601caa12853> a prof:Profile ;
+    dct:title "X.1363 : Technical framework of personally identifiable information handling system in Internet of things environment" ;
+    prof:isProfileOf cssvrsc:639a7d71e7e5d5257b0b49d7bcfe15c08139b9352939effaed5abf335de69eec ;
+    <http://purl.org/dc/terms/publisher> <https://www.itu.int/rec/T-REC-X.1363-202005-I/en> .
 
 cssvrsc:60d7c734ba553bbf77ec1eff77f59d9f9931d9dacad83cc9c718a4ee1ca9ca78 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4360,16 +4231,10 @@ cssvrsc:63094b24158a8c766a5659f3e6a82d7b1aabc82862abe3052377e21008c84f41 a cssv:
     dcat:distribution cssvrsc:3d514f0e-6968-44e0-adb1-4f6de4e889d0 ;
     dcat:version "1.1.1" .
 
-cssvrsc:6327b8eef8bae4c922a91203eef220faf3319f675e644a87014c03512b18e8a0 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "Geo-DCAT-AP"@en ;
-    cssv:alternative ""@en ;
-    cssv:configures cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "The GeoDCAT-AP specification is an extension of the DCAT application profile for data portals in Europe (DCAT-AP) for describing geospatial datasets, dataset series, and services."@en ;
-    dct:title "Geo-DCAT-AP"@en ;
-    dcat:distribution cssvrsc:83a8ed28-ca1d-42ab-b928-8a5c63978454 ;
-    dcat:version "2.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/6327b8eef8bae4c922a91203eef220faf3319f675e644a87014c03512b18e8a0> a prof:Profile ;
+    dct:title "Geo-DCAT-AP" ;
+    prof:isProfileOf cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4 ;
+    <http://purl.org/dc/terms/publisher> <https://semiceu.github.io/GeoDCAT-AP/drafts/latest/> .
 
 cssvrsc:639a7d71e7e5d5257b0b49d7bcfe15c08139b9352939effaed5abf335de69eec a cssv:Specification,
         owl:NamedIndividual ;
@@ -4473,15 +4338,10 @@ cssvrsc:6524fbb365d18102fad6c38e980b35e35f4fc3b666328a1cc050f1e7e80457c6 a cssv:
     dcat:distribution cssvrsc:927036d6-4908-4a5c-9917-aad75d28b40f ;
     dcat:version "2.1.0" .
 
-cssvrsc:6558d92c4d44226e54c03b0e8b5e8a23ee6fa444e8f7c5a79ed28dcde80043e0 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "HLVA"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:d60947f5562ad10eca1a7227a196a5a7917c97b64c85f118a0419640a654e5ff ;
-    dct:description "A NIEM release is a coherent set of XML schema documents and supporting artifacts representing a specific version of the NIEM data model. Implementers of IEPDs use components of the data model to define information exchange packages (IEP) that will be transmitted in an implementation."@en ;
-    dct:title "NIEM High-Level Version Architecture (HLVA)"@en ;
-    dcat:distribution cssvrsc:2fae2043-3b27-4993-9add-8a1c01baf17d ;
-    dcat:version "5.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/6558d92c4d44226e54c03b0e8b5e8a23ee6fa444e8f7c5a79ed28dcde80043e0> a prof:Profile ;
+    dct:title "NIEM High-Level Version Architecture (HLVA)" ;
+    prof:isProfileOf cssvrsc:24a945f1f6d99dd9bfaee500086f13d008e7487f65d9fc2708a4605fd6e9ce13 ;
+    <http://purl.org/dc/terms/publisher> <https://niem.github.io/NIEM-HLVA-Spec/5.0/NIEM_HLVA_5.0.pdf> .
 
 cssvrsc:6577a95cdfbb93fded69592fecefc9716b8e9b62b2fff708b91df111cb39b4c5 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4604,15 +4464,10 @@ cssvrsc:6b9a5567ca4884b7a28c6bae41b4356429c4bc8043c37ce3f2e7fe7b78fffa44 a cssv:
     dcat:distribution cssvrsc:7df0b945-0ad9-43d9-9a5c-9b25c3322e81 ;
     dcat:version "22.10.0" .
 
-cssvrsc:6b9c9874012cfacc05bf93f94180b03481bb2bf3adef1ebe61cb9bbb423f4cc5 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:279c747b0c68af630a00f94f91bbdc97dc30e63a45a8b1dbd39c2b89949d50d6 ;
-    dct:description "The Reactive WebSocket application profile enables full-duplex communication between client and server, generally used in web applications where the client and server need to exchange events at high frequency and with low latency.  Spring Framework 5 has modernised WebSockets support in the framework, adding reactive capabilities to this communication channel."@en ;
-    dct:title "Reactive WebSocket"@en ;
-    dcat:distribution cssvrsc:dce5bb1d-e7d0-4f36-b621-5d74351e4162 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/6b9c9874012cfacc05bf93f94180b03481bb2bf3adef1ebe61cb9bbb423f4cc5> a prof:Profile ;
+    dct:title "Reactive WebSocket" ;
+    prof:isProfileOf cssvrsc:ae3369b8dce309c8d0bc6949f47d3534b64dec0da9359ef1a3ca9f5db2cf9943 ;
+    <http://purl.org/dc/terms/publisher> <https://docs.spring.io/spring-framework/reference/web/webflux-websocket.html> .
 
 cssvrsc:6bf6a6f55bd4d025a45177e6c6121588032bd377ad432952156b8b3d3f3a6f5f a cssv:Specification,
         owl:NamedIndividual ;
@@ -4699,15 +4554,10 @@ cssvrsc:6e26f89f14b60fb8dcb3a51ed3abc8ff53023b51520f2e578b707919b81a7f66 a cssv:
     dcat:distribution cssvrsc:4042bedf-fe14-4852-8c11-fb2281f6ce5a ;
     dcat:version "L 330/39" .
 
-cssvrsc:6eb2a0776547a9750027a031719cb9ca3e620970f7dfd42bd96ac025b8a6f463 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
-    dct:description "The SPARQL 1.1 Graph Store HTTP Protocol specification is designed to effectively manage data across multiple RDF graphs. In this context, the specification enables operations such as deleting and updating information within different graphs in a straightforward manner."@en ;
-    dct:title "SPARQL 1.1 Graph Store HTTP Protocol"@en ;
-    dcat:distribution cssvrsc:20f6ce11-89bf-479a-aa8f-beb7e5b3d77c ;
-    dcat:version "1.1.0" .
+<http://data.europa.eu/2sa/cssv/rsc/6eb2a0776547a9750027a031719cb9ca3e620970f7dfd42bd96ac025b8a6f463> a prof:Profile ;
+    dct:title "SPARQL 1.1 Graph Store HTTP Protocol" ;
+    prof:isProfileOf cssvrsc:fcaa7f85fa91302efdb61d13847ac73d68de5e1271689add2a2fde99b6a546e0 ;
+    <http://purl.org/dc/terms/publisher> <https://www.w3.org/TR/sparql11-http-rdf-update/> .
 
 cssvrsc:6f03402e98acfd1f4c58b6533bdb88e793efffd35b0a6a3389b8c7c77220a310 a cssv:Specification,
         owl:NamedIndividual ;
@@ -4939,15 +4789,10 @@ cssvrsc:742174fb9d7cbf3758c62a6856199a79560f6dbd24085c9ed4c0f1b795140b81 a cssv:
     dcat:distribution cssvrsc:73083d3e-4e9e-459e-a40d-e20325891a79 ;
     dcat:version "1.0.0" .
 
-cssvrsc:749160f76fef1c73f78d1cfa2ec69f75bda0e5994d3686e4d1ee8b6e387abe59 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "EBSI-VC"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "EBSI-VC outlines the standards and protocols for issuing, managing, and verifying digital credentials using blockchain technology. It aims to ensure secure, interoperable, and decentralized identity management within the European Union."@en ;
-    dct:title "EBSI - Verifiable Credentials (EBSI-VC)"@en ;
-    dcat:distribution cssvrsc:d759d0c4-ec5c-4ece-a53b-49f1cd5e97f1 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/749160f76fef1c73f78d1cfa2ec69f75bda0e5994d3686e4d1ee8b6e387abe59> a prof:Profile ;
+    dct:title "EBSI - Verifiable Credentials (EBSI-VC)" ;
+    prof:isProfileOf cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e16 ;
+    <http://purl.org/dc/terms/publisher> <https://hub-test.ebsi.eu/vc-framework> .
 
 cssvrsc:759257a34b21193982342255b6ee004209b260bb013093994351f9e4f910c62f a cssv:Specification,
         owl:NamedIndividual ;
@@ -5142,15 +4987,10 @@ cssvrsc:77feb710f414d7cb9707280fcdbe2e238ed91e910808ee83e5612c9777c71921 a cssv:
     dcat:distribution cssvrsc:6ba2b5f3-7d58-4b90-8cd7-665cfe020fe0 ;
     dcat:version "1.2.0" .
 
-cssvrsc:78d61d2335d5faa7446ae94d457e58df4adb4a73c987053ef5b03ff92e21221f a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:f31249135b41f9aa66e7d6911a0cf4361484027fbda9a6d9dca8ceffb9238bce ;
-    dct:description "RAML is a language for the definition of HTTP-based APIs that embody most or all of the principles of Representational State Transfer (REST). The RAML specification is an application of the YAML 1.2 specification. In this sense, the RAML specification provides mechanisms for defining practically-RESTful APIs, creating client/server source code, and comprehensively documenting the APIs for users."@en ;
-    dct:title "RESTful API Modeling Language (RAML)"@en ;
-    dcat:distribution cssvrsc:a2dcaa2f-2b9b-4df6-ab79-0eef3dcc7fd6 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/78d61d2335d5faa7446ae94d457e58df4adb4a73c987053ef5b03ff92e21221f> a prof:Profile ;
+    dct:title "RESTful API Modeling Language (RAML)" ;
+    prof:isProfileOf cssvrsc:6bf6a6f55bd4d025a45177e6c6121588032bd377ad432952156b8b3d3f3a6f5f ;
+    <http://purl.org/dc/terms/publisher> <https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/> .
 
 cssvrsc:798f57c9a79c00ba21874151b6145d33cf5c11a551a7e337224f670ebaaefcac a cssv:Specification,
         owl:NamedIndividual ;
@@ -5193,15 +5033,10 @@ cssvrsc:7a60cc09dff41e329a8a629b0263eb4cee74145130507ea6dfc808d634e6380f a cssv:
     dcat:distribution cssvrsc:b4a121df-86a0-40a1-9ff8-0b367e4ea53f ;
     dcat:version "1.2.1" .
 
-cssvrsc:7a6cc9a04e501f41aef0173ec2fe5584226fb37b3d34996fe85b4d884a094a61 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "SBDH"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:6a998d59686bb33559e8a28623ec35f24af48d5e51f29f91a153a2bdc5beaaf3 ;
-    dct:description "The PEPPOL Message Envelope specification is a customisation of the Standard Business Document Header (SBDH). The message envelope is implemented in systems that issue business documents transport, used by service providers to route the message to the receiver's Access Point."@en ;
-    dct:title "Peppol Business Message Envelope (SBDH)"@en ;
-    dcat:distribution cssvrsc:8af50ee7-5da9-430c-ab3b-881b52a6623e ;
-    dcat:version "1.2.1" .
+<http://data.europa.eu/2sa/cssv/rsc/7a6cc9a04e501f41aef0173ec2fe5584226fb37b3d34996fe85b4d884a094a61> a prof:Profile ;
+    dct:title "Peppol Business Message Envelope (SBDH)" ;
+    prof:isProfileOf cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 ;
+    <http://purl.org/dc/terms/publisher> <https://docs.peppol.eu/edelivery/envelope/PEPPOL-EDN-Business-Message-Envelope-1.2.1-2020-03-11.pdf> .
 
 cssvrsc:7a76b8336c2ba9ad6148ba1934fd9a4af24f825626f5bb898f071f58cd7c4fa7 a cssv:Specification,
         owl:NamedIndividual ;
@@ -5348,15 +5183,10 @@ cssvrsc:7ee0cc960f1c173317ee71839772b906a3d9df220bba897aebba61f44576828f a cssv:
     dcat:distribution cssvrsc:ed1d9918-4b44-4af4-a399-ddf6ad9a7500 ;
     dcat:version "1.10.0" .
 
-cssvrsc:7f3a6b194d0bd127d1a6851a86fa7498415964a4d56d56749607faf692e2f7ad a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "ITU-T X.1275"@en ;
-    cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
-    dct:description "The Recommendation ITU-T X.1275 specifiction provides guidance to radio frequency identification (RFID) users and vendors (including RFID service providers and manufacturers) in protecting personally identifiable information for the privacy of individuals in the context of RFID technology."@en ;
-    dct:title "X.1275 : Guidelines on protection of personally identifiable information in the application of RFID technology"@en ;
-    dcat:distribution cssvrsc:ee22b09d-38cb-461f-9048-72eb4842b5e0 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/7f3a6b194d0bd127d1a6851a86fa7498415964a4d56d56749607faf692e2f7ad> a prof:Profile ;
+    dct:title "X.1275 : Guidelines on protection of personally identifiable information in the application of RFID technology" ;
+    prof:isProfileOf cssvrsc:8e84265819bf3bccd8ee6a2aa5fae945fbba94616bd9e5e443be28204f4c812d ;
+    <http://purl.org/dc/terms/publisher> <https://www.itu.int/rec/T-REC-X.1275-201012-I/en> .
 
 cssvrsc:7f9b20000e60e4cdcc457714628e5d9ad52ff0d696e1ffd344d06a23615d492d a cssv:Specification,
         owl:NamedIndividual ;
@@ -6357,15 +6187,10 @@ cssvrsc:96362edca15a9600bba5b743f54269be55ee70fa456eab0352346007ad3ea29a a cssv:
     dcat:previousVersion cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4 ;
     dcat:version "3.0.0" .
 
-cssvrsc:9663adc228c60c001b469c7d5cde6c4fa2496e59b27a0449b6363b0231018e48 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "BregDCAT-AP"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "BRegDCAT-AP s a standard data model and specification for base registries access and interconnection, ensuring standardisation and interoperability. It is based on DCAT-AP."@en ;
-    dct:title "BregDCAT-AP"@en ;
-    dcat:distribution cssvrsc:a716c1cf-1a4e-4a3e-a173-75fe7716cb57 ;
-    dcat:version "2.1.0" .
+<http://data.europa.eu/2sa/cssv/rsc/9663adc228c60c001b469c7d5cde6c4fa2496e59b27a0449b6363b0231018e48> a prof:Profile ;
+    dct:title "BregDCAT-AP" ;
+    prof:isProfileOf cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4 ;
+    <http://purl.org/dc/terms/publisher> <https://interoperable-europe.ec.europa.eu/collection/access-base-registries/solution/bregdcat-ap/release/210> .
 
 cssvrsc:968231b55cea91536c04cae69ff5043d55333be417f9bba5e121a9a8be49c581 a cssv:Specification,
         owl:NamedIndividual ;
@@ -6661,15 +6486,10 @@ cssvrsc:9ce9329298a10687397bc894fdd61372e32057b5a0624b1e1271cb05642ea02e a cssv:
     dcat:distribution cssvrsc:e8248e6a-23e2-4680-84b9-2cc7bf146e6c ;
     dcat:version "4.0.0" .
 
-cssvrsc:9d0f39c61d26720ef52833ad89a6bf09d7bd7148dac6eb1306edf7516b68b395 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:a2c3cfe200e3f50809f35894ed4e80f53e18025fca8f43396a2825eca110a556 ;
-    dct:description "The HAL-FORMS specification is an extension to the Hypertext Application Language (HAL) specification, designed to enhance the evolvability of HAL-based APIs. It provides a way to define forms within HAL documents, allowing clients to understand how to interact with the API dynamically."@en ;
-    dct:title "HAL-FORMS"@en ;
-    dcat:distribution cssvrsc:1e386daf-a136-4df5-9215-4a8f3bc59b65 ;
-    dcat:version "0.0.2" .
+<http://data.europa.eu/2sa/cssv/rsc/9d0f39c61d26720ef52833ad89a6bf09d7bd7148dac6eb1306edf7516b68b395> a prof:Profile ;
+    dct:title "HAL-FORMS" ;
+    prof:isProfileOf cssvrsc:c2fa543b4c27894a0ee2d3c2f7d72bc36936887a945571cbc8b3760e4d3a2f2f ;
+    <http://purl.org/dc/terms/publisher> <https://rwcbook.github.io/hal-forms/> .
 
 cssvrsc:9d677b70169824b046a4a82616729da6bbd4321ea14a7f825e3e16f23697b1f1 a cssv:Specification,
         owl:NamedIndividual ;
@@ -7111,15 +6931,10 @@ cssvrsc:ac283a50733f9b996279bbf977b1823b734bb7b5814056130b92cca7c4635e21 a cssv:
     dcat:distribution cssvrsc:cbc73724-0b51-4167-a147-a929d691e8f2 ;
     dcat:version "1.0.0" .
 
-cssvrsc:ac4d786e488498e14387bee462f7cf35b824aadc2fb05ec749805bb516d8211c a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "The e-SENS REM Profile is an open specification for achieving interoperability between the evidential services of Registered Electronic Mail systemsRegistered Electronic Mail (REM). The specification is based on ETSI TS 102 640-2."@en ;
-    dct:title "e-SENS REM profile"@en ;
-    dcat:distribution cssvrsc:f812074e-e11b-4631-ba6b-0135259d07ef ;
-    dcat:version "2.2.1" .
+<http://data.europa.eu/2sa/cssv/rsc/ac4d786e488498e14387bee462f7cf35b824aadc2fb05ec749805bb516d8211c> a prof:Profile ;
+    dct:title "e-SENS REM profile" ;
+    prof:isProfileOf cssvrsc:2076becb82e09569feb19de2ed44af6af737123d4a5097130bfa3554345df4db ;
+    <http://purl.org/dc/terms/publisher> <https://www.etsi.org/deliver/etsi_ts/102600_102699/10264002/02.02.01_60/ts_10264002v020201p.pdf> .
 
 cssvrsc:aca7c4386bce122aa9460d7e20f14ce4fefd4ceb673516984cc9ef6e941296a3 a cssv:Specification,
         owl:NamedIndividual ;
@@ -7171,15 +6986,10 @@ cssvrsc:ada520dfe348a4219f62ec6e255a207ad0f4d72f32cff473e3df8162ffdbaf64 a cssv:
     dcat:distribution cssvrsc:dca5ad84-6bb6-4c31-a8dc-ee79de4a2c75 ;
     dcat:version "23.0.0" .
 
-cssvrsc:add73cf4a6631216ae24450448a9c94dd4089a3bba45e2d1c960db1a6085ca7a a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "CPPA"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
-    dct:description "The Collaboration Protocol Profile and Agreement (CPPA or ebXML CPPA) is a high-level, human-readable specification that describes all visible, and therefore executable, interactions between parties and how these interactions are carried out, from the execution of internal processes to the interconnection of these parties' business collaborations."@en ;
-    dct:title "Collaboration Protocol Profile and Agreement (CPPA)"@en ;
-    dcat:distribution cssvrsc:6d35f225-932c-4063-be6a-95b3ca815628 ;
-    dcat:version "3.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/add73cf4a6631216ae24450448a9c94dd4089a3bba45e2d1c960db1a6085ca7a> a prof:Profile ;
+    dct:title "Collaboration Protocol Profile and Agreement (CPPA)" ;
+    prof:isProfileOf cssvrsc:bce66feb1bd27f0f1851299d87c376e117bfe2e2baab0051ef93cf3227201982 ;
+    <http://purl.org/dc/terms/publisher> <https://docs.oasis-open.org/ebcore/cppa/v3.0/cs01/cppa-v3.0-cs01.html> .
 
 cssvrsc:ae3369b8dce309c8d0bc6949f47d3534b64dec0da9359ef1a3ca9f5db2cf9943 a cssv:Specification,
         owl:NamedIndividual ;
@@ -7886,15 +7696,10 @@ cssvrsc:bf9c7fcbc267a909106b6822be6217946011995f281d7e3278761e3a7437fb32 a cssv:
     dcat:distribution cssvrsc:acddcfee-b287-4fb9-a7bf-bb9ef1a0c67a ;
     dcat:version "1.0.0" .
 
-cssvrsc:bfae866356552984c68139c12d76abefd25832f19eb1b0f78d773a88bc3bf3d4 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "ETSI TS 103 458"@en ;
-    cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
-    dct:description "TS 103 458 CYBER specifies high level requirements for the application of Attribute Based Encryption (ABE) to protect PII and personal data on IoT devices/services, cloud services, Wireless Local Area Networks and mobile services, where access to data has to be given to multiple parties and under different conditions. With a main focus on the confidentiality of data, including personal data and Personally Identifiable Information, the present document may help in supporting the General Data Protection Regulation [i.19]."@en ;
-    dct:title "ETSI TS 103 458 CYBER; Application of Attribute Based Encryption (ABE) for PII and personal data protection on IoT devices, WLAN, cloud and mobile services - High level requirements"@en ;
-    dcat:distribution cssvrsc:a03ee11d-d0e0-4c86-b96a-ccb0cbc4f0fe ;
-    dcat:version "1.1.1" .
+<http://data.europa.eu/2sa/cssv/rsc/bfae866356552984c68139c12d76abefd25832f19eb1b0f78d773a88bc3bf3d4> a prof:Profile ;
+    dct:title "ETSI TS 103 458 CYBER; Application of Attribute Based Encryption (ABE) for PII and personal data protection on IoT devices, WLAN, cloud and mobile services - High level requirements" ;
+    prof:isProfileOf cssvrsc:9a0d93a6a4a55176ed1f09f191b3ca8f3a0c534f7930248a7115c6d469826136 ;
+    <http://purl.org/dc/terms/publisher> <https://www.etsi.org/deliver/etsi_ts/103400_103499/103458/01.01.01_60/ts_103458v010101p.pdf> .
 
 cssvrsc:c0a52bf67a7da7ebb8133deff4b25b0cfc9c5f76a40ccf0e4cbf8b58f75e44fc a cssv:Specification,
         owl:NamedIndividual ;
@@ -8427,15 +8232,10 @@ cssvrsc:d13b00508474ac53815d9b6faab303cb42aaae9546ff64c443fb9f2040c233bd a cssv:
     dcat:distribution cssvrsc:0d7f7f27-f0e1-4d8e-90ec-781e52d715ac ;
     dcat:version "2.0.0" .
 
-cssvrsc:d15a7600a39af7ebe694c5d1df6d715a3e785a9c32a3ff7b4dd56091572c8cb9 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "StartTLS"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    dct:description "StartTLS defines a function within a particular protocol session (commonly referred to as a protocol command) that is used to notify the email server that the email client wants to switch from an insecure connection to a secure connection using TLS or SSL."@en ;
-    dct:title "StartTLS"@en ;
-    dcat:distribution cssvrsc:17c59708-0ea5-4b21-8d88-af621b566f33 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/d15a7600a39af7ebe694c5d1df6d715a3e785a9c32a3ff7b4dd56091572c8cb9> a prof:Profile ;
+    dct:title "StartTLS" ;
+    prof:isProfileOf cssvrsc:9507d4ac72d66333e672b706dec4d4c278150753852ba3bb607554dc9bfb64f9 ;
+    <http://purl.org/dc/terms/publisher> <https://tools.ietf.org/html/rfc2595> .
 
 cssvrsc:d1a55eb511887f571a8633ee6951ac78e3f386ccbfca7a8a6a8a628ed9c2ff30 a cssv:Specification,
         owl:NamedIndividual ;
@@ -8618,15 +8418,10 @@ cssvrsc:d4e941075bdab8f5195d438fa2defe892522db4b90f577d44471f9648f120cb1 a cssv:
     dcat:distribution cssvrsc:670c171c-7f30-4b88-9d9f-ad0f7b330db6 ;
     dcat:version "5.0.0" .
 
-cssvrsc:d501609df79752738a4bcfa47918a604cbcd5be2d5768f91db6328e26b108376 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    dct:description "The Token Binding Protocol is a proposed standard for a Transport Layer Security (TLS) extension that aims to increase TLS security by using cryptographic certificates on both ends of the TLS connection."@en ;
-    dct:title "The Token Binding Protocol"@en ;
-    dcat:distribution cssvrsc:ad5e6531-0ce8-42e2-ac0b-e1cb511c4e8e ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/d501609df79752738a4bcfa47918a604cbcd5be2d5768f91db6328e26b108376> a prof:Profile ;
+    dct:title "The Token Binding Protocol" ;
+    prof:isProfileOf cssvrsc:9507d4ac72d66333e672b706dec4d4c278150753852ba3bb607554dc9bfb64f9 ;
+    <http://purl.org/dc/terms/publisher> <https://datatracker.ietf.org/doc/html/rfc8471> .
 
 cssvrsc:d50c217890ba0c807f0af68830798ebaf638a0be2f14418c4090e51dcd70f30e a cssv:Specification,
         owl:NamedIndividual ;
@@ -8648,15 +8443,10 @@ cssvrsc:d5d426fadecd4bf723cb15532e2bb495aaaca594936ba8891258988920564c43 a cssv:
     dcat:distribution cssvrsc:d1f56ac3-c429-46b9-85b3-9a74a80a3a20 ;
     dcat:version "1.0.0" .
 
-cssvrsc:d699ec0c1917b67c6ab422b28728dd519000cca53c65bef39a942a8d8bcff2c4 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:3ccd5eb4c630bce8cc7e1adee15bd015260a39fda75e5abb4a6ac2c6bb76119f ;
-    dct:description "The Arazzo specification defines a standard, programming language-agnostic mechanism to express sequences of calls and articulate the dependencies between them to achieve a particular outcome, or set of outcomes, when dealing with API descriptions (such as OpenAPI descriptions)."@en ;
-    dct:title "Arazzo"@en ;
-    dcat:distribution cssvrsc:802b2408-8957-4ab4-a05d-ca64d9c6582f ;
-    dcat:version "1.0.1" .
+<http://data.europa.eu/2sa/cssv/rsc/d699ec0c1917b67c6ab422b28728dd519000cca53c65bef39a942a8d8bcff2c4> a prof:Profile ;
+    dct:title "Arazzo" ;
+    prof:isProfileOf cssvrsc:f236dc7ff527259efd080ce8e08ea42d6ccec39a99302f2da33e927666fbdf18 ;
+    <http://purl.org/dc/terms/publisher> <https://github.com/OAI/Arazzo-Specification> .
 
 cssvrsc:d76354663e545f8981dd61cf50a3dfe13e3938a004373dfd3ac2438896f006b8 a cssv:Specification,
         cssv:Family,
@@ -8802,15 +8592,10 @@ cssvrsc:dbbcf731896ac255a462fd008c619158922f551be78e24342e93f2279abf94ed a cssv:
     dcat:distribution cssvrsc:74c2dfea-504e-4808-8111-771433cb86b9 ;
     dcat:version "L 315/44" .
 
-cssvrsc:dbd0b032b3ec7eb0b043fa1dc3b5df5913b1388ffde57e8e3650b5b0f2f33eb1 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "ETSI TS 119 312"@en ;
-    cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
-    dct:description "The ETSI TS 119 312 specification provides guidance on cryptographic suites for the creation and validation of digital signatures and electronic timestamps, as well as related certificates. Its main objective is to ensure interoperability and a high level of security in trust services. To achieve this, it is based on the cryptographic mechanisms agreed upon by SOG-IS agreement."@en ;
-    dct:title "Electronic Signatures and Trust Infrastructures (ESI); Cryptographic Suites (ETSI TS 119 312)"@en ;
-    dcat:distribution cssvrsc:61117562-6f61-4f7c-9d07-bce4c22bcd30 ;
-    dcat:version "1.5.1" .
+<http://data.europa.eu/2sa/cssv/rsc/dbd0b032b3ec7eb0b043fa1dc3b5df5913b1388ffde57e8e3650b5b0f2f33eb1> a prof:Profile ;
+    dct:title "Electronic Signatures and Trust Infrastructures (ESI); Cryptographic Suites (ETSI TS 119 312)" ;
+    prof:isProfileOf cssvrsc:0a1c82b34ffc0e892fc95e57038b285d1bff99fc8457ebe074942e067bad32f2 ;
+    <http://purl.org/dc/terms/publisher> <https://www.etsi.org/deliver/etsi_ts/119300_119399/119312/01.05.01_60/ts_119312v010501p.pdf> .
 
 cssvrsc:dc70a1946ca6f74179f6cb112277913e0efdcc46325e1d011364255a202ba9ac a cssv:Specification,
         cssv:Standard,
@@ -8923,15 +8708,10 @@ cssvrsc:df502be6cf0d0a68c7358be2bc8a66de5c0ed793696d5a09c8ab44e9b9faaac9 a cssv:
              foaf:page <https://www.numerique.gouv.fr/offre-accompagnement/reference-interoperabilite-rgi/>
         ] .
 
-cssvrsc:df510fb5b18c424c89c1f8b25d628133278859ae42285ead4ecb0676a907da09 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "DCAT-NAP-AP"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "napDCAT-AP is an ongoing project by the European ITS Platform (EU EIP). It aims to extend the DCAT-AP (Data Catalog Vocabulary for Data Portals in Europe) specification to include metadata for National Access Points (NAPs)."@en ;
-    dct:title "DCAT-AP extension for Metadata in National Access Points (DCAT-NAP-AP)"@en ;
-    dcat:distribution cssvrsc:2060c0eb-94da-421c-853a-28c65ddeea58 ;
-    dcat:version "0.8.0" .
+<http://data.europa.eu/2sa/cssv/rsc/df510fb5b18c424c89c1f8b25d628133278859ae42285ead4ecb0676a907da09> a prof:Profile ;
+    dct:title "DCAT-AP extension for Metadata in National Access Points (DCAT-NAP-AP)" ;
+    prof:isProfileOf cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4 ;
+    <http://purl.org/dc/terms/publisher> <https://eueip.github.io/napDCAT-AP/> .
 
 cssvrsc:df5f1390fa815084b46dfab87c6390c5a8b9abf8f280d21f521bf02e93ea5ef3 a cssv:Specification,
         owl:NamedIndividual ;
@@ -9011,30 +8791,25 @@ cssvrsc:e051c1f5d4763671fc14fadb9f1e10ca21d0c4239be3c33d5c17b573e9c4bedd a cssv:
     dcat:distribution cssvrsc:f6f20fcc-2be0-4d3a-b04d-f72d1a433c66 ;
     dcat:version "3.0.10" .
 
-cssvrsc:e070cdaaaf2f8e66e562f7d3dfe35baafd7ddb7e118eb72b66ef5adfeccb1a71 a cssv:Specification,
-        cssv:Standard,
+cssvrsc:9c1c53883186af3e969a0adf604f25ecbf3b49ddec5f641425217fa9e08393e9 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative "ISO 19011:2018"@en ;
+    cssv:acronym "ISO 9001"@en ;
+    cssv:alternative "ISO 9001:2015"@en ;
     cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
-    dct:description "This document provides guidance on auditing management systems, including the principles of auditing, managing an audit programme and conducting management system audits, as well as guidance on the evaluation of competence of individuals involved in the audit process. These activities include the individual(s) managing the audit programme, auditors and audit teams. It is applicable to all organizations that need to plan and conduct internal or external audits of management systems or manage an audit programme. The application of this document to other types of audits is possible, provided that special consideration is given to the specific competence needed."@en ;
-    dct:title "ISO 19011:2018 Guidelines for auditing management systems"@en ;
-    dcat:distribution cssvrsc:24972b95-2751-45d0-b6ab-3dc2dfd68e3b ;
-    dcat:version "3.0.0" .
+    dct:description "ISO 9001:2015 sets out the criteria for a quality management system and is the only standard in the ISO 9000 family that can be certified to. It is based on a number of quality management principles including a strong customer focus, the motivation and implication of top management, the process approach and continual improvement."@en ;
+    dct:title "ISO 9001:2015 Quality management systems — Requirements"@en ;
+    dcat:distribution cssvrsc:0d7340fc-4949-409b-8136-10f22826494f ;
+    dcat:version "2015" .
 
 <http://data.europa.eu/2sa/cssv/rsc/e070cdaaaf2f8e66e562f7d3dfe35baafd7ddb7e118eb72b66ef5adfeccb1a71> a prof:Profile ;
     dct:title "ISO 19011:2018 Guidelines for auditing management systems" ;
+    prof:isProfileOf cssvrsc:9c1c53883186af3e969a0adf604f25ecbf3b49ddec5f641425217fa9e08393e9 ;
     <http://purl.org/dc/terms/publisher> <https://www.iso.org/standard/70017.html> .
 
-cssvrsc:e140535a651dd589a52fc2404c4e53078c2daf735f2d5a3789ebbf5fc06beef8 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "AS4"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "The eDelivery AS4 Profile is a modular profile of the ebMS3 and AS4 OASIS specifications. It is a profile for the secure and payload-agnostic exchange of Business-to-business documents using Web services. It is a CEF profile providing requirements for data exchange services."@en ;
-    dct:title "e-delivery AS4"@en ;
-    dcat:distribution cssvrsc:b20c565a-20fd-46c5-9978-57548577e200 ;
-    dcat:version "1.15.0" .
+<http://data.europa.eu/2sa/cssv/rsc/e140535a651dd589a52fc2404c4e53078c2daf735f2d5a3789ebbf5fc06beef8> a prof:Profile ;
+    dct:title "e-delivery AS4" ;
+    prof:isProfileOf cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 ;
+    <http://purl.org/dc/terms/publisher> <https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467117638/eDelivery+AS4+-+1.15> .
 
 cssvrsc:e16c26ec6e45082030648832bf5b07a2a55d64968582d394bf18b7b873c2776b a cssv:Specification,
         owl:NamedIndividual ;
@@ -9620,15 +9395,10 @@ cssvrsc:e9bb09990f610bec081e4275f7a49d6a4cdf7df89e3903a5daff682135f02c35 a cssv:
     dcat:previousVersion cssvrsc:1051d9d733d3a1f21d84e7efb0d9812dba7a5fb8b467dcfacf33ca6c86904e10 ;
     dcat:version "2.0.0" .
 
-cssvrsc:e9d18f5f7e9f1b8f178f6c21bbb9e6ef032f44cc13b6ad8bc32ccba28df2f4bf a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    dct:description "FreeRADIUS is the open source implementation of RADIUS, an IETF protocol for AAA (Authorisation, Authentication, and Accounting)."@en ;
-    dct:title "FreeRADIUS"@en ;
-    dcat:distribution cssvrsc:a426eabc-2054-45c2-af60-69b2f7cc791d ;
-    dcat:version "3.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/e9d18f5f7e9f1b8f178f6c21bbb9e6ef032f44cc13b6ad8bc32ccba28df2f4bf> a prof:Profile ;
+    dct:title "FreeRADIUS" ;
+    prof:isProfileOf cssvrsc:2b6317fbca9b5bb764580e30c013723a6fd759d4d0e7fb54376c8e9bff12d401 ;
+    <http://purl.org/dc/terms/publisher> <https://freeradius.org/documentation/> .
 
 cssvrsc:ea1887cf6ceb4929fc4a5de8a2180ce8ce23f197de2b61a275d88cd46323fb6a a cssv:Specification,
         cssv:Family,
@@ -9761,15 +9531,10 @@ cssvrsc:ed6a64677edc639c9631d69bb22ab685927454f0a79e0b682efe13f4c9fa35d7 a cssv:
     dcat:distribution cssvrsc:e83736f2-f29f-4b5c-935f-4e21c55c5b7b ;
     dcat:version "L 172/56" .
 
-cssvrsc:ed84e5cca1a760f8086028752750c99774b3f00ba2391d1ef8bd0da658fbf183 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "EBSI-DID"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "EBSI-DID defines the methods for creating, resolving, and managing Decentralized Identifiers (DIDs) within the European Blockchain Services Infrastructure (EBSI)."@en ;
-    dct:title "EBSI - Decentralized indetifier (EBSI-DID)"@en ;
-    dcat:distribution cssvrsc:c4447252-1e80-45a7-ad03-e9f3d445d050 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/ed84e5cca1a760f8086028752750c99774b3f00ba2391d1ef8bd0da658fbf183> a prof:Profile ;
+    dct:title "EBSI - Decentralized indetifier (EBSI-DID)" ;
+    prof:isProfileOf cssvrsc:690863a8be09410b30645ee00ec4fb646f6f12f37f8969c48b9b330bc30fbf6d ;
+    <http://purl.org/dc/terms/publisher> <https://www.iso.org/standard/71885.html> .
 
 cssvrsc:eda8963fef30913a42e112250c4b58b0fd42baaeb3d601cac3a427b1d2b5290e a cssv:Specification,
         cssv:Standard,
@@ -9865,16 +9630,10 @@ cssvrsc:f02ea1d3690a89ddc570508919eb8bc2468493430ab03f24fd0d61998501e306 a cssv:
     dcat:distribution cssvrsc:4eb00268-b75e-4bc6-a04a-0bc844e26e48 ;
     dcat:version "1.0.0" .
 
-cssvrsc:f1181e955e79e9918e586765efd622942561196bcf2ac936ff8598e0efaa94fe a cssv:Specification,
-        cssv:Standard,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    dct:description "This standard describes the use of Transport Layer Security (TLS) to provide a secure connection for the transport of syslog messages. IT also describes the security threats to syslog and how TLS can be used to counter such threats."@en ;
-    dct:title "Transport Layer Security (TLS) Transport Mapping for Syslog"@en ;
-    dcat:distribution cssvrsc:b99ba9a7-ff5a-455e-8c13-fe07bf61f846 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/f1181e955e79e9918e586765efd622942561196bcf2ac936ff8598e0efaa94fe> a prof:Profile ;
+    dct:title "Transport Layer Security (TLS) Transport Mapping for Syslog" ;
+    prof:isProfileOf cssvrsc:9507d4ac72d66333e672b706dec4d4c278150753852ba3bb607554dc9bfb64f9 ;
+    <http://purl.org/dc/terms/publisher> <https://datatracker.ietf.org/doc/rfc5425/> .
 
 cssvrsc:f13fe97c82507e0945b310962f9cf3c269e731ce29b8ef5aa62bcfc57edaa0f3 a cssv:Specification,
         owl:NamedIndividual ;
@@ -9896,15 +9655,10 @@ cssvrsc:f236dc7ff527259efd080ce8e08ea42d6ccec39a99302f2da33e927666fbdf18 a cssv:
     dcat:distribution cssvrsc:677f8002-fdb0-4f9d-9971-b5ef9d6ce4b1 ;
     dcat:version "3.1.0" .
 
-cssvrsc:f246e4a67ffaaa842c3b3a78787b19628d9a6928fd4f91239372c73d1b9e618d a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:660e51b8105da3b41278152e1050aa45419708bdf5b48530d9e644a44ef8c7c0 ;
-    dct:description "This application profile document specifies the interfaces, bindings, and encodings required to publish and access digital catalogues of metadata for geospatial data, services, and applications that comply with the given profile."@en ;
-    dct:title "OGC I15 (ISO19115 Metadata) Extension Package of CS-W ebRIM Profile 1.0"@en ;
-    dcat:distribution cssvrsc:8f5cdb10-629f-469b-8544-d41fe38372c5 ;
-    dcat:version "1.0.2" .
+<http://data.europa.eu/2sa/cssv/rsc/f246e4a67ffaaa842c3b3a78787b19628d9a6928fd4f91239372c73d1b9e618d> a prof:Profile ;
+    dct:title "OGC I15 (ISO19115 Metadata) Extension Package of CS-W ebRIM Profile 1.0" ;
+    prof:isProfileOf cssvrsc:91619202409e9c8bf8074069a7cbe90fa606f23b88403e4e67494eb94fa59af6 ;
+    <http://purl.org/dc/terms/publisher> <https://www.ogc.org/standard/cat2eoext4ebrim/> .
 
 cssvrsc:f2c5ca77b353f96dffe6df722a1f36cddf6e502c744ea9c59459d9144156494f a cssv:Specification,
         owl:NamedIndividual ;
@@ -10145,25 +9899,15 @@ cssvrsc:f5f48a4c870ee0803124dca2c14551cc649b4b4559bfa0188b20a0f844e63edf a cssv:
     dcat:distribution cssvrsc:921e34c9-df86-42d0-8ae8-eaffb978907c ;
     dcat:version "4.2.0" .
 
-cssvrsc:f64a3ba68f3870aacc0280464fb8e957566d9aa0040db5dd45777ddcae7db118 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
-    dct:description "The AES-CMAC algorithm specifies an authentication algorithm built on the Cipher-based Message Authentication Code (CMAC) with the 128-bit Advanced Encryption Standard (AES). AES-CMAC offers a better assurance of data integrity than a checksum or error detection code."@en ;
-    dct:title "AES-CMAC algorithm"@en ;
-    dcat:distribution cssvrsc:0f14c5ef-d832-4a2e-bab7-b36eb0aadd85 ;
-    dcat:version "3.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/f64a3ba68f3870aacc0280464fb8e957566d9aa0040db5dd45777ddcae7db118> a prof:Profile ;
+    dct:title "AES-CMAC algorithm" ;
+    prof:isProfileOf cssvrsc:f583cf0bd8c648594647d8361d498fa4514355f12a4233b496de8f51d1debfc0 ;
+    <http://purl.org/dc/terms/publisher> <https://www.rfc-editor.org/rfc/rfc4493.html> .
 
-cssvrsc:f75650204c41b7547d47aed953052a72de01cbc9d3ac65c3bf949780a2f6ff70 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "UBER"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:9b720c7c045589425b5858f4f0dcfcb5fd8ac0a1a743ebfb9a8cf04bffa2f324 ;
-    dct:description "The UBER document format is a minimal read/write hypermedia type designed to support simple state transfers and ad-hoc hypermedia-based transitions. This specification describes both the XML and JSON variants of the format and provides guidelines for supporting UBER-encoded messages over the HTTP protocol."@en ;
-    dct:title "Uniform Basis for Exchanging Representations (UBER)"@en ;
-    dcat:distribution cssvrsc:5fd6aa6c-4308-43f1-899a-f5990bfeb898 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/f75650204c41b7547d47aed953052a72de01cbc9d3ac65c3bf949780a2f6ff70> a prof:Profile ;
+    dct:title "Uniform Basis for Exchanging Representations (UBER)" ;
+    prof:isProfileOf cssvrsc:25dab677623f3eb070ccc352529bbc8d911258ac4ad0837bedc3cc2606dab9e1 ;
+    <http://purl.org/dc/terms/publisher> <https://rawgit.com/uber-hypermedia/specification/master/uber-hypermedia.html> .
 
 cssvrsc:f765720238ac871ce1596a081584891d04f4b651721d9da812e9e74330f6c346 a cssv:Specification,
         owl:NamedIndividual ;
@@ -10256,15 +10000,10 @@ cssvrsc:f86fa8439db10ab4dec432b3939b5527adc12fa217845661736959eccf896e35 a cssv:
     dcat:distribution cssvrsc:10d47bb7-7c5a-4729-adbb-3ee1079c2fea ;
     dcat:version "2.1.0" .
 
-cssvrsc:f87dfdb640b6ae7225549d78c0e76b11c1ad9e9356a17182b260e4923432b646 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym ""@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
-    dct:description "The Resource Description Framework (RDF) is a general-purpose framework for representing information on the Web. RDF-star extends RDF with a convenient way to make statements about other statements. This specification defines the abstract syntax of RDF-star as an extension of RDF's. It extends a number of RDF concrete syntaxes to support the new abstract syntax. It also extends RDF's formal semantics. Finally, this specification extends the SPARQL language to allow querying and updating of RDF-star data."@en ;
-    dct:title "RDF-star and SPARQL-star"@en ;
-    dcat:distribution cssvrsc:f660c876-fdf3-4f48-8f92-fd10dfb1ab07 ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/f87dfdb640b6ae7225549d78c0e76b11c1ad9e9356a17182b260e4923432b646> a prof:Profile ;
+    dct:title "RDF-star and SPARQL-star" ;
+    prof:isProfileOf cssvrsc:a4a7987e596ba4b307e31ac3ee5f8011e0bc7baf38f31bdda3122c2d25cd461e ;
+    <http://purl.org/dc/terms/publisher> <https://www.w3.org/2021/12/rdf-star.html> .
 
 cssvrsc:f89d504119769a02d8f58d34e7b645d168a78fa1c1de631d48b3e0f2331d3d00 a cssv:Specification,
         cssv:Standard,
@@ -10310,15 +10049,10 @@ cssvrsc:f9f266ff5a4e9932ce671b5e0d44de75978ba8ed545b989a8c197e26be9a1fda a cssv:
              foaf:page <https://data.gov.ie/pages/opendatatechnicalframework>
         ] .
 
-cssvrsc:f9fabf6f9e386fd28c1b6776c65cb19baf8dca7999e7612481594bfd852c4af7 a cssv:Specification,
-        owl:NamedIndividual ;
-    cssv:acronym "EBSI-OpenID4VC"@en ;
-    cssv:alternative ""@en ;
-    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "The EBSI-OpenID4VC specification integrates OpenID Connect with the European Blockchain Services Infrastructure (EBSI) to enable the issuance and verification of Verifiable Credentials (VCs). It supports secure and interoperable digital identities and credentials using JSON Web Tokens (JWT) and Linked Data Proofs (LDP) formats, enhancing trust and privacy in digital transactions​"@en ;
-    dct:title "EBSI OpenID Connect for Verifiable Credentials (EBSI-OpenID4VC)"@en ;
-    dcat:distribution cssvrsc:67ea8ceb-7866-4ed0-8902-02aa95e4365a ;
-    dcat:version "1.0.0" .
+<http://data.europa.eu/2sa/cssv/rsc/f9fabf6f9e386fd28c1b6776c65cb19baf8dca7999e7612481594bfd852c4af7> a prof:Profile ;
+    dct:title "EBSI OpenID Connect for Verifiable Credentials (EBSI-OpenID4VC)" ;
+    prof:isProfileOf cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e16 ;
+    <http://purl.org/dc/terms/publisher> <https://openid.net/specs/openid-connect-core-1_0.html> .
 
 cssvrsc:e0d67bbafa776a1ec31b8e1958431b650a473dac02daa77e50f8492d719c7c4a a cssv:Specification,
         cssv:Family,
@@ -10595,15 +10329,80 @@ cssvrsc:1c2ed9427d6d77f72664da4e7b01f07ceaa893deddd6c91431b2cf6e2ea10450 a cssv:
     dcat:distribution cssvrsc:4997dbec-cb01-4fd4-9a45-2e198b642ef2 ;
     dcat:version "2.0.0" .
 
-cssvrsc:7c5c43cbfd32179ba1c29b53462088a0e0c7251bf8b3597f57987a35cf39b88f a cssv:Specification,
+<http://data.europa.eu/2sa/cssv/rsc/7c5c43cbfd32179ba1c29b53462088a0e0c7251bf8b3597f57987a35cf39b88f> a prof:Profile ;
+    dct:title "eDelivery SMP" ;
+    prof:isProfileOf cssvrsc:9a00bf19c66c10bfe72f81071aab316a8b092b226d20c947f993c8a678fd0ad9 ;
+    <http://purl.org/dc/terms/publisher> <https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/930451568/eDelivery+SMP+-+2.1> .
+
+cssvrsc:91619202409e9c8bf8074069a7cbe90fa606f23b88403e4e67494eb94fa59af6 a cssv:Specification,
         owl:NamedIndividual ;
-    cssv:acronym ""@en ;
+    cssv:acronym "CSW-ebRIM"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:660e51b8105da3b41278152e1050aa45419708bdf5b48530d9e644a44ef8c7c0 ;
+    dct:description "The OGC Catalogue Services specification defines interfaces and bindings for publishing and accessing digital catalogues of metadata for geospatial data and services. The CSW-ebRIM profile specifies how the ebXML Registry Information Model (ebRIM) is used as the underlying data model for OGC Catalogue Services (CSW)."@en ;
+    dct:title "CSW-ebRIM Registry Service - Part 1: ebRIM profile of CSW"@en ;
+    dcat:distribution cssvrsc:c11bd5b0-8e98-442c-bc2c-8e30ec9cab8d ;
+    dcat:version "1.0.0" .
+
+cssvrsc:d566ca7be6fd3a5e83ce8d58c9c51c516f8846e3d8d9c6364b57104b0cde0c3b a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "eDelivery"@en ;
     cssv:alternative ""@en ;
     cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
-    dct:description "The eDelivery SMP specification provides a set of implementation guidelines for the OASIS SMP specification. It is designed to be used in eDelivery with the Dynamic Sender Profile Enhancement in the eDelivery AS4 Profile, the eDelivery BDXL profile and the eDelivery ebCore Party Id profile. Its main function is to exchange electronic data and documents between one and other in a reliable way."@en ;
-    dct:title "eDelivery SMP"@en ;
-    dcat:distribution cssvrsc:3c60bafc-ac78-4427-a74e-89713914468a ;
-    dcat:version "2.1.0" .
+    dct:description "eDelivery is a building block of the European Commission's Connecting Europe Facility (CEF). It defines a network of nodes for secure digital data exchange based on open standards. eDelivery enables public administrations, businesses and citizens to exchange electronic data and documents in an interoperable, secure, reliable and trusted way."@en ;
+    dct:title "eDelivery"@en ;
+    dcat:distribution cssvrsc:57544037-7b52-48e7-b19f-3f9d99d528d1 ;
+    dcat:version "1.0.0" .
+
+cssvrsc:0a1c82b34ffc0e892fc95e57038b285d1bff99fc8457ebe074942e067bad32f2 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "SOG-IS"@en ;
+    cssv:alternative "SOG-IS"@en ;
+    cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
+    dct:description "The SOG-IS (Senior Officials Group – Information Systems Security) Crypto Evaluation Scheme defines agreed cryptographic mechanisms for use in IT security evaluations and certifications across European member states, providing guidance on cryptographic algorithms, key lengths, and security parameters for trust services."@en ;
+    dct:title "SOG-IS Crypto Evaluation Scheme Agreed Cryptographic Mechanisms"@en ;
+    dcat:distribution cssvrsc:e68f3332-cfa3-4ae4-b366-714976cded50 ;
+    dcat:version "1.3.0" .
+
+cssvrsc:2076becb82e09569feb19de2ed44af6af737123d4a5097130bfa3554345df4db a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "ebMS3"@en ;
+    cssv:alternative "OASIS AS4"@en ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:description "OASIS ebXML Messaging Services Version 3.0 (ebMS3) is a communication protocol specification that defines a reliable, secure and transport-protocol-independent method for exchanging electronic business messages over the Internet. AS4 is a conformance profile of ebMS3 widely used in document exchange networks."@en ;
+    dct:title "OASIS ebMS 3.0 (ebMS3)"@en ;
+    dcat:distribution cssvrsc:f8d2aee9-07a9-40f9-83af-c6c484e10935 ;
+    dcat:version "3.0.0" .
+
+cssvrsc:2b6317fbca9b5bb764580e30c013723a6fd759d4d0e7fb54376c8e9bff12d401 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "RADIUS"@en ;
+    cssv:alternative "RFC 2865"@en ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "RADIUS (Remote Authentication Dial-In User Service) is a networking protocol that provides centralised authentication, authorisation, and accounting management for users who connect and use a network service. Defined in RFC 2865, it operates as a client/server protocol at the application layer."@en ;
+    dct:title "RADIUS (Remote Authentication Dial-In User Service)"@en ;
+    dcat:distribution cssvrsc:c3837b05-5fca-4a0d-b6d8-5c36a86f88a9 ;
+    dcat:version "1.0.0" .
+
+cssvrsc:8e84265819bf3bccd8ee6a2aa5fae945fbba94616bd9e5e443be28204f4c812d a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "RFID"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:d068ae3f06bb496642ee8897059999c29d8e9c7c88f6fed5c3ee8bc693b92f13 ;
+    dct:description "Radio Frequency Identification (RFID) is a wireless technology that uses electromagnetic fields to automatically identify and track tags attached to objects. RFID frameworks and guidelines are defined by ITU-T and other bodies to address privacy, security and interoperability concerns for deployments in supply chains, access control, and asset tracking."@en ;
+    dct:title "RFID (Radio Frequency Identification)"@en ;
+    dcat:distribution cssvrsc:109a7a4c-c91c-4ffe-971c-e483d5266e48 ;
+    dcat:version "1.0.0" .
+
+cssvrsc:24a945f1f6d99dd9bfaee500086f13d008e7487f65d9fc2708a4605fd6e9ce13 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "NIEM"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:d60947f5562ad10eca1a7227a196a5a7917c97b64c85f118a0419640a654e5ff ;
+    dct:description "The National Information Exchange Model (NIEM) is a community-driven, government-wide standard that provides a common vocabulary to enable efficient information exchange across diverse public and private organisations at all levels of government, supporting interoperability in data sharing and information exchange packages."@en ;
+    dct:title "NIEM (National Information Exchange Model)"@en ;
+    dcat:distribution cssvrsc:68a5c122-0ad7-4a9c-982d-44531201acf0 ;
+    dcat:version "5.0.0" .
 
 cssvrsc:6da670f6a030973c0d0e9154c62bff7a4bdd90de6d8e4018f0329c94e4564a3e a cssv:Specification,
         owl:NamedIndividual ;
@@ -10702,6 +10501,34 @@ cssvrsc:027d805c-88fc-4442-b3c9-4f060ba1762c a owl:NamedIndividual,
     dcat:accessURL <https://mas.owasp.org/MASVS/> ;
     dcat:downloadURL <https://mas.owasp.org/MASVS/> .
 
+cssvrsc:c11bd5b0-8e98-442c-bc2c-8e30ec9cab8d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.ogc.org/standard/cat2eoext4ebrim/> .
+
+cssvrsc:57544037-7b52-48e7-b19f-3f9d99d528d1 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eDelivery> .
+
+cssvrsc:e68f3332-cfa3-4ae4-b366-714976cded50 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.sogis.eu/documents/cc/crypto/SOGIS-Agreed-Cryptographic-Mechanisms-1.3.pdf> .
+
+cssvrsc:f8d2aee9-07a9-40f9-83af-c6c484e10935 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://docs.oasis-open.org/ebxml-msg/ebms/v3.0/core/os/ebms_core-3.0-spec-os.html> .
+
+cssvrsc:c3837b05-5fca-4a0d-b6d8-5c36a86f88a9 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.rfc-editor.org/rfc/rfc2865> .
+
+cssvrsc:109a7a4c-c91c-4ffe-971c-e483d5266e48 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.itu.int/rec/T-REC-X.1277> .
+
+cssvrsc:68a5c122-0ad7-4a9c-982d-44531201acf0 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://niem.github.io/> .
+
 cssvrsc:030d7a6b-fba9-4d5e-bdef-5fcf5ef9b273 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/obp/ui/#search> .
@@ -10762,10 +10589,6 @@ cssvrsc:093880a4-2e8b-425c-9c1b-10e8f71fcfdf a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/growth/single-market/european-standards/policy_en> .
 
-cssvrsc:0a2db953-cc71-4f7f-9a1e-20241e642b83 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.itu.int/rec/T-REC-X.1363-202005-I/en> .
-
 cssvrsc:0a84d164-01a5-4b19-a093-f70f8224901f a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0001.01.ENG> .
@@ -10816,22 +10639,9 @@ cssvrsc:0e70d911-36b8-4bb9-8899-a664b8806e32 a owl:NamedIndividual,
     dcat:accessURL <https://microformats.org/wiki/microformats2> ;
     dcat:downloadURL <https://microformats.org/wiki/microformats2> .
 
-cssvrsc:0e8cbf63-b591-4f59-b143-ba5984eeede6 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.itu.int/rec/T-REC-X.509> .
-
-cssvrsc:0ea23056-4981-4b50-bd98-c8c794f6bbbd a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103900_103999/103964/01.01.01_60/ts_103964v010101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103900_103999/103964/01.01.01_60/ts_103964v010101p.pdf> .
-
 cssvrsc:0ec72e1c-3d6f-4b64-8931-af5b8172482d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://specs.opencontainers.org/distribution-spec/?v=v1.0.0> .
-
-cssvrsc:0f14c5ef-d832-4a2e-bab7-b36eb0aadd85 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.rfc-editor.org/rfc/rfc4493.html> .
 
 cssvrsc:0fb53786-86db-4388-b226-f73d53077a35 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10941,10 +10751,6 @@ cssvrsc:17999609-de08-49c7-8c16-ea39b8b40964 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.ogc.org/standard/gml/> .
 
-cssvrsc:17c59708-0ea5-4b21-8d88-af621b566f33 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://tools.ietf.org/html/rfc2595> .
-
 cssvrsc:17d1b3fd-2b34-40fa-b5e1-678cda757d54 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://app.nbn.be/data/r/platform/frontend/detail?p40_id=226273&p40_language_code=en&p40_detail_id=94411&session=27361077061641> ;
@@ -11011,11 +10817,6 @@ cssvrsc:1e0e84d8-769e-4884-a665-33bb732c9879 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103200_103299/103264/03.01.01_60/ts_103264v030101p.pdf> .
 
-cssvrsc:1e386daf-a136-4df5-9215-4a8f3bc59b65 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://rwcbook.github.io/hal-forms/> ;
-    dcat:downloadURL <https://rwcbook.github.io/hal-forms/> .
-
 cssvrsc:1e3bf6d5-ddf1-4dfa-8b01-39c38d9555de a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://datatracker.ietf.org/doc/html/rfc7033> ;
@@ -11047,10 +10848,6 @@ cssvrsc:1fd1bf86fa057ad7a48c6bc0510054d919a8a89c08583e4fb3ca94009e11eb27 a owl:N
         org:Organization ;
     skos:prefLabel "Apiary"@en .
 
-cssvrsc:2060c0eb-94da-421c-853a-28c65ddeea58 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://eueip.github.io/napDCAT-AP/> .
-
 cssvrsc:20634a0bc1444eee6a3f292a9cc41253e6e0e26958fe1e796846c181dfc4f045 a owl:NamedIndividual,
         org:Organization ;
     skos:prefLabel "APDEX Alliance"@en .
@@ -11058,11 +10855,6 @@ cssvrsc:20634a0bc1444eee6a3f292a9cc41253e6e0e26958fe1e796846c181dfc4f045 a owl:N
 cssvrsc:20b74e91-4d2d-4c3c-82d3-c0fad9dce735 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.ecma-international.org/publications/standards/Ecma-262.htm> .
-
-cssvrsc:20f6ce11-89bf-479a-aa8f-beb7e5b3d77c a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.w3.org/TR/sparql11-http-rdf-update/> ;
-    dcat:downloadURL <https://www.w3.org/TR/sparql11-http-rdf-update/> .
 
 cssvrsc:20f7ddab-5260-4ffe-bdd5-6df4c69bbc92 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -11263,10 +11055,6 @@ cssvrsc:2f9c155e-593c-4b40-8c4b-1c4945109ca1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.europarl.europa.eu/RegData/etudes/etudes/join/2013/507457/IPOL-IMCO_ET(2013)507457_EN.pdf> .
 
-cssvrsc:2fae2043-3b27-4993-9add-8a1c01baf17d a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://niem.github.io/NIEM-HLVA-Spec/5.0/NIEM_HLVA_5.0.pdf> .
-
 cssvrsc:4997dbec-cb01-4fd4-9a45-2e198b642ef2 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://semiceu.github.io/ADMS/releases/2.00/> .
@@ -11417,10 +11205,6 @@ cssvrsc:398ef5892979fec4a29c549250887cf6cffc5446b35fee6093b39a269119efa6 a owl:N
 cssvrsc:39d16cae-5077-4de9-9328-97237ed2b9a6 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/51914.html> .
-
-cssvrsc:39e54331-628d-4e8a-a602-442987c96875 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.onem2m.org/technical/published-specifications/release-5> .
 
 cssvrsc:3a01df9b-8e5f-4f6c-b1c3-70203967df19 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -11589,10 +11373,6 @@ cssvrsc:41e4dff0-69a2-489b-8110-e9cd4f3433d3 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://toop.eu/sites/default/files/D23_Generic_Federated_OOP_Architecture_3rd_version.pdf> .
 
-cssvrsc:4248756a-3f00-4cfe-81d8-31f54db6c3b6 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.rfc-editor.org/rfc/rfc6480> .
-
 cssvrsc:427a7ad3-989d-46c2-a4a0-72d1686ba3db a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://csrc.nist.gov/files/pubs/conference/1992/10/13/rolebased-access-controls/final/docs/ferraiolo-kuhn-92.pdf> ;
@@ -11630,10 +11410,6 @@ cssvrsc:43ca0b7a-db6d-4091-829d-da6a03424df0 a owl:NamedIndividual,
 cssvrsc:43eb7eba-977f-4fc1-b89f-c66b7ead3161 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://api.jquery.com/jquery.ajax/> .
-
-cssvrsc:43f35e3e-e054-4a9e-a256-cd29759eeeeb a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.rfc-editor.org/rfc/rfc4122> .
 
 cssvrsc:4437e890-08f0-4e2d-b476-87d7aec4dc16 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12044,15 +11820,6 @@ cssvrsc:5fb1fcea-8f66-4714-9b3b-1bf5c2261ff3 a owl:NamedIndividual,
     dcat:accessURL <https://www.itu.int/rec/T-REC-L.1070-202311-I/en> ;
     dcat:downloadURL <https://www.itu.int/rec/T-REC-L.1070-202311-I/en> .
 
-cssvrsc:5fc5f407-aabb-43c0-a1b2-98645b2e77ac a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://sla4oai.specs.governify.io/> .
-
-cssvrsc:5fd6aa6c-4308-43f1-899a-f5990bfeb898 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://rawgit.com/uber-hypermedia/specification/master/uber-hypermedia.html> ;
-    dcat:downloadURL <https://github.com/straiforos/specification/blob/master/uber-hypermedia.asciidoc> .
-
 cssvrsc:5fd92f20-6982-4db5-9316-144d450c6f73 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A31987H0598> .
@@ -12074,11 +11841,6 @@ cssvrsc:60b04e78-e399-41ac-9a31-b3582693b167 a owl:NamedIndividual,
 cssvrsc:60b909a4-748a-43b9-a093-be96c35ad49b a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.oasis-open.org/csaf/csaf-cvrf/v1.2/csaf-cvrf-v1.2.html> .
-
-cssvrsc:61117562-6f61-4f7c-9d07-bce4c22bcd30 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/119300_119399/119312/01.05.01_60/ts_119312v010501p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/119300_119399/119312/01.05.01_60/ts_119312v010501p.pdf> .
 
 cssvrsc:61cf2593-e4d0-4c33-871f-e3c0b3d0ea47 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12127,10 +11889,6 @@ cssvrsc:65187440-e793-487b-aa2f-335acf6fcde1 a owl:NamedIndividual,
     dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103845/01.01.01_60/ts_103845v010101p.pdf> ;
     dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103800_103899/103845/01.01.01_60/ts_103845v010101p.pdf> .
 
-cssvrsc:6530e8a2-a997-4dc2-acce-18c41580bcfa a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.ogc.org/standard/cat2eoext4ebrim/> .
-
 cssvrsc:6555b665-e1e2-4e31-8f54-807de7dd4b6c a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.peppol.eu/edelivery/policies/PEPPOL-EDN-Policy-for-Transport-Security-1.1.0-2020-04-20.pdf> .
@@ -12160,10 +11918,6 @@ cssvrsc:670c171c-7f30-4b88-9d9f-ad0f7b330db6 a owl:NamedIndividual,
 cssvrsc:677f8002-fdb0-4f9d-9971-b5ef9d6ce4b1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://spec.openapis.org/oas/v3.1.0> .
-
-cssvrsc:67ea8ceb-7866-4ed0-8902-02aa95e4365a a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://openid.net/specs/openid-connect-core-1_0.html> .
 
 cssvrsc:681bf7df-f5b7-4b9f-b70b-8ab61a6d8c15 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12237,10 +11991,6 @@ cssvrsc:6cdc3bd3-b923-4c6c-b81f-d45408504c31 a owl:NamedIndividual,
 cssvrsc:6d2da3ca-2894-4076-b6a3-4e26123446a6 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://ec.europa.eu/isa2/sites/default/files/e-government_core_vocabularies_handbook.pdf> .
-
-cssvrsc:6d35f225-932c-4063-be6a-95b3ca815628 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://docs.oasis-open.org/ebcore/cppa/v3.0/cs01/cppa-v3.0-cs01.html> .
 
 cssvrsc:6d738cfa-4a70-4662-8158-eddf9f0876fe a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12443,10 +12193,6 @@ cssvrsc:7b8209cd-5517-494a-9928-ba309ffe13ce a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://openconnectivity.org/developer/specifications/> .
 
-cssvrsc:7babc90d-a7d0-4e5e-a2b2-3eda6ecf05ee a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eDelivery+BDXL+1.6> .
-
 cssvrsc:7c25d6be-e3fd-4fd0-988c-2a985a9d2ebf a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.oasis-open.org/ubl/UBL-2.3-JSON/v1.0/cnd01/UBL-2.3-JSON-v1.0-cnd01.html> .
@@ -12517,10 +12263,6 @@ cssvrsc:7fe6fc5d-dcca-4f45-8a5b-8fcd9fd020a6 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2010:0744:FIN> .
 
-cssvrsc:7ffc3ebc-d822-41d1-bfad-3a3e1213c05c a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html> .
-
 cssvrsc:80055502-4c70-4c47-852b-80a9e1078983 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/obp/ui#iso:std:iso:ts:10020:ed-1:v1:en> ;
@@ -12539,11 +12281,6 @@ cssvrsc:80189733-2833-4fad-926c-4c73713fe758 a owl:NamedIndividual,
 cssvrsc:8023b6bf-a95c-4303-b271-84cafbbbf551 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.w3.org/TR/XAdES/> .
-
-cssvrsc:802b2408-8957-4ab4-a05d-ca64d9c6582f a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://github.com/OAI/Arazzo-Specification> ;
-    dcat:downloadURL <https://github.com/OAI/Arazzo-Specification> .
 
 cssvrsc:806a7675-4412-4e5e-a46f-8e4fe9a11af2 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12585,19 +12322,10 @@ cssvrsc:8293e4d5-bc3b-4ea4-8ab1-9c17fa4d6589 a owl:NamedIndividual,
     dcat:accessURL <https://gitlab.com/gaia-x/lab/compliance/gx-registry> ;
     dcat:downloadURL <https://gitlab.com/gaia-x/lab/compliance/gx-registry> .
 
-cssvrsc:830daac5-a657-4223-8ba3-c7de25698a60 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/02.01.01_60/ts_10341004v020101p.pdf> ;
-    dcat:downloadURL <https://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/02.01.01_60/ts_10341004v020101p.pdf> .
-
 cssvrsc:837350b2-12a8-4d7a-b3f8-dbe6d75c7fdc a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.omg.org/spec/DDS/1.4/PDF> ;
     dcat:downloadURL <https://www.omg.org/spec/DDS/1.4/PDF> .
-
-cssvrsc:83a8ed28-ca1d-42ab-b928-8a5c63978454 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://semiceu.github.io/GeoDCAT-AP/drafts/latest/> .
 
 cssvrsc:83c01bf8-f4d3-404e-97e0-8ade555e23fd a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12668,10 +12396,6 @@ cssvrsc:8a038bdf6f4cd87510ad55e8bf80636b08fe02924c5342cad4b92a0a5bb96e32 a owl:N
     skos:altLabel "Open Data Charter"@en ;
     skos:prefLabel "ODC"@en ;
     foaf:homepage <https://opendatacharter.org/> .
-
-cssvrsc:8af50ee7-5da9-430c-ab3b-881b52a6623e a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://docs.peppol.eu/edelivery/envelope/PEPPOL-EDN-Business-Message-Envelope-1.2.1-2020-03-11.pdf> .
 
 cssvrsc:8b9e4db2-df7a-4678-abc8-4530e8728183 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12749,10 +12473,6 @@ cssvrsc:8ec2f0da-4253-4540-8e26-bfc9114d2eaf a owl:NamedIndividual,
 cssvrsc:8f029b25-fefc-4cde-825b-9efbe241a695 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_en/319100_319199/31912202/01.01.01_60/en_31912202v010101p.pdf> .
-
-cssvrsc:8f5cdb10-629f-469b-8544-d41fe38372c5 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.ogc.org/standard/cat2eoext4ebrim/> .
 
 cssvrsc:903bca5a-4a15-41f0-939f-d0acdfe00158 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -13035,10 +12755,6 @@ cssvrsc:9f722a13-d32c-4275-a3f5-1bbe069d4a41 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.ogc.org/is/23-008r3/23-008r3.html> .
 
-cssvrsc:a03ee11d-d0e0-4c86-b96a-ccb0cbc4f0fe a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/103400_103499/103458/01.01.01_60/ts_103458v010101p.pdf> .
-
 cssvrsc:a062623ad5cf4583d8137ae7ad5e12cd8731097a8e936949a0fa613721988f35 a org:Organization ;
     skos:altLabel "Stateless"@en ;
     skos:prefLabel "Stateless"@en ;
@@ -13093,11 +12809,6 @@ cssvrsc:a2c3cfe200e3f50809f35894ed4e80f53e18025fca8f43396a2825eca110a556 a owl:N
         org:Organization ;
     skos:prefLabel "Dwolla"@en .
 
-cssvrsc:a2dcaa2f-2b9b-4df6-ab79-0eef3dcc7fd6 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/> ;
-    dcat:downloadURL <https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/> .
-
 cssvrsc:a2e52791-7512-4612-a521-4c68a6be3843 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-Y.4122-202107-I/en> .
@@ -13115,10 +12826,6 @@ cssvrsc:a3d97cba4beaa04ed600aa09d17e56d22379ba34960160400e25fb6ff58f72bd a owl:N
 cssvrsc:a41f1928-6711-4e4c-9cae-1fe0ccd85f85 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014L0055> .
-
-cssvrsc:a426eabc-2054-45c2-af60-69b2f7cc791d a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://freeradius.org/documentation/> .
 
 cssvrsc:a430b709c40210e74afd4eb04f8ff2a4f3bf36f9d16d2650ce4319af991aeaea a owl:NamedIndividual,
         org:Organization ;
@@ -13175,10 +12882,6 @@ cssvrsc:a6d0eae0-fda2-4c5e-8be6-edcbaa37b2d1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.gxfs.eu/data-exchange-logging-service/> ;
     dcat:downloadURL <https://www.gxfs.eu/data-exchange-logging-service/> .
-
-cssvrsc:a716c1cf-1a4e-4a3e-a173-75fe7716cb57 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://interoperable-europe.ec.europa.eu/collection/access-base-registries/solution/bregdcat-ap/release/210> .
 
 cssvrsc:a77fe5d2-a7ee-4bd3-97cc-3459f0d78aac a owl:NamedIndividual,
         dcat:Distribution ;
@@ -13295,10 +12998,9 @@ cssvrsc:ad233d11b09fe1134370075710c79c4b0b6a3b18186bbe4bad82d50ddd08fa32 a owl:N
     skos:prefLabel "yaml.org"@en ;
     foaf:homepage <https://yaml.org/> .
 
-cssvrsc:ad5e6531-0ce8-42e2-ac0b-e1cb511c4e8e a owl:NamedIndividual,
+cssvrsc:0d7340fc-4949-409b-8136-10f22826494f a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL <https://datatracker.ietf.org/doc/html/rfc8471> ;
-    dcat:downloadURL <https://datatracker.ietf.org/doc/html/rfc8471> .
+    dcat:accessURL <https://www.iso.org/standard/62085.html> .
 
 cssvrsc:ad6d5efcd1b04b8006e0a3228fcebdb1347925d8cdf3b1790d43285aa8614e41 a owl:NamedIndividual,
         org:Organization ;
@@ -13313,10 +13015,6 @@ cssvrsc:adaec688-a18d-4483-ad4f-3f52c5903778 a owl:NamedIndividual,
 cssvrsc:ae167767-7624-4165-aaa9-48afdbdca674 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/58046.html> .
-
-cssvrsc:af6333bb-4896-45b4-8e43-c293905a2a9a a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467109280/eIDAS+eID+Profile?preview=%2F467109280%2F467109285%2FeIDAS+SAML+Message+Format+v.1.2+Final.pdf> .
 
 cssvrsc:b015f3086d9adb2e85772fd6e995ae5e1893230527d6f6d5ed39a1c85927d7bb a owl:NamedIndividual,
         org:Organization ;
@@ -13347,10 +13045,6 @@ cssvrsc:b1e3ec27-ac02-4079-9d44-dd4cccb10350 a owl:NamedIndividual,
 cssvrsc:b1edd2d5-b547-4b6e-a0bc-34adafcad4c4 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <http://docs.oasis-open.org/tgf/TGF/v2.0/cs01/TGF-v2.0-cs01.html> .
-
-cssvrsc:b20c565a-20fd-46c5-9978-57548577e200 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467117638/eDelivery+AS4+-+1.15> .
 
 cssvrsc:b221cc78-cedc-4b48-a1d5-ad62e67ded15 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -13436,10 +13130,6 @@ cssvrsc:b7829274-0899-45c0-b813-e7fc613a4fa1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/59149.html> .
 
-cssvrsc:b7d704e1-453f-42fb-a434-6b67017eb05e a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://hub.ebsi.eu/vc-framework/trust-model> .
-
 cssvrsc:b8076314-2a5b-4a05-919a-0b612a9974ec a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.peppol.eu/edelivery/directory/PEPPOL-EDN-Directory-1.1.1-2020-10-15.pdf> .
@@ -13477,11 +13167,6 @@ cssvrsc:b94237f8-628a-4ce4-86a5-eb72485ff2a5 a owl:NamedIndividual,
 cssvrsc:b9783197-722b-4db1-90df-7d3eeaad372e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32006L0123> .
-
-cssvrsc:b99ba9a7-ff5a-455e-8c13-fe07bf61f846 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://datatracker.ietf.org/doc/rfc5425/> ;
-    dcat:downloadURL <https://datatracker.ietf.org/doc/rfc5425/> .
 
 cssvrsc:b9a4e8c8-a143-444e-8f03-e7bab6882373 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -13645,10 +13330,6 @@ cssvrsc:c22d52a3-a8ff-4e27-8906-9f9f3427ead4 a owl:NamedIndividual,
     dcat:accessURL <https://github.com/asyncapi/spec/blob/v3.0.0/spec/asyncapi.md> ;
     dcat:downloadURL <https://github.com/asyncapi/spec/blob/v3.0.0/spec/asyncapi.md> .
 
-cssvrsc:c264050e-4fed-4134-81c8-25237268e538 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://hub-test.ebsi.eu/vc-framework> .
-
 cssvrsc:c2d141d6-8d5a-445f-80bb-45ba7ae6ffbc a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://dev.ishare.eu/authorisation-registry-role/> .
@@ -13686,10 +13367,6 @@ cssvrsc:c3c2defa-42c6-41bc-b58a-623c86832aef a owl:NamedIndividual,
 cssvrsc:c3dfab36-a6b6-44e6-895a-e3ccb341e83a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.plattform-i40.de/IP/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.pdf?__blob=publicationFile&v=10> .
-
-cssvrsc:c4447252-1e80-45a7-ad03-e9f3d445d050 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.iso.org/standard/71885.html> .
 
 cssvrsc:c4f20f49-959c-4f6a-9d57-de45880b5710 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -13979,10 +13656,6 @@ cssvrsc:d6d01e07-302a-488d-bf2a-6ba348ee44ff a owl:NamedIndividual,
     dcat:accessURL <https://www.itu.int/rec/T-REC-X.1365-202003-I> ;
     dcat:downloadURL <https://www.itu.int/rec/T-REC-X.1365-202003-I> .
 
-cssvrsc:d759d0c4-ec5c-4ece-a53b-49f1cd5e97f1 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://hub-test.ebsi.eu/vc-framework> .
-
 cssvrsc:d778d5f2-2c3e-4573-89c5-9f360b37ea00 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/homepage.html?locale=en> .
@@ -14049,19 +13722,9 @@ cssvrsc:db289991-8de9-439b-94a5-bd79b554b2f9 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.rfc-editor.org/rfc/rfc5016.html> .
 
-cssvrsc:dc42158a-13bd-4a1e-9f60-80130ca9e280 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.w3.org/TR/core-aam-1.1/> ;
-    dcat:downloadURL <https://www.w3.org/TR/core-aam-1.1/> .
-
 cssvrsc:dca5ad84-6bb6-4c31-a8dc-ee79de4a2c75 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.rfc-editor.org/rfc/rfc6698> .
-
-cssvrsc:dce5bb1d-e7d0-4f36-b621-5d74351e4162 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://docs.spring.io/spring-framework/reference/web/webflux-websocket.html> ;
-    dcat:downloadURL <https://docs.spring.io/spring-framework/reference/web/webflux-websocket.html> .
 
 cssvrsc:dd0a5be3-f0ac-46a2-ae1b-ed98fbb8a87f a owl:NamedIndividual,
         dcat:Distribution ;
@@ -14261,10 +13924,6 @@ cssvrsc:eddfffc7-b79c-4474-8e73-b26b1c262122 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/200> .
 
-cssvrsc:ee22b09d-38cb-461f-9048-72eb4842b5e0 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.itu.int/rec/T-REC-X.1275-201012-I/en> .
-
 cssvrsc:ee3d4c19-191c-4456-acad-41409358e9b5 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://restcookbook.com/Basics/hateoas/> .
@@ -14276,11 +13935,6 @@ cssvrsc:ee92407f-c094-43af-a55e-c2df4efa500a a owl:NamedIndividual,
 cssvrsc:eea33569-246b-43b9-a546-d47fd6b82c23 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://github.com/OP-TED/ePO/tree/v3.0.0> .
-
-cssvrsc:ef441164-0db0-4604-b3a3-bcee4ea4eaa1 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://docs.oasis-open.org/amqp/event-streams/v1.0/event-streams-v1.0.html> ;
-    dcat:downloadURL <https://docs.oasis-open.org/amqp/event-streams/v1.0/event-streams-v1.0.html> .
 
 cssvrsc:f00a6feb-d658-499b-a44e-ca49441fef6c a owl:NamedIndividual,
         dcat:Distribution ;
@@ -14314,11 +13968,6 @@ cssvrsc:f1173ede-24aa-4232-87ad-18a27578a186 a owl:NamedIndividual,
 cssvrsc:f17b73c8-174d-475a-94e9-5e046df85f46 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://catena-x.net/fileadmin/user_upload/Standard-Bibliothek/Archiv/4_PC_IAM_v2.1/IAM_-_003_PlatformCapabilityIAM_v2.1.pdf> .
-
-cssvrsc:f298ba69-2ab9-4720-b7d8-37eaa5426ee1 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=708412335> ;
-    dcat:downloadURL <https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=708412335> .
 
 cssvrsc:f2b1743f-9a5c-4421-adb0-847dba67813a a owl:NamedIndividual,
         dcat:Distribution ;
@@ -14389,10 +14038,6 @@ cssvrsc:f6520f8005c85fc7325cb7a2b4a3d4a032dc3432efa2e6bac3703c5085698088 a owl:N
     skos:prefLabel "Blazegraph"@en ;
     foaf:homepage <https://blazegraph.com/> .
 
-cssvrsc:f660c876-fdf3-4f48-8f92-fd10dfb1ab07 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.w3.org/2021/12/rdf-star.html> .
-
 cssvrsc:f6928493-7d87-4af9-bde2-3b518ab49e7d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-Q.4040-201602-I/en> .
@@ -14441,10 +14086,6 @@ cssvrsc:f80f07bd-f107-4ae6-be01-e880dbdc63e1 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.etsi.org/deliver/etsi_en/319100_319199/31916202/01.01.01_60/en_31916202v010101p.pdf> .
 
-cssvrsc:f812074e-e11b-4631-ba6b-0135259d07ef a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://www.etsi.org/deliver/etsi_ts/102600_102699/10264002/02.02.01_60/ts_10264002v020201p.pdf> .
-
 cssvrsc:f83eee75-5f0a-4425-9bf9-85471392573e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.w3.org/TR/ldp/> .
@@ -14487,11 +14128,6 @@ cssvrsc:fab0e091-0742-4233-9991-bf157c6b33ca a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/67937.html> .
 
-
-cssvrsc:3c60bafc-ac78-4427-a74e-89713914468a a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/930451568/eDelivery+SMP+-+2.1> .
-
 cssvrsc:fb1ca5cd-b0ba-4c1a-95c0-ae1529bfe737 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32014R0910> .
@@ -14516,11 +14152,6 @@ cssvrsc:fcc3d06b-e308-422d-8a6c-1dd7a3d5a83a a owl:NamedIndividual,
 cssvrsc:fcc9f7b34da8df610c02ba5eacc5fccb081020217e29177552b21b1af57e5108 a owl:NamedIndividual,
         org:Organization ;
     skos:prefLabel "Postman"@en .
-
-cssvrsc:fd23fc7a-23b2-462b-bc77-f657be97ff83 a owl:NamedIndividual,
-        dcat:Distribution ;
-    dcat:accessURL <https://datatracker.ietf.org/doc/html/rfc5448> ;
-    dcat:downloadURL <https://datatracker.ietf.org/doc/html/rfc5448> .
 
 cssvrsc:fd44bab3-2180-4f6a-9433-273c9af2cde5 a owl:NamedIndividual,
         dcat:Distribution ;
