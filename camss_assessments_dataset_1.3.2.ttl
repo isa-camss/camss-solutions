@@ -6489,7 +6489,7 @@ https://ec.europa.eu/isa2/eif_en\""""@en ;
 
 camssa:ce42a35899604f9d542773a5cf82e5230597169d8928f05bcdb2835ac514e088 a owl:NamedIndividual,
         org:Organization ;
-    schh:contactPoint camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c ;
+    sch:contactPoint camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c ;
     skos:prefLabel "Jääsaari Finnish Tax Administration"@en .
 
 camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c a sch:ContactPoint,
