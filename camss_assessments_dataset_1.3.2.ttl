@@ -4,7 +4,7 @@
 @prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix sc: <http://schema.org/> .
+@prefix sch: <http://schema.org/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sc: <http://data.europa.eu/2sa/scenarios#> .
@@ -6489,12 +6489,12 @@ https://ec.europa.eu/isa2/eif_en\""""@en ;
 
 camssa:ce42a35899604f9d542773a5cf82e5230597169d8928f05bcdb2835ac514e088 a owl:NamedIndividual,
         org:Organization ;
-    sc:contactPoint camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c ;
+    schh:contactPoint camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c ;
     skos:prefLabel "Jääsaari Finnish Tax Administration"@en .
 
-camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c a sc:ContactPoint,
+camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c a sch:ContactPoint,
         owl:NamedIndividual ;
-    sc:email "jussi.jaasaari@vero.fi" .
+    sch:email "jussi.jaasaari@vero.fi" .
 
 camssa:d1b4bffb5cad71dfeda592f969c7477185fca53851e5d1f4bc2ec54b71a4f86f a cav:Assessment,
         owl:NamedIndividual ;
@@ -95637,19 +95637,6 @@ camssa:c06a1d60-4006-49f9-b695-ce19db1c4798 a cav:Score,
     cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
     cav:value "1" .
 
-@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
-@prefix cav: <http://data.europa.eu/2sa/cav#> .
-@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix org: <http://www.w3.org/ns/org#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix dcat: <http://purl.org/dcat/> .
-@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
-@prefix schema: <http://schema.org/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
 camssa:0a4072a1ff1666c5726e675ca3f736498034f114c2aae506385b82221085ec8c a cav:Assessment,
         owl:NamedIndividual ;
     cav:assesses cssvrsc:08f50fa324dbbec86c051639c4ccf6a16d5ed456e6a962567cb321ab56814ebe ;
@@ -138320,6 +138307,6 @@ sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b a cav:Scenar
 
 camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 a owl:NamedIndividual,
         org:Organization ;
-    sc:contactPoint camssa:fb3a3abd-910e-4c2c-984d-924897e1b830 ;
+    sch:contactPoint camssa:fb3a3abd-910e-4c2c-984d-924897e1b830 ;
     skos:prefLabel "CAMSS Team European Commission DG-DIGIT"@en .
 
