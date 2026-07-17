@@ -10419,6 +10419,7 @@ cssvrsc:89c1afa8b2c61039cee783127d1cda2f90ba795647a441b37442343d8495cb0a a cssv:
         owl:NamedIndividual ;
     cssv:acronym "CRVS"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedIn cssvrsc:45075a71ec54b3d975ed751c5c786f0a689e4ea174f886f2a583e3131d90bc10 ;
     cssv:isMaintainedBy cssvrsc:0d8f8e4352be877a8d54c106d85a980812994e5a460a1f1e7d02babd46339a71 ;
     dct:description "Civil Registration and Vital Statistics (CRVS) systems are essential for recording vital events such as births, deaths, marriages, and divorces. They provide critical data for public health, policy-making, and legal identity."@en ;
     dct:title "Civil Registration and Vital Statistics"@en ;
@@ -10429,6 +10430,21 @@ cssvrsc:40254c35-0b62-479c-a32e-1672d23e143a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://standards.spdci.org/standards/dci-standards/crvs-v1.0-1> .
 
+cssvrsc:45075a71ec54b3d975ed751c5c786f0a689e4ea174f886f2a583e3131d90bc10 a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym "DCI"@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:89c1afa8b2c61039cee783127d1cda2f90ba795647a441b37442343d8495cb0a ; 
+    cssv:isMaintainedBy cssvrsc:0d8f8e4352be877a8d54c106d85a980812994e5a460a1f1e7d02babd46339a71 ;
+    dct:description "The Digital Convergence Initiative (DCI) is a global initiative that develops standards and guidelines for interoperable social protection information systems. It aims to enable seamless data exchange between programmes and institutions through common processes, data standards, terminology, and application programming interfaces (APIs), improving the effectiveness and scalability of digital social protection systems."@en ;
+    dct:title "Digital Convergence Initiative"@en ;
+    dcat:distribution cssvrsc:eca61247-e420-44cf-b9b3-93a1a43c64d7 ;
+    dcat:version "1.0.0".
+
+cssvrsc:eca61247-e420-44cf-b9b3-93a1a43c64d7 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://standards.spdci.org/standards> .
 
 cssvrsc:p17b73c8-174d-475a-94e9-5e046df85f45 a owl:NamedIndividual,
         dcat:Distribution ;
