@@ -138310,3 +138310,794 @@ camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 a owl:Na
     sch:contactPoint camssa:fb3a3abd-910e-4c2c-984d-924897e1b830 ;
     skos:prefLabel "CAMSS Team European Commission DG-DIGIT"@en .
 
+camssa:67e570c64ee9bd05cd58229e9dae7d02a9e4d9a3748dbb6dbde14c91be591b0f a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:assesses cssvrsc:89c1afa8b2c61039cee783127d1cda2f90ba795647a441b37442343d8495cb0a ;
+    cav:considers camssa:d1486244-36a2-4fa5-815c-34df642b7ab9 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
+    cav:resultsIn camssa:075c3bab-6715-48f6-877b-2d5fb09f40ee,
+        camssa:0ae39f1f-ea36-48ea-8004-2c0e82c656d0,
+        camssa:12577aba-96c1-4324-baaa-ca761f82a01f,
+        camssa:1ccdbc6c-e386-4401-a49b-43937d9dbd7c,
+        camssa:1e94d754-e7c8-45bd-ac10-071d7a7d0c00,
+        camssa:22f88229-cda8-4837-9745-98a6979f6e9f,
+        camssa:239d380f-f35c-4ffc-8062-1fa29e85ae84,
+        camssa:24f05f51-cc22-48c4-92c0-d9726bbba6cf,
+        camssa:26de850d-19f9-4dc1-834a-030400c3fade,
+        camssa:2b7bae0a-d61e-4e58-991e-fb3afde328c7,
+        camssa:2c84060b-8b46-40fc-89d9-0110fd7a17ad,
+        camssa:35c288fd-85f2-47b7-8f34-66994bf57ddc,
+        camssa:3db22cb5-1995-4924-928d-64317db53390,
+        camssa:486050a1-ce39-49da-b7ce-c6a4f1617263,
+        camssa:4ae4bdb9-e6b8-4a53-96c6-cef26eba635c,
+        camssa:4b413970-ea13-44b7-b5ef-7f8f5518b6d3,
+        camssa:4e357f6c-c801-4bf9-aaee-a7ef036fb5a2,
+        camssa:53b24cd8-e4c1-4ae9-a743-e0141357266b,
+        camssa:580dac68-f8b4-4f4b-89f5-3e86a6f9d78a,
+        camssa:640ccadd-2f4b-492c-b23d-3c2ebae408c3,
+        camssa:6bab6d45-503b-40e9-a161-40f9a9830224,
+        camssa:7df95dcb-c17c-4002-b06a-207c768a7cb7,
+        camssa:7eed7cd2-8ce6-458d-9c5c-b4d63b574605,
+        camssa:84b782cc-e89c-419b-b5fd-4e0da8c2f44a,
+        camssa:84d37d05-d0fb-46cc-9a1b-f0db08f8a77b,
+        camssa:87acde7e-7be3-4b84-b80b-17029a924283,
+        camssa:92245fa2-bd22-4904-8859-cb795ca87ebf,
+        camssa:924fd11f-4cf0-4657-b846-e8a2c914264f,
+        camssa:94df148c-a408-45e6-b011-7a7e692cab77,
+        camssa:9720abd9-a2c2-4776-9ab3-835d8d77bc83,
+        camssa:99088cf8-f65c-42b4-9ad0-9f796904db39,
+        camssa:996b21f9-6fc8-4ce9-9c0f-a938d4124f02,
+        camssa:9ac300f8-6297-4406-b2a6-add5782ce444,
+        camssa:ad1e81c7-0db5-4a5a-a986-7b71d93fb91a,
+        camssa:b95324f9-9be2-4765-85ff-f1046b40a363,
+        camssa:bb14a0c0-21b7-41e4-b940-945a9d215f56,
+        camssa:c4c90ff4-5e77-4de8-95de-34e2ae8901ad,
+        camssa:d5274d3d-6d96-4445-99a3-48c465f1e73c,
+        camssa:dfdb3c2f-a1e7-41df-83ea-ef6d5b139af3,
+        camssa:e6d46a39-3795-499a-967a-f3761e59684c,
+        camssa:f25c4507-4c48-40cf-adb5-2458c3bf623b,
+        camssa:f6525c29-4a72-4112-92b2-1be4563f5ec5,
+        camssa:f96e5266-64ab-41f2-ba54-537ad78542d3,
+        camssa:fb9f547a-7d98-4330-8f33-9b90aaa13eec,
+        camssa:fe0d449f-2545-4852-9295-5278d5d0de96 ;
+    dct:issued "2026-01-21"^^xsd:date ;
+    dct:description "CAMSS as a Service (CAMSSaaS) EIF Scenario Content Review of CRVS"@en ;
+    dct:title "CAMSSaaS Content Review of CRVS 1.0.0"@en ;
+    dcat:version "1.0.0" ;
+    dcat:distribution camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 .
+
+camssa:075c3bab-6715-48f6-877b-2d5fb09f40ee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI provides means to restrict access to information and data by requiring the implementation of authentication and authorisation mechanisms for all standards, including CRVS. In addition, the standard defines authentication and authorisation mechanisms to ensure that unauthorised users cannot access data._x000D_
+_x000D_
+DCI Security considerations reference:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/api/design-principles_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:65c3570e-45ae-4dc9-bcc7-447d2a5ca262 .
+
+camssa:0ae39f1f-ea36-48ea-8004-2c0e82c656d0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI supports extension through modular and flexible design principles. It provides mechanisms for adding new data elements, service endpoints, or functionalities without breaking core compatibility._x000D_
+_x000D_
+DCI APIs design principles:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/api/design-principles_x000D_
+_x000D_
+DCI Data reference:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/data_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:a056369c-0321-4644-a858-22d811302637 .
+
+camssa:0f083249-0428-4544-a5a8-dc398cf89572 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "40"^^xsd:string .
+
+camssa:1187c9d6-56c2-4ff9-aa33-b0c1584204f2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "80"^^xsd:string .
+
+camssa:11b54ad8-b217-45ed-ab59-ad045cc89fbf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:string .
+
+camssa:12577aba-96c1-4324-baaa-ca761f82a01f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'CRVS and other standards from the DCI organisation are not yet included in any open national-level repository or catalogue of standards._x000D_
+_x000D_
+DCI organisation reference:_x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1 '"""@en ;
+    cav:refersTo camssa:2b1ec230-ef64-4360-aad5-654b4d5e2809 .
+
+camssa:165aea52-4784-4ee2-beb7-68866f7414c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:string .
+
+camssa:1ccdbc6c-e386-4401-a49b-43937d9dbd7c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI facilitates the publication of public data as open data by defining reusable data models and open APIs (e.g., the CRVS standard) that support the publication of non-personal, aggregated, or metadata-rich datasets. It uses open formats (e.g., JSON, OpenAPI) and aligns with licensing models that are compatible with open data principles, such as CC BY-SA 4.0. This supports greater transparency, innovation, and data reuse across sectors._x000D_
+_x000D_
+JSON specification reference:_x000D_
+https://www.rfc-editor.org/rfc/rfc8259_x000D_
+_x000D_
+OpenAPI specification reference:_x000D_
+https://spec.openapis.org/oas/latest.html_x000D_
+_x000D_
+DCI organisation reference:_x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:d585725c-8942-4c0d-a7f0-6089dd3043b3 .
+
+camssa:1e94d754-e7c8-45bd-ac10-071d7a7d0c00 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'CRVS is based on DCI, which primarily focuses on data flows, models, and APIs. It does not address long-term preservation or e-archiving. Therefore, this criterion is not applicable to this standard._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:a7e1746f-31e1-4cb4-a25a-0b66f19ff18a .
+
+camssa:1fe98d42-e3ae-44e6-ab70-7b20c0a7db4b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100"^^xsd:string .
+
+camssa:20252b8c-34cd-4989-bacc-728c31a8c62a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:string .
+
+camssa:22f88229-cda8-4837-9745-98a6979f6e9f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI is independent of any specific technology. It defines open, standard-based APIs and data models that can be implemented using any technology stack._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:c48fa754-d8d4-4883-a120-54eec33b0ffb .
+
+camssa:239d380f-f35c-4ffc-8062-1fa29e85ae84 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI eases the implementation of the once-only principle by defining interoperable APIs and shared data models, such as CRVS, which allow information to be collected once and securely reused across multiple public administrations. By facilitating seamless data exchange among social protection registries, civil registration systems, and other public sector databases, it reduces duplication, minimizes administrative burdens, and enhances service efficiency._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:de7fb4f6-c88d-48cf-947b-6232216e8c5f .
+
+camssa:24f05f51-cc22-48c4-92c0-d9726bbba6cf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI is publicly available for everyone to study with no cost. DCI is published under a royalty-free and open license (CC BY-SA 4.0), which promotes free reuse, redistribution, and modification under clear attribution and share-alike conditions._x000D_
+_x000D_
+DCI license reference: _x000D_
+https://standards.spdci.org/standards/dci/licensing_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:1fe98d42-e3ae-44e6-ab70-7b20c0a7db4b .
+
+camssa:26de850d-19f9-4dc1-834a-030400c3fade a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The DCI organisation provides free test suites for each standard API to help assess conformity of implementations. It provides tools to run a mock implementation of the CRVS API along with automated tests to verify whether a CRVS API implementation conforms to the expected API behavior._x000D_
+_x000D_
+CRVS API Test reference:_x000D_
+https://github.com/spdci/CRVS-Mockup-Compliance_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1 '"""@en ;
+    cav:refersTo camssa:11b54ad8-b217-45ed-ab59-ad045cc89fbf .
+
+camssa:2a5e804c-55e2-4f9c-930b-60d88d5db6e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:string .
+
+camssa:2b1ec230-ef64-4360-aad5-654b4d5e2809 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:string .
+
+camssa:2b7bae0a-d61e-4e58-991e-fb3afde328c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'CRVS is built on standardised APIs from DCI, which are designed to support a wide range of languages. DCI remains language-neutral while allowing developers to add translations easily._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:fc228ded-2a2f-41cb-ad77-0d6dc97c871a .
+
+camssa:2c84060b-8b46-40fc-89d9-0110fd7a17ad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI does not directly provide an access control mechanism. However, CRVS and other systems and registries support the implementation of security measures, such as authentication and digital signatures, when connecting with systems like the Social Protection Management Information System. These mechanisms help ensure that access to data and registries is restricted to authorised users only._x000D_
+_x000D_
+DCI Security considerations reference:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/api/design-principles_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:8e7a4554-d8e6-447b-9aa0-b32357424fde .
+
+camssa:2f59df49dab4f87ab060ee9a9cf47a70dbebfeb4343e8b3b7e73c1f478c41b0b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "El Merhebi GIZ"@en .
+
+camssa:303d7d2d-3df2-43e2-a1ac-65f9b09b0ae3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:string .
+
+camssa:325266b2-d187-4bed-b177-df650d774901 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:string .
+
+camssa:342ffd0c-d68d-41e7-a275-28d2483f35c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:35c288fd-85f2-47b7-8f34-66994bf57ddc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI allows for partial implementations by modularising its components and defining clear, independent API endpoints and data models. This enables implementers to adopt only the relevant parts of the standard based on their specific needs, system capabilities, or maturity levels._x000D_
+_x000D_
+DCI APIs design principles:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/api/design-principles_x000D_
+_x000D_
+DCI Data reference:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/data_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:165aea52-4784-4ee2-beb7-68866f7414c3 .
+
+camssa:3db22cb5-1995-4924-928d-64317db53390 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'While this standard is designed for CRVS–Social Protection interoperability, the APIs can be reused beyond this specific use case. Specifically, any CRVS system could exchange data securely and consistently with other registries or systems that require similar information, enabling broader interoperability across multiple domains._x000D_
+However, the main objective of the CRVS standardis to record data on major life events, avoiding other types of data._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:841248cf-ad59-43fc-94e5-cd645777fd78 .
+
+camssa:3e40876b-cee6-41b7-abfc-82f5f0c9fdb4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:string .
+
+camssa:3f8f7388-cb86-4552-aa82-b1aa63b953d1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:string .
+
+camssa:436747a9-9a4c-43b3-9275-b37c46762b96 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:486050a1-ce39-49da-b7ce-c6a4f1617263 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI encourages the creation of communities of practice and promotes the sharing of data models, localised profiles, and implementation results across national and regional platforms. This is reflected in DCI’s emphasis on collaboration, peer learning, and reuse of shared resources to improve interoperability and reduce duplication across registries like social protection, CRVS, and farmer systems. Countries are supported to publish and reuse schema through national portals and platforms such as the talking interoperability and interoperability in action on spdci.org which serves as a central repository for DCI-aligned standards and extensions. _x000D_
+However, the standard cannot be found discussed in any forum or elsewhere on the internet._x000D_
+_x000D_
+DCI organisation reference:_x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1 '"""@en ;
+    cav:refersTo camssa:6c14982e-960b-44b6-9d34-e9d968c7b240 .
+
+camssa:488d7974-2df6-48e3-860f-20c53f343f1b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:string .
+
+camssa:48a700f0-c4d8-410f-9541-4627572fdbe0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:string .
+
+camssa:4ae4bdb9-e6b8-4a53-96c6-cef26eba635c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'CRVS is not included in any initiative at European or National level covering privacy aspects. Therefore, this criterion is considered not applicable to this standard._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:893b5f75-4116-4ff5-b352-23ef2b06b9a0 .
+
+camssa:4b413970-ea13-44b7-b5ef-7f8f5518b6d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'In DCI process 3 weeks of public review is offered for any interested experts to provided inputs._x000D_
+_x000D_
+Standards development process reference:_x000D_
+https://spdci.org/technical-standards/_x000D_
+_x000D_
+DCI organisation reference:_x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:908f6ac5-21bd-4a1a-aa18-1490fd47b7d9 .
+
+camssa:4e357f6c-c801-4bf9-aaee-a7ef036fb5a2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI is independent of any specific platform. It defines open, standard-based APIs and data models that can be implemented using any technology stack._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:303d7d2d-3df2-43e2-a1ac-65f9b09b0ae3 .
+
+camssa:51bbfcce-423e-439b-b461-ec5aeb5faa67 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:string .
+
+camssa:53b24cd8-e4c1-4ae9-a743-e0141357266b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The DCI standards enable digital service delivery channels by defining interoperable data models and APIs that support real-time, automated information exchange across government systems, forming the foundation for integrated, citizen-centric digital services. This approach can be applied to the CRVS standard when connected to a Social Protection Management Information System (SP-MIS) to facilitate service delivery._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:83dc528f-bb89-4f4c-a4f7-2a428fb42c9c .
+
+camssa:580dac68-f8b4-4f4b-89f5-3e86a6f9d78a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI, across all standards, enables the secure exchange of data by specifying the use of secure communication protocols such as HTTPS/TLS to protect data in transit. It requires authentication and authorisation mechanisms to ensure that only authorised parties can access or transmit data._x000D_
+_x000D_
+DCI Security considerations reference:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/api/design-principles_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:de856b0d-fbb5-4224-bcca-c1bfee696471 .
+
+camssa:5bf9c2d2-c4dc-47b1-b816-74530216d57d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:string .
+
+camssa:640ccadd-2f4b-492c-b23d-3c2ebae408c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI enables data portability by defining open, standardised APIs and common data models that allow seamless exchange and reuse of data between different systems and applications. This facilitates the implementation and evolution of European public services by ensuring that data can be transferred securely and efficiently, reducing duplication and enabling citizens and businesses to move their data across services when legally permitted._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:cfe9481b-5ea6-4160-99f1-299b559a58c1 .
+
+camssa:65c3570e-45ae-4dc9-bcc7-447d2a5ca262 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:string .
+
+camssa:6666cb5c-77d7-476c-9546-0891de082b78 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:string .
+
+camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://data.europa.eu/w21/09fa2cb6-8442-4f3c-9052-f9ab67527742"^^xsd:anyURI .
+
+camssa:6bab6d45-503b-40e9-a161-40f9a9830224 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The CRVS standard is not included in any Member States' catalogues of recommended specifications. However, DCI standards define data objects using JSON-LD, which is recommended by some Member States._x000D_
+_x000D_
+CAMSS list of standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-andspecifications-camss/camss-list-standards_x000D_
+_x000D_
+NIFO factsheets:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2024_x000D_
+_x000D_
+JSON-LD specification reference:_x000D_
+https://www.w3.org/TR/json-ld11/_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  \""""@en ;
+    cav:refersTo camssa:9ec80bd9-70f4-4891-b818-74c623e357b6 .
+
+camssa:6bd752ef-f28e-4a4f-aee2-3d4f42b7c929 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:string .
+
+camssa:6c14982e-960b-44b6-9d34-e9d968c7b240 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100"^^xsd:string .
+
+camssa:6c5fb133-0e1c-43a9-9c46-0de742c702b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:string .
+
+camssa:7a14c357-c6a3-4282-b5f6-72123f821f51 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "80"^^xsd:string .
+
+camssa:7df95dcb-c17c-4002-b06a-207c768a7cb7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The DCI organisation’s standards, including CRVS, are not currently listed in any official EU catalogue of specifications or standards._x000D_
+_x000D_
+DCI organisation reference:_x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1 '"""@en ;
+    cav:refersTo camssa:5bf9c2d2-c4dc-47b1-b816-74530216d57d .
+
+camssa:7eed7cd2-8ce6-458d-9c5c-b4d63b574605 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Although the CRVS standard is not specifically designed for European public services, it follows interoperability principles that can support and streamline service delivery when applied in European or cross-border contexts. In such cases, when CRVS is connected to a Social Protection Management Information System (SP-MIS), it helps simplify the delivery of public services by enabling the categorisation of individuals eligible to receive specific services._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:87b19636-b75b-4030-887c-47f70f741bd5 .
+
+camssa:83dc528f-bb89-4f4c-a4f7-2a428fb42c9c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:string .
+
+camssa:841248cf-ad59-43fc-94e5-cd645777fd78 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "40"^^xsd:string .
+
+camssa:84b782cc-e89c-419b-b5fd-4e0da8c2f44a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI ensures the protection of personal data managed by public administrations by incorporating the principles of privacy by design and privacy by default throughout its architecture for all standards, such as CRVS. It mandates secure authentication and authorisation processes to control access and supports encrypted data transmission to safeguard data in transit. As a result, personal data are protected against malicious users or eavesdropping._x000D_
+_x000D_
+DCI Security considerations reference:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/api/design-principles_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:7a14c357-c6a3-4282-b5f6-72123f821f51 .
+
+camssa:84d37d05-d0fb-46cc-9a1b-f0db08f8a77b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI provides mechanisms that enhance and support data processing accuracy within the CRVS standard context by offering standardised, machine-validated data models and profiles. While it does not enforce end-to-end accuracy, it delivers the essential building blocks for reliable and consistent data processing across interoperable digital systems. Additionally, security mechanisms such as authentication and digital signatures can be adopted to help ensure data accuracy._x000D_
+_x000D_
+DCI Security considerations reference:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/api/design-principles_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:3e40876b-cee6-41b7-abfc-82f5f0c9fdb4 .
+
+camssa:87acde7e-7be3-4b84-b80b-17029a924283 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'None of the DCI standards, including CRVS, have yet been selected for use in an EU cross-border project or initiative; however, their design aligns with EU interoperability frameworks and shows potential for future adoption._x000D_
+_x000D_
+DCI organisation reference: _x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1 '"""@en ;
+    cav:refersTo camssa:e032e32f-1216-415a-ad50-d911a48bb064 .
+
+camssa:87b19636-b75b-4030-887c-47f70f741bd5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:string .
+
+camssa:893b5f75-4116-4ff5-b352-23ef2b06b9a0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:string .
+
+camssa:8e7a4554-d8e6-447b-9aa0-b32357424fde a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a16c678a586cf542d2ae1d6cd8a987bd6ed0b2af52ba0e04d8872fe616a9b7bd ;
+    cav:value "60"^^xsd:string .
+
+camssa:908f6ac5-21bd-4a1a-aa18-1490fd47b7d9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:string .
+
+camssa:92245fa2-bd22-4904-8859-cb795ca87ebf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The CRVS standard is implemented by OpenCRVS, and so far, a few countries have expressed interest in adopting it, with DCI providing support for its implementation. However, there is no evidence that the standard is currently used in European projects or that it will be adopted by other organisations in the future._x000D_
+_x000D_
+By contrast, DCI standards are used in several initiatives that record details of major life events. For example, CRVS is implemented by OpenCRVS to record certain life events and enables real-time data exchange across government services, among others._x000D_
+_x000D_
+Open Civil registration & Vital Statistics (OpenCRVS) reference:_x000D_
+https://www.opencrvs.org/_x000D_
+_x000D_
+DCI organisation reference:_x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:0f083249-0428-4544-a5a8-dc398cf89572 .
+
+camssa:924fd11f-4cf0-4657-b846-e8a2c914264f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI defines interoperability flows that mirror real-world government processes. It provides clear, modular data models, workflows, and APIs that make data exchanges and service delivery easier to follow. In this context, data in the CRVS system are organised by different vital events. Thus, the Social Protection Management Information System can access CRVS to retrieve data to verify whether a citizen is eligible to receive a service._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:bbddf13f-faa1-4364-b26b-41bc545f402e .
+
+camssa:93d64148-ce61-464a-ba3d-f53644b0aaa7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:string .
+
+camssa:94df148c-a408-45e6-b011-7a7e692cab77 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI supports the integration of internal information systems within public administrations by defining open, standardised APIs and data exchange models. This standard enables secure and consistent data exchange between the civil registration system and the SP system. By using common standards, it facilitates integration, minimises duplication, and promotes overall system interoperability. Thus, data obtained by the SP system from the CRVS system can be displayed in an interface to facilitate the delivery of benefits and services._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:1187c9d6-56c2-4ff9-aa33-b0c1584204f2 .
+
+camssa:9720abd9-a2c2-4776-9ab3-835d8d77bc83 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Any study covering the effectiveness of the CRVS standard has been found._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:20252b8c-34cd-4989-bacc-728c31a8c62a .
+
+camssa:99088cf8-f65c-42b4-9ad0-9f796904db39 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI enables secure data processing by defining clear guidelines for access control, ensuring that only authorised entities can process sensitive information across all standards, including CRVS. It promotes the implementation of role-based and attribute-based access controls within systems interacting through the standard._x000D_
+_x000D_
+DCI Security considerations reference:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/api/design-principles_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:2a5e804c-55e2-4f9c-930b-60d88d5db6e3 .
+
+camssa:996b21f9-6fc8-4ce9-9c0f-a938d4124f02 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Any study covering the efficiency of the CRVS standard has been found._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:6666cb5c-77d7-476c-9546-0891de082b78 .
+
+camssa:9ac300f8-6297-4406-b2a6-add5782ce444 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Digital Convergence Initiative (DCI) defines standardised APIs used in CRVS that incorporate security best practices, including authentication, authorisation, and data encryption. In this context, users must be properly authenticated to access these data registries._x000D_
+_x000D_
+DCI Security considerations reference:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/api/design-principles_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:e27ca310-e02b-4882-9edb-bcb6bda96d93 .
+
+camssa:9ec80bd9-70f4-4891-b818-74c623e357b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:string .
+
+camssa:9f67aa49-4628-49a5-bfd6-e06792b2fc03 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:string .
+
+camssa:a056369c-0321-4644-a858-22d811302637 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:string .
+
+camssa:a19c57e3-21b6-40ae-9589-4db50fdd52d3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a7e1746f-31e1-4cb4-a25a-0b66f19ff18a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:string .
+
+camssa:ad1e81c7-0db5-4a5a-a986-7b71d93fb91a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI does not explicitly define organisational interoperability aspects such as roles, responsibilities, processes, language policies, or required skills. Its focus is on technical and semantic interoperability to support data exchange between systems. Therefore, this criterion is not applicable to this standard._x000D_
+_x000D_
+DCI organisation reference:_x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1 '"""@en ;
+    cav:refersTo camssa:a19c57e3-21b6-40ae-9589-4db50fdd52d3 .
+
+camssa:b95324f9-9be2-4765-85ff-f1046b40a363 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI is not formally compliant with Regulation (EU) No 1025/2012 on European standardisation, as it has not been developed or adopted through a recognised European Standardisation Organisation. However, it follows open development principles, aligns with interoperability goals, and could be considered for future standardisation pathways._x000D_
+In addition, the CRVS standard has been developed by an organisation co-funded by the European Commission and the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ). On this basis, the standard may be considered a de facto European standard, although it is not a formal European Standard._x000D_
+_x000D_
+DCI organisation reference:_x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+GIZ organisation reference:_x000D_
+https://www.giz.de/en_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1 '"""@en ;
+    cav:refersTo camssa:3f8f7388-cb86-4552-aa82-b1aa63b953d1 .
+
+camssa:bb14a0c0-21b7-41e4-b940-945a9d215f56 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'CRVS uses standardised APIs defined by the Digital Convergence Initiative (DCI), which incorporate security mechanisms for connecting social protection management information systems with registries and systems such as CRVS. Consequently, any user who wishes to access data stored in a registry must first authenticate. In addition, DCI supports the use of digital signatures to ensure data integrity. Finally, audit logging and versioning are recommended to maintain the traceability of all data changes, enabling the detection of and recovery from unauthorised modifications. These measures align with the EIF principles of secure and trustworthy data exchange across public administrations._x000D_
+_x000D_
+DCI Security considerations reference:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/api/design-principles_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:342ffd0c-d68d-41e7-a275-28d2483f35c3 .
+
+camssa:bbddf13f-faa1-4364-b26b-41bc545f402e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:string .
+
+camssa:c48fa754-d8d4-4883-a120-54eec33b0ffb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:string .
+
+camssa:c4c90ff4-5e77-4de8-95de-34e2ae8901ad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI allows customisation by providing extensible data models and flexible API designs._x000D_
+_x000D_
+DCI APIs design principles:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/api/design-principles_x000D_
+_x000D_
+DCI Data reference:_x000D_
+https://standards.spdci.org/standards/standards-for-interoperability-interfaces/common-standards-for-interoperability-interfaces/data_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:6c5fb133-0e1c-43a9-9c46-0de742c702b3 .
+
+camssa:cfe9481b-5ea6-4160-99f1-299b559a58c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100"^^xsd:string .
+
+camssa:d1486244-36a2-4fa5-815c-34df642b7ab9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:value "82.56%AssessmentScoreAverage"^^xsd:string,
+        "º100%StrengthOfAssessmentScoreAverage"^^xsd:string .
+
+camssa:d5274d3d-6d96-4445-99a3-48c465f1e73c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the CRVS and DCI standards are not related to e-accessibility. Therefore, this criterion is not applicable to this standard._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:436747a9-9a4c-43b3-9275-b37c46762b96 .
+
+camssa:d585725c-8942-4c0d-a7f0-6089dd3043b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:string .
+
+camssa:de7fb4f6-c88d-48cf-947b-6232216e8c5f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:string .
+
+camssa:de856b0d-fbb5-4224-bcca-c1bfee696471 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:string .
+
+camssa:dfdb3c2f-a1e7-41df-83ea-ef6d5b139af3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI was developed through an inclusive and collaborative process. So far, 71 experts from 33 organisations across 15 countries have contributed to its development. Stakeholders included government institutions, international agencies, technical experts, and implementers. Contributions were made through working groups, consultations, and iterative reviews, ensuring transparency, diversity of perspectives, and broad ownership of the standard._x000D_
+_x000D_
+DCI organisation reference:_x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:9f67aa49-4628-49a5-bfd6-e06792b2fc03 .
+
+camssa:e032e32f-1216-415a-ad50-d911a48bb064 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:string .
+
+camssa:e27ca310-e02b-4882-9edb-bcb6bda96d93 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:string .
+
+camssa:e6d46a39-3795-499a-967a-f3761e59684c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'No Member States currently recommend the CRVS standard or other standards from the DCI organisation._x000D_
+_x000D_
+DCI organisation reference: _x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1 '"""@en ;
+    cav:refersTo camssa:325266b2-d187-4bed-b177-df650d774901 .
+
+camssa:f25c4507-4c48-40cf-adb5-2458c3bf623b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The CRVS standard supports the modelling of business processes by defining standardised data models, entities, and API interactions that reflect real-world civil registration workflows. These structures make it possible to represent key processes such as registration, validation, updates, and reporting in a consistent and interoperable way across systems._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1 '"""@en ;
+    cav:refersTo camssa:488d7974-2df6-48e3-860f-20c53f343f1b .
+
+camssa:f6525c29-4a72-4112-92b2-1be4563f5ec5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI fosters the visibility of administrative rules, data, services, and decision-making by defining standard APIs and data models make the structure, flow, and logic of public services explicit. They help to record vital events data and determine whether a beneficiary is eligible to receive a benefit based on the data present in the CRVS system._x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1   '"""@en ;
+    cav:refersTo camssa:48a700f0-c4d8-410f-9541-4627572fdbe0 .
+
+camssa:f96e5266-64ab-41f2-ba54-537ad78542d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DCI, the organisation behind CRVS, has strong support from developer communities working on Digital Public Goods and government platforms. DCI has been adopted and implemented by open-source initiatives such as OpenSPP ,OpenCRVS, OpenG2P, MOSIP and openIMIS. Its open and modular structure encourages developer contributions and integration into new solutions._x000D_
+_x000D_
+Open Source Social Protection Platform (OpenSPP) reference:_x000D_
+https://openspp.org/_x000D_
+_x000D_
+Open Civil registration & Vital Statistics (OpenCRVS) reference:_x000D_
+https://www.opencrvs.org/_x000D_
+_x000D_
+OpenG2P reference:_x000D_
+https://www.openg2p.org/_x000D_
+_x000D_
+Modular Open Source Identity Platform (MOSIP) reference:_x000D_
+https://www.mosip.io/_x000D_
+_x000D_
+OpenIMIS reference:_x000D_
+https://openimis.org/_x000D_
+_x000D_
+DCI organisation reference:_x000D_
+https://standards.spdci.org/standards_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:51bbfcce-423e-439b-b461-ec5aeb5faa67 .
+
+camssa:fb9f547a-7d98-4330-8f33-9b90aaa13eec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The CRVS standard is published on GitBook and has already been implemented by OpenCRVS. DCI has prepared both a release management and a change management plan. However, only a single version of the standard has been published so far. In addition, a tracker has been created on GitHub._x000D_
+_x000D_
+Open Civil registration & Vital Statistics (OpenCRVS) reference:_x000D_
+https://www.opencrvs.org/_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:93d64148-ce61-464a-ba3d-f53644b0aaa7 .
+
+camssa:fc228ded-2a2f-41cb-ad77-0d6dc97c871a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:string .
+
+camssa:fe0d449f-2545-4852-9295-5278d5d0de96 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The CRVS standard is not included and mapped in the EIRA Library of Interoperability Specifications (ELIS). However, DCI standards use JSON-LD to define data objects, which is already included in ELIS. Moreover, the standard aligns with EIRA’s building blocks by defining interoperable data models, APIs, and services that support cross-domain collaboration and enable integration across public administrations._x000D_
+_x000D_
+EIRA Library of Interoperability Specifications (ELIS): _x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/611_x000D_
+_x000D_
+JSON-LD specification reference:_x000D_
+https://www.w3.org/TR/json-ld11/_x000D_
+_x000D_
+CRVS standard reference:_x000D_
+https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
+    cav:refersTo camssa:6bd752ef-f28e-4a4f-aee2-3d4f42b7c929 .

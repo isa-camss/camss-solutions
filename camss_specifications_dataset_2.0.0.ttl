@@ -10415,6 +10415,21 @@ cssvrsc:6da670f6a030973c0d0e9154c62bff7a4bdd90de6d8e4018f0329c94e4564a3e a cssv:
     dcat:distribution cssvrsc:2c33c58c-2093-4896-8cf0-529306c56a57 ;
     dcat:version "5.1.8" .
 
+cssvrsc:89c1afa8b2c61039cee783127d1cda2f90ba795647a441b37442343d8495cb0a a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "CRVS"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:0d8f8e4352be877a8d54c106d85a980812994e5a460a1f1e7d02babd46339a71 ;
+    dct:description "Civil Registration and Vital Statistics (CRVS) systems are essential for recording vital events such as births, deaths, marriages, and divorces. They provide critical data for public health, policy-making, and legal identity."@en ;
+    dct:title "Civil Registration and Vital Statistics"@en ;
+    dcat:distribution cssvrsc:40254c35-0b62-479c-a32e-1672d23e143a ;
+    dcat:version "1.0.0" .
+
+cssvrsc:40254c35-0b62-479c-a32e-1672d23e143a a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://standards.spdci.org/standards/dci-standards/crvs-v1.0-1> .
+
+
 cssvrsc:p17b73c8-174d-475a-94e9-5e046df85f45 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.itu.int/rec/T-REC-X.1363-202005-P> .
@@ -13769,6 +13784,12 @@ cssvrsc:e23a559faf29434d32ce0eba0a2ee0c9df01c72f09ce98a0878254db0740852a a owl:N
     skos:altLabel "RESTfulAPI"@en ;
     skos:prefLabel "RESTfulAPI"@en ;
     foaf:homepage <https://restfulapi.net/> .
+
+cssvrsc:0d8f8e4352be877a8d54c106d85a980812994e5a460a1f1e7d02babd46339a71 a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "Digital Convergence Initiative"@en ;
+    skos:prefLabel "DCI"@en ;
+    foaf:homepage <https://standards.spdci.org/standards> .
 
 cssvrsc:e2c04506-8292-4675-93ed-49b7bb4470eb a owl:NamedIndividual,
         dcat:Distribution ;
