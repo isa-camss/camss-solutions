@@ -138365,7 +138365,7 @@ camssa:67e570c64ee9bd05cd58229e9dae7d02a9e4d9a3748dbb6dbde14c91be591b0f a cav:As
     dct:description "CAMSS as a Service (CAMSSaaS) EIF Scenario Content Review of CRVS"@en ;
     dct:title "CAMSSaaS Content Review of CRVS 1.0.0"@en ;
     dcat:version "1.0.0" ;
-    dcat:distribution camssa:09fa2cb6-8442-4f3c-9052-f9ab67527742 .
+    dcat:distribution camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 .
 
 camssa:075c3bab-6715-48f6-877b-2d5fb09f40ee a cav:Statement,
         owl:NamedIndividual ;
@@ -138683,7 +138683,7 @@ camssa:6666cb5c-77d7-476c-9546-0891de082b78 a cav:Score,
 
 camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss"^^xsd:anyURI .
+    dcat:accessURL "http://data.europa.eu/w21/09fa2cb6-8442-4f3c-9052-f9ab67527742"^^xsd:anyURI .
 
 camssa:6bab6d45-503b-40e9-a161-40f9a9830224 a cav:Statement,
         owl:NamedIndividual ;
