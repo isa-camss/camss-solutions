@@ -10415,6 +10415,8 @@ cssvrsc:6da670f6a030973c0d0e9154c62bff7a4bdd90de6d8e4018f0329c94e4564a3e a cssv:
     dcat:distribution cssvrsc:2c33c58c-2093-4896-8cf0-529306c56a57 ;
     dcat:version "5.1.8" .
 
+#DCI CRVS Family component
+
 cssvrsc:89c1afa8b2c61039cee783127d1cda2f90ba795647a441b37442343d8495cb0a a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "CRVS"@en ;
@@ -10426,9 +10428,12 @@ cssvrsc:89c1afa8b2c61039cee783127d1cda2f90ba795647a441b37442343d8495cb0a a cssv:
     dcat:distribution cssvrsc:40254c35-0b62-479c-a32e-1672d23e143a ;
     dcat:version "1.0.0" .
 
+
 cssvrsc:40254c35-0b62-479c-a32e-1672d23e143a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://standards.spdci.org/standards/dci-standards/crvs-v1.0-1> .
+
+#DCI FAMILY
 
 cssvrsc:45075a71ec54b3d975ed751c5c786f0a689e4ea174f886f2a583e3131d90bc10 a cssv:Specification,
         cssv:Family,
@@ -10439,7 +10444,7 @@ cssvrsc:45075a71ec54b3d975ed751c5c786f0a689e4ea174f886f2a583e3131d90bc10 a cssv:
     cssv:isMaintainedBy cssvrsc:0d8f8e4352be877a8d54c106d85a980812994e5a460a1f1e7d02babd46339a71 ;
     dct:description "The Digital Convergence Initiative (DCI) is a global initiative that develops standards and guidelines for interoperable social protection information systems. It aims to enable seamless data exchange between programmes and institutions through common processes, data standards, terminology, and application programming interfaces (APIs), improving the effectiveness and scalability of digital social protection systems."@en ;
     dct:title "Digital Convergence Initiative"@en ;
-    dcat:distribution cssvrsc:eca61247-e420-44cf-b9b3-93a1a43c64d7 ;
+    dcat:distribution cssvrsc:eca61247-e420-44cf-b9b3-93a1a43c64d7  ;
     dcat:version "1.0.0".
 
 cssvrsc:eca61247-e420-44cf-b9b3-93a1a43c64d7 a owl:NamedIndividual,
@@ -10464,7 +10469,7 @@ dcat:distribution a owl:AnnotationProperty .
 
 dcat:downloadURL a owl:AnnotationProperty .
 
-dcat:theme a owl:AnnotationProperty .
+#dcat:theme a owl:AnnotationProperty .
 
 dcat:version a owl:AnnotationProperty .
 
