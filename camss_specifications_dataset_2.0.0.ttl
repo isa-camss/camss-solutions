@@ -10447,6 +10447,17 @@ cssvrsc:45075a71ec54b3d975ed751c5c786f0a689e4ea174f886f2a583e3131d90bc10 a cssv:
     dcat:distribution cssvrsc:eca61247-e420-44cf-b9b3-93a1a43c64d7  ;
     dcat:version "1.0.0".
 
+cssvrsc:82c9ad1d311aefeaddd7a5ec04d6c7c77df62e6fab907e4a7b5935cd67e41f78 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:acronym "ePO"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
+    dct:description "The eProcurement Ontology (ePO) provides the formal and semantic basis for the creation and reuse of linked open data in the field of public procurement in the EU."@en ;
+    dct:title "eProcurement Ontology"@en ;
+    dcat:distribution cssvrsc:76a1a717-de74-4bff-9fa7-36da93a46b33 ;
+    dcat:previousVersion cssvrsc:33ae66f6628ffb422986b7889cdaa2347d43ec0c43a2561947932287fb622d00 ;
+    dcat:version "5.2.0" .
+
 cssvrsc:eca61247-e420-44cf-b9b3-93a1a43c64d7 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://standards.spdci.org/standards> .
@@ -13978,6 +13989,10 @@ cssvrsc:ee92407f-c094-43af-a55e-c2df4efa500a a owl:NamedIndividual,
 cssvrsc:eea33569-246b-43b9-a546-d47fd6b82c23 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://github.com/OP-TED/ePO/tree/v3.0.0> .
+
+cssvrsc:76a1a717-de74-4bff-9fa7-36da93a46b33 a owl:NamedIndividual,
+    dcat:Distribution ;
+dcat:accessURL <https://github.com/OP-TED/ePO/tree/v5.2.0> .
 
 cssvrsc:f00a6feb-d658-499b-a44e-ca49441fef6c a owl:NamedIndividual,
         dcat:Distribution ;
