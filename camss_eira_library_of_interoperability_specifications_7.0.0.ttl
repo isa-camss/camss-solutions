@@ -151,6 +151,11 @@ elis:1bc94bf5-eb0a-470e-a0e3-7f992ed992d2
         dct:title          "Dissemination of Flow Specification Rules (RFC 8955)";
         foaf:primaryTopic  cssvrsc:2293da7a5fa36f9af89fcc41486c6f0dc38b4d7c554dd73a107c1a6c1779d2cc .
 
+elis:3c736816-fd06-4cb7-9290-5681d16ed8c3
+        a                  dcat:CatalogRecord;
+        dct:title          "Kubernetes API";
+        foaf:primaryTopic  cssvrsc:546c2d41a189d0916515c35945524c12f5c72737ed9c096100d79e08c1d23d94 .
+
 elis:001bee67-aad7-438d-8e74-25497676b09e a dcat:CatalogRecord ;
     dct:title "Microsoft ODBC 4.0 Specification"@en ;
     foaf:primaryTopic cssvrsc:b6f8429b83d4239eb9144340d43c90ff79ea304f5eb3244e57f570c16a6feb47 .

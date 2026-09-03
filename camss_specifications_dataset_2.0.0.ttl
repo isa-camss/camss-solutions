@@ -10478,6 +10478,15 @@ cssvrsc:2293da7a5fa36f9af89fcc41486c6f0dc38b4d7c554dd73a107c1a6c1779d2cc a cssv:
     dcat:distribution cssvrsc:9fb751f7-268e-4344-9dda-a6371c27e5bc ;
     dcat:version "1.0.0" .
 
+cssvrsc:546c2d41a189d0916515c35945524c12f5c72737ed9c096100d79e08c1d23d94 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "K8s API"@en ;
+    cssv:alternative "Kubernetes REST API"@en ;
+    cssv:isMaintainedBy cssvrsc:c9ce83f306e5cb328a4784fc2a665c3dd62b37fc5e260f37c42883f9d87179ed ;
+    dct:description "The Kubernetes API is a resource-based, RESTful programmatic interface served over HTTP that lets clients create, retrieve, update and delete cluster resources using standard HTTP verbs. It also provides watch operations for efficient change detection and supports JSON, YAML, Protobuf and CBOR wire encodings."@en ;
+    dct:title "Kubernetes API"@en ;
+    dcat:distribution cssvrsc:8941afc9-26e1-47a0-8a1c-bc3378150cb0 ;
+    dcat:version "1.37.0" .
 cssvrsc:80ecaf05bc549eba4cc3d872b0772ffcc17dc1f1956b7119cbbf3e16a4b1fa53 a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "CDF"@en ;
@@ -14265,6 +14274,10 @@ cssvrsc:9e89774d-267c-47ee-84a8-47e962fcbd9a a owl:NamedIndividual,
 cssvrsc:fdf51d73-01a5-490e-81a2-cfc215fb8a0e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.rfc-editor.org/rfc/rfc8610> .
+
+cssvrsc:8941afc9-26e1-47a0-8a1c-bc3378150cb0 a owl:NamedIndividual,
+    dcat:Distribution ;
+dcat:accessURL <https://kubernetes.io/docs/reference/kubernetes-api/> .
 
 cssvrsc:fdf9c046-8717-4bb8-b7c5-5252cff6ff53 a owl:NamedIndividual,
         dcat:Distribution ;
