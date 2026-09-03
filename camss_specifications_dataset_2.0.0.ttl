@@ -10468,6 +10468,16 @@ cssvrsc:23524f065c685e401d025b977ce3a1dbd426e07ffaed02a7e68e3f06b9b74dca a cssv:
     dcat:distribution cssvrsc:b7f6cd00-2b39-40f3-b652-985e362854dd ;
     dcat:version "0.5.1" .
 
+cssvrsc:2293da7a5fa36f9af89fcc41486c6f0dc38b4d7c554dd73a107c1a6c1779d2cc a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "BGP FlowSpec"@en ;
+    cssv:alternative "BGP Flow Specification"@en ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:description "RFC 8955 defines BGP FlowSpec, a mechanism for distributing traffic filtering rules (flow specifications) via the Border Gateway Protocol. It enables network operators to programmatically propagate fine-grained traffic control policies such as filtering, rate limiting, and redirecting based on packet attributes."@en ;
+    dct:title "Dissemination of Flow Specification Rules (RFC 8955)"@en ;
+    dcat:distribution cssvrsc:9fb751f7-268e-4344-9dda-a6371c27e5bc ;
+    dcat:version "1.0.0" .
+
 cssvrsc:80ecaf05bc549eba4cc3d872b0772ffcc17dc1f1956b7119cbbf3e16a4b1fa53 a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "CDF"@en ;
@@ -10478,8 +10488,9 @@ cssvrsc:b7f6cd00-2b39-40f3-b652-985e362854dd a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://cdevents.dev/docs/wpaper/> .
 
-
-
+cssvrsc:9fb751f7-268e-4344-9dda-a6371c27e5bc a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.rfc-editor.org/rfc/rfc8955.html> .
 
 cssvrsc:eca61247-e420-44cf-b9b3-93a1a43c64d7 a owl:NamedIndividual,
         dcat:Distribution ;
