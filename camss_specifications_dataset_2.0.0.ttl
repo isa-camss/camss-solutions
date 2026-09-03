@@ -10487,6 +10487,23 @@ cssvrsc:546c2d41a189d0916515c35945524c12f5c72737ed9c096100d79e08c1d23d94 a cssv:
     dct:title "Kubernetes API"@en ;
     dcat:distribution cssvrsc:8941afc9-26e1-47a0-8a1c-bc3378150cb0 ;
     dcat:version "1.37.0" .
+
+cssvrsc:ed3a8fb15de8f532e6b765e19977c399ebe38cf1239d1b0aff062df3713a4f82 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "AI RMF"@en ;
+    cssv:alternative "NIST AI 100-1"@en ;
+    cssv:isMaintainedBy cssvrsc:2b6de1326e1fa61562752256c54150944ec28a04926ea0f96f178888f112b0af ;
+    dct:description "The NIST AI RMF provides a structured framework for identifying, assessing, and managing risks associated with AI systems across their lifecycle, including governance, mapping, measurement, and management functions. It defines practices for monitoring AI system behavior such as performance degradation, bias, robustness, and compliance-related risks in operational settings."@en ;
+    dct:title "Artificial Intelligence Risk Management Framework (AI RMF 1.0)"@en ;
+    dcat:distribution cssvrsc:c3626750-7027-466f-abc0-0c804fcbd2be ;
+    dcat:version "1.0.0" .
+
+cssvrsc:c3626750-7027-466f-abc0-0c804fcbd2be a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf> .
+
+
+
 cssvrsc:80ecaf05bc549eba4cc3d872b0772ffcc17dc1f1956b7119cbbf3e16a4b1fa53 a owl:NamedIndividual,
         org:Organization ;
     skos:altLabel "CDF"@en ;
