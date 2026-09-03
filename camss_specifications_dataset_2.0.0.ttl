@@ -10458,6 +10458,29 @@ cssvrsc:82c9ad1d311aefeaddd7a5ec04d6c7c77df62e6fab907e4a7b5935cd67e41f78 a cssv:
     dcat:previousVersion cssvrsc:33ae66f6628ffb422986b7889cdaa2347d43ec0c43a2561947932287fb622d00 ;
     dcat:version "5.2.0" .
 
+cssvrsc:23524f065c685e401d025b977ce3a1dbd426e07ffaed02a7e68e3f06b9b74dca a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "CDEvents"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:80ecaf05bc549eba4cc3d872b0772ffcc17dc1f1956b7119cbbf3e16a4b1fa53 ;
+    dct:description "CDEvents is a common specification for Continuous Delivery events, enabling interoperability in the complete software production ecosystem. It extends the CloudEvents specification with a vocabulary of CI/CD events, allowing tools to communicate in a technology-agnostic, machine-to-machine way."@en ;
+    dct:title "CDEvents"@en ;
+    dcat:distribution cssvrsc:b7f6cd00-2b39-40f3-b652-985e362854dd ;
+    dcat:version "0.5.1" .
+
+cssvrsc:80ecaf05bc549eba4cc3d872b0772ffcc17dc1f1956b7119cbbf3e16a4b1fa53 a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "CDF"@en ;
+    skos:prefLabel "Continuous Delivery Foundation"@en ;
+    foaf:homepage <https://cd.foundation/> .
+
+cssvrsc:b7f6cd00-2b39-40f3-b652-985e362854dd a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://cdevents.dev/docs/wpaper/> .
+
+
+
+
 cssvrsc:eca61247-e420-44cf-b9b3-93a1a43c64d7 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://standards.spdci.org/standards> .

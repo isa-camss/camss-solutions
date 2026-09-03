@@ -141,6 +141,11 @@ eira:VocabularyHubApplicationService eira:concept eira:ArchitectureBuildingBlock
 
 eira:VulnerabilityScanningTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
+elis:ad55bbaf-f426-4e3b-84c9-efffd3aa9272
+        a                  dcat:CatalogRecord;
+        dct:title          "CDEvents";
+        foaf:primaryTopic  cssvrsc:23524f065c685e401d025b977ce3a1dbd426e07ffaed02a7e68e3f06b9b74dca .
+
 elis:001bee67-aad7-438d-8e74-25497676b09e a dcat:CatalogRecord ;
     dct:title "Microsoft ODBC 4.0 Specification"@en ;
     foaf:primaryTopic cssvrsc:b6f8429b83d4239eb9144340d43c90ff79ea304f5eb3244e57f570c16a6feb47 .
