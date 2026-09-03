@@ -10502,7 +10502,19 @@ cssvrsc:c3626750-7027-466f-abc0-0c804fcbd2be a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf> .
 
+cssvrsc:91de6946ce623bd04d9a26abbbba87178c590af2bcca28861db177312096e9f2 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "ONNX"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:3ccd5eb4c630bce8cc7e1adee15bd015260a39fda75e5abb4a6ac2c6bb76119f ;
+    dct:description "ONNX is an open format for representing machine learning models. It defines a common set of operators, the building blocks of machine learning and deep learning models, together with a common file format, so that AI developers can move models between frameworks, tools, runtimes and compilers."@en ;
+    dct:title "Open Neural Network Exchange (ONNX)"@en ;
+    dcat:distribution cssvrsc:eba6703a-617f-491f-85fa-d0570609d93d ;
+    dcat:version "1.22.0" .
 
+cssvrsc:eba6703a-617f-491f-85fa-d0570609d93d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://onnx.ai/> .
 
 cssvrsc:80ecaf05bc549eba4cc3d872b0772ffcc17dc1f1956b7119cbbf3e16a4b1fa53 a owl:NamedIndividual,
         org:Organization ;

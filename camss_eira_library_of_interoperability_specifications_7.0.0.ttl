@@ -161,6 +161,11 @@ elis:0b007d60-1d47-478a-bb3e-b90ca98bed87
         dct:title          "Artificial Intelligence Risk Management Framework (AI RMF 1.0)";
         foaf:primaryTopic  cssvrsc:ed3a8fb15de8f532e6b765e19977c399ebe38cf1239d1b0aff062df3713a4f82 .
 
+elis:99e81309-fded-4daa-be4a-8f82ad355e4a
+        a                  dcat:CatalogRecord;
+        dct:title          "Open Neural Network Exchange (ONNX)";
+        foaf:primaryTopic  cssvrsc:91de6946ce623bd04d9a26abbbba87178c590af2bcca28861db177312096e9f2 .
+
 elis:001bee67-aad7-438d-8e74-25497676b09e a dcat:CatalogRecord ;
     dct:title "Microsoft ODBC 4.0 Specification"@en ;
     foaf:primaryTopic cssvrsc:b6f8429b83d4239eb9144340d43c90ff79ea304f5eb3244e57f570c16a6feb47 .
