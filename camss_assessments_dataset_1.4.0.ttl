@@ -138365,7 +138365,13 @@ camssa:67e570c64ee9bd05cd58229e9dae7d02a9e4d9a3748dbb6dbde14c91be591b0f a cav:As
     dct:description "CAMSS as a Service (CAMSSaaS) EIF Scenario Content Review of CRVS"@en ;
     dct:title "CAMSSaaS Content Review of CRVS 1.0.0"@en ;
     dcat:version "1.0.0" ;
-    dcat:distribution camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 .
+    #This points to the general component
+    dcat:distribution camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 ;
+    #this points to the summary components
+    cav:hasSummary camssa:40254c35-0b62-479c-a32e-1672d23e123b ;
+    #this points to the report of the assessmet (questions and justifications)
+    cav:hasReport camssa:40254c35-0b62-479c-a32e-1672d23e124b .
+
 
 camssa:075c3bab-6715-48f6-877b-2d5fb09f40ee a cav:Statement,
         owl:NamedIndividual ;
@@ -138684,6 +138690,10 @@ camssa:6666cb5c-77d7-476c-9546-0891de082b78 a cav:Score,
 camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL "http://data.europa.eu/w21/09fa2cb6-8442-4f3c-9052-f9ab67527742"^^xsd:anyURI .
+
+camssa:40254c35-0b62-479c-a32e-1672d23e123b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://interoperable-europe.ec.europa.eu/node/distribution/5799cb6a-604d-4a31-9785-21e52a8c58b6>^^xsd:anyURI .
 
 camssa:6bab6d45-503b-40e9-a161-40f9a9830224 a cav:Statement,
         owl:NamedIndividual ;
@@ -139101,3 +139111,1818 @@ _x000D_
 CRVS standard reference:_x000D_
 https://standards.spdci.org/standards/crvs-v1.0-1  '"""@en ;
     cav:refersTo camssa:6bd752ef-f28e-4a4f-aee2-3d4f42b7c929 .
+
+camssa:6dc003f55489c05611f6c38023c415f35714a4aa9c4e8ad571eb1e9321b303b8 a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:assesses cssvrsc:3ac90955aa96eedf7114693c57e1862f5dc359b7f26327a4878201bb0934a53b ;
+    cav:considers camssa:6d5fc9e9-8f15-449b-a5ba-088ce1d918fb ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
+    cav:resultsIn camssa:00959146-e4e3-4450-97bd-1f7c7b1d8dfa,
+        camssa:0cfc67da-d2cb-4979-8044-cc88e209973f,
+        camssa:141ed667-3e5d-42be-80cd-659fde44ecc4,
+        camssa:1e39df35-fd8b-497a-998e-e45667c85b88,
+        camssa:2a0d9536-63b5-45ba-a52a-6dc64304a78c,
+        camssa:2c6f30a4-2681-4434-8d21-7c988ab9da06,
+        camssa:315f9461-4fbe-4db8-9440-f3ed80491f47,
+        camssa:45707377-0d42-4323-86dc-c74a313bbe42,
+        camssa:4bd202d3-399f-4034-bd4d-ce90fc3377b2,
+        camssa:517e4b75-279e-43ca-919e-8040a9de8359,
+        camssa:630027d8-6670-43aa-90dd-6cf4dab7efe4,
+        camssa:6915c00e-90bd-4d14-a22a-d95fa442c5cd,
+        camssa:6d87be87-b69e-4a38-9924-7021ab14ea18,
+        camssa:72707b31-6ded-49e0-accd-9c49b6e5f70b,
+        camssa:80aa27d1-c8ca-43c4-8506-d078ffcbc751,
+        camssa:8148c2d2-3a19-4cee-a412-9d03b9208773,
+        camssa:83decf51-1c2c-4a48-a6b0-e84e3ef273f6,
+        camssa:84102436-91a6-4064-b5c3-0e7987aa394a,
+        camssa:8bd2cafb-ec96-424a-9911-c275efd27822,
+        camssa:8ca9828f-6935-44f6-b7b3-7f76fad6b5e2,
+        camssa:8d54d462-81ff-4b35-bbff-ef77ffb3a55e,
+        camssa:8dab0686-bb7f-493f-89d9-664df2581db2,
+        camssa:9426da3e-55c6-4861-b239-893e51413110,
+        camssa:9b441d08-fa98-4576-b696-62ee1e04d995,
+        camssa:a0c4d2a3-430b-4d5c-8d07-140e0b1d7200,
+        camssa:a93148db-2ebb-494a-99f3-2c9289d27691,
+        camssa:aa9f2421-9af0-4a86-afe5-5fd72200fa06,
+        camssa:ac822bcf-141a-427d-917d-94329466be46,
+        camssa:b47d4d55-fb2f-42c8-b6e1-bc7e852f4cda,
+        camssa:bcb4e5aa-ebf3-4be5-8c05-167a631be558,
+        camssa:c06c93dd-b4d9-4d8f-91bb-c993b3a347dd,
+        camssa:c1fd5016-bb56-4267-ba38-88030169bef4,
+        camssa:c7f4c94d-35b2-44ef-808b-375a680334ad,
+        camssa:c9682d6b-9c70-41ea-8494-574b81ae645d,
+        camssa:cdaf054f-9a5f-467f-9b8e-59468fedb8e6,
+        camssa:ce009c59-e09a-4804-babc-65d0d7ca3151,
+        camssa:ce468084-a795-4743-89c6-5199cf2846a9,
+        camssa:ce582b76-8b3c-4b30-b7c2-52496471d047,
+        camssa:d1e570ff-52a8-4201-87ba-71922cb6c265,
+        camssa:d1f4862a-107e-4a21-9832-bfde54e8082e,
+        camssa:d9818940-ec8d-4148-8eb3-c84039822d21,
+        camssa:dffef431-cc0e-42c7-b9f8-01141b7bf381,
+        camssa:e4861cc9-c7df-4649-a240-5ba00b9171e9,
+        camssa:ea182108-8a9a-4d6e-b63f-b33cfc95b2d9,
+        camssa:fea0aa60-175e-4302-a11e-f9f801cc47c3 ;
+    dct:issued "2026-08-28"^^xsd:date ;
+    dct:title "CAMSS Assessment of GML EIF Scenario v1.0.0"@en ;
+    dct:description "Assessment of the Geography Markup Language (GML) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
+    dcat:version "1.0.0" ;
+    dcat:distribution camssa:a632d686-5b5d-4fa3-9ab0-e8eb1579f42e .
+
+camssa:00114cc6-47d5-4b44-8f86-2ed9e57518a3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:string .
+
+camssa:00959146-e4e3-4450-97bd-1f7c7b1d8dfa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML provides a standardised XML-based framework for describing geographic features, their properties, relationships and associated metadata. Through its structured schema definitions and consistent data models, GML improves the understandability of geographic datasets and administrative information. The specification facilitates a common interpretation of geospatial information across organizations and systems, supporting clear and comprehensive data exchange._x000D_
+_x000D_
+OGC GML Standard:_x000D_
+https://www.ogc.org/standards/gml/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:13c2ba58-4751-414f-b177-0002bf0c0268 .
+
+camssa:03d46f81-436a-442a-aee5-ffb470293dea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:string .
+
+camssa:0cfc67da-d2cb-4979-8044-cc88e209973f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Geography Markup Language (GML) specification is designed to support the structured exchange of geospatial information between public administrations, businesses and other stakeholders. Through its standardised XML-based encoding, GML enables geographic information to be published, exchanged and consumed through digital channels, including Spatial Data Infrastructures (SDIs), geoportals and OGC web services such as Web Feature Service (WFS) and Web Map Service (WMS)._x000D_
+_x000D_
+Within the context of the INSPIRE Directive, GML provides a common data exchange format that enables public administrations across Member States to publish and access harmonised geospatial datasets through digital platforms. This allows organisations to access authoritative sources of geographic information directly, reducing the need for manual data requests, organisation-specific formats and duplicated data collection activities._x000D_
+_x000D_
+As a result, GML helps simplify administrative procedures by enabling public authorities to access and reuse information that is already available from other administrations. This supports more efficient service delivery, reduces the need for certain in-person interactions and improves access to public-sector information for citizens and businesses._x000D_
+_x000D_
+OGC WFS Reference: _x000D_
+https://www.ogc.org/standards/wfs/_x000D_
+_x000D_
+OGC WMS Reference:_x000D_
+https://www.ogc.org/es/standards/wms/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:437b1a4d-b815-450e-a485-7cee3c7ba751 .
+
+camssa:0ed246a2-d3a6-4e06-8235-71a50af9a344 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:string .
+
+camssa:13c2ba58-4751-414f-b177-0002bf0c0268 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:string .
+
+camssa:141ed667-3e5d-42be-80cd-659fde44ecc4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Through standardised data structures, common schemas and interoperable geospatial services, GML facilitates the discovery, access and reuse of datasets, services and administrative information. Its role within INSPIRE and numerous Spatial Data Infrastructures significantly improves the visibility and accessibility of public-sector geographic information across Europe. _x000D_
+_x000D_
+OGC GML Standard:_x000D_
+https://www.ogc.org/standards/gml/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:c96c1b5c-f8ea-4f6c-8efd-86bf877c8d93 .
+
+camssa:1b6e9382-d25a-418a-b425-76de42782170 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a16c678a586cf542d2ae1d6cd8a987bd6ed0b2af52ba0e04d8872fe616a9b7bd ;
+    cav:value "100"^^xsd:string .
+
+camssa:1e39df35-fd8b-497a-998e-e45667c85b88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The use of GML offers many benefits for modelling business processes by providing standardised feature models, application schemas, metadata structures and encoding rules that enable organisations to define and exchange geographic information consistently. These capabilities support the modelling of business processes that rely on spatial information, such as cadastral management, land-use planning, environmental monitoring, transport network management and emergency response coordination._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:5811ebc9-9191-46c3-9ca8-9dd7c3e98f41 .
+
+camssa:2a0d9536-63b5-45ba-a52a-6dc64304a78c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The OGC standards development process includes public review periods before the approval of standards and revisions. During this process, draft specifications are made publicly available for consultation and stakeholders can provide comments and feedback. These reviews contribute to improving the quality and interoperability of the specification while ensuring transparency in the standardisation lifecycle. The resulting comments and resolutions are managed through OGC's formal standards process. As a result, public review is an established and mandatory element of the release lifecycle of GML. Although draft specifications are publicly available, participation in some stages of the review and standards development process may require OGC membership or participation through recognised OGC communities._x000D_
+_x000D_
+OGC Policies_x000D_
+https://www.ogc.org/about/policies/_x000D_
+_x000D_
+OGC Principles of Conduct:_x000D_
+https://www.ogc.org/about/policies/conduct/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf\""""@en ;
+    cav:refersTo camssa:b08039ea-dd4c-4361-8c1a-68bd18ac46e0 .
+
+camssa:2c6f30a4-2681-4434-8d21-7c988ab9da06 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is primarily designed for the geospatial domain. However, geographic information is a cross-cutting asset used in environmental protection, transport, agriculture, emergency management, land administration and urban planning. Therefore, although domain-specific, GML can be reused across multiple business domains._x000D_
+_x000D_
+OGC Governance bylaws reference:_x000D_
+https://docs.ogc.org/pol/26-017.pdf_x000D_
+_x000D_
+OGC GML Standard:_x000D_
+https://www.ogc.org/standards/gml/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:db36d7b7-7276-4720-a9a1-3e6237674cf0 .
+
+camssa:315f9461-4fbe-4db8-9440-f3ed80491f47 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML contributes to data accuracy through the use of standardised schemas, validation rules, coordinate reference system definitions and conformance requirements. These mechanisms promote the consistent representation and interpretation of geographic information across different systems and organisations. Accurate and validated geospatial information supports better operational decisions, reduces errors when exchanging data between organisations and improves the reliability of services that depend on geographic information, such as spatial planning, environmental monitoring, transport management and land administration._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:d3d982dc-cec7-45a8-bdf6-b38b3589e9d7 .
+
+camssa:31781c8b-fc36-4909-984f-61f7dfad743f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3346459b-a0b7-444c-8a7e-b872ebc69928 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "80"^^xsd:string .
+
+camssa:3c715a6a-949b-4d03-b2fa-ba9f8df1b9fb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:string .
+
+camssa:42c56e3d-f6fe-4992-93bd-0628d6519d1e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:string .
+
+camssa:437b1a4d-b815-450e-a485-7cee3c7ba751 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:string .
+
+camssa:45707377-0d42-4323-86dc-c74a313bbe42 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is independent of specific hardware platforms, software products, vendors or implementation technologies. The specification is based on XML and XML Schema standards and can be implemented using a wide range of programming languages, databases, operating systems and middleware technologies. This technology neutrality supports interoperability and long-term sustainability across heterogeneous environments._x000D_
+_x000D_
+OGC GML Standard:_x000D_
+https://www.ogc.org/standards/gml/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:75d125a9-1bd4-42a6-95ea-9a511f9a47ea .
+
+camssa:47cbf2cc-a193-4a95-b927-f6948b712ccb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:string .
+
+camssa:4bd202d3-399f-4034-bd4d-ce90fc3377b2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML was specifically designed to be extensible. The specification defines extension mechanisms through application schemas, substitution groups, encoding rules, code lists, dictionaries and additional schema modules. GML 3.3 itself extends previous GML versions through additional schemas for compact geometries, linear referencing, referenceable grids and other geospatial concepts. This extensibility enables organisations to adapt the standard to evolving requirements while preserving interoperability._x000D_
+_x000D_
+OGC GML Standard:_x000D_
+https://www.ogc.org/standards/gml/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:0ed246a2-d3a6-4e06-8235-71a50af9a344 .
+
+camssa:4d846a42-12aa-4a36-874c-298cc14d8ea2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:string .
+
+camssa:50182866-1751-48c8-8efa-248966bcd4f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:5097b486-f20f-40fd-855e-2197b2d2f592 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:string .
+
+camssa:517e4b75-279e-43ca-919e-8040a9de8359 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is platform-independent and may be implemented on any operating system or computing environment supporting XML processing. The specification does not impose any platform-specific requirements and can be used in desktop, web, cloud, enterprise, and mobile environments. This broad compatibility contributes to its widespread adoption within geospatial infrastructures worldwide._x000D_
+_x000D_
+OGC GML Standard:_x000D_
+https://www.ogc.org/standards/gml/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:3c715a6a-949b-4d03-b2fa-ba9f8df1b9fb .
+
+camssa:561f3e8f-84f7-4e06-a97a-c9934baa340a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:string .
+
+camssa:5811ebc9-9191-46c3-9ca8-9dd7c3e98f41 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:string .
+
+camssa:630027d8-6670-43aa-90dd-6cf4dab7efe4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is a mature geospatial information standard developed by the Open Geospatial Consortium (OGC) and first released in 2000. Over more than two decades, it has become one of the most widely recognised standards for the modelling, storage and exchange of geographic information. The most widely implemented stable version of the specification family is GML 3.2.2, which forms the basis of ISO 19136-1:2020. This version provides a comprehensive framework for encoding geographic features, coordinate reference systems, geometries, topologies and metadata. _x000D_
+_x000D_
+GML 3.3, the version assessed in this study, extends GML 3.2 by introducing additional functionality through supplementary schema modules, including support for compact geometries, linear referencing, referenceable grids and triangulated irregular networks (TINs). These enhancements maintain compatibility with previous versions whilst addressing additional implementation requirements identified by the geospatial community._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+ISO 19136-1:2020:_x000D_
+https://www.iso.org/standard/75676.html'"""@en ;
+    cav:refersTo camssa:47cbf2cc-a193-4a95-b927-f6948b712ccb .
+
+camssa:64ec6123-529e-4722-a2f8-6b49b173af9e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "60"^^xsd:string .
+
+camssa:68b2341d-9471-436f-9c0c-4e61c02a0f5d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:string .
+
+camssa:6915c00e-90bd-4d14-a22a-d95fa442c5cd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is discussed on general and specialised technical forums, including GIS Stack Exchange, GitHub and Stack Overflow. Discussions on Stack Overflow address practical implementation issues such as importing GML geometries into spatial databases and converting GML data into application-specific formats. Similarly, discussions on GIS Stack Exchange explain the purpose, structure and use of GML files for the exchange of geographic information and interoperability between geospatial systems. Issues raised in the GDAL repository (GitHub) include discussions on the handling and conversion of GML datasets, allowing contributors to share technical knowledge and identify improvements for software implementations supporting GML._x000D_
+_x000D_
+Stack Overflow Reference:_x000D_
+https://stackoverflow.com/questions/10841819/how-to-import-gml-to-geometry-colum-using-geomfrom-gml-in-mvc_x000D_
+_x000D_
+GIS Stack Exchange Reerence:_x000D_
+https://gis.stackexchange.com/questions/310853/what-is-a-gml-file_x000D_
+_x000D_
+GitHub issues: _x000D_
+https://github.com/OSGeo/gdal/issues/2361_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:cbdcdd38-74c2-40aa-bc82-ff12b181cbc4 .
+
+camssa:6b13f881-3d1f-4c7e-90b6-7171b9e28386 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:string .
+
+camssa:6d5fc9e9-8f15-449b-a5ba-088ce1d918fb a cav:Score,
+        owl:NamedIndividual ;
+    cav:value "93.33%AssessmentScoreAverage"^^xsd:string,
+        "100%StrengthOfAssessmentScoreAverage"^^xsd:string .
+
+camssa:6d87be87-b69e-4a38-9924-7021ab14ea18 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Geography Markup Language (GML) is included in 7 national catalogues of recommended specifications. These include Cyprus, France, Greece, Ireland, Poland, Slovenia and Spain. According to the National Interoperability Framework Observatory (NIFO) factsheets, several of these Member States are aligned with at least three of the four EIF Monitoring scoreboards._x000D_
+_x000D_
+NIFO factsheets:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2024 _x000D_
+_x000D_
+CAMSS List of Standards:_x000D_
+https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Finteroperable-europe.ec.europa.eu%2Fsites%2Fdefault%2Ffiles%2Finline-files%2FCAMSS%2520List%2520of%2520Standards_2.xlsx&wdOrigin=BROWSELINK_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:03d46f81-436a-442a-aee5-ffb470293dea .
+
+camssa:72707b31-6ded-49e0-accd-9c49b6e5f70b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is included in national catalogues from 7 Member States. The Member States are Cyprus, Greece and Spain among others._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+CAMSS List of Standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:7c3a4ac4-0157-4325-bc84-a9d2341fe0f4 .
+
+camssa:75d125a9-1bd4-42a6-95ea-9a511f9a47ea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:string .
+
+camssa:7c3a4ac4-0157-4325-bc84-a9d2341fe0f4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:string .
+
+camssa:7c437560-3fe7-4dfa-b30c-55ca4308b259 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "60"^^xsd:string .
+
+camssa:80aa27d1-c8ca-43c4-8506-d078ffcbc751 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The effectiveness of the GML family of specifications has been assessed by M. A. A. Khafagy, through research conducted at the University of Portsmouth. In the study "Preservation of Geospatial Data: the Connection with Open Standards Development", the GML family of specifications is analysed as an open standard that enables the interoperable exchange and long-term preservation of geospatial information. The study concludes that open geospatial standards such as GML contribute to improving interoperability between heterogeneous systems and support the preservation of geographic data over time, demonstrating the effectiveness of GML in achieving its intended purpose of facilitating the consistent representation and exchange of geographic information._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+M. A. A. Khafagy (2016) Preservation of Geospatial Data: the Connection with Open Standards Development. DOI: 10.1007/978-3-642-12733-5_6'"""@en ;
+    cav:refersTo camssa:d4a90bda-0fc0-420c-9b95-8e163e84c370 .
+
+camssa:8148c2d2-3a19-4cee-a412-9d03b9208773 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML does not directly define security mechanisms for the exchange of data. However, as an XML-based specification, it can leverage established XML security standards such as XML Signature and XML Encryption to support secure information exchange. These capabilities enable public administrations and organisations to exchange geospatial information across organisational and national boundaries whilst reducing the risk of unauthorised access, tampering or disclosure. This is particularly important for cross-border public services and Spatial Data Infrastructures (SDIs), where trusted data exchange is essential for effective cooperation and decision-making._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+XML Signature Reference:_x000D_
+https://www.w3.org/TR/xmldsig-core/_x000D_
+_x000D_
+XML Encryption Reference: _x000D_
+https://www.w3.org/TR/xmlenc-core/'"""@en ;
+    cav:refersTo camssa:f36bdd85-c769-4f7a-98e5-b157bfc33baf .
+
+camssa:83decf51-1c2c-4a48-a6b0-e84e3ef273f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML enables data portability by providing a standardised, platform-independent XML encoding for geographic information, enabling the exchange of geospatial datasets between heterogeneous systems without dependency on proprietary technologies. GML promotes interoperability across organisations, administrative boundaries and software platforms, facilitating the reuse and migration of geographic information in European public services._x000D_
+_x000D_
+OGC GML Standard:_x000D_
+https://www.ogc.org/standards/gml/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:d01b2126-3fd9-42e6-a2c2-963fb326656a .
+
+camssa:84102436-91a6-4064-b5c3-0e7987aa394a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is one of the most widely adopted standards for the exchange of geographic information worldwide. It is used by national mapping agencies, cadastral authorities, environmental organisations and Spatial Data Infrastructures (SDIs) to support the interoperable exchange of geospatial data. Within Europe, GML has achieved significant adoption through its role in the implementation of the INSPIRE Directive, where it is used as a common encoding format for harmonised spatial datasets exchanged between Member States. In addition to its adoption within INSPIRE, GML is supported by major commercial and open-source geospatial platforms, including ArcGIS, FME, GeoServer, GDAL and QGIS._x000D_
+_x000D_
+INSPIRE XML Schemas: _x000D_
+https://knowledge-base.inspire.ec.europa.eu/tools/xml-schemas_en_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:a0b3b1fe-5ff0-4d3e-9b7a-34f99948835b .
+
+camssa:8bd2cafb-ec96-424a-9911-c275efd27822 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML does not explicitly define mechanisms for secure data processing. Nevertheless, its XML-based structure allows organisations to combine GML with XML security standards and validation mechanisms that help ensure the trustworthiness of data before it is processed. This reduces the risk of public administrations and organisations processing unauthorised, manipulated or incomplete geospatial information. By supporting the verification of data integrity and authenticity prior to processing, GML contributes to more reliable operational workflows and decision-making processes that depend on geographic information._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+XML Signature Reference:_x000D_
+https://www.w3.org/TR/xmldsig-core/_x000D_
+_x000D_
+XML Encryption Reference: _x000D_
+https://www.w3.org/TR/xmlenc-core/'"""@en ;
+    cav:refersTo camssa:9955f3b1-fcce-4e6f-a999-a5f2348719b3 .
+
+camssa:8ca9828f-6935-44f6-b7b3-7f76fad6b5e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is not related to privacy regulations such as eIDAS2, and as a pure data-modelling and encoding specification it does not define any mechanism for data protection during transmission. However, it provides structured XML mechanisms for data modelling and metadata representation that can support the implementation of privacy requirements. GML can leverage XML Encryption Syntax and Processing to protect personal data by encrypting entire XML documents or selected elements, ensuring that information remains accessible only to authorised parties._x000D_
+_x000D_
+W3C XML Encryption Reference:_x000D_
+https://www.w3.org/TR/xmlenc-core/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:9548fd03-4bef-45d5-ad09-bfc8acf77e86 .
+
+camssa:8d54d462-81ff-4b35-bbff-ef77ffb3a55e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML does not include native authentication or identity management mechanisms. However, GML documents can be protected using XML Signature technologies and Public Key Infrastructure (PKI) frameworks to verify the origin of exchanged information. This enables organisations to confirm that geospatial data originate from a trusted source and have been provided by an authorised authority. Such assurance is particularly valuable when geographic information is used to support regulatory compliance, environmental reporting, land administration or emergency management activities, where trust in the source of information is essential._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+XML Signature Reference: _x000D_
+https://www.w3.org/TR/xmldsig-core/_x000D_
+_x000D_
+Public Key Infrastructure (PKI):_x000D_
+https://www.euspa.europa.eu/about/corporate-documents/pki-public-key-infrastructure'"""@en ;
+    cav:refersTo camssa:c76f9302-d307-4a1a-b891-d67b6701729a .
+
+camssa:8dab0686-bb7f-493f-89d9-664df2581db2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The GML specification is maintained by the Open Geospatial Consortium (OGC). OGC develops its standards through collaborative working groups involving public administrations, industry representatives, research institutions, and other stakeholders. Participation in OGC standards development is organised through several membership categories, including Strategic, Principal, Technical, Supporter and Individual Memberships. Individuals may also contribute through the OGC Individual Membership programme, which requires the payment of an annual membership fee that varies depending on the country of residence._x000D_
+_x000D_
+In addition to formal standards working groups, OGC provides dedicated member communities that support collaboration and participation in standards development activities. One of the most relevant examples is the OGC Agora community, a collaborative platform where members discuss technical proposals, review draft standards, exchange implementation experiences and contribute to interoperability initiatives. OGC also maintains a public Member Directory that provides transparency regarding participating organisations and stakeholders._x000D_
+_x000D_
+Through these governance and collaboration mechanisms, interested stakeholders are able to contribute to the development and maintenance of GML. However, participation is subject to registration and membership requirements established by OGC._x000D_
+_x000D_
+OGC reference:_x000D_
+https://www.ogc.org/standards/gml/_x000D_
+_x000D_
+OGC membership reference:_x000D_
+https://www.ogc.org/es/membership/_x000D_
+_x000D_
+Agora member community:_x000D_
+https://agora.ogc.org/c/start-here/_x000D_
+_x000D_
+Mmeber directory:_x000D_
+https://www.ogc.org/ogc-member-directory/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:64ec6123-529e-4722-a2f8-6b49b173af9e .
+
+camssa:9426da3e-55c6-4861-b239-893e51413110 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is directly referenced in EU law as the encoding underlying the INSPIRE implementing rules._x000D_
+_x000D_
+COMMISSION STAFF WORKING DOCUMENT EVALUATION of DIRECTIVE 2007/2/EC establishing an Infrastructure for Spatial Information in the European Community (INSPIRE):_x000D_
+https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022SC0195_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:9eca36dd-9952-428e-b92f-088d17ed8041 .
+
+camssa:9548fd03-4bef-45d5-ad09-bfc8acf77e86 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "80"^^xsd:string .
+
+camssa:95b3cea5-40cd-433c-8c2f-e5c977c757d7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100"^^xsd:string .
+
+camssa:9955f3b1-fcce-4e6f-a999-a5f2348719b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "80"^^xsd:string .
+
+camssa:9b441d08-fa98-4576-b696-62ee1e04d995 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'One of the main objectives of GML is the creation of application schemas tailored to specific domains and business requirements. The specification provides mechanisms for extending and customising schemas while maintaining compatibility with the core GML framework. Organisations may define their own feature types, properties, code lists and domain-specific models based on GML. For example, the cadastral authority can define additional property-related attributes, while the environmental agency can introduce feature types related to monitoring stations or protected areas. Through GML application schemas, both organisations can customise the model to their specific needs without abandoning the common interoperability framework._x000D_
+_x000D_
+OGC GML Standard:_x000D_
+https://www.ogc.org/standards/gml/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:ae396122-f088-45bf-b570-dca89ebdc107 .
+
+camssa:9eca36dd-9952-428e-b92f-088d17ed8041 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a0b3b1fe-5ff0-4d3e-9b7a-34f99948835b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a0c4d2a3-430b-4d5c-8d07-140e0b1d7200 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Access control is outside the scope of the GML specification and is typically implemented through the systems, services and security frameworks that manage GML data. Nevertheless, GML can be combined with access management solutions and XML security standards as part of a broader security architecture. This enables organisations to control who is authorised to view, modify or distribute geospatial information. Such capabilities support governance, regulatory compliance and information security requirements, particularly when sensitive datasets are shared between multiple public administrations, external organisations or private-sector stakeholders._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:1b6e9382-d25a-418a-b425-76de42782170 .
+
+camssa:a59ee28d-2726-4d08-8dff-cd68af69e55b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "80"^^xsd:string .
+
+camssa:a632d686-5b5d-4fa3-9ab0-e8eb1579f42e a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://data.europa.eu/w21/3d18ab37-61e8-4ef6-abae-af6dfef1e68c"^^xsd:anyURI .
+
+camssa:a93148db-2ebb-494a-99f3-2c9289d27691 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML defines multiple conformance classes covering different components and extensions of the specification. Implementers may adopt only the required subsets of functionality, such as compact geometry encodings, linear referencing, triangulated irregular networks (TIN), or referenceable grids. The family of specifications explicitly supports profiles and subsets that enable incremental implementation according to specific business requirements._x000D_
+_x000D_
+OGC GML Standard:_x000D_
+https://www.ogc.org/standards/gml/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:c53325fc-4df5-4113-9078-f4993fb5105f .
+
+camssa:aa9f2421-9af0-4a86-afe5-5fd72200fa06 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is used across a wide range of European and international projects most notably as the encoding underlying INSPIRE. Within INSPIRE, GML is used to represent and exchange harmonised spatial datasets between public authorities across Member States, enabling the interoperability of geographic information relating to themes such as environmental monitoring, transport networks, land use, hydrography and protected sites. Through its standardised XML-based data model, GML enables spatial information from different national administrations to be exchanged and processed in a consistent manner. _x000D_
+_x000D_
+GML is also used within Édugéo, the French national educational platform for geographic information, which provides access to authoritative geospatial datasets for educational purposes. In this context, GML supports the storage and exchange of structured geographic information, facilitating access to interoperable spatial data derived from official public-sector sources._x000D_
+_x000D_
+European datasets using GML in INSPIRE Reference:_x000D_
+https://data.europa.eu/data/datasets/https-dane-gov-pl-pl-dataset-686-nazwy-geograficzne-inspire-gn?locale=en_x000D_
+_x000D_
+Édugéo:_x000D_
+https://www.edugeo.fr/_x000D_
+https://interoperable-europe.ec.europa.eu/collection/elise-european-location-interoperability-solutions-e-government/solution/eulf-blueprint/best-practice-69_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:6b13f881-3d1f-4c7e-90b6-7171b9e28386 .
+
+camssa:ac822bcf-141a-427d-917d-94329466be46 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is published by the Open Geospatial Consortium under a royalty-free and non-discriminatory licensing framework. The specification may be implemented, copied, distributed, and used without payment of royalties. The OGC explicitly states that its standards are available on a royalty-free basis, supporting broad adoption across public and private sector implementations. This approach promotes interoperability and avoids vendor lock-in, while remaining aligned with FAIR and FRAND principles commonly applied within international standardisation activities._x000D_
+_x000D_
+OGC Intellectual Property Rights Policy: _x000D_
+https://www.ogc.org/about/policies/ipr/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:95b3cea5-40cd-433c-8c2f-e5c977c757d7 .
+
+camssa:ae396122-f088-45bf-b570-dca89ebdc107 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:string .
+
+camssa:af19a5b2-d215-410b-8257-019c643a5211 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:string .
+
+camssa:b08039ea-dd4c-4361-8c1a-68bd18ac46e0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "80"^^xsd:string .
+
+camssa:b43f5c89-c535-429b-b388-752f52605ad0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:string .
+
+camssa:b47d4d55-fb2f-42c8-b6e1-bc7e852f4cda a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Geography Markup Language (GML) family of specifications is designed to facilitate the exchange of geospatial information between public administrations, businesses and other stakeholders. When implemented, GML helps eliminate data interoperability barriers between organisations and simplifies administrative processes that depend on geographic information. By enabling public administrations to exchange and reuse spatial data using a common format, GML reduces the need for duplicate data collection, manual data transformation and organisation-specific integration solutions. _x000D_
+_x000D_
+Furthermore, when GML is used within European initiatives such as INSPIRE, public authorities from different Member States can access and reuse harmonised geographic information originating from other administrations._x000D_
+_x000D_
+INSPIRE Reference:_x000D_
+https://knowledge-base.inspire.ec.europa.eu/tools/xml-schemas_en_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+OGC GML extended schemas:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:4d846a42-12aa-4a36-874c-298cc14d8ea2 .
+
+camssa:bcb4e5aa-ebf3-4be5-8c05-167a631be558 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is already associated to EIRA ABBs in the EIRA Library of Interoperability Specifications (ELIS). More _x000D_
+specifically, GML can define the interoperability aspects of the "Linked Data", "Linked Data Event Stream", "Linked Open Data" and "Data Representation" ABBs of the EIRA semantic view._x000D_
+_x000D_
+EIRA Library of Interoperability Specifications (ELIS):_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/700_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:cebb224c-98a7-4673-a936-3033e49dcb30 .
+
+camssa:c06c93dd-b4d9-4d8f-91bb-c993b3a347dd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML facilitates organisational agreements by providing a shared, standardised schema language that different public administrations and organisations can use to agree on a common structure for exchanging geographic data._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+INSPIRE Reference:_x000D_
+https://knowledge-base.inspire.ec.europa.eu/tools/xml-schemas_en'"""@en ;
+    cav:refersTo camssa:b43f5c89-c535-429b-b388-752f52605ad0 .
+
+camssa:c1fd5016-bb56-4267-ba38-88030169bef4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML specification allows geographic features, coordinate reference systems, dictionaries, code lists, and metadata to be referenced and reused across multiple datasets and services instead of being repeatedly duplicated. Furthermore, GML extensively uses URI-based references and shared schema components, enabling information to be maintained once and reused across different systems, organizations, and public services. _x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:5097b486-f20f-40fd-855e-2197b2d2f592 .
+
+camssa:c53325fc-4df5-4113-9078-f4993fb5105f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:string .
+
+camssa:c76f9302-d307-4a1a-b891-d67b6701729a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "80"^^xsd:string .
+
+camssa:c7f4c94d-35b2-44ef-808b-375a680334ad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is an XML-based specification designed for the representation and exchange of geographic information. By itself, GML does not provide mechanisms to restrict access to data or enforce confidentiality. However, as GML documents are encoded using XML, they can leverage established XML security standards to provide a degree of protection to the information being exchanged._x000D_
+_x000D_
+In particular, GML implementations can make use of the XML Encryption Syntax and Processing specification, which enables the encryption of an entire XML document or selected portions of it. By encrypting sensitive information contained within a GML file, access to the data can be restricted, ensuring that only authorised users are able to access and process the protected content. Therefore, whilst confidentiality mechanisms are not defined directly by GML, the specification can support their implementation through complementary XML security technologies._x000D_
+ _x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+W3C XML Encryption Reference: _x000D_
+https://www.w3.org/TR/xmlenc-core/'"""@en ;
+    cav:refersTo camssa:3346459b-a0b7-444c-8a7e-b872ebc69928 .
+
+camssa:c9682d6b-9c70-41ea-8494-574b81ae645d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is an open XML-based standard maintained by the Open Geospatial Consortium (OGC) and standardised as ISO 19136.  Its use of non-proprietary schemas and structured encodings contributes to the long-term accessibility and preservation of geospatial information._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+OGC GML extended schemas:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:d2fc3a50-5b43-43f1-98d9-229b34303a52 .
+
+camssa:c96c1b5c-f8ea-4f6c-8efd-86bf877c8d93 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:string .
+
+camssa:cbdcdd38-74c2-40aa-bc82-ff12b181cbc4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100"^^xsd:string .
+
+camssa:cdaf054f-9a5f-467f-9b8e-59468fedb8e6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is primarily designed for the geospatial domain. However, geographic information is a cross-cutting asset used in environmental protection, transport, agriculture, emergency management, land administration and urban planning. Therefore, although domain-specific, GML can be reused across multiple business domains._x000D_
+_x000D_
+OGC GML Standard:_x000D_
+https://www.ogc.org/standards/gml/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:7c437560-3fe7-4dfa-b30c-55ca4308b259 .
+
+camssa:ce009c59-e09a-4804-babc-65d0d7ca3151 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is maintained by the OGC, not a European-based SDO. However, it is used in relevant European projects such as INSPIRE._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+OGC About Reference:_x000D_
+https://www.ogc.org/about/overview/_x000D_
+_x000D_
+COMMISSION STAFF WORKING DOCUMENT EVALUATION of DIRECTIVE 2007/2/EC establishing an Infrastructure for Spatial Information in the European Community (INSPIRE):_x000D_
+https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022SC0195'"""@en ;
+    cav:refersTo camssa:d5a8ffcc-04e1-4d90-ad5c-4ca199fe917d .
+
+camssa:ce468084-a795-4743-89c6-5199cf2846a9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is based on XML and Unicode-supported character encodings such as UTF-8 and UTF-16. The specification provides support for multilingual textual values through LanguageStringType and xml:lang attributes, enabling representation of geographic information in multiple languages._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:42c56e3d-f6fe-4992-93bd-0628d6519d1e .
+
+camssa:ce582b76-8b3c-4b30-b7c2-52496471d047 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The efficiency of GML has been assessed in academic literature examining geospatial data interoperability and the exchange of geographic information across heterogeneous systems. In Geospatial Data Interoperability, Geography Markup Language (GML), Scalable Vector Graphics (SVG), and Geospatial Web Services, Zhang, Zhao and Li analyse the role of GML in supporting interoperable geospatial data exchange and its integration with web-based geospatial services._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+Zhang, C., Zhao, T., Li, W. (2015). Geospatial Data Interoperability, Geography Markup Language (GML), Scalable Vector Graphics (SVG), and Geospatial Web Services:_x000D_
+https://doi.org/10.1007/978-3-319-17801-1_1'"""@en ;
+    cav:refersTo camssa:68b2341d-9471-436f-9c0c-4e61c02a0f5d .
+
+camssa:cebb224c-98a7-4673-a936-3033e49dcb30 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:string .
+
+camssa:d01b2126-3fd9-42e6-a2c2-963fb326656a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100"^^xsd:string .
+
+camssa:d1e570ff-52a8-4201-87ba-71922cb6c265 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Although a dedicated conformance test suite for GML 3.3 was not identified, GML 3.3 is an extension of GML 3.2 and retains compatibility with the core concepts, structures and encoding mechanisms defined in earlier versions. As a result, a significant proportion of the elements, attributes and properties introduced in GML 3.2 remain applicable in GML 3.3 implementations and can therefore be validated using the existing OGC conformance testing framework._x000D_
+_x000D_
+GML 3.2 Test:_x000D_
+https://cite.ogc.org/teamengine/about/gml32/3.2/site/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:561f3e8f-84f7-4e06-a97a-c9934baa340a .
+
+camssa:d1f4862a-107e-4a21-9832-bfde54e8082e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of GML is not related to e-accessibility. Therefore, this criterion is not applicable to this family of specifications._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:50182866-1751-48c8-8efa-248966bcd4f8 .
+
+camssa:d2fc3a50-5b43-43f1-98d9-229b34303a52 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "80"^^xsd:string .
+
+camssa:d3d982dc-cec7-45a8-bdf6-b38b3589e9d7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:string .
+
+camssa:d4a90bda-0fc0-420c-9b95-8e163e84c370 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:string .
+
+camssa:d5a8ffcc-04e1-4d90-ad5c-4ca199fe917d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:string .
+
+camssa:d9818940-ec8d-4148-8eb3-c84039822d21 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML does not directly define mechanisms to protect information against unauthorised modifications. However, GML implementations can make use of XML Signature technologies to verify whether exchanged information has been altered after its creation or transmission. This helps organisations ensure that geospatial datasets remain complete, trustworthy and unchanged throughout their lifecycle. As a result, public administrations can rely on the integrity of exchanged information when performing operational activities, policy development and service delivery based on geographic data._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+XML Signature Reference: _x000D_
+https://www.w3.org/TR/xmldsig-core/'"""@en ;
+    cav:refersTo camssa:a59ee28d-2726-4d08-8dff-cd68af69e55b .
+
+camssa:db36d7b7-7276-4720-a9a1-3e6237674cf0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:string .
+
+camssa:dffef431-cc0e-42c7-b9f8-01141b7bf381 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The GML specification is intended to define a generic XML-based schema for the modelling, storage and exchange of geospatial information. GML provides a vendor-neutral and extensible framework for representing geographic data, since it is aligned with ISO 19100. According to Tim Berners-Lee's 5-star Open Data deployment scheme, machine-readable structured data constitutes a key element of open data publication. Furthermore, GML can be combined with RDF and Linked Open Data approaches, facilitating interoperability and reuse of public sector information._x000D_
+_x000D_
+XML 1.1 W3C reference:_x000D_
+https://www.w3.org/TR/2006/REC-xml11-20060816/_x000D_
+_x000D_
+ISO 19100 reference:_x000D_
+https://www.iso.org/obp/ui/#iso:std:iso:tr:19120:ed-1:v1:en_x000D_
+_x000D_
+Tim Berners-Lee 5 star open data:_x000D_
+https://5stardata.info/en/_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf\""""@en ;
+    cav:refersTo camssa:00114cc6-47d5-4b44-8f86-2ed9e57518a3 .
+
+camssa:e4861cc9-c7df-4649-a240-5ba00b9171e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is extensively used within INSPIRE, a European initiative governed under EU legislation. Furthermore, geospatial services exchanging GML data may operate under eIDAS, GDPR and other EU regulatory frameworks._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+INSPIRE Reference:_x000D_
+https://knowledge-base.inspire.ec.europa.eu/tools/xml-schemas_en'"""@en ;
+    cav:refersTo camssa:31781c8b-fc36-4909-984f-61f7dfad743f .
+
+camssa:ea182108-8a9a-4d6e-b63f-b33cfc95b2d9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML does not directly define service interfaces. However, it is commonly used together with OGC service specifications such as Web Feature Service (WFS), Web Map Service (WMS) which expose geographic information through interoperable interfaces. In this context, GML serves as the standard encoding format used by these services, enabling public administrations to expose geospatial resources and datasets through standardized interfaces._x000D_
+_x000D_
+OGC Web Feature Service (WFS): _x000D_
+https://www.ogc.org/standards/wfs_x000D_
+_x000D_
+OGC Web Map Service (WMS): _x000D_
+https://www.ogc.org/standards/wms_x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf'"""@en ;
+    cav:refersTo camssa:fd0457c2-7303-4c91-98ce-b56932016f46 .
+
+camssa:f36bdd85-c769-4f7a-98e5-b157bfc33baf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "80"^^xsd:string .
+
+camssa:fd0457c2-7303-4c91-98ce-b56932016f46 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "80"^^xsd:string .
+
+camssa:fea0aa60-175e-4302-a11e-f9f801cc47c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GML is explicitly part of the Dutch national list of geo-standards maintained by Geonovum (the Dutch standardisation body) and the Standardisation Forum. Furthermore, the specification is included in the National catalogues of Cyprus, France and Greece, among others._x000D_
+_x000D_
+OGC GML 3.3 Standard Reference:_x000D_
+https://docs.ogc.org/is/10-129r1/10-129r1.pdf_x000D_
+_x000D_
+Geonovum framework reference:_x000D_
+https://www.geonovum.nl/uploads/documents/Geonovum%20-%20Framework%20of%20geospatial%20data%20standards%20for%20the%20Netherlands%20v4.0_EN%20DEF.pdf_x000D_
+_x000D_
+Geonovum white paper reference:_x000D_
+https://geonovum.github.io/whitepaper-standaarden/en/_x000D_
+_x000D_
+CAMSS List of Standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:af19a5b2-d215-410b-8257-019c643a5211 .
+
+camssa:c1dcde55a277f258cea5fa6cf63f491a8ac168bef4f1d0009c14b7055839a7b7 a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:assesses cssvrsc:82c9ad1d311aefeaddd7a5ec04d6c7c77df62e6fab907e4a7b5935cd67e41f78 ;
+    cav:considers camssa:093db0bd-890f-4b27-9f6f-d4d3542a4fb5 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
+    cav:resultsIn camssa:116ea30c-d96c-400c-b5d3-cf7f3396056f,
+        camssa:15ff722a-2a46-493a-a715-b0e45a90fbb8,
+        camssa:16f3ac7d-3c8c-46c3-a9d7-dd4a850333a1,
+        camssa:19dcde04-32a8-49d0-a01f-90c63b6387a2,
+        camssa:315638a0-4663-4859-a14b-94426947af48,
+        camssa:31be74a3-5bac-426c-a63e-2cec2ab4acdb,
+        camssa:373a517c-4c5a-4e05-a424-cba07b625013,
+        camssa:3909103b-2e77-4e8b-8cd9-fa33bd93f264,
+        camssa:45b9ff48-4ceb-48ba-a765-a01fa1b964fc,
+        camssa:47fcb066-d742-4ebc-bea7-2db51983bf88,
+        camssa:4e9a47ae-d928-4bef-81a2-337658f1f1bc,
+        camssa:50bcd15a-6d1c-46ec-9921-cf4f5da347d4,
+        camssa:5c7723c6-0042-41ec-a80f-8b131b40d459,
+        camssa:5f94b613-f8c2-4958-a329-1a55331eb863,
+        camssa:601804c4-bd04-4a36-ac2d-e6fbaedf5b8d,
+        camssa:66895860-6b49-4a36-93f6-8d18868b9618,
+        camssa:683966de-ce11-41a7-a85c-8ed943570b65,
+        camssa:70b255ae-5065-4b50-9adf-69336e15e876,
+        camssa:758b5a36-d9a9-4582-8b6e-b2ccd9f83643,
+        camssa:7733f99a-1b39-4811-abad-9d64e25909c4,
+        camssa:7dbf0839-d291-4df9-8be8-ba351b1991b2,
+        camssa:7de16c77-e3cf-442f-92f0-aeab10a0a3e9,
+        camssa:80193bf6-aff3-47e5-91b0-25e432e7a25d,
+        camssa:89a89888-162a-43a3-be6d-0ad30c83cf64,
+        camssa:9164272a-0978-427c-b2ef-e39098f11c50,
+        camssa:97ab4400-15a2-421e-b4ee-59e6702863e8,
+        camssa:9b9ddb81-c801-4225-9ff7-e3d9ae227329,
+        camssa:9fd92cb0-6823-4d7e-b776-1001ecfdafa9,
+        camssa:a9b2e58a-ee98-4234-a7f0-669e03cbfc58,
+        camssa:ab621913-0907-4182-8d9e-01a657690c21,
+        camssa:b691df70-4d6c-4671-8dd2-623f9c8a9e81,
+        camssa:b84cf0fd-ea55-4604-8ca5-215fa3d89c9f,
+        camssa:c5a450f8-bd80-4b84-a636-853ac3c215ae,
+        camssa:c8bf5652-e75d-490f-b325-349422c77b12,
+        camssa:cc4dc82a-e92b-46b4-b6af-81ca2c857289,
+        camssa:cde07db6-1019-4221-974e-198ff8ef12a3,
+        camssa:d0961939-36c0-4556-83d3-7d2740d38160,
+        camssa:d6870d78-61e6-4b7e-bba6-f255fb81a63c,
+        camssa:e0236cf1-f39e-4736-b5e9-dac3d21c579a,
+        camssa:e3e271bc-f454-4847-a497-7343dcbd2a97,
+        camssa:e71cd8d4-5f5b-4004-811f-ddc48b9e2ec7,
+        camssa:e8ff3ff2-1d7f-4878-9468-e98032d7645f,
+        camssa:eb65cecf-4ef7-4c3f-9b1f-37133ef8985b,
+        camssa:f199872a-b477-449b-8df8-6a3bd22d8ffc,
+        camssa:fdd59a9d-a270-44ee-b386-892cced05d9c ;
+    dct:issued "2026-08-28"^^xsd:date ;
+    dct:title "CAMSS Assessment of ePO EIF Scenario v1.0.0"@en ;
+    dct:description "Assessment of the eProcurement Ontology (ePO) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
+    dcat:version "1.0.0" ;
+    dcat:distribution camssa:13e8a98f-3d40-4080-87b4-fac08ed298fd .
+
+camssa:02b84c98-4023-49ef-863d-a7314950d23e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "60"^^xsd:string .
+
+camssa:063f7a66-67e0-4b54-9738-562f660dbe94 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:093db0bd-890f-4b27-9f6f-d4d3542a4fb5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:value "100%StrengthOfAssessmentScoreAverage"^^xsd:string,
+        "93.53%AssessmentScoreAverage"^^xsd:string .
+
+camssa:116ea30c-d96c-400c-b5d3-cf7f3396056f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The study "An Assessment of Modelling Temporal Constraints in the e-Procurement Domain" evaluates the use of the eProcurement Ontology (ePO) in a large-scale operational setting and concludes that it improves data integrity, process traceability, interoperability, compliance verification, and reuse of procurement information. Although no quantitative performance metrics are reported, the findings provide evidence that the specification supports efficient management and validation of procurement data, reducing inconsistencies and facilitating data sharing and reuse across organisations and systems._x000D_
+_x000D_
+Keet, C. M., Ahmad, J., Pasare, N. A., & Dougalis, A. (2026). An Assessment of Modelling Temporal Constraints in the e-Procurement Domain. Meaningfy S.A.R.L., Luxembourg, and Stellenbosch University, South Africa:_x000D_
+http://meteck.org/files/TempModelePOCRCEMMSAD26.pdf_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0'"""@en ;
+    cav:refersTo camssa:ead15668-c27e-4d83-ba5b-630e267a21a4 .
+
+camssa:13e8a98f-3d40-4080-87b4-fac08ed298fd a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://data.europa.eu/w21/be3db97e-bcfc-41c5-bb16-3743f0d03e23"^^xsd:anyURI .
+
+camssa:15ff722a-2a46-493a-a715-b0e45a90fbb8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO is licensed under the European Union Public Licence (EUPL‑1.2), a recognised open-source and royalty-free licence. It allows users to use, modify, and distribute the specification without fees or discriminatory restrictions. This ensures alignment with fair, reasonable, and non-discriminatory (FRAND) principles._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0'"""@en ;
+    cav:refersTo camssa:3fa75fec-37ea-4c83-9926-abe1372553f0 .
+
+camssa:1611a2f5-64ee-444c-aab8-d6f5a1529904 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:string .
+
+camssa:16f3ac7d-3c8c-46c3-a9d7-dd4a850333a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO does not include mechanisms for access control, confidentiality or user management, as its primary purpose is to model and standardise procurement data rather than govern how that data is accessed or protected. Consequently, it does not define features such as authentication, authorisation, encryption or permissions management._x000D_
+_x000D_
+EPO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0'"""@en ;
+    cav:refersTo camssa:c92517d0-687e-481c-9ee0-50b679dfa756 .
+
+camssa:1742309e-fc47-4308-8ed6-8646ca291a62 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:string .
+
+camssa:19dcde04-32a8-49d0-a01f-90c63b6387a2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ePO is not related to the secure exchange of data. Therefore, this criterion is not applicable to this specification._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html'"""@en ;
+    cav:refersTo camssa:1f748b2c-30a3-4a85-9807-f3855d1011a2 .
+
+camssa:1ad85e5a-d544-4dee-af22-c3b1bb11c512 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "60"^^xsd:string .
+
+camssa:1f748b2c-30a3-4a85-9807-f3855d1011a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:string .
+
+camssa:1fd76cf6-b951-468b-97e8-317904adf095 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:string .
+
+camssa:2af76c9c-9155-4afc-8ae7-79a23765f1ed a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:string .
+
+camssa:2c23850c-e003-4dc2-9898-988bcd02c117 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:string .
+
+camssa:315638a0-4663-4859-a14b-94426947af48 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO is already associated to EIRA ABBs in the EIRA Library of Interoperability Specifications (ELIS). More specifically, the eProcurement Ontology can define the interoperability aspects of the"Ontology Data Object" ABB of the EIRA Semantic View._x000D_
+_x000D_
+EIRA Library of Interoperability Specifications (ELIS):_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/700_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0'"""@en ;
+    cav:refersTo camssa:66f548c8-3535-4bd0-bc33-acb0f0fb4980 .
+
+camssa:31be74a3-5bac-426c-a63e-2cec2ab4acdb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ePO is not related to the secure processing of data. Therefore, this criterion is not applicable to this specification._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html'"""@en ;
+    cav:refersTo camssa:d6cd5545-218f-4987-95af-23d2def6f814 .
+
+camssa:31dc0cff-2263-4cc8-9200-05edeab45325 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "80"^^xsd:string .
+
+camssa:373a517c-4c5a-4e05-a424-cba07b625013 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The eProcurement Ontology (ePO) was designed in 2016 by the Publications Office of the European Union to improve interoperability in public procurement data across the EU, providing a common semantic framework for representing procurement information in a consistent and machine-readable way. ePO has evolved into a key semantic model aligned with EU legislation (including directives on public procurement and concession contracts, among others) and is widely used within the European digital procurement ecosystem._x000D_
+_x000D_
+The ePO demonstrates clear adoption across multiple European initiatives and projects. It underpins key services such as the TED Open Data Service, where procurement notices are transformed into RDF and linked data formats, enabling users to perform advanced queries, combine procurement information with other datasets, and carry out large-scale analyses of public spending and market participation. It also provides the semantic foundation for the European Single Procurement Document (ESPD), facilitating the standardised exchange of eligibility and qualification information between economic operators and contracting authorities._x000D_
+In addition, ePO is being applied in initiatives such as model2owl and the Public Procurement Data Space (PPDS). _x000D_
+_x000D_
+Within the PPDS, ePO enables procurement data originating from different countries, systems and administrative levels to be represented using a common semantic model. In practice, this allows public authorities, policy makers, auditors, researchers and businesses to access, compare and analyse procurement information across borders, supporting use cases such as market intelligence, monitoring of procurement policies, fraud and anomaly detection, supplier discovery, and evidence-based decision making. By providing a shared semantic understanding of procurement data, ePO helps organisations move from isolated datasets towards a more integrated and reusable European procurement data ecosystem._x000D_
+_x000D_
+These concrete implementations across EU platforms and cross-border data infrastructures show that the ePO is actively used in practice and supports real digital services. While there is limited evidence of independent market studies, its integration into multiple European projects clearly demonstrates significant adoption and practical relevance._x000D_
+_x000D_
+Directive 2014/23/EU on concession contracts:_x000D_
+http://data.europa.eu/eli/dir/2014/23/oj_x000D_
+_x000D_
+Directive 2014/24/EU on public procurement:_x000D_
+http://data.europa.eu/eli/dir/2014/24/oj_x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+ESPD Exchange Data Model (ESPD-EDM):_x000D_
+https://docs.ted.europa.eu/ESPD-EDM/latest/index.html_x000D_
+_x000D_
+ISA² programme:_x000D_
+https://ec.europa.eu/isa2/isa2_en/_x000D_
+_x000D_
+model2owl Github:_x000D_
+https://github.com/OP-TED/model2owl_x000D_
+_x000D_
+Public Procurement Data Space (PPDS):_x000D_
+https://data.europa.eu/en/PPDS_x000D_
+_x000D_
+TED Open Data Service:_x000D_
+https://data.ted.europa.eu/#'"""@en ;
+    cav:refersTo camssa:de99cb93-c8ed-40f9-9535-1af912cd0470 .
+
+camssa:37e5669a-2cf2-493d-a051-eda9bdad0651 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3801cce0-f50e-4718-a2c8-f0c16587e0bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:string .
+
+camssa:38ee7719-a318-4d73-8d30-85ea758f1e30 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a16c678a586cf542d2ae1d6cd8a987bd6ed0b2af52ba0e04d8872fe616a9b7bd ;
+    cav:value "100"^^xsd:string .
+
+camssa:3909103b-2e77-4e8b-8cd9-fa33bd93f264 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ePO specification, developed following the Linked Open Terms (LOT) methodology and reusing semantic assets such as the Core Criterion and Core Evidence Vocabulary (CCCEV), is well suited for use in multilingual environments. The ontology supports multilingual representations through language-tagged labels and definitions (e.g. using properties such as skos:prefLabel), allowing procurement concepts, criteria and evidence to be expressed in multiple languages while preserving a common semantic meaning. By relying on shared, machine-readable concepts rather than language-specific descriptions, ePO facilitates the consistent interpretation and exchange of procurement information across different countries and linguistic communities. This is particularly relevant in cross-border procurement contexts, where contracting authorities and economic operators need to understand and exchange requirements, criteria and evidence despite operating in different languages._x000D_
+_x000D_
+Core Criterion and Core Evidence Vocabulary:_x000D_
+https://semiceu.github.io/CCCEV/releases/2.2.0/#SupportedValue_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+Linked Open Terms (LOT): _x000D_
+https://doi.org/10.1016/j.engappai.2022.104755'"""@en ;
+    cav:refersTo camssa:3adcb378-b78d-4872-9063-903cca5457c5 .
+
+camssa:3adcb378-b78d-4872-9063-903cca5457c5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "80"^^xsd:string .
+
+camssa:3fa75fec-37ea-4c83-9926-abe1372553f0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100"^^xsd:string .
+
+camssa:45b9ff48-4ceb-48ba-a765-a01fa1b964fc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO specification supports preservation through the use of standardised, machine-readable formats (OWL/RDF) and metadata such as "creator, title, publisher, license and version of the ontology”. These elements ensure traceability and reusability over time. Furthermore, persistent URIs support stable referencing of concepts. However, ePO does not define explicit long‑term preservation policies, such as archival strategies or retention rules._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+OWL Standard:_x000D_
+https://www.w3.org/OWL/_x000D_
+_x000D_
+RDF Standard: _x000D_
+https://www.w3.org/RDF/'"""@en ;
+    cav:refersTo camssa:6af243eb-0620-46f1-ae53-ec56a9a53865 .
+
+camssa:47cf2f08-4074-48fe-aa1f-e0a917169ecb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:string .
+
+camssa:47fcb066-d742-4ebc-bea7-2db51983bf88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ePO is not included in any national catalogue of recommended specifications, however, it is recommended by the CONSIP, an Italian state-owned company, which is owned by Italy's Ministry of Economy and Finance._x000D_
+_x000D_
+CAMSS list of standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessmentmethodstandards-and-specifications-camss/camss-list-standard_x000D_
+_x000D_
+CONSIP organisation: _x000D_
+https://www.consip.it/_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+ePO in CONSIP - Notizie: _x000D_
+https://dati.consip.it/notizie_x000D_
+_x000D_
+Linked Open Data del Programma: adozione della nuova ontologia dell’eProcurement: https://dati.consip.it/linked_opendata\""""@en ;
+    cav:refersTo camssa:dbf9afd8-53af-474f-9fc7-194fdc390205 .
+
+camssa:4bd10a79-3e00-4bd1-9d21-caf4425fa5f6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:string .
+
+camssa:4e9a47ae-d928-4bef-81a2-337658f1f1bc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO specification is complemented by automated conformance testing facilities that allow implementations to be validated against the specification. In particular, the European Commission provides a dedicated validation service through the Interoperability Test Bed, where users can upload ePO-compliant RDF datasets and assess their conformity against the official SHACL validation rules. The platform automatically executes the validation constraints defined by the specification and provides detailed compliance reports, enabling systematic and repeatable conformance assessment. _x000D_
+_x000D_
+Furthermore, the SHACL validation artefacts used by the platform are publicly available and can be integrated into external validation environments, allowing implementations to be tested both through the online service and in local deployments. As a result, conformance of ePO implementations can be assessed in a reliable and automated manner through dedicated testing tools and validation services._x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+ePO Ontology Validator:_x000D_
+https://www.itb.ec.europa.eu/shacl/epo/upload_x000D_
+_x000D_
+Interoperability Test Bed_x000D_
+https://interoperable-europe.ec.europa.eu/collection/interoperability-test-bed-repository/solution/interoperability-test-bed_x000D_
+_x000D_
+SHACL Shapes Constraint Language:_x000D_
+https://www.w3.org/TR/shacl/'"""@en ;
+    cav:refersTo camssa:55bb0a53-9989-4bb9-8b0e-7479d68e2b3f .
+
+camssa:50bcd15a-6d1c-46ec-9921-cf4f5da347d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ePO specification facilitates business process modelling by providing a formal semantic representation of procurement processes and entities, covering the full procurement lifecycle._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+Linked Open Terms (LOT): _x000D_
+https://doi.org/10.1016/j.engappai.2022.104755'"""@en ;
+    cav:refersTo camssa:1742309e-fc47-4308-8ed6-8646ca291a62 .
+
+camssa:55bb0a53-9989-4bb9-8b0e-7479d68e2b3f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:string .
+
+camssa:5bbe290e-8587-4e04-ad56-430f3920c073 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:string .
+
+camssa:5c7723c6-0042-41ec-a80f-8b131b40d459 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO actively promotes and supports the visibility of administrative procedures, data, and services by providing a common semantic model for publishing public procurement information in an open, structured, and machine-readable format. The ontology was developed to bridge interoperability gaps in the European public procurement data space and facilitate data exchange, access, and reuse across organisations and Member States._x000D_
+_x000D_
+Furthermore, ePO underpins the TED Open Data Service, where procurement notices are continuously transformed into RDF and made available for querying through SPARQL endpoints, significantly increasing the visibility and accessibility of procurement information. It also serves as the semantic foundation of the Public Procurement Data Space (PPDS), where it acts as the common data format for integrating European and national procurement datasets, enabling transparent access and analysis of procurement data across borders._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+Public Procurement Data Space (PPDS):_x000D_
+https://www.public-procurement-data-space.europa.eu/en_x000D_
+_x000D_
+SPARQL Query Language:_x000D_
+https://www.w3.org/TR/sparql11-query/_x000D_
+_x000D_
+TED Open Data Service:_x000D_
+https://data.ted.europa.eu/#'"""@en ;
+    cav:refersTo camssa:7bdfbd20-7694-4caf-b800-28719e2e1356 .
+
+camssa:5f94b613-f8c2-4958-a329-1a55331eb863 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO allows extension through its ontology-based design and by reusing established semantic assets such as the European Core Vocabularies and the Core Criterion and Core Evidence Vocabulary (CCCEV). This approach enables new concepts, properties and domain-specific requirements to be incorporated while maintaining semantic consistency and interoperability with the core model and related European data standards. In addition, the Working Group and other stakeholders allow new modules and concepts to be added as business, legal or technical requirements emerge._x000D_
+_x000D_
+This extensibility supports a variety of practical scenarios. For example, a Member State could introduce additional procurement concepts required by national legislation while preserving compatibility with EU-wide procurement data exchanges. Similarly, a procurement platform could extend ePO with sector-specific qualification or evidence requirements by reusing CCCEV concepts, enabling more detailed supplier assessment while remaining interoperable with other European systems. As a result, organisations can address evolving regulatory, reporting or operational needs without departing from the common semantic framework provided by ePO._x000D_
+_x000D_
+ePO reuse of other ontologies and vocabularies:_x000D_
+https://docs.ted.europa.eu/EPO/latest/business.html#_reuse_of_other_ontologies_and_vocabularies_x000D_
+_x000D_
+Core Criterion and Core Evidence Vocabulary (CCCEV):_x000D_
+https://semiceu.github.io/CCCEV/releases/2.00/'"""@en ;
+    cav:refersTo camssa:900fb45e-c9f7-46a6-a14e-1c8850534b36 .
+
+camssa:601804c4-bd04-4a36-ac2d-e6fbaedf5b8d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ePO specification enables digital service delivery by supporting machine-readable data models (OWL/RDF) and Linked Data publication, allowing procurement information to be accessed and processed through digital platforms. The LOT methodology emphasises the publication of ontologies according to Linked Data principles, making them available as both human-readable and machine-readable resources._x000D_
+_x000D_
+This capability is implemented in several operational digital public services. The TED Open Data Service uses ePO to transform procurement notices into RDF and make them available through Linked Data technologies and SPARQL querying, supporting digital access and reuse of public procurement information. Furthermore, ePO is used in the ESPD, where ontology modules provide the concepts required to build digital ESPD services, and in the Public Procurement Data Space (PPDS), where ePO serves as the common semantic layer connecting European and national procurement databases. These examples demonstrate that ePO directly enables digital channels for publishing, exchanging, querying, and processing procurement data across Europe._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+Linked Open Terms (LOT): _x000D_
+https://doi.org/10.1016/j.engappai.2022.104755_x000D_
+_x000D_
+OWL Standard:_x000D_
+https://www.w3.org/OWL/_x000D_
+_x000D_
+Public Procurement Data Space (PPDS):_x000D_
+https://eproc.pages.code.europa.eu/ppds/pages/_x000D_
+_x000D_
+RDF Standard: _x000D_
+https://www.w3.org/RDF/'"""@en ;
+    cav:refersTo camssa:4bd10a79-3e00-4bd1-9d21-caf4425fa5f6 .
+
+camssa:66895860-6b49-4a36-93f6-8d18868b9618 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO is based on semantic web standards such as RDF and OWL, which are not tied to any specific programming language or technology stack. It can be implemented using different tools and environments that support these standards. Therefore, it does not impose any specific technology on implementers._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+OWL Standard:_x000D_
+https://www.w3.org/OWL/_x000D_
+_x000D_
+RDF Standard: _x000D_
+https://www.w3.org/RDF/'"""@en ;
+    cav:refersTo camssa:f48919d6-81e9-4ed4-8767-98cbd443685d .
+
+camssa:66f548c8-3535-4bd0-bc33-acb0f0fb4980 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:string .
+
+camssa:683966de-ce11-41a7-a85c-8ed943570b65 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ePO is not related to e-accessibility. Therefore, this criterion is not applicable to this _x000D_
+specification._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0'"""@en ;
+    cav:refersTo camssa:063f7a66-67e0-4b54-9738-562f660dbe94 .
+
+camssa:689ce446-6371-4dca-b728-57fb5ba40a84 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:string .
+
+camssa:6af243eb-0620-46f1-ae53-ec56a9a53865 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "80"^^xsd:string .
+
+camssa:6e30c924-0ec5-4ea0-84fd-9327955b6e53 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:string .
+
+camssa:70b255ae-5065-4b50-9adf-69336e15e876 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ePO specification supports organisational interoperability by providing standardised definitions of roles, entities, and relationships involved in public procurement. This shared semantic framework facilitates communication between organisations and helps align expectations in agreements such as SLAs or cooperation frameworks. _x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0'"""@en ;
+    cav:refersTo camssa:b029335e-7cbe-4506-b0c5-50da2700a475 .
+
+camssa:758b5a36-d9a9-4582-8b6e-b2ccd9f83643 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO is not dependent on any specific platform, operating system, or environment. As a semantic data model, it can be deployed across different infrastructures and integrated into various systems. This ensures flexibility and compatibility across platforms._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0'"""@en ;
+    cav:refersTo camssa:1fd76cf6-b951-468b-97e8-317904adf095 .
+
+camssa:7733f99a-1b39-4811-abad-9d64e25909c4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO is modular and organised into multiple components (e.g. eNotice, eOrdering, eInvoicing and ePayment), which can be implemented independently. This allows organisations to adopt only the modules that address their immediate business needs while progressively extending coverage to additional procurement phases. For example, a contracting authority could initially implement the eNotice module to standardise the publication and exchange of procurement notices, and later adopt eOrdering and eInvoicing to support downstream procurement processes. Similarly, a cross-border procurement platform may implement only the modules required for notice publication and tendering in a first phase, while planning the integration of invoicing and payment data at a later stage. _x000D_
+_x000D_
+This modular approach supports partial and phased implementations, reducing implementation effort while enabling organisations to pursue different objectives such as regulatory compliance, data interoperability, process digitalisation, or advanced procurement analytics._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0'"""@en ;
+    cav:refersTo camssa:93beeeac-1f6f-49d3-a5af-c463f0c93569 .
+
+camssa:7bdfbd20-7694-4caf-b800-28719e2e1356 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:string .
+
+camssa:7dbf0839-d291-4df9-8be8-ba351b1991b2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO represents procurement data in machine-readable formats (e.g. RDF/OWL), facilitating integration into APIs and digital services. This makes it easier to expose interfaces when combined with technical implementations and systems. However, the ontology itself does not define or implement interfaces, as its role is to model data rather than provide access mechanisms._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+OWL Standard:_x000D_
+https://www.w3.org/OWL/_x000D_
+_x000D_
+RDF Standard: _x000D_
+https://www.w3.org/RDF/'"""@en ;
+    cav:refersTo camssa:02b84c98-4023-49ef-863d-a7314950d23e .
+
+camssa:7de16c77-e3cf-442f-92f0-aeab10a0a3e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Stakeholders can contribute to ePO through structured processes managed by the European Commission and its working group. Participation is open but typically requires coordination or registration. Additionally, public collaboration is supported via GitHub, enabling feedback and contributions from the wider community._x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0'"""@en ;
+    cav:refersTo camssa:c7d49838-6bef-44ba-ba82-9857d80cfbd7 .
+
+camssa:7fb0ec12-459f-4f82-98bb-48531bcaab80 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:string .
+
+camssa:800e45e2-a676-4794-aaad-b50f8d1e8ec5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:80193bf6-aff3-47e5-91b0-25e432e7a25d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO does not define security mechanisms to guarantee the accuracy, integrity or trustworthiness of the data itself. As a semantic data model, its role is to ensure that procurement information is represented in a consistent and unambiguous way, rather than to verify whether individual data instances are correct, authentic or protected from unauthorised modification. Mechanisms such as data validation controls, integrity checks, digital signatures, audit trails or other security measures must be implemented by the systems and infrastructures that use ePO._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+Linked Open Terms (LOT): _x000D_
+https://doi.org/10.1016/j.engappai.2022.104755'"""@en ;
+    cav:refersTo camssa:689ce446-6371-4dca-b728-57fb5ba40a84 .
+
+camssa:87c0682b-98b6-45ce-8470-a70f7688c585 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:string .
+
+camssa:888bfac9-a34a-467d-a6b9-a952101155c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:string .
+
+camssa:89a89888-162a-43a3-be6d-0ad30c83cf64 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ePO specification is included in European-level repositories and platforms, particularly through its publication and use within the TED Developer Documentation and associated EU platforms. The ePO is actively showcased in European initiatives, where it underpins services such as the TED Open Data Service, ESPD, and SPARQL-based querying tools._x000D_
+_x000D_
+Furthermore, ePO is a central component of the Public Procurement Data Space (PPDS), where it serves as the common semantic model in the data integration layer, enabling interoperability between European and national procurement datasets . This confirms that ePO is not only published but also operationally integrated within European interoperability ecosystems, fulfilling the requirement of inclusion in European repositories or catalogues._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+Public Procurement Data Space (PPDS):_x000D_
+https://eproc.pages.code.europa.eu/ppds/pages/_x000D_
+_x000D_
+SPARQL Query Language:_x000D_
+https://www.w3.org/TR/sparql11-query/_x000D_
+_x000D_
+TED Open Data Service:_x000D_
+https://data.ted.europa.eu/#'"""@en ;
+    cav:refersTo camssa:37e5669a-2cf2-493d-a051-eda9bdad0651 .
+
+camssa:900fb45e-c9f7-46a6-a14e-1c8850534b36 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:string .
+
+camssa:9164272a-0978-427c-b2ef-e39098f11c50 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The effectiveness of the eProcurement Ontology (ePO) has been assessed in the study “Towards a Mapping Framework for the Tenders Electronic Daily Standard Forms”. In this study, ePO is used as a semantic model to represent procurement data from Tenders Electronic Daily (TED), with procurement notices being mapped into ontology concepts. The study evaluates the use of ePO through a validation framework based on SPARQL queries and SHACL rules, which assesses whether the mapped data correctly instantiates the ontology. An empirical evaluation on a large set of procurement notices demonstrates that ePO can effectively support the consistent representation, validation, and interoperability of procurement data._x000D_
+_x000D_
+Costetchi, E., Vassiliades, A., & Nyulas, C. (2023). Towards a mapping framework for the Tenders Electronic Daily standard forms. Proceedings of the ESWC 2023 Workshops (KGCW):_x000D_
+https://ceur-ws.org/Vol-3471/paper5.pdf_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0'"""@en ;
+    cav:refersTo camssa:31dc0cff-2263-4cc8-9200-05edeab45325 .
+
+camssa:93beeeac-1f6f-49d3-a5af-c463f0c93569 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "80"^^xsd:string .
+
+camssa:940a766d-72ba-4879-8329-38a4ef344532 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:string .
+
+camssa:97ab4400-15a2-421e-b4ee-59e6702863e8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO is part of European interoperability initiatives led by the European Commission, such as ISA², which operates within the broader EU regulatory framework including GDPR. These initiatives promote secure and trustworthy data exchange across public administrations. Therefore, the specification is indirectly linked to European-level frameworks that address privacy and data protection._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+GDPR Regulation:_x000D_
+http://data.europa.eu/eli/reg/2016/679/oj_x000D_
+_x000D_
+ISA² programme:_x000D_
+https://ec.europa.eu/isa2/isa2_en/'"""@en ;
+    cav:refersTo camssa:940a766d-72ba-4879-8329-38a4ef344532 .
+
+camssa:9b9ddb81-c801-4225-9ff7-e3d9ae227329 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO is a semantic data model designed to structure public procurement data and is not directly related to privacy regulations such as GDPR. It does not define mechanisms for data protection during transmission, nor does it explicitly ensure data authenticity or integrity. _x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+GDPR Regulation:_x000D_
+http://data.europa.eu/eli/reg/2016/679/oj'"""@en ;
+    cav:refersTo camssa:888bfac9-a34a-467d-a6b9-a952101155c3 .
+
+camssa:9fd92cb0-6823-4d7e-b776-1001ecfdafa9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO defines a structured semantic model with clearly defined concepts, relationships, and properties that describe public procurement processes.  By using ontological modelling (OWL) and standardised vocabularies, it ensures that data meanings are consistently understood across systems and stakeholders. _x000D_
+This structured representation significantly improves the clarity and comprehension of administrative data and procedures._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+OWL Standard:_x000D_
+https://www.w3.org/OWL/'"""@en ;
+    cav:refersTo camssa:6e30c924-0ec5-4ea0-84fd-9327955b6e53 .
+
+camssa:a472d54a-1bc5-44fd-b5db-73e441172ed4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a8008470-49a3-45db-b194-cbb9bf398fd1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:string .
+
+camssa:a9b2e58a-ee98-4234-a7f0-669e03cbfc58 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ePO specification is actively used in several European cross-border projects and initiatives within the public procurement domain. It underpins the TED Open Data Service, where procurement notices from across the EU are continuously transformed from XML into RDF using ePO, enabling cross-border querying of procurement data via SPARQL. It is also used in the European Single Procurement Document (ESPD), where ePO modules define the concepts and data structures required for cross-border procurement services. _x000D_
+_x000D_
+Additionally, ePO plays a central role in the Public Procurement Data Space (PPDS), a flagship European Commission initiative launched in 2024, which connects European and national procurement databases. In this context, ePO acts as the common semantic layer in the integration layer, enabling harmonised cross-border data sharing and interoperability across Member States._x000D_
+_x000D_
+Other supporting initiatives include the model2owl project, which generates interoperable ontology artefacts (OWL, SHACL) used in digital procurement systems, and SPARQL-based querying tools that facilitate access to EU-wide procurement data._x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+model2owl Github:_x000D_
+https://github.com/OP-TED/model2owl_x000D_
+_x000D_
+OWL Standard:_x000D_
+https://www.w3.org/OWL/_x000D_
+_x000D_
+Public Procurement Data Space (PPDS):_x000D_
+https://eproc.pages.code.europa.eu/ppds/pages/_x000D_
+_x000D_
+SHACL Shapes Constraint Language:_x000D_
+https://www.w3.org/TR/shacl/_x000D_
+_x000D_
+SPARQL Query Language:_x000D_
+https://www.w3.org/TR/sparql11-query/'"""@en ;
+    cav:refersTo camssa:2c23850c-e003-4dc2-9898-988bcd02c117 .
+
+camssa:ab621913-0907-4182-8d9e-01a657690c21 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ePO is not included in any national catalogue of recommended specifications, however, it is recommended by the CONSIP, an Italian state-owned company, which is owned by Italy's Ministry of Economy and Finance._x000D_
+_x000D_
+CAMSS list of standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessmentmethodstandards-and-specifications-camss/camss-list-standard_x000D_
+_x000D_
+CONSIP organisation: _x000D_
+https://www.consip.it/_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+ePO in CONSIP - Notizie: _x000D_
+https://dati.consip.it/notizie_x000D_
+_x000D_
+Linked Open Data del Programma: adozione della nuova ontologia dell’eProcurement: _x000D_
+https://dati.consip.it/linked_opendata\""""@en ;
+    cav:refersTo camssa:ac2bf95e-9960-43f0-bb24-df9ccbb46ccc .
+
+camssa:ac2bf95e-9960-43f0-bb24-df9ccbb46ccc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:string .
+
+camssa:acb85a43-8204-4e85-8036-93a7fdb30027 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:string .
+
+camssa:af911ed4-c399-4bdb-b095-bedc92385165 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100"^^xsd:string .
+
+camssa:b029335e-7cbe-4506-b0c5-50da2700a475 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "80"^^xsd:string .
+
+camssa:b691df70-4d6c-4671-8dd2-623f9c8a9e81 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO specification, developed using the Linked Open Terms (LOT) methodology, which is promoted by the European Commission for the development of interoperable semantic data specifications, provides a common semantic framework for describing and exchanging public procurement information in a consistent and machine-readable manner._x000D_
+_x000D_
+Building on this foundation, ePO facilitates the delivery of European public services by enabling standardised and interoperable data exchange, thereby reducing manual processing, data duplication and integration effort. The LOT methodology explicitly includes a data exchange identification activity, during which relevant datasets, regulations, standards, data formats, API specifications and database schemas are analysed and reused. This structured approach helps public administrations align their procurement data with existing standards and exchange information digitally and consistently across systems and borders, reducing administrative burden and simplifying procurement processes._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+Linked Open Terms (LOT): _x000D_
+https://doi.org/10.1016/j.engappai.2022.104755'"""@en ;
+    cav:refersTo camssa:acb85a43-8204-4e85-8036-93a7fdb30027 .
+
+camssa:b84cf0fd-ea55-4604-8ca5-215fa3d89c9f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO is designed to enable interoperability and data exchange across systems through a semantic model structured around classes, properties and relationships, represented using RDF and OWL standards. By reusing established semantic assets such as the European Core Vocabularies, the ontology provides a common and machine-readable representation of procurement data that can be understood consistently across different systems, organisations and countries. This shared semantic framework facilitates the exchange, portability and reuse of procurement information without requiring custom mappings or significant technical adaptation._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+RDF Standard: _x000D_
+https://www.w3.org/RDF/'"""@en ;
+    cav:refersTo camssa:a472d54a-1bc5-44fd-b5db-73e441172ed4 .
+
+camssa:c0d8fa06-8e1e-4f7c-b6d4-ad384e5dc3a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:string .
+
+camssa:c5a450f8-bd80-4b84-a636-853ac3c215ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO specification focuses on ontology development, interoperability, and publication, without defining_x000D_
+access control policies. While tools recommended in the methodology (e.g. Git-based repositories or_x000D_
+collaborative platforms) may support access restrictions, these are external to the ontology specification itself._x000D_
+_x000D_
+The specification does not define role-based access control, authorisation rules, or permissions, nor does it_x000D_
+restrict their implementation. Therefore, access control is left to the systems that implement and use the_x000D_
+ontology, and is not addressed at the specification level._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html'"""@en ;
+    cav:refersTo camssa:38ee7719-a318-4d73-8d30-85ea758f1e30 .
+
+camssa:c7d49838-6bef-44ba-ba82-9857d80cfbd7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:string .
+
+camssa:c8bf5652-e75d-490f-b325-349422c77b12 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ePO is not related to data authenticity. Therefore, this criterion is not applicable to this specification._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html'"""@en ;
+    cav:refersTo camssa:2af76c9c-9155-4afc-8ae7-79a23765f1ed .
+
+camssa:c92517d0-687e-481c-9ee0-50b679dfa756 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:string .
+
+camssa:cc4dc82a-e92b-46b4-b6af-81ca2c857289 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO provides a common semantic foundation for the exchange and reuse of public procurement data across systems and organisations. This supports the Once-Only Principle settled by the Single Digital Gateway, as information is structured once and then reused across systems and processes without duplication. _x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+Single Digital Gateway Regulation:_x000D_
+http://data.europa.eu/eli/reg/2018/1724/oj'"""@en ;
+    cav:refersTo camssa:1611a2f5-64ee-444c-aab8-d6f5a1529904 .
+
+camssa:cde07db6-1019-4221-974e-198ff8ef12a3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ePO specification encourages the creation of communities and sharing of results at the European level. It is openly published on platforms such as GitHub (OP‑TED repository) and documented through TED Developer Docs, where stakeholders (including public administrations, developers, and researchers) can collaborate, discuss, and reuse the ontology._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+ePO OP-TED repository:_x000D_
+https://github.com/OP-TED/ePO/discussions_x000D_
+_x000D_
+Linked Data principles:_x000D_
+https://www.w3.org/DesignIssues/LinkedData'"""@en ;
+    cav:refersTo camssa:af911ed4-c399-4bdb-b095-bedc92385165 .
+
+camssa:d0961939-36c0-4556-83d3-7d2740d38160 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ePO is not related to data integrity. Therefore, this criterion is not applicable to this specification._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html'"""@en ;
+    cav:refersTo camssa:800e45e2-a676-4794-aaad-b50f8d1e8ec5 .
+
+camssa:d6870d78-61e6-4b7e-bba6-f255fb81a63c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO is supported by a structured governance framework led by the Publications Office of the European Union, which oversees its development, maintenance and evolution. The initiative was launched in 2016 with funding from the ISA² Programme, whose objective was to improve interoperability and digital public services across Europe, and since 2021 it has continued under the Digital Europe Programme (DEP), ensuring long-term institutional support and sustainability. _x000D_
+_x000D_
+To support the development of the ontology, the PO established a Working Group (WG) of experts tasked with building consensus around the analyses, models and deliverables produced within the project. This WG continues to collaborate with the PO, providing domain expertise and helping to ensure that the ontology evolves in line with policy, business and technical requirements._x000D_
+_x000D_
+In addition, ePO offers publicly available documentation and open collaboration channels, enabling a broad community of stakeholders, including public administrations, technology providers, researchers and procurement experts, to contribute feedback and support its continuous improvement. As a result, ePO benefits from both institutional backing and an active expert community that help ensure its long-term adoption and relevance._x000D_
+_x000D_
+ePO history and planned developments:_x000D_
+https://docs.ted.europa.eu/epo-home/history.html'"""@en ;
+    cav:refersTo camssa:47cf2f08-4074-48fe-aa1f-e0a917169ecb .
+
+camssa:d6cd5545-218f-4987-95af-23d2def6f814 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:string .
+
+camssa:dbf9afd8-53af-474f-9fc7-194fdc390205 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:string .
+
+camssa:de99cb93-c8ed-40f9-9535-1af912cd0470 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:string .
+
+camssa:e0236cf1-f39e-4736-b5e9-dac3d21c579a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO allows customisation by enabling implementers to select relevant modules and data elements according to their business needs. In addition, the use of optional properties and a flexible semantic model allows organisations to represent procurement information at different levels of detail and to accommodate national, sector-specific or organisational requirements without altering the core ontology._x000D_
+_x000D_
+This flexibility supports a wide range of implementation scenarios. For example, a national procurement platform could extend the use of ePO with additional information required by domestic regulations while maintaining interoperability with EU-wide procurement data. Similarly, a large contracting authority could use only the data elements needed for spend analysis and supplier monitoring, whereas another organisation might adopt a more detailed implementation to support end-to-end procurement process management. By enabling such adaptations, ePO allows organisations to pursue different objectives (regulatory compliance, reporting, analytics, transparency, and process optimisation) while preserving a common semantic foundation for data exchange and interoperability._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0'"""@en ;
+    cav:refersTo camssa:c0d8fa06-8e1e-4f7c-b6d4-ad384e5dc3a7 .
+
+camssa:e3e271bc-f454-4847-a497-7343dcbd2a97 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ePO development process is transparent and iterative, with publicly available versions, documentation, and release notes. It is hosted on open platforms (e.g. GitHub), where stakeholders can review changes and provide feedback openly. As a result, both major and minor releases enable public review, with feedback being visible to all participants._x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+ePO Reports from the Wider Working Group Meetings:_x000D_
+https://docs.ted.europa.eu/epo-wgm/wider.html'"""@en ;
+    cav:refersTo camssa:7fb0ec12-459f-4f82-98bb-48531bcaab80 .
+
+camssa:e71cd8d4-5f5b-4004-811f-ddc48b9e2ec7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO can be considered a European standard for public procurement data, as it provides a formally defined and governed semantic specification developed and maintained by the Publications Office of the European Union._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+ePO specification reference (PO of EU):_x000D_
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eprocurement-ontology'"""@en ;
+    cav:refersTo camssa:a8008470-49a3-45db-b194-cbb9bf398fd1 .
+
+camssa:e8ff3ff2-1d7f-4878-9468-e98032d7645f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO is specifically designed for the public procurement domain, modelling processes such as tendering, awarding, and contracting. However, as it is based on semantic web standards (e.g. RDF and OWL), some of its structures and components can be reused in other domains. Therefore, it allows partial reuse beyond its original business context._x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+OWL Standard:_x000D_
+https://www.w3.org/OWL/_x000D_
+_x000D_
+RDF Standard: _x000D_
+https://www.w3.org/RDF/'"""@en ;
+    cav:refersTo camssa:1ad85e5a-d544-4dee-af22-c3b1bb11c512 .
+
+camssa:ead15668-c27e-4d83-ba5b-630e267a21a4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "80"^^xsd:string .
+
+camssa:eb65cecf-4ef7-4c3f-9b1f-37133ef8985b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ePO enables the publication of linked open data in a structured, machine-readable format using RDF and OWL. It is distributed under an open licence and designed for reuse across systems. Additionally, it incorporates W3C standards, ensuring full interoperability without proprietary dependencies._x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+OWL Standard:_x000D_
+https://www.w3.org/OWL/_x000D_
+_x000D_
+RDF Standard: _x000D_
+https://www.w3.org/RDF/'"""@en ;
+    cav:refersTo camssa:5bbe290e-8587-4e04-ad56-430f3920c073 .
+
+camssa:f199872a-b477-449b-8df8-6a3bd22d8ffc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The eProcurement Ontology (ePO) was initiated in 2016 by the Publications Office of the European Union under the ISA² programme to support interoperability in EU public procurement. It was created to provide a common semantic model aligned with EU legislation (including directives on public procurement or on concession contracts, among others), enabling structured and machine-readable data across the entire procurement lifecycle. Since its first version (v1.0.0 released in 2017), it has become a key component of the European eProcurement ecosystem._x000D_
+_x000D_
+The latest minor release (e.g. version 5.2.0, published in October 2025) includes incremental improvements such as the addition of missing concept definitions and updates to core modules like ePO core and eNotice. These updates are based on identified issues and feedback collected through GitHub and the working group, demonstrating continuous refinement and maintenance of the specification._x000D_
+_x000D_
+The most recent major release (version 5.0.0, published in 2025) introduced significant functional enhancements and updating other existing modules, extending the ontology’s coverage across the procurement lifecycle._x000D_
+_x000D_
+Directive 2014/23/EU on concession contracts:_x000D_
+http://data.europa.eu/eli/dir/2014/23/oj_x000D_
+_x000D_
+Directive 2014/24/EU on public procurement:_x000D_
+http://data.europa.eu/eli/dir/2014/24/oj_x000D_
+_x000D_
+ePO 5.0.0 release:_x000D_
+https://docs.ted.europa.eu/EPO/5/release-notes.html_x000D_
+_x000D_
+ePO 5.2.0 release:_x000D_
+https://docs.ted.europa.eu/EPO/latest/release-notes.html_x000D_
+_x000D_
+ePO documentation:_x000D_
+https://docs.ted.europa.eu/epo-home/index.html_x000D_
+_x000D_
+ePO Github repository:_x000D_
+https://github.com/OP-TED/ePO/tree/v5.2.0_x000D_
+_x000D_
+ePO history and planned developments:_x000D_
+https://docs.ted.europa.eu/epo-home/history.html'"""@en ;
+    cav:refersTo camssa:87c0682b-98b6-45ce-8470-a70f7688c585 .
+
+camssa:f48919d6-81e9-4ed4-8767-98cbd443685d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:string .
+
+camssa:fdd59a9d-a270-44ee-b386-892cced05d9c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ePO is not included in any national catalogue of recommended specifications, however, it is recommended by the CONSIP, an Italian state-owned company, which is owned by Italy's Ministry of Economy and Finance._x000D_
+_x000D_
+CAMSS list of standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessmentmethodstandards-and-specifications-camss/camss-list-standard_x000D_
+_x000D_
+CONSIP organisation: _x000D_
+https://www.consip.it/_x000D_
+_x000D_
+ePO in CONSIP - Notizie: _x000D_
+https://dati.consip.it/notizie_x000D_
+_x000D_
+Linked Open Data del Programma: adozione della nuova ontologia dell’eProcurement: _x000D_
+https://dati.consip.it/linked_opendata\""""@en ;
+    cav:refersTo camssa:3801cce0-f50e-4718-a2c8-f0c16587e0bb .
+

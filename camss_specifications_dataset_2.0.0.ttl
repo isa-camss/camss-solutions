@@ -10415,20 +10415,75 @@ cssvrsc:6da670f6a030973c0d0e9154c62bff7a4bdd90de6d8e4018f0329c94e4564a3e a cssv:
     dcat:distribution cssvrsc:2c33c58c-2093-4896-8cf0-529306c56a57 ;
     dcat:version "5.1.8" .
 
+#DCI CRVS Family component
+
 cssvrsc:89c1afa8b2c61039cee783127d1cda2f90ba795647a441b37442343d8495cb0a a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "CRVS"@en ;
     cssv:alternative ""@en ;
+    cssv:combinedIn cssvrsc:45075a71ec54b3d975ed751c5c786f0a689e4ea174f886f2a583e3131d90bc10 ;
     cssv:isMaintainedBy cssvrsc:0d8f8e4352be877a8d54c106d85a980812994e5a460a1f1e7d02babd46339a71 ;
     dct:description "Civil Registration and Vital Statistics (CRVS) systems are essential for recording vital events such as births, deaths, marriages, and divorces. They provide critical data for public health, policy-making, and legal identity."@en ;
     dct:title "Civil Registration and Vital Statistics"@en ;
     dcat:distribution cssvrsc:40254c35-0b62-479c-a32e-1672d23e143a ;
     dcat:version "1.0.0" .
 
+
 cssvrsc:40254c35-0b62-479c-a32e-1672d23e143a a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://standards.spdci.org/standards/dci-standards/crvs-v1.0-1> .
 
+#DCI FAMILY
+
+cssvrsc:45075a71ec54b3d975ed751c5c786f0a689e4ea174f886f2a583e3131d90bc10 a cssv:Specification,
+        cssv:Family,
+        owl:NamedIndividual ;
+    cssv:acronym "DCI"@en ;
+    cssv:alternative ""@en ;
+    cssv:combines cssvrsc:89c1afa8b2c61039cee783127d1cda2f90ba795647a441b37442343d8495cb0a ; 
+    cssv:isMaintainedBy cssvrsc:0d8f8e4352be877a8d54c106d85a980812994e5a460a1f1e7d02babd46339a71 ;
+    dct:description "The Digital Convergence Initiative (DCI) is a global initiative that develops standards and guidelines for interoperable social protection information systems. It aims to enable seamless data exchange between programmes and institutions through common processes, data standards, terminology, and application programming interfaces (APIs), improving the effectiveness and scalability of digital social protection systems."@en ;
+    dct:title "Digital Convergence Initiative"@en ;
+    dcat:distribution cssvrsc:eca61247-e420-44cf-b9b3-93a1a43c64d7  ;
+    dcat:version "1.0.0".
+
+cssvrsc:82c9ad1d311aefeaddd7a5ec04d6c7c77df62e6fab907e4a7b5935cd67e41f78 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:acronym "ePO"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:8a01e22a41614a4a1b2a17aac3b6e9aa70f174640ac80ea8510d7b45772e121f ;
+    dct:description "The eProcurement Ontology (ePO) provides the formal and semantic basis for the creation and reuse of linked open data in the field of public procurement in the EU."@en ;
+    dct:title "eProcurement Ontology"@en ;
+    dcat:distribution cssvrsc:76a1a717-de74-4bff-9fa7-36da93a46b33 ;
+    dcat:previousVersion cssvrsc:33ae66f6628ffb422986b7889cdaa2347d43ec0c43a2561947932287fb622d00 ;
+    dcat:version "5.2.0" .
+
+cssvrsc:23524f065c685e401d025b977ce3a1dbd426e07ffaed02a7e68e3f06b9b74dca a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "CDEvents"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:80ecaf05bc549eba4cc3d872b0772ffcc17dc1f1956b7119cbbf3e16a4b1fa53 ;
+    dct:description "CDEvents is a common specification for Continuous Delivery events, enabling interoperability in the complete software production ecosystem. It extends the CloudEvents specification with a vocabulary of CI/CD events, allowing tools to communicate in a technology-agnostic, machine-to-machine way."@en ;
+    dct:title "CDEvents"@en ;
+    dcat:distribution cssvrsc:b7f6cd00-2b39-40f3-b652-985e362854dd ;
+    dcat:version "0.5.1" .
+
+cssvrsc:80ecaf05bc549eba4cc3d872b0772ffcc17dc1f1956b7119cbbf3e16a4b1fa53 a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "CDF"@en ;
+    skos:prefLabel "Continuous Delivery Foundation"@en ;
+    foaf:homepage <https://cd.foundation/> .
+
+cssvrsc:b7f6cd00-2b39-40f3-b652-985e362854dd a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://cdevents.dev/docs/wpaper/> .
+
+
+
+
+cssvrsc:eca61247-e420-44cf-b9b3-93a1a43c64d7 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://standards.spdci.org/standards> .
 
 cssvrsc:p17b73c8-174d-475a-94e9-5e046df85f45 a owl:NamedIndividual,
         dcat:Distribution ;
@@ -10448,7 +10503,7 @@ dcat:distribution a owl:AnnotationProperty .
 
 dcat:downloadURL a owl:AnnotationProperty .
 
-dcat:theme a owl:AnnotationProperty .
+#dcat:theme a owl:AnnotationProperty .
 
 dcat:version a owl:AnnotationProperty .
 
@@ -13957,6 +14012,10 @@ cssvrsc:ee92407f-c094-43af-a55e-c2df4efa500a a owl:NamedIndividual,
 cssvrsc:eea33569-246b-43b9-a546-d47fd6b82c23 a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://github.com/OP-TED/ePO/tree/v3.0.0> .
+
+cssvrsc:76a1a717-de74-4bff-9fa7-36da93a46b33 a owl:NamedIndividual,
+    dcat:Distribution ;
+dcat:accessURL <https://github.com/OP-TED/ePO/tree/v5.2.0> .
 
 cssvrsc:f00a6feb-d658-499b-a44e-ca49441fef6c a owl:NamedIndividual,
         dcat:Distribution ;
