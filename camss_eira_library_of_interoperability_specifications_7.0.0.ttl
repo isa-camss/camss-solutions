@@ -869,6 +869,10 @@ elis:3e89b213-5040-4426-8a3e-61014b2733fb a dcat:CatalogRecord ;
     dct:title "Keyhole Markup Language (KML)"@en ;
     foaf:primaryTopic cssvrsc:9c2f765f7d194336045492bd806b3413413afac3d440bf4a043d4886ce4e75cf .
 
+elis:7327a95f-07e8-4d10-87ea-92bd20b612ca a dcat:CatalogRecord ;
+    dct:title "eProcurement Ontology (ePO)"@en ;
+    foaf:primaryTopic cssvrsc:82c9ad1d311aefeaddd7a5ec04d6c7c77df62e6fab907e4a7b5935cd67e41f78 .
+
 elis:3ec1d59d-4cc2-44e5-930e-7dccfbe0f287 a dcat:CatalogRecord ;
     dct:title "eXtensible Markup Language (XML)"@en ;
     foaf:primaryTopic cssvrsc:e438965c54bc7f78e6ede46f4d408abe398302a3b33e374a9ed4662b8b44df77 .
@@ -4704,7 +4708,8 @@ cssvrsc:3ac90955aa96eedf7114693c57e1862f5dc359b7f26327a4878201bb0934a53b a cssv:
         [ dct:description "GML allows for the publication of geographic data in a manner that is accessible and discoverable on the web. The specification ensures interoperability with other datasets, facilitating a richer contextual understanding of geographic phenomena through cross-domain data integration."@en ;
             dct:relation eira:LinkedOpenDataRepresentation ],
         [ dct:description "The Geography Markup Language is an XML encoding in compliance with ISO 19118 for the transport and storage of geographic information modelled in accordance with the conceptual modelling framework used in the ISO 19100 series of International Standards and including both the spatial and non-spatial properties of geographic features."@en ;
-            dct:relation eira:DataRepresentationRepresentation ] ;
+            dct:relation eira:DataRepresentationRepresentation ] ,
+            camssa:6dc003f55489c05611f6c38023c415f35714a4aa9c4e8ad571eb1e9321b303b8 ;
     dcat:theme "Data Architecture"@en .
 
 cssvrsc:3b34d225ce1bc5870cfc366cc7beb56eed40ebbb162aafbbbbcf5c4901a74901 a cssv:Specification ;
@@ -6903,6 +6908,16 @@ cssvrsc:9bb5ed8aeeaac36ae03d2d557379facd9e2c20e039bab1cdf1d29a5c53b0a205 a cssv:
         [ dct:description "MyData Account processes and stores personal data and links it to services."@en ;
             dct:relation eira:AccessManagementApplicationService ] ;
     dcat:theme "Technology Architecture"@en .
+
+cssvrsc:82c9ad1d311aefeaddd7a5ec04d6c7c77df62e6fab907e4a7b5935cd67e41f78 a cssv:Specification ;
+    dct:relation [ dct:description "ePO is published as an OWL ontology that formally encodes the concepts and relationships of the public procurement domain, giving procurement data a machine-readable conceptualisation that systems can reason over."@en ;
+            dct:relation eira:OntologyDataObject ],
+        [ dct:description "ePO provides a reusable data model covering the procurement lifecycle end to end, from notice and tendering through award, ordering, invoicing and payment, so that data stays coherent across all phases."@en ;
+            dct:relation eira:DataModelDataObject ],
+        [ dct:description "ePO fixes a common set of procurement terms shared by eForms, the ESPD and eInvoicing, ensuring that buyers, economic operators and contracting authorities describe the same concepts in the same way."@en ;
+            dct:relation eira:VocabularyDataObject ] ,
+        camssa:c1dcde55a277f258cea5fa6cf63f491a8ac168bef4f1d0009c14b7055839a7b7 ;
+    dcat:theme "Data Architecture"@en .
 
 cssvrsc:9c2f765f7d194336045492bd806b3413413afac3d440bf4a043d4886ce4e75cf a cssv:Specification ;
     dct:relation [ dct:description "KML is an XML grammar used to encode and transport representations of geographic data for display in an earth browser, such as a 3D virtual globe, 2D web browser application, or 2D mobile application."@en ;
@@ -9613,6 +9628,10 @@ cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe a cssv:
         [ dct:description "The W3C Verifiable Credentials Status List specification gives a revocation component a compact structure for recording each credential as valid, suspended or revoked, and for updating that status over time."@en ;
             dct:relation eira:CredentialRevocationApplicationComponent ] ;
     dcat:theme "Technology Architecture"@en .
+
+
+
+
 
 eira:AgendaManagementServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
