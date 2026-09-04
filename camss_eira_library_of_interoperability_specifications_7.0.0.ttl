@@ -9570,6 +9570,50 @@ cssvrsc:fff7f7a1aa0ab237422f8e557b0773b3742313bb5c8f452fed8c2ea1641dcf5f a cssv:
             dct:relation eira:PublicAdministrationSingleWindowApplicationComponent ] ;
     dcat:theme "Technology Architecture"@en .
 
+cssvrsc:23524f065c685e401d025b977ce3a1dbd426e07ffaed02a7e68e3f06b9b74dca a cssv:Specification ;
+    dct:relation [ dct:description "CDEvents standardises the events emitted by continuous delivery tools, allowing a pipeline service to chain build, test and deployment stages across heterogeneous tooling and trace a release end to end."@en ;
+            dct:relation eira:PipelineTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:2293da7a5fa36f9af89fcc41486c6f0dc38b4d7c554dd73a107c1a6c1779d2cc a cssv:Specification ;
+    dct:relation [ dct:description "RFC 8955 allows a traffic protection service to distribute filtering, rate-limiting and redirection rules over BGP, so that mitigation policies such as DDoS filtering are enforced consistently across network domains."@en ;
+            dct:relation eira:TrafficProtectionServiceTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:546c2d41a189d0916515c35945524c12f5c72737ed9c096100d79e08c1d23d94 a cssv:Specification ;
+    dct:relation [ dct:description "The Kubernetes API gives an infrastructure provisioning service a declarative interface for requesting compute, network and storage resources, and reconciles deployed infrastructure with the declared desired state."@en ;
+            dct:relation eira:InfrastructureProvisioningTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:ed3a8fb15de8f532e6b765e19977c399ebe38cf1239d1b0aff062df3713a4f82 a cssv:Specification ;
+    dct:relation [ dct:description "The NIST AI RMF defines the risk functions an AI model monitoring service applies in operation, covering the measurement of performance degradation, bias, robustness and drift throughout the model lifecycle."@en ;
+            dct:relation eira:AIModelMonitoringTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:91de6946ce623bd04d9a26abbbba87178c590af2bcca28861db177312096e9f2 a cssv:Specification ;
+    dct:relation [ dct:description "ONNX gives a fine-tuning service a framework-neutral representation of a pre-trained model, so that it can be adapted to a specific domain or dataset and redeployed without being rebuilt for each toolchain."@en ;
+            dct:relation eira:AIModelFineTuningTechnologyService ],
+        [ dct:description "ONNX declares model inputs with their expected shapes and data types, giving a feature service an explicit contract for the features it must transform and serve for both training and inference."@en ;
+            dct:relation eira:AIFeatureTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:4527b587e0856dbed822035c4a0a73f3dd8c137f1de701a22d84b9448a42686b a cssv:Specification ;
+    dct:relation [ dct:description "SARIF gives a source code analysis service a common output format, so that findings from different scanners can be aggregated, compared and enforced as a single automated quality gate."@en ;
+            dct:relation eira:SourceCodeAnalysisTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:8411476402c659fbe4e43e1f62709e037ef6fc1c8568b706d659a445c5bea94a a cssv:Specification ;
+    dct:relation [ dct:description "SQL provides an analytical query service with a standard language for filtering, joining and aggregating datasets, so that consumers can query shared data without depending on a specific engine."@en ;
+            dct:relation eira:AnalyticalQueryServiceTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe a cssv:Specification ;
+    dct:relation [ dct:description "The W3C Verifiable Credentials Status List specification defines how credential status is published and queried, so that a revocation service can expose validity information verifiers check without contacting the issuer."@en ;
+            dct:relation eira:CredentialRevocationServiceApplicationService ],
+        [ dct:description "The W3C Verifiable Credentials Status List specification gives a revocation component a compact structure for recording each credential as valid, suspended or revoked, and for updating that status over time."@en ;
+            dct:relation eira:CredentialRevocationApplicationComponent ] ;
+    dcat:theme "Technology Architecture"@en .
+
 eira:AgendaManagementServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ContainersOrchestratorTechnologyService eira:concept eira:ArchitectureBuildingBlock .
