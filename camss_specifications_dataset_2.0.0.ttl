@@ -5085,6 +5085,7 @@ cssvrsc:00fc754431ae68a5376a55bb52339b48882208483edd948025e4cc446f5dbfea a cssv:
     cssv:acronym "VC 2.0"@en ;
     cssv:alternative ""@en ;
     cssv:combines cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e14,
+                cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe,
                 cssvrsc:7c2a77c26ebf41f03b32123527d4e862a65a8b97020713db4fd31c65c93e3e16 ;
     cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
     dct:description "The Verifiable Credentials 2.0 family is a set of seven W3C Recommendations defining how to express, secure, and manage tamper-evident digital credentials on the Web, covering the core data model, cryptographic integrity mechanisms (Data Integrity, EdDSA, ECDSA, JOSE/COSE), identifier control, and credential status (revocation/suspension)."@en ;
@@ -10531,6 +10532,20 @@ cssvrsc:8411476402c659fbe4e43e1f62709e037ef6fc1c8568b706d659a445c5bea94a a cssv:
     dct:title "ISO/IEC 9075-1:2023 Information technology — Database languages SQL"@en ;
     dcat:distribution cssvrsc:438381c7-e092-4dda-ae46-ea0a0df4d011 ;
     dcat:version "2023" .
+
+cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym ""@en ;
+    cssv:alternative "Bitstring Status List"@en ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:description "W3C Verifiable Credentials Status List defines a privacy-preserving, space-efficient and high-performance mechanism for publishing status information, such as the suspension or revocation of verifiable credentials, by encoding the status of large populations of credentials as compressed bitstrings. Verifiers can check whether a credential is still valid without contacting the issuer about each individual credential."@en ;
+    dct:title "W3C Verifiable Credentials Bitstring Status List"@en ;
+    dcat:distribution cssvrsc:49749a9d-53d7-40c9-bb9c-a2865deadbcf ;
+    dcat:version "1.0.0" .
+
+cssvrsc:49749a9d-53d7-40c9-bb9c-a2865deadbcf a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.w3.org/TR/vc-bitstring-status-list/> .
 
 cssvrsc:438381c7-e092-4dda-ae46-ea0a0df4d011 a owl:NamedIndividual,
         dcat:Distribution ;

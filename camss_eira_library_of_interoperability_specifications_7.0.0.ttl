@@ -176,6 +176,11 @@ elis:e407c587-da6c-406c-8f1c-60c174a63081
         dct:title          "ISO/IEC 9075-1:2023 Information technology — Database languages SQL";
         foaf:primaryTopic  cssvrsc:8411476402c659fbe4e43e1f62709e037ef6fc1c8568b706d659a445c5bea94a .
 
+elis:de8cac25-131a-4319-a4f4-f25214fcc575
+        a                  dcat:CatalogRecord;
+        dct:title          "W3C Verifiable Credentials Bitstring Status List";
+        foaf:primaryTopic  cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe .
+
 elis:001bee67-aad7-438d-8e74-25497676b09e a dcat:CatalogRecord ;
     dct:title "Microsoft ODBC 4.0 Specification"@en ;
     foaf:primaryTopic cssvrsc:b6f8429b83d4239eb9144340d43c90ff79ea304f5eb3244e57f570c16a6feb47 .
