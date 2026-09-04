@@ -146,6 +146,41 @@ elis:ad55bbaf-f426-4e3b-84c9-efffd3aa9272
         dct:title          "CDEvents";
         foaf:primaryTopic  cssvrsc:23524f065c685e401d025b977ce3a1dbd426e07ffaed02a7e68e3f06b9b74dca .
 
+elis:1bc94bf5-eb0a-470e-a0e3-7f992ed992d2
+        a                  dcat:CatalogRecord;
+        dct:title          "Dissemination of Flow Specification Rules (RFC 8955)";
+        foaf:primaryTopic  cssvrsc:2293da7a5fa36f9af89fcc41486c6f0dc38b4d7c554dd73a107c1a6c1779d2cc .
+
+elis:3c736816-fd06-4cb7-9290-5681d16ed8c3
+        a                  dcat:CatalogRecord;
+        dct:title          "Kubernetes API";
+        foaf:primaryTopic  cssvrsc:546c2d41a189d0916515c35945524c12f5c72737ed9c096100d79e08c1d23d94 .
+
+elis:0b007d60-1d47-478a-bb3e-b90ca98bed87
+        a                  dcat:CatalogRecord;
+        dct:title          "Artificial Intelligence Risk Management Framework (AI RMF 1.0)";
+        foaf:primaryTopic  cssvrsc:ed3a8fb15de8f532e6b765e19977c399ebe38cf1239d1b0aff062df3713a4f82 .
+
+elis:99e81309-fded-4daa-be4a-8f82ad355e4a
+        a                  dcat:CatalogRecord;
+        dct:title          "Open Neural Network Exchange (ONNX)";
+        foaf:primaryTopic  cssvrsc:91de6946ce623bd04d9a26abbbba87178c590af2bcca28861db177312096e9f2 .
+
+elis:9874790c-daee-40d7-b999-cd6ee3d8428b
+        a                  dcat:CatalogRecord;
+        dct:title          "Static Analysis Results Interchange Format";
+        foaf:primaryTopic  cssvrsc:4527b587e0856dbed822035c4a0a73f3dd8c137f1de701a22d84b9448a42686b .
+
+elis:e407c587-da6c-406c-8f1c-60c174a63081
+        a                  dcat:CatalogRecord;
+        dct:title          "ISO/IEC 9075-1:2023 Information technology — Database languages SQL";
+        foaf:primaryTopic  cssvrsc:8411476402c659fbe4e43e1f62709e037ef6fc1c8568b706d659a445c5bea94a .
+
+elis:de8cac25-131a-4319-a4f4-f25214fcc575
+        a                  dcat:CatalogRecord;
+        dct:title          "W3C Verifiable Credentials Bitstring Status List";
+        foaf:primaryTopic  cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe .
+
 elis:001bee67-aad7-438d-8e74-25497676b09e a dcat:CatalogRecord ;
     dct:title "Microsoft ODBC 4.0 Specification"@en ;
     foaf:primaryTopic cssvrsc:b6f8429b83d4239eb9144340d43c90ff79ea304f5eb3244e57f570c16a6feb47 .
