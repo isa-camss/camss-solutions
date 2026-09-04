@@ -171,6 +171,11 @@ elis:9874790c-daee-40d7-b999-cd6ee3d8428b
         dct:title          "Static Analysis Results Interchange Format";
         foaf:primaryTopic  cssvrsc:4527b587e0856dbed822035c4a0a73f3dd8c137f1de701a22d84b9448a42686b .
 
+elis:e407c587-da6c-406c-8f1c-60c174a63081
+        a                  dcat:CatalogRecord;
+        dct:title          "ISO/IEC 9075-1:2023 Information technology — Database languages SQL";
+        foaf:primaryTopic  cssvrsc:8411476402c659fbe4e43e1f62709e037ef6fc1c8568b706d659a445c5bea94a .
+
 elis:001bee67-aad7-438d-8e74-25497676b09e a dcat:CatalogRecord ;
     dct:title "Microsoft ODBC 4.0 Specification"@en ;
     foaf:primaryTopic cssvrsc:b6f8429b83d4239eb9144340d43c90ff79ea304f5eb3244e57f570c16a6feb47 .

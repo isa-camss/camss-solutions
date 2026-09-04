@@ -10522,6 +10522,20 @@ cssvrsc:4527b587e0856dbed822035c4a0a73f3dd8c137f1de701a22d84b9448a42686b a cssv:
     dcat:distribution cssvrsc:b189088a-b2db-41ad-a7c5-907e170f71ef ;
     dcat:version "2.1.0" .
 
+cssvrsc:8411476402c659fbe4e43e1f62709e037ef6fc1c8568b706d659a445c5bea94a a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "SQL"@en ;
+    cssv:alternative "Structured Query Language"@en ;
+    cssv:isMaintainedBy cssvrsc:39881f5ac63282ad9091ea49323024689001ad72f89bfb1ebc9f28ce1857da8b ;
+    dct:description "SQL is the dominant universal abstraction for interactive analytical querying across structured and semi-structured data."@en ;
+    dct:title "ISO/IEC 9075-1:2023 Information technology — Database languages SQL"@en ;
+    dcat:distribution cssvrsc:438381c7-e092-4dda-ae46-ea0a0df4d011 ;
+    dcat:version "2023" .
+
+cssvrsc:438381c7-e092-4dda-ae46-ea0a0df4d011 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.iso.org/standard/76583.html> .
+
 cssvrsc:b189088a-b2db-41ad-a7c5-907e170f71ef a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://docs.oasis-open.org/sarif/sarif/v2.1.0/os/sarif-v2.1.0-os.html> .
