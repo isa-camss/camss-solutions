@@ -10512,6 +10512,20 @@ cssvrsc:91de6946ce623bd04d9a26abbbba87178c590af2bcca28861db177312096e9f2 a cssv:
     dcat:distribution cssvrsc:eba6703a-617f-491f-85fa-d0570609d93d ;
     dcat:version "1.22.0" .
 
+cssvrsc:4527b587e0856dbed822035c4a0a73f3dd8c137f1de701a22d84b9448a42686b a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "SARIF"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:description "SARIF is a standardized JSON-based format for representing the results of static analysis tools, including code quality issues, security vulnerabilities, and rule violations. It enables consistent exchange, aggregation, and processing of analysis results across different tools and platforms in software development pipelines."@en ;
+    dct:title "Static Analysis Results Interchange Format"@en ;
+    dcat:distribution cssvrsc:b189088a-b2db-41ad-a7c5-907e170f71ef ;
+    dcat:version "2.1.0" .
+
+cssvrsc:b189088a-b2db-41ad-a7c5-907e170f71ef a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://docs.oasis-open.org/sarif/sarif/v2.1.0/os/sarif-v2.1.0-os.html> .
+
 cssvrsc:eba6703a-617f-491f-85fa-d0570609d93d a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://onnx.ai/> .

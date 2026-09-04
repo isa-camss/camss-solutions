@@ -166,6 +166,11 @@ elis:99e81309-fded-4daa-be4a-8f82ad355e4a
         dct:title          "Open Neural Network Exchange (ONNX)";
         foaf:primaryTopic  cssvrsc:91de6946ce623bd04d9a26abbbba87178c590af2bcca28861db177312096e9f2 .
 
+elis:9874790c-daee-40d7-b999-cd6ee3d8428b
+        a                  dcat:CatalogRecord;
+        dct:title          "Static Analysis Results Interchange Format";
+        foaf:primaryTopic  cssvrsc:4527b587e0856dbed822035c4a0a73f3dd8c137f1de701a22d84b9448a42686b .
+
 elis:001bee67-aad7-438d-8e74-25497676b09e a dcat:CatalogRecord ;
     dct:title "Microsoft ODBC 4.0 Specification"@en ;
     foaf:primaryTopic cssvrsc:b6f8429b83d4239eb9144340d43c90ff79ea304f5eb3244e57f570c16a6feb47 .
