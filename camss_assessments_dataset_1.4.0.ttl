@@ -137414,7 +137414,818 @@ camssa:febd33f1-3a49-4a5b-a1e3-3f58ed245b8a a cav:Score,
     cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
     cav:value "100"^^xsd:string .
 
+camssa:6d0539016e448fbebad3f4ec908e035248c682740fdaa325509bd4c3965afd4a a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:assesses cssvrsc:5873e78303cf81c2b9a93061b0e64063a70a81c294154b325d95eb12c14c26bd ;
+    cav:considers camssa:0918e90c-98b2-4205-8e68-cb70599de089 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317  ;
+    cav:resultsIn camssa:02466d75-09c2-4b66-a367-3ef2482d4153,
+        camssa:0569451e-dea9-4cdd-b6c6-564bcd12cd6e,
+        camssa:06c85905-b883-4a31-96d7-b4e47d077d30,
+        camssa:12fe4884-585e-4930-b0a8-89574812c0d3,
+        camssa:17e2b9c0-d3c6-473b-a076-91dade1eac04,
+        camssa:19d8da90-7224-46a2-a308-542a78ff6ac2,
+        camssa:22da7932-31b9-4ffc-8d8d-274e075c366a,
+        camssa:26f106a9-15c5-48ac-aa1c-84f487ed59a5,
+        camssa:2aaaca6b-d90c-403b-91ad-c72a8303d8da,
+        camssa:357de976-ad15-4f60-aa8b-00b02438bd3f,
+        camssa:46c8dd82-8caf-4a8e-ab3c-328b830c8a8a,
+        camssa:4f001a4a-8208-437a-96e6-6cb6ce7ef642,
+        camssa:56b1bf37-2495-4ad6-b768-cf10692445a8,
+        camssa:5d1b8acb-c9f7-4ed5-835a-295c8163e114,
+        camssa:5f601808-3504-4125-8b32-7e96767537c9,
+        camssa:7403549c-ae05-4853-88e0-0579bcfebbe0,
+        camssa:786f4b4e-622d-4352-8f77-29f56fd22c3c,
+        camssa:7a0b9253-5461-4e7f-9d63-9ed787353621,
+        camssa:7ea27580-0235-4ce9-b1a9-32f8f698fc93,
+        camssa:8ce389c7-2837-4347-8b84-73037881eb2f,
+        camssa:8fd82eb6-11a5-4aee-b19b-2fed6ce315e8,
+        camssa:9071acbc-b77d-4f77-bd65-acce2817283c,
+        camssa:95be9b44-fdfd-463d-91ed-f5aaa4757758,
+        camssa:9f1325ab-3437-4a92-be29-3419fac919a1,
+        camssa:9f2215a1-85fe-44d5-826e-03c00a806fb9,
+        camssa:9f7d4235-5a54-4c82-8423-06dea3007d14,
+        camssa:a06c9f08-7c29-4c46-affa-2c19e923ade0,
+        camssa:a22ff94d-ea01-482f-8d88-6f0ea8a31900,
+        camssa:a63d7860-5f50-4d6e-8258-b0744317758d,
+        camssa:ab0af6d0-2da9-46d9-957d-caf9891911db,
+        camssa:aefbfae2-eda2-4365-829e-c54ebdf93298,
+        camssa:b6801527-3cb2-4e72-b600-ec2fa4f1db86,
+        camssa:c952fb99-599b-45f9-89ff-6833defe462e,
+        camssa:d1a3bdaf-ca47-49db-83bc-2caeb344cd54,
+        camssa:d2c50c1f-3645-409e-9d30-215dcb3fa16e,
+        camssa:d3b36f92-d3ea-46fb-a2ac-84d165be275f,
+        camssa:d4ceba34-7ed7-47c8-b5fc-489738ec5d13,
+        camssa:df34680b-9ab0-4b74-a66c-4fc3c8c639b9,
+        camssa:e10503ef-4da8-4d13-ad7b-c08fd0b486f4,
+        camssa:e8dd9029-c8a8-4c24-a3d7-aedf89955022,
+        camssa:e99e8608-6cc6-4ffa-b152-b232e0193e7f,
+        camssa:f0a02a9e-7343-47ee-92e0-c51378e01e74,
+        camssa:f6fd02b2-ae65-4b63-b98f-5c8a01f6d8f8,
+        camssa:fa92f61c-a42d-41bf-9d0c-a90312bfbabc,
+        camssa:fb54806a-2b45-41d1-90b3-79842b437653 ;
+    dct:issued "2026-09-18"^^xsd:date ;
+    dct:description "Assessment of the WebRTC: Real-Time Communication in Browsers EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
+    dct:title " CAMSS Assessment of WebRTC EIF Scenario v1.0.0"@en ;
+    dcat:version "1.0.0" ;
+    dcat:distribution camssa:6bdf9dac-9b76-427c-aa37-77b7e4a0457c .
 
+camssa:00147682-4f6d-4f18-acd7-824432fea4ec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:string .
+
+camssa:02466d75-09c2-4b66-a367-3ef2482d4153 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Implementations of WebRTC are checked at two complementary levels: the W3C Web Platform Tests project runs API-conformance tests against the specification text, with per-browser results published continuously at wpt.fyi, while Google's open-source KITE engine performs live cross-browser interoperability testing (Chrome, Firefox, Safari, Edge) to confirm that independently developed implementations can actually establish and sustain calls with one another._x000D_
+_x000D_
+Web platform tests GitHub:_x000D_
+https://github.com/web-platform-tests/wpt_x000D_
+_x000D_
+Web platform tests dashboard reference:_x000D_
+https://wpt.fyi/results/webrtc-stats?label=experimental&label=master&aligned_x000D_
+_x000D_
+WebRTC KITE reference (read-only):_x000D_
+https://github.com/webrtc/KITE_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/\""""@en ;
+    cav:refersTo camssa:b702075d-ca7b-4eec-ba3f-0393304ec485 .
+
+camssa:0569451e-dea9-4cdd-b6c6-564bcd12cd6e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"WebRTC's Insertable Streams / Encoded Transform extension allows applications to apply end-to-end encryption directly to encoded media frames before they reach a media server, so that even a routing Selective Forwarding Unit cannot access the plaintext content, addressing secure processing beyond the point-to-point transport layer. This means that servers who rely multimedia, (e.g.:a video-conferencing server that forwards calls between several participants) cannot even see the content, since they only handle already-encrypted data._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827\""""@en ;
+    cav:refersTo camssa:1d18efbb-c6d5-4134-baa4-fee122d1595e .
+
+camssa:06c85905-b883-4a31-96d7-b4e47d077d30 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of WebRTC is not related to e-accessibility. However, the media streams it establishes can be combined with accessibility-oriented technologies, for example live captioning built on the Web Speech API, or sign-language and alternate video tracks carried alongside a primary stream, to make real-time communication more accessible. _x000D_
+_x000D_
+S. Eltenahy, N. Fayez, M. Obayya and F. Khalifa, "Conversion of Videoconference Speech into Text based on WebRTC and Web Speech APIs" (2021) _x000D_
+10.1109/ITC-Egypt52936.2021.9513968._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:3fea1dcb-358f-4487-b355-63d9f574d259 .
+
+camssa:072a9c66-c7b5-443d-bbea-db0ccd222468 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:string .
+
+camssa:0918e90c-98b2-4205-8e68-cb70599de089 a cav:Score,
+        owl:NamedIndividual ;
+    cav:value "100%StrengthOfAssessmentScoreAverage"^^xsd:string,
+        "94.0%AssessmentScoreAverage"^^xsd:string .
+
+camssa:0b2a0e34-89d5-46ee-a8a9-7e65370ec572 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:string .
+
+camssa:12fe4884-585e-4930-b0a8-89574812c0d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is the standard technical foundation for an entire category of digital public service delivery channels, including telehealth consultation platforms, remote court and administrative hearings, and citizen video-helpdesk services, all of which digitise interactions that would otherwise require an in-person visit._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:1cd1c73f-7387-48e0-859d-27b6e8ed23a1 .
+
+camssa:14e86e91-d8b4-49e0-83c5-85f8ab316869 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:string .
+
+camssa:17e2b9c0-d3c6-473b-a076-91dade1eac04 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification does not directly describe or expose administrative procedures, rules or services on its own. Therefore this criterion is not applicable to this specification._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:c6f62799-103e-4cf2-909d-963ff8053e44 .
+
+camssa:19d8da90-7224-46a2-a308-542a78ff6ac2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC protects data integrity at two levels. Media packets carry an authentication tag, either HMAC-based or AES-GCM when that profile is used. This lets the receiver detect if the content was tampered with in transit. The handshake that sets up the call is also protected end to end, so it cannot be altered unnoticed either. Together, these mechanisms mean that any unauthorised change, whether to the call setup or to the media itself, can be detected._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:fd782287-3297-4f11-8825-a44d5798cb42 .
+
+camssa:1cd1c73f-7387-48e0-859d-27b6e8ed23a1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:string .
+
+camssa:1d18efbb-c6d5-4134-baa4-fee122d1595e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:string .
+
+camssa:20ce6df7-f824-4fe6-8dc4-9eeeb94ad475 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "60"^^xsd:string .
+
+camssa:22a14455-82f0-4ef5-af1c-f17d4387cd14 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:string .
+
+camssa:22da7932-31b9-4ffc-8d8d-274e075c366a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'This question is considered not applicable, as this criterion falls outside the scope of the specification. Although the different security mechanisms were explained before, none of them is related to access control mechanisms._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:d8fab633-a8a5-4af6-b9e3-d2742a96785e .
+
+camssa:26f106a9-15c5-48ac-aa1c-84f487ed59a5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is maintained by the W3C and the IETF, neither of which is a European organisation. The W3C is, however, a international consortium, one of whose four Host Institutions, ERCIM, is headquartered in France, and the specification is very widely used across European Member States._x000D_
+_x000D_
+W3C:_x000D_
+https://www.w3.org_x000D_
+_x000D_
+IETF:_x000D_
+https://www.ietf.org_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:00147682-4f6d-4f18-acd7-824432fea4ec .
+
+camssa:2aaaca6b-d90c-403b-91ad-c72a8303d8da a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies'"""@en ;
+    cav:refersTo camssa:3d465ccc-6971-4137-8cac-6bd0f5f07806 .
+
+camssa:348ee286-93b5-40b5-9b6f-947f15a07aa6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:string .
+
+camssa:357de976-ad15-4f60-aa8b-00b02438bd3f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'This criterion is considered not applicable, as WebRTC is a technical communication protocol suite and is not intended for describing or modelling business processes. Any process modelling required to embed WebRTC-based communication into a public service workflow relies entirely on separate business-process modelling techniques and tools, which fall outside the scope of this specification._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:9837dbab-36eb-41ba-b285-ec7fd3efd78a .
+
+camssa:39d4f7ba-6618-4dcc-ab9e-ec2dff118f95 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "80"^^xsd:string .
+
+camssa:3ba6c8d3-de19-4253-9a19-816dae021168 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3d465ccc-6971-4137-8cac-6bd0f5f07806 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:string .
+
+camssa:3d9d7514-528d-461e-a6e0-253c4f0cb667 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3edfbfa9-73b2-42a2-ab23-6fd6e61c518a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3fea1dcb-358f-4487-b355-63d9f574d259 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "60"^^xsd:string .
+
+camssa:40b6147d-2a53-43d7-b982-d4a982a4e5ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:string .
+
+camssa:46c8dd82-8caf-4a8e-ab3c-328b830c8a8a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC actively encourages the formation of open communities around its implementation and use. The specification itself is maintained through a public issue tracker on GitHub, where implementers, including European vendors and integrators, report interoperability problems, propose fixes and share results of their own implementation experience in the open, so that the whole community benefits from each contribution rather than resolving issues privately. A large and active public discussion community has formed around WebRTC on Stack Overflow, where implementers, exchange troubleshooting knowledge, share working configurations and discuss best practices for deploying WebRTC-based services._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC GitHub issues:_x000D_
+https://github.com/webrtc-sdk/webrtc/issues_x000D_
+_x000D_
+WebRTC Stack Overflow reference:_x000D_
+https://stackoverflow.com/search?q=WebRTC&s=da03ed69-16e2-46b2-aa5f-0e120b93409c'"""@en ;
+    cav:refersTo camssa:bd3c12a7-35a0-45d1-a4d2-1959f61e0b95 .
+
+camssa:4b3da90f-67b3-490c-abc2-17d172858524 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:string .
+
+camssa:4f001a4a-8208-437a-96e6-6cb6ce7ef642 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"WebRTC's integrity and authenticity mechanisms (SRTP authentication tags, DTLS-verified certificates) help ensure that the data actually received matches what was sent, which indirectly supports accuracy of the transported media and data. These mechanisms do two things. First, they stop unauthorised users from accessing the data. Second, they include an integrity check, so if someone tries to change the data while it is being sent, the receiving side can detect it. This means the data arrives the same as it was sent, without unnoticed changes._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827\""""@en ;
+    cav:refersTo camssa:39d4f7ba-6618-4dcc-ab9e-ec2dff118f95 .
+
+camssa:52dc27b2-5ef7-417e-87bc-72eed788c2a5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100"^^xsd:string .
+
+camssa:56a321f6-48a3-45e5-982e-6f1d6d3ad00a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:string .
+
+camssa:56b1bf37-2495-4ad6-b768-cf10692445a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is recommended by 3 national catalogues of recommended specifications. They belong to The Netherlands, France and Malta._x000D_
+_x000D_
+The Netherlands NIF:_x000D_
+https://www.forumstandaardisatie.nl/open-standaarden/webrtc_x000D_
+_x000D_
+France NIF:_x000D_
+https://www.numerique.gouv.fr/offre-accompagnement/reference-interoperabilite-rgi/_x000D_
+_x000D_
+Malta NIF:_x000D_
+https://mccaa.org.mt/Section/Content?contentId=1243_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:650950a3-2dbb-42d0-8451-91a0e39476ee .
+
+camssa:5730b304-3f89-4323-8909-ec728cf522ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:string .
+
+camssa:5d1b8acb-c9f7-4ed5-835a-295c8163e114 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC was not designed for any single business domain: it provides generic real-time transport for audio and video._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:072a9c66-c7b5-443d-bbea-db0ccd222468 .
+
+camssa:5f601808-3504-4125-8b32-7e96767537c9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The Interoperable Europe Portal's Open Source Observatory has documented the adoption of WebRTC-based, GDPR-conscious videoconferencing (Jitsi Meet) by French and Spanish public administrations as a privacy-respecting alternative to proprietary platforms, and current EU guidance on video conferencing sovereignty explicitly recommends WebRTC-based open-source platforms, deployed on EU infrastructure, to satisfy EU data-protection expectations._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Open-source videoconferences, Interoperable Europe Portal: _x000D_
+https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/open-source-videoconferences_x000D_
+_x000D_
+Jitsi Meet reference:_x000D_
+https://jitsi.org/projects/\""""@en ;
+    cav:refersTo camssa:6435b9fd-f769-4c4e-bc9c-50840c141cdb .
+
+camssa:610b31f6-56bb-4a43-a166-f30f12da04be a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:string .
+
+camssa:61b21018-8777-4194-b5c1-7948107bcd15 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:string .
+
+camssa:62ee3074-8710-4029-a7c5-ba6b3011c9d1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:string .
+
+camssa:6435b9fd-f769-4c4e-bc9c-50840c141cdb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:string .
+
+camssa:650950a3-2dbb-42d0-8451-91a0e39476ee a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:string .
+
+camssa:66a2d752-3703-4e8e-aacb-27f77abbf230 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:string .
+
+camssa:6bdf9dac-9b76-427c-aa37-77b7e4a0457c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://data.europa.eu/w21/49bfb983-3ffd-4551-8886-c749c98999ff"^^xsd:anyURI .
+
+camssa:7403549c-ae05-4853-88e0-0579bcfebbe0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC works together with the browser permissions model so that, once a user has granted camera or microphone access to an origin, that consent can be persisted and reused for subsequent sessions with the same origin without prompting the user again. This is a real, implemented combination of specifications, but it only reuses a device-access permission, not the actual content or data exchanged during a call, so it does not amount to a full once-only mechanism._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:c25dbdbb-f72f-40a7-9955-d529ec3c1155 .
+
+camssa:74d75de7-6630-483e-a5c4-1c5bcfdb1705 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:string .
+
+camssa:786f4b4e-622d-4352-8f77-29f56fd22c3c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC media is protected with Secure Real-time Transport Protocol (SRTP), with encryption keys which implies it is automatically encrypted, so no one can listen in or read the content while it travels between the two people communicating. None of these protections are optional, it is a mandatory part of the specification, meaning every WebRTC application sends data securely by default._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:56a321f6-48a3-45e5-982e-6f1d6d3ad00a .
+
+camssa:79bc21e0-9fd4-4c38-8254-e2f0d49b0aac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:string .
+
+camssa:7a0b9253-5461-4e7f-9d63-9ed787353621 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is maintained by the chartered W3C Web Real-Time Communications Working Group and the IETF RTCWEB/AVTCORE communities, both of which track issues, publish minutes and coordinate implementation feedback in public repositories (e.g.: w3c/webrtc-pc on GitHub). _x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Web Real-Time Communications Working Group:_x000D_
+https://www.w3.org/groups/wg/webrtc/_x000D_
+_x000D_
+WebRTC Public GitHub: _x000D_
+https://github.com/w3c/webrtc-pc/issues/_x000D_
+_x000D_
+AVTCORE reference:_x000D_
+https://datatracker.ietf.org/wg/avtcore/about/_x000D_
+_x000D_
+RTCWEB reference:_x000D_
+https://datatracker.ietf.org/wg/rtcweb/about/'"""@en ;
+    cav:refersTo camssa:3ba6c8d3-de19-4253-9a19-816dae021168 .
+
+camssa:7ea27580-0235-4ce9-b1a9-32f8f698fc93 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is included in 3 national catalogue of recommended specifications. They belong to The Netherlands, France and Malta. The National Interoperability Framework (NIF) of The Netherlands, France and Malta are aligned with at least 3 out of 4 scoreboards of the EIF Monitoring according to the National Interoperability Framework Observatory (NIFO) factsheets._x000D_
+_x000D_
+The Netherlands NIF:_x000D_
+https://www.forumstandaardisatie.nl/open-standaarden/webrtc_x000D_
+_x000D_
+France NIF:_x000D_
+https://www.numerique.gouv.fr/offre-accompagnement/reference-interoperabilite-rgi/_x000D_
+_x000D_
+Malta NIF:_x000D_
+https://mccaa.org.mt/Section/Content?contentId=1243_x000D_
+_x000D_
+NIFO Factsheets:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/iopeu-monitoring/digital-public-administration-factsheets-2024_x000D_
+_x000D_
+CAMSS List of Standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:14e86e91-d8b4-49e0-83c5-85f8ab316869 .
+
+camssa:898c0297-647e-4019-a853-bf2151b0a06c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:string .
+
+camssa:8ce389c7-2837-4347-8b84-73037881eb2f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is natively implemented in every major browser engine, including Chrome, Firefox, Safari and Edge, and underpins widely used communication products such as Google Meet, Discord and WhatsApp Web, as well as open-source platforms such as Jitsi Meet and BigBlueButton that are actively deployed in European public sector settings. _x000D_
+_x000D_
+Beyond videoconferencing, WebRTC is also used as the underlying real-time transport layer for newer projects that promote AI-driven applications, such as LiveKit, an open-source platform for building real-time audio, video and AI agent applications on top of WebRTC._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+EU Open Source Strategy and Video Sovereignty: _x000D_
+https://www.digitalsamba.com/blog/eu-open-source-strategy-and-video-sovereignty_x000D_
+_x000D_
+LiveKit reference:_x000D_
+https://github.com/livekit/livekit'"""@en ;
+    cav:refersTo camssa:62ee3074-8710-4029-a7c5-ba6b3011c9d1 .
+
+camssa:8e725eba-4eda-44a1-afa4-37554948862c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "80"^^xsd:string .
+
+camssa:8fd82eb6-11a5-4aee-b19b-2fed6ce315e8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC ecosystem is designed to be extended through companion specifications rather than by modifying the core API, for instance WebRTC Encoded Transform (Insertable Streams), which lets applications apply end-to-end encryption or custom processing to encoded media frames, and WebRTC-SVC, which extends the API to support scalable video coding._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+W3C Scalable Video Coding:_x000D_
+https://www.w3.org/TR/webrtc-svc/_x000D_
+_x000D_
+W3C Encoded Transform:_x000D_
+https://www.w3.org/TR/webrtc-encoded-transform/'"""@en ;
+    cav:refersTo camssa:22a14455-82f0-4ef5-af1c-f17d4387cd14 .
+
+camssa:9071acbc-b77d-4f77-bd65-acce2817283c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC defines a standardised set of browser-side JavaScript interfaces, notably RTCPeerConnection, RTCDataChannel and the Media Capture and Streams API, that any web application can call to expose a live communication channel to end users. _x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:ec1aa008-60af-43fe-9c55-376f1c32dd43 .
+
+camssa:95be9b44-fdfd-463d-91ed-f5aaa4757758 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Applications configure WebRTC sessions through an RTCConfiguration object that lets implementers select ICE servers, bundle and RTCP-multiplexing policies, and certificate parameters, and through codec- and encoding-preference APIs (such as setCodecPreferences and sendEncodings) that let an application tailor media quality, bandwidth and codec choice to its specific requirements while remaining within the standard._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:66a2d752-3703-4e8e-aacb-27f77abbf230 .
+
+camssa:9837dbab-36eb-41ba-b285-ec7fd3efd78a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:string .
+
+camssa:9f1325ab-3437-4a92-be29-3419fac919a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC itself does not store anything. It is designed to carry a live call, not to keep a copy of it. However, a real companion specification exists for this purpose: the MediaStream Recording API. This lets an application record a WebRTC audio or video stream directly in the browser and save it as a file. This is also how tools like Jitsi record meetings on the server side. Because of this, WebRTC can support long-term preservation, but only when combined with this separate specification, not on its own._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:20ce6df7-f824-4fe6-8dc4-9eeeb94ad475 .
+
+camssa:9f2215a1-85fe-44d5-826e-03c00a806fb9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"WebRTC-based open-source platforms have been adopted across several Member States' public administrations, most visibly the French DINUM inter-ministerial video-conferencing service and the Spanish government's use of the same technology during the COVID-19 crisis and current EU guidance on video-conferencing sovereignty explicitly recommends WebRTC-based platforms such as Jitsi Meet and BigBlueButton for European public sector deployments._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Jitsi Meet reference:_x000D_
+https://jitsi.org/projects/\""""@en ;
+    cav:refersTo camssa:3d9d7514-528d-461e-a6e0-253c4f0cb667 .
+
+camssa:9f7d4235-5a54-4c82-8423-06dea3007d14 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies'"""@en ;
+    cav:refersTo camssa:3edfbfa9-73b2-42a2-ab23-6fd6e61c518a .
+
+camssa:a06c9f08-7c29-4c46-affa-2c19e923ade0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC deliberately mandates a specific technology stack to guarantee that any two conformant implementations can interoperate securely: DTLS-SRTP is the only permitted encryption mechanism, ICE/STUN/TURN is mandated for connectivity, and a baseline set of audio and video codecs must be supported. This is a considered design trade-off in favour of guaranteed interoperability and security, but it means the specification is not technology-neutral in the strict sense of this criterion._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:610b31f6-56bb-4a43-a166-f30f12da04be .
+
+camssa:a22ff94d-ea01-482f-8d88-6f0ea8a31900 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The efficiency of the WebRTC specification has been assessed by Delft University of Technology, in collaboration with Columbia University. In the "Performance Evaluation of WebRTC-based Video Conferencing" study, the WebRTC specification is tested under different real and emulated network conditions to measure how efficiently its congestion control and codec behaviour use the available bandwidth, identifying the scenarios where performance can still be improved._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Jansen, B., Goodwin, T., Gupta, V., Kuipers, F., Zussman, G. (2018). Performance Evaluation of WebRTC-based Video Conferencing. ACM SIGMETRICS Performance Evaluation Review, 45(3), 56–68: https://doi.org/10.1145/3199524.3199534'"""@en ;
+    cav:refersTo camssa:b9164e5a-ee20-4dd4-8c8c-5b3ea2598ad5 .
+
+camssa:a63d7860-5f50-4d6e-8258-b0744317758d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification does not directly describe or expose administrative procedures, rules or services on its own. Therefore this criterion is not applicable to this specification._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:5730b304-3f89-4323-8909-ec728cf522ef .
+
+camssa:ab0af6d0-2da9-46d9-957d-caf9891911db a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC bundles a number of largely independent capabilities, namely media capture (getUserMedia), peer connection negotiation (RTCPeerConnection), and generic data exchange (RTCDataChannel), each of which can be adopted on its own. An application that only needs a text or file-transfer channel can implement RTCDataChannel without audio/video support, while a voice-only application can omit video entirely, so implementers routinely support functional subsets rather than the whole API surface._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:40b6147d-2a53-43d7-b982-d4a982a4e5ff .
+
+camssa:ab70d890-dd6e-4043-a576-c9ac7a2d27cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "80"^^xsd:string .
+
+camssa:abedf49e-0e31-49e9-8611-968f61b5d84c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ad25b2c4-c69a-4ed4-91e2-6c34c381be56 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:string .
+
+camssa:aefbfae2-eda2-4365-829e-c54ebdf93298 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"WebRTC reached W3C Recommendation status on 26 January 2021, replacing proprietary browser plug-ins as the standard for real-time audio, video and data exchange on the web. It is recognised at EU level through its inclusion in the European Commission's Rolling Plan for ICT Standardisation, under the collection on Emergency Communication and Public Warning Systems._x000D_
+_x000D_
+The latest minor release is the amended Recommendation of 8 October 2024, which addresses errata and corrections gathered through public review, keeping the specification aligned with companion specifications such as Media Capture and Streams._x000D_
+_x000D_
+The most recent major release is the original WebRTC 1.0 Recommendation of 13th march 2025, which set the core interoperable baseline: RTCPeerConnection for peer connections, getUserMedia for media capture, and RTCDataChannel for data exchange, all secured by mandatory DTLS-SRTP encryption._x000D_
+_x000D_
+IETF: _x000D_
+https://www.ietf.org_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC 1.0 is a W3C Recommendation (2021):_x000D_
+https://www.w3.org/News/Public/pnews-20210201_x000D_
+_x000D_
+Related RFCs reference:_x000D_
+https://webrtcforthecurious.com/docs/13-reference/\""""@en ;
+    cav:refersTo camssa:0b2a0e34-89d5-46ee-a8a9-7e65370ec572 .
+
+camssa:b6801527-3cb2-4e72-b600-ec2fa4f1db86 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The effectiveness of WebRTC specification has been assessed by Universidad Rey Juan Carlos, in collaboration with the Institute of Information Science and Technologies (CNR, Italy) In the "Understanding and estimating quality of experience in WebRTC applications" study, the WebRTC specification is evaluated to determine how well it delivers a good real-time communication experience to end users, by identifying and validating measurable factors that estimate the actual quality of experience perceived during a call._x000D_
+_x000D_
+Furthermore, the effectiveness of the WebRTC specification has been assessed by Mahmoud, H. and Abozariba, R. In the "A systematic review on WebRTC for potential applications and challenges beyond audio video streaming" study, the WebRTC specification is reviewed across 83 studies to determine how effectively it reaches its intended purpose in domains beyond video calling, such as healthcare, gaming, telecommunications and manufacturing, confirming its reliability as a real-time communication standard across varied use cases._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+García, B., Gallego, M., Gortázar, F., Bertolino, A. (2019). Understanding and estimating quality of experience in WebRTC applications. Computing, 101(11), 1585–1607: https://doi.org/10.1007/s00607-018-0669-7_x000D_
+_x000D_
+Mahmoud, H. & Abozariba, R. (2025). A systematic review on WebRTC for potential applications and challenges beyond audio video streaming. Multimedia Tools and Applications, 84, 2909–2946: https://doi.org/10.1007/s11042-024-20448-9'"""@en ;
+    cav:refersTo camssa:74d75de7-6630-483e-a5c4-1c5bcfdb1705 .
+
+camssa:b702075d-ca7b-4eec-ba3f-0393304ec485 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:string .
+
+camssa:b9164e5a-ee20-4dd4-8c8c-5b3ea2598ad5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:string .
+
+camssa:bb67f776-ac90-41ec-a9d1-b566f74a5e97 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:string .
+
+camssa:bd3c12a7-35a0-45d1-a4d2-1959f61e0b95 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100"^^xsd:string .
+
+camssa:c25dbdbb-f72f-40a7-9955-d529ec3c1155 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:string .
+
+camssa:c6f62799-103e-4cf2-909d-963ff8053e44 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:string .
+
+camssa:c9472252-00b3-4ba8-bc2c-91eb1eb54e4a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:string .
+
+camssa:c952fb99-599b-45f9-89ff-6833defe462e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Before a WebRTC call starts, both sides check a digital certificate to confirm they are really talking to each other and not to an impostor. WebRTC also allows an optional extra step where each person's real identity can be verified, giving applications a stronger way to confirm who is on the call when needed._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827\""""@en ;
+    cav:refersTo camssa:fde6c868-8b91-498f-9b47-56970a352a6e .
+
+camssa:d1a3bdaf-ca47-49db-83bc-2caeb344cd54 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'RFC 8827 makes encryption mandatory for every WebRTC media and data channel: implementations must not negotiate, or accept, cipher suites with null encryption, unencrypted RTP is explicitly forbidden, and DTLS-SRTP must be offered for every media channel. This means confidentiality is not an optional add-on but a mandatory-to-implement property of any conformant WebRTC session._x000D_
+_x000D_
+From a business perspective, this removes the need for organisations to build or procure separate encryption layers to protect sensitive communications, lowering implementation cost and compliance risk._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+RFC 8827 WebRTC Security Architecture:_x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:bb67f776-ac90-41ec-a9d1-b566f74a5e97 .
+
+camssa:d2c50c1f-3645-409e-9d30-215dcb3fa16e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is defined as a set of Web IDL / ECMAScript interfaces that any conformant browser engine can implement, independently of the underlying operating system. It runs natively on Windows, macOS, Linux, Android and iOS across Chrome, Firefox, Safari and Edge, and native (non-browser) implementations of the same protocol stack exist for mobile and embedded platforms._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Supported platforms reference:_x000D_
+https://webrtc.org/'"""@en ;
+    cav:refersTo camssa:c9472252-00b3-4ba8-bc2c-91eb1eb54e4a .
+
+camssa:d3b36f92-d3ea-46fb-a2ac-84d165be275f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including this specification.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC'"""@en ;
+    cav:refersTo camssa:abedf49e-0e31-49e9-8611-968f61b5d84c .
+
+camssa:d4ceba34-7ed7-47c8-b5fc-489738ec5d13 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is a live-session protocol suite. Even so, all the descriptive data it produces and consumes, such as_x000D_
+the Session Description Protocol (SDP) offers/answers and the JSON-based statistics exposed through_x000D_
+getStats(), are text-based, structured and machine-readable and the specification places no restriction on_x000D_
+republishing this data openly. WebRTC is published on the Internet Engineering Task Force (IETF) under_x000D_
+royalty-free, open licences, which allows any implementer to build fully open, standards-based real-time_x000D_
+applications without proprietary dependencies._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+IETF. RFC 8825 – Overview: Real-Time Protocols for Browser-Based Applications: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8825'"""@en ;
+    cav:refersTo camssa:4b3da90f-67b3-490c-abc2-17d172858524 .
+
+camssa:d8fab633-a8a5-4af6-b9e3-d2742a96785e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a16c678a586cf542d2ae1d6cd8a987bd6ed0b2af52ba0e04d8872fe616a9b7bd ;
+    cav:value "100"^^xsd:string .
+
+camssa:df34680b-9ab0-4b74-a66c-4fc3c8c639b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC mandates a common, testable baseline of security, codec support and signalling-independent connectivity, organisations negotiating a Service Level Agreement for a real-time communication service can rely on these mandatory elements as a technical common ground. Every conformant browser implements the same connection, encryption and codec rules. The specification does not, however, define legal, contractual or governance elements of such agreements, which remain outside its scope._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:79bc21e0-9fd4-4c38-8254-e2f0d49b0aac .
+
+camssa:e10503ef-4da8-4d13-ad7b-c08fd0b486f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'RTCDataChannel is the WebRTC component that establishes a bidirectional channel for exchanging arbitrary application data (text or binary) directly between two peers, alongside or independently of audio/video streams._x000D_
+This component provides a standardised, SCTP-based mechanism for exchanging arbitrary application data directly between any two WebRTC-conformant systems, independent of vendor, browser or platform. Because every major browser implements the same negotiation and transport rules, data generated in one implementation can be consumed by any other conformant application without proprietary adapters._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:52dc27b2-5ef7-417e-87bc-72eed788c2a5 .
+
+camssa:e8dd9029-c8a8-4c24-a3d7-aedf89955022 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is included in the European Commission's Rolling Plan for ICT Standardisation, as it is covered within the collection on Emergency Communication and Public Warning Systems, published on the Interoperable Europe Portal._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Rolling Plan for ICT Standardisation – Emergency Communication and Public Warning Systems" reference: https://interoperable-europe.ec.europa.eu/collection/rolling-plan-ict-standardisation/emergency-communications-and-public-warning-systems-rp-2026'"""@en ;
+    cav:refersTo camssa:61b21018-8777-4194-b5c1-7948107bcd15 .
+
+camssa:e99e8608-6cc6-4ffa-b152-b232e0193e7f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"By allowing live, face-to-face-style interaction to take place directly in a standard web browser, without downloads, plug-ins or account creation, WebRTC removes a significant practical barrier to remote service delivery. France's DINUM and the Spanish government have both used WebRTC-based platforms to replace in-person meetings and press interactions with equivalent remote sessions, directly simplifying access for citizens and staff alike._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Open-source videoconferences, Interoperable Europe Portal: _x000D_
+https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/open-source-videoconferences\""""@en ;
+    cav:refersTo camssa:ad25b2c4-c69a-4ed4-91e2-6c34c381be56 .
+
+camssa:ec1aa008-60af-43fe-9c55-376f1c32dd43 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:string .
+
+camssa:f0a02a9e-7343-47ee-92e0-c51378e01e74 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is already associated to an EIRA ABB in the EIRA Library of Interoperability Specifications (ELIS). More specifically, WebRTC can define the interoperability aspects of the "Data Extraction Transformation and Loading" ABB of the EIRA Technical view - application._x000D_
+_x000D_
+EIRA Library of Interoperability Specifications (ELIS):_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/700_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:898c0297-647e-4019-a853-bf2151b0a06c .
+
+camssa:f6fd02b2-ae65-4b63-b98f-5c8a01f6d8f8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"WebRTC's security architecture mandates explicit, informed user consent before any camera or microphone access is granted and requires implementations to minimise the exposure of a user's local IP address during connectivity establishment. These are all substantive data-protection measures built into the standard itself, although the specification text does not cite specific legal frameworks such as the GDPR by name, since W3C specifications are technology standards rather than legal instruments._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/\""""@en ;
+    cav:refersTo camssa:8e725eba-4eda-44a1-afa4-37554948862c .
+
+camssa:fa92f61c-a42d-41bf-9d0c-a90312bfbabc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is included in 3 national catalogues of recommended specifications. They belong to The Netherlands, France and Malta._x000D_
+_x000D_
+The Netherlands NIF:_x000D_
+https://www.forumstandaardisatie.nl/open-standaarden/webrtc_x000D_
+_x000D_
+France NIF:_x000D_
+https://www.numerique.gouv.fr/offre-accompagnement/reference-interoperabilite-rgi/_x000D_
+_x000D_
+Malta NIF:_x000D_
+https://mccaa.org.mt/Section/Content?contentId=1243_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:348ee286-93b5-40b5-9b6f-947f15a07aa6 .
+
+camssa:fb54806a-2b45-41d1-90b3-79842b437653 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Text carried through WebRTC, such as track labels, statistics identifiers or data-channel payloads, can use any Unicode/UTF-8 content, so nothing in the specification prevents multilingual use. However, unlike a document-exchange format such as UBL, WebRTC is a media- and data-transport specification and does not itself define language tags, localisation structures or any dedicated mechanism to manage multilingual content; that responsibility rests entirely with the application built on top of it._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:ab70d890-dd6e-4043-a576-c9ac7a2d27cf .
+
+camssa:fd782287-3297-4f11-8825-a44d5798cb42 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:fde6c868-8b91-498f-9b47-56970a352a6e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:string .
 
 
 
