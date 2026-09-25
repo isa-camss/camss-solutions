@@ -2562,6 +2562,10 @@ elis:da797ea9-9516-49d1-a30e-a5bb874dcfc6 a dcat:CatalogRecord ;
     dct:title "CEN Workshop Agreement (CWA)"@en ;
     foaf:primaryTopic cssvrsc:71e1d2e261388c5c3b9ed4d17b6474d5f0cf1062b5c8a9fd413b76b77dc43a91 .
 
+elis:1ca5ac18-dc34-440e-8c9f-b412b57209b0 a dcat:CatalogRecord;
+    dct:title "Service Component Architecture Assembly Model Specification";
+    foaf:primaryTopic  cssvrsc:e2fba20dc5c22ec9417f2c1e12e3eaef812226c725a579bef29116b6546d7b79 .
+
 elis:daa8c562-452e-49da-8645-3b359303a497 a dcat:CatalogRecord ;
     dct:title "Web Services Description Language (WSDL)"@en ;
     foaf:primaryTopic cssvrsc:df23408dc85e78d7b35b0c0528e9f46c23005f6cb081727136a5b6523e3eb86d .
@@ -8211,6 +8215,11 @@ cssvrsc:d0f61c4a647769d002e55af97c8233bbb86a514cba0fd04aa2a00f430f31ad59 a cssv:
             dct:relation eira:RegistrationApplicationService ],
         [ dct:description "The OASIS ebXML Messaging Protocol Binding for RegRep is a messaging protocol binding that complements the existing protocol bindings specified in ebXML RegRep Registry Services."@en ;
             dct:relation eira:DataExchangeApplicationComponent ] ;
+    dcat:theme "Technology Architecture"@en .
+
+cssvrsc:e2fba20dc5c22ec9417f2c1e12e3eaef812226c725a579bef29116b6546d7b79 a cssv:Specification ;
+    dct:relation [ dct:description "SCA's Assembly Model defines how individual service components are declared, wired together through services and references, and configured within a composite, independently of the technology that implements them."@en ;
+            dct:relation eira:DataIntegrationPluginsManagerApplicationService ] ;
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:d13b00508474ac53815d9b6faab303cb42aaae9546ff64c443fb9f2040c233bd a cssv:Specification ;
