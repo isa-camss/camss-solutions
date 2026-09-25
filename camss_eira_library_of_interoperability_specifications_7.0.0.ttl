@@ -5947,12 +5947,18 @@ cssvrsc:72e4dd491ecc447eeea1bb8dc297ae0370a8a2eeb91aff19020fa174db2b40ac a cssv:
 cssvrsc:73b2af6cb530611b74e4ec3ee7fa1e11b45bf7512db6bbf5823bf45e78165696 a cssv:Specification ;
     dct:relation [ dct:description "CloudEvents v1.0.2 is a versioned update of CloudEvents ensuring the standardisation of the representation of event data for consistent and interoperable communication across systems."@en ;
             dct:relation eira:DataFormatDataObject ],
-        [ dct:description "The CloudEvents specification aims to make data more understandable for users and organisations. By using a common format, the specification enables efficient data sharing, which can help public administrations communicate more effectively."@en ;
+                [ dct:description "The CloudEvents specification aims to make data more understandable for users and organisations. By using a common format, the specification enables efficient data sharing, which can help public administrations communicate more effectively."@en ;
             dct:relation eira:SemanticInteroperabilityAgreementContract ],
-        [ dct:description "The CloudEvents specification aims to enhance interoperability between organisations by defining a common format for describing data. In this context, a standardised format simplifies data exchange between organisations and public administrations, fostering more effective communication."@en ;
-            dct:relation eira:SemanticAgreementContract ] ;
-    dcat:theme "Data Architecture"@en,
-        "Implementation Governance"@en .
+                [ dct:description "The CloudEvents specification aims to enhance interoperability between organisations by defining a common format for describing data. In this context, a standardised format simplifies data exchange between organisations and public administrations, fostering more effective communication."@en ;
+            dct:relation eira:SemanticAgreementContract ],
+                [ dct:description "CloudEvents gives every event a common, simple structure describing what happened, where it came from and when. This makes it a good fit for coordinating serverless functions, which are triggered and run independently in response to events like these."@en ;
+            dct:relation eira:ServerlessOrchestratorTechnologyService ],
+                [ dct:description "CloudEvents ensures that each event consistently records who triggered it, when, and what kind of action took place. This supports the collection of audit events, such as logins or administrative changes, in a reliable and comparable way for compliance purposes."@en ;
+            dct:relation eira:AuditEventCollectionTechnologyService ],
+                [ dct:description "CloudEvents allows alerts from different monitoring tools to be described in the same way. This makes it easier to generate and route notifications consistently, based on severity and escalation rules, across an organisation."@en ;
+            dct:relation eira:AlertingNotificationServiceTechnologyService ] ;
+                dcat:theme "Data Architecture"@en, "Technology Architecture"@en,
+                    "Implementation Governance"@en .
 
 cssvrsc:73b7782e8c0a77d8020d17b1ac45638bb6b383b8d17a195d980ef37eae9d7737 a cssv:Specification ;
     dct:relation [ dct:description "The Guidance on eDelivery Digital Certificates specification covers the X.509 (v3.0.0) certificate used by Domibus for signing and AS4 encryption and those installed on the SMP servers and used by SML to authenticate and authorise these servers."@en ;
