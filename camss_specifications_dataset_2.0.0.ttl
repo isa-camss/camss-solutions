@@ -10543,6 +10543,21 @@ cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe a cssv:
     dcat:distribution cssvrsc:49749a9d-53d7-40c9-bb9c-a2865deadbcf ;
     dcat:version "1.0.0" .
 
+
+cssvrsc:438492653f1c958c0cb501a1924b0e215ca28a4a44e6620870e7f23eba760282 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "CWL"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:9c8998ec0c492acc3d972755bf19726d721e6d21bf35dd7faf219b77095d471f ;
+    dct:description "The Common Workflow Language is an open standard for describing command line tools and connecting them into data analysis workflows, so that the same workflow definition can run unchanged on a laptop, a cluster, or a cloud and HPC environment."@en ;
+    dct:title "Common Workflow Language"@en ;
+    dcat:distribution cssvrsc:c0c5abf4-8100-4f91-bf29-dda1adaba44b ;
+    dcat:version "1.2.1" .
+
+cssvrsc:c0c5abf4-8100-4f91-bf29-dda1adaba44b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.commonwl.org/v1.2/> .
+
 cssvrsc:49749a9d-53d7-40c9-bb9c-a2865deadbcf a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.w3.org/TR/vc-bitstring-status-list/> .
@@ -10606,6 +10621,12 @@ schema:email a owl:AnnotationProperty .
 cssvrsc:0068f050-f43c-421f-81f3-669d85a707ba a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <http://www.hozo.jp/onto_library/upperOnto.htm> .
+
+cssvrsc:9c8998ec0c492acc3d972755bf19726d721e6d21bf35dd7faf219b77095d471f a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "Common Workflow Language project"@en ;
+    skos:prefLabel "Common Workflow Language project"@en ;
+    foaf:homepage <https://www.commonwl.org/> .
 
 cssvrsc:0071ac7f-8294-4f24-bb7b-cadfc5f3080b a owl:NamedIndividual,
         dcat:Distribution ;

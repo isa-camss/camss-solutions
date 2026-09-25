@@ -1690,6 +1690,10 @@ elis:822be2fd-1655-4853-98a8-bf57e0dbfd30 a dcat:CatalogRecord ;
     dct:title "Open Cloud Computing Interface (OCCI)"@en ;
     foaf:primaryTopic cssvrsc:77feb710f414d7cb9707280fcdbe2e238ed91e910808ee83e5612c9777c71921 .
 
+elis:40ca8c49-0851-43ac-9538-ce0f15a25295 a dcat:CatalogRecord;
+        dct:title "Common Workflow Language";
+        foaf:primaryTopic  cssvrsc:438492653f1c958c0cb501a1924b0e215ca28a4a44e6620870e7f23eba760282 .  
+
 elis:8256beca-5e4c-4642-bf21-3ac601bad5a7 a dcat:CatalogRecord ;
     dct:title "ISO/IEC 38505-1: Information technology - Governance of IT - Part 1: Application of ISO/IEC 38500 to the governance of data"@en ;
     foaf:primaryTopic cssvrsc:40954dff2643527f34e6cee6d084d929c87aba030a5a9758367f603467f82c76 .
@@ -6095,6 +6099,11 @@ cssvrsc:7b572228fd139d6e4a270b0da87a1697c30df3e70a8d2e74311214200525d46d a cssv:
     dct:relation [ dct:description "The decission from the European Comission is adressed to Comission departments owning, procuring, managing or operating communication and information systems (CISs)."@en ;
             dct:relation eira:EuropeanLegalActRequirement ] ;
     dcat:theme "Business Architecture"@en .
+
+cssvrsc:7b572228fd139d6e4a270b0da87a1697c30df3e70a8d2e74311214200525d46d a cssv:Specification ;
+        dct:relation [ dct:description "CWL is mainly designed to describe command line tools and connect them into repeatable workflows, rather than to move or integrate data between systems directly. Even so, data analysis is one of its core use cases, which gives it a practical link to data integration scenarios."@en ;
+            dct:relation eira:DataIntegrationApplicationService ] ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:7bb9561fdc649c2b43a5b95d6ae3aaa54b2fcdcd45404630ec3c3cdc5a74b507 a cssv:Specification ;
     dct:relation [ dct:description "The EU-SEC specification is designed to offers a sot of tools that allow for a better efficiency and effectveness of security governance. In this sense, the specification enables a set of tools to improve some aspects related to data, such as risk management."@en ;
