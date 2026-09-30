@@ -9659,7 +9659,7 @@ cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe a cssv:
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:f555d12d5ecdcba4e69ca65d7c69a83db7647d19b3de0b87ad52e406917dafb0 a cssv:Specification ;
-    dct:relation [ dct:description "TOSCA provides a portable, vendor-neutral model to describe application components, their relationships and deployment dependencies. This allows the same service template to be deployed and configured consistently across different operational environments, such as development, testing, staging and production, while orchestrators automate the lifecycle management of each environment."@en ;
+    dct:relation [ dct:description "TOSCA describes an application's components, relationships and deployment dependencies in a portable service template, allowing the same topology to be deployed and configured consistently across development, testing, staging and production environments."@en ;
             dct:relation eira:EnvironmentManagementTechnologyService ] ;
     dcat:theme "Technology Architecture"@en .
 
@@ -9669,7 +9669,7 @@ elis:59da9118-6640-4805-ac86-65bbec7ff837
         foaf:primaryTopic  cssvrsc:f555d12d5ecdcba4e69ca65d7c69a83db7647d19b3de0b87ad52e406917dafb0 .
 
 cssvrsc:40756df1e5e040ff1db8dd84592f27410895f7f07713377da949551d0e4eceb7 a cssv:Specification ;
-    dct:relation [ dct:description "PKCS #11 is a standard, vendor-neutral interface to create, store, use and manage cryptographic keys held in hardware security modules and other secure devices. This allows different systems and key management solutions to work with the same devices in a consistent and interoperable way, keeping keys protected throughout their lifecycle."@en ;
+    dct:relation [ dct:description "PKCS #11 defines a vendor-neutral interface to hardware security modules and cryptographic tokens, allowing keys to be generated, stored, used and destroyed under controlled access without ever leaving the protected device."@en ;
             dct:relation eira:SecretsAndKeyManagementTechnologyService ] ;
     dcat:theme "Technology Architecture"@en .
     
