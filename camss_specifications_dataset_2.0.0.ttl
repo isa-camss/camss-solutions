@@ -2300,10 +2300,10 @@ cssvrsc:327c67acb2fdfe18fe292586ee0d282e25e00dbec3a8a20923b6ef14c05c074e a cssv:
 cssvrsc:32d8400ca81c4e4c438a4ad650c5c258a763671a7277f8832e0adc98d72ef294 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
-    cssv:alternative "IEEE P3652.1"@en ;
+    cssv:alternative "IEEE 3652.1"@en ;
     cssv:isMaintainedBy cssvrsc:3c1250b675a3e22cc3555ea1c94489048376f76e7af7ac7c649ad868cbdb5259 ;
-    dct:description "The IEEE P3652.1 specification defines a machine learning framework that allows a collective model to be constructed from data that is distributed across repositories owned by different organizations or devices. It defines a machine learning framework that allows a collective model to be constructed from data that is distributed across data owners."@en ;
-    dct:title "IEEE P3652.1, Guide for Architectural Framework and Application of Federated Machine Learning"@en ;
+    dct:description "The IEEE 3652.1 specification defines a machine learning framework that allows a collective model to be constructed from data that is distributed across repositories owned by different organizations or devices. It defines a machine learning framework that allows a collective model to be constructed from data that is distributed across data owners."@en ;
+    dct:title "IEEE 3652.1, Guide for Architectural Framework and Application of Federated Machine Learning"@en ;
     dcat:distribution cssvrsc:b4fa8f22-4194-4401-b140-7387c8362ebc ;
     dcat:version "1.0.0" .
 
@@ -2929,6 +2929,26 @@ cssvrsc:3cf37deed7227e09410700f709cf5b0d23c424437e200878f99264d420a135d6 a cssv:
     dct:title "OSLC Tracked Resource Set Version 3.0"@en ;
     dcat:distribution cssvrsc:ff70e5cf-7491-41ee-b971-0b7b46df2f8e ;
     dcat:version "3.0.0" .
+
+cssvrsc:720fe6bed5f9283dffb49f2576c58b51ca756fd5ba52bb011ee760fe5af2eb2b a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "OVAL"@en ;
+    cssv:alternative "Open Vulnerability Assessment Language"@en ;
+    cssv:isMaintainedBy cssvrsc:7a653b0de5feb891dde62861e6859d6f5816a3319f67f736aee9d244bea8ba9e ;
+    dct:description "OVAL is an information security community effort to standardize how to assess and report upon the machine state of computer systems. OVAL includes a language to encode system details, and an assortment of content repositories held throughout the community."@en ;
+    dct:title "Open Vulnerability and Assessment Language (OVAL)"@en ;
+    dcat:distribution cssvrsc:84f96ed9-9975-42d6-9034-d0db27d7c98d ;
+    dcat:version "5.12.2" .
+
+cssvrsc:7a653b0de5feb891dde62861e6859d6f5816a3319f67f736aee9d244bea8ba9e a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "Naval Information Warfare Center Atlantic"@en ;
+    skos:prefLabel "NIWC Atlantic"@en ;
+    foaf:homepage <https://www.niwcatlantic.navy.mil/> .
+
+cssvrsc:84f96ed9-9975-42d6-9034-d0db27d7c98d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://oval-community-guidelines.readthedocs.io/en/v5.12.2/> .
 
 cssvrsc:3d85f2c2d49effc22e709d81664f8ca99e5a6eada7a895a241062889680a5196 a cssv:Specification,
         owl:NamedIndividual ;
@@ -7809,6 +7829,20 @@ cssvrsc:c2763403c7bb0d8a33dcf2ff6395747d6597322c9ed74fc9a72d2369dd4b0bcc a cssv:
              foaf:page <https://docs.peppol.eu/poacc/billing/3.0/>
         ] .
 
+cssvrsc:40756df1e5e040ff1db8dd84592f27410895f7f07713377da949551d0e4eceb7 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "PKCS"@en ;
+    cssv:alternative "Cryptoki"@en ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:description "PKCS #11 defines a platform-independent application programming interface for devices that hold cryptographic information and perform cryptographic functions, such as hardware security modules and smart cards. It specifies the data types, functions and mechanisms that applications use to create, store, manage and use cryptographic keys and objects on these devices."@en ;
+    dct:title "PKCS #11"@en ;
+    dcat:distribution cssvrsc:c749770d-f946-4085-963e-9509aef46c90 ;
+    dcat:version "3.2.0" .
+
+cssvrsc:c749770d-f946-4085-963e-9509aef46c90 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://docs.oasis-open.org/pkcs11/pkcs11-spec/v3.2/pkcs11-spec-v3.2.html> .
+
 cssvrsc:c2835b4bd225a222097f1a15b749419e91025408327b8b4acabeaa458f4e9f26 a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
@@ -8074,6 +8108,20 @@ cssvrsc:c9a3e46ac31f74d761f952aef8f0cfe601c53c2207a5538e8a10ded5825cec27 a cssv:
     dcat:distribution cssvrsc:216d8cea-87a3-466f-b024-64fde0b738a7 ;
     dcat:version "3.0.2" .
 
+cssvrsc:3b2474537eff381c715cc11ce9a2d1aa9312e5702d7fbfd2ab47a20f5f25802e a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "SLSA"@en ;
+    cssv:alternative "salsa"@en ;
+    cssv:isMaintainedBy cssvrsc:3ccd5eb4c630bce8cc7e1adee15bd015260a39fda75e5abb4a6ac2c6bb76119f ;
+    dct:description "SLSA is a set of incrementally adoptable guidelines for supply chain security, established by industry consensus. The specification set by SLSA is useful for both software producers and consumers: producers can follow SLSA’s guidelines to make their software supply chain more secure, and consumers can use SLSA to make decisions about whether to trust a software package."@en ;
+    dct:title "Supply-chain Levels for Software Artifacts (SLSA)"@en ;
+    dcat:distribution cssvrsc:92e0cd31-da55-40bb-a34e-8231ee53815b ;
+    dcat:version "1.2.0" .
+
+cssvrsc:92e0cd31-da55-40bb-a34e-8231ee53815b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://slsa.dev/spec/v1.2/> .
+
 cssvrsc:caa48956f697a918c2a7aadba6b89e778404c60ed350fa795eb4df40875d2777 a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "DPV-PD"@en ;
@@ -8123,6 +8171,31 @@ cssvrsc:cdf4cfc4a0023b448b0ea2ed459d29df14076a7bd192a9b69078af337c6d6b23 a cssv:
     dct:title "OASIS Topology and Orchestration Specification for Cloud Applications (TOSCA)"@en ;
     dcat:distribution cssvrsc:86383ad9-4487-4911-838e-cfc2f23868aa ;
     dcat:version "1.3.0" .
+
+cssvrsc:f555d12d5ecdcba4e69ca65d7c69a83db7647d19b3de0b87ad52e406917dafb0 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "TOSCA"@en ;
+    cssv:alternative "TOSCA"@en ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:description "TOSCA is an OASIS standard language for describing application, infrastructure and network services as a topology of components and relationships, and for specifying the processes that manage their full lifecycle."@en ;
+    dct:title "OASIS Topology and Orchestration Specification for Cloud Applications (TOSCA)"@en ;
+    dcat:distribution cssvrsc:5e73f034-7bcb-490f-b31e-86dfd7e25e6b ;
+    dcat:previousVersion cssvrsc:cdf4cfc4a0023b448b0ea2ed459d29df14076a7bd192a9b69078af337c6d6b23 ;
+    dcat:version "2.0.0" .
+
+cssvrsc:5e73f034-7bcb-490f-b31e-86dfd7e25e6b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://docs.oasis-open.org/tosca/TOSCA/v2.0/os/TOSCA-v2.0-os.html> .
+
+cssvrsc:e2fba20dc5c22ec9417f2c1e12e3eaef812226c725a579bef29116b6546d7b79 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "SCA"@en ;
+    cssv:alternative "SCA Assembly Model"@en ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:description "The SCA Assembly Model defines how applications can be built as compositions of reusable, loosely coupled service components, specifying how those components, their services and references are assembled, configured and managed consistently across different underlying technologies."@en ;
+    dct:title "Service Component Architecture Assembly Model Specification"@en ;
+    dcat:distribution cssvrsc:e382e5a1-040d-47a0-8de9-5b9bb6fa798a ;
+    dcat:version "1.1" .
 
 cssvrsc:cf607476dd87aa844e3c2a62d978d810afd936f4afd580dd3eeb97979fad9b1b a cssv:Specification,
         owl:NamedIndividual ;
@@ -10543,6 +10616,21 @@ cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe a cssv:
     dcat:distribution cssvrsc:49749a9d-53d7-40c9-bb9c-a2865deadbcf ;
     dcat:version "1.0.0" .
 
+
+cssvrsc:438492653f1c958c0cb501a1924b0e215ca28a4a44e6620870e7f23eba760282 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "CWL"@en ;
+    cssv:alternative ""@en ;
+    cssv:isMaintainedBy cssvrsc:9c8998ec0c492acc3d972755bf19726d721e6d21bf35dd7faf219b77095d471f ;
+    dct:description "The Common Workflow Language is an open standard for describing command line tools and connecting them into data analysis workflows, so that the same workflow definition can run unchanged on a laptop, a cluster, or a cloud and HPC environment."@en ;
+    dct:title "Common Workflow Language"@en ;
+    dcat:distribution cssvrsc:c0c5abf4-8100-4f91-bf29-dda1adaba44b ;
+    dcat:version "1.2.1" .
+
+cssvrsc:c0c5abf4-8100-4f91-bf29-dda1adaba44b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://www.commonwl.org/v1.2/> .
+
 cssvrsc:49749a9d-53d7-40c9-bb9c-a2865deadbcf a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.w3.org/TR/vc-bitstring-status-list/> .
@@ -10606,6 +10694,12 @@ schema:email a owl:AnnotationProperty .
 cssvrsc:0068f050-f43c-421f-81f3-669d85a707ba a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <http://www.hozo.jp/onto_library/upperOnto.htm> .
+
+cssvrsc:9c8998ec0c492acc3d972755bf19726d721e6d21bf35dd7faf219b77095d471f a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "Common Workflow Language project"@en ;
+    skos:prefLabel "Common Workflow Language project"@en ;
+    foaf:homepage <https://www.commonwl.org/> .
 
 cssvrsc:0071ac7f-8294-4f24-bb7b-cadfc5f3080b a owl:NamedIndividual,
         dcat:Distribution ;
@@ -12665,6 +12759,10 @@ cssvrsc:9125b309-6530-44dc-8823-529662bb722e a owl:NamedIndividual,
         dcat:Distribution ;
     dcat:accessURL <https://www.iso.org/standard/87471.html> ;
     dcat:downloadURL <https://www.iso.org/standard/87471.html> .
+
+cssvrsc:e382e5a1-040d-47a0-8de9-5b9bb6fa798a a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <http://docs.oasis-open.org/opencsa/sca-assembly/sca-assembly-1.1-spec.pdf> .
 
 cssvrsc:913074a8-f592-4d90-a2bb-17316f6c9d2f a owl:NamedIndividual,
         dcat:Distribution ;
