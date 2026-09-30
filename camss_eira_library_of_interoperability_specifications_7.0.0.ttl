@@ -6663,6 +6663,11 @@ cssvrsc:921d8e57de77fca8f754a5ffecfa81a553b655d9f408c8630821ddd83eb4b6b0 a cssv:
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en .
 
+cssvrsc:720fe6bed5f9283dffb49f2576c58b51ca756fd5ba52bb011ee760fe5af2eb2b a cssv:Specification ;
+    dct:relation [ dct:description "OVAL supports a standardised language to describe how to check computer systems for known vulnerabilities and configuration issues, and how to report the results. This allows scanning tools to apply the same vulnerability definitions consistently across systems, both before deployment and during operation."@en ;
+            dct:relation eira:VulnerabilityScanningTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+
 cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b a cssv:Specification ;
     dct:relation [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
@@ -9653,9 +9658,15 @@ cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe a cssv:
             dct:relation eira:CredentialRevocationApplicationComponent ] ;
     dcat:theme "Technology Architecture"@en .
 
+cssvrsc:f555d12d5ecdcba4e69ca65d7c69a83db7647d19b3de0b87ad52e406917dafb0 a cssv:Specification ;
+    dct:relation [ dct:description "TOSCA supports the Environment Management Technology Service by providing a portable, vendor-neutral model to describe application components, their relationships and deployment dependencies. This allows the same service template to be deployed and configured consistently across different operational environments, such as development, testing, staging and production, while orchestrators automate the lifecycle management of each environment."@en ;
+            dct:relation eira:EnvironmentManagementTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
 
-
-
+elis:59da9118-6640-4805-ac86-65bbec7ff837
+        a                  dcat:CatalogRecord;
+        dct:title          "OASIS Topology and Orchestration Specification for Cloud Applications (TOSCA)";
+        foaf:primaryTopic  cssvrsc:f555d12d5ecdcba4e69ca65d7c69a83db7647d19b3de0b87ad52e406917dafb0 .
 
 eira:AgendaManagementServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
