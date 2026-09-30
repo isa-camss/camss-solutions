@@ -139176,13 +139176,7 @@ camssa:67e570c64ee9bd05cd58229e9dae7d02a9e4d9a3748dbb6dbde14c91be591b0f a cav:As
     dct:description "CAMSS as a Service (CAMSSaaS) EIF Scenario Content Review of CRVS"@en ;
     dct:title "CAMSSaaS Content Review of CRVS 1.0.0"@en ;
     dcat:version "1.0.0" ;
-    #This points to the general component
-    dcat:distribution camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 ;
-    #this points to the summary components
-    cav:hasSummary camssa:40254c35-0b62-479c-a32e-1672d23e123b ;
-    #this points to the report of the assessmet (questions and justifications)
-    cav:hasReport camssa:40254c35-0b62-479c-a32e-1672d23e124b .
-
+    dcat:distribution camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 .
 
 camssa:075c3bab-6715-48f6-877b-2d5fb09f40ee a cav:Statement,
         owl:NamedIndividual ;

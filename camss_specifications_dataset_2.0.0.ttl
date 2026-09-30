@@ -7829,6 +7829,20 @@ cssvrsc:c2763403c7bb0d8a33dcf2ff6395747d6597322c9ed74fc9a72d2369dd4b0bcc a cssv:
              foaf:page <https://docs.peppol.eu/poacc/billing/3.0/>
         ] .
 
+cssvrsc:40756df1e5e040ff1db8dd84592f27410895f7f07713377da949551d0e4eceb7 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "PKCS"@en ;
+    cssv:alternative "Cryptoki"@en ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:description "PKCS #11 defines a platform-independent application programming interface for devices that hold cryptographic information and perform cryptographic functions, such as hardware security modules and smart cards. It specifies the data types, functions and mechanisms that applications use to create, store, manage and use cryptographic keys and objects on these devices."@en ;
+    dct:title "PKCS #11"@en ;
+    dcat:distribution cssvrsc:c749770d-f946-4085-963e-9509aef46c90 ;
+    dcat:version "3.2.0" .
+
+cssvrsc:c749770d-f946-4085-963e-9509aef46c90 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://docs.oasis-open.org/pkcs11/pkcs11-spec/v3.2/pkcs11-spec-v3.2.html> .
+
 cssvrsc:c2835b4bd225a222097f1a15b749419e91025408327b8b4acabeaa458f4e9f26 a cssv:Specification,
         cssv:Standard,
         owl:NamedIndividual ;
@@ -8093,6 +8107,20 @@ cssvrsc:c9a3e46ac31f74d761f952aef8f0cfe601c53c2207a5538e8a10ded5825cec27 a cssv:
     dct:title "OpenMinTeD Shared Infrastructure for Text and Data Mining (OMTD-SHARE)"@en ;
     dcat:distribution cssvrsc:216d8cea-87a3-466f-b024-64fde0b738a7 ;
     dcat:version "3.0.2" .
+
+cssvrsc:3b2474537eff381c715cc11ce9a2d1aa9312e5702d7fbfd2ab47a20f5f25802e a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "SLSA"@en ;
+    cssv:alternative "salsa"@en ;
+    cssv:isMaintainedBy cssvrsc:3ccd5eb4c630bce8cc7e1adee15bd015260a39fda75e5abb4a6ac2c6bb76119f ;
+    dct:description "SLSA is a set of incrementally adoptable guidelines for supply chain security, established by industry consensus. The specification set by SLSA is useful for both software producers and consumers: producers can follow SLSA’s guidelines to make their software supply chain more secure, and consumers can use SLSA to make decisions about whether to trust a software package."@en ;
+    dct:title "Supply-chain Levels for Software Artifacts (SLSA)"@en ;
+    dcat:distribution cssvrsc:92e0cd31-da55-40bb-a34e-8231ee53815b ;
+    dcat:version "1.2.0" .
+
+cssvrsc:92e0cd31-da55-40bb-a34e-8231ee53815b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://slsa.dev/spec/v1.2/> .
 
 cssvrsc:caa48956f697a918c2a7aadba6b89e778404c60ed350fa795eb4df40875d2777 a cssv:Specification,
         owl:NamedIndividual ;

@@ -9678,6 +9678,16 @@ elis:bd242f63-2348-4a08-8a27-df62971e1163
         dct:title          "PKCS #11 Specification Version 3.2";
         foaf:primaryTopic  cssvrsc:40756df1e5e040ff1db8dd84592f27410895f7f07713377da949551d0e4eceb7 .
 
+cssvrsc:3b2474537eff381c715cc11ce9a2d1aa9312e5702d7fbfd2ab47a20f5f25802e a cssv:Specification ;
+    dct:relation [ dct:description "SLSA defines provenance and verification requirements for software artifacts, allowing each release to be checked for integrity and traced back to its source and build before it is approved, promoted or deployed across environments."@en ;
+            dct:relation eira:ReleaseManagementTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+
+elis:1d920258-dc4e-4992-a902-12239b179c1f
+        a                  dcat:CatalogRecord;
+        dct:title          "Supply-chain Levels for Software Artifacts (SLSA)";
+        foaf:primaryTopic  cssvrsc:3b2474537eff381c715cc11ce9a2d1aa9312e5702d7fbfd2ab47a20f5f25802e .
+
 eira:AgendaManagementServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ContainersOrchestratorTechnologyService eira:concept eira:ArchitectureBuildingBlock .
