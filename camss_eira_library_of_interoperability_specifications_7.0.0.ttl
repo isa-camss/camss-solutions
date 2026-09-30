@@ -9659,7 +9659,7 @@ cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe a cssv:
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:f555d12d5ecdcba4e69ca65d7c69a83db7647d19b3de0b87ad52e406917dafb0 a cssv:Specification ;
-    dct:relation [ dct:description "TOSCA supports the Environment Management Technology Service by providing a portable, vendor-neutral model to describe application components, their relationships and deployment dependencies. This allows the same service template to be deployed and configured consistently across different operational environments, such as development, testing, staging and production, while orchestrators automate the lifecycle management of each environment."@en ;
+    dct:relation [ dct:description "TOSCA provides a portable, vendor-neutral model to describe application components, their relationships and deployment dependencies. This allows the same service template to be deployed and configured consistently across different operational environments, such as development, testing, staging and production, while orchestrators automate the lifecycle management of each environment."@en ;
             dct:relation eira:EnvironmentManagementTechnologyService ] ;
     dcat:theme "Technology Architecture"@en .
 
@@ -9667,6 +9667,16 @@ elis:59da9118-6640-4805-ac86-65bbec7ff837
         a                  dcat:CatalogRecord;
         dct:title          "OASIS Topology and Orchestration Specification for Cloud Applications (TOSCA)";
         foaf:primaryTopic  cssvrsc:f555d12d5ecdcba4e69ca65d7c69a83db7647d19b3de0b87ad52e406917dafb0 .
+
+cssvrsc:40756df1e5e040ff1db8dd84592f27410895f7f07713377da949551d0e4eceb7 a cssv:Specification ;
+    dct:relation [ dct:description "PKCS #11 is a standard, vendor-neutral interface to create, store, use and manage cryptographic keys held in hardware security modules and other secure devices. This allows different systems and key management solutions to work with the same devices in a consistent and interoperable way, keeping keys protected throughout their lifecycle."@en ;
+            dct:relation eira:SecretsAndKeyManagementTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+    
+elis:bd242f63-2348-4a08-8a27-df62971e1163
+        a                  dcat:CatalogRecord;
+        dct:title          "PKCS #11 Specification Version 3.2";
+        foaf:primaryTopic  cssvrsc:40756df1e5e040ff1db8dd84592f27410895f7f07713377da949551d0e4eceb7 .
 
 eira:AgendaManagementServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
