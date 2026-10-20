@@ -137414,7 +137414,1594 @@ camssa:febd33f1-3a49-4a5b-a1e3-3f58ed245b8a a cav:Score,
     cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
     cav:value "100"^^xsd:string .
 
+camssa:6d0539016e448fbebad3f4ec908e035248c682740fdaa325509bd4c3965afd4a a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:assesses cssvrsc:5873e78303cf81c2b9a93061b0e64063a70a81c294154b325d95eb12c14c26bd ;
+    cav:considers camssa:0918e90c-98b2-4205-8e68-cb70599de089 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317  ;
+    cav:resultsIn camssa:02466d75-09c2-4b66-a367-3ef2482d4153,
+        camssa:0569451e-dea9-4cdd-b6c6-564bcd12cd6e,
+        camssa:06c85905-b883-4a31-96d7-b4e47d077d30,
+        camssa:12fe4884-585e-4930-b0a8-89574812c0d3,
+        camssa:17e2b9c0-d3c6-473b-a076-91dade1eac04,
+        camssa:19d8da90-7224-46a2-a308-542a78ff6ac2,
+        camssa:22da7932-31b9-4ffc-8d8d-274e075c366a,
+        camssa:26f106a9-15c5-48ac-aa1c-84f487ed59a5,
+        camssa:2aaaca6b-d90c-403b-91ad-c72a8303d8da,
+        camssa:357de976-ad15-4f60-aa8b-00b02438bd3f,
+        camssa:46c8dd82-8caf-4a8e-ab3c-328b830c8a8a,
+        camssa:4f001a4a-8208-437a-96e6-6cb6ce7ef642,
+        camssa:56b1bf37-2495-4ad6-b768-cf10692445a8,
+        camssa:5d1b8acb-c9f7-4ed5-835a-295c8163e114,
+        camssa:5f601808-3504-4125-8b32-7e96767537c9,
+        camssa:7403549c-ae05-4853-88e0-0579bcfebbe0,
+        camssa:786f4b4e-622d-4352-8f77-29f56fd22c3c,
+        camssa:7a0b9253-5461-4e7f-9d63-9ed787353621,
+        camssa:7ea27580-0235-4ce9-b1a9-32f8f698fc93,
+        camssa:8ce389c7-2837-4347-8b84-73037881eb2f,
+        camssa:8fd82eb6-11a5-4aee-b19b-2fed6ce315e8,
+        camssa:9071acbc-b77d-4f77-bd65-acce2817283c,
+        camssa:95be9b44-fdfd-463d-91ed-f5aaa4757758,
+        camssa:9f1325ab-3437-4a92-be29-3419fac919a1,
+        camssa:9f2215a1-85fe-44d5-826e-03c00a806fb9,
+        camssa:9f7d4235-5a54-4c82-8423-06dea3007d14,
+        camssa:a06c9f08-7c29-4c46-affa-2c19e923ade0,
+        camssa:a22ff94d-ea01-482f-8d88-6f0ea8a31900,
+        camssa:a63d7860-5f50-4d6e-8258-b0744317758d,
+        camssa:ab0af6d0-2da9-46d9-957d-caf9891911db,
+        camssa:aefbfae2-eda2-4365-829e-c54ebdf93298,
+        camssa:b6801527-3cb2-4e72-b600-ec2fa4f1db86,
+        camssa:c952fb99-599b-45f9-89ff-6833defe462e,
+        camssa:d1a3bdaf-ca47-49db-83bc-2caeb344cd54,
+        camssa:d2c50c1f-3645-409e-9d30-215dcb3fa16e,
+        camssa:d3b36f92-d3ea-46fb-a2ac-84d165be275f,
+        camssa:d4ceba34-7ed7-47c8-b5fc-489738ec5d13,
+        camssa:df34680b-9ab0-4b74-a66c-4fc3c8c639b9,
+        camssa:e10503ef-4da8-4d13-ad7b-c08fd0b486f4,
+        camssa:e8dd9029-c8a8-4c24-a3d7-aedf89955022,
+        camssa:e99e8608-6cc6-4ffa-b152-b232e0193e7f,
+        camssa:f0a02a9e-7343-47ee-92e0-c51378e01e74,
+        camssa:f6fd02b2-ae65-4b63-b98f-5c8a01f6d8f8,
+        camssa:fa92f61c-a42d-41bf-9d0c-a90312bfbabc,
+        camssa:fb54806a-2b45-41d1-90b3-79842b437653 ;
+    dct:issued "2026-09-18"^^xsd:date ;
+    dct:description "Assessment of the WebRTC: Real-Time Communication in Browsers EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
+    dct:title " CAMSS Assessment of WebRTC EIF Scenario v1.0.0"@en ;
+    dcat:version "1.0.0" ;
+    dcat:distribution camssa:6bdf9dac-9b76-427c-aa37-77b7e4a0457c .
 
+camssa:00147682-4f6d-4f18-acd7-824432fea4ec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:string .
+
+camssa:02466d75-09c2-4b66-a367-3ef2482d4153 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Implementations of WebRTC are checked at two complementary levels: the W3C Web Platform Tests project runs API-conformance tests against the specification text, with per-browser results published continuously at wpt.fyi, while Google's open-source KITE engine performs live cross-browser interoperability testing (Chrome, Firefox, Safari, Edge) to confirm that independently developed implementations can actually establish and sustain calls with one another._x000D_
+_x000D_
+Web platform tests GitHub:_x000D_
+https://github.com/web-platform-tests/wpt_x000D_
+_x000D_
+Web platform tests dashboard reference:_x000D_
+https://wpt.fyi/results/webrtc-stats?label=experimental&label=master&aligned_x000D_
+_x000D_
+WebRTC KITE reference (read-only):_x000D_
+https://github.com/webrtc/KITE_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/\""""@en ;
+    cav:refersTo camssa:b702075d-ca7b-4eec-ba3f-0393304ec485 .
+
+camssa:0569451e-dea9-4cdd-b6c6-564bcd12cd6e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"WebRTC's Insertable Streams / Encoded Transform extension allows applications to apply end-to-end encryption directly to encoded media frames before they reach a media server, so that even a routing Selective Forwarding Unit cannot access the plaintext content, addressing secure processing beyond the point-to-point transport layer. This means that servers who rely multimedia, (e.g.:a video-conferencing server that forwards calls between several participants) cannot even see the content, since they only handle already-encrypted data._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827\""""@en ;
+    cav:refersTo camssa:1d18efbb-c6d5-4134-baa4-fee122d1595e .
+
+camssa:06c85905-b883-4a31-96d7-b4e47d077d30 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of WebRTC is not related to e-accessibility. However, the media streams it establishes can be combined with accessibility-oriented technologies, for example live captioning built on the Web Speech API, or sign-language and alternate video tracks carried alongside a primary stream, to make real-time communication more accessible. _x000D_
+_x000D_
+S. Eltenahy, N. Fayez, M. Obayya and F. Khalifa, "Conversion of Videoconference Speech into Text based on WebRTC and Web Speech APIs" (2021) _x000D_
+10.1109/ITC-Egypt52936.2021.9513968._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:3fea1dcb-358f-4487-b355-63d9f574d259 .
+
+camssa:072a9c66-c7b5-443d-bbea-db0ccd222468 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:string .
+
+camssa:0918e90c-98b2-4205-8e68-cb70599de089 a cav:Score,
+        owl:NamedIndividual ;
+    cav:value "100%StrengthOfAssessmentScoreAverage"^^xsd:string,
+        "94.0%AssessmentScoreAverage"^^xsd:string .
+
+camssa:0b2a0e34-89d5-46ee-a8a9-7e65370ec572 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:string .
+
+camssa:12fe4884-585e-4930-b0a8-89574812c0d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is the standard technical foundation for an entire category of digital public service delivery channels, including telehealth consultation platforms, remote court and administrative hearings, and citizen video-helpdesk services, all of which digitise interactions that would otherwise require an in-person visit._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:1cd1c73f-7387-48e0-859d-27b6e8ed23a1 .
+
+camssa:14e86e91-d8b4-49e0-83c5-85f8ab316869 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:string .
+
+camssa:17e2b9c0-d3c6-473b-a076-91dade1eac04 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification does not directly describe or expose administrative procedures, rules or services on its own. Therefore this criterion is not applicable to this specification._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:c6f62799-103e-4cf2-909d-963ff8053e44 .
+
+camssa:19d8da90-7224-46a2-a308-542a78ff6ac2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC protects data integrity at two levels. Media packets carry an authentication tag, either HMAC-based or AES-GCM when that profile is used. This lets the receiver detect if the content was tampered with in transit. The handshake that sets up the call is also protected end to end, so it cannot be altered unnoticed either. Together, these mechanisms mean that any unauthorised change, whether to the call setup or to the media itself, can be detected._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:fd782287-3297-4f11-8825-a44d5798cb42 .
+
+camssa:1cd1c73f-7387-48e0-859d-27b6e8ed23a1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:string .
+
+camssa:1d18efbb-c6d5-4134-baa4-fee122d1595e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:string .
+
+camssa:20ce6df7-f824-4fe6-8dc4-9eeeb94ad475 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "60"^^xsd:string .
+
+camssa:22a14455-82f0-4ef5-af1c-f17d4387cd14 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:string .
+
+camssa:22da7932-31b9-4ffc-8d8d-274e075c366a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'This question is considered not applicable, as this criterion falls outside the scope of the specification. Although the different security mechanisms were explained before, none of them is related to access control mechanisms._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:d8fab633-a8a5-4af6-b9e3-d2742a96785e .
+
+camssa:26f106a9-15c5-48ac-aa1c-84f487ed59a5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is maintained by the W3C and the IETF, neither of which is a European organisation. The W3C is, however, a international consortium, one of whose four Host Institutions, ERCIM, is headquartered in France, and the specification is very widely used across European Member States._x000D_
+_x000D_
+W3C:_x000D_
+https://www.w3.org_x000D_
+_x000D_
+IETF:_x000D_
+https://www.ietf.org_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:00147682-4f6d-4f18-acd7-824432fea4ec .
+
+camssa:2aaaca6b-d90c-403b-91ad-c72a8303d8da a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies'"""@en ;
+    cav:refersTo camssa:3d465ccc-6971-4137-8cac-6bd0f5f07806 .
+
+camssa:348ee286-93b5-40b5-9b6f-947f15a07aa6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:string .
+
+camssa:357de976-ad15-4f60-aa8b-00b02438bd3f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'This criterion is considered not applicable, as WebRTC is a technical communication protocol suite and is not intended for describing or modelling business processes. Any process modelling required to embed WebRTC-based communication into a public service workflow relies entirely on separate business-process modelling techniques and tools, which fall outside the scope of this specification._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:9837dbab-36eb-41ba-b285-ec7fd3efd78a .
+
+camssa:39d4f7ba-6618-4dcc-ab9e-ec2dff118f95 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "80"^^xsd:string .
+
+camssa:3ba6c8d3-de19-4253-9a19-816dae021168 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3d465ccc-6971-4137-8cac-6bd0f5f07806 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:string .
+
+camssa:3d9d7514-528d-461e-a6e0-253c4f0cb667 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3edfbfa9-73b2-42a2-ab23-6fd6e61c518a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3fea1dcb-358f-4487-b355-63d9f574d259 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "60"^^xsd:string .
+
+camssa:40b6147d-2a53-43d7-b982-d4a982a4e5ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:string .
+
+camssa:46c8dd82-8caf-4a8e-ab3c-328b830c8a8a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC actively encourages the formation of open communities around its implementation and use. The specification itself is maintained through a public issue tracker on GitHub, where implementers, including European vendors and integrators, report interoperability problems, propose fixes and share results of their own implementation experience in the open, so that the whole community benefits from each contribution rather than resolving issues privately. A large and active public discussion community has formed around WebRTC on Stack Overflow, where implementers, exchange troubleshooting knowledge, share working configurations and discuss best practices for deploying WebRTC-based services._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC GitHub issues:_x000D_
+https://github.com/webrtc-sdk/webrtc/issues_x000D_
+_x000D_
+WebRTC Stack Overflow reference:_x000D_
+https://stackoverflow.com/search?q=WebRTC&s=da03ed69-16e2-46b2-aa5f-0e120b93409c'"""@en ;
+    cav:refersTo camssa:bd3c12a7-35a0-45d1-a4d2-1959f61e0b95 .
+
+camssa:4b3da90f-67b3-490c-abc2-17d172858524 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:string .
+
+camssa:4f001a4a-8208-437a-96e6-6cb6ce7ef642 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"WebRTC's integrity and authenticity mechanisms (SRTP authentication tags, DTLS-verified certificates) help ensure that the data actually received matches what was sent, which indirectly supports accuracy of the transported media and data. These mechanisms do two things. First, they stop unauthorised users from accessing the data. Second, they include an integrity check, so if someone tries to change the data while it is being sent, the receiving side can detect it. This means the data arrives the same as it was sent, without unnoticed changes._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827\""""@en ;
+    cav:refersTo camssa:39d4f7ba-6618-4dcc-ab9e-ec2dff118f95 .
+
+camssa:52dc27b2-5ef7-417e-87bc-72eed788c2a5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100"^^xsd:string .
+
+camssa:56a321f6-48a3-45e5-982e-6f1d6d3ad00a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:string .
+
+camssa:56b1bf37-2495-4ad6-b768-cf10692445a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is recommended by 3 national catalogues of recommended specifications. They belong to The Netherlands, France and Malta._x000D_
+_x000D_
+The Netherlands NIF:_x000D_
+https://www.forumstandaardisatie.nl/open-standaarden/webrtc_x000D_
+_x000D_
+France NIF:_x000D_
+https://www.numerique.gouv.fr/offre-accompagnement/reference-interoperabilite-rgi/_x000D_
+_x000D_
+Malta NIF:_x000D_
+https://mccaa.org.mt/Section/Content?contentId=1243_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:650950a3-2dbb-42d0-8451-91a0e39476ee .
+
+camssa:5730b304-3f89-4323-8909-ec728cf522ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:string .
+
+camssa:5d1b8acb-c9f7-4ed5-835a-295c8163e114 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC was not designed for any single business domain: it provides generic real-time transport for audio and video._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:072a9c66-c7b5-443d-bbea-db0ccd222468 .
+
+camssa:5f601808-3504-4125-8b32-7e96767537c9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The Interoperable Europe Portal's Open Source Observatory has documented the adoption of WebRTC-based, GDPR-conscious videoconferencing (Jitsi Meet) by French and Spanish public administrations as a privacy-respecting alternative to proprietary platforms, and current EU guidance on video conferencing sovereignty explicitly recommends WebRTC-based open-source platforms, deployed on EU infrastructure, to satisfy EU data-protection expectations._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Open-source videoconferences, Interoperable Europe Portal: _x000D_
+https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/open-source-videoconferences_x000D_
+_x000D_
+Jitsi Meet reference:_x000D_
+https://jitsi.org/projects/\""""@en ;
+    cav:refersTo camssa:6435b9fd-f769-4c4e-bc9c-50840c141cdb .
+
+camssa:610b31f6-56bb-4a43-a166-f30f12da04be a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:string .
+
+camssa:61b21018-8777-4194-b5c1-7948107bcd15 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:string .
+
+camssa:62ee3074-8710-4029-a7c5-ba6b3011c9d1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:string .
+
+camssa:6435b9fd-f769-4c4e-bc9c-50840c141cdb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:string .
+
+camssa:650950a3-2dbb-42d0-8451-91a0e39476ee a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:string .
+
+camssa:66a2d752-3703-4e8e-aacb-27f77abbf230 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:string .
+
+camssa:6bdf9dac-9b76-427c-aa37-77b7e4a0457c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://data.europa.eu/w21/49bfb983-3ffd-4551-8886-c749c98999ff"^^xsd:anyURI .
+
+camssa:7403549c-ae05-4853-88e0-0579bcfebbe0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC works together with the browser permissions model so that, once a user has granted camera or microphone access to an origin, that consent can be persisted and reused for subsequent sessions with the same origin without prompting the user again. This is a real, implemented combination of specifications, but it only reuses a device-access permission, not the actual content or data exchanged during a call, so it does not amount to a full once-only mechanism._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:c25dbdbb-f72f-40a7-9955-d529ec3c1155 .
+
+camssa:74d75de7-6630-483e-a5c4-1c5bcfdb1705 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:string .
+
+camssa:786f4b4e-622d-4352-8f77-29f56fd22c3c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC media is protected with Secure Real-time Transport Protocol (SRTP), with encryption keys which implies it is automatically encrypted, so no one can listen in or read the content while it travels between the two people communicating. None of these protections are optional, it is a mandatory part of the specification, meaning every WebRTC application sends data securely by default._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:56a321f6-48a3-45e5-982e-6f1d6d3ad00a .
+
+camssa:79bc21e0-9fd4-4c38-8254-e2f0d49b0aac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:string .
+
+camssa:7a0b9253-5461-4e7f-9d63-9ed787353621 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is maintained by the chartered W3C Web Real-Time Communications Working Group and the IETF RTCWEB/AVTCORE communities, both of which track issues, publish minutes and coordinate implementation feedback in public repositories (e.g.: w3c/webrtc-pc on GitHub). _x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Web Real-Time Communications Working Group:_x000D_
+https://www.w3.org/groups/wg/webrtc/_x000D_
+_x000D_
+WebRTC Public GitHub: _x000D_
+https://github.com/w3c/webrtc-pc/issues/_x000D_
+_x000D_
+AVTCORE reference:_x000D_
+https://datatracker.ietf.org/wg/avtcore/about/_x000D_
+_x000D_
+RTCWEB reference:_x000D_
+https://datatracker.ietf.org/wg/rtcweb/about/'"""@en ;
+    cav:refersTo camssa:3ba6c8d3-de19-4253-9a19-816dae021168 .
+
+camssa:7ea27580-0235-4ce9-b1a9-32f8f698fc93 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is included in 3 national catalogue of recommended specifications. They belong to The Netherlands, France and Malta. The National Interoperability Framework (NIF) of The Netherlands, France and Malta are aligned with at least 3 out of 4 scoreboards of the EIF Monitoring according to the National Interoperability Framework Observatory (NIFO) factsheets._x000D_
+_x000D_
+The Netherlands NIF:_x000D_
+https://www.forumstandaardisatie.nl/open-standaarden/webrtc_x000D_
+_x000D_
+France NIF:_x000D_
+https://www.numerique.gouv.fr/offre-accompagnement/reference-interoperabilite-rgi/_x000D_
+_x000D_
+Malta NIF:_x000D_
+https://mccaa.org.mt/Section/Content?contentId=1243_x000D_
+_x000D_
+NIFO Factsheets:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/iopeu-monitoring/digital-public-administration-factsheets-2024_x000D_
+_x000D_
+CAMSS List of Standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:14e86e91-d8b4-49e0-83c5-85f8ab316869 .
+
+camssa:898c0297-647e-4019-a853-bf2151b0a06c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:string .
+
+camssa:8ce389c7-2837-4347-8b84-73037881eb2f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is natively implemented in every major browser engine, including Chrome, Firefox, Safari and Edge, and underpins widely used communication products such as Google Meet, Discord and WhatsApp Web, as well as open-source platforms such as Jitsi Meet and BigBlueButton that are actively deployed in European public sector settings. _x000D_
+_x000D_
+Beyond videoconferencing, WebRTC is also used as the underlying real-time transport layer for newer projects that promote AI-driven applications, such as LiveKit, an open-source platform for building real-time audio, video and AI agent applications on top of WebRTC._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+EU Open Source Strategy and Video Sovereignty: _x000D_
+https://www.digitalsamba.com/blog/eu-open-source-strategy-and-video-sovereignty_x000D_
+_x000D_
+LiveKit reference:_x000D_
+https://github.com/livekit/livekit'"""@en ;
+    cav:refersTo camssa:62ee3074-8710-4029-a7c5-ba6b3011c9d1 .
+
+camssa:8e725eba-4eda-44a1-afa4-37554948862c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "80"^^xsd:string .
+
+camssa:8fd82eb6-11a5-4aee-b19b-2fed6ce315e8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC ecosystem is designed to be extended through companion specifications rather than by modifying the core API, for instance WebRTC Encoded Transform (Insertable Streams), which lets applications apply end-to-end encryption or custom processing to encoded media frames, and WebRTC-SVC, which extends the API to support scalable video coding._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+W3C Scalable Video Coding:_x000D_
+https://www.w3.org/TR/webrtc-svc/_x000D_
+_x000D_
+W3C Encoded Transform:_x000D_
+https://www.w3.org/TR/webrtc-encoded-transform/'"""@en ;
+    cav:refersTo camssa:22a14455-82f0-4ef5-af1c-f17d4387cd14 .
+
+camssa:9071acbc-b77d-4f77-bd65-acce2817283c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC defines a standardised set of browser-side JavaScript interfaces, notably RTCPeerConnection, RTCDataChannel and the Media Capture and Streams API, that any web application can call to expose a live communication channel to end users. _x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:ec1aa008-60af-43fe-9c55-376f1c32dd43 .
+
+camssa:95be9b44-fdfd-463d-91ed-f5aaa4757758 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Applications configure WebRTC sessions through an RTCConfiguration object that lets implementers select ICE servers, bundle and RTCP-multiplexing policies, and certificate parameters, and through codec- and encoding-preference APIs (such as setCodecPreferences and sendEncodings) that let an application tailor media quality, bandwidth and codec choice to its specific requirements while remaining within the standard._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:66a2d752-3703-4e8e-aacb-27f77abbf230 .
+
+camssa:9837dbab-36eb-41ba-b285-ec7fd3efd78a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:string .
+
+camssa:9f1325ab-3437-4a92-be29-3419fac919a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC itself does not store anything. It is designed to carry a live call, not to keep a copy of it. However, a real companion specification exists for this purpose: the MediaStream Recording API. This lets an application record a WebRTC audio or video stream directly in the browser and save it as a file. This is also how tools like Jitsi record meetings on the server side. Because of this, WebRTC can support long-term preservation, but only when combined with this separate specification, not on its own._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:20ce6df7-f824-4fe6-8dc4-9eeeb94ad475 .
+
+camssa:9f2215a1-85fe-44d5-826e-03c00a806fb9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"WebRTC-based open-source platforms have been adopted across several Member States' public administrations, most visibly the French DINUM inter-ministerial video-conferencing service and the Spanish government's use of the same technology during the COVID-19 crisis and current EU guidance on video-conferencing sovereignty explicitly recommends WebRTC-based platforms such as Jitsi Meet and BigBlueButton for European public sector deployments._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Jitsi Meet reference:_x000D_
+https://jitsi.org/projects/\""""@en ;
+    cav:refersTo camssa:3d9d7514-528d-461e-a6e0-253c4f0cb667 .
+
+camssa:9f7d4235-5a54-4c82-8423-06dea3007d14 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies'"""@en ;
+    cav:refersTo camssa:3edfbfa9-73b2-42a2-ab23-6fd6e61c518a .
+
+camssa:a06c9f08-7c29-4c46-affa-2c19e923ade0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC deliberately mandates a specific technology stack to guarantee that any two conformant implementations can interoperate securely: DTLS-SRTP is the only permitted encryption mechanism, ICE/STUN/TURN is mandated for connectivity, and a baseline set of audio and video codecs must be supported. This is a considered design trade-off in favour of guaranteed interoperability and security, but it means the specification is not technology-neutral in the strict sense of this criterion._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:610b31f6-56bb-4a43-a166-f30f12da04be .
+
+camssa:a22ff94d-ea01-482f-8d88-6f0ea8a31900 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The efficiency of the WebRTC specification has been assessed by Delft University of Technology, in collaboration with Columbia University. In the "Performance Evaluation of WebRTC-based Video Conferencing" study, the WebRTC specification is tested under different real and emulated network conditions to measure how efficiently its congestion control and codec behaviour use the available bandwidth, identifying the scenarios where performance can still be improved._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Jansen, B., Goodwin, T., Gupta, V., Kuipers, F., Zussman, G. (2018). Performance Evaluation of WebRTC-based Video Conferencing. ACM SIGMETRICS Performance Evaluation Review, 45(3), 56–68: https://doi.org/10.1145/3199524.3199534'"""@en ;
+    cav:refersTo camssa:b9164e5a-ee20-4dd4-8c8c-5b3ea2598ad5 .
+
+camssa:a63d7860-5f50-4d6e-8258-b0744317758d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification does not directly describe or expose administrative procedures, rules or services on its own. Therefore this criterion is not applicable to this specification._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:5730b304-3f89-4323-8909-ec728cf522ef .
+
+camssa:ab0af6d0-2da9-46d9-957d-caf9891911db a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC bundles a number of largely independent capabilities, namely media capture (getUserMedia), peer connection negotiation (RTCPeerConnection), and generic data exchange (RTCDataChannel), each of which can be adopted on its own. An application that only needs a text or file-transfer channel can implement RTCDataChannel without audio/video support, while a voice-only application can omit video entirely, so implementers routinely support functional subsets rather than the whole API surface._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:40b6147d-2a53-43d7-b982-d4a982a4e5ff .
+
+camssa:ab70d890-dd6e-4043-a576-c9ac7a2d27cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "80"^^xsd:string .
+
+camssa:abedf49e-0e31-49e9-8611-968f61b5d84c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ad25b2c4-c69a-4ed4-91e2-6c34c381be56 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:string .
+
+camssa:aefbfae2-eda2-4365-829e-c54ebdf93298 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"WebRTC reached W3C Recommendation status on 26 January 2021, replacing proprietary browser plug-ins as the standard for real-time audio, video and data exchange on the web. It is recognised at EU level through its inclusion in the European Commission's Rolling Plan for ICT Standardisation, under the collection on Emergency Communication and Public Warning Systems._x000D_
+_x000D_
+The latest minor release is the amended Recommendation of 8 October 2024, which addresses errata and corrections gathered through public review, keeping the specification aligned with companion specifications such as Media Capture and Streams._x000D_
+_x000D_
+The most recent major release is the original WebRTC 1.0 Recommendation of 13th march 2025, which set the core interoperable baseline: RTCPeerConnection for peer connections, getUserMedia for media capture, and RTCDataChannel for data exchange, all secured by mandatory DTLS-SRTP encryption._x000D_
+_x000D_
+IETF: _x000D_
+https://www.ietf.org_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC 1.0 is a W3C Recommendation (2021):_x000D_
+https://www.w3.org/News/Public/pnews-20210201_x000D_
+_x000D_
+Related RFCs reference:_x000D_
+https://webrtcforthecurious.com/docs/13-reference/\""""@en ;
+    cav:refersTo camssa:0b2a0e34-89d5-46ee-a8a9-7e65370ec572 .
+
+camssa:b6801527-3cb2-4e72-b600-ec2fa4f1db86 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The effectiveness of WebRTC specification has been assessed by Universidad Rey Juan Carlos, in collaboration with the Institute of Information Science and Technologies (CNR, Italy) In the "Understanding and estimating quality of experience in WebRTC applications" study, the WebRTC specification is evaluated to determine how well it delivers a good real-time communication experience to end users, by identifying and validating measurable factors that estimate the actual quality of experience perceived during a call._x000D_
+_x000D_
+Furthermore, the effectiveness of the WebRTC specification has been assessed by Mahmoud, H. and Abozariba, R. In the "A systematic review on WebRTC for potential applications and challenges beyond audio video streaming" study, the WebRTC specification is reviewed across 83 studies to determine how effectively it reaches its intended purpose in domains beyond video calling, such as healthcare, gaming, telecommunications and manufacturing, confirming its reliability as a real-time communication standard across varied use cases._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+García, B., Gallego, M., Gortázar, F., Bertolino, A. (2019). Understanding and estimating quality of experience in WebRTC applications. Computing, 101(11), 1585–1607: https://doi.org/10.1007/s00607-018-0669-7_x000D_
+_x000D_
+Mahmoud, H. & Abozariba, R. (2025). A systematic review on WebRTC for potential applications and challenges beyond audio video streaming. Multimedia Tools and Applications, 84, 2909–2946: https://doi.org/10.1007/s11042-024-20448-9'"""@en ;
+    cav:refersTo camssa:74d75de7-6630-483e-a5c4-1c5bcfdb1705 .
+
+camssa:b702075d-ca7b-4eec-ba3f-0393304ec485 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:string .
+
+camssa:b9164e5a-ee20-4dd4-8c8c-5b3ea2598ad5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:string .
+
+camssa:bb67f776-ac90-41ec-a9d1-b566f74a5e97 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:string .
+
+camssa:bd3c12a7-35a0-45d1-a4d2-1959f61e0b95 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100"^^xsd:string .
+
+camssa:c25dbdbb-f72f-40a7-9955-d529ec3c1155 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:string .
+
+camssa:c6f62799-103e-4cf2-909d-963ff8053e44 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:string .
+
+camssa:c9472252-00b3-4ba8-bc2c-91eb1eb54e4a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:string .
+
+camssa:c952fb99-599b-45f9-89ff-6833defe462e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Before a WebRTC call starts, both sides check a digital certificate to confirm they are really talking to each other and not to an impostor. WebRTC also allows an optional extra step where each person's real identity can be verified, giving applications a stronger way to confirm who is on the call when needed._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+WebRTC Security Architecture reference: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8827\""""@en ;
+    cav:refersTo camssa:fde6c868-8b91-498f-9b47-56970a352a6e .
+
+camssa:d1a3bdaf-ca47-49db-83bc-2caeb344cd54 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'RFC 8827 makes encryption mandatory for every WebRTC media and data channel: implementations must not negotiate, or accept, cipher suites with null encryption, unencrypted RTP is explicitly forbidden, and DTLS-SRTP must be offered for every media channel. This means confidentiality is not an optional add-on but a mandatory-to-implement property of any conformant WebRTC session._x000D_
+_x000D_
+From a business perspective, this removes the need for organisations to build or procure separate encryption layers to protect sensitive communications, lowering implementation cost and compliance risk._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+RFC 8827 WebRTC Security Architecture:_x000D_
+https://datatracker.ietf.org/doc/html/rfc8827'"""@en ;
+    cav:refersTo camssa:bb67f776-ac90-41ec-a9d1-b566f74a5e97 .
+
+camssa:d2c50c1f-3645-409e-9d30-215dcb3fa16e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is defined as a set of Web IDL / ECMAScript interfaces that any conformant browser engine can implement, independently of the underlying operating system. It runs natively on Windows, macOS, Linux, Android and iOS across Chrome, Firefox, Safari and Edge, and native (non-browser) implementations of the same protocol stack exist for mobile and embedded platforms._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Supported platforms reference:_x000D_
+https://webrtc.org/'"""@en ;
+    cav:refersTo camssa:c9472252-00b3-4ba8-bc2c-91eb1eb54e4a .
+
+camssa:d3b36f92-d3ea-46fb-a2ac-84d165be275f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including this specification.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC'"""@en ;
+    cav:refersTo camssa:abedf49e-0e31-49e9-8611-968f61b5d84c .
+
+camssa:d4ceba34-7ed7-47c8-b5fc-489738ec5d13 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is a live-session protocol suite. Even so, all the descriptive data it produces and consumes, such as_x000D_
+the Session Description Protocol (SDP) offers/answers and the JSON-based statistics exposed through_x000D_
+getStats(), are text-based, structured and machine-readable and the specification places no restriction on_x000D_
+republishing this data openly. WebRTC is published on the Internet Engineering Task Force (IETF) under_x000D_
+royalty-free, open licences, which allows any implementer to build fully open, standards-based real-time_x000D_
+applications without proprietary dependencies._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+IETF. RFC 8825 – Overview: Real-Time Protocols for Browser-Based Applications: _x000D_
+https://datatracker.ietf.org/doc/html/rfc8825'"""@en ;
+    cav:refersTo camssa:4b3da90f-67b3-490c-abc2-17d172858524 .
+
+camssa:d8fab633-a8a5-4af6-b9e3-d2742a96785e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a16c678a586cf542d2ae1d6cd8a987bd6ed0b2af52ba0e04d8872fe616a9b7bd ;
+    cav:value "100"^^xsd:string .
+
+camssa:df34680b-9ab0-4b74-a66c-4fc3c8c639b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC mandates a common, testable baseline of security, codec support and signalling-independent connectivity, organisations negotiating a Service Level Agreement for a real-time communication service can rely on these mandatory elements as a technical common ground. Every conformant browser implements the same connection, encryption and codec rules. The specification does not, however, define legal, contractual or governance elements of such agreements, which remain outside its scope._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:79bc21e0-9fd4-4c38-8254-e2f0d49b0aac .
+
+camssa:e10503ef-4da8-4d13-ad7b-c08fd0b486f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'RTCDataChannel is the WebRTC component that establishes a bidirectional channel for exchanging arbitrary application data (text or binary) directly between two peers, alongside or independently of audio/video streams._x000D_
+This component provides a standardised, SCTP-based mechanism for exchanging arbitrary application data directly between any two WebRTC-conformant systems, independent of vendor, browser or platform. Because every major browser implements the same negotiation and transport rules, data generated in one implementation can be consumed by any other conformant application without proprietary adapters._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:52dc27b2-5ef7-417e-87bc-72eed788c2a5 .
+
+camssa:e8dd9029-c8a8-4c24-a3d7-aedf89955022 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is included in the European Commission's Rolling Plan for ICT Standardisation, as it is covered within the collection on Emergency Communication and Public Warning Systems, published on the Interoperable Europe Portal._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Rolling Plan for ICT Standardisation – Emergency Communication and Public Warning Systems" reference: https://interoperable-europe.ec.europa.eu/collection/rolling-plan-ict-standardisation/emergency-communications-and-public-warning-systems-rp-2026'"""@en ;
+    cav:refersTo camssa:61b21018-8777-4194-b5c1-7948107bcd15 .
+
+camssa:e99e8608-6cc6-4ffa-b152-b232e0193e7f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"By allowing live, face-to-face-style interaction to take place directly in a standard web browser, without downloads, plug-ins or account creation, WebRTC removes a significant practical barrier to remote service delivery. France's DINUM and the Spanish government have both used WebRTC-based platforms to replace in-person meetings and press interactions with equivalent remote sessions, directly simplifying access for citizens and staff alike._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/_x000D_
+_x000D_
+Open-source videoconferences, Interoperable Europe Portal: _x000D_
+https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/open-source-videoconferences\""""@en ;
+    cav:refersTo camssa:ad25b2c4-c69a-4ed4-91e2-6c34c381be56 .
+
+camssa:ec1aa008-60af-43fe-9c55-376f1c32dd43 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:string .
+
+camssa:f0a02a9e-7343-47ee-92e0-c51378e01e74 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is already associated to an EIRA ABB in the EIRA Library of Interoperability Specifications (ELIS). More specifically, WebRTC can define the interoperability aspects of the "Data Extraction Transformation and Loading" ABB of the EIRA Technical view - application._x000D_
+_x000D_
+EIRA Library of Interoperability Specifications (ELIS):_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/700_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:898c0297-647e-4019-a853-bf2151b0a06c .
+
+camssa:f6fd02b2-ae65-4b63-b98f-5c8a01f6d8f8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"WebRTC's security architecture mandates explicit, informed user consent before any camera or microphone access is granted and requires implementations to minimise the exposure of a user's local IP address during connectivity establishment. These are all substantive data-protection measures built into the standard itself, although the specification text does not cite specific legal frameworks such as the GDPR by name, since W3C specifications are technology standards rather than legal instruments._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/\""""@en ;
+    cav:refersTo camssa:8e725eba-4eda-44a1-afa4-37554948862c .
+
+camssa:fa92f61c-a42d-41bf-9d0c-a90312bfbabc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WebRTC is included in 3 national catalogues of recommended specifications. They belong to The Netherlands, France and Malta._x000D_
+_x000D_
+The Netherlands NIF:_x000D_
+https://www.forumstandaardisatie.nl/open-standaarden/webrtc_x000D_
+_x000D_
+France NIF:_x000D_
+https://www.numerique.gouv.fr/offre-accompagnement/reference-interoperabilite-rgi/_x000D_
+_x000D_
+Malta NIF:_x000D_
+https://mccaa.org.mt/Section/Content?contentId=1243_x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:348ee286-93b5-40b5-9b6f-947f15a07aa6 .
+
+camssa:fb54806a-2b45-41d1-90b3-79842b437653 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Text carried through WebRTC, such as track labels, statistics identifiers or data-channel payloads, can use any Unicode/UTF-8 content, so nothing in the specification prevents multilingual use. However, unlike a document-exchange format such as UBL, WebRTC is a media- and data-transport specification and does not itself define language tags, localisation structures or any dedicated mechanism to manage multilingual content; that responsibility rests entirely with the application built on top of it._x000D_
+_x000D_
+WebRTC: Real-Time Communication in Browsers reference: _x000D_
+https://www.w3.org/TR/webrtc/'"""@en ;
+    cav:refersTo camssa:ab70d890-dd6e-4043-a576-c9ac7a2d27cf .
+
+camssa:fd782287-3297-4f11-8825-a44d5798cb42 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:fde6c868-8b91-498f-9b47-56970a352a6e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:string .
+
+camssa:9816b27a434bcbc1ebe70ebcc167388ea1fdc10de1d922e3731eeff8f712e379 a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:assesses cssvrsc:ece6825dbd5fbb1f672ab55c3fbd65281da00f64926d2070882a27a1d0de6e47 ;
+    cav:considers camssa:c04a8dcb-0f3b-4c26-ab09-88141adff3f0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
+    cav:resultsIn camssa:03140501-acdc-4a49-8a43-27ff08170d73,
+        camssa:0ea414fd-ce31-4d45-96ad-70c3960bd465,
+        camssa:0fceba88-af91-4c96-bf54-4adce7d56a34,
+        camssa:1751d790-938e-420f-8ae0-2f62b8676475,
+        camssa:1a22bf49-252a-476c-8315-caa7f647d272,
+        camssa:243c81a9-e7eb-48e9-8486-99ad197e6a12,
+        camssa:292d31bf-ebcd-46ad-a31b-af879229b540,
+        camssa:2bcb098a-3407-4924-aafe-b610da1ac2d0,
+        camssa:301f9c56-11f3-4814-8d26-c75be2d2f81e,
+        camssa:4989b820-29be-431b-9a0c-c215a3f10bdf,
+        camssa:4b158ca7-c7cb-4261-9ee0-da09a5494d98,
+        camssa:4ce3cc91-a622-4b23-95b7-8d91513b27df,
+        camssa:5815d0b5-1f02-4629-b3fb-a4bb0dd9e1ec,
+        camssa:5aea24c3-1bca-4a8f-9550-3b8b930de2c6,
+        camssa:5e259a98-26dd-4c72-9181-22ce31fe4f6c,
+        camssa:6bd23395-baa7-4120-86b9-870c70dfb552,
+        camssa:6d1b036c-33a9-420c-83af-6ea258e56ec0,
+        camssa:6e2cd33b-cbee-4cd3-b336-b0f4cf8e78d8,
+        camssa:6f3f84de-efef-46f7-9c0f-6e4bff655e67,
+        camssa:75ddfe98-5e91-4d04-a743-3d9770b17e21,
+        camssa:778668ef-ad0f-4476-bbe2-ae16a1e8a71d,
+        camssa:79147d87-dd49-46a0-8f63-c92cb8008b2e,
+        camssa:7ec2fa24-f432-4519-a069-f03630d9b7c0,
+        camssa:801fb655-8051-4edf-84d5-aa7edf9a6ce7,
+        camssa:81c3550b-36b0-412d-9499-16e9fdb1f152,
+        camssa:87969ff6-38dc-4796-899e-6040f40cd89b,
+        camssa:8aab42e1-bfbc-485e-9633-8a4671c10aef,
+        camssa:93c5a468-f150-4bb9-ae4a-cc2352314aa9,
+        camssa:9e22c682-36e3-469d-8ec9-853742ba2503,
+        camssa:a5d23366-fe91-4fbb-a0f4-3ef5bb7287d5,
+        camssa:a689710d-8f97-4268-b80f-10959276a7ef,
+        camssa:a6a9ee6e-c165-48c1-983b-77d2712dd26a,
+        camssa:a8752195-7629-4ad6-ac44-3f44c61d8c03,
+        camssa:a8abe10a-ea4f-4c6e-abfb-0f0fcdf7158d,
+        camssa:aa7d471a-a34e-402f-978b-520a26039bc1,
+        camssa:aeb86269-9d64-493c-bd1b-619abd786a6b,
+        camssa:b608f736-dd0a-4aa6-8a8f-46a9d86cf91d,
+        camssa:bba844a4-3d41-405a-b2f1-9ce144e54ef3,
+        camssa:c2b1e918-2ce2-4f38-b4fd-f0fd59883583,
+        camssa:c910a86c-b03c-4086-a351-8b3bd24b3834,
+        camssa:db005eb7-ae48-4e2d-9547-567c4cc63178,
+        camssa:e0d50dc0-25a9-4c38-8e65-28d6211bf812,
+        camssa:ec2ef818-49a9-4126-8910-565c168c9807,
+        camssa:f9015590-0ee8-4daa-972a-74cd85ae671d,
+        camssa:ff5d0ab5-7fa6-42b1-b598-c58c7e619221 ;
+    dct:description "Assessment of the Guide for Architectural Framework and Application of Federated Machine Learning (IEEE 3652.1-2020) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
+    dct:issued "2026-10-14"^^xsd:date ;
+    dct:title "CAMSS Assessment of IEEE 3652.1-2020 EIF Scenario v1.0.0"@en ;
+    dcat:distribution camssa:13bac65e-21be-435d-8dd6-4f80763da8be ;
+    dcat:version "1.0.0" .
+
+camssa:03140501-acdc-4a49-8a43-27ff08170d73 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IEEE 3652.1-2020 standard was developed and published by the Institute of Electrical and Electronics Engineers (IEEE) through the IEEE Standards Association (IEEE SA). IEEE is one of the world's largest standards development organisations and publishes internationally adopted standards across information technology, telecommunications, software, cybersecurity and artificial intelligence. In addition, the Federated Machine Learning (FML) domain addressed by the standard has been applied in several European collaborative initiatives, such as FeatureCloud, FLAMR and the EuroHPC Cross-Facility Federated Learning initiative._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+Privacy preserving federated machine learning and blockchaining for reduced cyber risks in a world of distributed healthcare:_x000D_
+https://cordis.europa.eu/project/id/826078_x000D_
+_x000D_
+Cross-Facility Federated Learning:_x000D_
+https://www.eurohpc-ju.europa.eu/cross-facility-federated-learning_en_x000D_
+_x000D_
+Federated Learning for Antimicrobial Resistance Surveillance:_x000D_
+https://cordis.europa.eu/project/id/101299901\""""@en ;
+    cav:refersTo camssa:0a37da9e-1585-4da8-8e90-3c197396fe43 .
+
+camssa:0a37da9e-1585-4da8-8e90-3c197396fe43 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:string .
+
+camssa:0ea414fd-ce31-4d45-96ad-70c3960bd465 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is an architectural and methodological guide. It defines roles, functional layers, modules and evaluation measures for federated machine learning systems. It does not define a data serialisation, exchange or publication format, and does not itself specify how data should be published on the web (open or otherwise). Therefore, this criterion is not applicable to the standard. _x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:457eb15b-91b4-425f-9843-1db45fa006b5 .
+
+camssa:0fceba88-af91-4c96-bf54-4adce7d56a34 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is included in the public catalogue of the Finnish national standards body (SFS Suomen Standardit), where it is listed as an active IEEE standard and made available through the national standards repository. This demonstrates that the specification is included in a national-level standards catalogue._x000D_
+_x000D_
+SFS Suomen Standardit Reference:_x000D_
+https://store.sfs.fi/en/ieee-36521-2020_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:10f217aa-47e9-413e-b0d0-fcf18c6ee958 .
+
+camssa:10f217aa-47e9-413e-b0d0-fcf18c6ee958 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:string .
+
+camssa:13bac65e-21be-435d-8dd6-4f80763da8be a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://data.europa.eu/w21/ab4a8ca1-0275-4d9c-b4d7-17a823582ce1"^^xsd:anyURI .
+
+camssa:171109b3-25e1-4d84-b66d-42a8f8238a11 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "80"^^xsd:string .
+
+camssa:1751d790-938e-420f-8ae0-2f62b8676475 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Federated Machine Learning (FML) has been selected and implemented in multiple European cross-border initiatives and research programmes including the Horizon 2020 FeatureCloud project which developed a privacy-preserving platform that enables collaborative machine learning across healthcare institutions without transferring sensitive patient data, relying on federated machine learning (FML) as its core architectural principle. The Horizon Europe FLAMR project which applies federated machine learning (FML) to antimicrobial resistance surveillance, allowing laboratories in different countries to jointly analyse data while keeping datasets locally controlled and protected. And the EuroHPC Joint Undertaking Cross-Facility Federated Learning initiative that explores the use of federated machine learning (FML) to coordinate the training of AI models across geographically distributed European supercomputing facilities, demonstrating the applicability of federated architectures at large scale. _x000D_
+_x000D_
+The Standardisation Landscape for CitiVerse report, published by StandICT.eu, analyses existing standards that can support the development of CitiVerse environments, understood as digital representations of real-world cities and communities. It identifies relevant standards across areas such as digital twins, AI, extended reality (AR/VR), interoperability, accessibility and trust, while also highlighting the importance of ethical, social and legal considerations, including privacy-by-design and human-centred design._x000D_
+_x000D_
+While these initiatives do not explicitly mandate IEEE 3652.1, they operate with Federated Machine Learning, the technological domain addressed by the standard and demonstrate European cross-border adoption of the architectural approach covered by the specification._x000D_
+_x000D_
+Privacy preserving federated machine learning and blockchaining for reduced cyber risks in a world of distributed healthcare:_x000D_
+https://cordis.europa.eu/project/id/826078_x000D_
+_x000D_
+Standarisation Landscape for CitiVerse Report Reference: _x000D_
+https://standict.eu/landscape-analysis-report/standardisation-landscape-citiverse_x000D_
+_x000D_
+Cross-Facility Federated Learning:_x000D_
+https://www.eurohpc-ju.europa.eu/cross-facility-federated-learning_en_x000D_
+_x000D_
+Federated Learning for Antimicrobial Resistance Surveillance:_x000D_
+https://cordis.europa.eu/project/id/101299901_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:bda35222-06bd-4f54-a911-543b7e70b3ca .
+
+camssa:17d83526-d1bf-4bf1-9d4a-95ed5bf1d64e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "60"^^xsd:string .
+
+camssa:1a22bf49-252a-476c-8315-caa7f647d272 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard does not address e-accessibility. Therefore, this criterion is not applicable to this standard._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:cd816ce8-262c-4451-b6ea-ac86199b6c9b .
+
+camssa:1bc54bfc-b226-4901-b8f9-23fd983527f0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:string .
+
+camssa:1fd60fa7-dc6f-4314-8f7c-d257d9f4f331 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "80"^^xsd:string .
+
+camssa:243c81a9-e7eb-48e9-8486-99ad197e6a12 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Functional requirements for each module are consistently framed as a non-exhaustive minimum for the participant coordination module, the data service module, the task management service module and the FML algorithm module alike. Additionally a cross-layer module mechanism is defined through which functions can interact across layers, providing a structural extension point._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:65bf32c6-c855-4270-b51b-b0801d3de2fc .
+
+camssa:292d31bf-ebcd-46ad-a31b-af879229b540 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard has been cited in academic literature and is recognised by the research community as a reference in the field of Federated Machine Learning. In addition, it is indexed in IEEE Xplore. _x000D_
+_x000D_
+The effectiveness of the Federated Machine Learning (FML) principles covered by the IEEE 3652.1-2020 specification has been assessed by H. U. Manzoor et al. in the study "Rethinking Federated Learning: An Adversarial Perspective on Global vs. Local Learning for Load Forecasting". The research assesses the effectiveness of federated learning solutions in a real-world forecasting scenario, analysing their ability to maintain performance and reliability under adversarial conditions. The results demonstrate that federated learning can provide effective and resilient distributed model training while preserving data decentralisation, supporting the practical viability and effectiveness of the federated learning approach promoted by the IEEE 3652.1-2020 specification._x000D_
+_x000D_
+IEEE 3652.1-2020 Citations:_x000D_
+https://ieeexplore.ieee.org/document/9382202/citations?tabFilter=papers#citations _x000D_
+_x000D_
+Rethinking Federated Learning: An Adversarial Perspective on Global vs. Local Learning for Load Forecasting:_x000D_
+10.1109/CSCN63874.2024.10849714_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:c992380b-6ca5-4008-8ee4-37bfbcb47ab0 .
+
+camssa:2bcb098a-3407-4924-aafe-b610da1ac2d0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard requires a metadata-management scheme that manages and maintains metadata of raw data, which supports the ongoing traceability of data used in FML processes. The standard does not define archival policies, retention periods or long-term validity mechanisms for the federated models or the records of their training._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:58ecccb6-8499-4141-9015-68523fcf63d4 .
+
+camssa:301f9c56-11f3-4814-8d26-c75be2d2f81e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The data service module is explicitly required to provide a set of import/export tools that enable importing/exporting of data or models, alongside a data-release function that lets data owners contribute data to learning tasks initiated by other parties and a metadata-management scheme for the data being moved._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:171109b3-25e1-4d84-b66d-42a8f8238a11 .
+
+camssa:34fc44b2-bf8b-4037-bd48-422264d4ca21 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3bc74dd8-9fc8-4245-b2bd-3528f230e074 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3cf6d6de-4972-40f6-8372-4eb8dd223bd2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:string .
+
+camssa:3e8fbcfa-3837-4971-a868-9f087c50a01a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "60"^^xsd:string .
+
+camssa:3ef5e246-7319-4d85-81aa-4dfa6d45e1b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "60"^^xsd:string .
+
+camssa:444f4e38-6df1-4004-835b-0118ae0a339b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:string .
+
+camssa:457eb15b-91b4-425f-9843-1db45fa006b5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:string .
+
+camssa:46c338b3-afa4-49b5-9be1-84032ffcbd79 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:string .
+
+camssa:473913b5-f729-40a8-b909-a179260b010b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:string .
+
+camssa:47b25a57-dc17-47c7-9965-be94270355b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:string .
+
+camssa:4989b820-29be-431b-9a0c-c215a3f10bdf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IEEE 3652.1-2020 standard was approved by the IEEE SA Standards Board on 24 September 2020 and published on 19 March 2021, following the full IEEE SA accredited consensus process. At the time of this standard, in its first and only published edition; no minor or major revision has since been issued. IEEE's generic policy of reviewing every standard at least every ten years and of issuing amendments, corrigenda or errata as needed, applies, but no specification-specific change-management or release schedule is documented._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+IEEE SA Standards Board Reference:_x000D_
+https://standards.ieee.org/about/sasb/\""""@en ;
+    cav:refersTo camssa:f7a96ea7-8bec-437a-9ed6-da7b40a193fb .
+
+camssa:4b158ca7-c7cb-4261-9ee0-da09a5494d98 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard participant coordination module is required to provide a member-management function delivering "identity management, authority management, data privacy, and other auditable services" for FML users. This gives a functional basis for authenticating participants, but the guide does not itself define specific authentication protocols or credential formats._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:8348647d-7342-4a8f-ad6a-ecb4c0739a1d .
+
+camssa:4ce3cc91-a622-4b23-95b7-8d91513b27df a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard models the activities of each user role, including the detailed activities of model users, data owners, coordinators and auditors as discrete process steps and specifies a task-management service module with submission, query, termination, error-handling and recovery functions that model the lifecycle of an FML task end-to-end._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:3bc74dd8-9fc8-4245-b2bd-3528f230e074 .
+
+camssa:4d71be6a-be34-4ac3-9a8b-89462c1c65bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "40"^^xsd:string .
+
+camssa:52b9d8e6-c442-4afc-915c-a65e7ad0f3c5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:string .
+
+camssa:5815d0b5-1f02-4629-b3fb-a4bb0dd9e1ec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard defines no conformance and states explicitly that there are no normative references in this guide. Its recommendations are overwhelmingly expressed with should (recommended, but not mandatory) rather than shall (mandatory). No conformance-testing platform, validator or test suite is referenced._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:3cf6d6de-4972-40f6-8372-4eb8dd223bd2 .
+
+camssa:58ecccb6-8499-4141-9015-68523fcf63d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "60"^^xsd:string .
+
+camssa:5aea24c3-1bca-4a8f-9550-3b8b930de2c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard does not tie its architectural framework, roles or evaluation measures to any specific operating system, cloud provider or deployment platform. In fact, the modules are described as logical functions that a compliant FML system should provide, regardless of platform. Nevertheless, for efficiency and performance evaluations, it requires the implementation environment, including the operating system, programming language and compiler used to be reported to ensure the comparability of results._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:689d50da-e9d2-45a4-acc6-be76375bd0d1 .
+
+camssa:5bf5e43a-3718-4269-80d6-5a7da41f61bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:string .
+
+camssa:5e259a98-26dd-4c72-9181-22ce31fe4f6c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard was developed by the the IEEE Computer Society. It is currently maintained by the IEEE Computational and Artificial Intelligence Standards Committee (C/AISC). Participation in both the original development group and the current maintenance group requires IEEE membership and follows the IEEE standards development procedures._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+IEEE Computer Society Reference:_x000D_
+https://www.computer.org/_x000D_
+_x000D_
+IEEE Computer Society/Artificial Intelligence Standards Committee (C/AISC)_x000D_
+https://sagroups.ieee.org/ai-sc/standards/_x000D_
+_x000D_
+IEEE Computer Society Membership Reference:_x000D_
+https://www.computer.org/membership/more-information#faqs'"""@en ;
+    cav:refersTo camssa:a9485445-c43a-4291-b5bb-5598e6ea0222 .
+
+camssa:60439a77-a8b2-4829-8e7f-1c4d15b5fc1e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:string .
+
+camssa:606b9632-035e-4e70-9907-005cf3be0138 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:string .
+
+camssa:65bf32c6-c855-4270-b51b-b0801d3de2fc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:string .
+
+camssa:689d50da-e9d2-45a4-acc6-be76375bd0d1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:string .
+
+camssa:6bd23395-baa7-4120-86b9-870c70dfb552 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard states that, depending on varying requirements in different use cases, functional modules may be included in or omitted from a specific federated machine learning framework. Moreover, an FML system may include one or more of the modules encapsulated in each layer of the reference framework. _x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:60439a77-a8b2-4829-8e7f-1c4d15b5fc1e .
+
+camssa:6d1b036c-33a9-420c-83af-6ea258e56ec0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard supports the provision of digital public services by enabling organisations to collaborate on the development and use of federated machine learning models (FML) while preserving data privacy and sovereignty. Through use cases such as urban computing and government services, the standard demonstrates how public authorities can leverage federated machine learning to improve decision-making and service delivery without requiring the centralisation of sensitive data. In addition, by defining standardised mechanisms through which users can request and consume federated machine learning services, the standard promotes accessible, interoperable and trustworthy digital service delivery across the public sector._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202 '"""@en ;
+    cav:refersTo camssa:f1bca838-278b-4ed0-a2f7-d6d1ec1fb7b2 .
+
+camssa:6e2cd33b-cbee-4cd3-b336-b0f4cf8e78d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard states that this module should be customized according to specific requirements, e.g., for time-domain features, space-domain features, and frequency-domain features, because different applications have different feature requirements. In general terms, IEEE 3652.1 leaves room for implementers to tailor modules to their use case. For example, the healthcare and urban computing use cases described in the annexes require different types of data, feature extraction methods and model configurations, illustrating the flexibility that IEEE 3652.1 provides for adapting implementations to domain-specific needs while maintaining a common architectural framework._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:83e5c0e8-42de-4e20-ab1b-38effaca8120 .
+
+camssa:6f3f84de-efef-46f7-9c0f-6e4bff655e67 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard requires that no private information about raw data or model parameters is disclosed during transfer, and that attackers not be able to infer private information even if they capture the transferred data. It further requires that encryption methods able to prevent transmission threats (such as SSL, TLS or Order-Preserving Encryption (OPE)._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:606b9632-035e-4e70-9907-005cf3be0138 .
+
+camssa:6f624cfc-4410-4472-bc3f-8f7b33b91b26 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100"^^xsd:string .
+
+camssa:75ddfe98-5e91-4d04-a743-3d9770b17e21 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is not included in national catalogues of recommended specifications. However, it has been adopted, catalogued and made available by several national standards bodies that distribute international standards within their respective national standardisation frameworks. This is the case for organisations such as SFS (Finland), SNV (Switzerland) and Standards Norway, which include IEEE 3652.1-2020 and provide access to the specification through their public standards repositories and online stores._x000D_
+_x000D_
+SFS Suomen Standardit Reference:_x000D_
+https://store.sfs.fi/en/ieee-36521-2020_x000D_
+_x000D_
+Swiss Association for Standardisation (SNV) Reference:_x000D_
+https://connect.snv.ch/en/ieee-36521-2020-2_x000D_
+_x000D_
+Standards Norway Reference:_x000D_
+ https://online.standard.no/en/ieee-36521_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:d417ed22-9b96-4b71-95ec-20f8d94617f5 .
+
+camssa:778668ef-ad0f-4476-bbe2-ae16a1e8a71d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard promotes collaborative Federated Machine Learning (FML) while preserving data sovereignty, enabling participants to share models, insights and results without exchanging raw data. European initiatives such as the EU LDT Federated Learning solution on the Interoperable Europe Portal provide a platform where public administrations and organisations can collaborate through federated learning mechanisms while maintaining control over their data, demonstrating alignment with national and European data-sharing ecosystems. Moreover, FML is discussed in forums such as Stack Overflow which contain questions and discussions covering federated machine learning architectures, privacy-preserving machine learning techniques, distributed model training, implementation challenges and interoperability considerations._x000D_
+_x000D_
+EU LDT Federated Learning Reference:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/ldttoolbox/solution/eu-ldt-federated-learning/solution-overview_x000D_
+_x000D_
+Stackoverflow IEEE 3652.1-2020 (FML) Reference:_x000D_
+https://stackoverflow.com/search?q=Federated+Machine+Learning_x000D_
+_x000D_
+IEEE Computer Society Reference:_x000D_
+https://www.computer.org/_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:6f624cfc-4410-4472-bc3f-8f7b33b91b26 .
+
+camssa:79147d87-dd49-46a0-8f63-c92cb8008b2e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard quantifies "Government governance" and "Government Services" as FML use-case types, each with defined efficiency, security, privacy and economic-viability requirement levels. It allows multiple administrations (or an administration and other data owners) to train a single model without having to centralise or manually combine their raw data. By allowing knowledge to be shared without requiring data sharing, it can support improved policy-making, more efficient public services and stronger inter-administrative cooperation in areas where data protection is a critical requirement._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:444f4e38-6df1-4004-835b-0118ae0a339b .
+
+camssa:799a9f9c-db24-46bd-bf37-158d708051ea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:string .
+
+camssa:7ec2fa24-f432-4519-a069-f03630d9b7c0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 does not impose the use of specific hardware platforms, operating systems, programming languages or software implementations.The standard defines an architectural framework and functional guidance for federated machine learning while allowing participating organisations to implement the specification using their preferred technological environments. As a result, the specification can be adopted across heterogeneous infrastructures and deployment contexts, supporting interoperability between different implementation approaches._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:f49b9825-3aed-42a4-ae35-f05b11986055 .
+
+camssa:801fb655-8051-4edf-84d5-aa7edf9a6ce7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IEEE 3652.1-2020 standard was developed within the IEEE Learning Technology Standards Committee (LTSC) by the Shared Machine Learning Working Group and was approved by the IEEE SA Standards Board on 24 September 2020. It was published on 19 March 2021 following the full IEEE SA accredited consensus process. The standard remains in its first and only published edition, with no minor or major revisions issued to date. The responsibility for the standard is currently assigned within IEEE to the Computational and Artificial Intelligence Standards Committee (C/AISC), under the Federated Machine Learning (FML) Working Group. IEEE's general policy of periodically reviewing standards and issuing amendments, corrigenda or errata when necessary applies._x000D_
+_x000D_
+IEEE Computer Society/Artificial Intelligence Standards Committee (C/AISC)_x000D_
+https://sagroups.ieee.org/ai-sc/_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202\""""@en ;
+    cav:refersTo camssa:799a9f9c-db24-46bd-bf37-158d708051ea .
+
+camssa:81c3550b-36b0-412d-9499-16e9fdb1f152 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard service layer user service module explicitly requires a user interface, such as command line, page, GUI, API, which allow federated machine learning users to interact with available FML services and a task-submission function. Every sample alignment, feature alignment, federated feature engineering, the FML algorithm module, and algorithm evaluation is additionally specified with an explicit INPUT/OUTPUT interface, so the exposure of programmatic interfaces is a structural feature of the architecture rather than an incidental one._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:dff47105-2fd9-4bb7-919b-1766cfccafe4 .
+
+camssa:8348647d-7342-4a8f-ad6a-ecb4c0739a1d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "80"^^xsd:string .
+
+camssa:83e5c0e8-42de-4e20-ab1b-38effaca8120 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:string .
+
+camssa:87969ff6-38dc-4796-899e-6040f40cd89b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard provides a precise, shared vocabulary, a reference architecture with clearly delimited layers and modules, and defined user roles and their activities. Where an administration adopts Federated Machine-Learning (FML) for a public-service use case, this structure improves the comprehensibility of the resulting data flows and processes._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:17d83526-d1bf-4bf1-9d4a-95ed5bf1d64e .
+
+camssa:8aab42e1-bfbc-485e-9633-8a4671c10aef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard participant coordination module is required to provide "authority management" alongside identity management, which is a functional building block for access control. However, the guide does not specify roles/rules access-control models, permission schemes or enforcement mechanisms in detail._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:a9c69e16-31bf-4410-8a56-d1836722d62c .
+
+camssa:93c5a468-f150-4bb9-ae4a-cc2352314aa9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is not included in the main European catalogues of recommended interoperability specifications maintained by the European Commission. However, the specification is publicly accessible through European standards repositories and catalogues that aggregate and distribute standards used across European countries. Furthermore, the standard is recognised within broader European and international AI governance ecosystems, including its publication in national standards catalogues across several European countries and its inclusion in the OECD AI Catalogue. IEEE 3652.1-2020 has also been discussed in Standarisation Landscape for CitiVerse Report._x000D_
+_x000D_
+OECD AI Catalogue Reference:_x000D_
+https://oecd.ai/en/catalogue/tools/ieee-36521-2020-ieee-guide-for-architectural-framework-and-application-offederated-_x000D_
+machine-learning_x000D_
+_x000D_
+Standarisation Landscape for CitiVerse Report Reference: _x000D_
+https://standict.eu/landscape-analysis-report/standardisation-landscape-citiverse_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:ba90afd8-0474-4ef5-981a-9ce802745d6f .
+
+camssa:96b8d523-a164-47eb-920d-35c5f90fb0f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:9e22c682-36e3-469d-8ec9-853742ba2503 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'IEEE standards are developed under the IEEE SA Patent Policy. Where a patent holder or applicant has filed a Letter of Assurance, that letter indicates whether the submitter is willing to grant licences under patent rights without compensation or under reasonable rates and reasonable, non-discriminatory terms and conditions. The document itself is copyrighted (reproduction and photocopying of the text are subject to fees payable to the Copyright Clearance Center)._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+IEEE SA Standards Board Bylaws:_x000D_
+https://standards.ieee.org/wp-content/uploads/import/documents/other/sb_bylaws.pdf'"""@en ;
+    cav:refersTo camssa:1fd60fa7-dc6f-4314-8f7c-d257d9f4f331 .
+
+camssa:9e9fda05-6507-4d68-9a5f-85ff640d08e1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a5d23366-fe91-4fbb-a0f4-3ef5bb7287d5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard requires that FML models achieve performance equivalent to or better than a data-centralised model and mandates the establishment of evaluation mechanisms to periodically check model performance and quality. It defines the accuracy, precision and recall metrics used for this purpose, giving the standard concrete, measurable means of ensuring processing accuracy._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:46c338b3-afa4-49b5-9be1-84032ffcbd79 .
+
+camssa:a689710d-8f97-4268-b80f-10959276a7ef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IEEE 3652.1-2020 standard frames FML as a response to regulatory requirements such as the European Union's General Data Protection Regulation(GDPR), and that FML is intended to enable model-building in a distributed manner that does not exchange raw data directly and does not allow any party to infer private information of other parties._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+GDPR Reference:_x000D_
+https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng\""""@en ;
+    cav:refersTo camssa:473913b5-f729-40a8-b909-a179260b010b .
+
+camssa:a6a9ee6e-c165-48c1-983b-77d2712dd26a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard defines the economic objectives and settings alongside the member-management/authority-management functions and the formally defined roles. Together these provide most of the substantive elements (parties, roles, obligations, payment and incentive terms) that a service-level agreement or memorandum of understanding between participating organisations would need to cover, although the guide does not itself provide a template agreement._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:ef98c434-e04d-4270-88c0-f489faf3e811 .
+
+camssa:a8752195-7629-4ad6-ac44-3f44c61d8c03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is applicable across a diverse and representative set of domains, categorised by market sector: business-to-consumer (telecom, education, IoT), business-to-business (finance, health, marketing), and business-to-government (government governance, government services, urban computing), each with its own efficiency, security, privacy, performance and economic-viability requirement profile. This demonstrates that the reference architecture is not tied to any single business domain._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:e426107a-74ea-40c4-950b-5b44ee8be76b .
+
+camssa:a8abe10a-ea4f-4c6e-abfb-0f0fcdf7158d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'IEEE 3652.1 requires federated machine learning models to be resilient against attacks that attempt to manipulate training data, influence model behaviour or compromise the integrity of the learning process. As examples, the guide refers to testing-time adversarial examples, training-time data poisoning and backdoor attacks designed to induce incorrect decisions or unintended behaviour. In addition, it defines measurable indicators, such as the extent and impact of data leakage and data alteration, that can be used to assess the security of the processing and the robustness of the solution._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:1bc54bfc-b226-4901-b8f9-23fd983527f0 .
+
+camssa:a9485445-c43a-4291-b5bb-5598e6ea0222 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "40"^^xsd:string .
+
+camssa:a9c69e16-31bf-4410-8a56-d1836722d62c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a16c678a586cf542d2ae1d6cd8a987bd6ed0b2af52ba0e04d8872fe616a9b7bd ;
+    cav:value "80"^^xsd:string .
+
+camssa:aa7d471a-a34e-402f-978b-520a26039bc1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard reference architecture is domain-agnostic and could, in principle, support FML systems operating on multilingual datasets (for example, in natural-language-processing use cases). However, IEEE 3652.1 contains no specific clause addressing character encoding, language selection or any other explicit multilingualism provision._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:4d71be6a-be34-4ac3-9a8b-89462c1c65bb .
+
+camssa:aeb86269-9d64-493c-bd1b-619abd786a6b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IEEE 3652.1-2020 standard has been recognised within European policy and standardisation activities related to AI and data protection. In particular, the 2023 European Commission's Rolling Plan for ICT Standardisation identifies IEEE 3652.1-2020 among the relevant standards for federated machine learning in the context of artificial intelligence. This recognition reflects the standard's relevance for privacy-preserving machine learning approaches that support compliance with data protection requirements such as those established by the GDPR. _x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+Rolling Plan for ICT Standarisation 2023 Reference:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/rolling-plan-ict-standardisation/artificial-intelligence-rp2023\""""@en ;
+    cav:refersTo camssa:9e9fda05-6507-4d68-9a5f-85ff640d08e1 .
+
+camssa:b608f736-dd0a-4aa6-8a8f-46a9d86cf91d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is not included in national catalogues of recommended specifications. However, it has been adopted and published by several national standards bodies that adopt international and European standards as national standards and makes them available through its national catalogue and online store. This is the case for Member States such as Finland, Switzerland and Norway._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+SFS Suomen Standardit Reference:_x000D_
+https://store.sfs.fi/en/ieee-36521-2020_x000D_
+_x000D_
+Swiss Association for Standarisation (SNV) Reference:_x000D_
+https://connect.snv.ch/en/ieee-36521-2020-2_x000D_
+_x000D_
+Standards Norway Reference:_x000D_
+https://online.standard.no/en/ieee-36521_x000D_
+_x000D_
+CAMSS List of standards Reference:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards_x000D_
+_x000D_
+NIFO Factsheets Reference:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2024 '"""@en ;
+    cav:refersTo camssa:47b25a57-dc17-47c7-9965-be94270355b6 .
+
+camssa:ba90afd8-0474-4ef5-981a-9ce802745d6f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:string .
+
+camssa:bba844a4-3d41-405a-b2f1-9ce144e54ef3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'An FML system avoids information leakage and considers secure computation methods, including homomorphic (enables computation on encrypted data without decrypting it) and partial-homomorphic encryption (enables only specific computations on encrypted data without decrypting it), to preserve data privacy._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:c002d352-66b4-4fd1-9511-cf4a4e4d441e .
+
+camssa:bda35222-06bd-4f54-a911-543b7e70b3ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:string .
+
+camssa:c002d352-66b4-4fd1-9511-cf4a4e4d441e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:string .
+
+camssa:c04a8dcb-0f3b-4c26-ab09-88141adff3f0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:value "87.5%AssessmentScoreAverage"^^xsd:string,
+        "100%StrengthOfAssessmentScoreAverage"^^xsd:string .
+
+camssa:c2b1e918-2ce2-4f38-b4fd-f0fd59883583 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is already associated to EIRA ABBs in the EIRA Library of Interoperability Specifications (ELIS). More specifically, IEEE 3652.1 can define the interoperability aspects of the "Interoperability Strategy Goal", "AI Model Inference Technology", "AI Model Training Technology", "Machine Learning Technology" ABBs of the EIRA Technical-view application._x000D_
+_x000D_
+ELIS Reference: https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/700_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:5bf5e43a-3718-4269-80d6-5a7da41f61bf .
+
+camssa:c2d2a882-55cb-429b-bbb4-b42e921aa10d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:string .
+
+camssa:c910a86c-b03c-4086-a351-8b3bd24b3834 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard has been cited in academic literature and is recognised by the research community as a reference in the field of Federated Machine Learning. In addition, it is indexed in IEEE Xplore. _x000D_
+_x000D_
+The effectiveness of the Federated Machine Learning (FML) principles covered by the IEEE 3652.1-2020 specification has been assessed by T. Xiang et al. In the study "Adaptive Collaborative Federated Learning (ACFL) Scheme for Mobile Edge Computing Environments", federated learning mechanisms are evaluated in relation to model reliability, convergence performance, distributed training effectiveness and resilience to communication constraints. The results show that the proposed approach improves model reliability and accelerates the convergence of the federated learning process, providing evidence of the effectiveness of federated learning architectures and the distributed learning principles addressed by the IEEE 3652.1-2020 specification._x000D_
+_x000D_
+IEEE 3652.1-2020 Citations Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202/citations?tabFilter=papers#citations _x000D_
+_x000D_
+Federated Learning With Dynamic Epoch Adjustment and Collaborative Training in Mobile Edge Computing: 10.1109/TMC.2023.3288392_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202 '"""@en ;
+    cav:refersTo camssa:52b9d8e6-c442-4afc-915c-a65e7ad0f3c5 .
+
+camssa:c992380b-6ca5-4008-8ee4-37bfbcb47ab0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:string .
+
+camssa:cd816ce8-262c-4451-b6ea-ac86199b6c9b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:d417ed22-9b96-4b71-95ec-20f8d94617f5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:string .
+
+camssa:db005eb7-ae48-4e2d-9547-567c4cc63178 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As an IEEE SA standard, IEEE 3652.1 passed through Working Group ballot and an entity/individual Standards Association balloting group vote before approval by the IEEE SA Standards Board on 24 September 2020. Any interested party, IEEE member or not, can indicate interest in a working group and submit comments for revision, and every IEEE standard is subject to a formal review at least every ten years, at which point a further round of balloting and comment resolution applies._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+IEEE SA Standards Board Reference:_x000D_
+https://standards.ieee.org/about/sasb/'"""@en ;
+    cav:refersTo camssa:3e8fbcfa-3837-4971-a868-9f087c50a01a .
+
+camssa:dff47105-2fd9-4bb7-919b-1766cfccafe4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:string .
+
+camssa:e0d50dc0-25a9-4c38-8e65-28d6211bf812 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard was developed through a collaborative standardisation process involving academic institutions, industry representatives and technology providers participating in the IEEE Federated Machine Learning Working Group._x000D_
+In addition, the IEEE community has organised and supported several dissemination and engagement activities related to Federated Machine Learning (FML) and the IEEE 3652.1 framework. These activities have provided opportunities for researchers, practitioners and industry stakeholders to discuss the architectural principles, implementation approaches and practical applications covered by the standard. _x000D_
+Examples include working group meetings dedicated to the development of IEEE P3652.1, federated learning talks and community events focused on AI standardisation and distributed machine learning._x000D_
+_x000D_
+The standard is also referenced in international AI governance and policy initiatives, including the OECD AI Catalogue, which lists IEEE 3652.1-2020 as a recognised tool supporting trustworthy AI adoption and implementation._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+3rd IEEE P3652.1 Federated Machine Learning Working Group Meeting, a Joint Effort Facilitating and Accelerating Industry Standard-Setting Reference:_x000D_
+https://www.prnewswire.com/news-releases/3rd-ieee-p3652-1-federated-machine-learning-working-group-meeting-a-joint-effort-facilitating-and-accelerating-industry-standard-setting-300902902.html_x000D_
+_x000D_
+OECD AI Catalogue Reference:_x000D_
+https://oecd.ai/en/catalogue/tools/ieee-36521-2020-ieee-guide-for-architectural-framework-and-application-of-federated-machine-learning_x000D_
+_x000D_
+Fireside Chat about Standardization of Federated Machine Learning Reference:_x000D_
+https://engagestandards.ieee.org/FT-Federated-Learning.html'"""@en ;
+    cav:refersTo camssa:34fc44b2-bf8b-4037-bd48-422264d4ca21 .
+
+camssa:e426107a-74ea-40c4-950b-5b44ee8be76b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ec2ef818-49a9-4126-8910-565c168c9807 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard primary purpose is architectural and technical, not administrative. However, when a public administration uses federated machine learning, it is possible to see which organisations take part, which data sources are involved and who can review the process. In addition, the guide identifies "Government governance" and "Government services" as application scenarios._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:3ef5e246-7319-4d85-81aa-4dfa6d45e1b7 .
+
+camssa:ef98c434-e04d-4270-88c0-f489faf3e811 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "80"^^xsd:string .
+
+camssa:f1bca838-278b-4ed0-a2f7-d6d1ec1fb7b2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:string .
+
+camssa:f49b9825-3aed-42a4-ae35-f05b11986055 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:string .
+
+camssa:f7a96ea7-8bec-437a-9ed6-da7b40a193fb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "80"^^xsd:string .
+
+camssa:f9015590-0ee8-4daa-972a-74cd85ae671d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard requires FML models to be robust against data-poisoning and backdoor attacks that would alter data or model behaviour without authorisation, and defines the "extent of alteration" and "influence of alteration" as measurable indicators of the amount of data or models that have been altered and the resulting change in model performance, enabling implementers to verify and quantify whether unauthorised changes have occurred._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:96b8d523-a164-47eb-920d-35c5f90fb0f3 .
+
+camssa:ff5d0ab5-7fa6-42b1-b598-c58c7e619221 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The core purpose of Federated Machine Learning, as defined in the standard, is to allow multiple parties to reuse each other's data (through model contributions rather than raw-data transfer) without disclosing the raw and private data owned by the participants while achieving good performance. This is conceptually close to once-only reuse of information across organisations, though the guide does not explicitly frame or implement the Once-Only Principle for citisen-facing administrative transactions, and reuse depends on the FML use case and the data owners' participation._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202\""""@en ;
+    cav:refersTo camssa:c2d2a882-55cb-429b-bbb4-b42e921aa10d .
 
 
 
@@ -138365,13 +139952,7 @@ camssa:67e570c64ee9bd05cd58229e9dae7d02a9e4d9a3748dbb6dbde14c91be591b0f a cav:As
     dct:description "CAMSS as a Service (CAMSSaaS) EIF Scenario Content Review of CRVS"@en ;
     dct:title "CAMSSaaS Content Review of CRVS 1.0.0"@en ;
     dcat:version "1.0.0" ;
-    #This points to the general component
-    dcat:distribution camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 ;
-    #this points to the summary components
-    cav:hasSummary camssa:40254c35-0b62-479c-a32e-1672d23e123b ;
-    #this points to the report of the assessmet (questions and justifications)
-    cav:hasReport camssa:40254c35-0b62-479c-a32e-1672d23e124b .
-
+    dcat:distribution camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 .
 
 camssa:075c3bab-6715-48f6-877b-2d5fb09f40ee a cav:Statement,
         owl:NamedIndividual ;

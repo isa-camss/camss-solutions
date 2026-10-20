@@ -1690,6 +1690,10 @@ elis:822be2fd-1655-4853-98a8-bf57e0dbfd30 a dcat:CatalogRecord ;
     dct:title "Open Cloud Computing Interface (OCCI)"@en ;
     foaf:primaryTopic cssvrsc:77feb710f414d7cb9707280fcdbe2e238ed91e910808ee83e5612c9777c71921 .
 
+elis:40ca8c49-0851-43ac-9538-ce0f15a25295 a dcat:CatalogRecord;
+        dct:title "Common Workflow Language";
+        foaf:primaryTopic  cssvrsc:438492653f1c958c0cb501a1924b0e215ca28a4a44e6620870e7f23eba760282 .  
+
 elis:8256beca-5e4c-4642-bf21-3ac601bad5a7 a dcat:CatalogRecord ;
     dct:title "ISO/IEC 38505-1: Information technology - Governance of IT - Part 1: Application of ISO/IEC 38500 to the governance of data"@en ;
     foaf:primaryTopic cssvrsc:40954dff2643527f34e6cee6d084d929c87aba030a5a9758367f603467f82c76 .
@@ -2557,6 +2561,10 @@ elis:d9ac7572-6d03-4bc1-bb36-567fce525634 a dcat:CatalogRecord ;
 elis:da797ea9-9516-49d1-a30e-a5bb874dcfc6 a dcat:CatalogRecord ;
     dct:title "CEN Workshop Agreement (CWA)"@en ;
     foaf:primaryTopic cssvrsc:71e1d2e261388c5c3b9ed4d17b6474d5f0cf1062b5c8a9fd413b76b77dc43a91 .
+
+elis:1ca5ac18-dc34-440e-8c9f-b412b57209b0 a dcat:CatalogRecord;
+    dct:title "Service Component Architecture Assembly Model Specification";
+    foaf:primaryTopic  cssvrsc:e2fba20dc5c22ec9417f2c1e12e3eaef812226c725a579bef29116b6546d7b79 .
 
 elis:daa8c562-452e-49da-8645-3b359303a497 a dcat:CatalogRecord ;
     dct:title "Web Services Description Language (WSDL)"@en ;
@@ -5947,12 +5955,18 @@ cssvrsc:72e4dd491ecc447eeea1bb8dc297ae0370a8a2eeb91aff19020fa174db2b40ac a cssv:
 cssvrsc:73b2af6cb530611b74e4ec3ee7fa1e11b45bf7512db6bbf5823bf45e78165696 a cssv:Specification ;
     dct:relation [ dct:description "CloudEvents v1.0.2 is a versioned update of CloudEvents ensuring the standardisation of the representation of event data for consistent and interoperable communication across systems."@en ;
             dct:relation eira:DataFormatDataObject ],
-        [ dct:description "The CloudEvents specification aims to make data more understandable for users and organisations. By using a common format, the specification enables efficient data sharing, which can help public administrations communicate more effectively."@en ;
+                [ dct:description "The CloudEvents specification aims to make data more understandable for users and organisations. By using a common format, the specification enables efficient data sharing, which can help public administrations communicate more effectively."@en ;
             dct:relation eira:SemanticInteroperabilityAgreementContract ],
-        [ dct:description "The CloudEvents specification aims to enhance interoperability between organisations by defining a common format for describing data. In this context, a standardised format simplifies data exchange between organisations and public administrations, fostering more effective communication."@en ;
-            dct:relation eira:SemanticAgreementContract ] ;
-    dcat:theme "Data Architecture"@en,
-        "Implementation Governance"@en .
+                [ dct:description "The CloudEvents specification aims to enhance interoperability between organisations by defining a common format for describing data. In this context, a standardised format simplifies data exchange between organisations and public administrations, fostering more effective communication."@en ;
+            dct:relation eira:SemanticAgreementContract ],
+                [ dct:description "CloudEvents gives every event a common, simple structure describing what happened, where it came from and when. This makes it a good fit for coordinating serverless functions, which are triggered and run independently in response to events like these."@en ;
+            dct:relation eira:ServerlessOrchestratorTechnologyService ],
+                [ dct:description "CloudEvents ensures that each event consistently records who triggered it, when, and what kind of action took place. This supports the collection of audit events, such as logins or administrative changes, in a reliable and comparable way for compliance purposes."@en ;
+            dct:relation eira:AuditEventCollectionTechnologyService ],
+                [ dct:description "CloudEvents allows alerts from different monitoring tools to be described in the same way. This makes it easier to generate and route notifications consistently, based on severity and escalation rules, across an organisation."@en ;
+            dct:relation eira:AlertingNotificationServiceTechnologyService ] ;
+                dcat:theme "Data Architecture"@en, "Technology Architecture"@en,
+                    "Implementation Governance"@en .
 
 cssvrsc:73b7782e8c0a77d8020d17b1ac45638bb6b383b8d17a195d980ef37eae9d7737 a cssv:Specification ;
     dct:relation [ dct:description "The Guidance on eDelivery Digital Certificates specification covers the X.509 (v3.0.0) certificate used by Domibus for signing and AS4 encryption and those installed on the SMP servers and used by SML to authenticate and authorise these servers."@en ;
@@ -6089,6 +6103,11 @@ cssvrsc:7b572228fd139d6e4a270b0da87a1697c30df3e70a8d2e74311214200525d46d a cssv:
     dct:relation [ dct:description "The decission from the European Comission is adressed to Comission departments owning, procuring, managing or operating communication and information systems (CISs)."@en ;
             dct:relation eira:EuropeanLegalActRequirement ] ;
     dcat:theme "Business Architecture"@en .
+
+cssvrsc:7b572228fd139d6e4a270b0da87a1697c30df3e70a8d2e74311214200525d46d a cssv:Specification ;
+        dct:relation [ dct:description "CWL is mainly designed to describe command line tools and connect them into repeatable workflows, rather than to move or integrate data between systems directly. Even so, data analysis is one of its core use cases, which gives it a practical link to data integration scenarios."@en ;
+            dct:relation eira:DataIntegrationApplicationService ] ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:7bb9561fdc649c2b43a5b95d6ae3aaa54b2fcdcd45404630ec3c3cdc5a74b507 a cssv:Specification ;
     dct:relation [ dct:description "The EU-SEC specification is designed to offers a sot of tools that allow for a better efficiency and effectveness of security governance. In this sense, the specification enables a set of tools to improve some aspects related to data, such as risk management."@en ;
@@ -6643,6 +6662,11 @@ cssvrsc:921d8e57de77fca8f754a5ffecfa81a553b655d9f408c8630821ddd83eb4b6b0 a cssv:
             dct:relation eira:PrivacyApplicationComponent ] ;
     dcat:theme "Data Architecture"@en,
         "Technology Architecture"@en .
+
+cssvrsc:720fe6bed5f9283dffb49f2576c58b51ca756fd5ba52bb011ee760fe5af2eb2b a cssv:Specification ;
+    dct:relation [ dct:description "OVAL supports a standardised language to describe how to check computer systems for known vulnerabilities and configuration issues, and how to report the results. This allows scanning tools to apply the same vulnerability definitions consistently across systems, both before deployment and during operation."@en ;
+            dct:relation eira:VulnerabilityScanningTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
 
 cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b a cssv:Specification ;
     dct:relation [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
@@ -8198,6 +8222,11 @@ cssvrsc:d0f61c4a647769d002e55af97c8233bbb86a514cba0fd04aa2a00f430f31ad59 a cssv:
             dct:relation eira:DataExchangeApplicationComponent ] ;
     dcat:theme "Technology Architecture"@en .
 
+cssvrsc:e2fba20dc5c22ec9417f2c1e12e3eaef812226c725a579bef29116b6546d7b79 a cssv:Specification ;
+    dct:relation [ dct:description "SCA's Assembly Model defines how individual service components are declared, wired together through services and references, and configured within a composite, independently of the technology that implements them."@en ;
+            dct:relation eira:DataIntegrationPluginsManagerApplicationService ] ;
+    dcat:theme "Technology Architecture"@en .
+
 cssvrsc:d13b00508474ac53815d9b6faab303cb42aaae9546ff64c443fb9f2040c233bd a cssv:Specification ;
     dct:relation [ dct:description "EHQMR promotes harmonisation of quality reporting within a Member State, facilitating comparisons between statistical processes and outputs at EU level. These guidelines also ensure that reports include basic quality standards to facilitate the identification of quality problems and possible improvements."@en ;
             dct:relation eira:DataQualityApplicationComponent ],
@@ -9629,9 +9658,35 @@ cssvrsc:5b43cd60a45fdd59ce6685e3a12c8cd7be9839ce21e52c0fe33713f0e1faa6fe a cssv:
             dct:relation eira:CredentialRevocationApplicationComponent ] ;
     dcat:theme "Technology Architecture"@en .
 
+cssvrsc:f555d12d5ecdcba4e69ca65d7c69a83db7647d19b3de0b87ad52e406917dafb0 a cssv:Specification ;
+    dct:relation [ dct:description "TOSCA describes an application's components, relationships and deployment dependencies in a portable service template, allowing the same topology to be deployed and configured consistently across development, testing, staging and production environments."@en ;
+            dct:relation eira:EnvironmentManagementTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
 
+elis:59da9118-6640-4805-ac86-65bbec7ff837
+        a                  dcat:CatalogRecord;
+        dct:title          "OASIS Topology and Orchestration Specification for Cloud Applications (TOSCA)";
+        foaf:primaryTopic  cssvrsc:f555d12d5ecdcba4e69ca65d7c69a83db7647d19b3de0b87ad52e406917dafb0 .
 
+cssvrsc:40756df1e5e040ff1db8dd84592f27410895f7f07713377da949551d0e4eceb7 a cssv:Specification ;
+    dct:relation [ dct:description "PKCS #11 defines a vendor-neutral interface to hardware security modules and cryptographic tokens, allowing keys to be generated, stored, used and destroyed under controlled access without ever leaving the protected device."@en ;
+            dct:relation eira:SecretsAndKeyManagementTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+    
+elis:bd242f63-2348-4a08-8a27-df62971e1163
+        a                  dcat:CatalogRecord;
+        dct:title          "PKCS #11 Specification Version 3.2";
+        foaf:primaryTopic  cssvrsc:40756df1e5e040ff1db8dd84592f27410895f7f07713377da949551d0e4eceb7 .
 
+cssvrsc:3b2474537eff381c715cc11ce9a2d1aa9312e5702d7fbfd2ab47a20f5f25802e a cssv:Specification ;
+    dct:relation [ dct:description "SLSA defines provenance and verification requirements for software artifacts, allowing each release to be checked for integrity and traced back to its source and build before it is approved, promoted or deployed across environments."@en ;
+            dct:relation eira:ReleaseManagementTechnologyService ] ;
+    dcat:theme "Technology Architecture"@en .
+
+elis:1d920258-dc4e-4992-a902-12239b179c1f
+        a                  dcat:CatalogRecord;
+        dct:title          "Supply-chain Levels for Software Artifacts (SLSA)";
+        foaf:primaryTopic  cssvrsc:3b2474537eff381c715cc11ce9a2d1aa9312e5702d7fbfd2ab47a20f5f25802e .
 
 eira:AgendaManagementServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
