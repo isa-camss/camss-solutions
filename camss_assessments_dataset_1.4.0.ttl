@@ -138227,6 +138227,782 @@ camssa:fde6c868-8b91-498f-9b47-56970a352a6e a cav:Score,
     cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
     cav:value "100"^^xsd:string .
 
+camssa:9816b27a434bcbc1ebe70ebcc167388ea1fdc10de1d922e3731eeff8f712e379 a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:assesses cssvrsc:ece6825dbd5fbb1f672ab55c3fbd65281da00f64926d2070882a27a1d0de6e47 ;
+    cav:considers camssa:c04a8dcb-0f3b-4c26-ab09-88141adff3f0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
+    cav:resultsIn camssa:03140501-acdc-4a49-8a43-27ff08170d73,
+        camssa:0ea414fd-ce31-4d45-96ad-70c3960bd465,
+        camssa:0fceba88-af91-4c96-bf54-4adce7d56a34,
+        camssa:1751d790-938e-420f-8ae0-2f62b8676475,
+        camssa:1a22bf49-252a-476c-8315-caa7f647d272,
+        camssa:243c81a9-e7eb-48e9-8486-99ad197e6a12,
+        camssa:292d31bf-ebcd-46ad-a31b-af879229b540,
+        camssa:2bcb098a-3407-4924-aafe-b610da1ac2d0,
+        camssa:301f9c56-11f3-4814-8d26-c75be2d2f81e,
+        camssa:4989b820-29be-431b-9a0c-c215a3f10bdf,
+        camssa:4b158ca7-c7cb-4261-9ee0-da09a5494d98,
+        camssa:4ce3cc91-a622-4b23-95b7-8d91513b27df,
+        camssa:5815d0b5-1f02-4629-b3fb-a4bb0dd9e1ec,
+        camssa:5aea24c3-1bca-4a8f-9550-3b8b930de2c6,
+        camssa:5e259a98-26dd-4c72-9181-22ce31fe4f6c,
+        camssa:6bd23395-baa7-4120-86b9-870c70dfb552,
+        camssa:6d1b036c-33a9-420c-83af-6ea258e56ec0,
+        camssa:6e2cd33b-cbee-4cd3-b336-b0f4cf8e78d8,
+        camssa:6f3f84de-efef-46f7-9c0f-6e4bff655e67,
+        camssa:75ddfe98-5e91-4d04-a743-3d9770b17e21,
+        camssa:778668ef-ad0f-4476-bbe2-ae16a1e8a71d,
+        camssa:79147d87-dd49-46a0-8f63-c92cb8008b2e,
+        camssa:7ec2fa24-f432-4519-a069-f03630d9b7c0,
+        camssa:801fb655-8051-4edf-84d5-aa7edf9a6ce7,
+        camssa:81c3550b-36b0-412d-9499-16e9fdb1f152,
+        camssa:87969ff6-38dc-4796-899e-6040f40cd89b,
+        camssa:8aab42e1-bfbc-485e-9633-8a4671c10aef,
+        camssa:93c5a468-f150-4bb9-ae4a-cc2352314aa9,
+        camssa:9e22c682-36e3-469d-8ec9-853742ba2503,
+        camssa:a5d23366-fe91-4fbb-a0f4-3ef5bb7287d5,
+        camssa:a689710d-8f97-4268-b80f-10959276a7ef,
+        camssa:a6a9ee6e-c165-48c1-983b-77d2712dd26a,
+        camssa:a8752195-7629-4ad6-ac44-3f44c61d8c03,
+        camssa:a8abe10a-ea4f-4c6e-abfb-0f0fcdf7158d,
+        camssa:aa7d471a-a34e-402f-978b-520a26039bc1,
+        camssa:aeb86269-9d64-493c-bd1b-619abd786a6b,
+        camssa:b608f736-dd0a-4aa6-8a8f-46a9d86cf91d,
+        camssa:bba844a4-3d41-405a-b2f1-9ce144e54ef3,
+        camssa:c2b1e918-2ce2-4f38-b4fd-f0fd59883583,
+        camssa:c910a86c-b03c-4086-a351-8b3bd24b3834,
+        camssa:db005eb7-ae48-4e2d-9547-567c4cc63178,
+        camssa:e0d50dc0-25a9-4c38-8e65-28d6211bf812,
+        camssa:ec2ef818-49a9-4126-8910-565c168c9807,
+        camssa:f9015590-0ee8-4daa-972a-74cd85ae671d,
+        camssa:ff5d0ab5-7fa6-42b1-b598-c58c7e619221 ;
+    dct:description "Assessment of the Guide for Architectural Framework and Application of Federated Machine Learning (IEEE 3652.1-2020) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
+    dct:issued "2026-10-14"^^xsd:date ;
+    dct:title "CAMSS Assessment of IEEE 3652.1-2020 EIF Scenario v1.0.0"@en ;
+    dcat:distribution camssa:13bac65e-21be-435d-8dd6-4f80763da8be ;
+    dcat:version "1.0.0" .
+
+camssa:03140501-acdc-4a49-8a43-27ff08170d73 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IEEE 3652.1-2020 standard was developed and published by the Institute of Electrical and Electronics Engineers (IEEE) through the IEEE Standards Association (IEEE SA). IEEE is one of the world's largest standards development organisations and publishes internationally adopted standards across information technology, telecommunications, software, cybersecurity and artificial intelligence. In addition, the Federated Machine Learning (FML) domain addressed by the standard has been applied in several European collaborative initiatives, such as FeatureCloud, FLAMR and the EuroHPC Cross-Facility Federated Learning initiative._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+Privacy preserving federated machine learning and blockchaining for reduced cyber risks in a world of distributed healthcare:_x000D_
+https://cordis.europa.eu/project/id/826078_x000D_
+_x000D_
+Cross-Facility Federated Learning:_x000D_
+https://www.eurohpc-ju.europa.eu/cross-facility-federated-learning_en_x000D_
+_x000D_
+Federated Learning for Antimicrobial Resistance Surveillance:_x000D_
+https://cordis.europa.eu/project/id/101299901\""""@en ;
+    cav:refersTo camssa:0a37da9e-1585-4da8-8e90-3c197396fe43 .
+
+camssa:0a37da9e-1585-4da8-8e90-3c197396fe43 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:string .
+
+camssa:0ea414fd-ce31-4d45-96ad-70c3960bd465 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is an architectural and methodological guide. It defines roles, functional layers, modules and evaluation measures for federated machine learning systems. It does not define a data serialisation, exchange or publication format, and does not itself specify how data should be published on the web (open or otherwise). Therefore, this criterion is not applicable to the standard. _x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:457eb15b-91b4-425f-9843-1db45fa006b5 .
+
+camssa:0fceba88-af91-4c96-bf54-4adce7d56a34 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is included in the public catalogue of the Finnish national standards body (SFS Suomen Standardit), where it is listed as an active IEEE standard and made available through the national standards repository. This demonstrates that the specification is included in a national-level standards catalogue._x000D_
+_x000D_
+SFS Suomen Standardit Reference:_x000D_
+https://store.sfs.fi/en/ieee-36521-2020_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:10f217aa-47e9-413e-b0d0-fcf18c6ee958 .
+
+camssa:10f217aa-47e9-413e-b0d0-fcf18c6ee958 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:string .
+
+camssa:13bac65e-21be-435d-8dd6-4f80763da8be a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://data.europa.eu/w21/ab4a8ca1-0275-4d9c-b4d7-17a823582ce1"^^xsd:anyURI .
+
+camssa:171109b3-25e1-4d84-b66d-42a8f8238a11 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "80"^^xsd:string .
+
+camssa:1751d790-938e-420f-8ae0-2f62b8676475 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Federated Machine Learning (FML) has been selected and implemented in multiple European cross-border initiatives and research programmes including the Horizon 2020 FeatureCloud project which developed a privacy-preserving platform that enables collaborative machine learning across healthcare institutions without transferring sensitive patient data, relying on federated machine learning (FML) as its core architectural principle. The Horizon Europe FLAMR project which applies federated machine learning (FML) to antimicrobial resistance surveillance, allowing laboratories in different countries to jointly analyse data while keeping datasets locally controlled and protected. And the EuroHPC Joint Undertaking Cross-Facility Federated Learning initiative that explores the use of federated machine learning (FML) to coordinate the training of AI models across geographically distributed European supercomputing facilities, demonstrating the applicability of federated architectures at large scale. _x000D_
+_x000D_
+The Standardisation Landscape for CitiVerse report, published by StandICT.eu, analyses existing standards that can support the development of CitiVerse environments, understood as digital representations of real-world cities and communities. It identifies relevant standards across areas such as digital twins, AI, extended reality (AR/VR), interoperability, accessibility and trust, while also highlighting the importance of ethical, social and legal considerations, including privacy-by-design and human-centred design._x000D_
+_x000D_
+While these initiatives do not explicitly mandate IEEE 3652.1, they operate with Federated Machine Learning, the technological domain addressed by the standard and demonstrate European cross-border adoption of the architectural approach covered by the specification._x000D_
+_x000D_
+Privacy preserving federated machine learning and blockchaining for reduced cyber risks in a world of distributed healthcare:_x000D_
+https://cordis.europa.eu/project/id/826078_x000D_
+_x000D_
+Standarisation Landscape for CitiVerse Report Reference: _x000D_
+https://standict.eu/landscape-analysis-report/standardisation-landscape-citiverse_x000D_
+_x000D_
+Cross-Facility Federated Learning:_x000D_
+https://www.eurohpc-ju.europa.eu/cross-facility-federated-learning_en_x000D_
+_x000D_
+Federated Learning for Antimicrobial Resistance Surveillance:_x000D_
+https://cordis.europa.eu/project/id/101299901_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:bda35222-06bd-4f54-a911-543b7e70b3ca .
+
+camssa:17d83526-d1bf-4bf1-9d4a-95ed5bf1d64e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "60"^^xsd:string .
+
+camssa:1a22bf49-252a-476c-8315-caa7f647d272 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard does not address e-accessibility. Therefore, this criterion is not applicable to this standard._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:cd816ce8-262c-4451-b6ea-ac86199b6c9b .
+
+camssa:1bc54bfc-b226-4901-b8f9-23fd983527f0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:string .
+
+camssa:1fd60fa7-dc6f-4314-8f7c-d257d9f4f331 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "80"^^xsd:string .
+
+camssa:243c81a9-e7eb-48e9-8486-99ad197e6a12 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Functional requirements for each module are consistently framed as a non-exhaustive minimum for the participant coordination module, the data service module, the task management service module and the FML algorithm module alike. Additionally a cross-layer module mechanism is defined through which functions can interact across layers, providing a structural extension point._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:65bf32c6-c855-4270-b51b-b0801d3de2fc .
+
+camssa:292d31bf-ebcd-46ad-a31b-af879229b540 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard has been cited in academic literature and is recognised by the research community as a reference in the field of Federated Machine Learning. In addition, it is indexed in IEEE Xplore. _x000D_
+_x000D_
+The effectiveness of the Federated Machine Learning (FML) principles covered by the IEEE 3652.1-2020 specification has been assessed by H. U. Manzoor et al. in the study "Rethinking Federated Learning: An Adversarial Perspective on Global vs. Local Learning for Load Forecasting". The research assesses the effectiveness of federated learning solutions in a real-world forecasting scenario, analysing their ability to maintain performance and reliability under adversarial conditions. The results demonstrate that federated learning can provide effective and resilient distributed model training while preserving data decentralisation, supporting the practical viability and effectiveness of the federated learning approach promoted by the IEEE 3652.1-2020 specification._x000D_
+_x000D_
+IEEE 3652.1-2020 Citations:_x000D_
+https://ieeexplore.ieee.org/document/9382202/citations?tabFilter=papers#citations _x000D_
+_x000D_
+Rethinking Federated Learning: An Adversarial Perspective on Global vs. Local Learning for Load Forecasting:_x000D_
+10.1109/CSCN63874.2024.10849714_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:c992380b-6ca5-4008-8ee4-37bfbcb47ab0 .
+
+camssa:2bcb098a-3407-4924-aafe-b610da1ac2d0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard requires a metadata-management scheme that manages and maintains metadata of raw data, which supports the ongoing traceability of data used in FML processes. The standard does not define archival policies, retention periods or long-term validity mechanisms for the federated models or the records of their training._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:58ecccb6-8499-4141-9015-68523fcf63d4 .
+
+camssa:301f9c56-11f3-4814-8d26-c75be2d2f81e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The data service module is explicitly required to provide a set of import/export tools that enable importing/exporting of data or models, alongside a data-release function that lets data owners contribute data to learning tasks initiated by other parties and a metadata-management scheme for the data being moved._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:171109b3-25e1-4d84-b66d-42a8f8238a11 .
+
+camssa:34fc44b2-bf8b-4037-bd48-422264d4ca21 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3bc74dd8-9fc8-4245-b2bd-3528f230e074 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:string .
+
+camssa:3cf6d6de-4972-40f6-8372-4eb8dd223bd2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:string .
+
+camssa:3e8fbcfa-3837-4971-a868-9f087c50a01a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "60"^^xsd:string .
+
+camssa:3ef5e246-7319-4d85-81aa-4dfa6d45e1b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "60"^^xsd:string .
+
+camssa:444f4e38-6df1-4004-835b-0118ae0a339b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:string .
+
+camssa:457eb15b-91b4-425f-9843-1db45fa006b5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:string .
+
+camssa:46c338b3-afa4-49b5-9be1-84032ffcbd79 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:string .
+
+camssa:473913b5-f729-40a8-b909-a179260b010b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:string .
+
+camssa:47b25a57-dc17-47c7-9965-be94270355b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:string .
+
+camssa:4989b820-29be-431b-9a0c-c215a3f10bdf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IEEE 3652.1-2020 standard was approved by the IEEE SA Standards Board on 24 September 2020 and published on 19 March 2021, following the full IEEE SA accredited consensus process. At the time of this standard, in its first and only published edition; no minor or major revision has since been issued. IEEE's generic policy of reviewing every standard at least every ten years and of issuing amendments, corrigenda or errata as needed, applies, but no specification-specific change-management or release schedule is documented._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+IEEE SA Standards Board Reference:_x000D_
+https://standards.ieee.org/about/sasb/\""""@en ;
+    cav:refersTo camssa:f7a96ea7-8bec-437a-9ed6-da7b40a193fb .
+
+camssa:4b158ca7-c7cb-4261-9ee0-da09a5494d98 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard participant coordination module is required to provide a member-management function delivering "identity management, authority management, data privacy, and other auditable services" for FML users. This gives a functional basis for authenticating participants, but the guide does not itself define specific authentication protocols or credential formats._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:8348647d-7342-4a8f-ad6a-ecb4c0739a1d .
+
+camssa:4ce3cc91-a622-4b23-95b7-8d91513b27df a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard models the activities of each user role, including the detailed activities of model users, data owners, coordinators and auditors as discrete process steps and specifies a task-management service module with submission, query, termination, error-handling and recovery functions that model the lifecycle of an FML task end-to-end._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:3bc74dd8-9fc8-4245-b2bd-3528f230e074 .
+
+camssa:4d71be6a-be34-4ac3-9a8b-89462c1c65bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "40"^^xsd:string .
+
+camssa:52b9d8e6-c442-4afc-915c-a65e7ad0f3c5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:string .
+
+camssa:5815d0b5-1f02-4629-b3fb-a4bb0dd9e1ec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard defines no conformance and states explicitly that there are no normative references in this guide. Its recommendations are overwhelmingly expressed with should (recommended, but not mandatory) rather than shall (mandatory). No conformance-testing platform, validator or test suite is referenced._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:3cf6d6de-4972-40f6-8372-4eb8dd223bd2 .
+
+camssa:58ecccb6-8499-4141-9015-68523fcf63d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "60"^^xsd:string .
+
+camssa:5aea24c3-1bca-4a8f-9550-3b8b930de2c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard does not tie its architectural framework, roles or evaluation measures to any specific operating system, cloud provider or deployment platform. In fact, the modules are described as logical functions that a compliant FML system should provide, regardless of platform. Nevertheless, for efficiency and performance evaluations, it requires the implementation environment, including the operating system, programming language and compiler used to be reported to ensure the comparability of results._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:689d50da-e9d2-45a4-acc6-be76375bd0d1 .
+
+camssa:5bf5e43a-3718-4269-80d6-5a7da41f61bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:string .
+
+camssa:5e259a98-26dd-4c72-9181-22ce31fe4f6c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard was developed by the the IEEE Computer Society. It is currently maintained by the IEEE Computational and Artificial Intelligence Standards Committee (C/AISC). Participation in both the original development group and the current maintenance group requires IEEE membership and follows the IEEE standards development procedures._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+IEEE Computer Society Reference:_x000D_
+https://www.computer.org/_x000D_
+_x000D_
+IEEE Computer Society/Artificial Intelligence Standards Committee (C/AISC)_x000D_
+https://sagroups.ieee.org/ai-sc/standards/_x000D_
+_x000D_
+IEEE Computer Society Membership Reference:_x000D_
+https://www.computer.org/membership/more-information#faqs'"""@en ;
+    cav:refersTo camssa:a9485445-c43a-4291-b5bb-5598e6ea0222 .
+
+camssa:60439a77-a8b2-4829-8e7f-1c4d15b5fc1e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:string .
+
+camssa:606b9632-035e-4e70-9907-005cf3be0138 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:string .
+
+camssa:65bf32c6-c855-4270-b51b-b0801d3de2fc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:string .
+
+camssa:689d50da-e9d2-45a4-acc6-be76375bd0d1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:string .
+
+camssa:6bd23395-baa7-4120-86b9-870c70dfb552 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard states that, depending on varying requirements in different use cases, functional modules may be included in or omitted from a specific federated machine learning framework. Moreover, an FML system may include one or more of the modules encapsulated in each layer of the reference framework. _x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:60439a77-a8b2-4829-8e7f-1c4d15b5fc1e .
+
+camssa:6d1b036c-33a9-420c-83af-6ea258e56ec0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard supports the provision of digital public services by enabling organisations to collaborate on the development and use of federated machine learning models (FML) while preserving data privacy and sovereignty. Through use cases such as urban computing and government services, the standard demonstrates how public authorities can leverage federated machine learning to improve decision-making and service delivery without requiring the centralisation of sensitive data. In addition, by defining standardised mechanisms through which users can request and consume federated machine learning services, the standard promotes accessible, interoperable and trustworthy digital service delivery across the public sector._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202 '"""@en ;
+    cav:refersTo camssa:f1bca838-278b-4ed0-a2f7-d6d1ec1fb7b2 .
+
+camssa:6e2cd33b-cbee-4cd3-b336-b0f4cf8e78d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard states that this module should be customized according to specific requirements, e.g., for time-domain features, space-domain features, and frequency-domain features, because different applications have different feature requirements. In general terms, IEEE 3652.1 leaves room for implementers to tailor modules to their use case. For example, the healthcare and urban computing use cases described in the annexes require different types of data, feature extraction methods and model configurations, illustrating the flexibility that IEEE 3652.1 provides for adapting implementations to domain-specific needs while maintaining a common architectural framework._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:83e5c0e8-42de-4e20-ab1b-38effaca8120 .
+
+camssa:6f3f84de-efef-46f7-9c0f-6e4bff655e67 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard requires that no private information about raw data or model parameters is disclosed during transfer, and that attackers not be able to infer private information even if they capture the transferred data. It further requires that encryption methods able to prevent transmission threats (such as SSL, TLS or Order-Preserving Encryption (OPE)._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:606b9632-035e-4e70-9907-005cf3be0138 .
+
+camssa:6f624cfc-4410-4472-bc3f-8f7b33b91b26 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100"^^xsd:string .
+
+camssa:75ddfe98-5e91-4d04-a743-3d9770b17e21 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is not included in national catalogues of recommended specifications. However, it has been adopted, catalogued and made available by several national standards bodies that distribute international standards within their respective national standardisation frameworks. This is the case for organisations such as SFS (Finland), SNV (Switzerland) and Standards Norway, which include IEEE 3652.1-2020 and provide access to the specification through their public standards repositories and online stores._x000D_
+_x000D_
+SFS Suomen Standardit Reference:_x000D_
+https://store.sfs.fi/en/ieee-36521-2020_x000D_
+_x000D_
+Swiss Association for Standardisation (SNV) Reference:_x000D_
+https://connect.snv.ch/en/ieee-36521-2020-2_x000D_
+_x000D_
+Standards Norway Reference:_x000D_
+ https://online.standard.no/en/ieee-36521_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:d417ed22-9b96-4b71-95ec-20f8d94617f5 .
+
+camssa:778668ef-ad0f-4476-bbe2-ae16a1e8a71d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard promotes collaborative Federated Machine Learning (FML) while preserving data sovereignty, enabling participants to share models, insights and results without exchanging raw data. European initiatives such as the EU LDT Federated Learning solution on the Interoperable Europe Portal provide a platform where public administrations and organisations can collaborate through federated learning mechanisms while maintaining control over their data, demonstrating alignment with national and European data-sharing ecosystems. Moreover, FML is discussed in forums such as Stack Overflow which contain questions and discussions covering federated machine learning architectures, privacy-preserving machine learning techniques, distributed model training, implementation challenges and interoperability considerations._x000D_
+_x000D_
+EU LDT Federated Learning Reference:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/ldttoolbox/solution/eu-ldt-federated-learning/solution-overview_x000D_
+_x000D_
+Stackoverflow IEEE 3652.1-2020 (FML) Reference:_x000D_
+https://stackoverflow.com/search?q=Federated+Machine+Learning_x000D_
+_x000D_
+IEEE Computer Society Reference:_x000D_
+https://www.computer.org/_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:6f624cfc-4410-4472-bc3f-8f7b33b91b26 .
+
+camssa:79147d87-dd49-46a0-8f63-c92cb8008b2e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard quantifies "Government governance" and "Government Services" as FML use-case types, each with defined efficiency, security, privacy and economic-viability requirement levels. It allows multiple administrations (or an administration and other data owners) to train a single model without having to centralise or manually combine their raw data. By allowing knowledge to be shared without requiring data sharing, it can support improved policy-making, more efficient public services and stronger inter-administrative cooperation in areas where data protection is a critical requirement._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:444f4e38-6df1-4004-835b-0118ae0a339b .
+
+camssa:799a9f9c-db24-46bd-bf37-158d708051ea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:string .
+
+camssa:7ec2fa24-f432-4519-a069-f03630d9b7c0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 does not impose the use of specific hardware platforms, operating systems, programming languages or software implementations.The standard defines an architectural framework and functional guidance for federated machine learning while allowing participating organisations to implement the specification using their preferred technological environments. As a result, the specification can be adopted across heterogeneous infrastructures and deployment contexts, supporting interoperability between different implementation approaches._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:f49b9825-3aed-42a4-ae35-f05b11986055 .
+
+camssa:801fb655-8051-4edf-84d5-aa7edf9a6ce7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IEEE 3652.1-2020 standard was developed within the IEEE Learning Technology Standards Committee (LTSC) by the Shared Machine Learning Working Group and was approved by the IEEE SA Standards Board on 24 September 2020. It was published on 19 March 2021 following the full IEEE SA accredited consensus process. The standard remains in its first and only published edition, with no minor or major revisions issued to date. The responsibility for the standard is currently assigned within IEEE to the Computational and Artificial Intelligence Standards Committee (C/AISC), under the Federated Machine Learning (FML) Working Group. IEEE's general policy of periodically reviewing standards and issuing amendments, corrigenda or errata when necessary applies._x000D_
+_x000D_
+IEEE Computer Society/Artificial Intelligence Standards Committee (C/AISC)_x000D_
+https://sagroups.ieee.org/ai-sc/_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202\""""@en ;
+    cav:refersTo camssa:799a9f9c-db24-46bd-bf37-158d708051ea .
+
+camssa:81c3550b-36b0-412d-9499-16e9fdb1f152 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard service layer user service module explicitly requires a user interface, such as command line, page, GUI, API, which allow federated machine learning users to interact with available FML services and a task-submission function. Every sample alignment, feature alignment, federated feature engineering, the FML algorithm module, and algorithm evaluation is additionally specified with an explicit INPUT/OUTPUT interface, so the exposure of programmatic interfaces is a structural feature of the architecture rather than an incidental one._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:dff47105-2fd9-4bb7-919b-1766cfccafe4 .
+
+camssa:8348647d-7342-4a8f-ad6a-ecb4c0739a1d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "80"^^xsd:string .
+
+camssa:83e5c0e8-42de-4e20-ab1b-38effaca8120 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:string .
+
+camssa:87969ff6-38dc-4796-899e-6040f40cd89b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard provides a precise, shared vocabulary, a reference architecture with clearly delimited layers and modules, and defined user roles and their activities. Where an administration adopts Federated Machine-Learning (FML) for a public-service use case, this structure improves the comprehensibility of the resulting data flows and processes._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:17d83526-d1bf-4bf1-9d4a-95ed5bf1d64e .
+
+camssa:8aab42e1-bfbc-485e-9633-8a4671c10aef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard participant coordination module is required to provide "authority management" alongside identity management, which is a functional building block for access control. However, the guide does not specify roles/rules access-control models, permission schemes or enforcement mechanisms in detail._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:a9c69e16-31bf-4410-8a56-d1836722d62c .
+
+camssa:93c5a468-f150-4bb9-ae4a-cc2352314aa9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is not included in the main European catalogues of recommended interoperability specifications maintained by the European Commission. However, the specification is publicly accessible through European standards repositories and catalogues that aggregate and distribute standards used across European countries. Furthermore, the standard is recognised within broader European and international AI governance ecosystems, including its publication in national standards catalogues across several European countries and its inclusion in the OECD AI Catalogue. IEEE 3652.1-2020 has also been discussed in Standarisation Landscape for CitiVerse Report._x000D_
+_x000D_
+OECD AI Catalogue Reference:_x000D_
+https://oecd.ai/en/catalogue/tools/ieee-36521-2020-ieee-guide-for-architectural-framework-and-application-offederated-_x000D_
+machine-learning_x000D_
+_x000D_
+Standarisation Landscape for CitiVerse Report Reference: _x000D_
+https://standict.eu/landscape-analysis-report/standardisation-landscape-citiverse_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:ba90afd8-0474-4ef5-981a-9ce802745d6f .
+
+camssa:96b8d523-a164-47eb-920d-35c5f90fb0f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:9e22c682-36e3-469d-8ec9-853742ba2503 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'IEEE standards are developed under the IEEE SA Patent Policy. Where a patent holder or applicant has filed a Letter of Assurance, that letter indicates whether the submitter is willing to grant licences under patent rights without compensation or under reasonable rates and reasonable, non-discriminatory terms and conditions. The document itself is copyrighted (reproduction and photocopying of the text are subject to fees payable to the Copyright Clearance Center)._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+IEEE SA Standards Board Bylaws:_x000D_
+https://standards.ieee.org/wp-content/uploads/import/documents/other/sb_bylaws.pdf'"""@en ;
+    cav:refersTo camssa:1fd60fa7-dc6f-4314-8f7c-d257d9f4f331 .
+
+camssa:9e9fda05-6507-4d68-9a5f-85ff640d08e1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a5d23366-fe91-4fbb-a0f4-3ef5bb7287d5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard requires that FML models achieve performance equivalent to or better than a data-centralised model and mandates the establishment of evaluation mechanisms to periodically check model performance and quality. It defines the accuracy, precision and recall metrics used for this purpose, giving the standard concrete, measurable means of ensuring processing accuracy._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:46c338b3-afa4-49b5-9be1-84032ffcbd79 .
+
+camssa:a689710d-8f97-4268-b80f-10959276a7ef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IEEE 3652.1-2020 standard frames FML as a response to regulatory requirements such as the European Union's General Data Protection Regulation(GDPR), and that FML is intended to enable model-building in a distributed manner that does not exchange raw data directly and does not allow any party to infer private information of other parties._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+GDPR Reference:_x000D_
+https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng\""""@en ;
+    cav:refersTo camssa:473913b5-f729-40a8-b909-a179260b010b .
+
+camssa:a6a9ee6e-c165-48c1-983b-77d2712dd26a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard defines the economic objectives and settings alongside the member-management/authority-management functions and the formally defined roles. Together these provide most of the substantive elements (parties, roles, obligations, payment and incentive terms) that a service-level agreement or memorandum of understanding between participating organisations would need to cover, although the guide does not itself provide a template agreement._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:ef98c434-e04d-4270-88c0-f489faf3e811 .
+
+camssa:a8752195-7629-4ad6-ac44-3f44c61d8c03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is applicable across a diverse and representative set of domains, categorised by market sector: business-to-consumer (telecom, education, IoT), business-to-business (finance, health, marketing), and business-to-government (government governance, government services, urban computing), each with its own efficiency, security, privacy, performance and economic-viability requirement profile. This demonstrates that the reference architecture is not tied to any single business domain._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:e426107a-74ea-40c4-950b-5b44ee8be76b .
+
+camssa:a8abe10a-ea4f-4c6e-abfb-0f0fcdf7158d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'IEEE 3652.1 requires federated machine learning models to be resilient against attacks that attempt to manipulate training data, influence model behaviour or compromise the integrity of the learning process. As examples, the guide refers to testing-time adversarial examples, training-time data poisoning and backdoor attacks designed to induce incorrect decisions or unintended behaviour. In addition, it defines measurable indicators, such as the extent and impact of data leakage and data alteration, that can be used to assess the security of the processing and the robustness of the solution._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:1bc54bfc-b226-4901-b8f9-23fd983527f0 .
+
+camssa:a9485445-c43a-4291-b5bb-5598e6ea0222 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "40"^^xsd:string .
+
+camssa:a9c69e16-31bf-4410-8a56-d1836722d62c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a16c678a586cf542d2ae1d6cd8a987bd6ed0b2af52ba0e04d8872fe616a9b7bd ;
+    cav:value "80"^^xsd:string .
+
+camssa:aa7d471a-a34e-402f-978b-520a26039bc1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard reference architecture is domain-agnostic and could, in principle, support FML systems operating on multilingual datasets (for example, in natural-language-processing use cases). However, IEEE 3652.1 contains no specific clause addressing character encoding, language selection or any other explicit multilingualism provision._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:4d71be6a-be34-4ac3-9a8b-89462c1c65bb .
+
+camssa:aeb86269-9d64-493c-bd1b-619abd786a6b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IEEE 3652.1-2020 standard has been recognised within European policy and standardisation activities related to AI and data protection. In particular, the 2023 European Commission's Rolling Plan for ICT Standardisation identifies IEEE 3652.1-2020 among the relevant standards for federated machine learning in the context of artificial intelligence. This recognition reflects the standard's relevance for privacy-preserving machine learning approaches that support compliance with data protection requirements such as those established by the GDPR. _x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+Rolling Plan for ICT Standarisation 2023 Reference:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/rolling-plan-ict-standardisation/artificial-intelligence-rp2023\""""@en ;
+    cav:refersTo camssa:9e9fda05-6507-4d68-9a5f-85ff640d08e1 .
+
+camssa:b608f736-dd0a-4aa6-8a8f-46a9d86cf91d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is not included in national catalogues of recommended specifications. However, it has been adopted and published by several national standards bodies that adopt international and European standards as national standards and makes them available through its national catalogue and online store. This is the case for Member States such as Finland, Switzerland and Norway._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+SFS Suomen Standardit Reference:_x000D_
+https://store.sfs.fi/en/ieee-36521-2020_x000D_
+_x000D_
+Swiss Association for Standarisation (SNV) Reference:_x000D_
+https://connect.snv.ch/en/ieee-36521-2020-2_x000D_
+_x000D_
+Standards Norway Reference:_x000D_
+https://online.standard.no/en/ieee-36521_x000D_
+_x000D_
+CAMSS List of standards Reference:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards_x000D_
+_x000D_
+NIFO Factsheets Reference:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2024 '"""@en ;
+    cav:refersTo camssa:47b25a57-dc17-47c7-9965-be94270355b6 .
+
+camssa:ba90afd8-0474-4ef5-981a-9ce802745d6f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:string .
+
+camssa:bba844a4-3d41-405a-b2f1-9ce144e54ef3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'An FML system avoids information leakage and considers secure computation methods, including homomorphic (enables computation on encrypted data without decrypting it) and partial-homomorphic encryption (enables only specific computations on encrypted data without decrypting it), to preserve data privacy._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:c002d352-66b4-4fd1-9511-cf4a4e4d441e .
+
+camssa:bda35222-06bd-4f54-a911-543b7e70b3ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:string .
+
+camssa:c002d352-66b4-4fd1-9511-cf4a4e4d441e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:string .
+
+camssa:c04a8dcb-0f3b-4c26-ab09-88141adff3f0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:value "87.5%AssessmentScoreAverage"^^xsd:string,
+        "100%StrengthOfAssessmentScoreAverage"^^xsd:string .
+
+camssa:c2b1e918-2ce2-4f38-b4fd-f0fd59883583 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard is already associated to EIRA ABBs in the EIRA Library of Interoperability Specifications (ELIS). More specifically, IEEE 3652.1 can define the interoperability aspects of the "Interoperability Strategy Goal", "AI Model Inference Technology", "AI Model Training Technology", "Machine Learning Technology" ABBs of the EIRA Technical-view application._x000D_
+_x000D_
+ELIS Reference: https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/700_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:5bf5e43a-3718-4269-80d6-5a7da41f61bf .
+
+camssa:c2d2a882-55cb-429b-bbb4-b42e921aa10d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:string .
+
+camssa:c910a86c-b03c-4086-a351-8b3bd24b3834 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard has been cited in academic literature and is recognised by the research community as a reference in the field of Federated Machine Learning. In addition, it is indexed in IEEE Xplore. _x000D_
+_x000D_
+The effectiveness of the Federated Machine Learning (FML) principles covered by the IEEE 3652.1-2020 specification has been assessed by T. Xiang et al. In the study "Adaptive Collaborative Federated Learning (ACFL) Scheme for Mobile Edge Computing Environments", federated learning mechanisms are evaluated in relation to model reliability, convergence performance, distributed training effectiveness and resilience to communication constraints. The results show that the proposed approach improves model reliability and accelerates the convergence of the federated learning process, providing evidence of the effectiveness of federated learning architectures and the distributed learning principles addressed by the IEEE 3652.1-2020 specification._x000D_
+_x000D_
+IEEE 3652.1-2020 Citations Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202/citations?tabFilter=papers#citations _x000D_
+_x000D_
+Federated Learning With Dynamic Epoch Adjustment and Collaborative Training in Mobile Edge Computing: 10.1109/TMC.2023.3288392_x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202 '"""@en ;
+    cav:refersTo camssa:52b9d8e6-c442-4afc-915c-a65e7ad0f3c5 .
+
+camssa:c992380b-6ca5-4008-8ee4-37bfbcb47ab0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:string .
+
+camssa:cd816ce8-262c-4451-b6ea-ac86199b6c9b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:d417ed22-9b96-4b71-95ec-20f8d94617f5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:string .
+
+camssa:db005eb7-ae48-4e2d-9547-567c4cc63178 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As an IEEE SA standard, IEEE 3652.1 passed through Working Group ballot and an entity/individual Standards Association balloting group vote before approval by the IEEE SA Standards Board on 24 September 2020. Any interested party, IEEE member or not, can indicate interest in a working group and submit comments for revision, and every IEEE standard is subject to a formal review at least every ten years, at which point a further round of balloting and comment resolution applies._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+IEEE SA Standards Board Reference:_x000D_
+https://standards.ieee.org/about/sasb/'"""@en ;
+    cav:refersTo camssa:3e8fbcfa-3837-4971-a868-9f087c50a01a .
+
+camssa:dff47105-2fd9-4bb7-919b-1766cfccafe4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:string .
+
+camssa:e0d50dc0-25a9-4c38-8e65-28d6211bf812 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard was developed through a collaborative standardisation process involving academic institutions, industry representatives and technology providers participating in the IEEE Federated Machine Learning Working Group._x000D_
+In addition, the IEEE community has organised and supported several dissemination and engagement activities related to Federated Machine Learning (FML) and the IEEE 3652.1 framework. These activities have provided opportunities for researchers, practitioners and industry stakeholders to discuss the architectural principles, implementation approaches and practical applications covered by the standard. _x000D_
+Examples include working group meetings dedicated to the development of IEEE P3652.1, federated learning talks and community events focused on AI standardisation and distributed machine learning._x000D_
+_x000D_
+The standard is also referenced in international AI governance and policy initiatives, including the OECD AI Catalogue, which lists IEEE 3652.1-2020 as a recognised tool supporting trustworthy AI adoption and implementation._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202_x000D_
+_x000D_
+3rd IEEE P3652.1 Federated Machine Learning Working Group Meeting, a Joint Effort Facilitating and Accelerating Industry Standard-Setting Reference:_x000D_
+https://www.prnewswire.com/news-releases/3rd-ieee-p3652-1-federated-machine-learning-working-group-meeting-a-joint-effort-facilitating-and-accelerating-industry-standard-setting-300902902.html_x000D_
+_x000D_
+OECD AI Catalogue Reference:_x000D_
+https://oecd.ai/en/catalogue/tools/ieee-36521-2020-ieee-guide-for-architectural-framework-and-application-of-federated-machine-learning_x000D_
+_x000D_
+Fireside Chat about Standardization of Federated Machine Learning Reference:_x000D_
+https://engagestandards.ieee.org/FT-Federated-Learning.html'"""@en ;
+    cav:refersTo camssa:34fc44b2-bf8b-4037-bd48-422264d4ca21 .
+
+camssa:e426107a-74ea-40c4-950b-5b44ee8be76b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ec2ef818-49a9-4126-8910-565c168c9807 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard primary purpose is architectural and technical, not administrative. However, when a public administration uses federated machine learning, it is possible to see which organisations take part, which data sources are involved and who can review the process. In addition, the guide identifies "Government governance" and "Government services" as application scenarios._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:3ef5e246-7319-4d85-81aa-4dfa6d45e1b7 .
+
+camssa:ef98c434-e04d-4270-88c0-f489faf3e811 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "80"^^xsd:string .
+
+camssa:f1bca838-278b-4ed0-a2f7-d6d1ec1fb7b2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:string .
+
+camssa:f49b9825-3aed-42a4-ae35-f05b11986055 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:string .
+
+camssa:f7a96ea7-8bec-437a-9ed6-da7b40a193fb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "80"^^xsd:string .
+
+camssa:f9015590-0ee8-4daa-972a-74cd85ae671d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IEEE 3652.1-2020 standard requires FML models to be robust against data-poisoning and backdoor attacks that would alter data or model behaviour without authorisation, and defines the "extent of alteration" and "influence of alteration" as measurable indicators of the amount of data or models that have been altered and the resulting change in model performance, enabling implementers to verify and quantify whether unauthorised changes have occurred._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202'"""@en ;
+    cav:refersTo camssa:96b8d523-a164-47eb-920d-35c5f90fb0f3 .
+
+camssa:ff5d0ab5-7fa6-42b1-b598-c58c7e619221 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The core purpose of Federated Machine Learning, as defined in the standard, is to allow multiple parties to reuse each other's data (through model contributions rather than raw-data transfer) without disclosing the raw and private data owned by the participants while achieving good performance. This is conceptually close to once-only reuse of information across organisations, though the guide does not explicitly frame or implement the Once-Only Principle for citisen-facing administrative transactions, and reuse depends on the FML use case and the data owners' participation._x000D_
+_x000D_
+IEEE 3652.1-2020 Reference:_x000D_
+https://ieeexplore.ieee.org/document/9382202\""""@en ;
+    cav:refersTo camssa:c2d2a882-55cb-429b-bbb4-b42e921aa10d .
+
 
 
 
