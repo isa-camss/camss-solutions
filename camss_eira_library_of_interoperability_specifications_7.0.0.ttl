@@ -9663,6 +9663,16 @@ cssvrsc:f555d12d5ecdcba4e69ca65d7c69a83db7647d19b3de0b87ad52e406917dafb0 a cssv:
             dct:relation eira:EnvironmentManagementTechnologyService ] ;
     dcat:theme "Technology Architecture"@en .
 
+cssvrsc:158a261b6bb0db26cefbde4e71ba589c554b051d42b10852317b3e736cbeac9c a cssv:Specification ;
+    dct:relation [ dct:description "USM specifies a standardised management system of processes and workflows that a service provider uses to organise and deliver its services."@en ;
+            dct:relation eira:DigitalPublicServiceProvisionBusinessFunction ],
+        [ dct:description "USM defines a uniform customer-provider interaction model, allowing organisations to agree on and coordinate the delivery of services across organisational boundaries and supply chains."@en ;
+            dct:relation eira:OrganisationalAgreementContract ],
+        [ dct:description "USM describes an enterprise service management system that any team can learn and apply, allowing an organisation to manage its people, processes, technology and services in a consistent way."@en ;
+            dct:relation eira:DigitalBusinessCapabilityCapability ] ;
+    dcat:theme "Business Architecture"@en,
+        "Implementation Governance"@en .
+
 elis:59da9118-6640-4805-ac86-65bbec7ff837
         a                  dcat:CatalogRecord;
         dct:title          "OASIS Topology and Orchestration Specification for Cloud Applications (TOSCA)";

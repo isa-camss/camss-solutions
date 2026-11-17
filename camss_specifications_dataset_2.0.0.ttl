@@ -5823,6 +5823,8 @@ cssvrsc:8eb93f554a3440a30b522cf4f0f9f6800045bf0b2741c518fab12bac16ca84c6 a cssv:
     dcat:distribution cssvrsc:0bb5d659-25f1-482d-b741-6050d6914d56 ;
     dcat:version "2.1.0" .
 
+    
+
 cssvrsc:8ef4449817a74c2f19c7b02f804893fc803bb1f0fe8526488f8d29ceed7d2d2b a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym ""@en ;
@@ -9607,7 +9609,7 @@ cssvrsc:ed6a64677edc639c9631d69bb22ab685927454f0a79e0b682efe13f4c9fa35d7 a cssv:
     dcat:version "L 172/56" .
 
 <http://data.europa.eu/2sa/cssv/rsc/ed84e5cca1a760f8086028752750c99774b3f00ba2391d1ef8bd0da658fbf183> a prof:Profile ;
-    dct:title "EBSI - Decentralized indetifier (EBSI-DID)" ;
+    dct:title "EBSI - Decentralized identifier (EBSI-DID)" ;
     prof:isProfileOf cssvrsc:690863a8be09410b30645ee00ec4fb646f6f12f37f8969c48b9b330bc30fbf6d ;
     <http://purl.org/dc/terms/publisher> <https://www.iso.org/standard/71885.html> .
 
@@ -10626,6 +10628,26 @@ cssvrsc:438492653f1c958c0cb501a1924b0e215ca28a4a44e6620870e7f23eba760282 a cssv:
     dct:title "Common Workflow Language"@en ;
     dcat:distribution cssvrsc:c0c5abf4-8100-4f91-bf29-dda1adaba44b ;
     dcat:version "1.2.1" .
+
+cssvrsc:158a261b6bb0db26cefbde4e71ba589c554b051d42b10852317b3e736cbeac9c a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "USM"@en ;
+    cssv:alternative "USM Method"@en ;
+    cssv:isMaintainedBy cssvrsc:128e21ff019900cd3ba1cd64f676160e7cb156d2428990609b052dc65ff4db66 ;
+    dct:description "Unified Service Management (USM) is a universal, methodical approach to service management that provides a standardised management system for a service organisation of any size or sector to manage its people, processes, technology and services, based on an explicit service management architecture."@en ;
+    dct:title "Unified Service Management (USM)"@en ;
+    dcat:distribution cssvrsc:2d73ffb5-49eb-40e8-88ca-b20848b8e39b ;
+    dcat:version "3.0.0" .
+
+cssvrsc:128e21ff019900cd3ba1cd64f676160e7cb156d2428990609b052dc65ff4db66 a owl:NamedIndividual,
+        org:Organization ;
+    skos:altLabel "SURVUZ Foundation"@en ;
+    skos:prefLabel "SURVUZ"@en ;
+    foaf:homepage <https://usm-portal.com/> .
+
+cssvrsc:2d73ffb5-49eb-40e8-88ca-b20848b8e39b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://usm-portal.com/usm-library/?lang=en> .
 
 cssvrsc:c0c5abf4-8100-4f91-bf29-dda1adaba44b a owl:NamedIndividual,
         dcat:Distribution ;
