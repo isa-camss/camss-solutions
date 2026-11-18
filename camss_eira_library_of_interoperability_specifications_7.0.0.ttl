@@ -6104,7 +6104,7 @@ cssvrsc:7b572228fd139d6e4a270b0da87a1697c30df3e70a8d2e74311214200525d46d a cssv:
             dct:relation eira:EuropeanLegalActRequirement ] ;
     dcat:theme "Business Architecture"@en .
 
-cssvrsc:7b572228fd139d6e4a270b0da87a1697c30df3e70a8d2e74311214200525d46d a cssv:Specification ;
+cssvrsc:438492653f1c958c0cb501a1924b0e215ca28a4a44e6620870e7f23eba760282 a cssv:Specification ;
         dct:relation [ dct:description "CWL is mainly designed to describe command line tools and connect them into repeatable workflows, rather than to move or integrate data between systems directly. Even so, data analysis is one of its core use cases, which gives it a practical link to data integration scenarios."@en ;
             dct:relation eira:DataIntegrationApplicationService ] ;
     dcat:theme "Technology Architecture"@en .
