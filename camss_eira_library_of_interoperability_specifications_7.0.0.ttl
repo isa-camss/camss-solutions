@@ -4419,19 +4419,17 @@ cssvrsc:327c67acb2fdfe18fe292586ee0d282e25e00dbec3a8a20923b6ef14c05c074e a cssv:
         [ dct:description "The ETSI TS 104 050 specification aims to define all concepts related to AI threats. To this end, it provides an ontology model that encompasses these concepts and their interrelationships, enabling a more comprehensive understanding of how AI threats operate."@en ;
             dct:relation eira:OntologyDataObject ],
         [ dct:description "The ETSI TS 104 050 specification provides definitions and relationships of AI threat concepts, representing them within an ontology. This ontology helps to understand how an AI threat works. Although the specification does not directly offer mechanisms to protect against threats, it supports understanding the logic behind attacks, aiding the development or identification of external preventive measures."@en ;
-            dct:relation eira:SecurityFrameworkBusinessObject ] ;
+            dct:relation eira:SecurityFrameworkBusinessObject ] ,
+            camssa:29af06000760991590e5151938979f643c702d96c051356dd15d972499224838 ;
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en .
 
-cssvrsc:32d8400ca81c4e4c438a4ad650c5c258a763671a7277f8832e0adc98d72ef294 a cssv:Specification ;
-    dct:relation [ dct:description "The IEEE P3652.1 specification is addressed to provide a feasible solution that enables machine learning applications to utilise the data in a distributed manner that does not exchange raw data directly. In this context, the specification is expected to promote and facilitate collaborations among multiple parties, some of which are data source owners, such that user privacy and information security are protected."@en ;
-            dct:relation eira:InteroperabilityStrategyGoal ],
-        [ dct:description "The IEEE 3652.1 specification outlines a framework for federated machine learning, which allows models to learn from decentralised data without centralising it. This approach enables algorithms to make predictions while ensuring data privacy and security. By providing guidelines on how to implement such systems, it directly supports the development of models that learn from data and make predictions in distributed environments."@en ;
-            dct:relation eira:AIModelInferenceTechnologyService ],
-        [ dct:description "The IEEE 3652.1 specification outlines a framework for federated machine learning, which allows models to learn from decentralised data without centralising it. This approach enables algorithms to make predictions while ensuring data privacy and security. By providing guidelines on how to implement such systems, it directly supports the development of models that learn from data and make predictions in distributed environments."@en ;
+cssvrsc:26bb85d518b6277a12571e013076e662a18dce33e4719ce17fd43b9b115b7482 a cssv:Specification ;
+    dct:relation [ dct:description "IEEE 3652.1 describes how a shared model is trained on data that stays with each participating organisation or device, allowing training across several data owners without moving or exposing the underlying data."@en ;
             dct:relation eira:AIModelTrainingTechnologyService ],
-        [ dct:description "The IEEE 3652.1 specification outlines a framework for federated machine learning, which allows models to learn from decentralised data without centralising it. This approach enables algorithms to make predictions while ensuring data privacy and security. By providing guidelines on how to implement such systems, it directly supports the development of models that learn from data and make predictions in distributed environments."@en ;
-            dct:relation eira:MachineLearningTechnologyService ] ;
+        [ dct:description "IEEE 3652.1 sets out the privacy, security and regulatory requirements that apply to federated learning, allowing organisations to check that collaborative model building meets data protection rules."@en ;
+            dct:relation eira:AIGovernanceTechnologyService ] ,
+            camssa:9816b27a434bcbc1ebe70ebcc167388ea1fdc10de1d922e3731eeff8f712e379 ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en .
 
@@ -5444,7 +5442,8 @@ cssvrsc:5873e78303cf81c2b9a93061b0e64063a70a81c294154b325d95eb12c14c26bd a cssv:
     dct:relation [ dct:description "WebRTC is a protocol that allows media and generic application data to be sent to and received from another browser or device."@en ;
             dct:relation eira:DataExtractionTransformationAndLoadingApplicationService ],
         [ dct:description "WebRTC is a protocol that allows media and generic application data to be sent to and received from another browser or device."@en ;
-            dct:relation eira:DataExtractionTransformationAndLoadingApplicationComponent ] ;
+            dct:relation eira:DataExtractionTransformationAndLoadingApplicationComponent ] ,
+            camssa:6d0539016e448fbebad3f4ec908e035248c682740fdaa325509bd4c3965afd4a ;
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:597992364235f0462f20e8347dffb83844944f7f4f29b4631cd6330f03e6b2fe a cssv:Specification ;

@@ -4030,6 +4030,20 @@ cssvrsc:5b49cc24ed5f6ea574fa9d078ebb7436853742825869addf4c4a5f939f7f79d9 a cssv:
     dcat:distribution cssvrsc:a54e56e7-bd5b-4724-a937-cc5dadcfa688 ;
     dcat:version "1.0.0" .
 
+cssvrsc:26bb85d518b6277a12571e013076e662a18dce33e4719ce17fd43b9b115b7482 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:acronym "IEEE 3652.1"@en ;
+    cssv:alternative "IEEE Std 3652.1-2020"@en ;
+    cssv:isMaintainedBy cssvrsc:3c1250b675a3e22cc3555ea1c94489048376f76e7af7ac7c649ad868cbdb5259 ;
+    dct:description "IEEE 3652.1 is a guide to federated machine learning, an approach in which a shared model is built from data held by separate organisations or devices without pooling that data. It sets out an architectural framework and application guidelines, covering the categories of federated learning, the scenarios each one suits, performance evaluation and related privacy, security and regulatory requirements."@en ;
+    dct:title "IEEE Guide for Architectural Framework and Application of Federated Machine Learning (IEEE 3652.1-2020)"@en ;
+    dcat:distribution cssvrsc:432a0338-b5a0-4af0-ae9d-55fe3d42e99e ;
+    dcat:version "2020" .
+
+cssvrsc:432a0338-b5a0-4af0-ae9d-55fe3d42e99e a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL <https://ieeexplore.ieee.org/document/9382202> .
+
 cssvrsc:5b74bd3147b4848bbffdf2b72b231eb4fcff0e3e35e4b780f650a8783e9a4b8e a cssv:Specification,
         owl:NamedIndividual ;
     cssv:acronym "DNS"@en ;

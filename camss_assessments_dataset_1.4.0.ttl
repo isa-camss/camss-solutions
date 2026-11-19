@@ -138229,7 +138229,7 @@ camssa:fde6c868-8b91-498f-9b47-56970a352a6e a cav:Score,
 
 camssa:9816b27a434bcbc1ebe70ebcc167388ea1fdc10de1d922e3731eeff8f712e379 a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:ece6825dbd5fbb1f672ab55c3fbd65281da00f64926d2070882a27a1d0de6e47 ;
+    cav:assesses cssvrsc:26bb85d518b6277a12571e013076e662a18dce33e4719ce17fd43b9b115b7482 ;
     cav:considers camssa:c04a8dcb-0f3b-4c26-ab09-88141adff3f0 ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -143576,4 +143576,757 @@ _x000D_
 USM portal_x000D_
 https://usm-portal.com/?lang=en\""""@en ;
     cav:refersTo camssa:809d8a66-d57b-4991-98c6-56f692dc9c0d .
+
+camssa:29af06000760991590e5151938979f643c702d96c051356dd15d972499224838 a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:assesses cssvrsc:327c67acb2fdfe18fe292586ee0d282e25e00dbec3a8a20923b6ef14c05c074e ;
+    cav:considers camssa:c65be620-5744-4511-ab12-83a9d2f37243 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
+    cav:resultsIn camssa:0f3d575f-521a-48bd-b624-494864cfad8a,
+        camssa:1d54ae99-f4cc-47f1-b7fd-50e28e354f18,
+        camssa:2295e44d-e8d0-4a73-ad79-91b948b226f7,
+        camssa:293ccaa4-6122-41ca-8955-11d3da23d544,
+        camssa:31fe39bd-a758-463b-849c-8abc8146cb9a,
+        camssa:3602a87e-5936-4016-8276-058c37978365,
+        camssa:3683ddb0-255b-48a2-8f95-c4c22803907c,
+        camssa:387fa453-152b-4323-b483-a2eb1b70ee03,
+        camssa:404f0989-cd9b-481d-a170-dbe5b3404017,
+        camssa:47831730-0965-468d-aaa1-69c64aa957ff,
+        camssa:480cc6f1-acdd-45f0-871d-defa18faa3f5,
+        camssa:4c207ca2-1d19-49a1-81a6-794bb1f25fba,
+        camssa:4d659b62-216d-4cbc-96c7-5eeb6f8a3fef,
+        camssa:51522a1c-2c70-4705-9585-a673b16d31d1,
+        camssa:5f62efcb-e000-4d32-8e6d-9ed748adfc2d,
+        camssa:5f88e4ea-ce3e-4e1a-975f-00e43dfbcf44,
+        camssa:6f50fde7-3897-45fe-ab16-e9215ebed05d,
+        camssa:7896d414-5eed-4ee5-b98a-6aca89994964,
+        camssa:7ee0a99a-2ac0-4c64-b3ff-d63205123597,
+        camssa:7f253b8d-35bd-4d28-9a71-d5c67b1bec28,
+        camssa:82bfc643-7ef4-4366-a005-1e22571068be,
+        camssa:89bd7a3b-83f1-403b-8943-3a533354620c,
+        camssa:8dbfa4b6-17e7-4f47-9f3e-ab3551584d76,
+        camssa:939a9394-420b-4fe2-b1b0-15d05097ebc6,
+        camssa:958c61cc-ff93-4a11-b365-f1bc70602413,
+        camssa:ac894921-807f-4693-be36-e20e86c6745c,
+        camssa:b11a4b81-02cd-4c6c-9b13-b3e4044dbd9a,
+        camssa:b19420c6-918c-4308-812f-dc04dcd1f85a,
+        camssa:b58f102c-067c-41d2-93a9-afcc8ce9ae70,
+        camssa:b5d7e908-6514-44e5-a89e-05199b81d317,
+        camssa:b7ef9a64-195b-43d7-b672-28c785ee0120,
+        camssa:bce012e2-9f8e-46d3-8292-4a9069b67ab2,
+        camssa:bd9dca56-f467-45aa-83b0-808715ce11ee,
+        camssa:c2d46e0a-ab37-4cfd-a56f-18b1bd67026d,
+        camssa:cff10b98-2751-4f58-8a22-bab486efcf17,
+        camssa:d1a7ecba-b408-4bf6-a8a4-f18a17d8c062,
+        camssa:deb95d5d-7a6f-48ee-98da-cc2cc6015378,
+        camssa:df444055-9cdc-4219-9103-9ce36e67d27c,
+        camssa:e6f3c25d-8e49-4045-9a09-bbd0fe213489,
+        camssa:e82b5109-e875-4ae4-b5b0-8cfa1008befa,
+        camssa:eb6eff3a-67f4-4219-98ae-926669a59747,
+        camssa:ef51b023-7912-4d74-a68f-f714cd0a5071,
+        camssa:ef609370-1e61-4f4d-89ff-6a4660dc2775,
+        camssa:f1c4d812-8845-4f47-9ec6-4b8f90ef3d97,
+        camssa:f24ab8e1-a870-49a4-8f2a-2f037103783a ;
+    dct:description "Assessment of the Securing Artificial Intelligence (SAI); AI Threat Ontology and definitions (ETSI TS 104 050) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
+    dct:issued "2026-09-25"^^xsd:date ;
+    dct:title "CAMSS Assessment of Securing Artificial Intelligence (SAI); AI Threat Ontology and definitions (ETSI TS 104 050) EIF Scenario v1.0.0"@en ;
+    dcat:distribution camssa:055169d1-74bf-4af3-9a90-1b60f3539c46 ;
+    dcat:version "1.0.0" .
+
+camssa:03b76903-e8d3-4dea-a4d2-9b284c2a35e1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "80"^^xsd:string .
+
+camssa:055169d1-74bf-4af3-9a90-1b60f3539c46 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://data.europa.eu/w21/d739803e-a8e2-4f8c-b8e9-0a92ea71bbeb"^^xsd:anyURI .
+
+camssa:05a4b679-8c68-4723-9767-1bffc05d0fae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "80"^^xsd:string .
+
+camssa:0f3d575f-521a-48bd-b624-494864cfad8a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:fc9d96a9-0ba0-4974-8cbf-0d3b83d72087 .
+
+camssa:1132c473-edda-4e6e-a56a-3e406a218d0f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:string .
+
+camssa:1151c73f-33c6-40d4-b719-05f0a339e4a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "60"^^xsd:string .
+
+camssa:1d54ae99-f4cc-47f1-b7fd-50e28e354f18 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not define a conformance clause, testable requirements or a conformance-testing methodology, as it defines an AI threat ontology and common terminology rather than specific implementation requirements. It is limited to providing a conceptual ontology and terminology for AI-related security threats. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:d30feb0a-4598-43ff-ba99-924d92310878 .
+
+camssa:1e3b6dcc-5bc6-4fef-b18e-d61931d360e9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:string .
+
+camssa:2192466e-beb0-4cac-ab0d-f43d901e1bb6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "80"^^xsd:string .
+
+camssa:2295e44d-e8d0-4a73-ad79-91b948b226f7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 is organised into several largely independent parts covering definitions, the threat landscape and the ontology relationships, which could, in principle, be adopted selectively rather than as a whole. However, unlike specifications that explicitly define sets of requirements to be applied according to specific user or system needs, this specification presents its content as a coherent, descriptive whole and does not define distinct profiles or partial-conformance provisions._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:1151c73f-33c6-40d4-b719-05f0a339e4a6 .
+
+camssa:25aa501e-b3d0-4380-9894-9ae267e8da77 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:string .
+
+camssa:293ccaa4-6122-41ca-8955-11d3da23d544 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 does not provide any concrete mechanism or feature for restricting access to information or data. It identifies violation of confidentiality, including unauthorised access to, or disclosure of, sensitive information such as model outputs or training data, as one of the adversarial goals covered by its threat ontology. However, this treatment is limited to defining confidentiality as a threat category to be considered in risk analysis; the specification does not specify any access-control measures, protocols or other technical provisions that would restrict access to information or data in practice._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:29ff69f0-af1f-4f8d-bee3-9738ab819de4 .
+
+camssa:29ff69f0-af1f-4f8d-bee3-9738ab819de4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "60"^^xsd:string .
+
+camssa:2e8645b6-f7cb-4724-870a-727b382525e7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:string .
+
+camssa:31fe39bd-a758-463b-849c-8abc8146cb9a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After searching different catalogues, no evidence was found of ETSI TS 104 050 being included in a European catalogue of standards as a specification in its own right. However, its predecessor specification, ETSI GR SAI 001, from which ETSI TS 104 050 evolved, is referenced in the ENISA report Cybersecurity of AI and Standardisation. In this report, ENISA analyses standards and standardisation activities relevant to the cybersecurity and trustworthiness of Artificial Intelligence systems and identifies ETSI's AI-security work as part of the emerging European standardisation landscape addressing AI-related risks. The inclusion of ETSI GR SAI 001 in this European cybersecurity study provides evidence of recognition and visibility within the broader European AI governance and standardisation ecosystem._x000D_
+_x000D_
+Challenges and efforts in managing AI trustworthiness risks: a state of knowledge" study: https://pubmed.ncbi.nlm.nih.gov/38798307/
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:5bb011c3-527d-46bc-b0ef-7dd1f80086da .
+
+camssa:3602a87e-5936-4016-8276-058c37978365 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 defines AI-security terminology and a threat ontology. It does not concern the visibility of administrative procedures, rules, data or services of public administrations. Therefore, this criterion is not applicable to the specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:9605b410-6190-4a94-be59-180422c77d4e .
+
+camssa:3683ddb0-255b-48a2-8f95-c4c22803907c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not define a data model, exchange format, or transfer mechanism between systems or applications; it is concerned solely with concepts, definitions, and relationships so data portability does not apply. Therefore, this criterion is not applicable to the specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:95880aec-6209-44a3-bc23-e47ada8dc32e .
+
+camssa:387fa453-152b-4323-b483-a2eb1b70ee03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 does not provide an access control mechanism, as it does not define technical measures such as role or rule management for restricting system access. It is limited to defining and classifying AI-related threats within a conceptual ontology, without addressing implementation-level security controls. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:ba81d02d-8635-4333-bebb-91fb8d33da69 .
+
+camssa:3f30d2c7-6e64-47c7-851c-e0e025f0f2c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "60"^^xsd:string .
+
+camssa:404f0989-cd9b-481d-a170-dbe5b3404017 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 is not related to, or make provision for, technical interfaces of any kind (API, protocol, or otherwise) to public administration systems; it is confined to definitions and an ontological model. Therefore, this criterion is not applicable to the specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:700631fd-2bba-4e62-a012-cbab1e9b0461 .
+
+camssa:47831730-0965-468d-aaa1-69c64aa957ff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:aeeb171f-16e9-4156-97ba-014cb44576f7 .
+
+camssa:480cc6f1-acdd-45f0-871d-defa18faa3f5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ETSI TS 104 050 is not related to the publication of public data as open data. Therefore this_x000D_
+criterion is not applicable to the specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:967be4c0-f4a8-41be-a421-1cc65500f524 .
+
+camssa:4c207ca2-1d19-49a1-81a6-794bb1f25fba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification is not included in any national catalogue of recommended specifications whose Member State NIF has a high performance on interoperability according to NIFO factsheets. However, it has been recognised as a reference by ENISA (in its previous version, GR SAI-001) and in academic literature, and the UK Government includes it as a reference resource in the implementation guidance for its Implementation Guide for the AI Cyber Security Code of Practice._x000D_
+_x000D_
+CAMSS list of standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards_x000D_
+_x000D_
+"Challenges and efforts in managing AI trustworthiness risks: a state of knowledge" article:_x000D_
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11119750/_x000D_
+_x000D_
+"Cybersecurity of AI and Standardisation" report:_x000D_
+https://www.enisa.europa.eu/sites/default/files/publications/Cybersecurity%20of%20AI%20and%20Standardisation.pdf_x000D_
+_x000D_
+Implementation Guide for the AI Cyber Security Code of Practice:_x000D_
+https://assets.publishing.service.gov.uk/media/679cae441d14e76535afb630/Implementation_Guide_for_the_AI_Cyber_Security_Code_of_Practice.pdf_x000D_
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:7372382f-43a4-4ecf-b9e0-88fee66a6e9a .
+
+camssa:4d02a314-903a-492d-be8c-11b69d38b2ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:string .
+
+camssa:4d659b62-216d-4cbc-96c7-5eeb6f8a3fef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:ec2e2d23-6386-4ab2-b8ce-972cf13191c7 .
+
+camssa:51522a1c-2c70-4705-9585-a673b16d31d1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 defines a trust model, identifies different actor categories, and establishes trust relationships between stakeholders such as data owners, model providers, consumers, and outsiders. These concepts contribute to authenticity and trustworthiness considerations in AI systems. However, since its an ontological specifciations, there are no defined authentication systems or mechanisms._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:05a4b679-8c68-4723-9767-1bffc05d0fae .
+
+camssa:52226697-9171-44f9-8db9-6e1695fb2e6e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "80"^^xsd:string .
+
+camssa:58ca9854-7777-44ec-a5fc-e47b16354247 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "60"^^xsd:string .
+
+camssa:595c5f69-c7cc-4845-a86d-6de7b951a3ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:string .
+
+camssa:5bb011c3-527d-46bc-b0ef-7dd1f80086da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:string .
+
+camssa:5f62efcb-e000-4d32-8e6d-9ed748adfc2d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'No evidence was found of ETSI TS 104 050 being catalogued, as a specification in its own right, in a national open repository._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:c12f4780-702f-46af-81b8-6422a7683497 .
+
+camssa:5f88e4ea-ce3e-4e1a-975f-00e43dfbcf44 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification provides the standardised threat definitions and structural framework necessary to conduct effective risk analysis and protect sensitive citizen data within AI systems. It explicitly identifies confidentiality violations, including the risk that a trained model may inadvertently reveal or reconstruct the personal data used to train it, as one of the adversarial goals it addresses. However, it does not reference specific data-protection regulations, nor does it define exhaustive requirements or controls for protecting personal data; rather, it establishes the conceptual basis on which such protections can be built._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:3f30d2c7-6e64-47c7-851c-e0e025f0f2c1 .
+
+camssa:65493c3d-c2c3-4f77-83d2-17650b93ff93 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:string .
+
+camssa:6d2da9c5-ee5c-48fd-bd2e-4e2e635c73e8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:string .
+
+camssa:6f50fde7-3897-45fe-ab16-e9215ebed05d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 was originally published as ETSI GR SAI 001 in January 2022 and was subsequently updated and extended as ETSI TS 104 050 V1.1.1 in March 2025. Developed by ETSI Technical Committee Securing Artificial Intelligence (TC SAI), the specification establishes a common ontology and terminology for AI-related threats, vulnerabilities, threat agents, trust relationships, and countermeasures. Its objective is to provide a shared understanding of AI-security concepts across stakeholders and sectors and to support consistent threat modelling and risk analysis for AI-enabled systems._x000D_
+_x000D_
+The latest available release of the specification is ETSI TS 104 050 V1.1.1 (March 2025). This release formalised the AI Threat Ontology as an ETSI Technical Specification and consolidated the terminology, threat taxonomy, trust models, and AI-specific threat concepts developed within the ETSI SAI programme. The specification provides a structured ontology covering threats to AI systems, threats posed by AI systems, AI-enabled threat agents, and AI-enabled countermeasures, offering a consistent framework for AI-security analysis across multiple domains._x000D_
+_x000D_
+The most recent major evolution of the specification was the transition from ETSI GR SAI 001 to ETSI TS 104 050, explicitly described in the Foreword as an update and extension of the earlier Group Report. This progression demonstrates the maturity of the work, as the ontology evolved from an informative report into a normative ETSI Technical Specification. The new release expanded and refined the original ontology, retained key concepts from the earlier work, and strengthened its role as a common reference framework for AI threat identification, classification, and security governance within the broader ETSI TC SAI work programme._x000D_
+_x000D_
+In addition, the original ETSI GR SAI 001 was referenced in the ENISA report Cybersecurity of AI and Standardisation, which provides an overview of standards and standardisation activities supporting the cybersecurity and trustworthiness of Artificial Intelligence systems in Europe. The report analyses standards relevant to the implementation of AI risk-management and cybersecurity requirements and identifies ETSI's AI-security work as part of the European standardisation landscape._x000D_
+_x000D_
+"Cybersecurity of AI and Standardisation" report:_x000D_
+https://www.enisa.europa.eu/sites/default/files/publications/Cybersecurity%20of%20AI%20and%20Standardisation.pdf_x000D_
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:595c5f69-c7cc-4845-a86d-6de7b951a3ff .
+
+camssa:700631fd-2bba-4e62-a012-cbab1e9b0461 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:string .
+
+camssa:7372382f-43a4-4ecf-b9e0-88fee66a6e9a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:string .
+
+camssa:7896d414-5eed-4ee5-b98a-6aca89994964 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:1132c473-edda-4e6e-a56a-3e406a218d0f .
+
+camssa:7ee0a99a-2ac0-4c64-b3ff-d63205123597 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:e7a3dca1-f467-43b4-a4e1-a5a9527a68c6 .
+
+camssa:7f253b8d-35bd-4d28-9a71-d5c67b1bec28 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 analyses threats affecting data throughout the AI lifecycle, including data acquisition, curation, transfer, manipulation, poisoning, and compromise. It discusses their impact on confidentiality, integrity, and availability and provides a structured threat-modelling framework. However, it does not prescribe concrete protocols, cryptographic mechanisms, or secure-exchange technologies._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:2192466e-beb0-4cac-ab0d-f43d901e1bb6 .
+
+camssa:7fc1e5aa-0286-47d1-b5af-85f67911cc5d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:string .
+
+camssa:82bfc643-7ef4-4366-a005-1e22571068be a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI IPR Policy which is part of the ETSI directives seeks to reduce the risk that our standards-making efforts might be wasted if SEPs are unavailable under Fair, Reasonable and Non-Discriminatory (FRAND) terms and conditions.
+The main objective of the ETSI IPR Policy is to balance the rights and interests of IPR holders to be fairly and adequately rewarded for the use of their SEPs in the implementation of ETSI standards and the need for implementers to get access to the technology defined in ETSI standards under FRAND terms and conditions.
+
+ETSI’s intellectual property rights policy:
+https://www.etsi.org/intellectual-property-rights'"""@en ;
+    cav:refersTo camssa:b7a9b9ea-28b8-4233-b16e-a838020b44ac .
+
+camssa:82f76841-3769-4773-b816-cabd95917230 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:string .
+
+camssa:89bd7a3b-83f1-403b-8943-3a533354620c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There has not been found any European Member State recommending ETSI TS 104 050 for the implementation or procurement of digital public services. However, it has been recognised as a reference by ENISA (in its previous version, GR SAI-001) and in academic literature, and the UK Government includes it as a reference resource in the implementation guidance for its Implementation Guide for the AI Cyber Security Code of Practice._x000D_
+_x000D_
+CAMSS List of Standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards_x000D_
+_x000D_
+"Cybersecurity of AI and Standardisation" report:_x000D_
+https://www.enisa.europa.eu/sites/default/files/publications/Cybersecurity%20of%20AI%20and%20Standardisation.pdf_x000D_
+_x000D_
+Implementation Guide for the AI Cyber Security Code of Practice:_x000D_
+https://assets.publishing.service.gov.uk/media/679cae441d14e76535afb630/Implementation_Guide_for_the_AI_Cyber_Security_Code_of_Practice.pdf_x000D_
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:2e8645b6-f7cb-4724-870a-727b382525e7 .
+
+camssa:8a33a528-b05c-4cf5-ac14-a3b9641349c7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "80"^^xsd:string .
+
+camssa:8aafbfb9-072d-49cb-9cd8-cbce42d50a32 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "80"^^xsd:string .
+
+camssa:8dbfa4b6-17e7-4f47-9f3e-ab3551584d76 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 forms part of the broader ETSI Technical Committee Securing Artificial Intelligence (TC SAI) standards portfolio and has gained visibility and recognition across the international AI-security standardisation community. The specification is publicly referenced and catalogued by the AI Standards Hub, which promotes its use and dissemination among standards practitioners, researchers, and policy stakeholders. _x000D_
+Furthermore, the work has received independent recognition from the UK National Cyber Security Centre (NCSC) and the UK Department for Science, Innovation and Technology (DSIT), both of which have publicly highlighted ETSI's AI-security standardisation work and their collaboration with ETSI in developing AI-security standards. The UK Government's AI Cyber Security Code of Practice and its implementation guidance similarly identify ETSI as a key standardisation body for AI security, confirming this ongoing collaboration between government authorities, the NCSC, and ETSI._x000D_
+_x000D_
+Additional evidence of the specification's relevance can be found in the predecessor specification, ETSI GR SAI 001, which is referenced in the ENISA report Cybersecurity of AI and Standardisation. This report analyses standards and standardisation activities that support the cybersecurity and trustworthiness of Artificial Intelligence systems and examines their role in addressing AI-specific risks and supporting the emerging European regulatory framework for AI. Within this context, ETSI GR SAI 001 is identified as part of the European standardisation landscape addressing cybersecurity threats targeting AI systems and threats enabled by AI technologies. The work is also aligned with broader European efforts to analyse and manage AI-related risks, including those reflected in Regulation (EU) 2024/1689 (AI Act)._x000D_
+_x000D_
+In addition, ETSI GR SAI 001 has been referenced in academic research, including the article Challenges and efforts in managing AI trustworthiness risks: a state of knowledge, as an example of ongoing efforts to structure and manage AI trustworthiness and cybersecurity risks. The evolution of ETSI GR SAI 001 into ETSI TS 104 050 further demonstrates the continued development and maturity of this work within the AI-security domain._x000D_
+_x000D_
+Together, this industry, research and government engagement, alongside the specification's presence in recognised AI standards repositories and independent studies, provides evidence of its relevance and recognition within the emerging AI-security standards landscape. While AI-security standardisation remains an evolving field, ETSI TS 104 050 contributes directly to the development of innovative approaches for AI threat modelling, risk analysis and security governance._x000D_
+_x000D_
+AI Standards Hub - SAI AI Threat Ontology:_x000D_
+https://aistandardshub.org/ai-standards/securing-artificial-intelligence-sai-ai-threat-ontology-and-definitions/_x000D_
+_x000D_
+Challenges and efforts in managing AI trustworthiness risks: a state of knowledge" article:_x000D_
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11119750/_x000D_
+_x000D_
+Department for Science, Innovation and Technology (DSIT) - Implementation guide for the AI cyber security code of practice:_x000D_
+https://assets.publishing.service.gov.uk/media/679cae441d14e76535afb630/Implementation_Guide_for_the_AI_Cyber_Security_Code_of_Practice.pdf_x000D_
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf_x000D_
+_x000D_
+Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024  laying down harmonised rules on artificial intelligence:_x000D_
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689_x000D_
+_x000D_
+UK National Cyber Security Centre (NCSC) - New ETSI standard protects AI systems from evolving cyber threats_x000D_
+https://www.ncsc.gov.uk/blog-post/new-etsi-standard-protects-ai-systems-from-evolving-cyber-threats'"""@en ;
+    cav:refersTo camssa:a6b4d144-8462-4623-9c0f-b43d4c961f83 .
+
+camssa:933f2367-0709-4a15-a40b-c5fdca711f91 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:string .
+
+camssa:939a9394-420b-4fe2-b1b0-15d05097ebc6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not enable the-eaccessibility. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:9550ff4f-dbde-4aaa-a458-cc566ed69baf .
+
+camssa:9550ff4f-dbde-4aaa-a458-cc566ed69baf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:95880aec-6209-44a3-bc23-e47ada8dc32e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100"^^xsd:string .
+
+camssa:958c61cc-ff93-4a11-b365-f1bc70602413 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not enable long-term preservation of data, information or knowledge, as it does not define any provisions, formats or mechanisms for the archiving or long-term retention of electronic records. It is limited to providing a conceptual ontology and terminology for AI-related security threats. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:65493c3d-c2c3-4f77-83d2-17650b93ff93 .
+
+camssa:9605b410-6190-4a94-be59-180422c77d4e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:string .
+
+camssa:967be4c0-f4a8-41be-a421-1cc65500f524 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:string .
+
+camssa:9f84a98e-e94f-4cdb-a612-f682ecb40cc4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:string .
+
+camssa:a35b7795-d5e4-4ab3-958b-7e797ff06172 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a5d27875-1517-4a8d-94f3-8c13b588898e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a6b4d144-8462-4623-9c0f-b43d4c961f83 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ac0579e0-e684-408b-8bb4-03305622d27c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ac894921-807f-4693-be36-e20e86c6745c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 addresses threats affecting the processing of data and models, including poisoning attacks, malicious retraining, model compromise, transfer-learning risks, and logic corruption at a conceptual level. It analyses how these threats affect AI decision-making and model behaviour. Nevertheless, as an ontology it does not forsee technical mechanisms to enable secure data processing._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:52226697-9171-44f9-8db9-6e1695fb2e6e .
+
+camssa:aeeb171f-16e9-4156-97ba-014cb44576f7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:string .
+
+camssa:b11a4b81-02cd-4c6c-9b13-b3e4044dbd9a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not encourage the creation of communities along with the sharing of data and results on national or European platforms, as no discussion of the specification was found on general community platforms. It is limited to providing a conceptual ontology and terminology for AI-related security threats. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:f5f61c17-5c4a-4215-bc64-929a66db48e2 .
+
+camssa:b120cc9f-0e52-4ea6-95b3-0410163a8159 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "0"^^xsd:string .
+
+camssa:b19420c6-918c-4308-812f-dc04dcd1f85a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The efficiency of the specification has been assessed through academic research examining governance and policy approaches for addressing AI-related risks. In the study named "The role of ETSI in the EU's regulation and governance of artificial intelligence", ETSI's work on AI-security standardisation is considered within the broader landscape of instruments designed to support trustworthy and secure AI deployment. The study discusses how governance frameworks, standards and risk-management approaches contribute to addressing AI-related challenges and highlights the role of structured methodologies for analysing and mitigating risks. As ETSI TS 104 050 provides a standardised ontology and terminology for AI threats and security analysis, this research offers independent evidence of the efficiency of such standardisation efforts in supporting consistent risk-management and governance practices across organisations and sectors._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf_x000D_
+_x000D_
+"The role of ETSI in the EU's regulation and governance of artificial intelligence" article:_x000D_
+https://www.tandfonline.com/doi/abs/10.1080/13511610.2024.2349627'"""@en ;
+    cav:refersTo camssa:933f2367-0709-4a15-a40b-c5fdca711f91 .
+
+camssa:b58f102c-067c-41d2-93a9-afcc8ce9ae70 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:7fc1e5aa-0286-47d1-b5af-85f67911cc5d .
+
+camssa:b5d7e908-6514-44e5-a89e-05199b81d317 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:9f84a98e-e94f-4cdb-a612-f682ecb40cc4 .
+
+camssa:b7a9b9ea-28b8-4233-b16e-a838020b44ac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100"^^xsd:string .
+
+camssa:b7ef9a64-195b-43d7-b672-28c785ee0120 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 defines a trust model and actor taxonomy, distinguishing data owners, system/model providers, training data providers, consumers, and outsiders, which delineates distinct roles and responsibilities relevant to AI systems. This could usefully inform the drafting of organisational interoperability agreements, such as Memoranda of Understanding or Service Level Agreements, concerning AI-security governance, although the specification does not itself provide agreement templates or a complete set of clauses._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:8a33a528-b05c-4cf5-ac14-a3b9641349c7 .
+
+camssa:ba81d02d-8635-4333-bebb-91fb8d33da69 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a16c678a586cf542d2ae1d6cd8a987bd6ed0b2af52ba0e04d8872fe616a9b7bd ;
+    cav:value "100"^^xsd:string .
+
+camssa:bce012e2-9f8e-46d3-8292-4a9069b67ab2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI’s decision-making process includes a public review, where stakeholders involved can provide technical feedback in order to enhance and maximize the quality and accuracy of the standards.
+
+ETSI standard-making process:
+https://portal.etsi.org/Resources/Standards-Making-Process/Process'"""@en ;
+    cav:refersTo camssa:03b76903-e8d3-4dea-a4d2-9b284c2a35e1 .
+
+camssa:bd9dca56-f467-45aa-83b0-808715ce11ee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is maintained by ETSI Technical Committee SAI (Securing Artificial Intelligence), an active, standing ETSI committee also responsible for the closely related ETSI TR 104 221 (Problem Statement) and ETSI TR 104 222 (Mitigation Strategy Report), evidencing an ongoing, organised community with responsibility for the maintenance and evolution of the SAI document set, of which SAI AI Threat Ontology specification forms part._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf_x000D_
+_x000D_
+SAI Mitigation Strategy Report:_x000D_
+https://www.etsi.org/deliver/etsi_tr/104200_104299/104222/01.02.01_60/tr_104222v010201p.pdf_x000D_
+_x000D_
+SAI Problem Statement:_x000D_
+https://www.etsi.org/deliver/etsi_tr/104200_104299/104221/01.01.01_60/tr_104221v010101p.pdf'"""@en ;
+    cav:refersTo camssa:b120cc9f-0e52-4ea6-95b3-0410163a8159 .
+
+camssa:c12f4780-702f-46af-81b8-6422a7683497 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:string .
+
+camssa:c2d46e0a-ab37-4cfd-a56f-18b1bd67026d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 addresses data integrity, covering threats such as data poisoning, information corruption, manipulation, and model compromise that can affect the integrity of AI systems. It provides a conceptual, ontology-based framework that can support the identification and analysis of these integrity-related risks, but does not define specific technical provisions to enable data integrity._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:8aafbfb9-072d-49cb-9cd8-cbce42d50a32 .
+
+camssa:c65be620-5744-4511-ab12-83a9d2f37243 a cav:Score,
+        owl:NamedIndividual ;
+    cav:value "100%StrengthOfAssessmentScoreAverage"^^xsd:string,
+        "83.33%AssessmentScoreAverage"^^xsd:string .
+
+camssa:cff10b98-2751-4f58-8a22-bab486efcf17 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:82f76841-3769-4773-b816-cabd95917230 .
+
+camssa:d1a7ecba-b408-4bf6-a8a4-f18a17d8c062 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 forms part of the broader ETSI Technical Committee Securing Artificial Intelligence (TC SAI) programme, a European standardisation initiative addressing the security, trustworthiness, confidentiality, and privacy implications of AI systems. The specification explicitly discusses confidentiality breaches, model inversion attacks, and risks involving personal data contained in training datasets. Although not a privacy-specific standard, it contributes to a European-level initiative covering privacy-related and security-related aspects of AI systems._x000D_
+_x000D_
+Additional evidence of its relevance within European initiatives can be found in the predecessor specification, ETSI GR SAI 001, which is referenced in the ENISA report Cybersecurity of AI and Standardisation. The report analyses standards and standardisation activities supporting the cybersecurity and trustworthiness of AI systems and examines how these standards can contribute to addressing AI-related risks within the European regulatory landscape. In this context, ETSI's work on AI threats and security ontologies is identified as part of the evolving European framework for managing risks affecting AI systems._x000D_
+_x000D_
+Furthermore, the objectives addressed by ETSI TS 104 050 are closely aligned with broader European policy and regulatory initiatives, including Regulation (EU) 2024/1689, which recognises the importance of identifying and mitigating risks and attacks affecting AI systems. Both ENISA and ETSI play an active role in the European AI governance ecosystem and have contributed to the analysis of AI-related cybersecurity risks through their respective activities. The evolution from ETSI GR SAI 001 to ETSI TS 104 050 demonstrates the continued development of a European initiative aimed at supporting the secure, trustworthy and privacy-aware deployment of Artificial Intelligence systems through common terminology, threat modelling and risk analysis frameworks._x000D_
+_x000D_
+"Cybersecurity of AI and Standardisation" report:_x000D_
+https://www.enisa.europa.eu/sites/default/files/publications/Cybersecurity%20of%20AI%20and%20Standardisation.pdf_x000D_
+_x000D_
+ETSI GR SAI 001:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf_x000D_
+_x000D_
+Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024  laying down harmonised rules on artificial intelligence:_x000D_
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689_x000D_
+_x000D_
+Securing Artificial Intelligence (SAI):_x000D_
+https://www.etsi.org/technical-groups/sai/'"""@en ;
+    cav:refersTo camssa:ac0579e0-e684-408b-8bb4-03305622d27c .
+
+camssa:d2296757-e8a2-4c21-becf-0b2ab2a54b7a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:string .
+
+camssa:d30feb0a-4598-43ff-ba99-924d92310878 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:string .
+
+camssa:deb95d5d-7a6f-48ee-98da-cc2cc6015378 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 defines AI-security terminology and a threat ontology. It does not scope administrative procedures, rules, data or services of public administrations. Therefore, this criterion is not applicable to the specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:a35b7795-d5e4-4ab3-958b-7e797ff06172 .
+
+camssa:df444055-9cdc-4219-9103-9ce36e67d27c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050  does not address multilingualism, as it is a conceptual ontology and glossary of AI security threat terminology published in English, without provisions for translation, localisation or use across different languages. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:4d02a314-903a-492d-be8c-11b69d38b2ca .
+
+camssa:e6f3c25d-8e49-4045-9a09-bbd0fe213489 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI’s standards-making process has been clearly defined after years of experience. The organisation has adopted the open approach which means direct participation and consensus as a basis to develop standards. All the stakeholders have the opportunity to participate directly in the process of standardisation through the technical committees created to develop ETSI’s technical specifications and standards.
+
+ETSI Standard-making process:
+https://portal.etsi.org/Resources/Standards-Making-Process/Process'"""@en ;
+    cav:refersTo camssa:f34f8112-8927-4fe6-a123-6df396bb2cf3 .
+
+camssa:e7a3dca1-f467-43b4-a4e1-a5a9527a68c6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:string .
+
+camssa:e82b5109-e875-4ae4-b5b0-8cfa1008befa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ETSI TS 104 050 defines a generic ontology of AI threats, threat agents and countermeasures that is not tied to any single business sector, and is intended to align AI-security terminology across different stakeholders and industries. This domain-agnosticism, however, should be understood as applying only within the space of domains where artificial intelligence is applied or configured: the ontology models AI-related threat agents and countermeasures as specialisations of generic security concepts, and is therefore reusable across any sector that deploys or is exposed to AI-enabled systems (e.g. healthcare, finance, transport), but it does not extend to domains, systems or threats unrelated to AI. The specification's reusability is thus bounded by the presence of AI within a given business context, rather than being universal across all possible domains regardless of their reliance on AI._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf\""""@en ;
+    cav:refersTo camssa:25aa501e-b3d0-4380-9894-9ae267e8da77 .
+
+camssa:eb6eff3a-67f4-4219-98ae-926669a59747 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:1e3b6dcc-5bc6-4fef-b18e-d61931d360e9 .
+
+camssa:ec2e2d23-6386-4ab2-b8ce-972cf13191c7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ef51b023-7912-4d74-a68f-f714cd0a5071 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The effectiveness of the ETSI TS 104 050 specification has been assessed in the academic literature through studies analysing approaches for managing AI trustworthiness risks. In the article "Challenges and efforts in managing AI trustworthiness risks: a state of knowledge", ETSI GR SAI 001 V1.1.1, the Group Report that preceded the publication of ETSI TS 104 050, is referenced as part of the body of standards and frameworks addressing AI-security threats and trustworthiness risks. The study reviews existing initiatives supporting the identification, classification and management of AI-related risks, and cites ETSI GR SAI 001 as a relevant contribution to the development of structured approaches for AI threat analysis and governance. This provides independent evidence of the effectiveness of the specification's underlying concepts in supporting AI trustworthiness and security risk management._x000D_
+_x000D_
+"Cybersecurity of AI and Standardisation" report:_x000D_
+https://www.enisa.europa.eu/sites/default/files/publications/Cybersecurity%20of%20AI%20and%20Standardisation.pdf_x000D_
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:d2296757-e8a2-4c21-becf-0b2ab2a54b7a .
+
+camssa:ef609370-1e61-4f4d-89ff-6a4660dc2775 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not allow relevant information to be reused when needed. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:a5d27875-1517-4a8d-94f3-8c13b588898e .
+
+camssa:f1c4d812-8845-4f47-9ec6-4b8f90ef3d97 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 addresses data accuracy, covering threats such as data poisoning and the introduction of bias that can prevent an AI system from reaching correct outputs. It provides a conceptual, ontology-based framework that can support the identification and analysis of these accuracy-related risks, but does not define specific technical provisions to enable data accuracy._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:58ca9854-7777-44ec-a5fc-e47b16354247 .
+
+camssa:f24ab8e1-a870-49a4-8f2a-2f037103783a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 specification does not enable digital service delivery channels, as it does not define any API, protocol or other technical mechanism for delivering digital public services. It is limited to providing a conceptual ontology and terminology for AI-related security threats. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:6d2da9c5-ee5c-48fd-bd2e-4e2e635c73e8 .
+
+camssa:f34f8112-8927-4fe6-a123-6df396bb2cf3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "60"^^xsd:string .
+
+camssa:f5f61c17-5c4a-4215-bc64-929a66db48e2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100"^^xsd:string .
+
+camssa:fc9d96a9-0ba0-4974-8cbf-0d3b83d72087 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:string .
 
