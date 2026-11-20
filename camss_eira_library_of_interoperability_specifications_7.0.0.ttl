@@ -536,11 +536,11 @@ elis:1ea02ceb-c516-4f62-b268-a73874a93dd0 a dcat:CatalogRecord ;
     dct:title "JSON Web Token (JWT)"@en ;
     foaf:primaryTopic cssvrsc:a2fb86ee46faf06435db10581b6f10c21fb8a0849d1fd23a1f03090ce9fa055f .
     
-elis:1ea02ceb-c516-4f62-b268-a73874a93dd0 a dcat:CatalogRecord ;
+elis:1ea02ceb-c516-4f62-b268-a73874a93dd1 a dcat:CatalogRecord ;
     dct:title "Selective Disclosure for JSON Web Tokens (SD-JWT)"@en ;
     foaf:primaryTopic cssvrsc:934c4d67a7293e968120eb9590df1d0bb8c2f16fa5212cb5db0ac7a5e1c564d8 .
 
-elis:1ea02ceb-c516-4f62-b268-a73874a93dd0 a dcat:CatalogRecord ;
+elis:1ea02ceb-c516-4f62-b268-a73874a98dd0 a dcat:CatalogRecord ;
     dct:title "JSON Web Signature (JWS)"@en ;
     foaf:primaryTopic cssvrsc:80c0a3dad7a266e7126bc63963d1c7961e0b78bd626dc9d964904cfcead3a896 .
 
@@ -975,10 +975,6 @@ elis:4a507f75-e5d0-4969-9ec9-5ac4cb12b7fb a dcat:CatalogRecord ;
 elis:4a7909fd-d23d-4481-bacd-0f61840ce723 a dcat:CatalogRecord ;
     dct:title "SIOC (Semantically Interlinked Online Communities)"@en ;
     foaf:primaryTopic cssvrsc:1a7498f69820fb0fd55e3ca51b090872c45e0cf7cca42bd30e0a5331ae9a993d .
-
-elis:4b4cfc1e-66ba-4a99-bdbe-7c0e960ad6f2 a dcat:CatalogRecord ;
-    dct:title "Access Control Paradigm (IAM - 003 IAM & Access Control Paradigm)"@en ;
-    foaf:primaryTopic cssvrsc:4f5086956ce7e0b60b68a495894409cd87434260749581ec127f9072afb4c6c6 .
 
 elis:4b95fb89-018c-41a6-bfb7-028ddc08c497 a dcat:CatalogRecord ;
     dct:title "WebFinger protocol"@en ;
@@ -1972,10 +1968,6 @@ elis:9fbd5f16-4f2b-41aa-bd7d-d183ce25da96 a dcat:CatalogRecord ;
 elis:9fd435c8-84b5-4ae9-922b-cb4d66729886 a dcat:CatalogRecord ;
     dct:title "ISO/IEC 38505-2: Information technology - Governance of IT - Part2: Implications of ISO/IEC38505-1 for Data Management"@en ;
     foaf:primaryTopic cssvrsc:15efa96c4f199f4283c0c6c623290196f0fc5ff802b839640c32246e2b474717 .
-
-elis:a009c3eb-4bab-48b0-84ed-8509c6173fab a dcat:CatalogRecord ;
-    dct:title "Core Public Service Vocabulary ApplicationProfile 2.2"@en ;
-    foaf:primaryTopic cssvrsc:f4314f9cf9c8e1b1f57df755f3c11d9797e235f51e0f4bebf15035b1ac4a0074 .
 
 elis:a01fe2bf-2182-40d9-bf36-130f0182b42b a dcat:CatalogRecord ;
     dct:title "IANA Media Types (RFC 6838, MIME  types)"@en ;
@@ -3899,6 +3891,10 @@ cssvrsc:233c9cad74d659496d4105730365b961fe0e2dcfe78f46fc5804a66545f69b41 a cssv:
             dct:relation eira:APIDiscoveryAndCatalogueApplicationService ] ;
     dcat:theme "Technology Architecture"@en .
 
+    elis:56cd33a2-bbd8-427b-9ffd-10e5e1db4702 a dcat:CatalogRecord ;
+    dct:title "D&S-001 EDC Discovery API"@en ;
+    foaf:primaryTopic cssvrsc:233c9cad74d659496d4105730365b961fe0e2dcfe78f46fc5804a66545f69b41 .
+
 cssvrsc:236d9aa59c4ca31ca8b1c54328812d8ab09496916c7ca622b70446b1b1a660a0 a cssv:Specification ;
     dct:relation [ dct:description "The eDelivery Access Point (AP) Domibus enables the transformation and exchange of information, data, or communications between different protocols or formats, ensuring that diverse systems can effectively communicate and exchange data within a secure and reliable framework."@en ;
             dct:relation eira:GatewayTechnologyService ],
@@ -4424,7 +4420,7 @@ cssvrsc:327c67acb2fdfe18fe292586ee0d282e25e00dbec3a8a20923b6ef14c05c074e a cssv:
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en .
 
-cssvrsc:26bb85d518b6277a12571e013076e662a18dce33e4719ce17fd43b9b115b7482 a cssv:Specification ;
+cssvrsc:32d8400ca81c4e4c438a4ad650c5c258a763671a7277f8832e0adc98d72ef294 a cssv:Specification ;
     dct:relation [ dct:description "IEEE 3652.1 describes how a shared model is trained on data that stays with each participating organisation or device, allowing training across several data owners without moving or exposing the underlying data."@en ;
             dct:relation eira:AIModelTrainingTechnologyService ],
         [ dct:description "IEEE 3652.1 sets out the privacy, security and regulatory requirements that apply to federated learning, allowing organisations to check that collaborative model building meets data protection rules."@en ;
@@ -6666,6 +6662,10 @@ cssvrsc:720fe6bed5f9283dffb49f2576c58b51ca756fd5ba52bb011ee760fe5af2eb2b a cssv:
             dct:relation eira:VulnerabilityScanningTechnologyService ] ;
     dcat:theme "Technology Architecture"@en .
 
+elis:74ea55e4-9fd4-467d-9d44-361f0e15c0d4 a dcat:CatalogRecord ;
+    dct:title "Open Vulnerability and Assessment Language (OVAL)"@en ;
+    foaf:primaryTopic cssvrsc:720fe6bed5f9283dffb49f2576c58b51ca756fd5ba52bb011ee760fe5af2eb2b .
+
 cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b a cssv:Specification ;
     dct:relation [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
@@ -7058,9 +7058,9 @@ cssvrsc:a2fb86ee46faf06435db10581b6f10c21fb8a0849d1fd23a1f03090ce9fa055f a cssv:
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:934c4d67a7293e968120eb9590df1d0bb8c2f16fa5212cb5db0ac7a5e1c564d8 a cssv:Specification ;
-    dct:relation [ dct:description "JWT is an industry standard method for representing claims securely between two parties."@en ;
+    dct:relation [ dct:description "SD-JWT is an industry standard method for representing claims securely between two parties."@en ;
             dct:relation eira:AccessManagementApplicationComponent ],
-        [ dct:description "JWT is an industry standard method for representing claims securely between two parties."@en ;
+        [ dct:description "SD-JWT is an industry standard method for representing claims securely between two parties."@en ;
             dct:relation eira:AccessManagementApplicationService ],
         camssa:e1e7dd90a8e4ce592f2ad46bd2ef19c92721ec8644a1bb0fa1b8ce13346a961a ;
     dcat:theme "Technology Architecture"@en .
@@ -9667,9 +9667,14 @@ cssvrsc:158a261b6bb0db26cefbde4e71ba589c554b051d42b10852317b3e736cbeac9c a cssv:
         [ dct:description "USM defines a uniform customer-provider interaction model, allowing organisations to agree on and coordinate the delivery of services across organisational boundaries and supply chains."@en ;
             dct:relation eira:OrganisationalAgreementContract ],
         [ dct:description "USM describes an enterprise service management system that any team can learn and apply, allowing an organisation to manage its people, processes, technology and services in a consistent way."@en ;
-            dct:relation eira:DigitalBusinessCapabilityCapability ] ;
+            dct:relation eira:DigitalBusinessCapabilityCapability ] ,
+            camssa:5c156935adb015c2276a3bec5e3c613796221647c7855e9d46eadcc53f508f1e ;
     dcat:theme "Business Architecture"@en,
         "Implementation Governance"@en .
+
+elis:dde7a46b-bd95-4f8b-8316-d5e55a1e820f a dcat:CatalogRecord ;
+    dct:title "Unified Service Management (USM)"@en ;
+    foaf:primaryTopic cssvrsc:158a261b6bb0db26cefbde4e71ba589c554b051d42b10852317b3e736cbeac9c .
 
 elis:59da9118-6640-4805-ac86-65bbec7ff837
         a                  dcat:CatalogRecord;
