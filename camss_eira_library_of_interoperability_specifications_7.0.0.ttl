@@ -345,7 +345,7 @@ elis:0a2af9d0-48b1-460b-8d25-449a11a1d47c a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:9ce9329298a10687397bc894fdd61372e32057b5a0624b1e1271cb05642ea02e .
 
 elis:0b84b9c1-a36d-4a60-916d-38053552514f a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "OAuth 2.0"@en ;
     foaf:primaryTopic cssvrsc:aebabad39063fe48d7b4b36e7a0d8d0b718188b178b0b6509c64a4d67dd43216 .
 
 elis:0c444fa1-c991-4393-8eec-f0fcbdee93ca a dcat:CatalogRecord ;
@@ -417,7 +417,7 @@ elis:12e72b0a-fd8b-43e4-94af-95a3703a52d2 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:a8a5e1741adf3ad56993183b5026b17b7727383c21c521ec34f005fbb32e99f9 .
 
 elis:13411b84-bc12-42d8-8a40-2216ddf1bfd1 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "GS1 XML"@en ;
     foaf:primaryTopic cssvrsc:d0057dad767bfb598b13c7a68692ce2696304af2840d8c2b4e344321f9a2fe06 .
 
 elis:137722bd-1789-48c7-87c1-0a62b80a7cc9 a dcat:CatalogRecord ;
@@ -669,7 +669,7 @@ elis:29be5d0e-39bc-4170-88ce-581e4e5a4574 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:0b5ca6a33100cb56e1cc66c9d98fb21b5ccfa47736ae8c8b6a9f9ade5b82e349 .
 
 elis:29f666a8-c360-4671-bb44-0cf192588cb8 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "ITU-T X.1147"@en ;
     foaf:primaryTopic cssvrsc:c1a595059fd2e8cd3273c2cb507d2a3625ba693b3c71b3e5f4cd55c0f338d6db .
 
 elis:2a1e4f32-b00d-41bb-8839-e7ecd7cd5a4d a dcat:CatalogRecord ;
@@ -749,7 +749,7 @@ elis:32e6d93d-49db-43da-bc46-061a5ca34ac1 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:5847bc029f2ee4b773c8cdff71b6a8469f44c6249801448496530f8d4f4dfe42 .
 
 elis:3351b27b-f027-464b-8b9f-066d6f512df0 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "RFC 3748"@en ;
     foaf:primaryTopic cssvrsc:0d3afc2bec841bc6e01d5399eb445dd06444d8c53055e00f12dd6f85bb2ab96a .
 
 elis:33b713e4-cae5-4b06-b8f2-6de95c2e264d a dcat:CatalogRecord ;
@@ -1910,7 +1910,7 @@ elis:968a4799-3024-4e8f-9754-3c23cea99bf6 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:e5ce69e94864a19b278266d0b71a3a740a6de0993464c47dff495c5036ab8dbb .
 
 elis:96bfb79a-8057-42b2-a99e-da7b1aa13e43 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "Semantic Definition Format (SDF)"@en ;
     foaf:primaryTopic cssvrsc:b3dfe12c5254a67f393044105641b4ead09feced4c7fdf3e581862cdf7f46959 .
 
 elis:96d3b301-2f57-495a-8221-6bf0b9561c9c a dcat:CatalogRecord ;
@@ -1918,7 +1918,7 @@ elis:96d3b301-2f57-495a-8221-6bf0b9561c9c a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:ef08c2789f6b3c4df7347426999a885397045dfa90a29f3a7009505988c9a9b2 .
 
 elis:987f06e5-a270-4495-9c4c-df7e3fb3f42e a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "BPDM API"@en ;
     foaf:primaryTopic cssvrsc:0d0358cc6104ba9e15b02884c65417aea28c7246ed1ca5bfc77dfb13e2917088 .
 
 elis:99d5e848-2ef7-442a-af7b-8070be94c585 a dcat:CatalogRecord ;
@@ -2242,7 +2242,7 @@ elis:baeba596-bd8b-4f00-94a6-9d0583d0861d a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:1267e8c151b0d93d7fb405fb253185b38d3148dbec15b2f022b3810d03583a8e .
 
 elis:baf33488-028c-4cf8-af9d-fa537513b4d1 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "ETSI EN 301 549"@en ;
     foaf:primaryTopic cssvrsc:36d51704e7a82bf08efe19b8adea8c4eb23671175fb48318426ad0b1189e3164 .
 
 elis:bb15b764-7967-4055-9c3a-b1fad84bc657 a dcat:CatalogRecord ;
@@ -2873,7 +2873,7 @@ elis:fa871bb2-8bb2-4d6e-984c-122693c65306 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:b4d1ac2bb48dd8d002c7f17e88269727d1089e74203cb1f9c0fed4e4233f6339 .
 
 elis:faa9a0ea-c00a-401b-b9e2-50bf2a3d4123 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "SIOP"@en ;
     foaf:primaryTopic cssvrsc:cf607476dd87aa844e3c2a62d978d810afd936f4afd580dd3eeb97979fad9b1b .
 
 elis:fabc91eb-4348-41bc-a51a-0ab9bf304540 a dcat:CatalogRecord ;
@@ -3063,10 +3063,6 @@ cssvrsc:033dafda5c5df120422d0fd6f3a29851d949b1691158dff60512c684086fb121 a cssv:
             dct:relation eira:AgendaManagementApplicationService ],
         [ dct:description "iCalendar defines a data format for representing and exchanging calendar and scheduling information. The specification can also be used to define other calendar and scheduling operations, such as requesting and responding to time-off/busy data."@en ;
             dct:relation eira:ScheduleManagementApplicationComponent ],
-        [ dct:description "iCalendar defines a data format for representing and exchanging calendar and scheduling information. The specification can also be used to define other calendar and scheduling operations, such as requesting and responding to time-off/busy data."@en ;
-            dct:relation eira:SchedulingPlatform ],
-        [ dct:description "iCalendar defines a data format for representing and exchanging calendar and scheduling information. The specification can also be used to define other calendar and scheduling operations, such as requesting and responding to time-off/busy data."@en ;
-            dct:relation eira:AgendaManagementPlatform ],
         camssa:e22d19124c1b7dd28a6d35ae95e78234ea068b396327a61cb1ee64a7a3c7ac8c ;
     dcat:theme "Technology Architecture"@en .
 
@@ -6712,17 +6708,13 @@ cssvrsc:9304a7f7222ff5780ee07f1af30e1a2aa57d84746fd3d6062dea700caa7e080b a cssv:
         [ dct:description "The RFC 3339 specification provides a standard way to express date and time values in Internet protocols. In this context, the specification can be useful for establishing a common approach to managing events and scheduling meetings."@en ;
             dct:relation eira:AgendaManagementApplicationService ],
         [ dct:description "The RFC 3339 specification provides a standard way to express date and time values in Internet protocols. In this context, the specification can be useful for establishing a common approach to managing events and scheduling meetings."@en ;
-            dct:relation eira:AgendaManagementPlatform ],
-        [ dct:description "The RFC 3339 specification provides a standard way to express date and time values in Internet protocols. In this context, the specification can be useful for establishing a common approach to managing events and scheduling meetings."@en ;
             dct:relation eira:AgendaManagementService ],
         [ dct:description "The RFC 3339 specification provides a standard way to express date and time values. In this context, this functionality can be useful for managing event times, ensuring that all participants are coordinated at the same time. Moreover, it can also help standardize the timing of public service deliveries by two or more public administrations located in different time zones."@en ;
             dct:relation eira:ScheduleManagementApplicationComponent ],
         [ dct:description "The RFC 3339 specification provides a standard way to express date and time values. In this context, this functionality can be useful for managing event times, ensuring that all participants are coordinated at the same time. Moreover, it can also help standardize the timing of public service deliveries by two or more public administrations located in different time zones."@en ;
             dct:relation eira:ScheduleManagementApplicationService ],
         [ dct:description "The RFC 3339 specification provides a standard way to express date and time values. In this context, this functionality can be useful for managing event times, ensuring that all participants are coordinated at the same time. Moreover, it can also help standardize the timing of public service deliveries by two or more public administrations located in different time zones."@en ;
-            dct:relation eira:ScheduleManagementService ],
-        [ dct:description "The RFC 3339 specification provides a standard way to express date and time values. In this context, this functionality can be useful for managing event times, ensuring that all participants are coordinated at the same time. Moreover, it can also help standardize the timing of public service deliveries by two or more public administrations located in different time zones."@en ;
-            dct:relation eira:SchedulingPlatform ] ;
+            dct:relation eira:ScheduleManagementService ] ;
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:939f584779f9906a9f033ee778b30639a08bbbbdfa5b1f518086b9324c16136f a cssv:Specification ;
@@ -9812,7 +9804,6 @@ eira:AgendaManagementApplicationComponent eira:concept eira:ArchitectureBuilding
 
 eira:AgendaManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:AgendaManagementPlatform eira:concept eira:ArchitectureBuildingBlock .
 
 eira:BlockStorageTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9862,7 +9853,6 @@ eira:ScheduleManagementApplicationComponent eira:concept eira:ArchitectureBuildi
 
 eira:ScheduleManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:SchedulingPlatform eira:concept eira:ArchitectureBuildingBlock .
 
 eira:AIModelTrainingTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
