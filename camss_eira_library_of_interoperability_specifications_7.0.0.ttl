@@ -19,9 +19,9 @@ eira:AIModelMonitoringTechnologyService eira:concept eira:ArchitectureBuildingBl
 
 eira:AIModelRegistryTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:APIContractServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:APIContractService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:AccessManagementServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:AccessManagementService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:AlertingNotificationServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -43,7 +43,7 @@ eira:CentralizedIdentityManagementApplicationService eira:concept eira:Architect
 
 eira:ContentDeliveryServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:ContentManagementServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:ContentManagementService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:CredentialIssuanceServiceApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -61,7 +61,6 @@ eira:DIDResolutionServiceApplicationService eira:concept eira:ArchitectureBuildi
 
 eira:DIDResolverApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
-eira:DataCatalogTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DataCatalogueManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -85,7 +84,7 @@ eira:DigitalIdentityWalletApplicationComponent eira:concept eira:ArchitectureBui
 
 eira:DigitalIdentityWalletServiceApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:E-TimestampServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:e-TimestampService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:EnvironmentManagementTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -93,13 +92,13 @@ eira:FederatedDataCatalogueManagementApplicationService eira:concept eira:Archit
 
 eira:HealthAvailabilityMonitoringTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:IdentificationServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:IdentificationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:IdentityMappingServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:InfrastructureProvisioningTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:IntegrityVerificationServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:IntegrityVerificationService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:LegalClausesRequirement eira:concept eira:ArchitectureBuildingBlock .
 
@@ -346,7 +345,7 @@ elis:0a2af9d0-48b1-460b-8d25-449a11a1d47c a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:9ce9329298a10687397bc894fdd61372e32057b5a0624b1e1271cb05642ea02e .
 
 elis:0b84b9c1-a36d-4a60-916d-38053552514f a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "OAuth 2.0"@en ;
     foaf:primaryTopic cssvrsc:aebabad39063fe48d7b4b36e7a0d8d0b718188b178b0b6509c64a4d67dd43216 .
 
 elis:0c444fa1-c991-4393-8eec-f0fcbdee93ca a dcat:CatalogRecord ;
@@ -418,7 +417,7 @@ elis:12e72b0a-fd8b-43e4-94af-95a3703a52d2 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:a8a5e1741adf3ad56993183b5026b17b7727383c21c521ec34f005fbb32e99f9 .
 
 elis:13411b84-bc12-42d8-8a40-2216ddf1bfd1 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "GS1 XML"@en ;
     foaf:primaryTopic cssvrsc:d0057dad767bfb598b13c7a68692ce2696304af2840d8c2b4e344321f9a2fe06 .
 
 elis:137722bd-1789-48c7-87c1-0a62b80a7cc9 a dcat:CatalogRecord ;
@@ -537,11 +536,11 @@ elis:1ea02ceb-c516-4f62-b268-a73874a93dd0 a dcat:CatalogRecord ;
     dct:title "JSON Web Token (JWT)"@en ;
     foaf:primaryTopic cssvrsc:a2fb86ee46faf06435db10581b6f10c21fb8a0849d1fd23a1f03090ce9fa055f .
     
-elis:1ea02ceb-c516-4f62-b268-a73874a93dd0 a dcat:CatalogRecord ;
+elis:1ea02ceb-c516-4f62-b268-a73874a93dd1 a dcat:CatalogRecord ;
     dct:title "Selective Disclosure for JSON Web Tokens (SD-JWT)"@en ;
     foaf:primaryTopic cssvrsc:934c4d67a7293e968120eb9590df1d0bb8c2f16fa5212cb5db0ac7a5e1c564d8 .
 
-elis:1ea02ceb-c516-4f62-b268-a73874a93dd0 a dcat:CatalogRecord ;
+elis:1ea02ceb-c516-4f62-b268-a73874a98dd0 a dcat:CatalogRecord ;
     dct:title "JSON Web Signature (JWS)"@en ;
     foaf:primaryTopic cssvrsc:80c0a3dad7a266e7126bc63963d1c7961e0b78bd626dc9d964904cfcead3a896 .
 
@@ -670,7 +669,7 @@ elis:29be5d0e-39bc-4170-88ce-581e4e5a4574 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:0b5ca6a33100cb56e1cc66c9d98fb21b5ccfa47736ae8c8b6a9f9ade5b82e349 .
 
 elis:29f666a8-c360-4671-bb44-0cf192588cb8 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "ITU-T X.1147"@en ;
     foaf:primaryTopic cssvrsc:c1a595059fd2e8cd3273c2cb507d2a3625ba693b3c71b3e5f4cd55c0f338d6db .
 
 elis:2a1e4f32-b00d-41bb-8839-e7ecd7cd5a4d a dcat:CatalogRecord ;
@@ -750,7 +749,7 @@ elis:32e6d93d-49db-43da-bc46-061a5ca34ac1 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:5847bc029f2ee4b773c8cdff71b6a8469f44c6249801448496530f8d4f4dfe42 .
 
 elis:3351b27b-f027-464b-8b9f-066d6f512df0 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "RFC 3748"@en ;
     foaf:primaryTopic cssvrsc:0d3afc2bec841bc6e01d5399eb445dd06444d8c53055e00f12dd6f85bb2ab96a .
 
 elis:33b713e4-cae5-4b06-b8f2-6de95c2e264d a dcat:CatalogRecord ;
@@ -976,10 +975,6 @@ elis:4a507f75-e5d0-4969-9ec9-5ac4cb12b7fb a dcat:CatalogRecord ;
 elis:4a7909fd-d23d-4481-bacd-0f61840ce723 a dcat:CatalogRecord ;
     dct:title "SIOC (Semantically Interlinked Online Communities)"@en ;
     foaf:primaryTopic cssvrsc:1a7498f69820fb0fd55e3ca51b090872c45e0cf7cca42bd30e0a5331ae9a993d .
-
-elis:4b4cfc1e-66ba-4a99-bdbe-7c0e960ad6f2 a dcat:CatalogRecord ;
-    dct:title "Access Control Paradigm (IAM - 003 IAM & Access Control Paradigm)"@en ;
-    foaf:primaryTopic cssvrsc:4f5086956ce7e0b60b68a495894409cd87434260749581ec127f9072afb4c6c6 .
 
 elis:4b95fb89-018c-41a6-bfb7-028ddc08c497 a dcat:CatalogRecord ;
     dct:title "WebFinger protocol"@en ;
@@ -1487,7 +1482,7 @@ elis:71ae48ce-301c-4156-9478-2e7d7ad01ee6 a dcat:CatalogRecord ;
 
 cssvrsc:64ea8d09431ade581d31ea8afbb59a82cae7044a66f46f691f39258733b6d0e2 a cssv:Specification ;
     dct:relation [ dct:description "X.1171 describes a number of personally identifiable information (PII) infringements for applications using tag-based identification, and requirements for PII protection. In addition, this Recommendation provides a basic structure of PII protection based on PII policy profile."@en ;
-            dct:relation eira:PhysicalCommunicationInfrastructureEquipment ] ;
+            dct:relation eira:PhysicalNetworkInfrastructureEquipment ] ;
     dcat:theme "Technology Architecture"@en .
 
 elis:7a51db4a-bc30-4449-91f1-04f7c0264c7d a dcat:CatalogRecord ;
@@ -1915,7 +1910,7 @@ elis:968a4799-3024-4e8f-9754-3c23cea99bf6 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:e5ce69e94864a19b278266d0b71a3a740a6de0993464c47dff495c5036ab8dbb .
 
 elis:96bfb79a-8057-42b2-a99e-da7b1aa13e43 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "Semantic Definition Format (SDF)"@en ;
     foaf:primaryTopic cssvrsc:b3dfe12c5254a67f393044105641b4ead09feced4c7fdf3e581862cdf7f46959 .
 
 elis:96d3b301-2f57-495a-8221-6bf0b9561c9c a dcat:CatalogRecord ;
@@ -1923,7 +1918,7 @@ elis:96d3b301-2f57-495a-8221-6bf0b9561c9c a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:ef08c2789f6b3c4df7347426999a885397045dfa90a29f3a7009505988c9a9b2 .
 
 elis:987f06e5-a270-4495-9c4c-df7e3fb3f42e a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "BPDM API"@en ;
     foaf:primaryTopic cssvrsc:0d0358cc6104ba9e15b02884c65417aea28c7246ed1ca5bfc77dfb13e2917088 .
 
 elis:99d5e848-2ef7-442a-af7b-8070be94c585 a dcat:CatalogRecord ;
@@ -1973,10 +1968,6 @@ elis:9fbd5f16-4f2b-41aa-bd7d-d183ce25da96 a dcat:CatalogRecord ;
 elis:9fd435c8-84b5-4ae9-922b-cb4d66729886 a dcat:CatalogRecord ;
     dct:title "ISO/IEC 38505-2: Information technology - Governance of IT - Part2: Implications of ISO/IEC38505-1 for Data Management"@en ;
     foaf:primaryTopic cssvrsc:15efa96c4f199f4283c0c6c623290196f0fc5ff802b839640c32246e2b474717 .
-
-elis:a009c3eb-4bab-48b0-84ed-8509c6173fab a dcat:CatalogRecord ;
-    dct:title "Core Public Service Vocabulary ApplicationProfile 2.2"@en ;
-    foaf:primaryTopic cssvrsc:f4314f9cf9c8e1b1f57df755f3c11d9797e235f51e0f4bebf15035b1ac4a0074 .
 
 elis:a01fe2bf-2182-40d9-bf36-130f0182b42b a dcat:CatalogRecord ;
     dct:title "IANA Media Types (RFC 6838, MIME  types)"@en ;
@@ -2251,7 +2242,7 @@ elis:baeba596-bd8b-4f00-94a6-9d0583d0861d a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:1267e8c151b0d93d7fb405fb253185b38d3148dbec15b2f022b3810d03583a8e .
 
 elis:baf33488-028c-4cf8-af9d-fa537513b4d1 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "ETSI EN 301 549"@en ;
     foaf:primaryTopic cssvrsc:36d51704e7a82bf08efe19b8adea8c4eb23671175fb48318426ad0b1189e3164 .
 
 elis:bb15b764-7967-4055-9c3a-b1fad84bc657 a dcat:CatalogRecord ;
@@ -2882,7 +2873,7 @@ elis:fa871bb2-8bb2-4d6e-984c-122693c65306 a dcat:CatalogRecord ;
     foaf:primaryTopic cssvrsc:b4d1ac2bb48dd8d002c7f17e88269727d1089e74203cb1f9c0fed4e4233f6339 .
 
 elis:faa9a0ea-c00a-401b-b9e2-50bf2a3d4123 a dcat:CatalogRecord ;
-    dct:title ""@en ;
+    dct:title "SIOP"@en ;
     foaf:primaryTopic cssvrsc:cf607476dd87aa844e3c2a62d978d810afd936f4afd580dd3eeb97979fad9b1b .
 
 elis:fabc91eb-4348-41bc-a51a-0ab9bf304540 a dcat:CatalogRecord ;
@@ -3072,10 +3063,6 @@ cssvrsc:033dafda5c5df120422d0fd6f3a29851d949b1691158dff60512c684086fb121 a cssv:
             dct:relation eira:AgendaManagementApplicationService ],
         [ dct:description "iCalendar defines a data format for representing and exchanging calendar and scheduling information. The specification can also be used to define other calendar and scheduling operations, such as requesting and responding to time-off/busy data."@en ;
             dct:relation eira:ScheduleManagementApplicationComponent ],
-        [ dct:description "iCalendar defines a data format for representing and exchanging calendar and scheduling information. The specification can also be used to define other calendar and scheduling operations, such as requesting and responding to time-off/busy data."@en ;
-            dct:relation eira:SchedulingPlatformSystemSoftware ],
-        [ dct:description "iCalendar defines a data format for representing and exchanging calendar and scheduling information. The specification can also be used to define other calendar and scheduling operations, such as requesting and responding to time-off/busy data."@en ;
-            dct:relation eira:AgendaManagementPlatformSystemSoftware ],
         camssa:e22d19124c1b7dd28a6d35ae95e78234ea068b396327a61cb1ee64a7a3c7ac8c ;
     dcat:theme "Technology Architecture"@en .
 
@@ -3601,7 +3588,7 @@ cssvrsc:186c9d5a5460aa1951cb5ee95e889e9d0620fd22d962b38459f0074af4869f8d a cssv:
         [ dct:description "The specification defines a security baseline as well as the use and applicability of the MSP framework to subsequent parts of the MSP series."@en ;
             dct:relation eira:DirectoryAccessTechnologyService ],
         [ dct:description "The specification defines a security baseline as well as the use and applicability of the MSP framework to subsequent parts of the MSP series."@en ;
-            dct:relation eira:DirectoryServiceTechnologyService ] ;
+            dct:relation eira:DirectoryService ] ;
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:1882dc8dd53cd68ae6f4ef083f0a36929b238739d27d72ee21f1da2ca020f7b6 a cssv:Specification ;
@@ -3899,6 +3886,10 @@ cssvrsc:233c9cad74d659496d4105730365b961fe0e2dcfe78f46fc5804a66545f69b41 a cssv:
     dct:relation [ dct:description "The D&S - 001 EDC Discovery API specification is designed to facilitate the discovery, registration, and maintenance of digital services and digital twins within a federated environment. It provides a service catalog that allows consumers to query available EDC instances or digital twins via specific attributes (like BPN number) and obtain information on their endpoints and metadata."@en ;
             dct:relation eira:APIDiscoveryAndCatalogueApplicationService ] ;
     dcat:theme "Technology Architecture"@en .
+
+    elis:56cd33a2-bbd8-427b-9ffd-10e5e1db4702 a dcat:CatalogRecord ;
+    dct:title "D&S-001 EDC Discovery API"@en ;
+    foaf:primaryTopic cssvrsc:233c9cad74d659496d4105730365b961fe0e2dcfe78f46fc5804a66545f69b41 .
 
 cssvrsc:236d9aa59c4ca31ca8b1c54328812d8ab09496916c7ca622b70446b1b1a660a0 a cssv:Specification ;
     dct:relation [ dct:description "The eDelivery Access Point (AP) Domibus enables the transformation and exchange of information, data, or communications between different protocols or formats, ensuring that diverse systems can effectively communicate and exchange data within a secure and reliable framework."@en ;
@@ -4394,7 +4385,7 @@ cssvrsc:323029c09f075ae9d8e17527dc94a5bfdadbf301095096a3d9c52f528e1a791e a cssv:
     dct:relation [ dct:description "DEU is a repository including a set of data from European Administrations and Instituations for its use and reuse. In this portal all the EU Institutions are invited to share its data as Open Data. Additionally, the portal includes links to other resources, and apps reusing this information."@en ;
             dct:relation eira:MetadataCatalogueDataObject ],
         [ dct:description "DEU is a repository including a set of data from European Administrations and Instituations for its use and reuse, includes linking to other resources, and apps reusing information from EU institutions."@en ;
-            dct:relation eira:DistributedLedgerDataObject ],
+            dct:relation eira:DistributedBlockchainNetworkTechnologyService ],
         [ dct:description "DEU is a repository including a set of data from European Administrations and Instituations for its use and reuse. In this portal all the EU Institutions are invited to share its data as Open Data. Additionally, the portal includes links to other resources, and apps reusing this information."@en ;
             dct:relation eira:DatasetCatalogueDataObject ] ;
     dcat:theme "Data Architecture"@en .
@@ -4420,19 +4411,17 @@ cssvrsc:327c67acb2fdfe18fe292586ee0d282e25e00dbec3a8a20923b6ef14c05c074e a cssv:
         [ dct:description "The ETSI TS 104 050 specification aims to define all concepts related to AI threats. To this end, it provides an ontology model that encompasses these concepts and their interrelationships, enabling a more comprehensive understanding of how AI threats operate."@en ;
             dct:relation eira:OntologyDataObject ],
         [ dct:description "The ETSI TS 104 050 specification provides definitions and relationships of AI threat concepts, representing them within an ontology. This ontology helps to understand how an AI threat works. Although the specification does not directly offer mechanisms to protect against threats, it supports understanding the logic behind attacks, aiding the development or identification of external preventive measures."@en ;
-            dct:relation eira:SecurityFrameworkBusinessObject ] ;
+            dct:relation eira:SecurityFrameworkBusinessObject ] ,
+            camssa:29af06000760991590e5151938979f643c702d96c051356dd15d972499224838 ;
     dcat:theme "Data Architecture"@en,
         "Implementation Governance"@en .
 
 cssvrsc:32d8400ca81c4e4c438a4ad650c5c258a763671a7277f8832e0adc98d72ef294 a cssv:Specification ;
-    dct:relation [ dct:description "The IEEE P3652.1 specification is addressed to provide a feasible solution that enables machine learning applications to utilise the data in a distributed manner that does not exchange raw data directly. In this context, the specification is expected to promote and facilitate collaborations among multiple parties, some of which are data source owners, such that user privacy and information security are protected."@en ;
-            dct:relation eira:InteroperabilityStrategyGoal ],
-        [ dct:description "The IEEE 3652.1 specification outlines a framework for federated machine learning, which allows models to learn from decentralised data without centralising it. This approach enables algorithms to make predictions while ensuring data privacy and security. By providing guidelines on how to implement such systems, it directly supports the development of models that learn from data and make predictions in distributed environments."@en ;
-            dct:relation eira:AIModelInferenceTechnologyService ],
-        [ dct:description "The IEEE 3652.1 specification outlines a framework for federated machine learning, which allows models to learn from decentralised data without centralising it. This approach enables algorithms to make predictions while ensuring data privacy and security. By providing guidelines on how to implement such systems, it directly supports the development of models that learn from data and make predictions in distributed environments."@en ;
+    dct:relation [ dct:description "IEEE 3652.1 describes how a shared model is trained on data that stays with each participating organisation or device, allowing training across several data owners without moving or exposing the underlying data."@en ;
             dct:relation eira:AIModelTrainingTechnologyService ],
-        [ dct:description "The IEEE 3652.1 specification outlines a framework for federated machine learning, which allows models to learn from decentralised data without centralising it. This approach enables algorithms to make predictions while ensuring data privacy and security. By providing guidelines on how to implement such systems, it directly supports the development of models that learn from data and make predictions in distributed environments."@en ;
-            dct:relation eira:MachineLearningTechnologyService ] ;
+        [ dct:description "IEEE 3652.1 sets out the privacy, security and regulatory requirements that apply to federated learning, allowing organisations to check that collaborative model building meets data protection rules."@en ;
+            dct:relation eira:AIGovernanceTechnologyService ] ,
+            camssa:9816b27a434bcbc1ebe70ebcc167388ea1fdc10de1d922e3731eeff8f712e379 ;
     dcat:theme "Implementation Governance"@en,
         "Technology Architecture"@en .
 
@@ -5445,7 +5434,8 @@ cssvrsc:5873e78303cf81c2b9a93061b0e64063a70a81c294154b325d95eb12c14c26bd a cssv:
     dct:relation [ dct:description "WebRTC is a protocol that allows media and generic application data to be sent to and received from another browser or device."@en ;
             dct:relation eira:DataExtractionTransformationAndLoadingApplicationService ],
         [ dct:description "WebRTC is a protocol that allows media and generic application data to be sent to and received from another browser or device."@en ;
-            dct:relation eira:DataExtractionTransformationAndLoadingApplicationComponent ] ;
+            dct:relation eira:DataExtractionTransformationAndLoadingApplicationComponent ] ,
+            camssa:6d0539016e448fbebad3f4ec908e035248c682740fdaa325509bd4c3965afd4a ;
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:597992364235f0462f20e8347dffb83844944f7f4f29b4631cd6330f03e6b2fe a cssv:Specification ;
@@ -6104,7 +6094,7 @@ cssvrsc:7b572228fd139d6e4a270b0da87a1697c30df3e70a8d2e74311214200525d46d a cssv:
             dct:relation eira:EuropeanLegalActRequirement ] ;
     dcat:theme "Business Architecture"@en .
 
-cssvrsc:7b572228fd139d6e4a270b0da87a1697c30df3e70a8d2e74311214200525d46d a cssv:Specification ;
+cssvrsc:438492653f1c958c0cb501a1924b0e215ca28a4a44e6620870e7f23eba760282 a cssv:Specification ;
         dct:relation [ dct:description "CWL is mainly designed to describe command line tools and connect them into repeatable workflows, rather than to move or integrate data between systems directly. Even so, data analysis is one of its core use cases, which gives it a practical link to data integration scenarios."@en ;
             dct:relation eira:DataIntegrationApplicationService ] ;
     dcat:theme "Technology Architecture"@en .
@@ -6668,6 +6658,10 @@ cssvrsc:720fe6bed5f9283dffb49f2576c58b51ca756fd5ba52bb011ee760fe5af2eb2b a cssv:
             dct:relation eira:VulnerabilityScanningTechnologyService ] ;
     dcat:theme "Technology Architecture"@en .
 
+elis:74ea55e4-9fd4-467d-9d44-361f0e15c0d4 a dcat:CatalogRecord ;
+    dct:title "Open Vulnerability and Assessment Language (OVAL)"@en ;
+    foaf:primaryTopic cssvrsc:720fe6bed5f9283dffb49f2576c58b51ca756fd5ba52bb011ee760fe5af2eb2b .
+
 cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b a cssv:Specification ;
     dct:relation [ dct:description "Vocabulary used for the description of dataset catalogues Metadata, semantics & ontologies, interoperability"@en ;
             dct:relation eira:ControlledVocabularyDataObject ],
@@ -6714,17 +6708,13 @@ cssvrsc:9304a7f7222ff5780ee07f1af30e1a2aa57d84746fd3d6062dea700caa7e080b a cssv:
         [ dct:description "The RFC 3339 specification provides a standard way to express date and time values in Internet protocols. In this context, the specification can be useful for establishing a common approach to managing events and scheduling meetings."@en ;
             dct:relation eira:AgendaManagementApplicationService ],
         [ dct:description "The RFC 3339 specification provides a standard way to express date and time values in Internet protocols. In this context, the specification can be useful for establishing a common approach to managing events and scheduling meetings."@en ;
-            dct:relation eira:AgendaManagementPlatformSystemSoftware ],
-        [ dct:description "The RFC 3339 specification provides a standard way to express date and time values in Internet protocols. In this context, the specification can be useful for establishing a common approach to managing events and scheduling meetings."@en ;
-            dct:relation eira:AgendaManagementServiceTechnologyService ],
+            dct:relation eira:AgendaManagementService ],
         [ dct:description "The RFC 3339 specification provides a standard way to express date and time values. In this context, this functionality can be useful for managing event times, ensuring that all participants are coordinated at the same time. Moreover, it can also help standardize the timing of public service deliveries by two or more public administrations located in different time zones."@en ;
             dct:relation eira:ScheduleManagementApplicationComponent ],
         [ dct:description "The RFC 3339 specification provides a standard way to express date and time values. In this context, this functionality can be useful for managing event times, ensuring that all participants are coordinated at the same time. Moreover, it can also help standardize the timing of public service deliveries by two or more public administrations located in different time zones."@en ;
             dct:relation eira:ScheduleManagementApplicationService ],
         [ dct:description "The RFC 3339 specification provides a standard way to express date and time values. In this context, this functionality can be useful for managing event times, ensuring that all participants are coordinated at the same time. Moreover, it can also help standardize the timing of public service deliveries by two or more public administrations located in different time zones."@en ;
-            dct:relation eira:ScheduleManagementServiceTechnologyService ],
-        [ dct:description "The RFC 3339 specification provides a standard way to express date and time values. In this context, this functionality can be useful for managing event times, ensuring that all participants are coordinated at the same time. Moreover, it can also help standardize the timing of public service deliveries by two or more public administrations located in different time zones."@en ;
-            dct:relation eira:SchedulingPlatformSystemSoftware ] ;
+            dct:relation eira:ScheduleManagementService ] ;
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:939f584779f9906a9f033ee778b30639a08bbbbdfa5b1f518086b9324c16136f a cssv:Specification ;
@@ -7060,9 +7050,9 @@ cssvrsc:a2fb86ee46faf06435db10581b6f10c21fb8a0849d1fd23a1f03090ce9fa055f a cssv:
     dcat:theme "Technology Architecture"@en .
 
 cssvrsc:934c4d67a7293e968120eb9590df1d0bb8c2f16fa5212cb5db0ac7a5e1c564d8 a cssv:Specification ;
-    dct:relation [ dct:description "JWT is an industry standard method for representing claims securely between two parties."@en ;
+    dct:relation [ dct:description "SD-JWT is an industry standard method for representing claims securely between two parties."@en ;
             dct:relation eira:AccessManagementApplicationComponent ],
-        [ dct:description "JWT is an industry standard method for representing claims securely between two parties."@en ;
+        [ dct:description "SD-JWT is an industry standard method for representing claims securely between two parties."@en ;
             dct:relation eira:AccessManagementApplicationService ],
         camssa:e1e7dd90a8e4ce592f2ad46bd2ef19c92721ec8644a1bb0fa1b8ce13346a961a ;
     dcat:theme "Technology Architecture"@en .
@@ -7531,7 +7521,7 @@ cssvrsc:b4ae8cf6c3010eac5434606441e7bb6a001d0ed7034ff64b1311b481df048991 a cssv:
         [ dct:description "LDAP facilitates access to distributed directory services based on the X.500 data and service models, ensuring that rights are granted appropriately and unauthorized access is blocked, thus reinforcing secure and efficient access management within an organization."@en ;
             dct:relation eira:DirectoryAccessTechnologyService ],
         [ dct:description "LDAP facilitates access to distributed directory services based on the X.500 data and service models, ensuring that rights are granted appropriately and unauthorized access is blocked, thus reinforcing secure and efficient access management within an organization."@en ;
-            dct:relation eira:DirectoryServiceTechnologyService ],
+            dct:relation eira:DirectoryService ],
         [ dct:description "LDAP facilitates access to distributed directory services based on the X.500 data and service models, ensuring that rights are granted appropriately and unauthorized access is blocked, thus reinforcing secure and efficient access management within an organization."@en ;
             dct:relation eira:AccessManagementApplicationService ],
         [ dct:description "Widely used industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol network. It allows the sharing of information about users, systems, networks, services, and applications throughout the network. It is generally used by service registration services to register the system services in a distributed directory."@en ;
@@ -9061,7 +9051,7 @@ cssvrsc:ecaf78f3ca4d620b9388052e2503780938e4f026d086887c87bba57c31691496 a cssv:
     dct:relation [ dct:description "IEEE 802.3 defines the physical and data link layers of wired Ethernet, which is the technology most commonly used for LANs."@en ;
             dct:relation eira:LocalAreaNetworkCommunicationNetwork ],
         [ dct:description "By establishing protocols for wired Ethernet communication, IEEE 802.3 guarantees consistent data transmission, network reliability, and adherence to standardised communication rules."@en ;
-            dct:relation eira:PhysicalCommunicationInfrastructureEquipment ],
+            dct:relation eira:PhysicalNetworkInfrastructureEquipment ],
         [ dct:description "IEEE 802.3 ensures that private subnetworks can maintain controlled access, data integrity, and security, enabling seamless internal communication while restricting unauthorised external connectivity."@en ;
             dct:relation eira:PrivateSubnetworkCommunicationNetwork ],
         [ dct:description "IEEE 802.3 for high-speed data processing, storage communication, and transmission across computing environments. Ethernet technology enables computing infrastructures to interconnect servers, storage devices, and networking components, ensuring reliable data flow, low-latency communication, and optimised performance within an organisation’s computing framework."@en ;
@@ -9663,6 +9653,21 @@ cssvrsc:f555d12d5ecdcba4e69ca65d7c69a83db7647d19b3de0b87ad52e406917dafb0 a cssv:
             dct:relation eira:EnvironmentManagementTechnologyService ] ;
     dcat:theme "Technology Architecture"@en .
 
+cssvrsc:158a261b6bb0db26cefbde4e71ba589c554b051d42b10852317b3e736cbeac9c a cssv:Specification ;
+    dct:relation [ dct:description "USM specifies a standardised management system of processes and workflows that a service provider uses to organise and deliver its services."@en ;
+            dct:relation eira:DigitalPublicServiceProvisionBusinessFunction ],
+        [ dct:description "USM defines a uniform customer-provider interaction model, allowing organisations to agree on and coordinate the delivery of services across organisational boundaries and supply chains."@en ;
+            dct:relation eira:OrganisationalAgreementContract ],
+        [ dct:description "USM describes an enterprise service management system that any team can learn and apply, allowing an organisation to manage its people, processes, technology and services in a consistent way."@en ;
+            dct:relation eira:DigitalBusinessCapabilityCapability ] ,
+            camssa:5c156935adb015c2276a3bec5e3c613796221647c7855e9d46eadcc53f508f1e ;
+    dcat:theme "Business Architecture"@en,
+        "Implementation Governance"@en .
+
+elis:dde7a46b-bd95-4f8b-8316-d5e55a1e820f a dcat:CatalogRecord ;
+    dct:title "Unified Service Management (USM)"@en ;
+    foaf:primaryTopic cssvrsc:158a261b6bb0db26cefbde4e71ba589c554b051d42b10852317b3e736cbeac9c .
+
 elis:59da9118-6640-4805-ac86-65bbec7ff837
         a                  dcat:CatalogRecord;
         dct:title          "OASIS Topology and Orchestration Specification for Cloud Applications (TOSCA)";
@@ -9688,7 +9693,7 @@ elis:1d920258-dc4e-4992-a902-12239b179c1f
         dct:title          "Supply-chain Levels for Software Artifacts (SLSA)";
         foaf:primaryTopic  cssvrsc:3b2474537eff381c715cc11ce9a2d1aa9312e5702d7fbfd2ab47a20f5f25802e .
 
-eira:AgendaManagementServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:AgendaManagementService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ContainersOrchestratorTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9708,7 +9713,7 @@ eira:DesktopAppBusinessInterface eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DigitalPublicServiceDeliveryBusinessInterface eira:concept eira:ArchitectureBuildingBlock .
 
-eira:DistributedLedgerDataObject eira:concept eira:ArchitectureBuildingBlock .
+eira:DistributedBlockchainNetworkTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ExternalServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9754,7 +9759,7 @@ eira:RelationalDatabaseManagerTechnologyService eira:concept eira:ArchitectureBu
 
 eira:RouterTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:ScheduleManagementServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:ScheduleManagementService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:ServiceAppBusinessInterface eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9799,7 +9804,6 @@ eira:AgendaManagementApplicationComponent eira:concept eira:ArchitectureBuilding
 
 eira:AgendaManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:AgendaManagementPlatformSystemSoftware eira:concept eira:ArchitectureBuildingBlock .
 
 eira:BlockStorageTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9835,7 +9839,7 @@ eira:PKICertificateManagerTechnologyService eira:concept eira:ArchitectureBuildi
 
 eira:PaaSTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:PhysicalCommunicationInfrastructureEquipment eira:concept eira:ArchitectureBuildingBlock .
+eira:PhysicalNetworkInfrastructureEquipment eira:concept eira:ArchitectureBuildingBlock .
 
 eira:PrivateCloudComputingFacilityFacility eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9849,7 +9853,6 @@ eira:ScheduleManagementApplicationComponent eira:concept eira:ArchitectureBuildi
 
 eira:ScheduleManagementApplicationService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:SchedulingPlatformSystemSoftware eira:concept eira:ArchitectureBuildingBlock .
 
 eira:AIModelTrainingTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -9873,7 +9876,7 @@ eira:DigitalWorkplaceApplicationComponent eira:concept eira:ArchitectureBuilding
 
 eira:DirectoryAccessTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
-eira:DirectoryServiceTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:DirectoryService eira:concept eira:ArchitectureBuildingBlock .
 
 eira:DistributedFileSystemTechnologyService eira:concept eira:ArchitectureBuildingBlock .
 
@@ -10221,3 +10224,21 @@ eira:DataExchangeApplicationService eira:concept eira:ArchitectureBuildingBlock 
 
 eira:DataExchangeApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
 
+eira:APIManagementMiddlewareApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
+eira:APIManagerServiceApplicationService eira:concept eira:ArchitectureBuildingBlock .
+eira:APIResponseDataObject eira:concept eira:ArchitectureBuildingBlock .
+eira:AuthenticationMiddlewareApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
+eira:DataContractDataObject eira:concept eira:ArchitectureBuildingBlock .
+eira:DataManagementTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:DataPolicyDataObject eira:concept eira:ArchitectureBuildingBlock .
+eira:DataQualityTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:DescriptiveAnalyticsTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:e-ArchivingTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:FirewallServiceApplicationService eira:concept eira:ArchitectureBuildingBlock .
+eira:HTTPSLoadBalancerApplicationComponent eira:concept eira:ArchitectureBuildingBlock .
+eira:InteroperabilityDimensionBusinessObject eira:concept eira:ArchitectureBuildingBlock .
+eira:MetadataManagementTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:MonitoringApplicationService eira:concept eira:ArchitectureBuildingBlock .
+eira:MonitoringTechnologyService eira:concept eira:ArchitectureBuildingBlock .
+eira:OperatingSystemPlatform eira:concept eira:ArchitectureBuildingBlock .
+eira:OperatingSystemPlatformTechnologyService eira:concept eira:ArchitectureBuildingBlock .

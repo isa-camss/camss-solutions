@@ -129516,7 +129516,7 @@ camssa:bc16c66793f19ff22ba4aebb6ac35a73610784fdc19195a49f0de17eb3386286 a cav:As
     cav:assesses cssvrsc:8ea9cd7abc111f52f04bbcf3ebdfa44e08756fdf213722ef95c6fb3470975b08 ;
     cav:considers camssa:44bf8420-a17d-47e6-a28b-dcab2ba18422 ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
-    cav:performedBy camssa:e2cf6943bb0c32336dfbf8b3a77f43a673c444e3e6c6bacb3b3b25bf8ad0fa35 ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
     cav:resultsIn camssa:0747be34-eb08-4011-97cc-11690fa38fd3,
         camssa:075af538-cb98-4291-aca4-6592317df163,
         camssa:0d99f038-fcd0-4725-af3e-67fabb384465,
@@ -138229,7 +138229,7 @@ camssa:fde6c868-8b91-498f-9b47-56970a352a6e a cav:Score,
 
 camssa:9816b27a434bcbc1ebe70ebcc167388ea1fdc10de1d922e3731eeff8f712e379 a cav:Assessment,
         owl:NamedIndividual ;
-    cav:assesses cssvrsc:ece6825dbd5fbb1f672ab55c3fbd65281da00f64926d2070882a27a1d0de6e47 ;
+    cav:assesses cssvrsc:26bb85d518b6277a12571e013076e662a18dce33e4719ce17fd43b9b115b7482 ;
     cav:considers camssa:c04a8dcb-0f3b-4c26-ab09-88141adff3f0 ;
     cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
     cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
@@ -140274,7 +140274,7 @@ camssa:6a833be0-dd13-4ef8-aa7e-aea8a19f5c36 a owl:NamedIndividual,
 
 camssa:40254c35-0b62-479c-a32e-1672d23e123b a owl:NamedIndividual,
         dcat:Distribution ;
-    dcat:accessURL <https://interoperable-europe.ec.europa.eu/node/distribution/5799cb6a-604d-4a31-9785-21e52a8c58b6>^^xsd:anyURI .
+    dcat:accessURL "https://interoperable-europe.ec.europa.eu/node/distribution/5799cb6a-604d-4a31-9785-21e52a8c58b6"^^xsd:anyURI .
 
 camssa:6bab6d45-503b-40e9-a161-40f9a9830224 a cav:Statement,
         owl:NamedIndividual ;
@@ -142506,4 +142506,1827 @@ _x000D_
 Linked Open Data del Programma: adozione della nuova ontologia dell’eProcurement: _x000D_
 https://dati.consip.it/linked_opendata\""""@en ;
     cav:refersTo camssa:3801cce0-f50e-4718-a2c8-f0c16587e0bb .
+
+camssa:5c156935adb015c2276a3bec5e3c613796221647c7855e9d46eadcc53f508f1e a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:assesses cssvrsc:158a261b6bb0db26cefbde4e71ba589c554b051d42b10852317b3e736cbeac9c ;
+    cav:considers camssa:bf30cb47-1be8-40e1-9d29-754b4d5417ba ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
+    cav:resultsIn camssa:04c2d283-a357-4e8b-bac1-56d85b9d7cc7,
+        camssa:08ce00f1-e4cb-47cc-8b37-2b4eddf9832e,
+        camssa:0a6dd785-ce40-4208-a053-b5e77bcf2be6,
+        camssa:118f43f5-4014-4bde-bc48-14f0d8a479c0,
+        camssa:13ac57ae-2d5a-4282-9dc1-2ea36e987fcb,
+        camssa:18b80459-c556-4811-9ff7-7744fe1788a1,
+        camssa:1f8cce46-d0e0-4c7b-a68a-aa977ff441df,
+        camssa:223a56a3-8709-498b-bf6a-e4d47f42d0eb,
+        camssa:2aaf835f-d7a8-4691-a4cf-21505d54af39,
+        camssa:316dd921-117c-492c-b1a1-140bc631911b,
+        camssa:3786bdc8-8073-4d1c-b31e-beb46d28026f,
+        camssa:3fdf2803-534c-4fa7-aeb7-d92109d28ad8,
+        camssa:401a6356-45b5-492e-a5a6-99d8e5c1c199,
+        camssa:4d667219-a70c-4b78-b2b8-8c272ec950ac,
+        camssa:520c475b-e808-4385-9ad2-c736e898959e,
+        camssa:5b2364ea-73f7-4a7b-8ad9-554a26f654e7,
+        camssa:5b6e1af2-4d56-4549-94b4-1db7c085f4e3,
+        camssa:5b8399ed-8937-48dd-bc34-5d37d93f0a40,
+        camssa:64090862-f0f6-476a-b502-752ad5f3ddc6,
+        camssa:64cfc54f-5531-46d9-abaa-68bc08b4e28b,
+        camssa:6665916f-693d-4f88-9f5d-711f878b4ebd,
+        camssa:763cbee1-4a2d-48e6-95db-962226fc0acd,
+        camssa:856ed160-e63d-4d95-a7c4-da1f5350c615,
+        camssa:884aad35-4871-465c-bc16-cf24e96b7f87,
+        camssa:96cf888c-6c2c-44db-89a2-f89ca1aa8994,
+        camssa:ae2db91d-61a8-434f-b06a-d029873a410e,
+        camssa:bb6ed029-d841-4699-8148-bade6b4bdcbc,
+        camssa:bd9fc392-24ac-45ce-ab9f-459ac686c5bd,
+        camssa:bf7a8f11-2637-47df-889a-922b5c162b01,
+        camssa:c489df09-ebb5-4860-b305-2a6d2f185f8e,
+        camssa:cb308191-65b7-4cbb-b3ef-54a04de09ebe,
+        camssa:cb792f95-3990-4435-90a0-35e0e0359e5a,
+        camssa:ccf05629-4a5b-437b-be94-c399755f4046,
+        camssa:d66420c6-621e-4ed6-8608-5064be56c7f7,
+        camssa:d88c69eb-51ac-4a61-82cd-f67d73b454d4,
+        camssa:d9681965-9d8c-4af1-92a4-22a85814f8f3,
+        camssa:e0fd03e9-4bb2-46d1-bf9b-bce9b44c249e,
+        camssa:e84fc684-9e90-4761-a72c-cbcc39a9102c,
+        camssa:ea5128a2-3e7c-46fc-bfc6-5d6e70368c7d,
+        camssa:ecaa68de-815b-4928-920b-93b950cc192e,
+        camssa:ef276a75-c366-41c3-b574-a206a379c773,
+        camssa:f663e991-130d-4305-a054-c2cfc386802f,
+        camssa:f78af637-4118-438f-be2f-7d477c70490d,
+        camssa:fbb0d7b0-0f7c-42ba-98bb-553d9be72a5c,
+        camssa:fc853138-d1db-4a9c-93e3-ee5b833f27fe ;
+    dct:description "Assessment of the Unified Service Management (USM) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
+    dct:issued "2026-11-11"^^xsd:date ;
+    dct:title "CAMSS Assessment of Unified Service Management (USM) EIF Scenario v1.0.0"@en ;
+    dcat:distribution camssa:d9f7ff09-458e-4a86-a868-a4433ad0334d ;
+    dcat:version "1.0.0" .
+
+camssa:04c2d283-a357-4e8b-bac1-56d85b9d7cc7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The USM specifies that through the SURVUZ foundation individuals that can become assessed on the method and extend the assessment onto the organisation they belong but without further evaluation of the implementation._x000D_
+_x000D_
+The SURVUZ Foundation, which governs the method, audits service management tools against the USM method's requirements. Tools that pass are listed on the USM website. In 2022, 4me (now Xurrent) announced that it had become one of the three USM-compliant service management tools, after an audit by an accredited USM professional. This doesn't make USM platform-dependent, since you can apply it on any platform. But it shows that the method has requirements for tools, and that few products had been formally certified as meeting them. In practice you can run USM on anything, but only a handful of platforms have been verified as supporting it well._x000D_
+_x000D_
+Certified USM Coaches have thoroughly studied USM and they have additional instruments at their hand that they can use to support user organizations in their USM deployment projects. The use of these additional instruments (the USM Deployment Toolkit) requires a deeper understanding of the USM Method, so the Toolkit is only available to qualified USM professionals._x000D_
+_x000D_
+Additionally, USM Professionals have a USM Assessment tool available that assesses USM deployments against the specifications of the USM Method. In USM deployment projects, self-assessments are also available, at various levels of detail. These instruments require deep understanding of the USM method, so they cannoy be made available on the market for free, at the risk of misinterpreting the content and outcome of the assessments. Applying USM logic requires a thorough rethinking of the existing, traditional, inside-out, technology-focused service delivery strategy, to be able to turn that into a modern customer-driven, outside-in strategy._x000D_
+_x000D_
+These resources are again made available for free to the USM Professionals by the SURVUZ Foundation._x000D_
+_x000D_
+4me (Xurrent) reference:_x000D_
+https://www.globenewswire.com/news-release/2022/08/31/2507366/0/en/4me-is-Officially-Unified-Service-Management-USM-Certified.html_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en\""""@en ;
+    cav:refersTo camssa:b1814615-3bf7-4b72-a68d-0447795bb46b .
+
+camssa:08ce00f1-e4cb-47cc-8b37-2b4eddf9832e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM standard is developed and maintained by SURVUZ, a foundation based in the Netherlands._x000D_
+_x000D_
+Additionally, the USM was adopted as the foundation for the NORA Basic Concept of Service Delivery, for the Dutch public sector._x000D_
+_x000D_
+NORA Basic Concept of Service Delivery reference:_x000D_
+https://www.noraonline.nl/wiki/Basisconcept_van_Dienstverlening_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:a44f81af-f268-4461-9e32-53aac1323577 .
+
+camssa:0a6dd785-ce40-4208-a053-b5e77bcf2be6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM standard can be used across domains as a common management structure. It is positioned as a base layer, on top of which frameworks such as ITIL, COBIT, FitSM (or no IT specific ones like ISO27001, ISO14001, ISO9001. EN 16931, NIS2, IFRS, BASEL III) can be applied for specialised practices. In this way, domain-specific needs are added rather than built in._x000D_
+_x000D_
+ITIL (Information Technology Infrastructure Library):_x000D_
+https://www.itil.com/_x000D_
+_x000D_
+COBIT (Control Objectives for Information and Related Technologies)_x000D_
+https://www.isaca.org/resources/cobit_x000D_
+_x000D_
+FitSM (Standards for Lightweight IT Service Management)_x000D_
+https://www.fitsm.eu/_x000D_
+_x000D_
+ISO/IEC 27001 reference_x000D_
+https://www.iso.org/standard/27001.html_x000D_
+_x000D_
+ISO 14001 reference_x000D_
+https://www.iso.org/standard/31853.html_x000D_
+_x000D_
+ISO 9001 reference_x000D_
+https://www.iso.org/standard/62085.html_x000D_
+_x000D_
+EN 16931 reference_x000D_
+https://www.google.com/search?q=https://standards.cencenelec.eu/dyn/www/f%3Fp%3D204:32:0::::FSP_ORG_ID,FSP_LANG_ID:2407519,25_x000D_
+_x000D_
+NIS2 Directive reference_x000D_
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022L2555_x000D_
+_x000D_
+IFRS reference_x000D_
+https://www.ifrs.org/_x000D_
+_x000D_
+Basel III reference_x000D_
+https://www.bis.org/bcbs/basel3.htm_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:ea7da66c-c159-4eca-b11b-ef06653a23dc .
+
+camssa:0e1b0071-a22b-4ca6-a2b7-880c0e5e9389 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:string .
+
+camssa:0e5abb72-281f-472f-a839-6d285767b9da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100"^^xsd:string .
+
+camssa:118f43f5-4014-4bde-bc48-14f0d8a479c0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The USM standard can make an organisation's services and procedures clearer and more consistent internally, and it can help partners align. However, it does not by itself make administrative procedures, rules or services visible on the web. It can contribute to this, but it is not its main goal._x000D_
+_x000D_
+As part of Interoperable Europe’s GovTech4All programme (SGA2, WP2, Pilot 8), work is underway on CPRMV as an extension of the CPSV-AP, which specifically focuses on transparency and aims to build on USM’s universal process model for this purpose; this will be presented and discussed at the SEMIC conference 2026 in Dublin (the workshop ‘Connecting public services, rules and legal obligations’._x000D_
+_x000D_
+CPRMV reference_x000D_
+https://cprmv.open-regels.nl/respec/0.4.2/#_x000D_
+_x000D_
+CPSV-AP reference_x000D_
+https://github.com/SEMICeu/CPSV-AP/tree/master_x000D_
+_x000D_
+SEMIC 2026:_x000D_
+https://interoperable-europe.ec.europa.eu/interoperable-europe/news/semic-2026-dublin-dublin _x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en_x000D_
+\""""@en ;
+    cav:refersTo camssa:47f0b04c-eb8d-4766-b90e-3f3acd7a4ec4 .
+
+camssa:13ac57ae-2d5a-4282-9dc1-2ea36e987fcb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM standard is a principle-based management standard that defines how service organisations set up their processes, organisation and tooling, regardless of the technology or sector they operate in. It focuses on universal management principles instead of technical tools._x000D_
+_x000D_
+The SURVUZ Foundation certifies tools that support the USM standard. This does not make the USM standard platform-dependent, since it can be applied on any platform. However, it shows that the standard sets requirements for tools, and that few products have been formally certified as meeting them. In practice, the USM standard can run on any platform, but only a few platforms have been verified as supporting it well._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en_x000D_
+_x000D_
+4ME certification news release:_x000D_
+https://www.globenewswire.com/news-release/2022/08/31/2507366/0/en/4me-is-Officially-Unified-Service-Management-USM-Certified.html_x000D_
+'"""@en ;
+    cav:refersTo camssa:fad29b57-e051-4114-b916-451948fa7386 .
+
+camssa:18b80459-c556-4811-9ff7-7744fe1788a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM "link" concept presents each organisation as a link in a chain or network, so that parties can connect with each other at an organisational level, not a technical one. The USM standard can prepare the ground by making roles, requests and handovers consistent, but technical exposure would have to come from other standards and tools. _x000D_
+_x000D_
+As part of Interoperable Europe’s GovTech4All programme (SGA2, WP2, Pilot 8), work is underway on CPRMV as an extension of the CPSV-AP, which specifically focuses on transparency and aims to build on USM’s universal process model for this purpose; this will be presented and discussed at the SEMIC conference 2026 in Dublin (the workshop ‘Connecting public services, rules and legal obligations’._x000D_
+_x000D_
+CPRMV reference_x000D_
+https://cprmv.open-regels.nl/respec/0.4.2/#_x000D_
+_x000D_
+CPSV-AP reference_x000D_
+https://github.com/SEMICeu/CPSV-AP/tree/master_x000D_
+_x000D_
+SEMIC 2026:_x000D_
+https://interoperable-europe.ec.europa.eu/interoperable-europe/news/semic-2026-dublin-dublin _x000D_
+_x000D_
+_x000D_
+USM interaction model:_x000D_
+https://usm-portal.com/the-usm-customer-provider-interaction-model/?lang=e_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:630de293-3076-4203-b710-e0259229dc32 .
+
+camssa:1f4faaf6-b9e1-4f0b-a5b4-b461ffe2d0bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:string .
+
+camssa:1f8cce46-d0e0-4c7b-a68a-aa977ff441df a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM standard allows information to be reused within and between organisations, as this is part of its design._x000D_
+_x000D_
+The same five processes and eight workflows are meant to apply in every team and domain, so a description of a service or routine made in one place is easier to reuse in another. Its non-redundant design means each piece of work has one place, not several competing versions._x000D_
+_x000D_
+The USM standard considers each organisation as a "link" in a chain or network of service providers. By applying the same management model, providers can exchange information in a common structure that the receiving party can recognise and use._x000D_
+_x000D_
+USM Wiki on the links:_x000D_
+https://usmwiki.com/index.php/The_USM_concept_of_the_link_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en_x000D_
+'"""@en ;
+    cav:refersTo camssa:0e1b0071-a22b-4ca6-a2b7-880c0e5e9389 .
+
+camssa:223a56a3-8709-498b-bf6a-e4d47f42d0eb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The current version of the USM standard in english was released back in 2021 and has been tested with real implementors to demonstrate its usefulness and application. _x000D_
+_x000D_
+The releases that are produced by the USM Community has been documented for registered users and readers of the standard, trough the USM Portal. All members of the community and all readers of the standard can get access to these release notes in the USM Portal._x000D_
+_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en_x000D_
+_x000D_
+USM Management group:_x000D_
+https://usm-portal.com/usm-management-group/?lang=en_x000D_
+_x000D_
+USM in english announcment:_x000D_
+https://usm-portal.com/nieuws/usm-now-available-in-english/?lang=en_x000D_
+'"""@en ;
+    cav:refersTo camssa:8bc73b9e-be41-4926-aa24-25724f3c8d02 .
+
+camssa:2aaf835f-d7a8-4691-a4cf-21505d54af39 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM provides with the framework to elaborate the necessary mechanisms to define a set of routines to ensure secure and trustworthy data exchanges. _x000D_
+_x000D_
+Furthermore, in accordance to ISO9001:2026 (Quality management systems) the deployment of USM provides a comprehensive approach to all the privacy framework an organization might require._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:c6e80f73-9e8a-4492-9ab8-b0e79cd9d84f .
+
+camssa:2e5dab3b-a93d-4ab6-a4ec-7f07aba8b3c4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:string .
+
+camssa:316dd921-117c-492c-b1a1-140bc631911b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'USM provides templates for service definitions, service agreements, and service catalogs. USM also provides a free template for a Service Model Canvas that support the alignment and interoperability of service value chains across various domains._x000D_
+_x000D_
+USM Model Canvas_x000D_
+https://usm-portal.com/usm-service-model-canvas-2/?lang=en_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:ef05b64a-05f6-4fde-8c11-7c77919c5602 .
+
+camssa:331bbb81-8d4e-4ab4-8e62-6609095b49ad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "80"^^xsd:string .
+
+camssa:3522207b-b3fe-41d2-be17-fa20c2f4ada7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:string .
+
+camssa:3786bdc8-8073-4d1c-b31e-beb46d28026f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Currently there are no independent assesments on the USM efficency._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:af4b97bb-9b21-46df-b348-014c228fbfb5 .
+
+camssa:397ad13d-d731-4178-90d2-cad4616c1d53 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a16c678a586cf542d2ae1d6cd8a987bd6ed0b2af52ba0e04d8872fe616a9b7bd ;
+    cav:value "80"^^xsd:string .
+
+camssa:3fdf2803-534c-4fa7-aeb7-d92109d28ad8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Data processing accuracy is a practice, and all practices can be supported in a structured way by applying the USM management system. That is how USM supports compliance with ISO 27001 requirements related to the accuracy and integrity of data processing: the required ISMS is USM, applied to data processing accuracy goals. In other words, USM provides the entire management system that enables data processing accuracy controls._x000D_
+_x000D_
+Specific arrangements in USM that support data processing accuracy include all aspects of management systems, such as service definitions that specify the data processing requirements and quality levels, people with roles and responsibilities for validating, checking and correcting data, processes that are applied to data processing accuracy goals, and technological means that are applied to data processing accuracy goals._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:5da1c7da-d9ba-497d-b44a-6488a97074da .
+
+camssa:401a6356-45b5-492e-a5a6-99d8e5c1c199 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'USM addresses the concept of functionality and functioning of services, and security is explicitly mentioned as one of the quality aspects that can be managed with USM. This also covers the security of data exchange between services, systems and parties._x000D_
+_x000D_
+Secure data exchange is a practice, and all practices can be supported in a structured way by applying the USM management system. That is how USM supports compliance with ISO 27001 data exchange requirements: the required ISMS is USM, applied to data exchange goals. In other words, USM provides the entire management system that enables secure data exchange._x000D_
+_x000D_
+Specific arrangements in USM that support data exchange include all aspects of management systems, such as service definitions that specify which data is exchanged, with whom and under which security conditions, people with roles and responsibilities for authorising, managing and monitoring data exchange, processes that are applied to data exchange goals, and technological means that are applied to data exchange goals._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:77a94ccf-8091-4ab5-8f4b-76537681bd96 .
+
+camssa:47f0b04c-eb8d-4766-b90e-3f3acd7a4ec4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "80"^^xsd:string .
+
+camssa:4d667219-a70c-4b78-b2b8-8c272ec950ac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'USM gives you a ready-made process model for service management. The standard simplifies business process modelling by giving the user a pre-built, non-overlapping architectural model (5 core processes) that can be applied universally across all service delivery teams._x000D_
+_x000D_
+USM principles:_x000D_
+https://usmwiki.com/index.php/USM_principles_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:83e74ec3-ab85-4389-a784-3ecf76ed8bf8 .
+
+camssa:515f73e6-5f8d-486c-b952-125eda647be5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:string .
+
+camssa:520c475b-e808-4385-9ad2-c736e898959e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The SURVUZ foundation openly maintains and publishes the development, governance and releases of the USM standard, with participation from USM partners, thereby supporting community-building and the sharing of results at European level._x000D_
+In the Netherlands, several domain-specific communities are meeting on a regular base, for the exchange of USM knowledge and experience._x000D_
+_x000D_
+Moreover, USM can also be found on the Interoperable Europe Portal._x000D_
+_x000D_
+USM - Interoperable Europe Portal reference:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/interoperability-architecture-solutions/solution/unified-service-management-usm-method_x000D_
+_x000D_
+USM User groups_x000D_
+https://usm-portal.com/usm-user-groups/?lang=en_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:0e5abb72-281f-472f-a839-6d285767b9da .
+
+camssa:5b2364ea-73f7-4a7b-8ad9-554a26f654e7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Currenlty the USM cannot be found in any open repository or catalogue of standards at European level._x000D_
+_x000D_
+CAMSS List of Standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-andspecifications-camss/camss-list-standards_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:3522207b-b3fe-41d2-be17-fa20c2f4ada7 .
+
+camssa:5b6e1af2-4d56-4549-94b4-1db7c085f4e3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Dutch government actively supports USM as part of the NORA. Moreover the USM method is supported by a community built around the SURVUZ Foundation, which manages the specification. This community includes accredited partners, certified professionals and registered user organisations. Partners and professionals take part in the USM Management Group, which maintains and develops USM. _x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en_x000D_
+_x000D_
+The SURVUZ Foundation: _x000D_
+https://usm-portal.com/the-survuz-foundation/?lang=en_x000D_
+_x000D_
+USM register form:_x000D_
+https://usm-portal.com/aansluiting-bij-stichting-survuz/?lang=en'"""@en ;
+    cav:refersTo camssa:f180da47-8473-4ccb-ac5a-67b9665588a2 .
+
+camssa:5b8399ed-8937-48dd-bc34-5d37d93f0a40 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Currently there are no independent assesments on the USM effectiveness._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:515f73e6-5f8d-486c-b952-125eda647be5 .
+
+camssa:5da1c7da-d9ba-497d-b44a-6488a97074da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "80"^^xsd:string .
+
+camssa:630de293-3076-4203-b710-e0259229dc32 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "80"^^xsd:string .
+
+camssa:633b01c0-a58a-4945-b084-063775a1b1c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:string .
+
+camssa:64090862-f0f6-476a-b502-752ad5f3ddc6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM standard does not address the publication of data on the web, as its purpose is to provide a management method for public organisations. The method focuses on how organisations structure and manage their service delivery, through principles, processes and routines. Therefore, this criterion is not applicable to the standard._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:98850361-3e7b-49dd-9536-cf0116ae560b .
+
+camssa:64cfc54f-5531-46d9-abaa-68bc08b4e28b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"USM is designed to connect to existing practices without replacing them. An APMG-hosted webinar featuring SURVUZ describes USM as compatible with ITIL, ISO 20000, COBIT or SAFe, integrating existing practices instead of displacing them. The APMG certification material makes a similar point, saying the principles can be deployed no matter what existing practices are in place._x000D_
+_x000D_
+APMG-hosted webinar:_x000D_
+https://apmg-international.com/node/28088_x000D_
+_x000D_
+APMG's press release announcing the USM certification:_x000D_
+https://apmg-international.com/zh-hans/article/apmg-launches-unified-service-management-usm-certification_x000D_
+_x000D_
+ITIL (Information Technology Infrastructure Library)_x000D_
+https://www.itil.com/_x000D_
+_x000D_
+ISO/IEC 20000 (IT Service Management Standard)_x000D_
+https://www.iso.org/standard/70636.html_x000D_
+_x000D_
+COBIT (Control Objectives for Information and Related Technologies)_x000D_
+https://www.isaca.org/resources/cobit_x000D_
+_x000D_
+SAFe (Scaled Agile Framework)_x000D_
+https://scaledagileframework.com/_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en\""""@en ;
+    cav:refersTo camssa:1f4faaf6-b9e1-4f0b-a5b4-b461ffe2d0bf .
+
+camssa:6665916f-693d-4f88-9f5d-711f878b4ebd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The USM is usable in other languages, with active translation work and some terminology friction to manage. It doesn't address multilingual operation within an organisation. Therefore this criterion is not applicable to the standard._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en\""""@en ;
+    cav:refersTo camssa:8b881e94-7916-4fca-9ec5-4677cbd0a763 .
+
+camssa:6d5ada20-ebf1-443b-a3ce-b9ecfe6947d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:string .
+
+camssa:70b0b6e9-6831-497a-83ea-6aeba8b50a13 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:string .
+
+camssa:763cbee1-4a2d-48e6-95db-962226fc0acd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"As mentioned before, only the Dutch government has some usage of the USM and currenlty there are no european initiatives to expand it's use._x000D_
+The USM was adopted as the foundation for the NORA Basic Concept of Service Delivery, for the Dutch public sector._x000D_
+_x000D_
+NORA Basic Concept of Service Delivery reference:_x000D_
+https://www.noraonline.nl/wiki/Basisconcept_van_Dienstverlening_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en\""""@en ;
+    cav:refersTo camssa:800fa11d-1781-4225-bafd-30051a3a9a03 .
+
+camssa:77a94ccf-8091-4ab5-8f4b-76537681bd96 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "80"^^xsd:string .
+
+camssa:77e6afc4-8355-4004-9cd0-6f3222045f50 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "80"^^xsd:string .
+
+camssa:7b1f5e2d-3c4e-4cab-bfd7-d518c848b315 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "60"^^xsd:string .
+
+camssa:800fa11d-1781-4225-bafd-30051a3a9a03 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:string .
+
+camssa:809d8a66-d57b-4991-98c6-56f692dc9c0d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:string .
+
+camssa:83e74ec3-ab85-4389-a784-3ecf76ed8bf8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:string .
+
+camssa:856ed160-e63d-4d95-a7c4-da1f5350c615 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The SURVUZ Foundation is a non-profit organisation that manages the USM specification. It focuses on quality assurance and oversees expert support for the practical use of USM. The Foundation does this in three ways: it accredits the partners who support the use of the method, certifies the professionals who coach USM user organisations, and certifies the products these partners and professionals use. All accredited partners have a seat in the USM Management Group, which manages USM._x000D_
+_x000D_
+To join the USM Ecosystem as a Partner or Associate, an organisation must sign an Association Agreement with the SURVUZ Foundation. In this agreement, it accepts the Foundation's mission and goals and agrees to respect the IP of USM. As a result, stakeholders can only contribute to the development of the specification as accredited partners._x000D_
+_x000D_
+It is worth mentioning that the "Basisconcept van Dienstverlening" that is based on USM and that is part of the Dutch National Government Reference Architecture is open to everyone, but only government organizations decide about its content through the User Board of the NORA._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en_x000D_
+_x000D_
+NORA User Board:_x000D_
+https://www.noraonline.nl/wiki/NORA_Gebruikersraad_x000D_
+_x000D_
+The SURVUZ Foundation: _x000D_
+https://usm-portal.com/the-survuz-foundation/?lang=en_x000D_
+_x000D_
+USM register form:_x000D_
+https://usm-portal.com/aansluiting-bij-stichting-survuz/?lang=en'"""@en ;
+    cav:refersTo camssa:f279372b-e12a-4ccb-8e29-24cd55aef41d .
+
+camssa:884aad35-4871-465c-bc16-cf24e96b7f87 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Data integrity is a practice, and all practices can be supported in a structured way by applying the USM management system. That is how USM supports compliance with ISO 27001 data integrity requirements: the required ISMS is USM, applied to data integrity goals. In other words, USM provides the entire management system that enables data integrity controls._x000D_
+_x000D_
+Specific arrangements in USM that support data integrity include all aspects of management systems: service definitions that specify the integrity requirements for the data handled by each service, people with roles and responsibilities for protecting, verifying and restoring the integrity of data, processes that are applied to data integrity goals, and technological means that are applied to data integrity goals._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:ea329f90-45ac-46ad-a42b-cf9f6c4ef610 .
+
+camssa:8b881e94-7916-4fca-9ec5-4677cbd0a763 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:string .
+
+camssa:8bc73b9e-be41-4926-aa24-25724f3c8d02 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:string .
+
+camssa:932813d3-5cc9-4c13-8dc8-f044f9708e2d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:string .
+
+camssa:96cf888c-6c2c-44db-89a2-f89ca1aa8994 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM Foundation syllabus covers the Customer-Provider Interaction Model and the basics of service delivery. That model describes how a request moves from a customer to a provider and back, regardless of the channel it arrives through._x000D_
+_x000D_
+The standard processes and workflows give a digital channel something consistent to connect to. A portal that submits a request needs the receiving organization to handle it reliably, and USM structures that handling, including contracts, changes, incidents, operations and risk._x000D_
+_x000D_
+The guide also covers the technology resources of the service organization, so tooling is part of the model. Tools can be audited against USM's requirements and listed by SURVUZ, as mentioned earlier, so a channel built into a certified tool would at least be checked against the method._x000D_
+_x000D_
+Its description of services as a catalogue and its "link" idea for service ecosystems suggest a way to define what is offered and how organizations pass work to one another, which is the content a channel exposes. The Dutch public-sector use described in the previous answer is an example of this at the service-design level._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:633b01c0-a58a-4945-b084-063775a1b1c3 .
+
+camssa:98850361-3e7b-49dd-9536-cf0116ae560b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:string .
+
+camssa:9bf99cde-7350-4d8e-bd69-c7b8d84c88fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a0532f14-fc79-48b7-aa86-11df1fc8aadd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a44f81af-f268-4461-9e32-53aac1323577 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:string .
+
+camssa:a738916c-f400-436b-8185-ca9e2fe9e0d8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ab9a6e29-4b82-4857-bb9f-badf7fa49450 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:string .
+
+camssa:ae2db91d-61a8-434f-b06a-d029873a410e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"USM is made available for use without ANY restrictions. USM doesn't even have licensing model. It goes beyond FRAND._x000D_
+Companies that want to benefit from the USM Community pay a fee that is used to cover the cost of running the office of the Foundation. Annual cost of that office is limited to 15.000 euros, as it only covers out-of-pocket costs like website hosting and develoment, and some marketing. The fees are used to cover that cost in a cost-sharing model. _x000D_
+_x000D_
+USM Partner types registry:_x000D_
+https://usm-portal.com/aansluiting-bij-stichting-survuz/?lang=en_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en_x000D_
+_x000D_
+The SURVUZ Foundation: _x000D_
+https://usm-portal.com/the-survuz-foundation/?lang=en\""""@en ;
+    cav:refersTo camssa:a738916c-f400-436b-8185-ca9e2fe9e0d8 .
+
+camssa:af465eb5-01ef-474f-babb-22c0c0ef8d68 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:af4b97bb-9b21-46df-b348-014c228fbfb5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:string .
+
+camssa:b1814615-3bf7-4b72-a68d-0447795bb46b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:string .
+
+camssa:bb6ed029-d841-4699-8148-bade6b4bdcbc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Organizational interoperability between countires and organizations requires a standardization of their communication interfaces. USM provides the simplified base for all interaction between any two actors in a supply chain or network, in a structured way and can effectively enable international collaboration at any level._x000D_
+_x000D_
+The USM is currently the back bone of the Dutch Governmental Reference Architecture (NORA), in this sense the interoperable Europe Portal it documents and clarifies the Dutch government's overview of eight capabilities for delivering services to citizens and businesses is based on Unified Service Management, a standardized management system for service providers. It adds that the approach is already being used by individual governmental agencies and municipalities to improve their services and service management. _x000D_
+It also mentions that USM lets organizations act as links in integrated supply chains and networks with no more than eight standardised workflows, which matches the "link"concept of the USM._x000D_
+_x000D_
+USM Wiki on the links:_x000D_
+https://usmwiki.com/index.php/The_USM_concept_of_the_link_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en_x000D_
+_x000D_
+Interoperable portal about NORA Reference:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/iopeu-monitoring/solution/european-interoperability-framework-eif-toolbox/dutch-governmental-reference-architecture-nora '"""@en ;
+    cav:refersTo camssa:2e5dab3b-a93d-4ab6-a4ec-7f07aba8b3c4 .
+
+camssa:bd9fc392-24ac-45ce-ab9f-459ac686c5bd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Currently the USM standard us used by more than 120 organisations from multiple domains and countries across the globe._x000D_
+_x000D_
+Originally it was focused in the Netherlands public sector, in particular, the USM was adopted as the foundation for the NORA Basic Concept of Service Delivery, for the Dutch public sector._x000D_
+_x000D_
+Other examples include Finnish Telecom provider Telenor, which started implementing USM on a broader basis in 2023 as a way to describe the whole business. The main takeaways of the USM implementation on the company were the increase efficiency in RFB and RFI and the decrease of DLA deviations. It also clarified the market model of the company and finally the widening of the offer in value of the company. _x000D_
+_x000D_
+Finally another example is the improvement project that started in 2020 based on USM for the Dutch ministry. In this case the USM provided the bases to streamline the public service and reduce the incidences on the various teams( ICT, facilities...)._x000D_
+_x000D_
+It is worth mentioning that for several years USM was taught at busines schools in the Netherlands as te main topic for IT Service Management. Now, USM is a regular part of all curriculae, as one of the knowledge sources for any IT organization. It's also currently taught at Odisee, the Brussel business school, and at the Jade Hochschule in Wilhelmshaven, Germany._x000D_
+_x000D_
+Dutch ministry improvement project reference:_x000D_
+https://vimeo.com/712243422_x000D_
+_x000D_
+NORA Basic Concept of Service Delivery reference:_x000D_
+https://www.noraonline.nl/wiki/Basisconcept_van_Dienstverlening_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM Users:_x000D_
+https://usm-portal.com/usm-users/?lang=en_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en_x000D_
+_x000D_
+Finnish Telecom provider Telenor use case:_x000D_
+https://www.youtube.com/watch?v=aiIvtrPD7_I&t=659s_x000D_
+_x000D_
+The SURVUZ Foundation: _x000D_
+https://usm-portal.com/the-survuz-foundation/?lang=en\""""@en ;
+    cav:refersTo camssa:7b1f5e2d-3c4e-4cab-bfd7-d518c848b315 .
+
+camssa:bf30cb47-1be8-40e1-9d29-754b4d5417ba a cav:Score,
+        owl:NamedIndividual ;
+    cav:value "82.16%AssessmentScoreAverage"^^xsd:string,
+        "100%StrengthOfAssessmentScoreAverage"^^xsd:string .
+
+camssa:bf7a8f11-2637-47df-889a-922b5c162b01 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Secure and trustworthy processing of data is a practice, and all practices can be supported in a structured way by applying the USM management system. That is how USM supports compliance with ISO 27001 requirements for secure and trustworthy data processing: the required ISMS is USM, applied to secure and trustworthy data processing goals. In other words, USM provides the entire management system that enables secure and trustworthy processing of data._x000D_
+_x000D_
+Specific arrangements in USM that support secure and trustworthy processing of data include all aspects of management systems, such as service definitions that specify the security and reliability requirements for the data processed by each service, people with roles and responsibilities for handling, protecting and checking data during processing, processes that are applied to secure and trustworthy data processing goals, and technological means that are applied to secure and trustworthy data processing goals._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:cb06f0a7-79da-4ea0-b6d5-80a7c679739e .
+
+camssa:c489df09-ebb5-4860-b305-2a6d2f185f8e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The USM standard is meant to be usable in any service organisation or team, of any size and in any line of business. It covers a service organisation's people, technology resources, routines and services. It is also meant to work across several task domains, for example in a shared service centre, and to link actors across supply chains and service ecosystems._x000D_
+_x000D_
+The USM standard is wide in the range of organisations it applies to, but narrow in what it models: service management practices, but it is worth mentioning that USM does not specify any practical results, but it is meant to support any practical use for that purpose._x000D_
+This means it can support any public-sector procedure description in a methodical way. All rules of any organisation in any line of business can also be supported._x000D_
+_x000D_
+As part of Interoperable Europe’s GovTech4All programme (SGA2, WP2, Pilot 8), work is underway on CPRMV as an extension of the CPSV-AP, which specifically focuses on transparency and aims to build on USM’s universal process model for this purpose; this will be presented and discussed at the SEMIC conference 2026 in Dublin (the workshop ‘Connecting public services, rules and legal obligations’._x000D_
+_x000D_
+CPRMV reference_x000D_
+https://cprmv.open-regels.nl/respec/0.4.2/#_x000D_
+_x000D_
+CPSV-AP reference_x000D_
+https://github.com/SEMICeu/CPSV-AP/tree/master_x000D_
+_x000D_
+SEMIC 2026:_x000D_
+https://interoperable-europe.ec.europa.eu/interoperable-europe/news/semic-2026-dublin-dublin _x000D_
+_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en\""""@en ;
+    cav:refersTo camssa:ddbe5c26-4e71-4f0e-8796-4e9e3f789752 .
+
+camssa:c66d1ad0-920c-4bce-94bc-1d280bb8bf57 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:string .
+
+camssa:c6e80f73-9e8a-4492-9ab8-b0e79cd9d84f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:string .
+
+camssa:cb06f0a7-79da-4ea0-b6d5-80a7c679739e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "80"^^xsd:string .
+
+camssa:cb308191-65b7-4cbb-b3ef-54a04de09ebe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'USM is a management system for service organisations, and it does not address data preservation. Therefore this criterion is not applicable to the standard._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:f62baaa4-621e-49a8-90c4-3fa994af6c3a .
+
+camssa:cb792f95-3990-4435-90a0-35e0e0359e5a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'USM enables all management mechanisms for data authenticity. USM explicitly supports the concepts of Profiles based on Roles and Functions, and provides guidance on how to use them in a structured way, so that it is always clear who is authorised to create, modify or approve data and the origin of the data can be verified._x000D_
+_x000D_
+Specific arrangements in USM that support data authenticity include all aspects of management systems, such as service definitions that specify the authenticity requirements for the data handled by each service, people with roles and responsibilities for creating, approving and verifying data, processes that are applied to data authenticity goals, and technological means that are applied to data authenticity goals._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:ed6f7e07-26c3-436c-92eb-4c8c29c96b34 .
+
+camssa:ccf05629-4a5b-437b-be94-c399755f4046 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The USM standard defines a core standardised model, which includes five processes and eight workflows described as non-redundant. USM presents this standardization as its benefit, so changing it would undermine the point of the method._x000D_
+_x000D_
+Therefore the method is described as helping organizations set up and integrate their own routines, organization and tooling. That implies the method provides the structure and the organization fills in its own content._x000D_
+_x000D_
+It is principle-based, not practice-based, so it doesn't prescribe detailed procedures or tools._x000D_
+Popular frameworks such as ITIL, COBIT or FitSM can be layered on top for specialized practices, which is a built-in route for adding domain-specific detail._x000D_
+_x000D_
+Customisation looks intended at the level of services, routines and tooling, while the core process model is standardized and stays fixed._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en\""""@en ;
+    cav:refersTo camssa:ab9a6e29-4b82-4857-bb9f-badf7fa49450 .
+
+camssa:d66420c6-621e-4ed6-8608-5064be56c7f7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'USM is a management system for service organisations, and it does not address data portability between systems or applications. Therefore this criterion is not applicable to the standard._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:da822003-8ff2-41bd-b690-fed847a7ae99 .
+
+camssa:d88c69eb-51ac-4a61-82cd-f67d73b454d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM has widespread usage on the Netherlands (including NORA service delivery) but not as a result of any initiative and covering technical privacy aspects. Therefore this criterion is not applicable to the standard._x000D_
+_x000D_
+NORA Basic Concept of Service Delivery reference:_x000D_
+https://www.noraonline.nl/wiki/Basisconcept_van_Dienstverlening_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:a0532f14-fc79-48b7-aa86-11df1fc8aadd .
+
+camssa:d9681965-9d8c-4af1-92a4-22a85814f8f3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Access control is a security practice, and all practices can be supported in a structured way by applying the USM management system. That is how USM supports compliance with ISO 27001 access control requirements: the required ISMS is USM, applied to access control goals. In other words, USM provides the entire management system that enables access control mechanisms._x000D_
+_x000D_
+Specific arrangements in USM that support access control include all aspects of management systems, such as service definitions that specify who has access to which services, people with roles and responsibilities for requesting, approving, granting and revoking access, processes that are applied to access control goals, and technological means that are applied to access control goals._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:397ad13d-d731-4178-90d2-cad4616c1d53 .
+
+camssa:d9f7ff09-458e-4a86-a868-a4433ad0334d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://data.europa.eu/w21/17a64c46-89ed-4404-bdcb-1c825c18d37b"^^xsd:anyURI .
+
+camssa:da822003-8ff2-41bd-b690-fed847a7ae99 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ddbe5c26-4e71-4f0e-8796-4e9e3f789752 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "80"^^xsd:string .
+
+camssa:e0fd03e9-4bb2-46d1-bf9b-bce9b44c249e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM standard is not a data privacy framework. However, ISO 27001 (information security, cybersecurity and privacy protection) requires organisations to establish the requirements of the standard. An ISMS is a management system applied to security objectives, and the USM standard provides a standardised management system for any team in the organisation or its supply chain. The USM standard also includes a cross-reference with ISO 27001, which makes it easier to meet these requirements. This is supported by a predefined project management module in a USM-compliant tool (the "USM Designer")._x000D_
+_x000D_
+Likewise, deploying the USM standard can help an organisation meet the management system requirements of ISO 9001:2026 (quality management systems)._x000D_
+_x000D_
+ISO/IEC 27001:2022 Information security, cybersecurity and privacy protection_x000D_
+https://www.iso.org/standard/27001_x000D_
+_x000D_
+USM Designer tool:_x000D_
+https://usm-portal.com/usmproduct/usm-designer/?lang=en_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:77e6afc4-8355-4004-9cd0-6f3222045f50 .
+
+camssa:e84fc684-9e90-4761-a72c-cbcc39a9102c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM standard is technology-agnostic, as it is a principle-based management standard that does not depend on specific technologies or tools. Its documentation states that organisations use it to set up their routines, organisation and tooling. This means the standard comes first and the tools are chosen to fit it._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:6d5ada20-ebf1-443b-a3ce-b9ecfe6947d4 .
+
+camssa:ea329f90-45ac-46ad-a42b-cf9f6c4ef610 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "80"^^xsd:string .
+
+camssa:ea5128a2-3e7c-46fc-bfc6-5d6e70368c7d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The content of USM is managed by the USM Management Group, chaired by the SURVUZ Foundation. Its members represent the USM ecosystem: USM Partners and Professionals, Deployment Partners, Education Partners, Product Partners, Exam Partners, coaches, trainers and product experts._x000D_
+_x000D_
+All these partners can work together and share ideas to develop the standard. However, new releases are not subject to public review._x000D_
+_x000D_
+USM management group:_x000D_
+https://usm-portal.com/usm-management-group/?lang=en_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en_x000D_
+_x000D_
+The SURVUZ Foundation: _x000D_
+https://usm-portal.com/the-survuz-foundation/?lang=en'"""@en ;
+    cav:refersTo camssa:c66d1ad0-920c-4bce-94bc-1d280bb8bf57 .
+
+camssa:ea7da66c-c159-4eca-b11b-ef06653a23dc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ecaa68de-815b-4928-920b-93b950cc192e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"USM is part of the NORA, and the NORA is legally forced upon all Dutch government organisations, since 2008. Therefore, it's not just a recommendation, it's a required standard in the Netherlands._x000D_
+_x000D_
+CAMSS List of Standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards_x000D_
+_x000D_
+NORA Basic Concept of Service Delivery reference:_x000D_
+https://www.noraonline.nl/wiki/Basisconcept_van_Dienstverlening_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en\""""@en ;
+    cav:refersTo camssa:932813d3-5cc9-4c13-8dc8-f044f9708e2d .
+
+camssa:ed6f7e07-26c3-436c-92eb-4c8c29c96b34 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "80"^^xsd:string .
+
+camssa:ef05b64a-05f6-4fde-8c11-7c77919c5602 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "80"^^xsd:string .
+
+camssa:ef276a75-c366-41c3-b574-a206a379c773 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM standard has not been found directly referenced by any national catalogue of specifications. However,  there are implementations by other National organisations (mainly in the Netherlands) that have referenced and included the standard within their catalogue. Some of the examples are the education executive agency DUO that has used USM in parts of its organisation since 2017, the DICTU adopted it in 2019, Government Datacenter North (ODC-Noord) has been utilising it since 2015, and the asylum-seeker reception agency COA implemented it in 2023._x000D_
+_x000D_
+Most relevant is the fact that the Dutch ministry of Internal Affairs runs the National Government Reference Architecture (NORA) for public services. The NORA explicitly lists USM as a component in their architecture._x000D_
+_x000D_
+Other Government organizations that explicitly apply USM to improve their management system and their service delivery, and that can be expected to share their experiences, include, City of Amsterdam, City of Deventer, City of Edam & Volendam, City of Gouda, City of Utrechtse Heuvelrug, Veiligheids- en gezondheidsregio Gelderland-Midden (VGGM), Veiligheidsregio Fryslân, Veiligheidsregio IJsselland, Veiligheidsregio Utrecht._x000D_
+_x000D_
+_x000D_
+NORA ereference:_x000D_
+https://www.noraonline.nl/wiki/Wat_is_het_basisconcept_van_dienstverlening_x000D_
+_x000D_
+USM Users Register (entries number 21,41,45 and 55) Reference:_x000D_
+https://usm-portal.com/usm-users/?lang=en _x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:9bf99cde-7350-4d8e-bd69-c7b8d84c88fd .
+
+camssa:f180da47-8473-4ccb-ac5a-67b9665588a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:string .
+
+camssa:f279372b-e12a-4ccb-8e29-24cd55aef41d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "60"^^xsd:string .
+
+camssa:f62baaa4-621e-49a8-90c4-3fa994af6c3a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:string .
+
+camssa:f663e991-130d-4305-a054-c2cfc386802f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'USM is a management system for service organisations, and it does not address e-accessibility. Therefore this criterion is not applicable to the standard._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:af465eb5-01ef-474f-babb-22c0c0ef8d68 .
+
+camssa:f78af637-4118-438f-be2f-7d477c70490d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM method is not included and mapped in the EIRA Library of Interoperability Specifications (ELIS). However, as the standard focuses on various organisational aspects, it could be related to various ABBs of the organisational view, as it covers some of the organisational aspects defined by the ABBs on this view._x000D_
+_x000D_
+EIRA Library of Interoperability Specifications (ELIS):_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/700_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en'"""@en ;
+    cav:refersTo camssa:70b0b6e9-6831-497a-83ea-6aeba8b50a13 .
+
+camssa:fad29b57-e051-4114-b916-451948fa7386 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:string .
+
+camssa:fbb0d7b0-0f7c-42ba-98bb-553d9be72a5c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The USM standard allows partial implementation by organisational scope (for example, starting with one team), but it is designed so that its core model is adopted as a whole, not partially._x000D_
+_x000D_
+The USM standard can be applied in any service organisation or team, whatever its size or sector, so it can be introduced in a single team first and extended across the organisation later. It is also designed to work alongside popular frameworks, such as ITIL, COBIT or FitSM, which can be layered on top of it. This allows an organisation to keep its existing practices while adopting the structure of the USM standard._x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal:_x000D_
+https://usm-portal.com/?lang=en_x000D_
+'"""@en ;
+    cav:refersTo camssa:331bbb81-8d4e-4ab4-8e62-6609095b49ad .
+
+camssa:fc853138-d1db-4a9c-93e3-ee5b833f27fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"USM is part of the NORA, and the NORA is legally forced upon all Dutch government organizations, since 2008. Therefore, it's not just a recommendation, it's a required standard in the Netherlands._x000D_
+_x000D_
+CAMSS List of Standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-andspecifications-camss/camss-list-standards_x000D_
+_x000D_
+NORA Basic Concept of Service Delivery reference:_x000D_
+https://www.noraonline.nl/wiki/Basisconcept_van_Dienstverlening_x000D_
+_x000D_
+USM Wiki:_x000D_
+https://usmwiki.com/index.php/Main_Page_x000D_
+_x000D_
+USM portal_x000D_
+https://usm-portal.com/?lang=en\""""@en ;
+    cav:refersTo camssa:809d8a66-d57b-4991-98c6-56f692dc9c0d .
+
+camssa:29af06000760991590e5151938979f643c702d96c051356dd15d972499224838 a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:assesses cssvrsc:327c67acb2fdfe18fe292586ee0d282e25e00dbec3a8a20923b6ef14c05c074e ;
+    cav:considers camssa:c65be620-5744-4511-ab12-83a9d2f37243 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:performedBy camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 ;
+    cav:resultsIn camssa:0f3d575f-521a-48bd-b624-494864cfad8a,
+        camssa:1d54ae99-f4cc-47f1-b7fd-50e28e354f18,
+        camssa:2295e44d-e8d0-4a73-ad79-91b948b226f7,
+        camssa:293ccaa4-6122-41ca-8955-11d3da23d544,
+        camssa:31fe39bd-a758-463b-849c-8abc8146cb9a,
+        camssa:3602a87e-5936-4016-8276-058c37978365,
+        camssa:3683ddb0-255b-48a2-8f95-c4c22803907c,
+        camssa:387fa453-152b-4323-b483-a2eb1b70ee03,
+        camssa:404f0989-cd9b-481d-a170-dbe5b3404017,
+        camssa:47831730-0965-468d-aaa1-69c64aa957ff,
+        camssa:480cc6f1-acdd-45f0-871d-defa18faa3f5,
+        camssa:4c207ca2-1d19-49a1-81a6-794bb1f25fba,
+        camssa:4d659b62-216d-4cbc-96c7-5eeb6f8a3fef,
+        camssa:51522a1c-2c70-4705-9585-a673b16d31d1,
+        camssa:5f62efcb-e000-4d32-8e6d-9ed748adfc2d,
+        camssa:5f88e4ea-ce3e-4e1a-975f-00e43dfbcf44,
+        camssa:6f50fde7-3897-45fe-ab16-e9215ebed05d,
+        camssa:7896d414-5eed-4ee5-b98a-6aca89994964,
+        camssa:7ee0a99a-2ac0-4c64-b3ff-d63205123597,
+        camssa:7f253b8d-35bd-4d28-9a71-d5c67b1bec28,
+        camssa:82bfc643-7ef4-4366-a005-1e22571068be,
+        camssa:89bd7a3b-83f1-403b-8943-3a533354620c,
+        camssa:8dbfa4b6-17e7-4f47-9f3e-ab3551584d76,
+        camssa:939a9394-420b-4fe2-b1b0-15d05097ebc6,
+        camssa:958c61cc-ff93-4a11-b365-f1bc70602413,
+        camssa:ac894921-807f-4693-be36-e20e86c6745c,
+        camssa:b11a4b81-02cd-4c6c-9b13-b3e4044dbd9a,
+        camssa:b19420c6-918c-4308-812f-dc04dcd1f85a,
+        camssa:b58f102c-067c-41d2-93a9-afcc8ce9ae70,
+        camssa:b5d7e908-6514-44e5-a89e-05199b81d317,
+        camssa:b7ef9a64-195b-43d7-b672-28c785ee0120,
+        camssa:bce012e2-9f8e-46d3-8292-4a9069b67ab2,
+        camssa:bd9dca56-f467-45aa-83b0-808715ce11ee,
+        camssa:c2d46e0a-ab37-4cfd-a56f-18b1bd67026d,
+        camssa:cff10b98-2751-4f58-8a22-bab486efcf17,
+        camssa:d1a7ecba-b408-4bf6-a8a4-f18a17d8c062,
+        camssa:deb95d5d-7a6f-48ee-98da-cc2cc6015378,
+        camssa:df444055-9cdc-4219-9103-9ce36e67d27c,
+        camssa:e6f3c25d-8e49-4045-9a09-bbd0fe213489,
+        camssa:e82b5109-e875-4ae4-b5b0-8cfa1008befa,
+        camssa:eb6eff3a-67f4-4219-98ae-926669a59747,
+        camssa:ef51b023-7912-4d74-a68f-f714cd0a5071,
+        camssa:ef609370-1e61-4f4d-89ff-6a4660dc2775,
+        camssa:f1c4d812-8845-4f47-9ec6-4b8f90ef3d97,
+        camssa:f24ab8e1-a870-49a4-8f2a-2f037103783a ;
+    dct:description "Assessment of the Securing Artificial Intelligence (SAI); AI Threat Ontology and definitions (ETSI TS 104 050) EIF Scenario with the Common Assessment Method for Standards and Specifications (CAMSS)"@en ;
+    dct:issued "2026-09-25"^^xsd:date ;
+    dct:title "CAMSS Assessment of Securing Artificial Intelligence (SAI); AI Threat Ontology and definitions (ETSI TS 104 050) EIF Scenario v1.0.0"@en ;
+    dcat:distribution camssa:055169d1-74bf-4af3-9a90-1b60f3539c46 ;
+    dcat:version "1.0.0" .
+
+camssa:03b76903-e8d3-4dea-a4d2-9b284c2a35e1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "80"^^xsd:string .
+
+camssa:055169d1-74bf-4af3-9a90-1b60f3539c46 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://data.europa.eu/w21/d739803e-a8e2-4f8c-b8e9-0a92ea71bbeb"^^xsd:anyURI .
+
+camssa:05a4b679-8c68-4723-9767-1bffc05d0fae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "80"^^xsd:string .
+
+camssa:0f3d575f-521a-48bd-b624-494864cfad8a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:fc9d96a9-0ba0-4974-8cbf-0d3b83d72087 .
+
+camssa:1132c473-edda-4e6e-a56a-3e406a218d0f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:string .
+
+camssa:1151c73f-33c6-40d4-b719-05f0a339e4a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "60"^^xsd:string .
+
+camssa:1d54ae99-f4cc-47f1-b7fd-50e28e354f18 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not define a conformance clause, testable requirements or a conformance-testing methodology, as it defines an AI threat ontology and common terminology rather than specific implementation requirements. It is limited to providing a conceptual ontology and terminology for AI-related security threats. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:d30feb0a-4598-43ff-ba99-924d92310878 .
+
+camssa:1e3b6dcc-5bc6-4fef-b18e-d61931d360e9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:string .
+
+camssa:2192466e-beb0-4cac-ab0d-f43d901e1bb6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "80"^^xsd:string .
+
+camssa:2295e44d-e8d0-4a73-ad79-91b948b226f7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 is organised into several largely independent parts covering definitions, the threat landscape and the ontology relationships, which could, in principle, be adopted selectively rather than as a whole. However, unlike specifications that explicitly define sets of requirements to be applied according to specific user or system needs, this specification presents its content as a coherent, descriptive whole and does not define distinct profiles or partial-conformance provisions._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:1151c73f-33c6-40d4-b719-05f0a339e4a6 .
+
+camssa:25aa501e-b3d0-4380-9894-9ae267e8da77 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:string .
+
+camssa:293ccaa4-6122-41ca-8955-11d3da23d544 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 does not provide any concrete mechanism or feature for restricting access to information or data. It identifies violation of confidentiality, including unauthorised access to, or disclosure of, sensitive information such as model outputs or training data, as one of the adversarial goals covered by its threat ontology. However, this treatment is limited to defining confidentiality as a threat category to be considered in risk analysis; the specification does not specify any access-control measures, protocols or other technical provisions that would restrict access to information or data in practice._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:29ff69f0-af1f-4f8d-bee3-9738ab819de4 .
+
+camssa:29ff69f0-af1f-4f8d-bee3-9738ab819de4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "60"^^xsd:string .
+
+camssa:2e8645b6-f7cb-4724-870a-727b382525e7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:string .
+
+camssa:31fe39bd-a758-463b-849c-8abc8146cb9a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After searching different catalogues, no evidence was found of ETSI TS 104 050 being included in a European catalogue of standards as a specification in its own right. However, its predecessor specification, ETSI GR SAI 001, from which ETSI TS 104 050 evolved, is referenced in the ENISA report Cybersecurity of AI and Standardisation. In this report, ENISA analyses standards and standardisation activities relevant to the cybersecurity and trustworthiness of Artificial Intelligence systems and identifies ETSI's AI-security work as part of the emerging European standardisation landscape addressing AI-related risks. The inclusion of ETSI GR SAI 001 in this European cybersecurity study provides evidence of recognition and visibility within the broader European AI governance and standardisation ecosystem._x000D_
+_x000D_
+Challenges and efforts in managing AI trustworthiness risks: a state of knowledge" study: https://pubmed.ncbi.nlm.nih.gov/38798307/
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:5bb011c3-527d-46bc-b0ef-7dd1f80086da .
+
+camssa:3602a87e-5936-4016-8276-058c37978365 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 defines AI-security terminology and a threat ontology. It does not concern the visibility of administrative procedures, rules, data or services of public administrations. Therefore, this criterion is not applicable to the specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:9605b410-6190-4a94-be59-180422c77d4e .
+
+camssa:3683ddb0-255b-48a2-8f95-c4c22803907c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not define a data model, exchange format, or transfer mechanism between systems or applications; it is concerned solely with concepts, definitions, and relationships so data portability does not apply. Therefore, this criterion is not applicable to the specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:95880aec-6209-44a3-bc23-e47ada8dc32e .
+
+camssa:387fa453-152b-4323-b483-a2eb1b70ee03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 does not provide an access control mechanism, as it does not define technical measures such as role or rule management for restricting system access. It is limited to defining and classifying AI-related threats within a conceptual ontology, without addressing implementation-level security controls. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:ba81d02d-8635-4333-bebb-91fb8d33da69 .
+
+camssa:3f30d2c7-6e64-47c7-851c-e0e025f0f2c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "60"^^xsd:string .
+
+camssa:404f0989-cd9b-481d-a170-dbe5b3404017 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 is not related to, or make provision for, technical interfaces of any kind (API, protocol, or otherwise) to public administration systems; it is confined to definitions and an ontological model. Therefore, this criterion is not applicable to the specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:700631fd-2bba-4e62-a012-cbab1e9b0461 .
+
+camssa:47831730-0965-468d-aaa1-69c64aa957ff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:aeeb171f-16e9-4156-97ba-014cb44576f7 .
+
+camssa:480cc6f1-acdd-45f0-871d-defa18faa3f5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ETSI TS 104 050 is not related to the publication of public data as open data. Therefore this_x000D_
+criterion is not applicable to the specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:967be4c0-f4a8-41be-a421-1cc65500f524 .
+
+camssa:4c207ca2-1d19-49a1-81a6-794bb1f25fba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification is not included in any national catalogue of recommended specifications whose Member State NIF has a high performance on interoperability according to NIFO factsheets. However, it has been recognised as a reference by ENISA (in its previous version, GR SAI-001) and in academic literature, and the UK Government includes it as a reference resource in the implementation guidance for its Implementation Guide for the AI Cyber Security Code of Practice._x000D_
+_x000D_
+CAMSS list of standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards_x000D_
+_x000D_
+"Challenges and efforts in managing AI trustworthiness risks: a state of knowledge" article:_x000D_
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11119750/_x000D_
+_x000D_
+"Cybersecurity of AI and Standardisation" report:_x000D_
+https://www.enisa.europa.eu/sites/default/files/publications/Cybersecurity%20of%20AI%20and%20Standardisation.pdf_x000D_
+_x000D_
+Implementation Guide for the AI Cyber Security Code of Practice:_x000D_
+https://assets.publishing.service.gov.uk/media/679cae441d14e76535afb630/Implementation_Guide_for_the_AI_Cyber_Security_Code_of_Practice.pdf_x000D_
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:7372382f-43a4-4ecf-b9e0-88fee66a6e9a .
+
+camssa:4d02a314-903a-492d-be8c-11b69d38b2ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:string .
+
+camssa:4d659b62-216d-4cbc-96c7-5eeb6f8a3fef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:ec2e2d23-6386-4ab2-b8ce-972cf13191c7 .
+
+camssa:51522a1c-2c70-4705-9585-a673b16d31d1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 defines a trust model, identifies different actor categories, and establishes trust relationships between stakeholders such as data owners, model providers, consumers, and outsiders. These concepts contribute to authenticity and trustworthiness considerations in AI systems. However, since its an ontological specifciations, there are no defined authentication systems or mechanisms._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:05a4b679-8c68-4723-9767-1bffc05d0fae .
+
+camssa:52226697-9171-44f9-8db9-6e1695fb2e6e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "80"^^xsd:string .
+
+camssa:58ca9854-7777-44ec-a5fc-e47b16354247 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "60"^^xsd:string .
+
+camssa:595c5f69-c7cc-4845-a86d-6de7b951a3ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:string .
+
+camssa:5bb011c3-527d-46bc-b0ef-7dd1f80086da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:string .
+
+camssa:5f62efcb-e000-4d32-8e6d-9ed748adfc2d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'No evidence was found of ETSI TS 104 050 being catalogued, as a specification in its own right, in a national open repository._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:c12f4780-702f-46af-81b8-6422a7683497 .
+
+camssa:5f88e4ea-ce3e-4e1a-975f-00e43dfbcf44 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification provides the standardised threat definitions and structural framework necessary to conduct effective risk analysis and protect sensitive citizen data within AI systems. It explicitly identifies confidentiality violations, including the risk that a trained model may inadvertently reveal or reconstruct the personal data used to train it, as one of the adversarial goals it addresses. However, it does not reference specific data-protection regulations, nor does it define exhaustive requirements or controls for protecting personal data; rather, it establishes the conceptual basis on which such protections can be built._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:3f30d2c7-6e64-47c7-851c-e0e025f0f2c1 .
+
+camssa:65493c3d-c2c3-4f77-83d2-17650b93ff93 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:string .
+
+camssa:6d2da9c5-ee5c-48fd-bd2e-4e2e635c73e8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:string .
+
+camssa:6f50fde7-3897-45fe-ab16-e9215ebed05d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 was originally published as ETSI GR SAI 001 in January 2022 and was subsequently updated and extended as ETSI TS 104 050 V1.1.1 in March 2025. Developed by ETSI Technical Committee Securing Artificial Intelligence (TC SAI), the specification establishes a common ontology and terminology for AI-related threats, vulnerabilities, threat agents, trust relationships, and countermeasures. Its objective is to provide a shared understanding of AI-security concepts across stakeholders and sectors and to support consistent threat modelling and risk analysis for AI-enabled systems._x000D_
+_x000D_
+The latest available release of the specification is ETSI TS 104 050 V1.1.1 (March 2025). This release formalised the AI Threat Ontology as an ETSI Technical Specification and consolidated the terminology, threat taxonomy, trust models, and AI-specific threat concepts developed within the ETSI SAI programme. The specification provides a structured ontology covering threats to AI systems, threats posed by AI systems, AI-enabled threat agents, and AI-enabled countermeasures, offering a consistent framework for AI-security analysis across multiple domains._x000D_
+_x000D_
+The most recent major evolution of the specification was the transition from ETSI GR SAI 001 to ETSI TS 104 050, explicitly described in the Foreword as an update and extension of the earlier Group Report. This progression demonstrates the maturity of the work, as the ontology evolved from an informative report into a normative ETSI Technical Specification. The new release expanded and refined the original ontology, retained key concepts from the earlier work, and strengthened its role as a common reference framework for AI threat identification, classification, and security governance within the broader ETSI TC SAI work programme._x000D_
+_x000D_
+In addition, the original ETSI GR SAI 001 was referenced in the ENISA report Cybersecurity of AI and Standardisation, which provides an overview of standards and standardisation activities supporting the cybersecurity and trustworthiness of Artificial Intelligence systems in Europe. The report analyses standards relevant to the implementation of AI risk-management and cybersecurity requirements and identifies ETSI's AI-security work as part of the European standardisation landscape._x000D_
+_x000D_
+"Cybersecurity of AI and Standardisation" report:_x000D_
+https://www.enisa.europa.eu/sites/default/files/publications/Cybersecurity%20of%20AI%20and%20Standardisation.pdf_x000D_
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:595c5f69-c7cc-4845-a86d-6de7b951a3ff .
+
+camssa:700631fd-2bba-4e62-a012-cbab1e9b0461 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:string .
+
+camssa:7372382f-43a4-4ecf-b9e0-88fee66a6e9a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:string .
+
+camssa:7896d414-5eed-4ee5-b98a-6aca89994964 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:1132c473-edda-4e6e-a56a-3e406a218d0f .
+
+camssa:7ee0a99a-2ac0-4c64-b3ff-d63205123597 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:e7a3dca1-f467-43b4-a4e1-a5a9527a68c6 .
+
+camssa:7f253b8d-35bd-4d28-9a71-d5c67b1bec28 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 analyses threats affecting data throughout the AI lifecycle, including data acquisition, curation, transfer, manipulation, poisoning, and compromise. It discusses their impact on confidentiality, integrity, and availability and provides a structured threat-modelling framework. However, it does not prescribe concrete protocols, cryptographic mechanisms, or secure-exchange technologies._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:2192466e-beb0-4cac-ab0d-f43d901e1bb6 .
+
+camssa:7fc1e5aa-0286-47d1-b5af-85f67911cc5d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:string .
+
+camssa:82bfc643-7ef4-4366-a005-1e22571068be a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI IPR Policy which is part of the ETSI directives seeks to reduce the risk that our standards-making efforts might be wasted if SEPs are unavailable under Fair, Reasonable and Non-Discriminatory (FRAND) terms and conditions.
+The main objective of the ETSI IPR Policy is to balance the rights and interests of IPR holders to be fairly and adequately rewarded for the use of their SEPs in the implementation of ETSI standards and the need for implementers to get access to the technology defined in ETSI standards under FRAND terms and conditions.
+
+ETSI’s intellectual property rights policy:
+https://www.etsi.org/intellectual-property-rights'"""@en ;
+    cav:refersTo camssa:b7a9b9ea-28b8-4233-b16e-a838020b44ac .
+
+camssa:82f76841-3769-4773-b816-cabd95917230 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:string .
+
+camssa:89bd7a3b-83f1-403b-8943-3a533354620c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There has not been found any European Member State recommending ETSI TS 104 050 for the implementation or procurement of digital public services. However, it has been recognised as a reference by ENISA (in its previous version, GR SAI-001) and in academic literature, and the UK Government includes it as a reference resource in the implementation guidance for its Implementation Guide for the AI Cyber Security Code of Practice._x000D_
+_x000D_
+CAMSS List of Standards:_x000D_
+https://interoperable-europe.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards_x000D_
+_x000D_
+"Cybersecurity of AI and Standardisation" report:_x000D_
+https://www.enisa.europa.eu/sites/default/files/publications/Cybersecurity%20of%20AI%20and%20Standardisation.pdf_x000D_
+_x000D_
+Implementation Guide for the AI Cyber Security Code of Practice:_x000D_
+https://assets.publishing.service.gov.uk/media/679cae441d14e76535afb630/Implementation_Guide_for_the_AI_Cyber_Security_Code_of_Practice.pdf_x000D_
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:2e8645b6-f7cb-4724-870a-727b382525e7 .
+
+camssa:8a33a528-b05c-4cf5-ac14-a3b9641349c7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "80"^^xsd:string .
+
+camssa:8aafbfb9-072d-49cb-9cd8-cbce42d50a32 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "80"^^xsd:string .
+
+camssa:8dbfa4b6-17e7-4f47-9f3e-ab3551584d76 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 forms part of the broader ETSI Technical Committee Securing Artificial Intelligence (TC SAI) standards portfolio and has gained visibility and recognition across the international AI-security standardisation community. The specification is publicly referenced and catalogued by the AI Standards Hub, which promotes its use and dissemination among standards practitioners, researchers, and policy stakeholders. _x000D_
+Furthermore, the work has received independent recognition from the UK National Cyber Security Centre (NCSC) and the UK Department for Science, Innovation and Technology (DSIT), both of which have publicly highlighted ETSI's AI-security standardisation work and their collaboration with ETSI in developing AI-security standards. The UK Government's AI Cyber Security Code of Practice and its implementation guidance similarly identify ETSI as a key standardisation body for AI security, confirming this ongoing collaboration between government authorities, the NCSC, and ETSI._x000D_
+_x000D_
+Additional evidence of the specification's relevance can be found in the predecessor specification, ETSI GR SAI 001, which is referenced in the ENISA report Cybersecurity of AI and Standardisation. This report analyses standards and standardisation activities that support the cybersecurity and trustworthiness of Artificial Intelligence systems and examines their role in addressing AI-specific risks and supporting the emerging European regulatory framework for AI. Within this context, ETSI GR SAI 001 is identified as part of the European standardisation landscape addressing cybersecurity threats targeting AI systems and threats enabled by AI technologies. The work is also aligned with broader European efforts to analyse and manage AI-related risks, including those reflected in Regulation (EU) 2024/1689 (AI Act)._x000D_
+_x000D_
+In addition, ETSI GR SAI 001 has been referenced in academic research, including the article Challenges and efforts in managing AI trustworthiness risks: a state of knowledge, as an example of ongoing efforts to structure and manage AI trustworthiness and cybersecurity risks. The evolution of ETSI GR SAI 001 into ETSI TS 104 050 further demonstrates the continued development and maturity of this work within the AI-security domain._x000D_
+_x000D_
+Together, this industry, research and government engagement, alongside the specification's presence in recognised AI standards repositories and independent studies, provides evidence of its relevance and recognition within the emerging AI-security standards landscape. While AI-security standardisation remains an evolving field, ETSI TS 104 050 contributes directly to the development of innovative approaches for AI threat modelling, risk analysis and security governance._x000D_
+_x000D_
+AI Standards Hub - SAI AI Threat Ontology:_x000D_
+https://aistandardshub.org/ai-standards/securing-artificial-intelligence-sai-ai-threat-ontology-and-definitions/_x000D_
+_x000D_
+Challenges and efforts in managing AI trustworthiness risks: a state of knowledge" article:_x000D_
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11119750/_x000D_
+_x000D_
+Department for Science, Innovation and Technology (DSIT) - Implementation guide for the AI cyber security code of practice:_x000D_
+https://assets.publishing.service.gov.uk/media/679cae441d14e76535afb630/Implementation_Guide_for_the_AI_Cyber_Security_Code_of_Practice.pdf_x000D_
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf_x000D_
+_x000D_
+Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024  laying down harmonised rules on artificial intelligence:_x000D_
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689_x000D_
+_x000D_
+UK National Cyber Security Centre (NCSC) - New ETSI standard protects AI systems from evolving cyber threats_x000D_
+https://www.ncsc.gov.uk/blog-post/new-etsi-standard-protects-ai-systems-from-evolving-cyber-threats'"""@en ;
+    cav:refersTo camssa:a6b4d144-8462-4623-9c0f-b43d4c961f83 .
+
+camssa:933f2367-0709-4a15-a40b-c5fdca711f91 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:string .
+
+camssa:939a9394-420b-4fe2-b1b0-15d05097ebc6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not enable the-eaccessibility. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:9550ff4f-dbde-4aaa-a458-cc566ed69baf .
+
+camssa:9550ff4f-dbde-4aaa-a458-cc566ed69baf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:string .
+
+camssa:95880aec-6209-44a3-bc23-e47ada8dc32e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100"^^xsd:string .
+
+camssa:958c61cc-ff93-4a11-b365-f1bc70602413 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not enable long-term preservation of data, information or knowledge, as it does not define any provisions, formats or mechanisms for the archiving or long-term retention of electronic records. It is limited to providing a conceptual ontology and terminology for AI-related security threats. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:65493c3d-c2c3-4f77-83d2-17650b93ff93 .
+
+camssa:9605b410-6190-4a94-be59-180422c77d4e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:string .
+
+camssa:967be4c0-f4a8-41be-a421-1cc65500f524 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:string .
+
+camssa:9f84a98e-e94f-4cdb-a612-f682ecb40cc4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:string .
+
+camssa:a35b7795-d5e4-4ab3-958b-7e797ff06172 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a5d27875-1517-4a8d-94f3-8c13b588898e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:string .
+
+camssa:a6b4d144-8462-4623-9c0f-b43d4c961f83 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ac0579e0-e684-408b-8bb4-03305622d27c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ac894921-807f-4693-be36-e20e86c6745c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 addresses threats affecting the processing of data and models, including poisoning attacks, malicious retraining, model compromise, transfer-learning risks, and logic corruption at a conceptual level. It analyses how these threats affect AI decision-making and model behaviour. Nevertheless, as an ontology it does not forsee technical mechanisms to enable secure data processing._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:52226697-9171-44f9-8db9-6e1695fb2e6e .
+
+camssa:aeeb171f-16e9-4156-97ba-014cb44576f7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:string .
+
+camssa:b11a4b81-02cd-4c6c-9b13-b3e4044dbd9a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not encourage the creation of communities along with the sharing of data and results on national or European platforms, as no discussion of the specification was found on general community platforms. It is limited to providing a conceptual ontology and terminology for AI-related security threats. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:f5f61c17-5c4a-4215-bc64-929a66db48e2 .
+
+camssa:b120cc9f-0e52-4ea6-95b3-0410163a8159 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "0"^^xsd:string .
+
+camssa:b19420c6-918c-4308-812f-dc04dcd1f85a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The efficiency of the specification has been assessed through academic research examining governance and policy approaches for addressing AI-related risks. In the study named "The role of ETSI in the EU's regulation and governance of artificial intelligence", ETSI's work on AI-security standardisation is considered within the broader landscape of instruments designed to support trustworthy and secure AI deployment. The study discusses how governance frameworks, standards and risk-management approaches contribute to addressing AI-related challenges and highlights the role of structured methodologies for analysing and mitigating risks. As ETSI TS 104 050 provides a standardised ontology and terminology for AI threats and security analysis, this research offers independent evidence of the efficiency of such standardisation efforts in supporting consistent risk-management and governance practices across organisations and sectors._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf_x000D_
+_x000D_
+"The role of ETSI in the EU's regulation and governance of artificial intelligence" article:_x000D_
+https://www.tandfonline.com/doi/abs/10.1080/13511610.2024.2349627'"""@en ;
+    cav:refersTo camssa:933f2367-0709-4a15-a40b-c5fdca711f91 .
+
+camssa:b58f102c-067c-41d2-93a9-afcc8ce9ae70 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:7fc1e5aa-0286-47d1-b5af-85f67911cc5d .
+
+camssa:b5d7e908-6514-44e5-a89e-05199b81d317 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:9f84a98e-e94f-4cdb-a612-f682ecb40cc4 .
+
+camssa:b7a9b9ea-28b8-4233-b16e-a838020b44ac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100"^^xsd:string .
+
+camssa:b7ef9a64-195b-43d7-b672-28c785ee0120 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 defines a trust model and actor taxonomy, distinguishing data owners, system/model providers, training data providers, consumers, and outsiders, which delineates distinct roles and responsibilities relevant to AI systems. This could usefully inform the drafting of organisational interoperability agreements, such as Memoranda of Understanding or Service Level Agreements, concerning AI-security governance, although the specification does not itself provide agreement templates or a complete set of clauses._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:8a33a528-b05c-4cf5-ac14-a3b9641349c7 .
+
+camssa:ba81d02d-8635-4333-bebb-91fb8d33da69 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a16c678a586cf542d2ae1d6cd8a987bd6ed0b2af52ba0e04d8872fe616a9b7bd ;
+    cav:value "100"^^xsd:string .
+
+camssa:bce012e2-9f8e-46d3-8292-4a9069b67ab2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI’s decision-making process includes a public review, where stakeholders involved can provide technical feedback in order to enhance and maximize the quality and accuracy of the standards.
+
+ETSI standard-making process:
+https://portal.etsi.org/Resources/Standards-Making-Process/Process'"""@en ;
+    cav:refersTo camssa:03b76903-e8d3-4dea-a4d2-9b284c2a35e1 .
+
+camssa:bd9dca56-f467-45aa-83b0-808715ce11ee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is maintained by ETSI Technical Committee SAI (Securing Artificial Intelligence), an active, standing ETSI committee also responsible for the closely related ETSI TR 104 221 (Problem Statement) and ETSI TR 104 222 (Mitigation Strategy Report), evidencing an ongoing, organised community with responsibility for the maintenance and evolution of the SAI document set, of which SAI AI Threat Ontology specification forms part._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf_x000D_
+_x000D_
+SAI Mitigation Strategy Report:_x000D_
+https://www.etsi.org/deliver/etsi_tr/104200_104299/104222/01.02.01_60/tr_104222v010201p.pdf_x000D_
+_x000D_
+SAI Problem Statement:_x000D_
+https://www.etsi.org/deliver/etsi_tr/104200_104299/104221/01.01.01_60/tr_104221v010101p.pdf'"""@en ;
+    cav:refersTo camssa:b120cc9f-0e52-4ea6-95b3-0410163a8159 .
+
+camssa:c12f4780-702f-46af-81b8-6422a7683497 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:string .
+
+camssa:c2d46e0a-ab37-4cfd-a56f-18b1bd67026d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 addresses data integrity, covering threats such as data poisoning, information corruption, manipulation, and model compromise that can affect the integrity of AI systems. It provides a conceptual, ontology-based framework that can support the identification and analysis of these integrity-related risks, but does not define specific technical provisions to enable data integrity._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:8aafbfb9-072d-49cb-9cd8-cbce42d50a32 .
+
+camssa:c65be620-5744-4511-ab12-83a9d2f37243 a cav:Score,
+        owl:NamedIndividual ;
+    cav:value "100%StrengthOfAssessmentScoreAverage"^^xsd:string,
+        "83.33%AssessmentScoreAverage"^^xsd:string .
+
+camssa:cff10b98-2751-4f58-8a22-bab486efcf17 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:82f76841-3769-4773-b816-cabd95917230 .
+
+camssa:d1a7ecba-b408-4bf6-a8a4-f18a17d8c062 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 forms part of the broader ETSI Technical Committee Securing Artificial Intelligence (TC SAI) programme, a European standardisation initiative addressing the security, trustworthiness, confidentiality, and privacy implications of AI systems. The specification explicitly discusses confidentiality breaches, model inversion attacks, and risks involving personal data contained in training datasets. Although not a privacy-specific standard, it contributes to a European-level initiative covering privacy-related and security-related aspects of AI systems._x000D_
+_x000D_
+Additional evidence of its relevance within European initiatives can be found in the predecessor specification, ETSI GR SAI 001, which is referenced in the ENISA report Cybersecurity of AI and Standardisation. The report analyses standards and standardisation activities supporting the cybersecurity and trustworthiness of AI systems and examines how these standards can contribute to addressing AI-related risks within the European regulatory landscape. In this context, ETSI's work on AI threats and security ontologies is identified as part of the evolving European framework for managing risks affecting AI systems._x000D_
+_x000D_
+Furthermore, the objectives addressed by ETSI TS 104 050 are closely aligned with broader European policy and regulatory initiatives, including Regulation (EU) 2024/1689, which recognises the importance of identifying and mitigating risks and attacks affecting AI systems. Both ENISA and ETSI play an active role in the European AI governance ecosystem and have contributed to the analysis of AI-related cybersecurity risks through their respective activities. The evolution from ETSI GR SAI 001 to ETSI TS 104 050 demonstrates the continued development of a European initiative aimed at supporting the secure, trustworthy and privacy-aware deployment of Artificial Intelligence systems through common terminology, threat modelling and risk analysis frameworks._x000D_
+_x000D_
+"Cybersecurity of AI and Standardisation" report:_x000D_
+https://www.enisa.europa.eu/sites/default/files/publications/Cybersecurity%20of%20AI%20and%20Standardisation.pdf_x000D_
+_x000D_
+ETSI GR SAI 001:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf_x000D_
+_x000D_
+Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024  laying down harmonised rules on artificial intelligence:_x000D_
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689_x000D_
+_x000D_
+Securing Artificial Intelligence (SAI):_x000D_
+https://www.etsi.org/technical-groups/sai/'"""@en ;
+    cav:refersTo camssa:ac0579e0-e684-408b-8bb4-03305622d27c .
+
+camssa:d2296757-e8a2-4c21-becf-0b2ab2a54b7a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:string .
+
+camssa:d30feb0a-4598-43ff-ba99-924d92310878 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:string .
+
+camssa:deb95d5d-7a6f-48ee-98da-cc2cc6015378 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 defines AI-security terminology and a threat ontology. It does not scope administrative procedures, rules, data or services of public administrations. Therefore, this criterion is not applicable to the specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:a35b7795-d5e4-4ab3-958b-7e797ff06172 .
+
+camssa:df444055-9cdc-4219-9103-9ce36e67d27c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050  does not address multilingualism, as it is a conceptual ontology and glossary of AI security threat terminology published in English, without provisions for translation, localisation or use across different languages. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:4d02a314-903a-492d-be8c-11b69d38b2ca .
+
+camssa:e6f3c25d-8e49-4045-9a09-bbd0fe213489 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI’s standards-making process has been clearly defined after years of experience. The organisation has adopted the open approach which means direct participation and consensus as a basis to develop standards. All the stakeholders have the opportunity to participate directly in the process of standardisation through the technical committees created to develop ETSI’s technical specifications and standards.
+
+ETSI Standard-making process:
+https://portal.etsi.org/Resources/Standards-Making-Process/Process'"""@en ;
+    cav:refersTo camssa:f34f8112-8927-4fe6-a123-6df396bb2cf3 .
+
+camssa:e7a3dca1-f467-43b4-a4e1-a5a9527a68c6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:string .
+
+camssa:e82b5109-e875-4ae4-b5b0-8cfa1008befa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ETSI TS 104 050 defines a generic ontology of AI threats, threat agents and countermeasures that is not tied to any single business sector, and is intended to align AI-security terminology across different stakeholders and industries. This domain-agnosticism, however, should be understood as applying only within the space of domains where artificial intelligence is applied or configured: the ontology models AI-related threat agents and countermeasures as specialisations of generic security concepts, and is therefore reusable across any sector that deploys or is exposed to AI-enabled systems (e.g. healthcare, finance, transport), but it does not extend to domains, systems or threats unrelated to AI. The specification's reusability is thus bounded by the presence of AI within a given business context, rather than being universal across all possible domains regardless of their reliance on AI._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf\""""@en ;
+    cav:refersTo camssa:25aa501e-b3d0-4380-9894-9ae267e8da77 .
+
+camssa:eb6eff3a-67f4-4219-98ae-926669a59747 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI is a European standards development organisation, and as such, all the specifications developed within the organisation are available and can be accessed through its website repository.
+
+ETSI standards repository:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20319%20422&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&withdrawn=1&historical=1&isCurrent=1&superseded=1&startDate=1988-01-15&endDate=2022-07-25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:1e3b6dcc-5bc6-4fef-b18e-d61931d360e9 .
+
+camssa:ec2e2d23-6386-4ab2-b8ce-972cf13191c7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:string .
+
+camssa:ef51b023-7912-4d74-a68f-f714cd0a5071 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The effectiveness of the ETSI TS 104 050 specification has been assessed in the academic literature through studies analysing approaches for managing AI trustworthiness risks. In the article "Challenges and efforts in managing AI trustworthiness risks: a state of knowledge", ETSI GR SAI 001 V1.1.1, the Group Report that preceded the publication of ETSI TS 104 050, is referenced as part of the body of standards and frameworks addressing AI-security threats and trustworthiness risks. The study reviews existing initiatives supporting the identification, classification and management of AI-related risks, and cites ETSI GR SAI 001 as a relevant contribution to the development of structured approaches for AI threat analysis and governance. This provides independent evidence of the effectiveness of the specification's underlying concepts in supporting AI trustworthiness and security risk management._x000D_
+_x000D_
+"Cybersecurity of AI and Standardisation" report:_x000D_
+https://www.enisa.europa.eu/sites/default/files/publications/Cybersecurity%20of%20AI%20and%20Standardisation.pdf_x000D_
+_x000D_
+ETSI GR SAI 001 specification:_x000D_
+https://www.etsi.org/deliver/etsi_gr/SAI/001_099/001/01.01.01_60/gr_SAI001v010101p.pdf_x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:d2296757-e8a2-4c21-becf-0b2ab2a54b7a .
+
+camssa:ef609370-1e61-4f4d-89ff-6a4660dc2775 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI TS 104 050 specification does not allow relevant information to be reused when needed. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:a5d27875-1517-4a8d-94f3-8c13b588898e .
+
+camssa:f1c4d812-8845-4f47-9ec6-4b8f90ef3d97 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 addresses data accuracy, covering threats such as data poisoning and the introduction of bias that can prevent an AI system from reaching correct outputs. It provides a conceptual, ontology-based framework that can support the identification and analysis of these accuracy-related risks, but does not define specific technical provisions to enable data accuracy._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:58ca9854-7777-44ec-a5fc-e47b16354247 .
+
+camssa:f24ab8e1-a870-49a4-8f2a-2f037103783a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 104 050 specification does not enable digital service delivery channels, as it does not define any API, protocol or other technical mechanism for delivering digital public services. It is limited to providing a conceptual ontology and terminology for AI-related security threats. Therefore, this criterion is not related to this specification._x000D_
+_x000D_
+ETSI TS 104 050 specification:_x000D_
+https://www.etsi.org/deliver/etsi_ts/104000_104099/104050/01.01.01_60/ts_104050v010101p.pdf'"""@en ;
+    cav:refersTo camssa:6d2da9c5-ee5c-48fd-bd2e-4e2e635c73e8 .
+
+camssa:f34f8112-8927-4fe6-a123-6df396bb2cf3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "60"^^xsd:string .
+
+camssa:f5f61c17-5c4a-4215-bc64-929a66db48e2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100"^^xsd:string .
+
+camssa:fc9d96a9-0ba0-4974-8cbf-0d3b83d72087 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:string .
 
