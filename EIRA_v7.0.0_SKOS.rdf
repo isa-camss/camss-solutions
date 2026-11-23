@@ -6999,7 +6999,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>Interoperability Privacy viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/E-ArchivingApplicationComponent</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/PrivacyApplicationComponent">
 		<skos:notation><![CDATA[Privacy]]></skos:notation>
@@ -7218,7 +7217,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>Interoperability Privacy viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/MetadataManagementApplicationComponent</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/IdentificationApplicationComponent">
 		<skos:notation><![CDATA[Identification]]></skos:notation>
@@ -8381,7 +8379,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>Interoperability Privacy viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/DataQualityApplicationComponent</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/APICatalogueApplicationComponent">
 		<skos:notation><![CDATA[API Catalogue]]></skos:notation>
@@ -8553,7 +8550,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>Interoperability Privacy viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/DataManagementApplicationComponent</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/DataAnalyticsApplicationComponent">
 		<skos:notation><![CDATA[Data Analytics]]></skos:notation>
@@ -10002,7 +9998,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>REST API viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/DataManagementApplicationService</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/DataExtractionTransformationAndLoadingApplicationService">
 		<skos:notation><![CDATA[Data Extraction, Transformation and Loading]]></skos:notation>
@@ -10304,7 +10299,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>REST API viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/E-ArchivingApplicationService</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/IntegrityVerificationApplicationService">
 		<skos:notation><![CDATA[Integrity Verification]]></skos:notation>
@@ -10365,7 +10359,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>Interoperability Security viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/IntegrityVerificationApplicationService</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/DataSpaceApplicationService">
 		<skos:notation><![CDATA[Data Space]]></skos:notation>
@@ -10552,7 +10545,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>Interoperability Security viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/E-TimestampCreationApplicationService</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/AuthenticationApplicationService">
 		<skos:notation><![CDATA[Authentication]]></skos:notation>
@@ -10737,7 +10729,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>Interoperability Privacy viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/MetadataManagementApplicationService</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/DataIntegrationApplicationService">
 		<skos:notation><![CDATA[Data Integration]]></skos:notation>
@@ -10970,7 +10961,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>Interoperability Privacy viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/DataQualityApplicationService</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/AccountingApplicationService">
 		<skos:notation><![CDATA[Accounting]]></skos:notation>
@@ -12144,7 +12134,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>Interoperability Privacy viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/DataPublicationApplicationService</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/BlockchainApplicationService">
 		<skos:notation><![CDATA[Blockchain]]></skos:notation>
@@ -12269,7 +12258,6 @@ EIF Layer: TechnicalApplication
 		<eira:viewpoint>Interoperability Security viewpoint</eira:viewpoint>
 		<dcterms:identifier>http://data.europa.eu/dr8/AccessManagementApplicationService</dcterms:identifier>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/KnowledgeDiscoveryApplicationService">
 		<skos:notation><![CDATA[Knowledge Discovery]]></skos:notation>
@@ -12881,7 +12869,7 @@ Additional identifier: http://data.europa.eu/dr8/DigitalIdentityWalletServiceApp
 		<eira:PURI>http://data.europa.eu/dr8/DigitalIdentityWalletServiceApplicationService</eira:PURI>
 		<dcterms:type>eira:DigitalIdentityWalletServiceApplicationService</dcterms:type>
 		<dcterms:modified>2026-02-04</dcterms:modified>
-		<eira:synonym>Credential Storage & Presentation Service , Holder Service</eira:synonym>
+		<eira:synonym>Credential Storage &amp; Presentation Service , Holder Service</eira:synonym>
 		<skos:definition><![CDATA[Digital Identity Wallet Service ABB is a Application Service that enables a user to store, manage, and present Verifiable Credentials and identity attributes.]]></skos:definition>
 		<eira:definitionSource><![CDATA[W3C Verifiable Presentations and standard SSI wallet usage patterns.]]></eira:definitionSource>
 		<skos:example><![CDATA[Presenting a 'Proof of Age' from the wallet to a service provider using a verifiable presentation.]]></skos:example>
@@ -12891,7 +12879,6 @@ Additional identifier: http://data.europa.eu/dr8/DigitalIdentityWalletServiceApp
 		<eira:iopDimension>Structural IoP</eira:iopDimension>
 		<eira:view>Technical view - application</eira:view>
 		<eira:eifLayer>TechnicalApplication</eira:eifLayer>
-		<></>
 		<dcterms:identifier>http://data.europa.eu/dr8/DigitalIdentityWalletServiceApplicationService</dcterms:identifier>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/RegisteredElectronicDeliveryApplicationService">
@@ -17411,7 +17398,6 @@ EIF Layer: TechnicalInfrastructure
 		<skos:definition><![CDATA[Health & Availability Monitoring ABB is a Technology service that evaluates runtime health and availability of infrastructure and platform components through checks and health indicators.]]></skos:definition>
 		<eira:definitionSource><![CDATA[Industry practice (monitoring )]]></eira:definitionSource>
 		<eira:definitionSourceReference><![CDATA[]]></eira:definitionSourceReference>
-		<></>
 		<eira:iopSaliency><![CDATA[Enables consistent reliability assessment across Member States and hosting models, supporting shared operational governance.]]></eira:iopSaliency>
 		<skos:note><![CDATA[]]></skos:note>
 		<eira:concept>eira:ArchitectureBuildingBlock</eira:concept>
@@ -21657,10 +21643,9 @@ Structural IoP: Structural IoP
 		<skos:example><![CDATA[Triggering an alert when error rate exceeds a threshold and notifying the on-call team .]]></skos:example>
 		<eira:iopSaliency><![CDATA[Supports interoperable operations by standardising how incidents are detected and communicated across organisations.]]></eira:iopSaliency>
 		<eira:concept>eira:ArchitectureBuildingBlock</eira:concept>
-		<eira:iopDimension>eira:ArchitectureBuildingBlock</eira:iopDimension>
+		<eira:iopDimension>Structural IoP</eira:iopDimension>
 		<dcterms:identifier>http://data.europa.eu/dr8/AlertingNotificationServiceTechnologyService</dcterms:identifier>
 		<eira:eifLayer>TechnicalInfrastructure</eira:eifLayer>
-		<Structural IoP>Structural IoP</Structural IoP>
 		<eira:view>Technical view - infrastructure</eira:view>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://data.europa.eu/dr8/BlockStorageTechnologyService">
